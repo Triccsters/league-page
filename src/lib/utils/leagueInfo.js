@@ -7,7 +7,6 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-export const homepageText = `
 <p>Welcome to the FL Players league.</p>
 <p>This page auto-updates every week with live standings, trades, and transactions from Sleeper.</p>
 `;
