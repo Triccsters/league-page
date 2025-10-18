@@ -11,7 +11,6 @@ export const homepageText = `
 <p>Welcome to the FL Players league.</p>
 <p>This page auto-updates every week with live standings, trades, and transactions from Sleeper.</p>
 `;
-   ;
 
 /*   STEP 3   */
 /*
