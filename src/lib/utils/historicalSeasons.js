@@ -72,6 +72,16 @@ export const historicalSeasons = [
         championship_score: { winner: 64.70, loser: 60.08 },
         notes: "Lowest-scoring final in league history (64.70 – 60.08). Scott's Team won despite being the underdog. T.J. finished 10th with can I geta witteness (7-6-0).",
     },
+    {
+        season: '2014',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: 'Colt', team: 'The Patriot Act' },
+        runner_up: { manager: 'T.J.', team: "T.J.R's Team" },
+        third_place: { manager: '—', team: 'White Lighting' },
+        championship_score: { winner: 107.68, loser: 90.12 },
+        notes: "T.J.'s first championship appearance — lost the final to Colt's The Patriot Act. Patriot Act dominated regular season at 10-3-0.",
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2014.
+    // Yahoo seasons to backfill: 2009–2013.
 ];
