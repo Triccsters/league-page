@@ -1,13 +1,5 @@
 import {leagueID} from '$lib/utils/leagueInfo';
-
-let historicalSeasons = [];
-try {
-    // optional file — only present if league has pre-Sleeper history
-    const mod = await import('$lib/utils/historicalSeasons');
-    historicalSeasons = mod.historicalSeasons || [];
-} catch (e) {
-    historicalSeasons = [];
-}
+import {historicalSeasons} from '$lib/utils/historicalSeasons';
 
 const API = (path) => `https://api.sleeper.app/v1${path}`;
 
