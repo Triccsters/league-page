@@ -52,6 +52,16 @@ export const tabs = [
                 dest: '/standings',
             },
             {
+                icon: 'shuffle',
+                label: 'All-Play',
+                dest: '/all-play',
+            },
+            {
+                icon: 'tune',
+                label: 'Lineup Efficiency',
+                dest: '/efficiency',
+            },
+            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',
