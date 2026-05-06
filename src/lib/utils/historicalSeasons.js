@@ -62,6 +62,16 @@ export const historicalSeasons = [
         championship_score: { winner: 129.76, loser: 111.58 },
         notes: 'Austin\'s first title (won again in 2018 as Mean Machine). $100 and done finished regular season 11-2-0 but lost the final. T.J. finished 11th with The Absolute Madman (5-8-0).',
     },
+    {
+        season: '2015',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: 'Scott', team: "Scott's Team" },
+        runner_up: { manager: '—', team: "The James Starks's" },
+        third_place: { manager: '—', team: 'Iowa super troopers' },
+        championship_score: { winner: 64.70, loser: 60.08 },
+        notes: "Lowest-scoring final in league history (64.70 – 60.08). Scott's Team won despite being the underdog. T.J. finished 10th with can I geta witteness (7-6-0).",
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2015.
+    // Yahoo seasons to backfill: 2009–2014.
 ];
