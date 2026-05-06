@@ -102,6 +102,26 @@ export const historicalSeasons = [
         championship_score: { winner: 107, loser: 88 },
         notes: "Austin's first title (would go on to also win 2016 and 2018, becoming the league's most-decorated manager). One dimension entered playoffs as the 1 seed at 10-3-0 and never trailed. T.J. finished 11th with TJ Rizzle Fresh (5-7-1). The team named '2012 champ' actually existed in 2012 standings — went 7-6-0 and lost in QF, ironically.",
     },
+    {
+        season: '2011',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: '—', team: '— TBD —' },
+        runner_up: { manager: '—', team: '— TBD —' },
+        third_place: { manager: '—', team: '— TBD —' },
+        championship_score: null,
+        notes: "T.J. was in U.S. Army basic training during the 2011 season — data needs to come from another league member. Placeholder until then.",
+    },
+    {
+        season: '2010',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: '(hidden)', team: 'Broncos' },
+        runner_up: { manager: '(hidden)', team: 'Vikings=SUPER BOWL' },
+        third_place: { manager: '(hidden)', team: 'SENSATIONS' },
+        championship_score: { winner: 87, loser: 68 },
+        notes: "Manager names are hidden on this old season per Yahoo's privacy settings. Broncos won as the 1 seed at 8-5-0. T.J. finished 4th with RazzleDazzle (7-6-0).",
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2011.
+    // Yahoo seasons to backfill: 2009 (and reach out to league members for 2011).
 ];
