@@ -82,6 +82,16 @@ export const historicalSeasons = [
         championship_score: { winner: 107.68, loser: 90.12 },
         notes: "T.J.'s first championship appearance — lost the final to Colt's The Patriot Act. Patriot Act dominated regular season at 10-3-0.",
     },
+    {
+        season: '2013',
+        platform: 'yahoo',
+        league_name: 'FL players',
+        champion: { manager: 'Brett', team: 'Poppa pump' },
+        runner_up: { manager: '—', team: 'CJ SPILLERS' },
+        third_place: { manager: '—', team: 'J Rocks Dawgs' },
+        championship_score: { winner: 107.44, loser: 70.84 },
+        notes: "Cinderella run — Poppa pump entered the playoffs as the 6 seed (7-6-0) and beat the 2 seed CJ SPILLERS in a 36-point blowout final. T.J. finished 4th with Aaron Hernancuffs (9-4-0). League standings included a team literally named '2012 champ' (5th place).",
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2013.
+    // Yahoo seasons to backfill: 2009–2012.
 ];
