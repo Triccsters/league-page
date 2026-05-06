@@ -42,6 +42,16 @@ export const historicalSeasons = [
         championship_score: { winner: 143.96, loser: 123.08 },
         notes: 'The Disappointments dominated regular season at 11-2-0 but Mean Machine won the title via the playoff bracket. T.J. finished 7th with Kareem Punt going 5-8-0.',
     },
+    {
+        season: '2017',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: 'LordPmp', team: 'Jaywatch' },
+        runner_up: { manager: '—', team: 'The Replacements' },
+        third_place: { manager: '—', team: 'Savage AF' },
+        championship_score: { winner: 108.12, loser: 90.24 },
+        notes: 'LordPmp\'s first title (later won again in 2019 as Quadfather). Jaywatch finished regular season 11-2-0. T.J. finished 12th with Mr. Brightside (3-10-0).',
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2017.
+    // Yahoo seasons to backfill: 2009–2016.
 ];
