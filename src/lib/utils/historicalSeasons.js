@@ -32,6 +32,16 @@ export const historicalSeasons = [
         championship_score: { winner: 147.76, loser: 119.12 },
         notes: 'Fresh Cakes finished regular season 12-1-0 but lost the semifinal to Kareem Punt.',
     },
+    {
+        season: '2018',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: 'Austin', team: 'Mean Machine' },
+        runner_up: { manager: '—', team: 'Trust Issues' },
+        third_place: { manager: '—', team: 'The Disappointments' },
+        championship_score: { winner: 143.96, loser: 123.08 },
+        notes: 'The Disappointments dominated regular season at 11-2-0 but Mean Machine won the title via the playoff bracket. T.J. finished 7th with Kareem Punt going 5-8-0.',
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2018.
+    // Yahoo seasons to backfill: 2009–2017.
 ];
