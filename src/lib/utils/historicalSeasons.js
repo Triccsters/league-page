@@ -52,6 +52,16 @@ export const historicalSeasons = [
         championship_score: { winner: 108.12, loser: 90.24 },
         notes: 'LordPmp\'s first title (later won again in 2019 as Quadfather). Jaywatch finished regular season 11-2-0. T.J. finished 12th with Mr. Brightside (3-10-0).',
     },
+    {
+        season: '2016',
+        platform: 'yahoo',
+        league_name: 'FL Players',
+        champion: { manager: 'Austin', team: 'Cooking with Julian' },
+        runner_up: { manager: '—', team: '$100 and done' },
+        third_place: { manager: '—', team: 'InstaGraham' },
+        championship_score: { winner: 129.76, loser: 111.58 },
+        notes: 'Austin\'s first title (won again in 2018 as Mean Machine). $100 and done finished regular season 11-2-0 but lost the final. T.J. finished 11th with The Absolute Madman (5-8-0).',
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2016.
+    // Yahoo seasons to backfill: 2009–2015.
 ];
