@@ -107,6 +107,7 @@
                 <thead>
                     <tr>
                         <th>Season</th>
+                        <th>Platform</th>
                         <th>Champion</th>
                         <th>Team</th>
                         <th>Runner-up</th>
@@ -116,6 +117,7 @@
                     {#each d.champions as c}
                         <tr>
                             <td><strong>{c.season}</strong></td>
+                            <td>{c.platform === 'yahoo' ? '🟣 Yahoo' : c.platform === 'sleeper' ? '🟠 Sleeper' : c.platform}</td>
                             <td class="ringspot">🥇 {c.champion}</td>
                             <td>{c.champion_team}</td>
                             <td>{c.runner_up}</td>

@@ -1,5 +1,14 @@
 import {leagueID} from '$lib/utils/leagueInfo';
 
+let historicalSeasons = [];
+try {
+    // optional file — only present if league has pre-Sleeper history
+    const mod = await import('$lib/utils/historicalSeasons');
+    historicalSeasons = mod.historicalSeasons || [];
+} catch (e) {
+    historicalSeasons = [];
+}
+
 const API = (path) => `https://api.sleeper.app/v1${path}`;
 
 const fetchJSON = async (url) => {
@@ -206,11 +215,31 @@ export const getAllTimeStats = async () => {
         .sort((a, b) => b.pts - a.pts)
         .slice(0, 5);
 
+    // Merge in any manually-curated historical (pre-Sleeper) seasons.
+    const historicalChampions = historicalSeasons.map(s => ({
+        season: String(s.season),
+        league_name: s.league_name || seasons[seasons.length - 1].league.name,
+        champion: s.champion?.manager || s.champion?.team || '—',
+        champion_team: s.champion?.team || '—',
+        runner_up: s.runner_up?.manager || s.runner_up?.team || '—',
+        platform: s.platform || 'historical',
+        notes: s.notes || '',
+    }));
+
+    const sleeperChampions = champions.map(c => ({ ...c, platform: 'sleeper' }));
+    const allChampions = [...sleeperChampions, ...historicalChampions]
+        .sort((a, b) => Number(b.season) - Number(a.season));
+
+    const allSeasonNumbers = allChampions.map(c => Number(c.season)).filter(n => !isNaN(n));
+    const seasonRange = allSeasonNumbers.length
+        ? `${Math.min(...allSeasonNumbers)}–${Math.max(...allSeasonNumbers)}`
+        : `${seasons[0].league.season}–${seasons[seasons.length - 1].league.season}`;
+
     return {
-        seasons_count: seasons.length,
-        season_range: `${seasons[0].league.season}–${seasons[seasons.length - 1].league.season}`,
+        seasons_count: seasons.length + historicalSeasons.length,
+        season_range: seasonRange,
         league_name_current: seasons[seasons.length - 1].league.name,
-        champions,
+        champions: allChampions,
         manager_rows: managerRows,
         biggest_blowouts: biggestBlowouts,
         closest_games: closestGames,
