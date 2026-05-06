@@ -92,6 +92,16 @@ export const historicalSeasons = [
         championship_score: { winner: 107.44, loser: 70.84 },
         notes: "Cinderella run — Poppa pump entered the playoffs as the 6 seed (7-6-0) and beat the 2 seed CJ SPILLERS in a 36-point blowout final. T.J. finished 4th with Aaron Hernancuffs (9-4-0). League standings included a team literally named '2012 champ' (5th place).",
     },
+    {
+        season: '2012',
+        platform: 'yahoo',
+        league_name: 'FL players',
+        champion: { manager: 'Austin', team: 'One dimension' },
+        runner_up: { manager: '—', team: 'R. Corn on the Cobbs' },
+        third_place: { manager: '—', team: 'Pappas Crew' },
+        championship_score: { winner: 107, loser: 88 },
+        notes: "Austin's first title (would go on to also win 2016 and 2018, becoming the league's most-decorated manager). One dimension entered playoffs as the 1 seed at 10-3-0 and never trailed. T.J. finished 11th with TJ Rizzle Fresh (5-7-1). The team named '2012 champ' actually existed in 2012 standings — went 7-6-0 and lost in QF, ironically.",
+    },
     // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009–2012.
+    // Yahoo seasons to backfill: 2009–2011.
 ];
