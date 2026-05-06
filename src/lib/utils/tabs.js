@@ -62,6 +62,11 @@ export const tabs = [
                 dest: '/efficiency',
             },
             {
+                icon: 'auto_stories',
+                label: 'All-Time Stats',
+                dest: '/all-time',
+            },
+            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',
