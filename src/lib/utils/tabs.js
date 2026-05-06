@@ -67,6 +67,16 @@ export const tabs = [
                 dest: '/all-time',
             },
             {
+                icon: 'menu_book',
+                label: 'Record Book',
+                dest: '/record-book',
+            },
+            {
+                icon: 'person',
+                label: "T.J.'s Career",
+                dest: '/career-tj',
+            },
+            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',

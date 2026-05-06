@@ -235,14 +235,92 @@ export const getAllTimeStats = async () => {
         ? `${Math.min(...allSeasonNumbers)}–${Math.max(...allSeasonNumbers)}`
         : `${seasons[0].league.season}–${seasons[seasons.length - 1].league.season}`;
 
+    // Aggregate Yahoo-era manager stats by canonical manager name.
+    const yahooMgr = {};
+    const ensureYM = (name) => {
+        if (!yahooMgr[name]) {
+            yahooMgr[name] = {
+                manager: name,
+                seasons_played: 0,
+                wins: 0, losses: 0, ties: 0,
+                points_for: 0, points_against: 0,
+                championships: 0, runner_ups: 0, third_places: 0,
+                team_names: new Set(),
+            };
+        }
+        return yahooMgr[name];
+    };
+    for (const s of historicalSeasons) {
+        const champMgr = s.champion?.manager;
+        const ruMgr = s.runner_up?.manager;
+        const thirdMgr = s.third_place?.manager;
+        if (champMgr && champMgr !== '—' && champMgr !== '(hidden)') {
+            ensureYM(champMgr).championships += 1;
+            ensureYM(champMgr).team_names.add(s.champion.team);
+        }
+        if (ruMgr && ruMgr !== '—' && ruMgr !== '(hidden)') ensureYM(ruMgr).runner_ups += 1;
+        if (thirdMgr && thirdMgr !== '—' && thirdMgr !== '(hidden)') ensureYM(thirdMgr).third_places += 1;
+        for (const row of (s.final_standings || [])) {
+            const m = row.manager;
+            if (!m || m === '—' || m === '(hidden)') continue;
+            const ym = ensureYM(m);
+            ym.seasons_played += 1;
+            ym.wins += row.wins || 0;
+            ym.losses += row.losses || 0;
+            ym.ties += row.ties || 0;
+            ym.points_for += row.points_for || 0;
+            ym.points_against += row.points_against || 0;
+            if (row.team) ym.team_names.add(row.team);
+        }
+    }
+    const yahooMgrRows = Object.values(yahooMgr).map(m => {
+        const games = m.wins + m.losses + m.ties;
+        return {
+            manager: m.manager,
+            seasons_played: m.seasons_played,
+            wins: m.wins, losses: m.losses, ties: m.ties,
+            win_pct: games ? Number(((m.wins + 0.5 * m.ties) / games).toFixed(4)) : 0,
+            points_for: Number(m.points_for.toFixed(2)),
+            points_against: Number(m.points_against.toFixed(2)),
+            championships: m.championships,
+            runner_ups: m.runner_ups,
+            third_places: m.third_places,
+            team_names: [...m.team_names].slice(0, 4).join(' / '),
+        };
+    });
+    yahooMgrRows.sort((a, b) => b.championships - a.championships || b.win_pct - a.win_pct);
+    yahooMgrRows.forEach((r, i) => r.rank = i + 1);
+
+    // T.J.'s career arc (across both eras), pulled from Sleeper "triccster" + Yahoo "T.J."
+    const tjFromSleeper = managerRows.find(m => /trick|t\.?j\.?|triccster/i.test(m.manager));
+    const tjFromYahoo = historicalSeasons
+        .filter(s => (s.final_standings || []).some(r => r.manager === 'T.J.') || s.runner_up?.manager === 'T.J.')
+        .map(s => {
+            const row = (s.final_standings || []).find(r => r.manager === 'T.J.');
+            const isRunnerUp = s.runner_up?.manager === 'T.J.';
+            return {
+                season: s.season,
+                team: row?.team || s.runner_up?.team || '—',
+                rank: row?.rank,
+                wins: row?.wins,
+                losses: row?.losses,
+                ties: row?.ties,
+                finished: isRunnerUp ? 'Runner-up' : (row?.rank ? `${row.rank}` : '—'),
+                platform: 'yahoo',
+            };
+        }).sort((a, b) => Number(b.season) - Number(a.season));
+
     return {
         seasons_count: seasons.length + historicalSeasons.length,
         season_range: seasonRange,
         league_name_current: seasons[seasons.length - 1].league.name,
         champions: allChampions,
         manager_rows: managerRows,
+        yahoo_manager_rows: yahooMgrRows,
         biggest_blowouts: biggestBlowouts,
         closest_games: closestGames,
         highest_scores: highestScores,
+        tj_career_yahoo: tjFromYahoo,
+        tj_career_sleeper: tjFromSleeper,
     };
 };

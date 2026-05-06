@@ -126,7 +126,42 @@
                 </tbody>
             </table>
 
-            <h2>📊 All-time manager standings</h2>
+            <h2>🟣 Yahoo era — manager standings (2010–2020)</h2>
+            <p class="sub" style="text-align:left">Aggregated across the Yahoo seasons we've captured (2010, 2012–2020). 2011 missing (T.J. in basic training).</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="rank">#</th>
+                        <th>Manager</th>
+                        <th class="num">Seasons</th>
+                        <th class="num">W-L-T</th>
+                        <th class="num">Win %</th>
+                        <th class="num">Points For</th>
+                        <th class="num">🏆</th>
+                        <th class="num">2nd</th>
+                        <th class="num">3rd</th>
+                        <th>Team aliases</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {#each d.yahoo_manager_rows as m}
+                        <tr class:top1={m.rank === 1}>
+                            <td class="rank">{m.rank}</td>
+                            <td>{m.manager}</td>
+                            <td class="num">{m.seasons_played}</td>
+                            <td class="num">{m.wins}-{m.losses}{m.ties ? `-${m.ties}` : ''}</td>
+                            <td class="num">{(m.win_pct * 100).toFixed(1)}%</td>
+                            <td class="num">{m.points_for.toFixed(0)}</td>
+                            <td class="num">{m.championships}</td>
+                            <td class="num">{m.runner_ups}</td>
+                            <td class="num">{m.third_places || 0}</td>
+                            <td style="font-size:0.85em">{m.team_names || '—'}</td>
+                        </tr>
+                    {/each}
+                </tbody>
+            </table>
+
+            <h2>📊 Sleeper era — manager standings</h2>
             <table>
                 <thead>
                     <tr>

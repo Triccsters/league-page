@@ -1,14 +1,12 @@
 /**
  * historicalSeasons.js — manually-curated league history from before the
  * Sleeper era (Yahoo seasons). The /all-time page merges these into the
- * Champions by Season table.
+ * Champions by Season table and aggregates per-manager career stats.
  *
- * Sources: Yahoo Fantasy "Standings → Playoffs" page per season + Record Book.
- * Add a new entry for each season and the page will pick it up on next deploy.
+ * Sources: Yahoo Fantasy "Standings → Playoffs / Final Standings" pages per season.
  *
- * `manager` should match the Sleeper display_name where possible so lifetime
- * W-L cross-platform aggregation works in a future iteration. For now the
- * Champions table is the primary use.
+ * `manager` should be the canonical short name (e.g. "Austin", "LordPmp") so
+ * lifetime aggregation works across team-name changes within the same person.
  */
 
 export const historicalSeasons = [
@@ -21,6 +19,8 @@ export const historicalSeasons = [
         third_place: { manager: 'LordPmp', team: 'Christian Mingle' },
         championship_score: { winner: 123.46, loser: 119.70 },
         notes: 'Waller Walkers def. Kareem Punt in the final.',
+        // Final regular-season standings (W-L-T) — incomplete for 2020 (data not yet captured)
+        final_standings: [],
     },
     {
         season: '2019',
@@ -31,6 +31,20 @@ export const historicalSeasons = [
         third_place: { manager: 'Joey', team: 'Fresh Cakes' },
         championship_score: { winner: 147.76, loser: 119.12 },
         notes: 'Fresh Cakes finished regular season 12-1-0 but lost the semifinal to Kareem Punt.',
+        final_standings: [
+            { rank: 1, team: 'Quadfather', manager: 'LordPmp', wins: 9, losses: 4, ties: 0, points_for: 1430.72, points_against: 1045.78 },
+            { rank: 2, team: 'Kareem Punt', manager: 'T.J.', wins: 8, losses: 5, ties: 0, points_for: 1315.32, points_against: 1323.68 },
+            { rank: 3, team: 'Fresh Cakes', manager: 'Joey', wins: 12, losses: 1, ties: 0, points_for: 1553.04, points_against: 1199.86 },
+            { rank: 4, team: 'Baby Got Dak', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1296.42, points_against: 1092.06 },
+            { rank: 5, team: 'Macho Men', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1542.12, points_against: 1413.18 },
+            { rank: 6, team: 'The Chowbox', manager: '—', wins: 9, losses: 4, ties: 0, points_for: 1402.00, points_against: 1236.44 },
+            { rank: 7, team: 'Dead bloomers', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1368.54, points_against: 1468.98 },
+            { rank: 8, team: 'What The Buck', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1392.14, points_against: 1409.62 },
+            { rank: 9, team: 'Just Sad', manager: '—', wins: 3, losses: 10, ties: 0, points_for: 1271.08, points_against: 1524.62 },
+            { rank: 10, team: 'Ramen noodles', manager: '—', wins: 3, losses: 10, ties: 0, points_for: 1261.24, points_against: 1604.92 },
+            { rank: 11, team: 'Lizard King', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1229.50, points_against: 1417.50 },
+            { rank: 12, team: 'I Fart Dutch RUDDER', manager: '—', wins: 5, losses: 8, ties: 0, points_for: 1206.54, points_against: 1366.78 },
+        ],
     },
     {
         season: '2018',
@@ -41,6 +55,20 @@ export const historicalSeasons = [
         third_place: { manager: '—', team: 'The Disappointments' },
         championship_score: { winner: 143.96, loser: 123.08 },
         notes: 'The Disappointments dominated regular season at 11-2-0 but Mean Machine won the title via the playoff bracket. T.J. finished 7th with Kareem Punt going 5-8-0.',
+        final_standings: [
+            { rank: 1, team: 'Mean Machine', manager: 'Austin', wins: 8, losses: 5, ties: 0, points_for: 1635.00, points_against: 1544.48 },
+            { rank: 2, team: 'Trust Issues', manager: '—', wins: 9, losses: 4, ties: 0, points_for: 1486.28, points_against: 1408.72 },
+            { rank: 3, team: 'The Disappointments', manager: '—', wins: 11, losses: 2, ties: 0, points_for: 1691.68, points_against: 1310.38 },
+            { rank: 4, team: 'What The Buck', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1455.76, points_against: 1346.46 },
+            { rank: 5, team: 'Coo Coo Kachooo!!!', manager: '—', wins: 9, losses: 4, ties: 0, points_for: 1478.92, points_against: 1408.30 },
+            { rank: 6, team: 'Fresh Cakes', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1528.44, points_against: 1478.52 },
+            { rank: 7, team: 'Kareem Punt', manager: 'T.J.', wins: 5, losses: 8, ties: 0, points_for: 1445.60, points_against: 1365.94 },
+            { rank: 8, team: 'Chum Bucket', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1501.08, points_against: 1470.28 },
+            { rank: 9, team: 'Rock the boat', manager: '—', wins: 5, losses: 8, ties: 0, points_for: 1299.40, points_against: 1469.62 },
+            { rank: 10, team: 'OBJYN', manager: '—', wins: 5, losses: 8, ties: 0, points_for: 1223.18, points_against: 1444.44 },
+            { rank: 11, team: 'Dutch Van Der Linde', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1376.26, points_against: 1484.80 },
+            { rank: 12, team: 'The Chowbox', manager: '—', wins: 2, losses: 11, ties: 0, points_for: 1257.20, points_against: 1455.12 },
+        ],
     },
     {
         season: '2017',
@@ -51,6 +79,20 @@ export const historicalSeasons = [
         third_place: { manager: '—', team: 'Savage AF' },
         championship_score: { winner: 108.12, loser: 90.24 },
         notes: 'LordPmp\'s first title (later won again in 2019 as Quadfather). Jaywatch finished regular season 11-2-0. T.J. finished 12th with Mr. Brightside (3-10-0).',
+        final_standings: [
+            { rank: 1, team: 'Jaywatch', manager: 'LordPmp', wins: 11, losses: 2, ties: 0, points_for: 1430.72, points_against: 1045.78 },
+            { rank: 2, team: 'The Replacements', manager: '—', wins: 9, losses: 4, ties: 0, points_for: 1325.64, points_against: 1198.74 },
+            { rank: 3, team: 'Savage AF', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1204.94, points_against: 1133.64 },
+            { rank: 4, team: 'White-Balled', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1216.44, points_against: 1222.70 },
+            { rank: 5, team: 'Cool Runnings', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1223.74, points_against: 1206.74 },
+            { rank: 6, team: 'La Cabra', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1148.72, points_against: 1189.36 },
+            { rank: 7, team: "Scott's Team", manager: 'Scott', wins: 4, losses: 9, ties: 0, points_for: 1039.58, points_against: 1127.16 },
+            { rank: 8, team: 'The Chowbox', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1156.56, points_against: 1133.60 },
+            { rank: 9, team: 'Light it up', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1126.72, points_against: 1098.30 },
+            { rank: 10, team: 'Call Me Brady', manager: '—', wins: 3, losses: 10, ties: 0, points_for: 1099.82, points_against: 1185.84 },
+            { rank: 11, team: 'Younghoe Kick Squad', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 993.54, points_against: 1184.80 },
+            { rank: 12, team: 'Mr. Brightside', manager: 'T.J.', wins: 3, losses: 10, ties: 0, points_for: 955.56, points_against: 1195.62 },
+        ],
     },
     {
         season: '2016',
@@ -60,7 +102,21 @@ export const historicalSeasons = [
         runner_up: { manager: '—', team: '$100 and done' },
         third_place: { manager: '—', team: 'InstaGraham' },
         championship_score: { winner: 129.76, loser: 111.58 },
-        notes: 'Austin\'s first title (won again in 2018 as Mean Machine). $100 and done finished regular season 11-2-0 but lost the final. T.J. finished 11th with The Absolute Madman (5-8-0).',
+        notes: 'Austin\'s second title (also won 2012 as One dimension and 2018 as Mean Machine). $100 and done finished regular season 11-2-0 but lost the final. T.J. finished 11th with The Absolute Madman (5-8-0).',
+        final_standings: [
+            { rank: 1, team: 'Cooking with Julian', manager: 'Austin', wins: 8, losses: 5, ties: 0, points_for: 1357.02, points_against: 1217.46 },
+            { rank: 2, team: '$100 and done', manager: '—', wins: 11, losses: 2, ties: 0, points_for: 1418.84, points_against: 1192.24 },
+            { rank: 3, team: 'InstaGraham', manager: '—', wins: 9, losses: 4, ties: 0, points_for: 1359.54, points_against: 1135.58 },
+            { rank: 4, team: 'Willy Gronka', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1250.62, points_against: 1210.82 },
+            { rank: 5, team: 'Light it up', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1214.62, points_against: 1173.34 },
+            { rank: 6, team: 'Blame the hamms', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1228.84, points_against: 1259.14 },
+            { rank: 7, team: 'The Buster', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1175.24, points_against: 1249.24 },
+            { rank: 8, team: "The Buzz Aldrin's", manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1227.98, points_against: 1305.10 },
+            { rank: 9, team: 'Insert Carrappy pun', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1134.72, points_against: 1268.68 },
+            { rank: 10, team: 'My team Sux ass', manager: '—', wins: 3, losses: 10, ties: 0, points_for: 1150.12, points_against: 1381.46 },
+            { rank: 11, team: 'The Absolute Madman', manager: 'T.J.', wins: 5, losses: 8, ties: 0, points_for: 1176.64, points_against: 1251.12 },
+            { rank: 12, team: "Scott's Team", manager: 'Scott', wins: 2, losses: 7, ties: 0, points_for: 1114.60, points_against: 1164.58 },
+        ],
     },
     {
         season: '2015',
@@ -71,6 +127,20 @@ export const historicalSeasons = [
         third_place: { manager: '—', team: 'Iowa super troopers' },
         championship_score: { winner: 64.70, loser: 60.08 },
         notes: "Lowest-scoring final in league history (64.70 – 60.08). Scott's Team won despite being the underdog. T.J. finished 10th with can I geta witteness (7-6-0).",
+        final_standings: [
+            { rank: 1, team: "Scott's Team", manager: 'Scott', wins: 8, losses: 5, ties: 0, points_for: 1361.86, points_against: 1167.46 },
+            { rank: 2, team: "The James Starks's", manager: '—', wins: 9, losses: 4, ties: 0, points_for: 1395.16, points_against: 1222.14 },
+            { rank: 3, team: 'Iowa super troopers', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1215.20, points_against: 1213.88 },
+            { rank: 4, team: 'Gronk-087', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1269.60, points_against: 1201.86 },
+            { rank: 5, team: 'JohnsTimelsNotNow', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1198.58, points_against: 1116.34 },
+            { rank: 6, team: 'Dead Dawgs', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1244.64, points_against: 1131.46 },
+            { rank: 7, team: 'Soul Power', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1142.04, points_against: 1234.54 },
+            { rank: 8, team: 'P.C. Players', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1176.38, points_against: 1230.80 },
+            { rank: 9, team: 'My Time Is Now!', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1132.58, points_against: 1255.14 },
+            { rank: 10, team: 'can I geta witteness', manager: 'T.J.', wins: 7, losses: 6, ties: 0, points_for: 1186.46, points_against: 1240.18 },
+            { rank: 11, team: 'Jimmy was Jimmy', manager: '—', wins: 3, losses: 10, ties: 0, points_for: 1033.76, points_against: 1265.46 },
+            { rank: 12, team: 'Light it up', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1179.54, points_against: 1342.38 },
+        ],
     },
     {
         season: '2014',
@@ -81,6 +151,20 @@ export const historicalSeasons = [
         third_place: { manager: '—', team: 'White Lighting' },
         championship_score: { winner: 107.68, loser: 90.12 },
         notes: "T.J.'s first championship appearance — lost the final to Colt's The Patriot Act. Patriot Act dominated regular season at 10-3-0.",
+        final_standings: [
+            { rank: 1, team: 'The Patriot Act', manager: 'Colt', wins: 10, losses: 3, ties: 0, points_for: 1307.22, points_against: 1141.02 },
+            { rank: 2, team: "T.J.R's Team", manager: 'T.J.', wins: 7, losses: 6, ties: 0, points_for: 1274.18, points_against: 1294.60 },
+            { rank: 3, team: 'White Lighting', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1216.40, points_against: 1164.68 },
+            { rank: 4, team: "J Rock's Dawgs", manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1195.62, points_against: 1121.22 },
+            { rank: 5, team: '12th Man', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1349.80, points_against: 1240.18 },
+            { rank: 6, team: 'Luckness monsters', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1325.82, points_against: 1234.54 },
+            { rank: 7, team: 'Rocket Power', manager: '—', wins: 5, losses: 8, ties: 0, points_for: 1125.04, points_against: 1201.70 },
+            { rank: 8, team: "Scott's Team", manager: 'Scott', wins: 5, losses: 8, ties: 0, points_for: 1201.28, points_against: 1228.72 },
+            { rank: 9, team: 'Gram city', manager: '—', wins: 6, losses: 7, ties: 0, points_for: 1103.70, points_against: 1146.52 },
+            { rank: 10, team: 'Team white', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1126.08, points_against: 1230.94 },
+            { rank: 11, team: 'Injuries Imminent', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1077.58, points_against: 1189.44 },
+            { rank: 12, team: 'Macho Men', manager: '—', wins: 3, losses: 10, ties: 0, points_for: 1175.40, points_against: 1284.56 },
+        ],
     },
     {
         season: '2013',
@@ -91,6 +175,20 @@ export const historicalSeasons = [
         third_place: { manager: '—', team: 'J Rocks Dawgs' },
         championship_score: { winner: 107.44, loser: 70.84 },
         notes: "Cinderella run — Poppa pump entered the playoffs as the 6 seed (7-6-0) and beat the 2 seed CJ SPILLERS in a 36-point blowout final. T.J. finished 4th with Aaron Hernancuffs (9-4-0). League standings included a team literally named '2012 champ' (5th place).",
+        final_standings: [
+            { rank: 1, team: 'Poppa pump', manager: 'Brett', wins: 7, losses: 6, ties: 0, points_for: 1273.16, points_against: 1306.18 },
+            { rank: 2, team: 'CJ SPILLERS', manager: '—', wins: 10, losses: 3, ties: 0, points_for: 1312.16, points_against: 1190.06 },
+            { rank: 3, team: 'J Rocks Dawgs', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1200.96, points_against: 1160.62 },
+            { rank: 4, team: 'Aaron Hernancuffs', manager: 'T.J.', wins: 9, losses: 4, ties: 0, points_for: 1378.94, points_against: 1230.16 },
+            { rank: 5, team: '2012 champ', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1221.62, points_against: 1203.80 },
+            { rank: 6, team: "Top 3 Score Weekly's", manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1423.80, points_against: 1308.66 },
+            { rank: 7, team: 'The Concillate', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1252.96, points_against: 1109.84 },
+            { rank: 8, team: 'All Banged Up', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1219.32, points_against: 1251.62 },
+            { rank: 9, team: 'the steven ridleys', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1105.80, points_against: 1183.28 },
+            { rank: 10, team: 'I Shot the Sharrif', manager: '—', wins: 5, losses: 8, ties: 0, points_for: 1077.68, points_against: 1178.74 },
+            { rank: 11, team: 'A Lifeless Corpse', manager: '—', wins: 2, losses: 11, ties: 0, points_for: 1083.34, points_against: 1308.68 },
+            { rank: 12, team: 'suit and a TIE', manager: '—', wins: 4, losses: 9, ties: 0, points_for: 1028.42, points_against: 1145.90 },
+        ],
     },
     {
         season: '2012',
@@ -100,7 +198,21 @@ export const historicalSeasons = [
         runner_up: { manager: '—', team: 'R. Corn on the Cobbs' },
         third_place: { manager: '—', team: 'Pappas Crew' },
         championship_score: { winner: 107, loser: 88 },
-        notes: "Austin's first title (would go on to also win 2016 and 2018, becoming the league's most-decorated manager). One dimension entered playoffs as the 1 seed at 10-3-0 and never trailed. T.J. finished 11th with TJ Rizzle Fresh (5-7-1). The team named '2012 champ' actually existed in 2012 standings — went 7-6-0 and lost in QF, ironically.",
+        notes: "Austin's first title (would go on to also win 2016 and 2018, becoming the league's most-decorated manager). One dimension entered playoffs as the 1 seed at 10-3-0 and never trailed. T.J. finished 11th with TJ Rizzle Fresh (5-7-1).",
+        final_standings: [
+            { rank: 1, team: 'One dimension', manager: 'Austin', wins: 10, losses: 3, ties: 0, points_for: 1213, points_against: 1084 },
+            { rank: 2, team: 'R. Corn on the Cobbs', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1225, points_against: 1177 },
+            { rank: 3, team: 'Pappas Crew', manager: '—', wins: 8, losses: 5, ties: 0, points_for: 1222, points_against: 1094 },
+            { rank: 4, team: 'Lets Hug It Out', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1197, points_against: 1210 },
+            { rank: 5, team: '2012 champ', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1156, points_against: 1147 },
+            { rank: 6, team: 'Murphadelic', manager: '—', wins: 6, losses: 5, ties: 2, points_for: 1163, points_against: 1084 },
+            { rank: 7, team: 'The Bucktactic', manager: '—', wins: 7, losses: 6, ties: 0, points_for: 1081, points_against: 1066 },
+            { rank: 8, team: 'J Rocks Dawgs', manager: '—', wins: 6, losses: 6, ties: 1, points_for: 1173, points_against: 1208 },
+            { rank: 9, team: '0 Breaks Given', manager: '—', wins: 5, losses: 6, ties: 2, points_for: 1295, points_against: 1244 },
+            { rank: 10, team: 'bELleve No More', manager: '—', wins: 5, losses: 8, ties: 0, points_for: 1135, points_against: 1171 },
+            { rank: 11, team: 'TJ Rizzle Fresh', manager: 'T.J.', wins: 5, losses: 7, ties: 1, points_for: 1099, points_against: 1176 },
+            { rank: 12, team: 'PackNation', manager: '—', wins: 2, losses: 11, ties: 0, points_for: 914, points_against: 1212 },
+        ],
     },
     {
         season: '2011',
@@ -111,6 +223,7 @@ export const historicalSeasons = [
         third_place: { manager: '—', team: '— TBD —' },
         championship_score: null,
         notes: "T.J. was in U.S. Army basic training during the 2011 season — data needs to come from another league member. Placeholder until then.",
+        final_standings: [],
     },
     {
         season: '2010',
@@ -121,7 +234,19 @@ export const historicalSeasons = [
         third_place: { manager: '(hidden)', team: 'SENSATIONS' },
         championship_score: { winner: 87, loser: 68 },
         notes: "Manager names are hidden on this old season per Yahoo's privacy settings. Broncos won as the 1 seed at 8-5-0. T.J. finished 4th with RazzleDazzle (7-6-0).",
+        final_standings: [
+            { rank: 1, team: 'Broncos', manager: '(hidden)', wins: 8, losses: 5, ties: 0, points_for: 1071, points_against: 977 },
+            { rank: 2, team: 'Vikings=SUPER BOWL', manager: '(hidden)', wins: 7, losses: 6, ties: 0, points_for: 1093, points_against: 1087 },
+            { rank: 3, team: 'SENSATIONS', manager: '(hidden)', wins: 10, losses: 3, ties: 0, points_for: 1182, points_against: 1054 },
+            { rank: 4, team: 'RazzleDazzle', manager: 'T.J.', wins: 7, losses: 6, ties: 0, points_for: 1010, points_against: 936 },
+            { rank: 5, team: 'Dragon', manager: '(hidden)', wins: 10, losses: 3, ties: 0, points_for: 1212, points_against: 985 },
+            { rank: 6, team: 'Machties', manager: '(hidden)', wins: 7, losses: 6, ties: 0, points_for: 1163, points_against: 1087 },
+            { rank: 7, team: 'Quool', manager: '(hidden)', wins: 5, losses: 8, ties: 0, points_for: 1011, points_against: 1087 },
+            { rank: 8, team: 'Minnesota 69ers', manager: '(hidden)', wins: 2, losses: 11, ties: 0, points_for: 875, points_against: 1263 },
+            { rank: 9, team: 'J Rocks Dawgs', manager: '(hidden)', wins: 6, losses: 7, ties: 0, points_for: 1169, points_against: 1081 },
+            { rank: 10, team: "The Guru's", manager: '(hidden)', wins: 6, losses: 7, ties: 0, points_for: 1029, points_against: 1107 },
+            { rank: 11, team: 'Mitches bitches', manager: '(hidden)', wins: 4, losses: 9, ties: 0, points_for: 959, points_against: 1050 },
+            { rank: 12, team: 'da best', manager: '(hidden)', wins: 6, losses: 7, ties: 0, points_for: 1011, points_against: 1115 },
+        ],
     },
-    // Add more years above this line — copy the structure above.
-    // Yahoo seasons to backfill: 2009 (and reach out to league members for 2011).
 ];
