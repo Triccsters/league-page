@@ -421,6 +421,57 @@ export const getAllTimeStats = async () => {
         tj_career_yahoo: tjFromYahoo,
         tj_career_sleeper: tjFromSleeper,
         tj_sleeper_seasons: tjSleeperSeasons,
+        tj_combined_career: (() => {
+            // Yahoo aggregates from final_standings (skips seasons without W-L data, like 2011)
+            let yW = 0, yL = 0, yT = 0, yPF = 0, yPA = 0, ySeasons = 0;
+            let yChamps = 0, yRunner = 0, yThird = 0;
+            for (const s of historicalSeasons) {
+                const row = (s.final_standings || []).find(r => r.manager === 'T.J.');
+                if (row) {
+                    ySeasons += 1;
+                    yW += row.wins || 0;
+                    yL += row.losses || 0;
+                    yT += row.ties || 0;
+                    yPF += row.points_for || 0;
+                    yPA += row.points_against || 0;
+                }
+                if (s.champion?.manager === 'T.J.') yChamps += 1;
+                if (s.runner_up?.manager === 'T.J.') yRunner += 1;
+                if (s.third_place?.manager === 'T.J.') yThird += 1;
+            }
+
+            // Sleeper aggregates from per-season rows
+            let sW = 0, sL = 0, sT = 0, sPF = 0, sPA = 0, sSeasons = 0;
+            let sChamps = 0, sRunner = 0;
+            for (const ss of tjSleeperSeasons) {
+                sSeasons += 1;
+                sW += ss.wins || 0;
+                sL += ss.losses || 0;
+                sT += ss.ties || 0;
+                sPF += ss.points_for || 0;
+                sPA += ss.points_against || 0;
+                if (ss.finish === 'Champion 🏆') sChamps += 1;
+                if (ss.finish === 'Runner-up') sRunner += 1;
+            }
+
+            const tW = yW + sW, tL = yL + sL, tT = yT + sT;
+            const tGames = tW + tL + tT;
+            return {
+                yahoo: { seasons: ySeasons, wins: yW, losses: yL, ties: yT, points_for: yPF, points_against: yPA, championships: yChamps, runner_ups: yRunner, third_places: yThird },
+                sleeper: { seasons: sSeasons, wins: sW, losses: sL, ties: sT, points_for: sPF, points_against: sPA, championships: sChamps, runner_ups: sRunner },
+                combined: {
+                    seasons: ySeasons + sSeasons,
+                    wins: tW, losses: tL, ties: tT,
+                    win_pct: tGames ? Number(((tW + 0.5 * tT) / tGames).toFixed(4)) : 0,
+                    points_for: Number((yPF + sPF).toFixed(2)),
+                    points_against: Number((yPA + sPA).toFixed(2)),
+                    championships: yChamps + sChamps,
+                    runner_ups: yRunner + sRunner,
+                    third_places: yThird,
+                    finals_appearances: yChamps + yRunner + sChamps + sRunner,
+                },
+            };
+        })(),
         sleeper_records: sleeperRecords,
     };
 };

@@ -32,6 +32,46 @@
     th { background: var(--fff, #fafafa); font-weight: 600; }
     .num { text-align: right; font-variant-numeric: tabular-nums; }
     .runner-up td { background: rgba(192, 192, 192, 0.18); }
+    .combined-card {
+        background: linear-gradient(135deg, rgba(241, 156, 28, 0.08), rgba(155, 89, 182, 0.08));
+        border: 1px solid var(--ddd, #ddd);
+        border-radius: 8px;
+        padding: 1.5em;
+        margin: 1em 0 2em;
+    }
+    .big-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1em;
+        margin: 1em 0;
+    }
+    .metric {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .big {
+        font-size: 1.8em;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        line-height: 1;
+        margin-bottom: 0.3em;
+    }
+    .label {
+        font-size: 0.82em;
+        color: var(--g777, #888);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .split {
+        font-size: 0.92em;
+        color: var(--g555, #888);
+        line-height: 1.6;
+        margin-top: 1em;
+        padding-top: 1em;
+        border-top: 1px dashed var(--ddd, #ddd);
+    }
 </style>
 
 <div class="holder">
@@ -41,6 +81,26 @@
     {#await allTimeData}
         <p class="sub">Loading...</p>
     {:then d}
+        {#if d.tj_combined_career}
+            <div class="combined-card">
+                <h2 style="margin-top:0; border:none">📈 All-time career — Yahoo + Sleeper combined</h2>
+                <div class="big-grid">
+                    <div class="metric"><span class="big">{d.tj_combined_career.combined.seasons}</span><span class="label">Seasons played</span></div>
+                    <div class="metric"><span class="big">{d.tj_combined_career.combined.wins}-{d.tj_combined_career.combined.losses}{d.tj_combined_career.combined.ties ? `-${d.tj_combined_career.combined.ties}` : ''}</span><span class="label">Career W-L-T</span></div>
+                    <div class="metric"><span class="big">{(d.tj_combined_career.combined.win_pct * 100).toFixed(1)}%</span><span class="label">Win %</span></div>
+                    <div class="metric"><span class="big">{d.tj_combined_career.combined.points_for.toFixed(0)}</span><span class="label">Lifetime points scored</span></div>
+                    <div class="metric"><span class="big">{d.tj_combined_career.combined.championships}</span><span class="label">🏆 Championships</span></div>
+                    <div class="metric"><span class="big">{d.tj_combined_career.combined.finals_appearances}</span><span class="label">Finals appearances</span></div>
+                    <div class="metric"><span class="big">{d.tj_combined_career.combined.runner_ups}</span><span class="label">Runner-ups</span></div>
+                </div>
+                <p class="split">
+                    <strong>Yahoo era</strong>: {d.tj_combined_career.yahoo.seasons} seasons · {d.tj_combined_career.yahoo.wins}-{d.tj_combined_career.yahoo.losses}{d.tj_combined_career.yahoo.ties ? `-${d.tj_combined_career.yahoo.ties}` : ''} · {d.tj_combined_career.yahoo.points_for.toFixed(0)} PF · {d.tj_combined_career.yahoo.runner_ups} runner-up{d.tj_combined_career.yahoo.runner_ups === 1 ? '' : 's'}
+                    <br>
+                    <strong>Sleeper era</strong>: {d.tj_combined_career.sleeper.seasons} seasons · {d.tj_combined_career.sleeper.wins}-{d.tj_combined_career.sleeper.losses}{d.tj_combined_career.sleeper.ties ? `-${d.tj_combined_career.sleeper.ties}` : ''} · {d.tj_combined_career.sleeper.points_for.toFixed(0)} PF · {d.tj_combined_career.sleeper.runner_ups} runner-up{d.tj_combined_career.sleeper.runner_ups === 1 ? '' : 's'}
+                </p>
+            </div>
+        {/if}
+
         <div class="narrative">
             <strong>The narrative</strong>: T.J. has played in the FL Players league since at least 2010 (15+ seasons including 2011 in basic training). Made the championship game three times — <strong>2014, 2019, and 2020</strong> — and lost all three. Every other year ended with a regular-season finish in the bottom half of the league.
             <br><br>
