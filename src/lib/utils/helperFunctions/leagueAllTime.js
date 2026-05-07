@@ -344,6 +344,70 @@ export const getAllTimeStats = async () => {
             };
         }).sort((a, b) => Number(b.season) - Number(a.season));
 
+    // Sleeper-era records (computed from matchup data)
+    const sleeperRecords = (() => {
+        const allWeekScores = [];  // {team, manager, points, season, week, opponent_points, opponent_team, margin}
+        const seasonTotals = {};   // rid+season -> { points, team, manager, season }
+
+        for (const s of seasons) {
+            const r2o = ridToOwner(s.rosters);
+            const uMap = userById(s.users);
+            const teamFor = (rid) => {
+                const u = uMap[r2o[rid]];
+                return u?.metadata?.team_name || u?.display_name || `Team ${rid}`;
+            };
+            const mgrFor = (rid) => {
+                const u = uMap[r2o[rid]];
+                return u?.display_name || '—';
+            };
+            for (const week of Object.keys(s.matchupsByWeek)) {
+                const mws = s.matchupsByWeek[week];
+                const byMid = {};
+                for (const m of mws) (byMid[m.matchup_id] = byMid[m.matchup_id] || []).push(m);
+                for (const sides of Object.values(byMid)) {
+                    if (sides.length !== 2) continue;
+                    const [a, b] = sides;
+                    const ap = a.points || 0, bp = b.points || 0;
+                    allWeekScores.push({
+                        team: teamFor(a.roster_id), manager: mgrFor(a.roster_id),
+                        points: Number(ap.toFixed(2)),
+                        opp_team: teamFor(b.roster_id), opp_points: Number(bp.toFixed(2)),
+                        season: s.league.season, week: Number(week),
+                        margin: Number((ap - bp).toFixed(2)),
+                    });
+                    allWeekScores.push({
+                        team: teamFor(b.roster_id), manager: mgrFor(b.roster_id),
+                        points: Number(bp.toFixed(2)),
+                        opp_team: teamFor(a.roster_id), opp_points: Number(ap.toFixed(2)),
+                        season: s.league.season, week: Number(week),
+                        margin: Number((bp - ap).toFixed(2)),
+                    });
+                    const aKey = `${a.roster_id}-${s.league.season}`;
+                    const bKey = `${b.roster_id}-${s.league.season}`;
+                    seasonTotals[aKey] = seasonTotals[aKey] || { points: 0, team: teamFor(a.roster_id), manager: mgrFor(a.roster_id), season: s.league.season };
+                    seasonTotals[bKey] = seasonTotals[bKey] || { points: 0, team: teamFor(b.roster_id), manager: mgrFor(b.roster_id), season: s.league.season };
+                    seasonTotals[aKey].points += ap;
+                    seasonTotals[bKey].points += bp;
+                }
+            }
+        }
+        const sortedHigh = [...allWeekScores].sort((x, y) => y.points - x.points);
+        const sortedLow = allWeekScores.filter(x => x.points > 0).sort((x, y) => x.points - y.points);
+        const sortedMargin = allWeekScores.filter(x => x.margin > 0).sort((x, y) => y.margin - x.margin);
+        const sortedClosest = allWeekScores.filter(x => x.margin > 0).sort((x, y) => x.margin - y.margin);
+        const seasonHigh = Object.values(seasonTotals).sort((x, y) => y.points - x.points);
+        const seasonLow = Object.values(seasonTotals).filter(x => x.points > 0).sort((x, y) => x.points - y.points);
+
+        return {
+            highest_single_week: sortedHigh.slice(0, 5).map(x => ({ holder: x.team, opponent: x.opp_team, value: x.points, season: x.season, week: x.week })),
+            lowest_single_week: sortedLow.slice(0, 5).map(x => ({ holder: x.team, opponent: x.opp_team, value: x.points, season: x.season, week: x.week })),
+            biggest_blowouts: sortedMargin.slice(0, 5).map(x => ({ holder: x.team, opponent: x.opp_team, value: x.margin, season: x.season, week: x.week })),
+            closest_games: sortedClosest.slice(0, 5).map(x => ({ holder: x.team, opponent: x.opp_team, value: x.margin, season: x.season, week: x.week })),
+            highest_season: seasonHigh.slice(0, 5).map(x => ({ holder: x.team, value: Number(x.points.toFixed(2)), season: x.season })),
+            lowest_season: seasonLow.slice(0, 5).map(x => ({ holder: x.team, value: Number(x.points.toFixed(2)), season: x.season })),
+        };
+    })();
+
     return {
         seasons_count: seasons.length + historicalSeasons.length,
         season_range: seasonRange,
@@ -357,5 +421,6 @@ export const getAllTimeStats = async () => {
         tj_career_yahoo: tjFromYahoo,
         tj_career_sleeper: tjFromSleeper,
         tj_sleeper_seasons: tjSleeperSeasons,
+        sleeper_records: sleeperRecords,
     };
 };
