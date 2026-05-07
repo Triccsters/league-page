@@ -74,33 +74,41 @@
         </table>
 
         <h2>Sleeper era (2021–present)</h2>
-        {#if d.tj_career_sleeper}
+        {#if d.tj_sleeper_seasons?.length}
             <table>
                 <thead>
                     <tr>
-                        <th>Manager</th>
-                        <th class="num">Seasons</th>
+                        <th>Season</th>
+                        <th>Team name</th>
                         <th class="num">W-L-T</th>
-                        <th class="num">Win %</th>
                         <th class="num">Points For</th>
-                        <th class="num">🏆</th>
-                        <th class="num">2nd</th>
+                        <th class="num">Points Against</th>
+                        <th>Finish</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="top1">
-                        <td>{d.tj_career_sleeper.manager}</td>
-                        <td class="num">{d.tj_career_sleeper.seasons_played}</td>
-                        <td class="num">{d.tj_career_sleeper.wins}-{d.tj_career_sleeper.losses}{d.tj_career_sleeper.ties ? `-${d.tj_career_sleeper.ties}` : ''}</td>
-                        <td class="num">{(d.tj_career_sleeper.win_pct * 100).toFixed(1)}%</td>
-                        <td class="num">{d.tj_career_sleeper.points_for.toFixed(0)}</td>
-                        <td class="num">{d.tj_career_sleeper.championships}</td>
-                        <td class="num">{d.tj_career_sleeper.runner_ups}</td>
-                    </tr>
+                    {#each d.tj_sleeper_seasons as s}
+                        <tr class:runner-up={s.finish === 'Runner-up'}>
+                            <td><strong>{s.season}</strong></td>
+                            <td>{s.team}</td>
+                            <td class="num">
+                                {#if s.wins != null}{s.wins}-{s.losses}{s.ties ? `-${s.ties}` : ''}{:else}—{/if}
+                            </td>
+                            <td class="num">{s.points_for != null ? s.points_for.toFixed(2) : '—'}</td>
+                            <td class="num">{s.points_against != null ? s.points_against.toFixed(2) : '—'}</td>
+                            <td>{s.finish}</td>
+                        </tr>
+                    {/each}
                 </tbody>
             </table>
+
+            {#if d.tj_career_sleeper}
+                <p class="sub" style="text-align:left; margin-top:1em">
+                    <strong>Sleeper aggregate</strong>: {d.tj_career_sleeper.seasons_played} seasons · {d.tj_career_sleeper.wins}-{d.tj_career_sleeper.losses}{d.tj_career_sleeper.ties ? `-${d.tj_career_sleeper.ties}` : ''} ({(d.tj_career_sleeper.win_pct * 100).toFixed(1)}%) · {d.tj_career_sleeper.points_for.toFixed(0)} PF · 🏆 {d.tj_career_sleeper.championships} · 2nd {d.tj_career_sleeper.runner_ups}
+                </p>
+            {/if}
         {:else}
-            <p class="sub">No matching Sleeper account found by display-name pattern.</p>
+            <p class="sub">No matching Sleeper account found — display-name pattern didn't catch a known T.J. variant. Send me your Sleeper username and I'll widen the matcher.</p>
         {/if}
 
         <h2>The runner-up curse</h2>

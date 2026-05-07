@@ -283,8 +283,50 @@ export const getAllTimeStats = async () => {
     yahooMgrRows.sort((a, b) => b.championships - a.championships || b.win_pct - a.win_pct);
     yahooMgrRows.forEach((r, i) => r.rank = i + 1);
 
-    // T.J.'s career arc (across both eras), pulled from Sleeper "triccster" + Yahoo "T.J."
-    const tjFromSleeper = managerRows.find(m => /trick|t\.?j\.?|triccster/i.test(m.manager));
+    // T.J.'s per-season Sleeper data — find his roster each year and pull W-L
+    const TJ_PATTERN = /^(triccster|trickster|t\.?j\.?r?|trick)$/i;
+    const tjSleeperSeasons = [];
+    let tjUserId = null;
+    for (const s of seasons) {
+        const uMap = userById(s.users);
+        // Find T.J.'s user_id (stable across seasons in Sleeper)
+        if (!tjUserId) {
+            for (const u of s.users) {
+                if (TJ_PATTERN.test(u.display_name || '')) {
+                    tjUserId = u.user_id;
+                    break;
+                }
+            }
+        }
+        if (!tjUserId) continue;
+        const tjRoster = s.rosters.find(r => r.owner_id === tjUserId);
+        if (!tjRoster) continue;
+        const u = uMap[tjUserId];
+        const settings = tjRoster.settings || {};
+        // Determine playoff finish from winners_bracket
+        let finish = '—';
+        const champ = findChampion(s.winnersBracket, ridToOwner(s.rosters), uMap);
+        if (champ) {
+            if (champ.roster_id === tjRoster.roster_id) finish = 'Champion 🏆';
+            else if (champ.runner_up_rid === tjRoster.roster_id) finish = 'Runner-up';
+        }
+        if (finish === '—' && settings.rank != null) finish = `${settings.rank}`;
+
+        tjSleeperSeasons.push({
+            season: String(s.league.season),
+            team: u?.metadata?.team_name || u?.display_name || '—',
+            wins: settings.wins ?? null,
+            losses: settings.losses ?? null,
+            ties: settings.ties ?? 0,
+            points_for: settings.fpts != null ? Number(`${settings.fpts}.${settings.fpts_decimal ?? 0}`) : null,
+            points_against: settings.fpts_against != null ? Number(`${settings.fpts_against}.${settings.fpts_against_decimal ?? 0}`) : null,
+            finish,
+            platform: 'sleeper',
+        });
+    }
+    tjSleeperSeasons.sort((a, b) => Number(b.season) - Number(a.season));
+
+    const tjFromSleeper = managerRows.find(m => /trick|triccster/i.test(m.manager));
     const tjFromYahoo = historicalSeasons
         .filter(s => (s.final_standings || []).some(r => r.manager === 'T.J.') || s.runner_up?.manager === 'T.J.')
         .map(s => {
@@ -314,5 +356,6 @@ export const getAllTimeStats = async () => {
         highest_scores: highestScores,
         tj_career_yahoo: tjFromYahoo,
         tj_career_sleeper: tjFromSleeper,
+        tj_sleeper_seasons: tjSleeperSeasons,
     };
 };
