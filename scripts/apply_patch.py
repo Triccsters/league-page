@@ -50,9 +50,9 @@ edit(p, "        <BarChart {graphs} bind:curGraph={curGraph} {leagueTeamManagers
 # all-time page: combined table + charts at the top
 p = "src/routes/all-time/+page.svelte"
 edit(p, "<script>\n    export let data;",
-     "<script>\n    import CombinedStandings from '$lib/Records/CombinedStandings.svelte';\n    export let data;")
+     "<script>\n    import CombinedStandings from '$lib/Records/CombinedStandings.svelte';\n    export let data;", optional=True)
 edit(p, "    <h1>All-Time Stats</h1>\n",
-     "    <h1>All-Time Stats</h1>\n\n    <CombinedStandings />\n")
+     "    <h1>All-Time Stats</h1>\n\n    <CombinedStandings />\n", optional=True)
 
 # leagueInfo: managers come from the generated file
 p = "src/lib/utils/leagueInfo.js"
