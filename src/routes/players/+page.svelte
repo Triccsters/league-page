@@ -9,6 +9,8 @@
         ready = true;
         try { data = await fetch('/data/players.json').then(r => r.json()); }
         catch (e) { error = 'Could not load player history.'; }
+        const w = new URLSearchParams(location.search).get('who');
+        if (w) who = w;
     });
 
     const POS = ['All', 'QB', 'RB', 'WR', 'TE', 'K', 'DEF'];

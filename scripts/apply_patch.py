@@ -160,4 +160,13 @@ edit(p, "<style>\n",
 edit("src/lib/Managers/Manager.svelte",
      "In the league since '{datesActive.start.toString().substr(2)}",
      "In the league since '{String(Math.min(viewManager.fantasyStart || 9999, datesActive.start)).substr(2)}")
+
+# manager page: his best players and the ones he keeps drafting
+p = "src/lib/Managers/Manager.svelte"
+edit(p, "    import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';",
+     "    import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';\n"
+     "    import ManagerPlayers from '$lib/Charts/ManagerPlayers.svelte';")
+edit(p, "    {#if viewManager.handle}\n        <ManagerHistory handle={viewManager.handle} />\n    {/if}",
+     "    {#if viewManager.handle}\n        <ManagerHistory handle={viewManager.handle} />\n"
+     "        <ManagerPlayers handle={viewManager.handle} />\n    {/if}")
 print("done")

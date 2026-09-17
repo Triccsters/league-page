@@ -8,6 +8,7 @@
     import ManagerFantasyInfo from './ManagerFantasyInfo.svelte';
     import ManagerAwards from './ManagerAwards.svelte';
     import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';
+    import ManagerPlayers from '$lib/Charts/ManagerPlayers.svelte';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
@@ -307,6 +308,7 @@
 
     {#if viewManager.handle}
         <ManagerHistory handle={viewManager.handle} />
+        <ManagerPlayers handle={viewManager.handle} />
     {/if}
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
