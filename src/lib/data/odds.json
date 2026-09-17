@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T17:44:11+00:00",
+ "generated": "2026-09-17T18:30:32+00:00",
  "season": 2026,
  "through_week": 1,
  "sims": 10000,
@@ -35,7 +35,24 @@
    "bye": 52.2,
    "seed1": 33.5,
    "title": 25.5,
-   "last": 0.6
+   "last": 0.6,
+   "sos_faced": 107.0,
+   "sos_rest": 110.36,
+   "rest_opponents": [
+    "TuanonStan",
+    "triccster",
+    "PapaMidnight",
+    "Jbird531",
+    "Colt45Johnson",
+    "YoungBuck04",
+    "thecreamer",
+    "snelson91",
+    "brettmn13",
+    "RockMNwild",
+    "Wallner",
+    "TuanonStan",
+    "triccster"
+   ]
   },
   {
    "h": "Colt45Johnson",
@@ -48,7 +65,24 @@
    "bye": 26.7,
    "seed1": 13.0,
    "title": 12.5,
-   "last": 2.5
+   "last": 2.5,
+   "sos_faced": 94.56,
+   "sos_rest": 110.3,
+   "rest_opponents": [
+    "RockMNwild",
+    "thecreamer",
+    "brettmn13",
+    "snelson91",
+    "butterygoop",
+    "Wallner",
+    "PapaMidnight",
+    "TuanonStan",
+    "triccster",
+    "Jbird531",
+    "YoungBuck04",
+    "RockMNwild",
+    "thecreamer"
+   ]
   },
   {
    "h": "snelson91",
@@ -61,7 +95,24 @@
    "bye": 22.4,
    "seed1": 10.5,
    "title": 10.2,
-   "last": 3.1
+   "last": 3.1,
+   "sos_faced": 88.44,
+   "sos_rest": 111.09,
+   "rest_opponents": [
+    "YoungBuck04",
+    "brettmn13",
+    "RockMNwild",
+    "Colt45Johnson",
+    "Jbird531",
+    "triccster",
+    "Wallner",
+    "butterygoop",
+    "TuanonStan",
+    "PapaMidnight",
+    "thecreamer",
+    "YoungBuck04",
+    "brettmn13"
+   ]
   },
   {
    "h": "Jbird531",
@@ -74,7 +125,24 @@
    "bye": 21.3,
    "seed1": 9.9,
    "title": 9.8,
-   "last": 3.5
+   "last": 3.5,
+   "sos_faced": 101.66,
+   "sos_rest": 111.11,
+   "rest_opponents": [
+    "Wallner",
+    "PapaMidnight",
+    "TuanonStan",
+    "butterygoop",
+    "snelson91",
+    "thecreamer",
+    "RockMNwild",
+    "brettmn13",
+    "YoungBuck04",
+    "Colt45Johnson",
+    "triccster",
+    "Wallner",
+    "PapaMidnight"
+   ]
   },
   {
    "h": "brettmn13",
@@ -87,7 +155,24 @@
    "bye": 20.9,
    "seed1": 9.9,
    "title": 9.0,
-   "last": 3.5
+   "last": 3.5,
+   "sos_faced": 79.16,
+   "sos_rest": 111.07,
+   "rest_opponents": [
+    "thecreamer",
+    "snelson91",
+    "Colt45Johnson",
+    "YoungBuck04",
+    "PapaMidnight",
+    "TuanonStan",
+    "triccster",
+    "Jbird531",
+    "butterygoop",
+    "Wallner",
+    "RockMNwild",
+    "thecreamer",
+    "snelson91"
+   ]
   },
   {
    "h": "TuanonStan",
@@ -100,7 +185,24 @@
    "bye": 16.5,
    "seed1": 7.7,
    "title": 7.7,
-   "last": 5.0
+   "last": 5.0,
+   "sos_faced": 105.1,
+   "sos_rest": 112.19,
+   "rest_opponents": [
+    "butterygoop",
+    "Wallner",
+    "Jbird531",
+    "triccster",
+    "RockMNwild",
+    "brettmn13",
+    "YoungBuck04",
+    "Colt45Johnson",
+    "snelson91",
+    "thecreamer",
+    "PapaMidnight",
+    "butterygoop",
+    "Wallner"
+   ]
   },
   {
    "h": "Wallner",
@@ -113,7 +215,24 @@
    "bye": 8.7,
    "seed1": 3.6,
    "title": 5.3,
-   "last": 9.5
+   "last": 9.5,
+   "sos_faced": 167.82,
+   "sos_rest": 111.56,
+   "rest_opponents": [
+    "Jbird531",
+    "TuanonStan",
+    "triccster",
+    "PapaMidnight",
+    "YoungBuck04",
+    "Colt45Johnson",
+    "snelson91",
+    "thecreamer",
+    "RockMNwild",
+    "brettmn13",
+    "butterygoop",
+    "Jbird531",
+    "TuanonStan"
+   ]
   },
   {
    "h": "PapaMidnight",
@@ -126,7 +245,24 @@
    "bye": 8.6,
    "seed1": 3.1,
    "title": 5.1,
-   "last": 9.7
+   "last": 9.7,
+   "sos_faced": 111.06,
+   "sos_rest": 111.44,
+   "rest_opponents": [
+    "triccster",
+    "Jbird531",
+    "butterygoop",
+    "Wallner",
+    "brettmn13",
+    "RockMNwild",
+    "Colt45Johnson",
+    "YoungBuck04",
+    "thecreamer",
+    "snelson91",
+    "TuanonStan",
+    "triccster",
+    "Jbird531"
+   ]
   },
   {
    "h": "triccster",
@@ -139,7 +275,24 @@
    "bye": 7.1,
    "seed1": 2.8,
    "title": 4.6,
-   "last": 12.6
+   "last": 12.6,
+   "sos_faced": 118.36,
+   "sos_rest": 112.31,
+   "rest_opponents": [
+    "PapaMidnight",
+    "butterygoop",
+    "Wallner",
+    "TuanonStan",
+    "thecreamer",
+    "snelson91",
+    "brettmn13",
+    "RockMNwild",
+    "Colt45Johnson",
+    "YoungBuck04",
+    "Jbird531",
+    "PapaMidnight",
+    "butterygoop"
+   ]
   },
   {
    "h": "YoungBuck04",
@@ -152,7 +305,24 @@
    "bye": 6.4,
    "seed1": 2.2,
    "title": 4.2,
-   "last": 13.6
+   "last": 13.6,
+   "sos_faced": 126.5,
+   "sos_rest": 111.28,
+   "rest_opponents": [
+    "snelson91",
+    "RockMNwild",
+    "thecreamer",
+    "brettmn13",
+    "Wallner",
+    "butterygoop",
+    "TuanonStan",
+    "PapaMidnight",
+    "Jbird531",
+    "triccster",
+    "Colt45Johnson",
+    "snelson91",
+    "RockMNwild"
+   ]
   },
   {
    "h": "thecreamer",
@@ -165,7 +335,24 @@
    "bye": 5.4,
    "seed1": 2.1,
    "title": 3.6,
-   "last": 16.1
+   "last": 16.1,
+   "sos_faced": 119.76,
+   "sos_rest": 112.06,
+   "rest_opponents": [
+    "brettmn13",
+    "Colt45Johnson",
+    "YoungBuck04",
+    "RockMNwild",
+    "triccster",
+    "Jbird531",
+    "butterygoop",
+    "Wallner",
+    "PapaMidnight",
+    "TuanonStan",
+    "snelson91",
+    "brettmn13",
+    "Colt45Johnson"
+   ]
   },
   {
    "h": "RockMNwild",
@@ -178,7 +365,24 @@
    "bye": 3.9,
    "seed1": 1.5,
    "title": 2.5,
-   "last": 20.5
+   "last": 20.5,
+   "sos_faced": 117.2,
+   "sos_rest": 111.86,
+   "rest_opponents": [
+    "Colt45Johnson",
+    "YoungBuck04",
+    "snelson91",
+    "thecreamer",
+    "TuanonStan",
+    "PapaMidnight",
+    "Jbird531",
+    "triccster",
+    "Wallner",
+    "butterygoop",
+    "brettmn13",
+    "Colt45Johnson",
+    "YoungBuck04"
+   ]
   }
  ],
  "history": {

@@ -1,5 +1,6 @@
 <script>
 	import { waitForAll } from '$lib/utils/helper';
+	import { showUpcomingDraft } from '$lib/utils/leagueInfo';
     import LinearProgress from '@smui/linear-progress';
     import Draft from './Draft.svelte'; 
 
@@ -18,12 +19,20 @@
         text-align: center;
     }
 
+    .orderNote {
+        text-align: center;
+        opacity: 0.75;
+        margin: 1.5em auto 0;
+        max-width: 600px;
+    }
+
     h6 {
         text-align: center;
     }
 </style>
 
 
+{#if showUpcomingDraft}
 {#await waitForAll(upcomingDraftData, leagueTeamManagersData, playersData) }
 	<div class="loading">
 		<p>Retrieving upcoming draft...</p>
@@ -37,6 +46,9 @@
 	<!-- promise was rejected -->
 	<p>Something went wrong: {error.message}</p>
 {/await}
+{:else}
+    <p class="orderNote">Next year's draft order is drawn at random, so there is nothing to project. Past drafts are below.</p>
+{/if}
 
 
 {#await waitForAll(previousDraftsData, leagueTeamManagersData, playersData) }

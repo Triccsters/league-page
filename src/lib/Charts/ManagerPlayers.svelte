@@ -54,6 +54,9 @@
         .sort((a, b) => b[6] - a[6]).slice(0, 5)
         .map(p => ({ n: p[4], pos: p[5], times: 1, seasons: [p[0]], pts: r1(p[6]), best: p[1] }));
     $: draftList = drafted.length ? drafted : mostDraftedFallback;
+
+    // pre-2014 seasons came off Yahoo under standard scoring
+    $: oldEra = [...scorers, ...draftList].some(p => p.seasons.some(s => s < 2014));
 </script>
 
 {#if players || drafts}
@@ -78,6 +81,9 @@
                 {/each}
             </div>
         </div>
+        {#if oldEra}
+            <p class="note">Seasons before 2014 were played on Yahoo under standard scoring, so those point totals run lower than the PPR years.</p>
+        {/if}
         <p class="more"><a href="/players?who={handle}">All players</a> · <a href="/draft-grades">Draft grades</a></p>
     </section>
 {:else if failed}
@@ -89,6 +95,7 @@
     .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 2em; }
     h3 { margin: 1.2em 0 0.1em; font-size: 1em; }
     .sub { opacity: 0.7; font-size: 0.82em; margin: 0 0 0.4em; }
+    .note { opacity: 0.6; font-size: 0.78em; margin: 1em 0 0; font-style: italic; }
     .row { display: grid; grid-template-columns: 2.4em 1fr auto; grid-template-rows: auto auto; column-gap: 0.5em; padding: 0.25em 0; border-bottom: 1px solid rgba(127,127,127,0.18); font-size: 0.9em; }
     .rk { grid-row: span 2; opacity: 0.6; text-align: right; align-self: center; }
     .row small { grid-column: 2; opacity: 0.68; font-size: 0.85em; }

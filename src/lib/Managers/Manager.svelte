@@ -9,6 +9,7 @@
     import ManagerAwards from './ManagerAwards.svelte';
     import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';
     import ManagerPlayers from '$lib/Charts/ManagerPlayers.svelte';
+    import ManagerBadges from '$lib/Charts/ManagerBadges.svelte';
     import { allTimeRank } from '$lib/utils/flpHistory';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
@@ -314,6 +315,7 @@
 
     {#if viewManager.handle}
         <ManagerHistory handle={viewManager.handle} />
+        <ManagerBadges handle={viewManager.handle} />
         <ManagerPlayers handle={viewManager.handle} />
     {/if}
 

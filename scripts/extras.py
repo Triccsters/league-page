@@ -43,6 +43,36 @@ def now():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
+# ---------------------------------------------------------------- yahoo era
+def yahoo_era(ctx):
+    """Pre-2014 rosters and drafts, or None when this league has no Yahoo era.
+
+    Returns (lineup_rows, drafts, coverage, top_games). A season whose coverage
+    is not complete has totals for the scraped weeks only, not the full season.
+    """
+    if ctx["mode"] != "vault":
+        return None
+    try:
+        import yahoo_lineups_api as YL
+        return YL.lineups(), YL.drafts(), YL.coverage(), YL.top_games()
+    except Exception:
+        return None
+
+
+def yahoo_label(cov, season):
+    """'' for a full season, else 'weeks 1-5, 11-16'."""
+    c = cov.get(season)
+    if not c or c.get("complete"):
+        return ""
+    w = c["weeks"]
+    runs, start = [], w[0]
+    for a, b in zip(w, w[1:] + [None]):
+        if b != (a + 1):
+            runs.append(str(start) if start == a else "%d-%d" % (start, a))
+            start = b
+    return "weeks " + ", ".join(runs)
+
+
 # ---------------------------------------------------------------- lineups
 def collect_slots(ctx):
     """(season, week, handle, key, name, pos, started, points) for every rostered player-week."""
@@ -110,6 +140,26 @@ def build_players(ctx, rows):
             p["pts"] += pts
             p["st"] += 1
             tops.append((pts, season, week, h, name, pos))
+    ye = yahoo_era(ctx)
+    if ye:
+        ylines, _ydrafts, _ycov, ytops = ye
+        ypos = {}
+        for season, h, name, pos, pts, starts, weeks in ylines:
+            k = pkey(name)
+            if pos:
+                ypos.setdefault(k, pos)
+            p = per.setdefault(k, {"n": name, "p": pos, "pts": 0.0, "st": 0, "wk": 0, "s": {}})
+            if pos and not p["p"]:
+                p["p"] = pos
+            e = p["s"].setdefault((season, h), [0.0, 0, 0])
+            e[0] += pts
+            e[1] += starts
+            e[2] += weeks
+            p["pts"] += pts
+            p["st"] += starts
+            p["wk"] += weeks
+        for season, week, h, name, pts in ytops:
+            tops.append((pts, season, week, h, name, ypos.get(pkey(name), "")))
     out = []
     for k, p in per.items():
         if p["pts"] < 25 and p["st"] < 3:
@@ -120,9 +170,13 @@ def build_players(ctx, rows):
                     "wk": p["wk"], "s": seasons})
     out.sort(key=lambda x: -x["pts"])
     tops.sort(key=lambda x: -x[0])
+    first = min((r[0] for r in rows), default=ctx["season"])
+    if ye:
+        first = min([first] + [s for s, *_ in ye[0]])
     data = {
         "generated": now(),
-        "first_season": min((r[0] for r in rows), default=ctx["season"]),
+        "first_season": first,
+        "pre2014_standard_scoring": bool(ye),
         "players": out,
         "top_games": [{"pts": t[0], "season": t[1], "week": t[2], "h": t[3], "n": t[4], "p": t[5]} for t in tops[:40]],
     }
@@ -253,6 +307,20 @@ def build_drafts(ctx, rows):
                 val, _ = value_after(idx, h, pkey(info["name"]), S.season, 0, dyn)
                 picks.append([S.season, pk.get("round"), pk.get("pick_no"), h, info["name"], info["pos"], val,
                               S.season == ctx["season"], label])
+    ye = yahoo_era(ctx)
+    if ye:
+        ylines, ydrafts, ycov, _ytops = ye
+        yval, ypos = {}, {}
+        for season, h, name, pos, pts, starts, _w in ylines:
+            yval[(season, h, pkey(name))] = round(pts, 2)
+            if pos:
+                ypos.setdefault(pkey(name), pos)
+        for season, got in sorted(ydrafts.items()):
+            lab = yahoo_label(ycov, season)
+            for pk in got:
+                k = pkey(pk["player"])
+                picks.append([season, pk["round"], pk["pick"], pk["handle"], pk["player"],
+                              ypos.get(k, ""), yval.get((season, pk["handle"], k), 0.0), False, lab])
     base = defaultdict(list)
     for p in picks:
         base[(p[0], p[8], p[1])].append(p[6])
@@ -421,10 +489,32 @@ def build_odds_and_previews(ctx):
         champ = _bracket(order[:n_playoff], lambda h: rnd.gauss(true_mu[h], sd))
         tally[champ]["title"] += 1
 
+    # schedule strength: how strong the opponents have been, and how strong the rest look
+    faced = defaultdict(list)
+    for s_, w, _e, a, pa, b, pb, playoff, _l in ctx["history"]["games"]:
+        if s_ != season or playoff:
+            continue
+        faced[a].append(b)
+        faced[b].append(a)
+    avg_of = {h: (models[h]["avg"] if models[h]["avg"] is not None else models[h]["mu"]) for h in teams}
+    remaining_opp = defaultdict(list)
+    for w, pairs in schedule.items():
+        for a, b in pairs:
+            remaining_opp[a].append(b)
+            remaining_opp[b].append(a)
+    sos = {}
+    for h in teams:
+        f = [avg_of[o] for o in faced[h] if o in avg_of]
+        r = [models[o]["mu"] for o in remaining_opp[h] if o in models]
+        sos[h] = {"faced": round(sum(f) / len(f), 2) if f else None,
+                  "rest": round(sum(r) / len(r), 2) if r else None,
+                  "opponents": remaining_opp[h]}
+
     pct = lambda h, k: round(100.0 * tally[h][k] / SIMS, 1)
     rows = [{"h": h, "w": rec[h][0], "l": rec[h][1], "pf": round(rec[h][2], 2), "mu": models[h]["mu"],
              "proj_w": round(wins_sum[h] / SIMS, 1), "playoff": pct(h, "playoff"), "bye": pct(h, "bye"),
-             "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last")} for h in teams]
+             "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last"),
+             "sos_faced": sos[h]["faced"], "sos_rest": sos[h]["rest"], "rest_opponents": sos[h]["opponents"]} for h in teams]
     rows.sort(key=lambda r: (-r["playoff"], -r["title"], -r["proj_w"]))
 
     path = os.path.join(ctx["data"], "odds.json")
@@ -516,9 +606,17 @@ def build_all(ctx):
     os.makedirs(ctx["static"], exist_ok=True)
     rows = collect_slots(ctx)
     out["players"] = len(build_players(ctx, rows)["players"])
-    out["trades"] = len(build_trades(ctx, rows)["trades"])
-    out["picks"] = len(build_drafts(ctx, rows)["picks"])
+    trades = build_trades(ctx, rows)
+    out["trades"] = len(trades["trades"])
+    drafts = build_drafts(ctx, rows)
+    out["picks"] = len(drafts["picks"])
     odds, pv = build_odds_and_previews(ctx)
     out["odds_through"] = odds["through_week"]
     out["previews"] = len(pv["games"])
+
+    import awards as A
+    wv = A.build_waivers(ctx, rows, drafts["picks"])
+    out["pickups"] = wv["count"]
+    aw = A.build_awards(ctx, ctx["history"], trades, drafts, wv)
+    out["awards"] = len(aw["awards"])
     return out
