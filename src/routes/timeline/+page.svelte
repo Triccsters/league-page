@@ -97,6 +97,11 @@
         maxWeek = Math.min(18, Math.max(1, st.display_week || st.week || 1));
         week = maxWeek;
         await load();
+        // Before the week's first kickoff every game is 0-0; open on the last week with scores
+        if (week > 1 && games.length && games.every(([a, b]) => !a.points && !b.points)) {
+            week -= 1;
+            await load();
+        }
     });
 </script>
 

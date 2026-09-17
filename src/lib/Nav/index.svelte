@@ -2,6 +2,13 @@
 	import NavSmall from './NavSmall.svelte';
 	import NavLarge from './NavLarge.svelte';
     import { page } from '$app/state';
+    import { leagueName } from '$lib/utils/leagueInfo';
+    import { tabs } from '$lib/utils/tabs';
+    // Tab label for the page when there is one ("Record Book"), otherwise the path tidied up
+    const labels = {};
+    for (const t of tabs) { if (t.dest) labels[t.dest] = t.label; for (const c of t.children || []) labels[c.dest] = c.label; }
+    const pageTitle = (p) => p === '/' ? 'Home' : labels[p] || labels['/' + p.split('/')[1]] ||
+        p.split('/')[1].replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 	import IconButton from '@smui/icon-button';
 	import { Icon } from '@smui/common';
 
@@ -23,7 +30,7 @@
 </script>
 
 <svelte:head>
-	<title>{!page.url.pathname[1] ? 'Home' : page.url.pathname[1].toUpperCase() + page.url.pathname.slice(2)} | League Page</title>
+	<title>{pageTitle(page.url.pathname)} | {leagueName}</title>
 </svelte:head>
 
 <style>

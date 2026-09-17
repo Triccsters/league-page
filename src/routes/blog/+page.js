@@ -1,8 +1,9 @@
 
+import { redirect } from '@sveltejs/kit';
 import { enableBlog, getBlogPosts, getLeagueTeamManagers } from '$lib/utils/helper';
 
 export function load({ url, fetch }) {
-    if(!enableBlog) return false;
+    if(!enableBlog) throw redirect(307, '/recaps');
 
     const queryPage = url?.searchParams?.get('page') || 1;
     const filterKey = url?.searchParams?.get('filter') || '';

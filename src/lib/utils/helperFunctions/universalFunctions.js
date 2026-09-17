@@ -226,6 +226,23 @@ export const getTeamNameFromTeamManagers = (teamManagers, rosterID, year) => {
     return teamManagers.teamManagersMap[year][rosterID].team.name;
 }
 
+// Real names from managers.json (generated weekly); Sleeper display name otherwise.
+import __managerNames from '$lib/data/managers.json';
+const __realName = Object.fromEntries(__managerNames.map(m => [m.managerID, m.name]));
+export const managerRealName = (teamManagers, managerID) => __realName[managerID] || teamManagers.users[managerID]?.display_name || '';
+
+// "Team name (Manager)" for a roster; just the manager when the team has no name of its own.
+export const teamWithManager = (teamManagers, rosterID, year) => {
+    if(!year || year > teamManagers.currentSeason) year = teamManagers.currentSeason;
+    const t = teamManagers.teamManagersMap[year]?.[rosterID];
+    if(!t) return '';
+    const who = (t.managers || []).map(id => managerRealName(teamManagers, id)).filter(Boolean).join(', ');
+    const handles = (t.managers || []).map(id => teamManagers.users[id]?.display_name);
+    const team = t.team?.name;
+    if(!team || handles.includes(team) || team === who) return who || team || '';
+    return who ? `${team} (${who})` : team;
+}
+
 export const renderManagerNames = (teamManagers, rosterID, year) => {
     if(!year || year > teamManagers.currentSeason) {
         year = teamManagers.currentSeason;
@@ -237,7 +254,7 @@ export const renderManagerNames = (teamManagers, rosterID, year) => {
             if(managersString != "") {
                 managersString += ", "
             }
-            managersString += manager.display_name;
+            managersString += __realName[managerID] || manager.display_name;
         }
     }
     return managersString;

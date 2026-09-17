@@ -1,5 +1,5 @@
 <script>
-	import { getAvatarFromTeamManagers, getTeamNameFromTeamManagers, gotoManager, round } from "./utils/helperFunctions/universalFunctions";
+	import { getAvatarFromTeamManagers, getTeamNameFromTeamManagers, gotoManager, round, teamWithManager, managerRealName } from "./utils/helperFunctions/universalFunctions";
 
 
     let {leagueTeamManagers, stat, label, xMin, xMax, secondStat, managerID, rosterID, color, year} = $props();
@@ -129,10 +129,10 @@
 <div class="barParent">
     <img alt="team avatar" onclick={() => gotoManager({year, leagueTeamManagers, managerID, rosterID})} style="border-color: var({color});" class="teamAvatar clickable" src="{user ? `https://sleepercdn.com/avatars/thumbs/${user.avatar}` : getAvatarFromTeamManagers(leagueTeamManagers, rosterID, year)}" />
     <span class="managerName clickable" onclick={() => gotoManager({year, leagueTeamManagers, managerID, rosterID})}>
-        {#if user}
-            {user.display_name}
-        {:else if rosterID}
-            {getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}
+        {#if rosterID}
+            {teamWithManager(leagueTeamManagers, rosterID, year)}
+        {:else if user}
+            {managerRealName(leagueTeamManagers, managerID)}
         {/if}
     </span>
     <div class="vCenter">
