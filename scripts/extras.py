@@ -703,4 +703,8 @@ def build_all(ctx):
     out["costly"] = costly["count"]
     aw = A.build_awards(ctx, ctx["history"], trades, drafts, wv)
     out["awards"] = len(aw["awards"])
+
+    import rosters as R
+    rs = R.build_rosters(ctx, rows, drafts, trades, wv)
+    out["rosters"] = len(rs["managers"])
     return out

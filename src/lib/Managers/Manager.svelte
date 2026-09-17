@@ -11,6 +11,7 @@
     import ManagerPlayers from '$lib/Charts/ManagerPlayers.svelte';
     import CostlyGames from '$lib/Charts/CostlyGames.svelte';
     import ManagerBadges from '$lib/Charts/ManagerBadges.svelte';
+    import RosterProfile from '$lib/Charts/RosterProfile.svelte';
     import { allTimeRank } from '$lib/utils/flpHistory';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
@@ -316,6 +317,7 @@
 
     {#if viewManager.handle}
         <ManagerHistory handle={viewManager.handle} />
+        <RosterProfile handle={viewManager.handle} />
         <ManagerBadges handle={viewManager.handle} />
         <ManagerPlayers handle={viewManager.handle} />
         <CostlyGames handle={viewManager.handle} />
