@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T17:05:05+00:00",
+ "generated": "2026-09-17T17:22:03+00:00",
  "season": 2026,
  "week": 2,
  "playoff": false,
@@ -7,7 +7,7 @@
   {
    "a": "YoungBuck04",
    "b": "snelson91",
-   "a_win": 49.5,
+   "a_win": 44.0,
    "rec": {
     "YoungBuck04": [
      0,
@@ -31,8 +31,8 @@
     ]
    },
    "proj": {
-    "YoungBuck04": 112.4,
-    "snelson91": 112.86
+    "YoungBuck04": 108.02,
+    "snelson91": 113.06
    },
    "h2h": {
     "YoungBuck04": 17,
@@ -60,7 +60,7 @@
   {
    "a": "Wallner",
    "b": "Jbird531",
-   "a_win": 46.3,
+   "a_win": 47.3,
    "rec": {
     "Wallner": [
      0,
@@ -84,8 +84,8 @@
     ]
    },
    "proj": {
-    "Wallner": 107.48,
-    "Jbird531": 110.62
+    "Wallner": 110.51,
+    "Jbird531": 112.78
    },
    "h2h": {
     "Wallner": 7,
@@ -112,7 +112,7 @@
   {
    "a": "butterygoop",
    "b": "TuanonStan",
-   "a_win": 62.2,
+   "a_win": 63.3,
    "rec": {
     "butterygoop": [
      1,
@@ -136,8 +136,8 @@
     ]
    },
    "proj": {
-    "butterygoop": 125.19,
-    "TuanonStan": 114.78
+    "butterygoop": 122.67,
+    "TuanonStan": 111.32
    },
    "h2h": {
     "butterygoop": 4,
@@ -162,7 +162,7 @@
   {
    "a": "triccster",
    "b": "PapaMidnight",
-   "a_win": 54.0,
+   "a_win": 49.2,
    "rec": {
     "triccster": [
      0,
@@ -186,8 +186,8 @@
     ]
    },
    "proj": {
-    "triccster": 113.38,
-    "PapaMidnight": 109.99
+    "triccster": 109.44,
+    "PapaMidnight": 110.13
    },
    "h2h": {
     "triccster": 8,
@@ -212,7 +212,7 @@
   {
    "a": "RockMNwild",
    "b": "Colt45Johnson",
-   "a_win": 49.9,
+   "a_win": 38.8,
    "rec": {
     "RockMNwild": [
      0,
@@ -236,8 +236,8 @@
     ]
    },
    "proj": {
-    "RockMNwild": 105.74,
-    "Colt45Johnson": 105.82
+    "RockMNwild": 104.94,
+    "Colt45Johnson": 114.41
    },
    "h2h": {
     "RockMNwild": 9,
@@ -262,7 +262,7 @@
   {
    "a": "brettmn13",
    "b": "thecreamer",
-   "a_win": 56.1,
+   "a_win": 56.8,
    "rec": {
     "brettmn13": [
      1,
@@ -286,8 +286,8 @@
     ]
    },
    "proj": {
-    "brettmn13": 111.76,
-    "thecreamer": 106.6
+    "brettmn13": 112.55,
+    "thecreamer": 106.8
    },
    "h2h": {
     "brettmn13": 7,

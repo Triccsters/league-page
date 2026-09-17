@@ -614,6 +614,7 @@ def main():
     ctx = {"mode": HISTORY_SOURCE, "cur": cur, "state": state, "history": history, "season": SEASON,
            "live_seasons": sorted(OLD_SEASONS, key=lambda x: x.season) + [cur],
            "dynasty": (cur.league.get("settings") or {}).get("type") == 2,
+           "odds_prior": CONFIG.get("odds_prior"),   # "current" (redraft default) or "last_season"
            "data": DATA, "static": STATIC, "vault_manual": VAULT_MANUAL,
            "write_json": write_json, "read_json": read_json, "sleeper": sleeper}
     print("extras:", extras.build_all(ctx))

@@ -294,8 +294,16 @@ def _phi(x):
 
 
 def team_models(ctx):
+    """Expected weekly score per team.
+
+    Redraft (FL Players): this season only. Rosters are redrawn every August, so
+    last season's scoring says nothing about this team, and a team with few games
+    is simply pulled toward the league average.
+    Dynasty (FL Evolution): last season counts, because the roster carried over.
+    """
     season = ctx["season"]
     games = ctx["history"]["games"]
+    use_last = ctx["dynasty"] if ctx.get("odds_prior") is None else ctx["odds_prior"] == "last_season"
     cur = defaultdict(list)
     prev = defaultdict(list)
     for s, w, _e, a, pa, b, pb, playoff, _l in games:
@@ -303,15 +311,15 @@ def team_models(ctx):
             continue
         if s == season:
             cur[a].append(pa); cur[b].append(pb)
-        elif s == season - 1:
+        elif s == season - 1 and use_last:
             prev[a].append(pa); prev[b].append(pb)
     teams = sorted(set(ctx["cur"].handle.values()))
     allcur = [x for v in cur.values() for x in v]
     allprev = [x for v in prev.values() for x in v]
     lg_prev = statistics.mean(allprev) if allprev else None
     lg_cur = statistics.mean(allcur) if allcur else lg_prev or 100.0
-    pool = allcur if len(allcur) >= 24 else allcur + allprev
-    sd = max(15.0, statistics.pstdev(pool)) if len(pool) > 5 else 25.0
+    pool = allcur if (len(allcur) >= 24 or not use_last) else allcur + allprev
+    sd = max(15.0, statistics.pstdev(pool)) if len(pool) >= 12 else 25.0
     models = {}
     for h in teams:
         xs = cur.get(h, [])
@@ -424,6 +432,7 @@ def build_odds_and_previews(ctx):
     hist = old.get("history", {}) if old.get("season") == season else {}
     hist[str(last_done)] = {r["h"]: r["playoff"] for r in rows}
     odds = {"generated": now(), "season": season, "through_week": last_done, "sims": SIMS,
+            "prior": ("last_season" if (ctx["dynasty"] if ctx.get("odds_prior") is None else ctx["odds_prior"] == "last_season") else "current_season_only"),
             "playoff_teams": n_playoff, "playoff_start": pstart, "median": median, "sd": round(sd, 1),
             "remaining_weeks": sorted(schedule), "teams": rows, "history": hist}
     ctx["write_json"](path, odds)
