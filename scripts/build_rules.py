@@ -60,7 +60,7 @@ def _settings(league):
         ("Weekly median game", "Yes, every team also plays the league median" if s.get("league_average_match") else "No"),
         ("Playoff teams", s.get("playoff_teams")),
         ("Playoffs start", f"Week {s.get('playoff_week_start')}" if s.get("playoff_week_start") else None),
-        ("Playoff format", PLAYOFF_TYPE.get(s.get("playoff_round_type"), None)),
+        ("Playoff format", PLAYOFF_TYPE.get(s.get("playoff_round_type") or 0)),
         ("Trade deadline", f"Week {s['trade_deadline']}" if s.get("trade_deadline") and s["trade_deadline"] < 99 else "None"),
         ("Waivers", WAIVER_TYPE.get(s.get("waiver_type"), s.get("waiver_type"))),
         ("FAAB budget", f"${s['waiver_budget']}" if s.get("waiver_type") == 2 else None),
