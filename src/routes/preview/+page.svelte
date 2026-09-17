@@ -46,6 +46,11 @@
                 <div class="split"><i style="width:{g.a_win}%"></i></div>
                 <span class="pb">{(100 - g.a_win).toFixed(1)}%</span>
             </div>
+            {#if g.note}
+                <div class="writeup">
+                    {#each g.note.split('\n').filter(Boolean) as para}<p>{para}</p>{/each}
+                </div>
+            {/if}
             {#if g.flags.length}
                 <ul class="flags">{#each g.flags as f}<li>🔥 {fillNames(f)}</li>{/each}</ul>
             {/if}
@@ -77,6 +82,9 @@
     .pb { color: #e74c3c; text-align: right; }
     .split { height: 10px; border-radius: 5px; background: #e74c3c; overflow: hidden; }
     .split i { display: block; height: 100%; background: #3498db; }
+    .writeup { margin: 0.5em 0 0.2em; border-left: 3px solid rgba(52,152,219,0.55); padding-left: 0.7em; }
+    .writeup p { margin: 0 0 0.4em; font-size: 0.92em; line-height: 1.5; }
+    .writeup p:last-child { margin-bottom: 0; }
     .flags { margin: 0.4em 0; padding-left: 0.2em; list-style: none; }
     .flags li { margin: 0.15em 0; font-weight: 600; }
     .meta { margin: 0.3em 0 0; font-size: 0.85em; opacity: 0.8; }

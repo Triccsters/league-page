@@ -367,6 +367,58 @@ def optimal(season, pp, roster):
     return round(total, 2)
 
 
+_STARTS = {}
+
+
+def starter_points(season, state):
+    """(handle, player_id) -> {week: points} for every week that player was started.
+
+    Built once per season so a recap can compare a starter's week against his own
+    normal output for that manager.
+    """
+    key = id(season)
+    if key not in _STARTS:
+        out = defaultdict(dict)
+        for w in season.completed_weeks(state):
+            for mm in season.matchups(w):
+                h = season.handle.get(mm.get("roster_id"))
+                if not h:
+                    continue
+                pp = mm.get("players_points") or {}
+                for p in (mm.get("starters") or []):
+                    if p and p != "0":
+                        out[(h, p)][w] = round(pp.get(p, 0) or 0, 2)
+        _STARTS[key] = out
+    return _STARTS[key]
+
+
+def shortfalls(season, m, week, hist):
+    """Starters who came in under their own normal, worst first.
+
+    A player needs two other starts for that manager this season before there is
+    anything to compare against, so early weeks return little and say nothing.
+    """
+    h = season.handle.get(m.get("roster_id"))
+    pp = m.get("players_points") or {}
+    out = []
+    for p in (m.get("starters") or []):
+        if not p or p == "0":
+            continue
+        weeks = hist.get((h, p), {})
+        other = [v for w, v in weeks.items() if w != week]
+        if len(other) < 2:
+            continue
+        avg = sum(other) / len(other)
+        got = round(pp.get(p, 0) or 0, 2)
+        if avg - got <= 0:
+            continue
+        info = season.pinfo(p)
+        out.append({"name": info["name"], "pos": info["pos"], "pts": got,
+                    "avg": round(avg, 2), "short": round(avg - got, 2)})
+    out.sort(key=lambda x: -x["short"])
+    return out
+
+
 def side(season, m, slot_of):
     pts = round(m.get("points") or 0, 2)
     pp = m.get("players_points") or {}
@@ -435,17 +487,27 @@ def h2h_line(history, a, b, before):
     return [wa, wb]
 
 
-def build_recap(season, history, week):
+def build_recap(season, history, week, state):
     path = os.path.join(RECAPS, f"{SEASON}-w{week:02d}.json")
     old = read_json(path, {}) or {}
     slot_of = kickoff_slots(week)
+    hist = starter_points(season, state)
     games = []
     for a, b in season.pairs(week):
         sa, sb = side(season, a, slot_of), side(season, b, slot_of)
+        ma, mb = a, b
         if sb["points"] > sa["points"]:
             sa, sb = sb, sa
+            ma, mb = b, a
+        margin = round(sa["points"] - sb["points"], 2)
+        # who came in under their own normal, and whether that alone explains the loss
+        short_l = shortfalls(season, mb, week, hist)
+        short_w = shortfalls(season, ma, week, hist)
         games.append({"winner": sa, "loser": sb,
-                      "margin": round(sa["points"] - sb["points"], 2),
+                      "margin": margin,
+                      "cost": [s for s in short_l[:3]],
+                      "cost_decisive": [s for s in short_l if s["short"] >= margin][:2],
+                      "won_despite": [s for s in short_w[:2] if s["avg"] and s["pts"] < s["avg"] / 2],
                       "h2h_before": h2h_line(history, sa["manager"], sb["manager"],
                                              (SEASON, week))})
     games.sort(key=lambda g: g["margin"])
@@ -646,7 +708,7 @@ def main():
             weeks.append(done[-1])
     os.makedirs(RECAPS, exist_ok=True)
     for w in weeks:
-        r = build_recap(cur, history, w)
+        r = build_recap(cur, history, w, state)
         print(f"recap week {w}: {len(r['games'])} games")
     build_index()
     print(f"managers.json: {len(build_managers(cur, history))} managers")

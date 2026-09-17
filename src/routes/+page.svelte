@@ -3,6 +3,7 @@
 	import { getNflState, leagueName, getAwards, getLeagueTeamManagers, homepageText, managers, gotoManager, enableBlog, waitForAll } from '$lib/utils/helper';
 	import { Transactions, PowerRankings, HomePost} from '$lib/components';
 	import ThisWeek from '$lib/Charts/ThisWeek.svelte';
+	import HomeHero from '$lib/Charts/HomeHero.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
     const nflState = getNflState();
@@ -139,6 +140,7 @@
 
 <div id="home">
     <div id="main">
+        <HomeHero />
         <div class="text">
             <h6>{leagueName}</h6>
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->

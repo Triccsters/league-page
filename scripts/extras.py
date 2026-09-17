@@ -356,6 +356,69 @@ def build_drafts(ctx, rows):
     return data
 
 
+# ---------------------------------------------------------------- costly games
+def build_costly(ctx, rows):
+    """Losses where one starter's shortfall was bigger than the margin.
+
+    A player's normal is his average in that manager's starting lineup that
+    season, excluding the week in question, and he needs three other starts
+    before there is anything to compare against. Nothing here is an injury
+    claim: it only says a starter came in under his own normal by more than the
+    game was lost by.
+    """
+    # started points per (season, handle, player) and per (season, week, handle)
+    by_player = defaultdict(dict)
+    for season, week, h, k, name, pos, st, pts in rows:
+        if st:
+            by_player[(season, h, k)][week] = (pts, name, pos)
+
+    lineup = defaultdict(list)
+    for season, week, h, k, name, pos, st, pts in rows:
+        if st:
+            lineup[(season, week, h)].append(k)
+
+    out = []
+    for g in ctx["history"]["games"]:
+        season, week, _era, a, pa, b, pb, playoff, label = g
+        if pa == pb:
+            continue
+        loser, lp, wp = (b, pb, pa) if pa > pb else (a, pa, pb)
+        margin = round(wp - lp, 2)
+        winner = a if pa > pb else b
+        for k in lineup.get((season, week, loser), ()):
+            weeks = by_player.get((season, loser, k), {})
+            other = [v[0] for w, v in weeks.items() if w != week]
+            if len(other) < 3:
+                continue
+            got, name, pos = weeks[week]
+            avg = sum(other) / len(other)
+            short = round(avg - got, 2)
+            if short < margin:
+                continue
+            out.append({"season": season, "week": week, "h": loser, "vs": winner,
+                        "margin": margin, "lost": round(lp, 2), "won": round(wp, 2),
+                        "n": name, "p": pos, "pts": round(got, 2), "avg": round(avg, 2),
+                        "short": short, "playoff": bool(playoff), "label": label})
+    # worst first, and only the biggest one per game
+    out.sort(key=lambda x: -x["short"])
+    seen, best = set(), []
+    for c in out:
+        key = (c["season"], c["week"], c["h"])
+        if key in seen:
+            continue
+        seen.add(key)
+        best.append(c)
+
+    per = defaultdict(list)
+    for c in best:
+        if len(per[c["h"]]) < 8:
+            per[c["h"]].append(c)
+    data = {"generated": now(), "worst": best[:40], "byManager": per,
+            "count": len(best)}
+    ctx["write_json"](os.path.join(ctx["static"], "costly.json"), data, compact=True)
+    return data
+
+
 # ---------------------------------------------------------------- odds + previews
 def _phi(x):
     return 0.5 * (1 + math.erf(x / math.sqrt(2)))
@@ -594,8 +657,23 @@ def build_odds_and_previews(ctx):
             "flags": flags,
         })
     previews.sort(key=lambda p: -len(p["flags"]))
+
+    # Hand-written copy lives in notes_extra.json and is never overwritten here:
+    #   {"<season>": {"<week>": {"league": "...", "byline": "...",
+    #                            "games": {"<handleA>--<handleB>": "..."}}}}
+    # Game keys are the two handles sorted and joined with "--".
+    extra = (ctx["read_json"](os.path.join(ctx["data"], "notes_extra.json"), {}) or {})
+    wk_notes = ((extra.get(str(season)) or {}).get(str(nxt)) or {}) if nxt else {}
+    game_notes = wk_notes.get("games") or {}
+    for p in previews:
+        key = "--".join(sorted([p["a"], p["b"]]))
+        if game_notes.get(key):
+            p["note"] = game_notes[key]
+
     pv = {"generated": now(), "season": season, "week": nxt if pairs else None,
           "playoff": bool(pairs) and nxt >= pstart, "games": previews,
+          "league_note": wk_notes.get("league") or "",
+          "byline": wk_notes.get("byline") or "",
           "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."}
     ctx["write_json"](os.path.join(ctx["data"], "previews.json"), pv)
     return odds, pv
@@ -610,6 +688,7 @@ def build_all(ctx):
     os.makedirs(ctx["static"], exist_ok=True)
     rows = collect_slots(ctx)
     out["players"] = len(build_players(ctx, rows)["players"])
+    costly = build_costly(ctx, rows)
     trades = build_trades(ctx, rows)
     out["trades"] = len(trades["trades"])
     drafts = build_drafts(ctx, rows)
@@ -621,6 +700,7 @@ def build_all(ctx):
     import awards as A
     wv = A.build_waivers(ctx, rows, drafts["picks"])
     out["pickups"] = wv["count"]
+    out["costly"] = costly["count"]
     aw = A.build_awards(ctx, ctx["history"], trades, drafts, wv)
     out["awards"] = len(aw["awards"])
     return out

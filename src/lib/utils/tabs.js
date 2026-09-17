@@ -81,6 +81,11 @@ export const tabs = [
                 dest: '/luck',
             },
             {
+                icon: 'stacked_line_chart',
+                label: 'Season Ladder',
+                dest: '/ladder',
+            },
+            {
                 icon: 'shuffle',
                 label: 'All-Play',
                 dest: '/all-play',

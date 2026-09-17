@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T19:18:40+00:00",
+ "generated": "2026-09-17T20:05:47+00:00",
  "season": 2026,
  "week": 2,
  "playoff": false,
@@ -55,7 +55,8 @@
    "flags": [
     "Rematch of the 2023 final",
     "Playoff rematch: {YoungBuck04} lost the 2025 quarterfinal"
-   ]
+   ],
+   "note": "The oldest grudge on the board. Zak leads this series 17-8 across 25 meetings, and none of that helps him here: Scott opened at 119.76 while Zak managed 94.56, and the model has Zak at 44%.\nThey have met in a final and a quarterfinal. Scott won the most recent one."
   },
   {
    "a": "Wallner",
@@ -107,7 +108,8 @@
    },
    "flags": [
     "{Jbird531} has won 3 straight in this series"
-   ]
+   ],
+   "note": "Joey has taken three in a row in this series and now gets Wallner at 0-1. The all-time ledger still favors Joey 11-7, but this is the closest line of the week at 47.3%, which is the model's way of saying the streak is not the story."
   },
   {
    "a": "butterygoop",
@@ -157,7 +159,8 @@
      "TuanonStan": 139.06
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "Anthony arrives off the league's best week and the biggest number anyone has posted this season. James is also 1-0 but got there quietly at 111.06. James leads the all-time series 8-4, which is the only thing keeping this from looking one-sided."
   },
   {
    "a": "triccster",
@@ -207,7 +210,8 @@
      "PapaMidnight": 106.76
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "Dead even at 49.2%, which is about right: both teams are 0-1 and both scored in the low 100s. T.J. leads the series 8-4 in 12 meetings. Whoever wins gets to stop worrying for a week."
   },
   {
    "a": "RockMNwild",
@@ -257,7 +261,8 @@
      "Colt45Johnson": 59.82
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "Austin's 79.16 was the worst score of week 1 and Colt's 126.5 was among the best, so the model gives Austin 38.8% and feels comfortable about it. Austin leads the all-time series 12-9, and four titles say he tends to be fine."
   },
   {
    "a": "brettmn13",
@@ -307,8 +312,11 @@
      "thecreamer": 65.92
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "Brett opened at 117.2 and Zach Nase at 88.44, which is most of the gap in this line. Zach Nase holds a 9-7 edge all-time. Brett has the most playoff appearances in league history and the schedule has been kind so far."
   }
  ],
+ "league_note": "Week 1 split the league into two moods. Anthony put 167.82 on the board, the kind of number that usually shows up in November, and Austin managed 79.16 in the same set of games. Everything in between was close enough to argue about.\nWeek 2 is where the sample starts to matter. Four of the six games sit inside a coin flip, and two of them are rematches with history attached. Nobody is buried at 0-1 and nobody has proved anything at 1-0.",
+ "byline": "Written each week from the league's own numbers.",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."
 }
