@@ -127,12 +127,11 @@
 			{/each}
 		</ul>
 	</div>
+	<span class="creator">Created by <a href="https://github.com/Triccsters">T.J. Ricci</a></span>
+	<br />
 	<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
-	<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado/league-page">League Page</a></span>
+	<span class="copyright">Based on <a href="https://github.com/nmelhado/league-page">League Page</a> &copy; 2021 - {year}</span>
 	<br />
 	<!-- PLEASE DO NOT REMOVE THE BUILT BY -->
-	<span class="creator">Built by <a href="http://www.nmelhado.com/">Nicholas Melhado</a><br /></span>
-	<!-- You can remove the donation link (although any donations to help
-	 maintain and enhance League Page would be greatly appreciated!) -->
-	Love League Page? Please consider <a href="https://www.buymeacoffee.com/nmelhado">donating</a> to support enhancements or just to say thank you!
+	<span class="creator">League Page built by <a href="http://www.nmelhado.com/">Nicholas Melhado</a></span>
 </footer>
