@@ -83,11 +83,6 @@ export const tabs = [
                 dest: '/record-book',
             },
             {
-                icon: 'person',
-                label: "T.J.'s Career",
-                dest: '/career-tj',
-            },
-            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',

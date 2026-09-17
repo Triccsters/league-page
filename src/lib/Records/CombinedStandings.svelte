@@ -2,7 +2,7 @@
     // All-time table for every manager across every platform the league has used,
     // plus a win-rate chart and a champions timeline.
     import { onMount } from 'svelte';
-    import { games, nameOf, managers, currentManagers, generated, site, hasYahoo } from '$lib/utils/flpHistory';
+    import { games, nameOf, managers, currentManagers, generated, site, hasYahoo, teamName, managerLink } from '$lib/utils/flpHistory';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { myTeam } from '$lib/utils/myTeam';
@@ -45,7 +45,7 @@
     }
 
     const list = Object.values(rows)
-        .map(r => ({ ...r, last: Math.max(...r.seasons), former: !current.has(r.h), pct: r.g ? (r.w + r.t / 2) / r.g : 0, avg: r.g ? r.pf / r.g : 0 }))
+        .map(r => ({ ...r, last: Math.max(...r.seasons), hidden: !!managers[r.h]?.hidden, former: !current.has(r.h), pct: r.g ? (r.w + r.t / 2) / r.g : 0, avg: r.g ? r.pf / r.g : 0 }))
         .sort((a, b) => b.titles.length - a.titles.length || b.pct - a.pct);
     const formerCount = list.filter(r => r.former).length;
     const pct = (x) => (x * 100).toFixed(1) + '%';
@@ -68,6 +68,8 @@
 <h2>🏈 All-time, every season ({first}–{last})</h2>
 <p class="note">One row per person{hasYahoo ? ' across Yahoo and Sleeper' : ''}. W-L is regular season only; the playoff record counts real playoff rounds, not consolation games.
     Records include the {site.season} season so far (shown in green under the record).
+    {#if site.missing_seasons?.length}No games are on record for {site.missing_seasons.join(' or ')}.{/if}
+    {#if list.some(r => r.hidden)}Teams marked "Manager hidden" are Yahoo teams whose owner Yahoo no longer shows; they are listed by team name.{/if}
     {#if formerCount}Faded rows marked <span class="ftag">Left league in …</span> are managers no longer in the league.{/if}</p>
 {#if formerCount}
     <label class="toggle"><input type="checkbox" bind:checked={showFormer} /> Show {formerCount} former manager{formerCount > 1 ? 's' : ''}</label>
@@ -83,7 +85,7 @@
         {#each shown as r, i}
             <tr class:mine={ready && r.h === $myTeam} class:former={r.former}>
                 <td>{i + 1}</td>
-                <td><b>{nameOf(r.h)}</b>{#if r.former}<span class="ftag">Left league in {r.last + 1}</span>{/if}{#if managers[r.h]?.yahoo && managers[r.h].yahoo !== nameOf(r.h)} <small>({managers[r.h].yahoo} on Yahoo)</small>{/if}<YourTeamBadge handle={r.h} size="small" /></td>
+                <td>{#if managerLink(r.h)}<a class="mlink" href={managerLink(r.h)}><b>{nameOf(r.h)}</b></a>{:else}<b>{nameOf(r.h)}</b>{/if}{#if r.hidden}<span class="ftag">Manager hidden on Yahoo</span>{:else if r.former}<span class="ftag">Left league in {r.last + 1}</span>{/if}{#if managers[r.h]?.yahoo && managers[r.h].yahoo !== nameOf(r.h)} <small>({managers[r.h].yahoo} on Yahoo)</small>{/if}<YourTeamBadge handle={r.h} size="small" /></td>
                 <td>{r.seasons.size}</td>
                 <td>{r.w}-{r.l}{r.t ? `-${r.t}` : ''}{#if r.live[0] + r.live[1]}<span class="live">{r.live[0]}-{r.live[1]} in {site.season}</span>{/if}</td>
                 <td>{pct(r.pct)}</td>
@@ -121,8 +123,9 @@
             {@const c = champs[s]}
             <div class="final" class:mine={ready && (c.winner === $myTeam || c.loser === $myTeam)}>
                 <span class="yr">{s}</span>
-                <b>🏆 {nameOf(c.winner)}{#if !current.has(c.winner)} <span class="ftag">FORMER</span>{/if}</b>
-                <span class="ru">over {nameOf(c.loser)}{!current.has(c.loser) ? ' (former)' : ''}</span>
+                <b>🏆 {nameOf(c.winner)}</b>
+                {#if teamName(s, c.winner) && teamName(s, c.winner) !== nameOf(c.winner)}<span class="tn">{teamName(s, c.winner)}</span>{/if}
+                <span class="ru">over {nameOf(c.loser)}{teamName(s, c.loser) && teamName(s, c.loser) !== nameOf(c.loser) ? ` (${teamName(s, c.loser)})` : ''}</span>
                 <span class="sc">{c.score}</span>
             </div>
         {/each}
@@ -150,4 +153,7 @@
     .final.mine { border-color: #27ae60; }
     .yr { opacity: 0.7; font-size: 0.85em; }
     .ru, .sc { opacity: 0.75; font-size: 0.85em; }
+    .tn { font-size: 0.8em; font-style: italic; opacity: 0.85; }
+    .mlink { color: inherit; text-decoration: none; }
+    .mlink:hover b { color: #3498db; }
 </style>

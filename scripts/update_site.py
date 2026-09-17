@@ -58,6 +58,7 @@ MANAGERS = {
     "YoungBuck04": ("Zak", "zak"), "butterygoop": ("Anthony", "Anthony"),
     "PapaMidnight": ("Mikey", "Mikey"), "thecreamer": ("Zach Nase", "zach"),
     "J Rock": ("J Rock", "J Rock"), "Tyler": ("Tyler", "Tyler"),
+    "DJ": ("DJ", "DJ"), "Mitchell": ("Mitchell", "Mitchell"),
 }
 
 ELIG = {"QB": {"QB"}, "RB": {"RB"}, "WR": {"WR"}, "TE": {"TE"}, "K": {"K"},
@@ -93,6 +94,8 @@ def read_json(path, default=None):
 
 
 def real_name(handle):
+    if handle.startswith("?"):          # Yahoo hid this manager; the key is the team name
+        return handle[1:]
     return MANAGERS.get(handle, (handle,))[0]
 
 
@@ -239,9 +242,26 @@ class Season:
 # ---------------------------------------------------------------- history
 def build_history(cur, state):
     games = []
+    team_names = defaultdict(dict)       # season -> handle -> team name
     if HISTORY_SOURCE == "vault":
         sys.path.insert(0, VAULT_MANUAL)
         import flp  # noqa: E402  (vault data layer)
+        import yahoo_pre2014  # noqa: E402  (2008, 2010, 2012, 2013)
+        import yahoo_standings as YS  # noqa: E402
+        games += yahoo_pre2014.games()
+        for season, names in yahoo_pre2014.team_names().items():
+            team_names[season].update(names)
+        for season, teams in YS.TEAM_TO_MANAGER.items():
+            for team, first in teams.items():
+                team_names[int(season)][flp.person(first)] = team
+        for season in flp.SLEEPER_SEASONS:
+            try:
+                blob = flp._sleeper_blob(season)
+            except OSError:
+                continue
+            for u in blob["users"]:
+                h = flp.CANON_SLEEPER.get(u["display_name"], u["display_name"])
+                team_names[season][h] = (u.get("metadata") or {}).get("team_name") or u["display_name"]
         for g in flp.games():
             if g.season >= SEASON:
                 continue
@@ -258,14 +278,20 @@ def build_history(cur, state):
                 handle_by_user.setdefault(uid, u["display_name"])
             old = Season(prev, handle_by_user)
             games = old.games(old.completed_weeks(state)) + games
+            for rid, h in old.handle.items():
+                team_names[old.season][h] = old.team_name.get(old.owner.get(rid)) or h
             print(f"  {old.season}: read from Sleeper")
             prev = old.league.get("previous_league_id")
     games += cur.games(cur.completed_weeks(state))
     games.sort(key=lambda g: (g[0], g[1]))
+    for rid, h in cur.handle.items():
+        team_names[cur.season][h] = cur.team_name.get(cur.owner.get(rid)) or h
+    played = {g[0] for g in games}
 
     people = sorted({g[3] for g in games} | {g[5] for g in games} | set(cur.handle.values()))
     managers = {h: {"name": real_name(h),
-                    "yahoo": MANAGERS[h][1] if h in MANAGERS and HISTORY_SOURCE == "vault" else None}
+                    "yahoo": MANAGERS[h][1] if h in MANAGERS and HISTORY_SOURCE == "vault" else None,
+                    "hidden": h.startswith("?")}
                 for h in people}
     eras = sorted({g[2] for g in games})
     out = {
@@ -279,7 +305,9 @@ def build_history(cur, state):
                              max(g[0] for g in games if g[2] == "yahoo")]
                             if "yahoo" in eras else None),
             "sleeper_from": min((g[0] for g in games if g[2] == "sleeper"), default=SEASON),
+            "missing_seasons": [y for y in range(min(played, default=SEASON), SEASON) if y not in played],
         },
+        "team_names": {str(k): v for k, v in sorted(team_names.items())},
         "fields": ["season", "week", "era", "a", "pa", "b", "pb", "playoff", "label"],
         "managers": managers,
         "current": sorted(set(cur.handle.values())),

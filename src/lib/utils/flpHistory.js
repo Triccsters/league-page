@@ -13,6 +13,14 @@ export const games = history.games.map(([season, week, era, a, pa, b, pb, playof
 
 export const nameOf = (handle) => managers[handle]?.name || handle;
 
+// Team name a manager used in a given season (all eras), when known.
+export const teamName = (season, handle) => history.team_names?.[String(season)]?.[handle] || null;
+
+// Manager page link for anyone still in the league (the Managers pages only cover current managers).
+import managersList from '$lib/data/managers.json';
+const pageIndex = Object.fromEntries(managersList.map((m, i) => [m.handle, i]));
+export const managerLink = (handle) => (handle in pageIndex ? `/manager?manager=${pageIndex[handle]}` : null);
+
 // Plain code-point order, so it matches the links scripts/update_site.py writes.
 export const slugFor = (x, y) => [x, y].sort().join('--');
 
