@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T18:56:43+00:00",
+ "generated": "2026-09-17T19:09:58+00:00",
  "season": 2026,
  "through_week": 1,
  "sims": 10000,
@@ -52,7 +52,8 @@
     "Wallner",
     "TuanonStan",
     "triccster"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "Colt45Johnson",
@@ -82,7 +83,8 @@
     "YoungBuck04",
     "RockMNwild",
     "thecreamer"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "snelson91",
@@ -112,7 +114,8 @@
     "thecreamer",
     "YoungBuck04",
     "brettmn13"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "Jbird531",
@@ -142,7 +145,8 @@
     "triccster",
     "Wallner",
     "PapaMidnight"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "brettmn13",
@@ -172,7 +176,8 @@
     "RockMNwild",
     "thecreamer",
     "snelson91"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "TuanonStan",
@@ -202,7 +207,8 @@
     "PapaMidnight",
     "butterygoop",
     "Wallner"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "Wallner",
@@ -232,7 +238,8 @@
     "butterygoop",
     "Jbird531",
     "TuanonStan"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "PapaMidnight",
@@ -262,7 +269,8 @@
     "TuanonStan",
     "triccster",
     "Jbird531"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "triccster",
@@ -292,7 +300,8 @@
     "Jbird531",
     "PapaMidnight",
     "butterygoop"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "YoungBuck04",
@@ -322,7 +331,8 @@
     "Colt45Johnson",
     "snelson91",
     "RockMNwild"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "thecreamer",
@@ -352,7 +362,8 @@
     "snelson91",
     "brettmn13",
     "Colt45Johnson"
-   ]
+   ],
+   "tau": 9.63
   },
   {
    "h": "RockMNwild",
@@ -382,7 +393,8 @@
     "brettmn13",
     "Colt45Johnson",
     "YoungBuck04"
-   ]
+   ],
+   "tau": 9.63
   }
  ],
  "history": {
@@ -400,5 +412,346 @@
    "thecreamer": 28.2,
    "RockMNwild": 24.5
   }
- }
+ },
+ "schedule": {
+  "2": [
+   [
+    "Wallner",
+    "Jbird531"
+   ],
+   [
+    "butterygoop",
+    "TuanonStan"
+   ],
+   [
+    "triccster",
+    "PapaMidnight"
+   ],
+   [
+    "YoungBuck04",
+    "snelson91"
+   ],
+   [
+    "RockMNwild",
+    "Colt45Johnson"
+   ],
+   [
+    "brettmn13",
+    "thecreamer"
+   ]
+  ],
+  "3": [
+   [
+    "Wallner",
+    "TuanonStan"
+   ],
+   [
+    "butterygoop",
+    "triccster"
+   ],
+   [
+    "YoungBuck04",
+    "RockMNwild"
+   ],
+   [
+    "Jbird531",
+    "PapaMidnight"
+   ],
+   [
+    "Colt45Johnson",
+    "thecreamer"
+   ],
+   [
+    "brettmn13",
+    "snelson91"
+   ]
+  ],
+  "4": [
+   [
+    "Wallner",
+    "triccster"
+   ],
+   [
+    "butterygoop",
+    "PapaMidnight"
+   ],
+   [
+    "TuanonStan",
+    "Jbird531"
+   ],
+   [
+    "YoungBuck04",
+    "thecreamer"
+   ],
+   [
+    "RockMNwild",
+    "snelson91"
+   ],
+   [
+    "Colt45Johnson",
+    "brettmn13"
+   ]
+  ],
+  "5": [
+   [
+    "Wallner",
+    "PapaMidnight"
+   ],
+   [
+    "butterygoop",
+    "Jbird531"
+   ],
+   [
+    "TuanonStan",
+    "triccster"
+   ],
+   [
+    "YoungBuck04",
+    "brettmn13"
+   ],
+   [
+    "RockMNwild",
+    "thecreamer"
+   ],
+   [
+    "Colt45Johnson",
+    "snelson91"
+   ]
+  ],
+  "6": [
+   [
+    "Wallner",
+    "YoungBuck04"
+   ],
+   [
+    "butterygoop",
+    "Colt45Johnson"
+   ],
+   [
+    "TuanonStan",
+    "RockMNwild"
+   ],
+   [
+    "triccster",
+    "thecreamer"
+   ],
+   [
+    "Jbird531",
+    "snelson91"
+   ],
+   [
+    "PapaMidnight",
+    "brettmn13"
+   ]
+  ],
+  "7": [
+   [
+    "Wallner",
+    "Colt45Johnson"
+   ],
+   [
+    "butterygoop",
+    "YoungBuck04"
+   ],
+   [
+    "TuanonStan",
+    "brettmn13"
+   ],
+   [
+    "triccster",
+    "snelson91"
+   ],
+   [
+    "RockMNwild",
+    "PapaMidnight"
+   ],
+   [
+    "Jbird531",
+    "thecreamer"
+   ]
+  ],
+  "8": [
+   [
+    "Wallner",
+    "snelson91"
+   ],
+   [
+    "butterygoop",
+    "thecreamer"
+   ],
+   [
+    "TuanonStan",
+    "YoungBuck04"
+   ],
+   [
+    "triccster",
+    "brettmn13"
+   ],
+   [
+    "RockMNwild",
+    "Jbird531"
+   ],
+   [
+    "PapaMidnight",
+    "Colt45Johnson"
+   ]
+  ],
+  "9": [
+   [
+    "Wallner",
+    "thecreamer"
+   ],
+   [
+    "butterygoop",
+    "snelson91"
+   ],
+   [
+    "TuanonStan",
+    "Colt45Johnson"
+   ],
+   [
+    "triccster",
+    "RockMNwild"
+   ],
+   [
+    "YoungBuck04",
+    "PapaMidnight"
+   ],
+   [
+    "Jbird531",
+    "brettmn13"
+   ]
+  ],
+  "10": [
+   [
+    "Wallner",
+    "RockMNwild"
+   ],
+   [
+    "butterygoop",
+    "brettmn13"
+   ],
+   [
+    "TuanonStan",
+    "snelson91"
+   ],
+   [
+    "triccster",
+    "Colt45Johnson"
+   ],
+   [
+    "YoungBuck04",
+    "Jbird531"
+   ],
+   [
+    "PapaMidnight",
+    "thecreamer"
+   ]
+  ],
+  "11": [
+   [
+    "Wallner",
+    "brettmn13"
+   ],
+   [
+    "butterygoop",
+    "RockMNwild"
+   ],
+   [
+    "TuanonStan",
+    "thecreamer"
+   ],
+   [
+    "triccster",
+    "YoungBuck04"
+   ],
+   [
+    "Jbird531",
+    "Colt45Johnson"
+   ],
+   [
+    "PapaMidnight",
+    "snelson91"
+   ]
+  ],
+  "12": [
+   [
+    "Wallner",
+    "butterygoop"
+   ],
+   [
+    "TuanonStan",
+    "PapaMidnight"
+   ],
+   [
+    "triccster",
+    "Jbird531"
+   ],
+   [
+    "YoungBuck04",
+    "Colt45Johnson"
+   ],
+   [
+    "RockMNwild",
+    "brettmn13"
+   ],
+   [
+    "snelson91",
+    "thecreamer"
+   ]
+  ],
+  "13": [
+   [
+    "Wallner",
+    "Jbird531"
+   ],
+   [
+    "butterygoop",
+    "TuanonStan"
+   ],
+   [
+    "triccster",
+    "PapaMidnight"
+   ],
+   [
+    "YoungBuck04",
+    "snelson91"
+   ],
+   [
+    "RockMNwild",
+    "Colt45Johnson"
+   ],
+   [
+    "brettmn13",
+    "thecreamer"
+   ]
+  ],
+  "14": [
+   [
+    "Wallner",
+    "TuanonStan"
+   ],
+   [
+    "butterygoop",
+    "triccster"
+   ],
+   [
+    "YoungBuck04",
+    "RockMNwild"
+   ],
+   [
+    "Jbird531",
+    "PapaMidnight"
+   ],
+   [
+    "Colt45Johnson",
+    "thecreamer"
+   ],
+   [
+    "brettmn13",
+    "snelson91"
+   ]
+  ]
+ },
+ "bye_teams": 2
 }

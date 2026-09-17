@@ -48,6 +48,11 @@ export const tabs = [
                 dest: '/odds',
             },
             {
+                icon: 'alt_route',
+                label: 'What If',
+                dest: '/what-if',
+            },
+            {
                 icon: 'visibility',
                 label: 'Week Preview',
                 dest: '/preview',

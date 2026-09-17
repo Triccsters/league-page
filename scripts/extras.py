@@ -514,7 +514,8 @@ def build_odds_and_previews(ctx):
     rows = [{"h": h, "w": rec[h][0], "l": rec[h][1], "pf": round(rec[h][2], 2), "mu": models[h]["mu"],
              "proj_w": round(wins_sum[h] / SIMS, 1), "playoff": pct(h, "playoff"), "bye": pct(h, "bye"),
              "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last"),
-             "sos_faced": sos[h]["faced"], "sos_rest": sos[h]["rest"], "rest_opponents": sos[h]["opponents"]} for h in teams]
+             "sos_faced": sos[h]["faced"], "sos_rest": sos[h]["rest"], "rest_opponents": sos[h]["opponents"],
+             "tau": round(models[h]["tau"], 3)} for h in teams]
     rows.sort(key=lambda r: (-r["playoff"], -r["title"], -r["proj_w"]))
 
     path = os.path.join(ctx["data"], "odds.json")
@@ -524,7 +525,10 @@ def build_odds_and_previews(ctx):
     odds = {"generated": now(), "season": season, "through_week": last_done, "sims": SIMS,
             "prior": ("last_season" if (ctx["dynasty"] if ctx.get("odds_prior") is None else ctx["odds_prior"] == "last_season") else "current_season_only"),
             "playoff_teams": n_playoff, "playoff_start": pstart, "median": median, "sd": round(sd, 1),
-            "remaining_weeks": sorted(schedule), "teams": rows, "history": hist}
+            "remaining_weeks": sorted(schedule), "teams": rows, "history": hist,
+            # the games still to play, so the what-if page can re-run the model in the browser
+            "schedule": {str(w): [[a, b] for a, b in pairs] for w, pairs in sorted(schedule.items())},
+            "bye_teams": n_playoff - 4 if n_playoff > 4 else 0}
     ctx["write_json"](path, odds)
 
     # previews for the next week
