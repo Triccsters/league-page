@@ -13,6 +13,9 @@ export const games = history.games.map(([season, week, era, a, pa, b, pb, playof
 
 export const nameOf = (handle) => managers[handle]?.name || handle;
 
+// Preview flags carry {handle} placeholders; swap in display names.
+export const fillNames = (text) => String(text).replace(/\{([^}]+)\}/g, (_, h) => nameOf(h));
+
 // Team name a manager used in a given season (all eras), when known.
 export const teamName = (season, handle) => history.team_names?.[String(season)]?.[handle] || null;
 

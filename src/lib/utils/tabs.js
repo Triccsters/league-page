@@ -83,6 +83,36 @@ export const tabs = [
                 dest: '/record-book',
             },
             {
+                icon: 'percent',
+                label: 'Playoff Odds',
+                dest: '/odds',
+            },
+            {
+                icon: 'visibility',
+                label: 'Week Preview',
+                dest: '/preview',
+            },
+            {
+                icon: 'handshake',
+                label: 'Trade Grades',
+                dest: '/trade-grades',
+            },
+            {
+                icon: 'grading',
+                label: 'Draft Grades',
+                dest: '/draft-grades',
+            },
+            {
+                icon: 'casino',
+                label: 'Luck Meter',
+                dest: '/luck',
+            },
+            {
+                icon: 'person_search',
+                label: 'Player History',
+                dest: '/players',
+            },
+            {
                 icon: 'view_comfy',
                 label: 'Drafts',
                 dest: '/drafts',

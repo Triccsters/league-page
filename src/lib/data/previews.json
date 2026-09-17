@@ -1,0 +1,314 @@
+{
+ "generated": "2026-09-17T17:05:05+00:00",
+ "season": 2026,
+ "week": 2,
+ "playoff": false,
+ "games": [
+  {
+   "a": "YoungBuck04",
+   "b": "snelson91",
+   "a_win": 49.5,
+   "rec": {
+    "YoungBuck04": [
+     0,
+     1
+    ],
+    "snelson91": [
+     1,
+     0
+    ]
+   },
+   "avg": {
+    "YoungBuck04": 94.56,
+    "snelson91": 119.76
+   },
+   "last3": {
+    "YoungBuck04": [
+     94.56
+    ],
+    "snelson91": [
+     119.76
+    ]
+   },
+   "proj": {
+    "YoungBuck04": 112.4,
+    "snelson91": 112.86
+   },
+   "h2h": {
+    "YoungBuck04": 17,
+    "snelson91": 8,
+    "games": 25
+   },
+   "streak": [
+    "snelson91",
+    2
+   ],
+   "last": {
+    "season": 2025,
+    "week": 15,
+    "label": "Quarterfinal",
+    "score": {
+     "YoungBuck04": 82.2,
+     "snelson91": 129.16
+    }
+   },
+   "flags": [
+    "Rematch of the 2023 final",
+    "Playoff rematch: {YoungBuck04} lost the 2025 quarterfinal"
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "Jbird531",
+   "a_win": 46.3,
+   "rec": {
+    "Wallner": [
+     0,
+     1
+    ],
+    "Jbird531": [
+     1,
+     0
+    ]
+   },
+   "avg": {
+    "Wallner": 107.0,
+    "Jbird531": 118.36
+   },
+   "last3": {
+    "Wallner": [
+     107.0
+    ],
+    "Jbird531": [
+     118.36
+    ]
+   },
+   "proj": {
+    "Wallner": 107.48,
+    "Jbird531": 110.62
+   },
+   "h2h": {
+    "Wallner": 7,
+    "Jbird531": 11,
+    "games": 18
+   },
+   "streak": [
+    "Jbird531",
+    3
+   ],
+   "last": {
+    "season": 2025,
+    "week": 16,
+    "label": "Consolation R2",
+    "score": {
+     "Wallner": 97.7,
+     "Jbird531": 111.46
+    }
+   },
+   "flags": [
+    "{Jbird531} has won 3 straight in this series"
+   ]
+  },
+  {
+   "a": "butterygoop",
+   "b": "TuanonStan",
+   "a_win": 62.2,
+   "rec": {
+    "butterygoop": [
+     1,
+     0
+    ],
+    "TuanonStan": [
+     1,
+     0
+    ]
+   },
+   "avg": {
+    "butterygoop": 167.82,
+    "TuanonStan": 111.06
+   },
+   "last3": {
+    "butterygoop": [
+     167.82
+    ],
+    "TuanonStan": [
+     111.06
+    ]
+   },
+   "proj": {
+    "butterygoop": 125.19,
+    "TuanonStan": 114.78
+   },
+   "h2h": {
+    "butterygoop": 4,
+    "TuanonStan": 8,
+    "games": 12
+   },
+   "streak": [
+    "TuanonStan",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 14,
+    "label": null,
+    "score": {
+     "butterygoop": 89.28,
+     "TuanonStan": 139.06
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "triccster",
+   "b": "PapaMidnight",
+   "a_win": 54.0,
+   "rec": {
+    "triccster": [
+     0,
+     1
+    ],
+    "PapaMidnight": [
+     0,
+     1
+    ]
+   },
+   "avg": {
+    "triccster": 101.66,
+    "PapaMidnight": 105.1
+   },
+   "last3": {
+    "triccster": [
+     101.66
+    ],
+    "PapaMidnight": [
+     105.1
+    ]
+   },
+   "proj": {
+    "triccster": 113.38,
+    "PapaMidnight": 109.99
+   },
+   "h2h": {
+    "triccster": 8,
+    "PapaMidnight": 4,
+    "games": 12
+   },
+   "streak": [
+    "triccster",
+    2
+   ],
+   "last": {
+    "season": 2025,
+    "week": 7,
+    "label": null,
+    "score": {
+     "triccster": 114.02,
+     "PapaMidnight": 106.76
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "RockMNwild",
+   "b": "Colt45Johnson",
+   "a_win": 49.9,
+   "rec": {
+    "RockMNwild": [
+     0,
+     1
+    ],
+    "Colt45Johnson": [
+     1,
+     0
+    ]
+   },
+   "avg": {
+    "RockMNwild": 79.16,
+    "Colt45Johnson": 126.5
+   },
+   "last3": {
+    "RockMNwild": [
+     79.16
+    ],
+    "Colt45Johnson": [
+     126.5
+    ]
+   },
+   "proj": {
+    "RockMNwild": 105.74,
+    "Colt45Johnson": 105.82
+   },
+   "h2h": {
+    "RockMNwild": 9,
+    "Colt45Johnson": 12,
+    "games": 21
+   },
+   "streak": [
+    "RockMNwild",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 14,
+    "label": null,
+    "score": {
+     "RockMNwild": 84.26,
+     "Colt45Johnson": 59.82
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "brettmn13",
+   "b": "thecreamer",
+   "a_win": 56.1,
+   "rec": {
+    "brettmn13": [
+     1,
+     0
+    ],
+    "thecreamer": [
+     0,
+     1
+    ]
+   },
+   "avg": {
+    "brettmn13": 117.2,
+    "thecreamer": 88.44
+   },
+   "last3": {
+    "brettmn13": [
+     117.2
+    ],
+    "thecreamer": [
+     88.44
+    ]
+   },
+   "proj": {
+    "brettmn13": 111.76,
+    "thecreamer": 106.6
+   },
+   "h2h": {
+    "brettmn13": 7,
+    "thecreamer": 9,
+    "games": 16
+   },
+   "streak": [
+    "brettmn13",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 13,
+    "label": null,
+    "score": {
+     "brettmn13": 97.22,
+     "thecreamer": 65.92
+    }
+   },
+   "flags": []
+  }
+ ],
+ "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."
+}

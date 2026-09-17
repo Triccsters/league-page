@@ -32,10 +32,13 @@ from collections import defaultdict
 from datetime import datetime, timezone
 
 from build_rules import build_rules  # same folder
+import extras  # same folder
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(REPO, "src", "lib", "data")
 RECAPS = os.path.join(DATA, "recaps")
+STATIC = os.path.join(REPO, "static", "data")   # big files, fetched by the pages at runtime
+OLD_SEASONS = []                                 # past Sleeper seasons read this run (sleeper mode)
 CONFIG = json.load(open(os.path.join(REPO, "scripts", "site_config.json"), encoding="utf-8"))
 
 LEAGUE_ID = CONFIG["league_id"]
@@ -79,10 +82,13 @@ def sleeper(path):
     return get("https://api.sleeper.app/v1" + path)
 
 
-def write_json(path, obj):
+def write_json(path, obj, compact=False):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=1)
+        if compact:
+            json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+        else:
+            json.dump(obj, f, ensure_ascii=False, indent=1)
         f.write("\n")
 
 
@@ -275,9 +281,10 @@ def build_history(cur, state):
         while prev and prev != "0":
             old = Season(prev, handle_by_user)
             for uid, u in old.users.items():
-                handle_by_user.setdefault(uid, u["display_name"])
+                handle_by_user.setdefault(uid, CANON.get(u["display_name"], u["display_name"]))
             old = Season(prev, handle_by_user)
             games = old.games(old.completed_weeks(state)) + games
+            OLD_SEASONS.append(old)
             for rid, h in old.handle.items():
                 team_names[old.season][h] = old.team_name.get(old.owner.get(rid)) or h
             print(f"  {old.season}: read from Sleeper")
@@ -604,8 +611,15 @@ def main():
     print(f"rules.json: {sum(len(h['changes']) for h in rules['history'])} rule changes "
           f"since {rules['first_sleeper_season']}")
 
+    ctx = {"mode": HISTORY_SOURCE, "cur": cur, "state": state, "history": history, "season": SEASON,
+           "live_seasons": sorted(OLD_SEASONS, key=lambda x: x.season) + [cur],
+           "dynasty": (cur.league.get("settings") or {}).get("type") == 2,
+           "data": DATA, "static": STATIC, "vault_manual": VAULT_MANUAL,
+           "write_json": write_json, "read_json": read_json, "sleeper": sleeper}
+    print("extras:", extras.build_all(ctx))
+
     if args.push:
-        subprocess.run(["git", "-C", REPO, "add", "src/lib/data"], check=True)
+        subprocess.run(["git", "-C", REPO, "add", "src/lib/data", "static/data"], check=True)
         diff = subprocess.run(["git", "-C", REPO, "diff", "--cached", "--quiet"])
         if diff.returncode == 0:
             print("nothing changed, no push")

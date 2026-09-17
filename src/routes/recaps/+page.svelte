@@ -11,6 +11,8 @@
     <p class="sub">Every week: results, the closest game, the biggest bench mistake, and a timeline of how each matchup played out.</p>
 
     <div class="links">
+        <a href="/preview">Next week's preview →</a>
+        <a href="/odds">Playoff odds →</a>
         <a href="/timeline">Live matchup timeline →</a>
         <a href="/rivalries">All-time rivalries →</a>
     </div>
