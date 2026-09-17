@@ -105,7 +105,12 @@ class Season:
         cur = self.state.get("display_week") or self.state.get("week") or 1
         if self.state.get("season_type") != "regular":
             cur = 19
-        return list(range(1, min(cur, 18)))
+        weeks = list(range(1, min(cur, 18)))
+        # Sleeper may not have advanced its week yet on Tuesday morning; if every
+        # game of its current week is final on ESPN, that week is done too.
+        if cur <= 18 and cur not in weeks and week_is_final(cur):
+            weeks.append(cur)
+        return weeks
 
     def matchups(self, week):
         if week not in self._matchups:
@@ -180,6 +185,16 @@ def build_history(season):
 
 
 # ---------------------------------------------------------------- recap
+def week_is_final(week):
+    try:
+        sb = get("https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
+                 f"scoreboard?week={week}&seasontype=2&dates={SEASON}")
+    except Exception:
+        return False
+    evs = sb.get("events", [])
+    return bool(evs) and all(ev["status"]["type"].get("completed") for ev in evs)
+
+
 def kickoff_slots(week):
     """Team abbreviation -> Wed/Thu/Sun early/Sun late/SNF/MNF from ESPN."""
     sb = get("https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
