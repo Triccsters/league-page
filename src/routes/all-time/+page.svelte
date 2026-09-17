@@ -7,8 +7,6 @@
 
 <div class="holder">
     <h1>All-Time Stats</h1>
-
-    <CombinedStandings />
     <CombinedStandings />
     <p class="more">Single-game and season records are in the <a href="/record-book">Record Book</a>. Head-to-head history is in <a href="/rivalries">Rivalries</a>.</p>
 </div>

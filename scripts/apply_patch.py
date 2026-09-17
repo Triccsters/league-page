@@ -47,13 +47,6 @@ edit(p, "\timport BarChart from '$lib/BarChart.svelte';",
 edit(p, "        <BarChart {graphs} bind:curGraph={curGraph} {leagueTeamManagers} />\n    </div>",
      "        <BarChart {graphs} bind:curGraph={curGraph} {leagueTeamManagers} />\n    </div>\n    <PowerRankingsExplainer />")
 
-# all-time page: combined table + charts at the top
-p = "src/routes/all-time/+page.svelte"
-edit(p, "<script>\n    export let data;",
-     "<script>\n    import CombinedStandings from '$lib/Records/CombinedStandings.svelte';\n    export let data;", optional=True)
-edit(p, "    <h1>All-Time Stats</h1>\n",
-     "    <h1>All-Time Stats</h1>\n\n    <CombinedStandings />\n", optional=True)
-
 # leagueInfo: managers come from the generated file
 p = "src/lib/utils/leagueInfo.js"
 s = io.open(p, encoding="utf-8").read()
@@ -72,7 +65,7 @@ p = "src/lib/Footer.svelte"
 s = io.open(p, encoding="utf-8").read()
 i = s.index("\t<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->") if "<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->" in s else None
 j = s.find('\t<span class="creator">Created by')
-cut = j if j != -1 else i
+cut = i if i is not None else j
 s = s[:cut] + '''\t<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
 \t<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado/league-page">League Page</a></span>
 \t<br />
