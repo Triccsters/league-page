@@ -4,6 +4,7 @@
 	import { Transactions, PowerRankings, HomePost} from '$lib/components';
 	import ThisWeek from '$lib/Charts/ThisWeek.svelte';
 	import HomeHero from '$lib/Charts/HomeHero.svelte';
+	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
     const nflState = getNflState();
@@ -140,7 +141,6 @@
 
 <div id="home">
     <div id="main">
-        <HomeHero />
         <div class="text">
             <h6>{leagueName}</h6>
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
@@ -150,8 +150,10 @@
                 <HomePost />
             {/if}
         </div>
+        <HomeHero />
         <PowerRankings />
         <ThisWeek />
+        <HelpWanted />
     </div>
     
     <div class="leagueData">
