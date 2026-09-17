@@ -25,11 +25,23 @@ def build_waivers(ctx, rows, picks):
     idx = started_index(rows)
     drafted = {(p[0], p[3], pkey(p[4])) for p in picks}     # season, manager, player
     adds = []                                               # season, manager, player, faab, era
+    yval = {}                                               # yahoo-era points, which idx does not carry
     if ctx["mode"] == "vault":
         import flp
         for t in flp.txns():
             if t.kind == "add" and t.season < ctx["season"]:
                 adds.append((t.season, t.manager, flp.norm_player(t.player), t.faab, t.era))
+        try:
+            from extras import yahoo_era
+            import yahoo_txns as YT
+            ye = yahoo_era(ctx)
+            if ye:
+                for season, h, name, _pos, pts, starts, _w in ye[0]:
+                    yval[(season, h, pkey(name))] = (round(pts, 2), starts)
+                for season, h, name, _was_waiver in YT.adds():
+                    adds.append((season, h, name, None, "yahoo"))
+        except Exception:
+            pass
     for S in ctx["live_seasons"]:
         if ctx["mode"] == "vault" and S.season != ctx["season"]:
             continue
@@ -53,11 +65,17 @@ def build_waivers(ctx, rows, picks):
         if (season, h, k) in drafted or (season, h, k) in seen:
             continue
         seen.add((season, h, k))
-        pts, starts = 0.0, 0
-        for s, w, p in idx.get((h, k), ()):
-            if s == season:
-                pts += p
-                starts += 1
+        # 2008-2013 was scraped as season totals per team, not week by week, so it
+        # is looked up directly. The era label is not a safe test: the vault marks
+        # later seasons "yahoo" too.
+        if (season, h, k) in yval:
+            pts, starts = yval[(season, h, k)]
+        else:
+            pts, starts = 0.0, 0
+            for s, w, p in idx.get((h, k), ()):
+                if s == season:
+                    pts += p
+                    starts += 1
         pickups.append({"season": season, "h": h, "n": name, "faab": faab, "era": era,
                         "pts": round(pts, 2), "st": starts})
     per = defaultdict(lambda: {"adds": 0, "pts": 0.0, "faab": 0, "bids": 0, "hits": 0})
