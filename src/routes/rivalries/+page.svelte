@@ -1,8 +1,14 @@
 <script>
+    import { onMount } from 'svelte';
     import { currentPairs, nameOf, currentManagers, generated } from '$lib/utils/flpHistory';
 
     const pairs = currentPairs();
     let who = '';
+    // /rivalries?who=<sleeper handle> opens pre-filtered (used by the manager pages)
+    onMount(() => {
+        const w = new URLSearchParams(window.location.search).get('who');
+        if (w && currentManagers.includes(w)) who = w;
+    });
     $: shown = who ? pairs.filter(p => p.x === who || p.y === who) : pairs;
     const people = [...currentManagers].sort((a, b) => nameOf(a).localeCompare(nameOf(b)));
 </script>

@@ -11,7 +11,8 @@ export const games = history.games.map(([season, week, era, a, pa, b, pb, playof
 
 export const nameOf = (handle) => managers[handle]?.name || handle;
 
-export const slugFor = (x, y) => [x, y].sort((p, q) => p.localeCompare(q)).join('--');
+// Plain code-point order, so it matches the links scripts/update_site.py writes.
+export const slugFor = (x, y) => [x, y].sort().join('--');
 
 export const pairFromSlug = (slug) => slug.split('--');
 

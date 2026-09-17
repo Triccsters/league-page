@@ -355,6 +355,86 @@ def build_index():
     return items
 
 
+# ---------------------------------------------------------------- managers
+def build_managers(season, history):
+    """src/lib/data/managers.json for the template's Managers pages.
+
+    Anything in src/lib/data/manager_overrides.json (keyed by Sleeper handle)
+    replaces the generated value, so hand-written bios and photos survive.
+    """
+    overrides = read_json(os.path.join(DATA, "manager_overrides.json"), {}) or {}
+    users = sleeper(f"/league/{LEAGUE_ID}/users")
+    handle_of = {u["user_id"]: CANON.get(u["display_name"], u["display_name"])
+                 for u in users}
+    order = sorted(users, key=lambda u: MANAGERS.get(handle_of[u["user_id"]], (u["display_name"],))[0])
+    index = {handle_of[u["user_id"]]: i for i, u in enumerate(order)}
+
+    REAL = {"Quarterfinal", "Semifinal", "Championship"}
+    out = []
+    for u in order:
+        h = handle_of[u["user_id"]]
+        name = MANAGERS.get(h, (h,))[0]
+        w = l = 0
+        titles, finals, seasons = [], 0, set()
+        vs = defaultdict(lambda: [0, 0])
+        for s, wk, _e, a, pa, b, pb, playoff, label in history["games"]:
+            if h not in (a, b):
+                continue
+            me, opp = (pa, pb) if a == h else (pb, pa)
+            other = b if a == h else a
+            seasons.add(s)
+            if not playoff:
+                w += me > opp
+                l += me < opp
+            if label == "Championship":
+                finals += 1
+                if me > opp:
+                    titles.append(s)
+            if not playoff or label in REAL:
+                vs[other][0 if me > opp else 1] += 1
+        current_foes = [o for o in vs if o in index]
+        nemesis = max(current_foes, key=lambda o: (vs[o][1] - vs[o][0], vs[o][1]), default=None)
+        bits = [f"Regular season since {min(seasons)}: {w}-{l}."]
+        if titles:
+            bits.append(f"Champion: {', '.join(map(str, titles))}.")
+        elif finals:
+            bits.append(f"{finals} final{'s' if finals > 1 else ''}, still chasing a title.")
+        else:
+            bits.append("Still chasing a first title.")
+        if nemesis:
+            nw, nl = vs[nemesis]
+            bits.append(f"Toughest opponent: {MANAGERS.get(nemesis, (nemesis,))[0]} ({nw}-{nl}).")
+        slug = lambda x, y: "--".join(sorted([x, y]))
+        bio = " ".join(bits)
+        if nemesis:
+            bio += f' <a href="/rivalries/{slug(h, nemesis)}">That rivalry</a> ·'
+        bio += f' <a href="/rivalries?who={h}">All of {name}\'s rivalries</a>'
+        entry = {
+            "managerID": u["user_id"],
+            "name": name,
+            "photo": f"https://sleepercdn.com/avatars/{u['avatar']}" if u.get("avatar") else "/managers/question.jpg",
+            "fantasyStart": min(seasons) if seasons else None,
+            "bio": bio,
+            "rival": {
+                "name": MANAGERS.get(nemesis, (nemesis,))[0] if nemesis else "Everyone",
+                "link": index.get(nemesis) if nemesis else None,
+                "image": "/managers/everyone.png",
+            },
+        }
+        entry.update(overrides.get(h, {}))
+        out.append(entry)
+    for e in out:   # rival photo follows the rival's (possibly overridden) photo
+        if e["rival"]["link"] is not None:
+            e["rival"]["image"] = out[e["rival"]["link"]]["photo"]
+    write_json(os.path.join(DATA, "managers.json"), out)
+    if not os.path.exists(os.path.join(DATA, "manager_overrides.json")):
+        write_json(os.path.join(DATA, "manager_overrides.json"), {
+            "_how_to": "Key by Sleeper handle. Any field set here replaces the generated one, "
+                       "e.g. \"triccster\": {\"bio\": \"...\", \"photo\": \"/managers/tj.jpg\", "
+                       "\"favoriteTeam\": \"min\", \"location\": \"Maplewood\"}"})
+    return out
+
+
 # ---------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
@@ -382,6 +462,7 @@ def main():
         r = build_recap(season, history, w)
         print(f"recap week {w}: {len(r['games'])} games")
     build_index()
+    print(f"managers.json: {len(build_managers(season, history))} managers")
 
     if args.push:
         subprocess.run(["git", "-C", REPO, "add", "src/lib/data"], check=True)
