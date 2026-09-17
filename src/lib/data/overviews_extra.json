@@ -1,0 +1,9 @@
+{
+  "_readme": "Hand-written prose. The weekly build never touches this file. managers is keyed by site handle, seasons by year. Blank line between paragraphs.",
+  "managers": {
+    "triccster": "Seventeen seasons, tied with Austin and Brett for the longest run in the league, and still nothing in the case. The regular season record is 111-103. The points are the more irritating number: 24,524 scored against 24,741 allowed across 253 games, a gap of under a point a game. Nobody here has been closer to exactly average for longer.\n\n2020 was the year it should have happened, 12-3 and the best record he has ever put up. 2017 was the other end of it, 3-12, the only season the roster never got going at all.\n\n2025 was the cruel one. He scored 1,898.7, more than any other team in the league, and finished third at 9-8. Anthony won the title with 113 fewer points."
+  },
+  "seasons": {
+    "2025": "Anthony's first title, in his eighth season. He went 10-6 and finished third in scoring, which two better-scoring teams will be thinking about for a while.\n\nT.J. led the league with 1,898.7 points and finished third at 9-8. James put up the second most, 1,827.7, and went 8-9. Scoring was not the problem for either of them.\n\nWeek 11 produced both floors of the season on the same Sunday: Zach Nase 42.9 and Colt 53.2. The high was Scott's 158.0 in week 8, and it came against the team that went on to win it all."
+  }
+}

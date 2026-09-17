@@ -12,6 +12,8 @@
     import CostlyGames from '$lib/Charts/CostlyGames.svelte';
     import ManagerBadges from '$lib/Charts/ManagerBadges.svelte';
     import RosterProfile from '$lib/Charts/RosterProfile.svelte';
+    import Overview from '$lib/Charts/Overview.svelte';
+    import overviews from '$lib/data/overviews_extra.json';
     import { allTimeRank } from '$lib/utils/flpHistory';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
@@ -316,6 +318,7 @@
     {/if}
 
     {#if viewManager.handle}
+        <Overview text={overviews.managers?.[viewManager.handle]} heading="Overview" />
         <ManagerHistory handle={viewManager.handle} />
         <RosterProfile handle={viewManager.handle} />
         <ManagerBadges handle={viewManager.handle} />

@@ -2,6 +2,8 @@
 	import { Awards } from '$lib/components'
 	import { waitForAll } from '$lib/utils/helper';
 	import LinearProgress from '@smui/linear-progress';
+	import Overview from '$lib/Charts/Overview.svelte';
+	import overviews from '$lib/data/overviews_extra.json';
 
     export let data;
     const {awardsData, teamManagersData} = data;
@@ -42,6 +44,7 @@
 		</div>
 	{:then [podiums, leagueTeamManagers] }
 		{#each podiums as podium}
+			<Overview text={overviews.seasons?.[podium.year]} heading="{podium.year} in review" />
 			<Awards {podium} {leagueTeamManagers} />
 		{:else}
 			<p class="nothingYet">No seasons have been completed yet, so no awards have been earned...</p>
