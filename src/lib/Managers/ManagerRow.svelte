@@ -3,6 +3,7 @@
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
     import {dynasty} from "$lib/utils/leagueInfo"
     import YourTeamBadge from "$lib/MyTeam/YourTeamBadge.svelte";
+    import ManagerQuickStats from "$lib/Charts/ManagerQuickStats.svelte";
 
     export let manager, leagueTeamManagers, key;
 
@@ -250,9 +251,6 @@
                     <img class="infoImg" src="https://sleepercdn.com/images/team_logos/nfl/{manager.favoriteTeam}.png" alt="favorite team"/>
                 </div>
             {:else}
-                <div class="infoIcon question">
-                    <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                </div>
             {/if}
         </div>
         <!-- Preferred contact -->
@@ -265,9 +263,6 @@
                     {manager.preferredContact}
                 </div>
             {:else}
-                <div class="infoIcon question">
-                    <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                </div>
             {/if}
         </div>
         <!-- Rebuild mode (optional and only displayed for dynasty leagues) -->
@@ -280,12 +275,9 @@
                     <div class="infoAnswer">
                         {manager.mode}
                     </div>
-                {:else}
-                    <div class="infoIcon question">
-                        <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                    </div>
                 {/if}
             </div>
         {/if}
     </div>
+    <ManagerQuickStats handle={manager.handle} />
 </div>
