@@ -162,4 +162,9 @@ edit(p, "        {#if !user}\n            <div class=\"managerNames\">",
 edit(p, "<style>\n",
      "<style>\n    .leftTag { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;\n"
      "        background: #5d6d7e; color: #fff; border-radius: 3px; padding: 0.05em 0.4em; margin: 0.1em 0; white-space: nowrap; }\n")
+
+# manager page: "in the league since" counts every platform, not just Sleeper
+edit("src/lib/Managers/Manager.svelte",
+     "In the league since '{datesActive.start.toString().substr(2)}",
+     "In the league since '{String(Math.min(viewManager.fantasyStart || 9999, datesActive.start)).substr(2)}")
 print("done")
