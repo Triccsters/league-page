@@ -17,9 +17,17 @@ const fetchSeason = async (lid) => {
         fetchJSON(API(`/league/${lid}/winners_bracket`)).catch(() => []),
     ]);
 
-    // Fetch all weekly matchups (until empty)
+    // Fetch all weekly matchups (until empty). For a season still in progress,
+    // stop before the current week so a half-played week is never counted.
     const matchupsByWeek = {};
-    for (let week = 1; week <= 18; week++) {
+    let lastWeek = 18;
+    if (league.status !== 'complete') {
+        const state = await fetchJSON(API('/state/nfl')).catch(() => null);
+        if (state && String(state.season) === String(league.season)) {
+            lastWeek = Math.max(0, (state.display_week || state.week || 1) - 1);
+        }
+    }
+    for (let week = 1; week <= lastWeek; week++) {
         try {
             const mws = await fetchJSON(API(`/league/${lid}/matchups/${week}`));
             if (!mws || mws.length === 0) break;

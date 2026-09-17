@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "1253477414021902336"; // your league ID
+export const leagueID = "1363926598088146944"; // your league ID (2026 season; Sleeper chains back to 2021)
 export const leagueName = "FL Players"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper

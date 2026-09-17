@@ -20,10 +20,16 @@ export const tabs = [
         key: 'transactions',
     },
     {
+        icon: 'timeline',
+        label: 'Timeline',
+        dest: '/timeline',
+        key: 'timeline',
+    },
+    {
         icon: 'article',
-        label: 'Blog',
-        dest: '/blog',
-        key: 'blog',
+        label: 'Recaps',
+        dest: '/recaps',
+        key: 'recaps',
     },
     {
         icon: 'view_comfy',
@@ -43,7 +49,12 @@ export const tabs = [
             },
             {
                 icon: 'local_fire_department',
-                label: 'Rivalry',
+                label: 'Rivalries (since 2014)',
+                dest: '/rivalries',
+            },
+            {
+                icon: 'compare_arrows',
+                label: 'Head-to-Head Tool',
                 dest: '/rivalry',
             },
             {

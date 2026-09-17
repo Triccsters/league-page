@@ -1,4 +1,5 @@
 <script>
+    import CombinedStandings from '$lib/Records/CombinedStandings.svelte';
     export let data;
     const { allTimeData } = data;
 </script>
@@ -89,6 +90,8 @@
 
 <div class="holder">
     <h1>All-Time Stats</h1>
+
+    <CombinedStandings />
 
     {#await allTimeData}
         <p class="sub">Walking back through every season... (this can take 5–15 sec for older leagues)</p>
