@@ -9,6 +9,7 @@
     import ManagerAwards from './ManagerAwards.svelte';
     import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';
     import ManagerPlayers from '$lib/Charts/ManagerPlayers.svelte';
+    import { allTimeRank } from '$lib/utils/flpHistory';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
@@ -20,6 +21,7 @@
     $: viewManager = managers[manager];
 
     $: datesActive = getDatesActive(leagueTeamManagers, viewManager.managerID);
+    $: rank = viewManager.handle ? allTimeRank(viewManager.handle) : null;
 
     const  startersAndReserve = rostersData.startersAndReserve;
     let rosters = rostersData.rosters;
@@ -234,7 +236,11 @@
         </h2>
         
         <div class="basicInfo">
-            <span class="infoChild">{viewManager.location || 'Undisclosed Location'}</span>
+            {#if rank}
+                <span class="infoChild" title="Ranked by titles, then regular-season win percentage, across every season on record">All-time #{rank.rank} of {rank.of} · {rank.w}-{rank.l} ({(rank.pct * 100).toFixed(1)}%){rank.titles ? ` · ${rank.titles} title${rank.titles > 1 ? 's' : ''}` : ''}</span>
+            {:else if viewManager.location}
+                <span class="infoChild">{viewManager.location}</span>
+            {/if}
             {#if viewManager.managerID && datesActive.start}
                 <span class="seperator">|</span>
                 {#if datesActive.end}

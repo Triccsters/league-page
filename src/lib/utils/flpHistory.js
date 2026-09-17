@@ -104,3 +104,28 @@ export const currentPairs = () => {
     }
     return out;
 };
+
+// All-time standing, ranked the way the All-Time page sorts: titles first, then
+// regular-season win %. Only people who have played are ranked.
+const REAL_ROUNDS = new Set(['Quarterfinal', 'Semifinal', 'Championship']);
+let _ranks = null;
+const buildRanks = () => {
+    const rows = {};
+    for (const g of games) {
+        for (const [me, mp, op] of [[g.a, g.pa, g.pb], [g.b, g.pb, g.pa]]) {
+            const r = (rows[me] ||= { h: me, w: 0, l: 0, t: 0, g: 0, titles: 0 });
+            if (!g.playoff) {
+                r.g++;
+                if (mp > op) r.w++; else if (mp < op) r.l++; else r.t++;
+            } else if (g.label === 'Championship' && mp > op) r.titles++;
+        }
+    }
+    const list = Object.values(rows)
+        .filter(r => !managers[r.h]?.hidden && r.g >= 10)      // real people with at least one season played
+        .map(r => ({ ...r, pct: r.g ? (r.w + r.t / 2) / r.g : 0 }))
+        .sort((a, b) => b.titles - a.titles || b.pct - a.pct);
+    _ranks = {};
+    list.forEach((r, i) => (_ranks[r.h] = { rank: i + 1, of: list.length, pct: r.pct, titles: r.titles, w: r.w, l: r.l }));
+    return _ranks;
+};
+export const allTimeRank = (handle) => (_ranks || buildRanks())[handle] || null;
