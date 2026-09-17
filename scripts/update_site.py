@@ -457,6 +457,49 @@ def build_recap(season, history, week):
     low = min(everyone, key=lambda s: s["points"], default=None)
     pts = sorted(s["points"] for s in everyone)
     median = round((pts[len(pts) // 2] + pts[(len(pts) - 1) // 2]) / 2, 2) if pts else 0
+
+    # weekly awards: the same week read as a short list of titles
+    winners = [g["winner"] for g in games]
+    losers = [g["loser"] for g in games]
+    lucky = min(winners, key=lambda s: s["points"], default=None)
+    unlucky = max(losers, key=lambda s: s["points"], default=None)
+
+    def eff(s):
+        return (s["points"] / s["optimal"]) if s.get("optimal") else 0
+
+    sharp = max(everyone, key=eff, default=None)
+    awards = []
+
+    def award(key, emoji, name, s, value, note=None, vs=None):
+        if s:
+            awards.append({"key": key, "emoji": emoji, "name": name,
+                           "manager": s["manager"], "value": value, "note": note, "vs": vs})
+
+    award("high", "🏆", "Team of the week", high, high and high["points"])
+    award("top_player", "🔥", "Player of the week",
+          top_player and {"manager": top_player["manager"]}, top_player and top_player["pts"],
+          top_player and top_player.get("name"))
+    if sharp and eff(sharp) > 0:
+        award("sharp", "🎯", "Best lineup call", sharp, "%d%%" % round(100 * eff(sharp)),
+              "scored %s of a possible %s" % (sharp["points"], sharp["optimal"]))
+    if lucky and lucky["points"] < median:
+        award("lucky", "🍀", "Won anyway", lucky, lucky["points"],
+              "below the week's median of %s" % median)
+    if unlucky and unlucky["points"] > median:
+        award("unlucky", "🥀", "Lost anyway", unlucky, unlucky["points"],
+              "above the week's median of %s" % median)
+    if regret and regret.get("left_on_bench"):
+        bb = regret.get("best_bench") or {}
+        note = ("%s scored %s on his bench" % (bb.get("name"), bb.get("pts"))) if bb.get("name") else None
+        award("bench", "🪑", "Left on the bench", regret, regret["left_on_bench"], note)
+    award("low", "💤", "Quietest week", low, low and low["points"])
+    if games:
+        c, b = games[0], games[-1]
+        award("closest", "😬", "Closest game", c["winner"], c["margin"],
+              vs=c["loser"]["manager"])
+        award("blowout", "💀", "Biggest blowout", b["winner"], b["margin"],
+              vs=b["loser"]["manager"])
+
     recap = {
         "season": SEASON, "week": week,
         "slug": f"{SEASON}-w{week:02d}",
@@ -468,6 +511,7 @@ def build_recap(season, history, week):
         "notes": old.get("notes", []),
         "slots": SLOTS,
         "median": median,
+        "awards": awards,
         "scores": sorted(({"manager": s["manager"], "points": s["points"],
                            "optimal": s["optimal"]} for s in everyone),
                          key=lambda x: -x["points"]),

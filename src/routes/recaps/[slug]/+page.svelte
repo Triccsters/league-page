@@ -4,6 +4,7 @@
     import { onMount } from 'svelte';
     import { nameOf, slugFor, site } from '$lib/utils/flpHistory';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
+    import WeekAwards from '$lib/Charts/WeekAwards.svelte';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { myTeam } from '$lib/utils/myTeam';
     let ready = false;
@@ -58,14 +59,7 @@
 
         {#each paras as p}<p class="intro">{p}</p>{/each}
 
-        <div class="facts">
-            {#if f.closest}<div><span>Closest game</span><b>{nameOf(f.closest.winner.manager)} by {f.closest.margin}</b>over {nameOf(f.closest.loser.manager)}</div>{/if}
-            {#if f.blowout}<div><span>Biggest blowout</span><b>{nameOf(f.blowout.winner.manager)} by {f.blowout.margin}</b>over {nameOf(f.blowout.loser.manager)}</div>{/if}
-            {#if f.high}<div><span>High score</span><b>{f.high.points}</b>{nameOf(f.high.manager)}</div>{/if}
-            {#if f.low}<div><span>Low score</span><b>{f.low.points}</b>{nameOf(f.low.manager)}</div>{/if}
-            {#if f.top_player}<div><span>Top player</span><b>{f.top_player.name} {f.top_player.pts}</b>for {nameOf(f.top_player.manager)}</div>{/if}
-            {#if f.bench_regret}<div><span>Left on the bench</span><b>{f.bench_regret.points}</b>{nameOf(f.bench_regret.manager)}{#if f.bench_regret.best_bench} ({f.bench_regret.best_bench.name} scored {f.bench_regret.best_bench.pts}){/if}</div>{/if}
-        </div>
+        <WeekAwards awards={r.awards} />
 
         {#if r.scores?.length}
             <h2>Every score this week</h2>

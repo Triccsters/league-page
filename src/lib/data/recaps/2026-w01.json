@@ -3,7 +3,7 @@
  "week": 1,
  "slug": "2026-w01",
  "title": "Week 1 recap",
- "generated": "2026-09-17T18:47:53+00:00",
+ "generated": "2026-09-17T18:56:38+00:00",
  "intro": "",
  "video": "",
  "notes": [],
@@ -16,6 +16,71 @@
   "MNF"
  ],
  "median": 109.03,
+ "awards": [
+  {
+   "key": "high",
+   "emoji": "🏆",
+   "name": "Team of the week",
+   "manager": "butterygoop",
+   "value": 167.82,
+   "note": null,
+   "vs": null
+  },
+  {
+   "key": "top_player",
+   "emoji": "🔥",
+   "name": "Player of the week",
+   "manager": "Jbird531",
+   "value": 37.26,
+   "note": "Caleb Williams",
+   "vs": null
+  },
+  {
+   "key": "sharp",
+   "emoji": "🎯",
+   "name": "Best lineup call",
+   "manager": "Wallner",
+   "value": "100%",
+   "note": "scored 107.0 of a possible 107.0",
+   "vs": null
+  },
+  {
+   "key": "bench",
+   "emoji": "🪑",
+   "name": "Left on the bench",
+   "manager": "butterygoop",
+   "value": 35.9,
+   "note": "Jalen Coker scored 29.8 on his bench",
+   "vs": null
+  },
+  {
+   "key": "low",
+   "emoji": "💤",
+   "name": "Quietest week",
+   "manager": "RockMNwild",
+   "value": 79.16,
+   "note": null,
+   "vs": null
+  },
+  {
+   "key": "closest",
+   "emoji": "😬",
+   "name": "Closest game",
+   "manager": "TuanonStan",
+   "value": 5.96,
+   "note": null,
+   "vs": "PapaMidnight"
+  },
+  {
+   "key": "blowout",
+   "emoji": "💀",
+   "name": "Biggest blowout",
+   "manager": "butterygoop",
+   "value": 60.82,
+   "note": null,
+   "vs": "Wallner"
+  }
+ ],
  "scores": [
   {
    "manager": "butterygoop",

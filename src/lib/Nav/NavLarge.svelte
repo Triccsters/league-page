@@ -9,43 +9,46 @@
 
 	let active = $state(tabs.find(tab => tab.dest == page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == page.url.pathname))));
 
-	let display = $state(false);
-	let el = $state();
-	let width = $state();
-	let height= $state();
-	let left = $state();
-	let top = $state();
+	// several menus can be nested now, so the open one is tracked by key and the
+	// dropdown is positioned under whichever tab was clicked
+	let openKey = $state(null);
+	const els = {};
+	let display = $derived(!!openKey);
+	let width = $state(0);
+	let height = $state(0);
+	let left = $state(0);
+	let top = $state(0);
 
-	$effect(() => {
-		top = el?.getBoundingClientRect() ? el?.getBoundingClientRect().top  : 0;
-		const bottom = el?.getBoundingClientRect() ? el?.getBoundingClientRect().bottom  : 0;
-
-		height = bottom - top + 1;
-
-		left = el?.getBoundingClientRect() ? el?.getBoundingClientRect().left  : 0;
-		const right = el?.getBoundingClientRect() ? el?.getBoundingClientRect().right  : 0;
-
-		width = right - left;
-	});
+	const place = (node) => {
+		const r = node?.getBoundingClientRect?.();
+		if (!r) return;
+		top = r.top;
+		height = r.bottom - r.top + 1;
+		// the menu is at least wide enough for its own labels
+		width = Math.max(r.right - r.left, 210);
+		left = Math.min(r.left, window.innerWidth - width - 8);
+	};
 
 	let innerWidth = $state();
 
-	const open = () => {
-		display = !display;
+	const open = (tab, e) => {
+		// SMUI's Tab does not always hand back a DOM event, so fall back to
+		// finding the rendered tab by its label
+		let node = e?.currentTarget?.closest?.('.mdc-tab') || e?.target?.closest?.('.mdc-tab');
+		if (!node && typeof document !== 'undefined') {
+			node = [...document.querySelectorAll('.navBar .mdc-tab')]
+				.find(t => t.textContent.includes(tab.label));
+		}
+		place(node);
+		openKey = openKey === tab.key ? null : tab.key;
 	}
 
 	const subGoto = (dest) => {
-		open(false);
+		openKey = null;
 		goto(dest);
 	}
 
-	let tabChildren = $state([]);
-
-	for(const tab of tabs) {
-		if(tab.nest) {
-			tabChildren = tab.children;
-		}
-	}
+	let tabChildren = $derived(openKey ? (tabs.find(t => t.key === openKey)?.children ?? []) : []);
 
 </script>
 
@@ -101,17 +104,17 @@
 	}
 </style>
 
-<div tabindex="0" role="button" class="overlay" style="display: {display ? "block" : "none"};" onclick={() => open(true)}></div>
+<div tabindex="0" role="button" class="overlay" style="display: {display ? "block" : "none"};" onclick={() => (openKey = null)}></div>
 
 <div class="parent">
 	<TabBar class="navBar" {tabs} key={(tab) => tab.key} bind:active>
 		{#snippet tab(tab)}
 			{#if tab.nest}
-				<div bind:this={el}>
+				<div bind:this={els[tab.key]}>
 					<Tab
 						{tab}
 						minWidth
-						onclick={() => open()}
+						onclick={(e) => open(tab, e)}
 					>
 						<Icon class="material-icons">{tab.icon}</Icon>
 						<Label>{tab.label}</Label>

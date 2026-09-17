@@ -73,11 +73,21 @@
     {#each items as it, i}
         {@const y = top + i * ROW}
         {@const v = placeValue(it)}
+        {@const bx = Math.min(x(0), x(it.value))}
+        {@const bw = Math.max(1, Math.abs(x(it.value) - x(0)))}
+        {@const delay = Math.min(i * 0.035, 0.4)}
         <g class:hl={it.highlight} class:former={it.former}>
             <title>{labelText(it)}: {format(it.value)}{it.note ? ` (${it.note})` : ''}</title>
             <text x={LABEL_W - 8} y={y + ROW / 2 + 4} text-anchor="end" class="label">{#if it.href}<a href={it.href}>{fit(labelText(it))}</a>{:else}{fit(labelText(it))}{/if}</text>
-            <rect x={Math.min(x(0), x(it.value))} y={y + 4} height={ROW - 8}
-                width={Math.max(1, Math.abs(x(it.value) - x(0)))} rx="3" fill={colorFor(it)} />
+            <rect class="bar" x={bx} y={y + 4} height={ROW - 8} width={bw} rx="3" fill={colorFor(it)}>
+                <!-- bars grow out of the baseline; without SMIL they just draw at full width -->
+                <animate attributeName="width" from="0" to={bw} dur="0.55s" begin="{delay}s"
+                    fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.25 1" keyTimes="0;1" />
+                {#if it.value < 0}
+                    <animate attributeName="x" from={x(0)} to={bx} dur="0.55s" begin="{delay}s"
+                        fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.25 1" keyTimes="0;1" />
+                {/if}
+            </rect>
             <text x={v.x} y={y + ROW / 2 + 4} text-anchor={v.anchor} class="val" class:inside={v.inside}>{valueText(it)}</text>
         </g>
     {/each}
@@ -93,6 +103,7 @@
     .label a { fill: #3498db; }
     .val { opacity: 0.8; }
     .val.inside { fill: #fff; opacity: 0.95; font-weight: 600; paint-order: stroke; stroke: rgba(0,0,0,0.35); stroke-width: 2px; }
+
     .hl .label { font-weight: 700; fill: #27ae60; }
     .former rect { opacity: 0.45; }
     .former .label { opacity: 0.6; font-style: italic; }

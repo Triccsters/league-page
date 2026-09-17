@@ -32,55 +32,15 @@ export const tabs = [
         key: 'recaps',
     },
     {
-        icon: 'view_comfy',
-        label: 'League Info',
+        icon: 'calendar_month',
+        label: 'This Season',
         nest: true,
-        key: 'league_info',
+        key: 'season',
         children: [
-            {
-                icon: 'storage',
-                label: 'Rosters',
-                dest: '/rosters',
-            },
-            {
-                icon: 'groups',
-                label: 'Managers',
-                dest: '/managers',
-            },
-            {
-                icon: 'local_fire_department',
-                label: 'Rivalries (all-time)',
-                dest: '/rivalries',
-            },
-            {
-                icon: 'compare_arrows',
-                label: 'Head-to-Head Tool',
-                dest: '/rivalry',
-            },
             {
                 icon: 'leaderboard',
                 label: 'Standings',
                 dest: '/standings',
-            },
-            {
-                icon: 'shuffle',
-                label: 'All-Play',
-                dest: '/all-play',
-            },
-            {
-                icon: 'tune',
-                label: 'Lineup Efficiency',
-                dest: '/efficiency',
-            },
-            {
-                icon: 'auto_stories',
-                label: 'All-Time Stats',
-                dest: '/all-time',
-            },
-            {
-                icon: 'menu_book',
-                label: 'Record Book',
-                dest: '/record-book',
             },
             {
                 icon: 'percent',
@@ -93,6 +53,44 @@ export const tabs = [
                 dest: '/preview',
             },
             {
+                icon: 'balance',
+                label: 'Median & Schedule',
+                dest: '/median',
+            },
+            {
+                icon: 'storage',
+                label: 'Rosters',
+                dest: '/rosters',
+            },
+        ]
+    },
+    {
+        icon: 'query_stats',
+        label: 'The Numbers',
+        nest: true,
+        key: 'numbers',
+        children: [
+            {
+                icon: 'casino',
+                label: 'Luck Meter',
+                dest: '/luck',
+            },
+            {
+                icon: 'shuffle',
+                label: 'All-Play',
+                dest: '/all-play',
+            },
+            {
+                icon: 'tune',
+                label: 'Lineup Efficiency',
+                dest: '/efficiency',
+            },
+            {
+                icon: 'shopping_cart',
+                label: 'Waiver Returns',
+                dest: '/waivers',
+            },
+            {
                 icon: 'handshake',
                 label: 'Trade Grades',
                 dest: '/trade-grades',
@@ -103,34 +101,32 @@ export const tabs = [
                 dest: '/draft-grades',
             },
             {
-                icon: 'casino',
-                label: 'Luck Meter',
-                dest: '/luck',
-            },
-            {
                 icon: 'person_search',
                 label: 'Player History',
                 dest: '/players',
             },
+        ]
+    },
+    {
+        icon: 'auto_stories',
+        label: 'History',
+        nest: true,
+        key: 'history',
+        children: [
             {
-                icon: 'balance',
-                label: 'Median & Schedule',
-                dest: '/median',
+                icon: 'auto_stories',
+                label: 'All-Time Stats',
+                dest: '/all-time',
             },
             {
-                icon: 'shopping_cart',
-                label: 'Waiver Returns',
-                dest: '/waivers',
+                icon: 'menu_book',
+                label: 'Record Book',
+                dest: '/record-book',
             },
             {
                 icon: 'military_tech',
                 label: 'Hall of Fame',
                 dest: '/hall-of-fame',
-            },
-            {
-                icon: 'view_comfy',
-                label: 'Drafts',
-                dest: '/drafts',
             },
             {
                 icon: 'emoji_events',
@@ -141,6 +137,34 @@ export const tabs = [
                 icon: 'military_tech',
                 label: 'Records',
                 dest: '/records',
+            },
+            {
+                icon: 'local_fire_department',
+                label: 'Rivalries (all-time)',
+                dest: '/rivalries',
+            },
+            {
+                icon: 'compare_arrows',
+                label: 'Head-to-Head Tool',
+                dest: '/rivalry',
+            },
+            {
+                icon: 'view_comfy',
+                label: 'Drafts',
+                dest: '/drafts',
+            },
+        ]
+    },
+    {
+        icon: 'groups',
+        label: 'The League',
+        nest: true,
+        key: 'league',
+        children: [
+            {
+                icon: 'groups',
+                label: 'Managers',
+                dest: '/managers',
             },
             {
                 icon: 'history_edu',
