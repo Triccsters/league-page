@@ -3,7 +3,7 @@
  "week": 1,
  "slug": "2026-w01",
  "title": "Week 1 recap",
- "generated": "2026-09-17T15:17:01+00:00",
+ "generated": "2026-09-17T15:53:48+00:00",
  "intro": "",
  "video": "",
  "notes": [],
@@ -14,6 +14,69 @@
   "Sun late",
   "SNF",
   "MNF"
+ ],
+ "median": 109.03,
+ "scores": [
+  {
+   "manager": "butterygoop",
+   "points": 167.82,
+   "optimal": 203.72
+  },
+  {
+   "manager": "Colt45Johnson",
+   "points": 126.5,
+   "optimal": 131.6
+  },
+  {
+   "manager": "snelson91",
+   "points": 119.76,
+   "optimal": 147.66
+  },
+  {
+   "manager": "Jbird531",
+   "points": 118.36,
+   "optimal": 129.36
+  },
+  {
+   "manager": "brettmn13",
+   "points": 117.2,
+   "optimal": 119.4
+  },
+  {
+   "manager": "TuanonStan",
+   "points": 111.06,
+   "optimal": 124.56
+  },
+  {
+   "manager": "Wallner",
+   "points": 107.0,
+   "optimal": 107.0
+  },
+  {
+   "manager": "PapaMidnight",
+   "points": 105.1,
+   "optimal": 126.8
+  },
+  {
+   "manager": "triccster",
+   "points": 101.66,
+   "optimal": 117.66
+  },
+  {
+   "manager": "YoungBuck04",
+   "points": 94.56,
+   "optimal": 104.86
+  },
+  {
+   "manager": "thecreamer",
+   "points": 88.44,
+   "optimal": 98.54
+  },
+  {
+   "manager": "RockMNwild",
+   "points": 79.16,
+   "optimal": 102.66
+  }
  ],
  "games": [
   {
@@ -31,6 +94,14 @@
      111.06,
      111.06
     ],
+    "by_pos": {
+     "DEF": 6.0,
+     "K": 11.0,
+     "QB": 14.16,
+     "RB": 65.8,
+     "TE": 2.2,
+     "WR": 11.9
+    },
     "top": [
      {
       "name": "Bijan Robinson",
@@ -71,6 +142,14 @@
      105.1,
      105.1
     ],
+    "by_pos": {
+     "DEF": 8.0,
+     "K": 7.0,
+     "QB": 14.4,
+     "RB": 26.5,
+     "TE": 8.0,
+     "WR": 41.2
+    },
     "top": [
      {
       "name": "Zay Flowers",
@@ -118,6 +197,14 @@
      111.36,
      118.36
     ],
+    "by_pos": {
+     "DEF": -2.0,
+     "K": 7.0,
+     "QB": 37.26,
+     "RB": 35.1,
+     "TE": 8.8,
+     "WR": 32.2
+    },
     "top": [
      {
       "name": "Caleb Williams",
@@ -158,6 +245,14 @@
      98.06,
      101.66
     ],
+    "by_pos": {
+     "DEF": 2.0,
+     "K": 15.0,
+     "QB": 17.66,
+     "RB": 12.2,
+     "TE": 6.2,
+     "WR": 48.6
+    },
     "top": [
      {
       "name": "Christian Watson",
@@ -205,6 +300,14 @@
      119.76,
      119.76
     ],
+    "by_pos": {
+     "DEF": 13.0,
+     "K": 7.0,
+     "QB": 13.26,
+     "RB": 72.5,
+     "TE": 7.3,
+     "WR": 6.7
+    },
     "top": [
      {
       "name": "Jahmyr Gibbs",
@@ -245,6 +348,14 @@
      80.0,
      88.44
     ],
+    "by_pos": {
+     "DEF": 3.0,
+     "K": 1.0,
+     "QB": 5.44,
+     "RB": 34.2,
+     "TE": 3.1,
+     "WR": 41.7
+    },
     "top": [
      {
       "name": "Jonathan Taylor",
@@ -292,6 +403,14 @@
      117.9,
      126.5
     ],
+    "by_pos": {
+     "DEF": 1.0,
+     "K": 7.0,
+     "QB": 26.6,
+     "RB": 46.8,
+     "TE": 8.6,
+     "WR": 36.5
+    },
     "top": [
      {
       "name": "Derrick Henry",
@@ -332,6 +451,14 @@
      94.56,
      94.56
     ],
+    "by_pos": {
+     "DEF": 10.0,
+     "K": 10.0,
+     "QB": 24.96,
+     "RB": 14.4,
+     "TE": 20.0,
+     "WR": 15.2
+    },
     "top": [
      {
       "name": "Lamar Jackson",
@@ -379,6 +506,14 @@
      108.3,
      117.2
     ],
+    "by_pos": {
+     "DEF": 18.0,
+     "K": 7.0,
+     "QB": 26.1,
+     "RB": 19.1,
+     "TE": 0.0,
+     "WR": 47.0
+    },
     "top": [
      {
       "name": "Justin Jefferson",
@@ -419,6 +554,14 @@
      78.46,
      79.16
     ],
+    "by_pos": {
+     "DEF": 3.0,
+     "K": 2.0,
+     "QB": 35.66,
+     "RB": 18.8,
+     "TE": 0.0,
+     "WR": 19.7
+    },
     "top": [
      {
       "name": "Josh Allen",
@@ -466,6 +609,14 @@
      135.22,
      167.82
     ],
+    "by_pos": {
+     "DEF": 13.0,
+     "K": 2.0,
+     "QB": 24.72,
+     "RB": 73.8,
+     "TE": 23.8,
+     "WR": 30.5
+    },
     "top": [
      {
       "name": "Kenneth Walker",
@@ -506,6 +657,14 @@
      107.0,
      107.0
     ],
+    "by_pos": {
+     "DEF": 3.0,
+     "K": 10.0,
+     "QB": 21.1,
+     "RB": 38.1,
+     "TE": 4.1,
+     "WR": 30.7
+    },
     "top": [
      {
       "name": "Ashton Jeanty",
@@ -555,6 +714,14 @@
      111.06,
      111.06
     ],
+    "by_pos": {
+     "DEF": 6.0,
+     "K": 11.0,
+     "QB": 14.16,
+     "RB": 65.8,
+     "TE": 2.2,
+     "WR": 11.9
+    },
     "top": [
      {
       "name": "Bijan Robinson",
@@ -595,6 +762,14 @@
      105.1,
      105.1
     ],
+    "by_pos": {
+     "DEF": 8.0,
+     "K": 7.0,
+     "QB": 14.4,
+     "RB": 26.5,
+     "TE": 8.0,
+     "WR": 41.2
+    },
     "top": [
      {
       "name": "Zay Flowers",
@@ -642,6 +817,14 @@
      135.22,
      167.82
     ],
+    "by_pos": {
+     "DEF": 13.0,
+     "K": 2.0,
+     "QB": 24.72,
+     "RB": 73.8,
+     "TE": 23.8,
+     "WR": 30.5
+    },
     "top": [
      {
       "name": "Kenneth Walker",
@@ -682,6 +865,14 @@
      107.0,
      107.0
     ],
+    "by_pos": {
+     "DEF": 3.0,
+     "K": 10.0,
+     "QB": 21.1,
+     "RB": 38.1,
+     "TE": 4.1,
+     "WR": 30.7
+    },
     "top": [
      {
       "name": "Ashton Jeanty",

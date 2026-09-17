@@ -3,7 +3,9 @@
     import TimelineChart from '$lib/Timeline/TimelineChart.svelte';
     import { leagueID } from '$lib/utils/leagueInfo';
     import { loadPlayers } from '$lib/utils/helper';
-    import { nameOf, slugFor } from '$lib/utils/flpHistory';
+    import { nameOf, slugFor, site } from '$lib/utils/flpHistory';
+    import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
+    import { myTeam } from '$lib/utils/myTeam';
 
     const SLOTS = ['Wed', 'Thu', 'Sun early', 'Sun late', 'SNF', 'MNF'];
     const CANON = { Austin7Rock: 'RockMNwild', Tongueohvaeloa: 'TuanonStan' };
@@ -37,8 +39,9 @@
                 base = {
                     handle: Object.fromEntries(rosters.map(r => [r.roster_id, uname[r.owner_id] || `Roster ${r.roster_id}`])),
                     players: pl.players,
+                    season: league.season,
                 };
-                season = league.season;
+                season = base.season;
             }
             const [matchups, board] = await Promise.all([
                 S(`/league/${leagueID}/matchups/${week}`),
@@ -51,11 +54,12 @@
                     const ab = c.team.abbreviation === 'WSH' ? 'WAS' : c.team.abbreviation;
                     slotOf[ab] = s;
                 }
-                (status[s] ||= []).push(ev.status.type.state);   // pre / in / post
+                status[s] = status[s] || [];
+                status[s].push(ev.status.type.state);   // pre / in / post
             }
-            // Draw a window once any of its games has kicked off.
+            // A window counts once any of its games has kicked off.
             const started = SLOTS.map(s => (status[s] || []).some(x => x !== 'pre'));
-            const shown = Math.max(started.lastIndexOf(true), 0) + 1;
+            const lastStarted = started.lastIndexOf(true);
 
             const byId = {};
             for (const m of matchups) {
@@ -71,7 +75,10 @@
                         if (s) run[s] += m.starters_points?.[i] || 0;
                     });
                     let acc = 0;
-                    const values = SLOTS.map(s => Math.round((acc += run[s]) * 100) / 100).slice(0, shown);
+                    const values = SLOTS.map((s, i) => {
+                        acc += run[s];
+                        return i <= Math.max(lastStarted, 0) ? Math.round(acc * 100) / 100 : null;
+                    }).filter(v => v !== null);
                     return { manager: base.handle[m.roster_id], points: Math.round((m.points || 0) * 100) / 100, values };
                 });
                 sides.sort((a, b) => b.points - a.points);
@@ -93,11 +100,11 @@
     });
 </script>
 
-<svelte:head><title>Matchup Timeline | FL Players</title></svelte:head>
+<svelte:head><title>Matchup Timeline | {site.league_name}</title></svelte:head>
 
 <div class="holder">
     <h1>Matchup Timeline</h1>
-    <p class="sub">How each game built up through the week: Thursday, the Sunday windows, and the night games. Blue is the team ahead. Closest games first.</p>
+    <p class="sub">How each game built up through the week: Thursday, the Sunday windows, and the night games. Blue is the team ahead. Your game shows first.</p>
 
     <div class="controls">
         <label>Week
@@ -111,10 +118,11 @@
 
     {#if error}<p class="err">{error}</p>{/if}
 
-    {#each games as [a, b]}
-        <section class="game">
-            <h3><a href="/rivalries/{slugFor(a.manager, b.manager)}">{nameOf(a.manager)} {a.points} – {b.points} {nameOf(b.manager)}</a></h3>
-            <TimelineChart slots={SLOTS.slice(0, a.values.length)}
+    {#each [...games].sort((p, q) => q.some(s => s.manager === $myTeam) - p.some(s => s.manager === $myTeam)) as [a, b]}
+        <section class="game" class:mine={a.manager === $myTeam || b.manager === $myTeam}>
+            <h3><a href="/rivalries/{slugFor(a.manager, b.manager)}">{nameOf(a.manager)} {a.points} – {b.points} {nameOf(b.manager)}</a>
+                <YourTeamBadge handle={a.manager} size="small" /><YourTeamBadge handle={b.manager} size="small" /></h3>
+            <TimelineChart slots={SLOTS.slice(0, Math.max(a.values.length, 1))}
                 a={{ label: nameOf(a.manager), values: a.values }}
                 b={{ label: nameOf(b.manager), values: b.values }} />
         </section>
@@ -131,6 +139,7 @@
     select, button { padding: 0.35em 0.7em; font-size: 1em; margin-left: 0.4em; }
     .game { border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 0.8em 1em; margin: 1em 0; }
     h3 { margin: 0; font-size: 1.05em; }
+    .game.mine { border-color: #27ae60; box-shadow: inset 4px 0 0 #27ae60; }
     h3 a { color: inherit; }
     .stamp { opacity: 0.65; font-size: 0.85em; text-align: center; }
     .stamp a { color: #3498db; }

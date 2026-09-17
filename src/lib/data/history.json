@@ -1,5 +1,19 @@
 {
- "generated": "2026-09-17T15:17:01+00:00",
+ "generated": "2026-09-17T15:53:47+00:00",
+ "site": {
+  "league_name": "FL Players",
+  "season": 2026,
+  "first_season": 2014,
+  "eras": [
+   "sleeper",
+   "yahoo"
+  ],
+  "yahoo_years": [
+   2014,
+   2020
+  ],
+  "sleeper_from": 2021
+ },
  "fields": [
   "season",
   "week",
@@ -12,61 +26,61 @@
   "label"
  ],
  "managers": {
-  "triccster": {
-   "name": "T.J.",
-   "yahoo": "T.J.R"
-  },
-  "brettmn13": {
-   "name": "Brett",
-   "yahoo": "Brett"
-  },
-  "Wallner": {
-   "name": "John Wallner",
-   "yahoo": "John Wall"
-  },
   "Colt45Johnson": {
    "name": "Colt",
    "yahoo": "Colt"
-  },
-  "RockMNwild": {
-   "name": "Austin",
-   "yahoo": "Austin"
-  },
-  "snelson91": {
-   "name": "Scott",
-   "yahoo": "Scott"
-  },
-  "TuanonStan": {
-   "name": "James",
-   "yahoo": "LordPmp"
-  },
-  "Jbird531": {
-   "name": "Joey",
-   "yahoo": "Joey"
-  },
-  "YoungBuck04": {
-   "name": "Zak",
-   "yahoo": "zak"
-  },
-  "butterygoop": {
-   "name": "Anthony",
-   "yahoo": "Anthony"
-  },
-  "PapaMidnight": {
-   "name": "Mikey",
-   "yahoo": "Mikey"
-  },
-  "thecreamer": {
-   "name": "Zach Nase",
-   "yahoo": "zach"
   },
   "J Rock": {
    "name": "J Rock",
    "yahoo": "J Rock"
   },
+  "Jbird531": {
+   "name": "Joey",
+   "yahoo": "Joey"
+  },
+  "PapaMidnight": {
+   "name": "Mikey",
+   "yahoo": "Mikey"
+  },
+  "RockMNwild": {
+   "name": "Austin",
+   "yahoo": "Austin"
+  },
+  "TuanonStan": {
+   "name": "James",
+   "yahoo": "LordPmp"
+  },
   "Tyler": {
    "name": "Tyler",
    "yahoo": "Tyler"
+  },
+  "Wallner": {
+   "name": "John Wallner",
+   "yahoo": "John Wall"
+  },
+  "YoungBuck04": {
+   "name": "Zak",
+   "yahoo": "zak"
+  },
+  "brettmn13": {
+   "name": "Brett",
+   "yahoo": "Brett"
+  },
+  "butterygoop": {
+   "name": "Anthony",
+   "yahoo": "Anthony"
+  },
+  "snelson91": {
+   "name": "Scott",
+   "yahoo": "Scott"
+  },
+  "thecreamer": {
+   "name": "Zach Nase",
+   "yahoo": "zach"
+  },
+  "triccster": {
+   "name": "T.J.",
+   "yahoo": "T.J.R"
   }
  },
  "current": [

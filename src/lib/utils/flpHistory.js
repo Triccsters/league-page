@@ -1,10 +1,12 @@
-// Unified FL Players history (Yahoo 2014-2020 + Sleeper 2021-now).
+// Unified league history (every game the league has played, all platforms).
 // Data comes from scripts/update_site.py -> src/lib/data/history.json.
 import history from '$lib/data/history.json';
 
 export const managers = history.managers;
 export const currentManagers = history.current;
 export const generated = history.generated;
+export const site = history.site;
+export const hasYahoo = site.eras.includes('yahoo');
 
 export const games = history.games.map(([season, week, era, a, pa, b, pb, playoff, label]) =>
     ({ season, week, era, a, pa, b, pb, playoff, label }));

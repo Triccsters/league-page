@@ -1,5 +1,6 @@
 <script>
 	import BarChart from '$lib/BarChart.svelte';
+    import PowerRankingsExplainer from './PowerRankingsExplainer.svelte';
     import { generateGraph, getTeamFromTeamManagers, round, predictScores, loadPlayers } from '$lib/utils/helper';
     export let nflState, rostersData, leagueTeamManagers, playersInfo, leagueData;
 
@@ -29,7 +30,7 @@
             const rosterPlayers = [];
 
             for(const rosterPlayer of roster.players) {
-                if(!players[rosterPlayer]) contnue;
+                if(!players[rosterPlayer]) continue;
                 rosterPlayers.push({
                     name: players[rosterPlayer].ln,
                     pos: players[rosterPlayer].pos,
@@ -104,4 +105,5 @@
     <div class="enclosure">
         <BarChart {graphs} bind:curGraph={curGraph} {leagueTeamManagers} />
     </div>
+    <PowerRankingsExplainer />
 {/if}

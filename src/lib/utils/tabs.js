@@ -49,7 +49,7 @@ export const tabs = [
             },
             {
                 icon: 'local_fire_department',
-                label: 'Rivalries (since 2014)',
+                label: 'Rivalries (all-time)',
                 dest: '/rivalries',
             },
             {
@@ -104,8 +104,8 @@ export const tabs = [
             },
             {
                 icon: 'history_edu',
-                label: 'Constitution',
-                dest: '/constitution',
+                label: 'League Rules',
+                dest: '/rules',
             },
             {
                 icon: 'sports_football',

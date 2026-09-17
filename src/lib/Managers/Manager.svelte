@@ -7,6 +7,8 @@
     import { goto } from '$app/navigation';
     import ManagerFantasyInfo from './ManagerFantasyInfo.svelte';
     import ManagerAwards from './ManagerAwards.svelte';
+    import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';
+    import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
@@ -226,7 +228,7 @@
     <div class="managerConstrained">
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
-            {viewManager.name}
+            {viewManager.name}<YourTeamBadge handle={viewManager.handle} userId={viewManager.managerID} />
             <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
         </h2>
         
@@ -301,6 +303,10 @@
     {#if !loading}
         <!-- Favorite player -->
         <ManagerFantasyInfo {viewManager} {players} {changeManager} />
+    {/if}
+
+    {#if viewManager.handle}
+        <ManagerHistory handle={viewManager.handle} />
     {/if}
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />

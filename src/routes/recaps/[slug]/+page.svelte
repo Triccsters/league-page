@@ -1,12 +1,29 @@
 <script>
     import TimelineChart from '$lib/Timeline/TimelineChart.svelte';
     import { recapBySlug, videoEmbed } from '$lib/utils/recaps';
-    import { nameOf, slugFor } from '$lib/utils/flpHistory';
+    import { onMount } from 'svelte';
+    import { nameOf, slugFor, site } from '$lib/utils/flpHistory';
+    import HBarChart from '$lib/Charts/HBarChart.svelte';
+    import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
+    import { myTeam } from '$lib/utils/myTeam';
+    let ready = false;
+    onMount(() => { ready = true; });
     export let data;
 
     $: r = recapBySlug(data.slug);
     $: v = r && videoEmbed(r.video);
     $: paras = (r?.intro || '').split(/\n\s*\n/).filter(Boolean);
+    $: scoreBars = (r?.scores || []).map(s => ({
+        label: nameOf(s.manager), value: s.points,
+        note: s.optimal > s.points ? `best ${s.optimal}` : 'perfect lineup',
+        highlight: ready && s.manager === $myTeam,
+    }));
+    $: benchBars = (r?.scores || []).map(s => ({
+        label: nameOf(s.manager), value: Math.round((s.optimal - s.points) * 100) / 100,
+        color: '#e67e22', highlight: ready && s.manager === $myTeam,
+    })).sort((a, b) => b.value - a.value);
+    $: games = r ? [...r.games].sort((a, b) =>
+        (ready && [b.winner.manager, b.loser.manager].includes($myTeam)) - (ready && [a.winner.manager, a.loser.manager].includes($myTeam))) : [];
     const h2h = (g) => {
         const [w, l] = g.h2h_before;
         if (!w && !l) return 'First ever meeting';
@@ -16,7 +33,7 @@
     };
 </script>
 
-<svelte:head><title>{r ? `${r.season} ${r.title}` : 'Recap'} | FL Players</title></svelte:head>
+<svelte:head><title>{r ? `${r.season} ${r.title}` : 'Recap'} | {site.league_name}</title></svelte:head>
 
 <div class="holder">
     <p class="back"><a href="/recaps">← All recaps</a></p>
@@ -50,18 +67,26 @@
             {#if f.bench_regret}<div><span>Left on the bench</span><b>{f.bench_regret.points}</b>{nameOf(f.bench_regret.manager)}{#if f.bench_regret.best_bench} ({f.bench_regret.best_bench.name} scored {f.bench_regret.best_bench.pts}){/if}</div>{/if}
         </div>
 
+        {#if r.scores?.length}
+            <h2>Every score this week</h2>
+            <HBarChart items={scoreBars} refLine={{ value: r.median, label: `median ${r.median}` }} ariaLabel="Week {r.week} scores" />
+            <h2>Points left on the bench</h2>
+            <p class="meta">Best possible lineup minus the lineup that was played.</p>
+            <HBarChart items={benchBars} ariaLabel="Week {r.week} points left on the bench" />
+        {/if}
+
         {#if r.notes?.length}
             <h2>Talking points</h2>
             <ul>{#each r.notes as n}<li>{n}</li>{/each}</ul>
         {/if}
 
         <h2>Every matchup</h2>
-        {#each r.games as g}
-            <section class="game">
+        {#each games as g}
+            <section class="game" class:mine={ready && [g.winner.manager, g.loser.manager].includes($myTeam)}>
                 <h3>
-                    <span class="w">{nameOf(g.winner.manager)} {g.winner.points}</span>
+                    <span class="w">{nameOf(g.winner.manager)} {g.winner.points}</span><YourTeamBadge handle={g.winner.manager} size="small" />
                     <span class="d">def.</span>
-                    <span>{nameOf(g.loser.manager)} {g.loser.points}</span>
+                    <span>{nameOf(g.loser.manager)} {g.loser.points}</span><YourTeamBadge handle={g.loser.manager} size="small" />
                 </h3>
                 <p class="meta">
                     {h2h(g)} · <a href="/rivalries/{slugFor(g.winner.manager, g.loser.manager)}">rivalry page</a>
@@ -90,7 +115,7 @@
             <thead><tr><th>#</th><th>Manager</th><th>W-L</th><th class="num">PF</th></tr></thead>
             <tbody>
                 {#each r.standings as s, i}
-                    <tr><td>{i + 1}</td><td>{nameOf(s.manager)}</td><td>{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td><td class="num">{s.pf}</td></tr>
+                    <tr class:minerow={ready && s.manager === $myTeam}><td>{i + 1}</td><td>{nameOf(s.manager)}<YourTeamBadge handle={s.manager} size="small" /></td><td>{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td><td class="num">{s.pf}</td></tr>
                 {/each}
             </tbody>
         </table>
@@ -114,6 +139,8 @@
     .facts span { display: block; font-size: 0.78em; opacity: 0.7; text-transform: uppercase; }
     .facts b { display: block; font-size: 1.15em; }
     .game { border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 1em; margin: 1em 0; }
+    .game.mine { border-color: #27ae60; box-shadow: inset 4px 0 0 #27ae60; }
+    tr.minerow td { background: rgba(39, 174, 96, 0.15); }
     .meta { margin: 0.3em 0 0; opacity: 0.8; font-size: 0.9em; }
     .meta a { color: #3498db; }
     table { width: 100%; border-collapse: collapse; }

@@ -127,11 +127,9 @@
 			{/each}
 		</ul>
 	</div>
-	<span class="creator">Created by <a href="https://github.com/Triccsters">T.J. Ricci</a></span>
-	<br />
 	<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
-	<span class="copyright">Based on <a href="https://github.com/nmelhado/league-page">League Page</a> &copy; 2021 - {year}</span>
+	<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado/league-page">League Page</a></span>
 	<br />
 	<!-- PLEASE DO NOT REMOVE THE BUILT BY -->
-	<span class="creator">League Page built by <a href="http://www.nmelhado.com/">Nicholas Melhado</a></span>
+	<span class="creator">Created by <a href="http://www.nmelhado.com/">Nicholas Melhado</a>, expanded on by <a href="https://github.com/Triccsters">T.J. Ricci</a></span>
 </footer>

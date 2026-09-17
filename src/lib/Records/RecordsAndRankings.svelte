@@ -5,6 +5,11 @@
   	import DataTable, { Head, Body, Row, Cell } from '@smui/data-table';
 	import RecordTeam from './RecordTeam.svelte';
 	import BarChart from '$lib/BarChart.svelte';
+    import { site } from '$lib/utils/flpHistory';
+    // games in a season record = points / PPG; a current-season row with fewer games than a full season is partial
+    const gp = (r) => (r && r.fptsPerGame ? Math.round(r.fpts / r.fptsPerGame) : 0);
+    $: fullGames = Math.max(0, ...[...(seasonLongRecords || []), ...(seasonLongLows || [])].filter(r => r.year != site.season).map(gp));
+    const partial = (r) => r.year == site.season && gp(r) < (fullGames || 99);
 
     export let key, tradesData, waiversData, weekRecords, weekLows, seasonLongRecords, seasonLongLows, showTies, winPercentages, fptsHistories, lineupIQs, prefix, blowouts, closestMatchups, allTime=false, leagueTeamManagers;
 
@@ -228,6 +233,9 @@
 <svelte:window bind:innerWidth={innerWidth} />
 
 <style>
+    :global(.recordTable tr.inProgress td) { background: rgba(39, 174, 96, 0.14); }
+    :global(.recordTable tr.inProgress td:first-child) { box-shadow: inset 4px 0 0 #27ae60; }
+    .liveTag { display: block; font-size: 0.72em; font-weight: 600; color: #2ecc71; white-space: nowrap; }
     :global(.headerPrimary) {
         background-color: var(--headerPrimary);
         text-align: center;
@@ -524,7 +532,7 @@
         <DataTable class="recordTable">
             <Head>
                 <Row>
-                    <Cell class="header headerPrimary" colspan=5>All-Time Highest Season Points<span class="italic">Ranked by PPG</span></Cell>
+                    <Cell class="header headerPrimary" colspan=5>All-Time Highest Season Points<span class="italic">Ranked by PPG · green rows are {site.season}, still in progress</span></Cell>
                 </Row>
                 <Row>
                     <Cell class="header rank"></Cell>
@@ -536,12 +544,12 @@
             </Head>
             <Body>
                 {#each seasonLongRecords as mostSeasonLongPoint, ix}
-                    <Row>
+                    <Row class={partial(mostSeasonLongPoint) ? 'inProgress' : ''}>
                         <Cell class="rank">{ix + 1}</Cell>
                         <Cell class="cellName" onclick={() => gotoManager({year: mostSeasonLongPoint.year, leagueTeamManagers, rosterID: mostSeasonLongPoint.rosterID})}>
                             <RecordTeam {leagueTeamManagers} rosterID={mostSeasonLongPoint.rosterID} year={mostSeasonLongPoint.year} />
                         </Cell>
-                        <Cell>{mostSeasonLongPoint.year}</Cell>
+                        <Cell>{mostSeasonLongPoint.year}{#if partial(mostSeasonLongPoint)}<span class="liveTag">in progress · {gp(mostSeasonLongPoint)} gm</span>{/if}</Cell>
                         <Cell>{round(mostSeasonLongPoint.fpts)}</Cell>
                         <Cell>{mostSeasonLongPoint.fptsPerGame}</Cell>
                     </Row>
@@ -554,7 +562,7 @@
         <DataTable class="recordTable">
             <Head>
                 <Row>
-                    <Cell class="header headerPrimary" colspan=5>All-Time Lowest Season Points<span class="italic">Ranked by PPG</span></Cell>
+                    <Cell class="header headerPrimary" colspan=5>All-Time Lowest Season Points<span class="italic">Ranked by PPG · green rows are {site.season}, still in progress</span></Cell>
                 </Row>
                 <Row>
                     <Cell class="header rank"></Cell>
@@ -566,12 +574,12 @@
             </Head>
             <Body>
                 {#each seasonLongLows as leastSeasonLongPoint, ix}
-                    <Row>
+                    <Row class={partial(leastSeasonLongPoint) ? 'inProgress' : ''}>
                         <Cell class="rank">{ix + 1}</Cell>
                         <Cell class="cellName" onclick={() => gotoManager({year: leastSeasonLongPoint.year, leagueTeamManagers, rosterID: leastSeasonLongPoint.rosterID})}>
                             <RecordTeam {leagueTeamManagers} rosterID={leastSeasonLongPoint.rosterID} year={leastSeasonLongPoint.year} />
                         </Cell>
-                        <Cell>{leastSeasonLongPoint.year}</Cell>
+                        <Cell>{leastSeasonLongPoint.year}{#if partial(leastSeasonLongPoint)}<span class="liveTag">in progress · {gp(leastSeasonLongPoint)} gm</span>{/if}</Cell>
                         <Cell>{round(leastSeasonLongPoint.fpts)}</Cell>
                         <Cell>{leastSeasonLongPoint.fptsPerGame}</Cell>
                     </Row>

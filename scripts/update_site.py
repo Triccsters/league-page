@@ -1,18 +1,26 @@
 """
-update_site.py - weekly data refresh for the FL Players league page.
+update_site.py - weekly data refresh for a League Page site.
+
+The same script runs both league sites. Per-league settings live in
+scripts/site_config.json next to this file.
 
 Writes static JSON the site reads (src/lib/data/):
-  history.json          every game 2014 to now, both eras, canonical managers
-  recaps/2026-wNN.json  one recap per completed week (your intro/video are kept)
+  history.json          every game the league has played, managers, site info
+  recaps/<season>-wNN.json  one recap per finished week (your title/intro/video/notes are kept)
   recaps/index.json     list of recaps, newest first
+  managers.json         the Managers pages (edit manager_overrides.json, not this)
+  rules.json            League Rules page (add your own rules in rules_extra.json)
 
 Usage, from the repo root on tricclt:
-  python scripts/update_site.py            refresh history + any new recaps
+  python scripts/update_site.py            refresh everything, write any new recaps
   python scripts/update_site.py --week 3   rebuild one week's recap
+  python scripts/update_site.py --all      rebuild every week's recap
   python scripts/update_site.py --push     also git commit + push (Vercel redeploys)
 
-Yahoo 2014-2020 and Sleeper 2021-2025 come from the vault data layer (flp.py).
-The current season is read live from api.sleeper.app.
+History sources (site_config.json "history"):
+  "vault"    FL Players: Yahoo 2014-2020 and Sleeper 2021-2025 from the vault's flp.py,
+             the current season live from Sleeper.
+  "sleeper"  every season read live from Sleeper, following previous_league_id.
 """
 import argparse
 import json
@@ -23,17 +31,25 @@ import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone
 
+from build_rules import build_rules  # same folder
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(REPO, "src", "lib", "data")
 RECAPS = os.path.join(DATA, "recaps")
+CONFIG = json.load(open(os.path.join(REPO, "scripts", "site_config.json"), encoding="utf-8"))
+
+LEAGUE_ID = CONFIG["league_id"]
+SEASON = int(CONFIG["season"])
+HISTORY_SOURCE = CONFIG.get("history", "sleeper")
 VAULT_MANUAL = os.environ.get(
     "FLP_MANUAL", r"C:\Users\trick\Documents\Fantasy Football Vault\_manual")
+PLAYER_CACHE = os.path.join(os.path.expanduser("~"), ".cache", "league_page_players.json")
 
-LEAGUE_ID = "1363926598088146944"   # FL Players 2026
-SEASON = 2026
+# Display-name renames that the vault data already folded together (FL Players).
 CANON = {"Austin7Rock": "RockMNwild", "Tongueohvaeloa": "TuanonStan"}
 
 # Real names, confirmed by T.J. 2026-09-08. Second value is the Yahoo name.
+# Anyone not listed shows under their Sleeper display name.
 MANAGERS = {
     "triccster": ("T.J.", "T.J.R"), "brettmn13": ("Brett", "Brett"),
     "Wallner": ("John Wallner", "John Wall"), "Colt45Johnson": ("Colt", "Colt"),
@@ -45,14 +61,15 @@ MANAGERS = {
 }
 
 ELIG = {"QB": {"QB"}, "RB": {"RB"}, "WR": {"WR"}, "TE": {"TE"}, "K": {"K"},
-        "DEF": {"DEF"}, "FLEX": {"RB", "WR", "TE"},
-        "SUPER_FLEX": {"QB", "RB", "WR", "TE"}}
+        "DEF": {"DEF"}, "FLEX": {"RB", "WR", "TE"}, "WRRB_FLEX": {"RB", "WR"},
+        "REC_FLEX": {"WR", "TE"}, "SUPER_FLEX": {"QB", "RB", "WR", "TE"}}
 SLOTS = ["Wed", "Thu", "Sun early", "Sun late", "SNF", "MNF"]
 ESPN_ABBR = {"WSH": "WAS"}
+REAL_ROUNDS = {"Quarterfinal", "Semifinal", "Championship"}
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "flp-league-page"})
+    req = urllib.request.Request(url, headers={"User-Agent": "league-page-updater"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -75,74 +92,54 @@ def read_json(path, default=None):
         return json.load(f)
 
 
-# ---------------------------------------------------------------- season data
+def real_name(handle):
+    return MANAGERS.get(handle, (handle,))[0]
+
+
+def espn_week(week, season=SEASON):
+    return get("https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
+               f"scoreboard?week={week}&seasontype=2&dates={season}")
+
+
+def week_is_final(week):
+    try:
+        evs = espn_week(week).get("events", [])
+    except Exception:
+        return False
+    return bool(evs) and all(ev["status"]["type"].get("completed") for ev in evs)
+
+
+# ---------------------------------------------------------------- one Sleeper season
 class Season:
-    """Everything needed from Sleeper for the current season, fetched once."""
+    """One Sleeper league-season. Handles are keyed on user_id, so a manager who
+    changed display name keeps one identity (the current name)."""
 
-    def __init__(self):
-        self.state = sleeper("/state/nfl")
-        self.league = sleeper(f"/league/{LEAGUE_ID}")
-        users = sleeper(f"/league/{LEAGUE_ID}/users")
-        self.rosters = sleeper(f"/league/{LEAGUE_ID}/rosters")
-        uname = {u["user_id"]: CANON.get(u["display_name"], u["display_name"])
-                 for u in users}
-        self.team_name = {u["user_id"]: (u.get("metadata") or {}).get("team_name")
-                          for u in users}
+    def __init__(self, league_id, handle_by_user=None):
+        self.league_id = league_id
+        self.league = sleeper(f"/league/{league_id}")
+        self.season = int(self.league["season"])
+        users = sleeper(f"/league/{league_id}/users") or []
+        self.rosters = sleeper(f"/league/{league_id}/rosters") or []
+        self.users = {u["user_id"]: u for u in users}
+        hb = handle_by_user or {}
+        name = lambda uid: hb.get(uid) or CANON.get(self.users[uid]["display_name"],
+                                                    self.users[uid]["display_name"])
         self.owner = {r["roster_id"]: r["owner_id"] for r in self.rosters}
-        self.handle = {rid: uname.get(oid, f"Roster {rid}")
+        self.handle = {rid: (name(oid) if oid in self.users else f"Roster {rid}")
                        for rid, oid in self.owner.items()}
+        self.team_name = {uid: (u.get("metadata") or {}).get("team_name")
+                          for uid, u in self.users.items()}
         self.slots = [s for s in self.league["roster_positions"] if s in ELIG]
-        self.playoff_start = (self.league.get("settings") or {}).get(
-            "playoff_week_start") or 15
-        self._players = None
+        st = self.league.get("settings") or {}
+        self.playoff_start = st.get("playoff_week_start") or 15
+        self.two_week_final = st.get("playoff_round_type") == 1
         self._matchups = {}
-
-    @property
-    def completed_weeks(self):
-        """Weeks whose Monday game is over: everything before the current week."""
-        if str(self.state.get("season")) != str(SEASON):
-            return list(range(1, 18)) if self.league.get("status") == "complete" else []
-        cur = self.state.get("display_week") or self.state.get("week") or 1
-        if self.state.get("season_type") != "regular":
-            cur = 19
-        weeks = list(range(1, min(cur, 18)))
-        # Sleeper may not have advanced its week yet on Tuesday morning; if every
-        # game of its current week is final on ESPN, that week is done too.
-        if cur <= 18 and cur not in weeks and week_is_final(cur):
-            weeks.append(cur)
-        return weeks
+        self._players = None
 
     def matchups(self, week):
         if week not in self._matchups:
-            self._matchups[week] = sleeper(f"/league/{LEAGUE_ID}/matchups/{week}")
+            self._matchups[week] = sleeper(f"/league/{self.league_id}/matchups/{week}") or []
         return self._matchups[week]
-
-    @property
-    def players(self):
-        if self._players is None:
-            cache = os.path.join(VAULT_MANUAL, "players_nfl.json")
-            age = None
-            if os.path.exists(cache):
-                age = datetime.now().timestamp() - os.path.getmtime(cache)
-            if age is None or age > 3 * 86400:
-                self._players = sleeper("/players/nfl")
-                try:
-                    with open(cache, "w", encoding="utf-8") as f:
-                        json.dump(self._players, f)
-                except OSError:
-                    pass
-            else:
-                with open(cache, encoding="utf-8") as f:
-                    self._players = json.load(f)
-        return self._players
-
-    def pinfo(self, pid):
-        p = self.players.get(pid) or {}
-        if not p and not pid.isdigit():          # team defence, id is the team
-            return {"name": f"{pid} DEF", "pos": "DEF", "team": pid}
-        name = p.get("full_name") or f"{p.get('first_name', '')} {p.get('last_name', '')}".strip()
-        return {"name": name or pid, "pos": p.get("position") or "?",
-                "team": p.get("team")}
 
     def pairs(self, week):
         by = defaultdict(list)
@@ -151,33 +148,141 @@ class Season:
                 by[m["matchup_id"]].append(m)
         return [v for v in by.values() if len(v) == 2]
 
+    def completed_weeks(self, state):
+        if self.league.get("status") == "complete" or str(state.get("season")) != str(self.season):
+            weeks = []
+            for w in range(1, 19):
+                ms = self.matchups(w)
+                if not ms or not any((m.get("points") or 0) > 0 for m in ms):
+                    break
+                weeks.append(w)
+            return weeks
+        cur = state.get("display_week") or state.get("week") or 1
+        if state.get("season_type") != "regular":
+            cur = 19
+        weeks = list(range(1, min(cur, 18)))
+        # Sleeper may not have moved to next week yet on Tuesday morning; if every
+        # game of its current week is final on ESPN, that week is done too.
+        if cur <= 18 and cur not in weeks and week_is_final(cur):
+            weeks.append(cur)
+        return weeks
+
+    def playoff_labels(self):
+        """(week, frozenset of roster ids) -> label, from Sleeper's brackets."""
+        labels = {}
+        wb = sleeper(f"/league/{self.league_id}/winners_bracket") or []
+        lb = sleeper(f"/league/{self.league_id}/losers_bracket") or []
+        top = max((g.get("r") or 0 for g in wb), default=0)
+        for g in wb:
+            r = g.get("r") or 0
+            if g.get("p") == 1:
+                name = "Championship"
+            elif g.get("p"):
+                name = f"{g['p']}{'rd' if g['p'] == 3 else 'th'} place"
+            elif r == top - 1:
+                name = "Semifinal"
+            elif r == top - 2:
+                name = "Quarterfinal"
+            else:
+                name = "Playoffs"
+            key = frozenset((g.get("t1"), g.get("t2")))
+            weeks = [self.playoff_start + r - 1]
+            if r == top and self.two_week_final:
+                weeks.append(weeks[0] + 1)
+            for w in weeks:
+                labels[(w, key)] = name
+        for g in lb:
+            r = g.get("r") or 0
+            labels[(self.playoff_start + r - 1, frozenset((g.get("t1"), g.get("t2"))))] = "Consolation"
+        return labels
+
+    def games(self, weeks):
+        labels = self.playoff_labels() if any(w >= self.playoff_start for w in weeks) else {}
+        out = []
+        for wk in weeks:
+            playoff = wk >= self.playoff_start
+            for a, b in self.pairs(wk):
+                label = None
+                if playoff:
+                    label = labels.get((wk, frozenset((a["roster_id"], b["roster_id"]))), "Consolation")
+                out.append([self.season, wk, "sleeper",
+                            self.handle[a["roster_id"]], round(a.get("points") or 0, 2),
+                            self.handle[b["roster_id"]], round(b.get("points") or 0, 2),
+                            playoff, label])
+        return out
+
+    # players ------------------------------------------------------------
+    @property
+    def players(self):
+        if self._players is None:
+            age = None
+            if os.path.exists(PLAYER_CACHE):
+                age = datetime.now().timestamp() - os.path.getmtime(PLAYER_CACHE)
+            if age is None or age > 3 * 86400:
+                self._players = sleeper("/players/nfl")
+                os.makedirs(os.path.dirname(PLAYER_CACHE), exist_ok=True)
+                with open(PLAYER_CACHE, "w", encoding="utf-8") as f:
+                    json.dump(self._players, f)
+            else:
+                with open(PLAYER_CACHE, encoding="utf-8") as f:
+                    self._players = json.load(f)
+        return self._players
+
+    def pinfo(self, pid):
+        p = self.players.get(pid) or {}
+        if not p and not pid.isdigit():          # team defence: the id is the team
+            return {"name": f"{pid} DEF", "pos": "DEF", "team": pid}
+        name = p.get("full_name") or f"{p.get('first_name', '')} {p.get('last_name', '')}".strip()
+        return {"name": name or pid, "pos": p.get("position") or "?", "team": p.get("team")}
+
 
 # ---------------------------------------------------------------- history
-def build_history(season):
-    sys.path.insert(0, VAULT_MANUAL)
-    import flp  # noqa: E402  (vault data layer)
-
+def build_history(cur, state):
     games = []
-    for g in flp.games():
-        if g.season >= SEASON:
-            continue
-        games.append([g.season, g.week, g.era, g.a, round(g.pa, 2),
-                      g.b, round(g.pb, 2), bool(g.playoff), g.label])
-    for wk in season.completed_weeks:
-        playoff = wk >= season.playoff_start
-        for a, b in season.pairs(wk):
-            games.append([SEASON, wk, "sleeper", season.handle[a["roster_id"]],
-                          round(a.get("points") or 0, 2),
-                          season.handle[b["roster_id"]],
-                          round(b.get("points") or 0, 2), playoff, None])
+    if HISTORY_SOURCE == "vault":
+        sys.path.insert(0, VAULT_MANUAL)
+        import flp  # noqa: E402  (vault data layer)
+        for g in flp.games():
+            if g.season >= SEASON:
+                continue
+            games.append([g.season, g.week, g.era, g.a, round(g.pa, 2),
+                          g.b, round(g.pb, 2), bool(g.playoff), g.label])
+    else:
+        # Walk back through Sleeper. Current display names win for every season.
+        handle_by_user = {uid: CANON.get(u["display_name"], u["display_name"])
+                          for uid, u in cur.users.items()}
+        prev = cur.league.get("previous_league_id")
+        while prev and prev != "0":
+            old = Season(prev, handle_by_user)
+            for uid, u in old.users.items():
+                handle_by_user.setdefault(uid, u["display_name"])
+            old = Season(prev, handle_by_user)
+            games = old.games(old.completed_weeks(state)) + games
+            print(f"  {old.season}: read from Sleeper")
+            prev = old.league.get("previous_league_id")
+    games += cur.games(cur.completed_weeks(state))
     games.sort(key=lambda g: (g[0], g[1]))
-    managers = {h: {"name": n, "yahoo": y} for h, (n, y) in MANAGERS.items()}
-    current = sorted(set(season.handle.values()))
+
+    people = sorted({g[3] for g in games} | {g[5] for g in games} | set(cur.handle.values()))
+    managers = {h: {"name": real_name(h),
+                    "yahoo": MANAGERS[h][1] if h in MANAGERS and HISTORY_SOURCE == "vault" else None}
+                for h in people}
+    eras = sorted({g[2] for g in games})
     out = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "site": {
+            "league_name": cur.league.get("name", "").strip(),
+            "season": SEASON,
+            "first_season": min((g[0] for g in games), default=SEASON),
+            "eras": eras,
+            "yahoo_years": ([min(g[0] for g in games if g[2] == "yahoo"),
+                             max(g[0] for g in games if g[2] == "yahoo")]
+                            if "yahoo" in eras else None),
+            "sleeper_from": min((g[0] for g in games if g[2] == "sleeper"), default=SEASON),
+        },
         "fields": ["season", "week", "era", "a", "pa", "b", "pb", "playoff", "label"],
         "managers": managers,
-        "current": current,
+        "current": sorted(set(cur.handle.values())),
         "games": games,
     }
     write_json(os.path.join(DATA, "history.json"), out)
@@ -185,23 +290,11 @@ def build_history(season):
 
 
 # ---------------------------------------------------------------- recap
-def week_is_final(week):
-    try:
-        sb = get("https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
-                 f"scoreboard?week={week}&seasontype=2&dates={SEASON}")
-    except Exception:
-        return False
-    evs = sb.get("events", [])
-    return bool(evs) and all(ev["status"]["type"].get("completed") for ev in evs)
-
-
 def kickoff_slots(week):
     """Team abbreviation -> Wed/Thu/Sun early/Sun late/SNF/MNF from ESPN."""
-    sb = get("https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
-             f"scoreboard?week={week}&seasontype=2&dates={SEASON}")
     out = {}
-    for ev in sb.get("events", []):
-        # ESPN dates are UTC; shift to US Central to name the window.
+    for ev in espn_week(week).get("events", []):
+        # ESPN dates are UTC; shift to US Central (CDT, close enough for naming windows).
         t = datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
         c = datetime.fromtimestamp(t.timestamp() - 5 * 3600, timezone.utc)
         wd, hr = c.weekday(), c.hour           # Mon=0 ... Sun=6
@@ -244,10 +337,13 @@ def side(season, m, slot_of):
     pp = m.get("players_points") or {}
     starters = [p for p in (m.get("starters") or []) if p and p != "0"]
     run = {s: 0.0 for s in SLOTS}
+    by_pos = defaultdict(float)
     for p, v in zip(m.get("starters") or [], m.get("starters_points") or []):
         if not p or p == "0":
             continue
-        s = slot_of.get(season.pinfo(p)["team"])
+        info = season.pinfo(p)
+        by_pos[info["pos"]] += v or 0
+        s = slot_of.get(info["team"])
         if s:
             run[s] += v or 0
     tl, acc = [], 0.0
@@ -266,6 +362,7 @@ def side(season, m, slot_of):
         "optimal": opt,
         "left_on_bench": round(max(0.0, opt - pts), 2),
         "timeline": tl,
+        "by_pos": {k: round(v, 2) for k, v in sorted(by_pos.items())},
         "top": sorted(({"name": season.pinfo(p)["name"], "pos": season.pinfo(p)["pos"],
                         "pts": round(pp.get(p, 0), 2)} for p in starters),
                       key=lambda x: -x["pts"])[:3],
@@ -284,12 +381,7 @@ def record_through(history, week):
         for me, mp, op in ((a, pa, pb), (b, pb, pa)):
             r = rec[me]
             r[3] += mp
-            if mp > op:
-                r[0] += 1
-            elif mp < op:
-                r[1] += 1
-            else:
-                r[2] += 1
+            r[0 if mp > op else 1 if mp < op else 2] += 1
     rows = [{"manager": m, "w": r[0], "l": r[1], "t": r[2], "pf": round(r[3], 2)}
             for m, r in rec.items()]
     rows.sort(key=lambda x: (-x["w"], -x["pf"]))
@@ -297,7 +389,7 @@ def record_through(history, week):
 
 
 def h2h_line(history, a, b, before):
-    """All-time record between a and b, both eras, before this season-week."""
+    """All-time record between a and b before this season-week."""
     wa = wb = 0
     for s, w, _e, x, px, y, py, _p, _l in history["games"]:
         if (s, w) >= before or {x, y} != {a, b}:
@@ -328,6 +420,8 @@ def build_recap(season, history, week):
     regret = max(everyone, key=lambda s: s["left_on_bench"], default=None)
     high = max(everyone, key=lambda s: s["points"], default=None)
     low = min(everyone, key=lambda s: s["points"], default=None)
+    pts = sorted(s["points"] for s in everyone)
+    median = round((pts[len(pts) // 2] + pts[(len(pts) - 1) // 2]) / 2, 2) if pts else 0
     recap = {
         "season": SEASON, "week": week,
         "slug": f"{SEASON}-w{week:02d}",
@@ -338,6 +432,10 @@ def build_recap(season, history, week):
         "video": old.get("video", ""),
         "notes": old.get("notes", []),
         "slots": SLOTS,
+        "median": median,
+        "scores": sorted(({"manager": s["manager"], "points": s["points"],
+                           "optimal": s["optimal"]} for s in everyone),
+                         key=lambda x: -x["points"]),
         "games": games,
         "facts": {
             "closest": games[0] if games else None,
@@ -361,38 +459,30 @@ def build_index():
         if not fn.endswith(".json") or fn == "index.json":
             continue
         r = read_json(os.path.join(RECAPS, fn))
-        c = (r.get("facts") or {}).get("closest") or {}
         items.append({"slug": r["slug"], "season": r["season"], "week": r["week"],
-                      "title": r["title"], "intro": r.get("intro", "")[:240],
-                      "video": bool(r.get("video")),
-                      "closest": c and f'{c["winner"]["manager"]} over {c["loser"]["manager"]} by {c["margin"]}'})
+                      "title": r["title"], "video": bool(r.get("video"))})
     write_json(os.path.join(RECAPS, "index.json"), items)
     return items
 
 
 # ---------------------------------------------------------------- managers
-def build_managers(season, history):
-    """src/lib/data/managers.json for the template's Managers pages.
-
-    Anything in src/lib/data/manager_overrides.json (keyed by Sleeper handle)
-    replaces the generated value, so hand-written bios and photos survive.
-    """
+def build_managers(cur, history):
+    """managers.json for the Managers pages. Anything in manager_overrides.json
+    (keyed by Sleeper handle) replaces the generated value."""
     overrides = read_json(os.path.join(DATA, "manager_overrides.json"), {}) or {}
-    users = sleeper(f"/league/{LEAGUE_ID}/users")
-    handle_of = {u["user_id"]: CANON.get(u["display_name"], u["display_name"])
-                 for u in users}
-    order = sorted(users, key=lambda u: MANAGERS.get(handle_of[u["user_id"]], (u["display_name"],))[0])
+    handle_of = {cur.owner[r]: h for r, h in cur.handle.items() if r in cur.owner}
+    users = [u for uid, u in cur.users.items() if uid in handle_of]
+    order = sorted(users, key=lambda u: real_name(handle_of[u["user_id"]]).lower())
     index = {handle_of[u["user_id"]]: i for i, u in enumerate(order)}
 
-    REAL = {"Quarterfinal", "Semifinal", "Championship"}
     out = []
     for u in order:
         h = handle_of[u["user_id"]]
-        name = MANAGERS.get(h, (h,))[0]
+        name = real_name(h)
         w = l = 0
         titles, finals, seasons = [], 0, set()
         vs = defaultdict(lambda: [0, 0])
-        for s, wk, _e, a, pa, b, pb, playoff, label in history["games"]:
+        for s, _wk, _e, a, pa, b, pb, playoff, label in history["games"]:
             if h not in (a, b):
                 continue
             me, opp = (pa, pb) if a == h else (pb, pa)
@@ -405,33 +495,34 @@ def build_managers(season, history):
                 finals += 1
                 if me > opp:
                     titles.append(s)
-            if not playoff or label in REAL:
+            if not playoff or label in REAL_ROUNDS:
                 vs[other][0 if me > opp else 1] += 1
-        current_foes = [o for o in vs if o in index]
-        nemesis = max(current_foes, key=lambda o: (vs[o][1] - vs[o][0], vs[o][1]), default=None)
-        bits = [f"Regular season since {min(seasons)}: {w}-{l}."]
+        foes = [o for o in vs if o in index and o != h]
+        nemesis = max(foes, key=lambda o: (vs[o][1] - vs[o][0], vs[o][1]), default=None)
+        bits = [f"Regular season since {min(seasons)}: {w}-{l}." if seasons else "No games yet."]
         if titles:
             bits.append(f"Champion: {', '.join(map(str, titles))}.")
         elif finals:
             bits.append(f"{finals} final{'s' if finals > 1 else ''}, still chasing a title.")
-        else:
+        elif seasons:
             bits.append("Still chasing a first title.")
         if nemesis:
             nw, nl = vs[nemesis]
-            bits.append(f"Toughest opponent: {MANAGERS.get(nemesis, (nemesis,))[0]} ({nw}-{nl}).")
-        slug = lambda x, y: "--".join(sorted([x, y]))
+            bits.append(f"Toughest opponent: {real_name(nemesis)} ({nw}-{nl}).")
         bio = " ".join(bits)
         if nemesis:
-            bio += f' <a href="/rivalries/{slug(h, nemesis)}">That rivalry</a> ·'
+            bio += f' <a href="/rivalries/{"--".join(sorted([h, nemesis]))}">That rivalry</a> ·'
         bio += f' <a href="/rivalries?who={h}">All of {name}\'s rivalries</a>'
         entry = {
             "managerID": u["user_id"],
+            "handle": h,
             "name": name,
-            "photo": f"https://sleepercdn.com/avatars/{u['avatar']}" if u.get("avatar") else "/managers/question.jpg",
+            "photo": (f"https://sleepercdn.com/avatars/{u['avatar']}" if u.get("avatar")
+                      else "/managers/question.jpg"),
             "fantasyStart": min(seasons) if seasons else None,
             "bio": bio,
             "rival": {
-                "name": MANAGERS.get(nemesis, (nemesis,))[0] if nemesis else "Everyone",
+                "name": real_name(nemesis) if nemesis else "Everyone",
                 "link": index.get(nemesis) if nemesis else None,
                 "image": "/managers/everyone.png",
             },
@@ -454,16 +545,17 @@ def build_managers(season, history):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", type=int, help="rebuild just this week's recap")
-    ap.add_argument("--all", action="store_true", help="rebuild every completed week")
+    ap.add_argument("--all", action="store_true", help="rebuild every finished week")
     ap.add_argument("--push", action="store_true", help="git commit and push")
     args = ap.parse_args()
 
-    season = Season()
-    history = build_history(season)
+    state = sleeper("/state/nfl")
+    cur = Season(LEAGUE_ID)
+    history = build_history(cur, state)
     print(f"history.json: {len(history['games'])} games "
           f"({sum(1 for g in history['games'] if g[0] == SEASON)} from {SEASON})")
 
-    done = season.completed_weeks
+    done = cur.completed_weeks(state)
     if args.week:
         weeks = [args.week]
     elif args.all:
@@ -473,11 +565,16 @@ def main():
                  if not os.path.exists(os.path.join(RECAPS, f"{SEASON}-w{w:02d}.json"))]
         if done and done[-1] not in weeks:
             weeks.append(done[-1])
+    os.makedirs(RECAPS, exist_ok=True)
     for w in weeks:
-        r = build_recap(season, history, w)
+        r = build_recap(cur, history, w)
         print(f"recap week {w}: {len(r['games'])} games")
     build_index()
-    print(f"managers.json: {len(build_managers(season, history))} managers")
+    print(f"managers.json: {len(build_managers(cur, history))} managers")
+    rules = build_rules(LEAGUE_ID, sleeper, os.path.join(DATA, "rules_extra.json"),
+                        os.path.join(DATA, "rules.json"), write_json, read_json)
+    print(f"rules.json: {sum(len(h['changes']) for h in rules['history'])} rule changes "
+          f"since {rules['first_sleeper_season']}")
 
     if args.push:
         subprocess.run(["git", "-C", REPO, "add", "src/lib/data"], check=True)

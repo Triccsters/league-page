@@ -10,3 +10,4 @@ build
 .vercel_build_output
 
 logs/
+__pycache__/

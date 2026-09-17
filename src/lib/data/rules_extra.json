@@ -1,0 +1,5 @@
+{
+ "_how_to": "Add league rules Sleeper doesn't track (payouts, trade rules, tiebreakers) to 'rules', and older rule changes (e.g. from before Sleeper) to 'changes'. Each rule: {\"title\": \"...\", \"text\": \"...\"}. Each change: {\"season\": 2019, \"text\": \"...\"}.",
+ "rules": [],
+ "changes": []
+}

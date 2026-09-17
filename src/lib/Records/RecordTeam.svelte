@@ -3,6 +3,16 @@
 
     export let leagueTeamManagers, managerID = null, rosterID = null, year, compressed = false, points = null;
 
+    // Former managers: nobody on this team is on a roster this season.
+    const tmm = leagueTeamManagers.teamManagersMap || {};
+    const cur = leagueTeamManagers.currentSeason;
+    const currentIDs = new Set(Object.values(tmm[cur] || {}).flatMap(t => t.managers || []));
+    const lastYearFor = (id) => Math.max(0, ...Object.entries(tmm)
+        .filter(([, teams]) => Object.values(teams).some(t => (t.managers || []).includes(id))).map(([y]) => +y));
+    $: ids = managerID ? [managerID] : rosterID ? (tmm[!year || year > cur ? cur : year]?.[rosterID]?.managers || []) : [];
+    $: former = currentIDs.size > 0 && ids.length > 0 && !ids.some(id => currentIDs.has(id));
+    $: leftIn = former ? Math.max(...ids.map(lastYearFor)) + 1 : null;
+
     let user = null;
 
     if(managerID) {
@@ -11,6 +21,8 @@
 </script>
 
 <style>
+    .leftTag { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
+        background: #5d6d7e; color: #fff; border-radius: 3px; padding: 0.05em 0.4em; margin: 0.1em 0; white-space: nowrap; }
 	.teamAvatar {
 		vertical-align: middle;
 		border-radius: 50%;
@@ -76,6 +88,9 @@
                 {points ? ` (${points})` : ""}
             {/if}
         </div>
+        {#if former}
+            <div class="leftTag">Left league in {leftIn}</div>
+        {/if}
         {#if !user}
             <div class="managerNames">
                 {renderManagerNames(leagueTeamManagers, rosterID, year)}

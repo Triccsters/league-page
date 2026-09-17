@@ -2,6 +2,7 @@
     import { goto } from "$app/navigation";
 	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
     import {dynasty} from "$lib/utils/leagueInfo"
+    import YourTeamBadge from "$lib/MyTeam/YourTeamBadge.svelte";
 
     export let manager, leagueTeamManagers, key;
 
@@ -238,7 +239,7 @@
             </div>
         {/if}
     </div>
-    <div class="name">{manager.name}</div>
+    <div class="name">{manager.name}<YourTeamBadge handle={manager.handle} userId={manager.managerID} size="small" /></div>
     <div class="team">{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</div>
     <div class="spacer" />
     <div class="info">

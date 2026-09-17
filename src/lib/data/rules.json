@@ -1,0 +1,259 @@
+{
+ "league_name": "FL Players",
+ "season": 2026,
+ "first_sleeper_season": 2021,
+ "settings": [
+  {
+   "name": "League type",
+   "value": "Redraft"
+  },
+  {
+   "name": "Teams",
+   "value": 12
+  },
+  {
+   "name": "Weekly median game",
+   "value": "No"
+  },
+  {
+   "name": "Playoff teams",
+   "value": 6
+  },
+  {
+   "name": "Playoffs start",
+   "value": "Week 15"
+  },
+  {
+   "name": "Playoff format",
+   "value": "Standard bracket"
+  },
+  {
+   "name": "Trade deadline",
+   "value": "Week 13"
+  },
+  {
+   "name": "Waivers",
+   "value": "FAAB bidding"
+  },
+  {
+   "name": "FAAB budget",
+   "value": "$100"
+  },
+  {
+   "name": "Waiver period",
+   "value": "2 day(s)"
+  },
+  {
+   "name": "IR slots",
+   "value": 1
+  }
+ ],
+ "lineup": [
+  {
+   "name": "QB",
+   "count": 1
+  },
+  {
+   "name": "RB",
+   "count": 2
+  },
+  {
+   "name": "WR",
+   "count": 2
+  },
+  {
+   "name": "TE",
+   "count": 1
+  },
+  {
+   "name": "Flex (RB/WR/TE)",
+   "count": 1
+  },
+  {
+   "name": "Kicker",
+   "count": 1
+  },
+  {
+   "name": "Team defense",
+   "count": 1
+  },
+  {
+   "name": "Bench",
+   "count": 6
+  }
+ ],
+ "scoring": [
+  {
+   "name": "Passing yard",
+   "points": 0.04
+  },
+  {
+   "name": "Passing TD",
+   "points": 4.0
+  },
+  {
+   "name": "Interception thrown",
+   "points": -2.0
+  },
+  {
+   "name": "Passing 2-pt",
+   "points": 2.0
+  },
+  {
+   "name": "Rushing yard",
+   "points": 0.1
+  },
+  {
+   "name": "Rushing TD",
+   "points": 6.0
+  },
+  {
+   "name": "Rushing 2-pt",
+   "points": 2.0
+  },
+  {
+   "name": "Reception",
+   "points": 0.5
+  },
+  {
+   "name": "Receiving yard",
+   "points": 0.1
+  },
+  {
+   "name": "Receiving TD",
+   "points": 6.0
+  },
+  {
+   "name": "Receiving 2-pt",
+   "points": 2.0
+  },
+  {
+   "name": "Fumble lost",
+   "points": -2.0
+  },
+  {
+   "name": "Fumble recovery TD",
+   "points": 6.0
+  },
+  {
+   "name": "Special teams TD",
+   "points": 6.0
+  },
+  {
+   "name": "Special teams fumble recovery",
+   "points": 1.0
+  },
+  {
+   "name": "Extra point made",
+   "points": 1.0
+  },
+  {
+   "name": "FG made",
+   "points": 3.0
+  },
+  {
+   "name": "Defense TD",
+   "points": 6.0
+  },
+  {
+   "name": "Defense/ST TD",
+   "points": 6.0
+  },
+  {
+   "name": "Sack",
+   "points": 1.0
+  },
+  {
+   "name": "Interception",
+   "points": 2.0
+  },
+  {
+   "name": "Fumble recovery",
+   "points": 2.0
+  },
+  {
+   "name": "Safety",
+   "points": 2.0
+  },
+  {
+   "name": "Blocked kick",
+   "points": 2.0
+  },
+  {
+   "name": "Def/ST fumble recovery",
+   "points": 1.0
+  },
+  {
+   "name": "0 points allowed",
+   "points": 10.0
+  },
+  {
+   "name": "1-6 points allowed",
+   "points": 7.0
+  },
+  {
+   "name": "7-13 points allowed",
+   "points": 4.0
+  },
+  {
+   "name": "14-20 points allowed",
+   "points": 1.0
+  },
+  {
+   "name": "28-34 points allowed",
+   "points": -1.0
+  },
+  {
+   "name": "35+ points allowed",
+   "points": -4.0
+  }
+ ],
+ "history": [
+  {
+   "season": 2026,
+   "changes": []
+  },
+  {
+   "season": 2025,
+   "changes": []
+  },
+  {
+   "season": 2024,
+   "changes": [
+    {
+     "area": "Scoring",
+     "what": "Def/ST forced fumble",
+     "from": "1 pts",
+     "to": "off"
+    },
+    {
+     "area": "Scoring",
+     "what": "Forced fumble",
+     "from": "1 pts",
+     "to": "off"
+    },
+    {
+     "area": "Scoring",
+     "what": "Special teams forced fumble",
+     "from": "1 pts",
+     "to": "off"
+    }
+   ]
+  },
+  {
+   "season": 2023,
+   "changes": [
+    {
+     "area": "Settings",
+     "what": "IR slots",
+     "from": "0",
+     "to": "1"
+    }
+   ]
+  },
+  {
+   "season": 2022,
+   "changes": []
+  }
+ ]
+}
