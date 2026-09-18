@@ -136,7 +136,10 @@ class Season:
         self.owner = {r["roster_id"]: r["owner_id"] for r in self.rosters}
         self.handle = {rid: (name(oid) if oid in self.users else f"Roster {rid}")
                        for rid, oid in self.owner.items()}
-        self.team_name = {uid: (u.get("metadata") or {}).get("team_name")
+        # stripped: managers type these into Sleeper and a stray leading space
+        # renders as an indent on the site. An all-whitespace name becomes None
+        # so the display falls back to the handle rather than showing a gap.
+        self.team_name = {uid: (((u.get("metadata") or {}).get("team_name") or "").strip() or None)
                           for uid, u in self.users.items()}
         self.slots = [s for s in self.league["roster_positions"] if s in ELIG]
         st = self.league.get("settings") or {}

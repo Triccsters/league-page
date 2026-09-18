@@ -3,7 +3,7 @@
  "week": 1,
  "slug": "2026-w01",
  "title": "Week 1 recap",
- "generated": "2026-09-17T21:00:08+00:00",
+ "generated": "2026-09-18T00:53:46+00:00",
  "intro": "",
  "video": "",
  "notes": [],
@@ -253,7 +253,7 @@
   {
    "winner": {
     "manager": "Jbird531",
-    "team": " Pink OD Floyd ",
+    "team": "Pink OD Floyd",
     "points": 118.36,
     "optimal": 129.36,
     "left_on_bench": 11.0,
@@ -465,7 +465,7 @@
   {
    "winner": {
     "manager": "Colt45Johnson",
-    "team": " Hakuna Nakua",
+    "team": "Hakuna Nakua",
     "points": 126.5,
     "optimal": 131.6,
     "left_on_bench": 5.1,
@@ -677,7 +677,7 @@
   {
    "winner": {
     "manager": "butterygoop",
-    "team": " SmithHurtsBrownDickTutes",
+    "team": "SmithHurtsBrownDickTutes",
     "points": 167.82,
     "optimal": 203.72,
     "left_on_bench": 35.9,
@@ -891,7 +891,7 @@
   "blowout": {
    "winner": {
     "manager": "butterygoop",
-    "team": " SmithHurtsBrownDickTutes",
+    "team": "SmithHurtsBrownDickTutes",
     "points": 167.82,
     "optimal": 203.72,
     "left_on_bench": 35.9,
