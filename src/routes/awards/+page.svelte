@@ -49,6 +49,9 @@
 		{:else}
 			<p class="nothingYet">No seasons have been completed yet, so no awards have been earned...</p>
 		{/each}
+		{#each Object.keys(overviews.seasons || {}).filter(y => !podiums.some(p => String(p.year) === y)).sort((a, b) => b - a) as year}
+			<Overview text={overviews.seasons[year]} heading="{year} in review" />
+		{/each}
 	{:catch error}
 		<!-- promise was rejected -->
 		<p>Something went wrong: {error.message}</p>
