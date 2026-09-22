@@ -106,7 +106,7 @@ def real_name(handle):
 
 
 def espn_week(week, season=SEASON):
-    return get("https://site.api.espn.com/apis/site/v2/sports/football/nfl/"
+    return get("https://site.web.api.espn.com/apis/site/v2/sports/football/nfl/"
                f"scoreboard?week={week}&seasontype=2&dates={season}")
 
 

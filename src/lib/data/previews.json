@@ -1,150 +1,210 @@
 {
- "generated": "2026-09-18T00:53:54+00:00",
+ "generated": "2026-09-22T13:26:38+00:00",
  "season": 2026,
- "week": 2,
+ "week": 3,
  "playoff": false,
  "games": [
   {
    "a": "YoungBuck04",
-   "b": "snelson91",
-   "a_win": 44.0,
+   "b": "RockMNwild",
+   "a_win": 50.9,
    "rec": {
     "YoungBuck04": [
-     0,
+     1,
      1
     ],
-    "snelson91": [
+    "RockMNwild": [
      1,
-     0
+     1
     ]
    },
    "avg": {
-    "YoungBuck04": 94.56,
-    "snelson91": 119.76
+    "YoungBuck04": 107.18,
+    "RockMNwild": 105.04
    },
    "last3": {
     "YoungBuck04": [
-     94.56
+     94.56,
+     119.8
     ],
-    "snelson91": [
-     119.76
+    "RockMNwild": [
+     79.16,
+     130.92
     ]
    },
    "proj": {
-    "YoungBuck04": 108.02,
-    "snelson91": 113.06
+    "YoungBuck04": 106.6,
+    "RockMNwild": 105.89
    },
    "h2h": {
-    "YoungBuck04": 17,
-    "snelson91": 8,
-    "games": 25
+    "YoungBuck04": 11,
+    "RockMNwild": 12,
+    "games": 23
    },
    "streak": [
-    "snelson91",
-    2
-   ],
-   "last": {
-    "season": 2025,
-    "week": 15,
-    "label": "Quarterfinal",
-    "score": {
-     "YoungBuck04": 82.2,
-     "snelson91": 129.16
-    }
-   },
-   "flags": [
-    "Rematch of the 2023 final",
-    "Playoff rematch: {YoungBuck04} lost the 2025 quarterfinal"
-   ],
-   "note": "The oldest grudge on the board. Zak leads this series 17-8 across 25 meetings, and none of that helps him here: Scott opened at 119.76 while Zak managed 94.56, and the model has Zak at 44%.\nThey have met in a final and a quarterfinal. Scott won the most recent one."
-  },
-  {
-   "a": "Wallner",
-   "b": "Jbird531",
-   "a_win": 47.3,
-   "rec": {
-    "Wallner": [
-     0,
-     1
-    ],
-    "Jbird531": [
-     1,
-     0
-    ]
-   },
-   "avg": {
-    "Wallner": 107.0,
-    "Jbird531": 118.36
-   },
-   "last3": {
-    "Wallner": [
-     107.0
-    ],
-    "Jbird531": [
-     118.36
-    ]
-   },
-   "proj": {
-    "Wallner": 110.51,
-    "Jbird531": 112.78
-   },
-   "h2h": {
-    "Wallner": 7,
-    "Jbird531": 11,
-    "games": 18
-   },
-   "streak": [
-    "Jbird531",
+    "RockMNwild",
     3
    ],
    "last": {
     "season": 2025,
-    "week": 16,
-    "label": "Consolation R2",
+    "week": 8,
+    "label": null,
     "score": {
-     "Wallner": 97.7,
-     "Jbird531": 111.46
+     "YoungBuck04": 94.66,
+     "RockMNwild": 110.18
     }
    },
    "flags": [
-    "{Jbird531} has won 3 straight in this series"
-   ],
-   "note": "Joey has taken three in a row in this series and now gets Wallner at 0-1. The all-time ledger still favors Joey 11-7, but this is the closest line of the week at 47.3%, which is the model's way of saying the streak is not the story."
+    "{RockMNwild} has won 3 straight in this series",
+    "Rematch of the 2018 final",
+    "Rematch of the 2021 final"
+   ]
   },
   {
-   "a": "butterygoop",
-   "b": "TuanonStan",
-   "a_win": 63.3,
+   "a": "Jbird531",
+   "b": "PapaMidnight",
+   "a_win": 57.0,
    "rec": {
-    "butterygoop": [
-     1,
+    "Jbird531": [
+     2,
      0
     ],
-    "TuanonStan": [
-     1,
-     0
+    "PapaMidnight": [
+     0,
+     2
     ]
    },
    "avg": {
-    "butterygoop": 167.82,
-    "TuanonStan": 111.06
+    "Jbird531": 111.54,
+    "PapaMidnight": 94.13
    },
    "last3": {
-    "butterygoop": [
-     167.82
+    "Jbird531": [
+     118.36,
+     104.72
     ],
-    "TuanonStan": [
-     111.06
+    "PapaMidnight": [
+     105.1,
+     83.16
     ]
    },
    "proj": {
-    "butterygoop": 122.67,
-    "TuanonStan": 111.32
+    "Jbird531": 108.06,
+    "PapaMidnight": 102.25
    },
    "h2h": {
-    "butterygoop": 4,
-    "TuanonStan": 8,
-    "games": 12
+    "Jbird531": 11,
+    "PapaMidnight": 4,
+    "games": 15
+   },
+   "streak": [
+    "PapaMidnight",
+    3
+   ],
+   "last": {
+    "season": 2025,
+    "week": 15,
+    "label": "Consolation R1",
+    "score": {
+     "Jbird531": 105.56,
+     "PapaMidnight": 129.58
+    }
+   },
+   "flags": [
+    "{PapaMidnight} has won 3 straight in this series",
+    "{Jbird531} owns this series 11-4"
+   ]
+  },
+  {
+   "a": "brettmn13",
+   "b": "snelson91",
+   "a_win": 40.6,
+   "rec": {
+    "brettmn13": [
+     1,
+     1
+    ],
+    "snelson91": [
+     1,
+     1
+    ]
+   },
+   "avg": {
+    "brettmn13": 91.13,
+    "snelson91": 114.67
+   },
+   "last3": {
+    "brettmn13": [
+     117.2,
+     65.06
+    ],
+    "snelson91": [
+     119.76,
+     109.58
+    ]
+   },
+   "proj": {
+    "brettmn13": 101.25,
+    "snelson91": 109.1
+   },
+   "h2h": {
+    "brettmn13": 7,
+    "snelson91": 8,
+    "games": 15
+   },
+   "streak": [
+    "brettmn13",
+    5
+   ],
+   "last": {
+    "season": 2025,
+    "week": 4,
+    "label": null,
+    "score": {
+     "brettmn13": 120.46,
+     "snelson91": 113.2
+    }
+   },
+   "flags": [
+    "{brettmn13} has won 5 straight in this series"
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "TuanonStan",
+   "a_win": 52.3,
+   "rec": {
+    "Wallner": [
+     0,
+     2
+    ],
+    "TuanonStan": [
+     1,
+     1
+    ]
+   },
+   "avg": {
+    "Wallner": 104.44,
+    "TuanonStan": 98.62
+   },
+   "last3": {
+    "Wallner": [
+     107.0,
+     101.88
+    ],
+    "TuanonStan": [
+     111.06,
+     86.18
+    ]
+   },
+   "proj": {
+    "Wallner": 105.69,
+    "TuanonStan": 103.75
+   },
+   "h2h": {
+    "Wallner": 8,
+    "TuanonStan": 13,
+    "games": 21
    },
    "streak": [
     "TuanonStan",
@@ -152,171 +212,121 @@
    ],
    "last": {
     "season": 2025,
-    "week": 14,
-    "label": null,
+    "week": 17,
+    "label": "7th place",
     "score": {
-     "butterygoop": 89.28,
-     "TuanonStan": 139.06
+     "Wallner": 65.78,
+     "TuanonStan": 97.18
     }
    },
-   "flags": [],
-   "note": "Anthony arrives off the league's best week and the biggest number anyone has posted this season. James is also 1-0 but got there quietly at 111.06. James leads the all-time series 8-4, which is the only thing keeping this from looking one-sided."
+   "flags": []
   },
   {
-   "a": "triccster",
-   "b": "PapaMidnight",
-   "a_win": 49.2,
+   "a": "butterygoop",
+   "b": "triccster",
+   "a_win": 64.7,
    "rec": {
-    "triccster": [
-     0,
-     1
-    ],
-    "PapaMidnight": [
-     0,
-     1
-    ]
-   },
-   "avg": {
-    "triccster": 101.66,
-    "PapaMidnight": 105.1
-   },
-   "last3": {
-    "triccster": [
-     101.66
-    ],
-    "PapaMidnight": [
-     105.1
-    ]
-   },
-   "proj": {
-    "triccster": 109.44,
-    "PapaMidnight": 110.13
-   },
-   "h2h": {
-    "triccster": 8,
-    "PapaMidnight": 4,
-    "games": 12
-   },
-   "streak": [
-    "triccster",
-    2
-   ],
-   "last": {
-    "season": 2025,
-    "week": 7,
-    "label": null,
-    "score": {
-     "triccster": 114.02,
-     "PapaMidnight": 106.76
-    }
-   },
-   "flags": [],
-   "note": "Dead even at 49.2%, which is about right: both teams are 0-1 and both scored in the low 100s. T.J. leads the series 8-4 in 12 meetings. Whoever wins gets to stop worrying for a week."
-  },
-  {
-   "a": "RockMNwild",
-   "b": "Colt45Johnson",
-   "a_win": 38.8,
-   "rec": {
-    "RockMNwild": [
-     0,
-     1
-    ],
-    "Colt45Johnson": [
-     1,
+    "butterygoop": [
+     2,
      0
+    ],
+    "triccster": [
+     1,
+     1
     ]
    },
    "avg": {
-    "RockMNwild": 79.16,
-    "Colt45Johnson": 126.5
+    "butterygoop": 146.39,
+    "triccster": 108.95
    },
    "last3": {
-    "RockMNwild": [
-     79.16
+    "butterygoop": [
+     167.82,
+     124.96
     ],
-    "Colt45Johnson": [
-     126.5
+    "triccster": [
+     101.66,
+     116.24
     ]
    },
    "proj": {
-    "RockMNwild": 104.94,
-    "Colt45Johnson": 114.41
+    "butterygoop": 119.67,
+    "triccster": 107.19
    },
    "h2h": {
-    "RockMNwild": 9,
-    "Colt45Johnson": 12,
-    "games": 21
+    "butterygoop": 4,
+    "triccster": 7,
+    "games": 11
    },
    "streak": [
-    "RockMNwild",
+    "butterygoop",
     1
    ],
    "last": {
     "season": 2025,
-    "week": 14,
+    "week": 10,
     "label": null,
     "score": {
-     "RockMNwild": 84.26,
-     "Colt45Johnson": 59.82
+     "butterygoop": 137.42,
+     "triccster": 104.2
     }
    },
-   "flags": [],
-   "note": "Austin's 79.16 was the worst score of week 1 and Colt's 126.5 was among the best, so the model gives Austin 38.8% and feels comfortable about it. Austin leads the all-time series 12-9, and four titles say he tends to be fine."
+   "flags": []
   },
   {
-   "a": "brettmn13",
+   "a": "Colt45Johnson",
    "b": "thecreamer",
-   "a_win": 56.8,
+   "a_win": 50.7,
    "rec": {
-    "brettmn13": [
+    "Colt45Johnson": [
      1,
-     0
+     1
     ],
     "thecreamer": [
-     0,
+     1,
      1
     ]
    },
    "avg": {
-    "brettmn13": 117.2,
-    "thecreamer": 88.44
+    "Colt45Johnson": 97.7,
+    "thecreamer": 95.98
    },
    "last3": {
-    "brettmn13": [
-     117.2
+    "Colt45Johnson": [
+     126.5,
+     68.9
     ],
     "thecreamer": [
-     88.44
+     88.44,
+     103.52
     ]
    },
    "proj": {
-    "brettmn13": 112.55,
-    "thecreamer": 106.8
+    "Colt45Johnson": 103.44,
+    "thecreamer": 102.87
    },
    "h2h": {
-    "brettmn13": 7,
-    "thecreamer": 9,
-    "games": 16
+    "Colt45Johnson": 8,
+    "thecreamer": 6,
+    "games": 14
    },
    "streak": [
-    "brettmn13",
+    "thecreamer",
     1
    ],
    "last": {
     "season": 2025,
-    "week": 13,
+    "week": 8,
     "label": null,
     "score": {
-     "brettmn13": 97.22,
-     "thecreamer": 65.92
+     "Colt45Johnson": 90.2,
+     "thecreamer": 99.46
     }
    },
-   "flags": [],
-   "note": "Brett opened at 117.2 and Zach Nase at 88.44, which is most of the gap in this line. Zach Nase holds a 9-7 edge all-time. Brett has the most playoff appearances in league history and the schedule has been kind so far."
+   "flags": []
   }
  ],
- "league_note": "Week 1 split the league into two moods. Anthony put 167.82 on the board, the kind of number that usually shows up in November, and Austin managed 79.16 in the same set of games. Everything in between was close enough to argue about.\nWeek 2 is where the sample starts to matter. Four of the six games sit inside a coin flip, and two of them are rematches with history attached. Nobody is buried at 0-1 and nobody has proved anything at 1-0.",
- "byline": "Written each week from the league's own numbers.",
+ "league_note": "",
+ "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."
 }
