@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T13:26:38+00:00",
+ "generated": "2026-09-22T13:40:22+00:00",
  "season": 2026,
  "week": 3,
  "playoff": false,
@@ -58,7 +58,8 @@
     "{RockMNwild} has won 3 straight in this series",
     "Rematch of the 2018 final",
     "Rematch of the 2021 final"
-   ]
+   ],
+   "note": "The closest line of the week, 50.9 to 49.1 for Zak. Austin has won three straight in this series and leads it 12-11, and two of his wins were finals, 2018 and 2021.\nZak's 119.8 last week came at 98% of his best possible lineup, the sharpest call in the league. Austin's 130.92 led the week and still left 16.8 on the bench."
   },
   {
    "a": "Jbird531",
@@ -113,7 +114,8 @@
    "flags": [
     "{PapaMidnight} has won 3 straight in this series",
     "{Jbird531} owns this series 11-4"
-   ]
+   ],
+   "note": "Joey is 2-0 and owns this series 11-4. Mikey has won the last three meetings anyway, the most recent a consolation game last December, 129.58 to 105.56.\nThe model sides with the record at 57%. Mikey is 0-2 with the lowest playoff odds in the league, 24.1%, which makes this about as close to a must-win as week 3 gets."
   },
   {
    "a": "brettmn13",
@@ -167,7 +169,8 @@
    },
    "flags": [
     "{brettmn13} has won 5 straight in this series"
-   ]
+   ],
+   "note": "Brett has won five straight against Scott, and Scott still leads the series 8-7. The model is not interested in the streak: Scott 59.4%, on a 114.67 average against Brett's 91.13.\nBrett's 65.06 was the lowest score of week 2, with Colston Loveland starting at tight end for 0.8. Scott lost with 109.58, above the week's median."
   },
   {
    "a": "Wallner",
@@ -219,7 +222,8 @@
      "TuanonStan": 97.18
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "Wallner is 0-2 with 208.88 points, more than four teams that already have a win. The model makes him a 52.3% favorite over James, who managed 86.18 last week.\nJames leads the series 13-8. The last meeting was the seventh-place game in 2025, 97.18 to 65.78."
   },
   {
    "a": "butterygoop",
@@ -271,7 +275,8 @@
      "triccster": 104.2
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "The biggest line of the week, 64.7% for Anthony, and the model has reason: 146.39 a game against T.J.'s 108.95, and 292.78 points already.\nT.J. leads the series 7-4. Anthony won the last one, 137.42 to 104.2 in week 10 last year, and went on to win the title. T.J.'s week-1 trade for CeeDee Lamb paid 31.3 in week 2."
   },
   {
    "a": "Colt45Johnson",
@@ -323,10 +328,11 @@
      "thecreamer": 99.46
     }
    },
-   "flags": []
+   "flags": [],
+   "note": "Colt 50.7, Zach Nase 49.3, between two 1-1 teams separated by 1.72 points a game. Colt leads the series 8-6; Zach Nase won the last one, 99.46 to 90.2.\nColt left 27.4 on his bench in week 2, the most in the league, 25.0 of it from the Carolina defense. Zach Nase won with 103.52, below the week's median."
   }
  ],
- "league_note": "",
- "byline": "",
+ "league_note": "Two weeks in, Anthony is the only team playing like the favorite the model says he is. He is 2-0, averaging 146.39, and has a 93.7% playoff chance, more than 21 points clear of anyone else. Everyone from Joey at 72.3% down to Mikey at 24.1% is still one good or bad month from anywhere.\nWeek 3 has three games inside 53-47 and one that is not close on paper at all: T.J. gets Anthony. Austin and Zak meet for the 24th time, and two of their earlier meetings were finals.",
+ "byline": "Written each week from the league's own numbers.",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."
 }
