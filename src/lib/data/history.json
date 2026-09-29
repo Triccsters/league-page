@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T13:08:19+00:00",
+ "generated": "2026-09-29T12:00:07+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -240,15 +240,15 @@
    "snelson91": "Saquon My Wiener"
   },
   "2026": {
-   "Wallner": "Cook Smack and Addi-son",
+   "Wallner": "Bye Week Cuz PA Sponge",
    "butterygoop": "SmithHurtsBrownDickTutes",
    "TuanonStan": "Hindenburg",
    "triccster": "triccster",
    "YoungBuck04": "Christian MaCalf-Hurts",
-   "RockMNwild": "Waddled into a strib club",
+   "RockMNwild": "Thirty Seconds to Jamarrs",
    "Jbird531": "Pink OD Floyd",
    "PapaMidnight": "Saquon Ds Nutz",
-   "Colt45Johnson": "Hakuna Nakua",
+   "Colt45Johnson": "Those Darts Shough Me Up",
    "brettmn13": "Buster brought me back",
    "snelson91": "LaPorta Potty",
    "thecreamer": "thecreamer"
@@ -16770,6 +16770,72 @@
    65.06,
    "thecreamer",
    103.52,
+   false,
+   null
+  ],
+  [
+   2026,
+   3,
+   "sleeper",
+   "Wallner",
+   88.88,
+   "TuanonStan",
+   156.08,
+   false,
+   null
+  ],
+  [
+   2026,
+   3,
+   "sleeper",
+   "butterygoop",
+   103.42,
+   "triccster",
+   106.86,
+   false,
+   null
+  ],
+  [
+   2026,
+   3,
+   "sleeper",
+   "YoungBuck04",
+   98.04,
+   "RockMNwild",
+   92.76,
+   false,
+   null
+  ],
+  [
+   2026,
+   3,
+   "sleeper",
+   "Jbird531",
+   110.18,
+   "PapaMidnight",
+   86.64,
+   false,
+   null
+  ],
+  [
+   2026,
+   3,
+   "sleeper",
+   "Colt45Johnson",
+   100.6,
+   "thecreamer",
+   109.84,
+   false,
+   null
+  ],
+  [
+   2026,
+   3,
+   "sleeper",
+   "brettmn13",
+   107.78,
+   "snelson91",
+   120.44,
    false,
    null
   ]

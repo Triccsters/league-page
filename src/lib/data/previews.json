@@ -1,266 +1,104 @@
 {
- "generated": "2026-09-23T13:08:36+00:00",
+ "generated": "2026-09-29T12:00:23+00:00",
  "season": 2026,
- "week": 3,
+ "week": 4,
  "playoff": false,
  "games": [
   {
    "a": "YoungBuck04",
-   "b": "RockMNwild",
-   "a_win": 50.9,
+   "b": "thecreamer",
+   "a_win": 52.0,
    "rec": {
     "YoungBuck04": [
-     1,
+     2,
      1
     ],
-    "RockMNwild": [
-     1,
+    "thecreamer": [
+     2,
      1
     ]
    },
    "avg": {
-    "YoungBuck04": 107.18,
-    "RockMNwild": 105.04
+    "YoungBuck04": 104.13,
+    "thecreamer": 100.6
    },
    "last3": {
     "YoungBuck04": [
      94.56,
-     119.8
+     119.8,
+     98.04
     ],
-    "RockMNwild": [
-     79.16,
-     130.92
+    "thecreamer": [
+     88.44,
+     103.52,
+     109.84
     ]
    },
    "proj": {
-    "YoungBuck04": 106.6,
-    "RockMNwild": 105.89
+    "YoungBuck04": 105.47,
+    "thecreamer": 103.96
    },
    "h2h": {
     "YoungBuck04": 11,
-    "RockMNwild": 12,
-    "games": 23
-   },
-   "streak": [
-    "RockMNwild",
-    3
-   ],
-   "last": {
-    "season": 2025,
-    "week": 8,
-    "label": null,
-    "score": {
-     "YoungBuck04": 94.66,
-     "RockMNwild": 110.18
-    }
-   },
-   "flags": [
-    "{RockMNwild} has won 3 straight in this series",
-    "Rematch of the 2018 final",
-    "Rematch of the 2021 final"
-   ],
-   "note": "The closest line of the week, 50.9 to 49.1 for Zak. Austin has won three straight in this series and leads it 12-11, and two of his wins were finals, 2018 and 2021.\nZak's 119.8 last week came at 98% of his best possible lineup, the sharpest call in the league. Austin's 130.92 led the week and still left 16.8 on the bench."
-  },
-  {
-   "a": "Jbird531",
-   "b": "PapaMidnight",
-   "a_win": 57.0,
-   "rec": {
-    "Jbird531": [
-     2,
-     0
-    ],
-    "PapaMidnight": [
-     0,
-     2
-    ]
-   },
-   "avg": {
-    "Jbird531": 111.54,
-    "PapaMidnight": 94.13
-   },
-   "last3": {
-    "Jbird531": [
-     118.36,
-     104.72
-    ],
-    "PapaMidnight": [
-     105.1,
-     83.16
-    ]
-   },
-   "proj": {
-    "Jbird531": 108.06,
-    "PapaMidnight": 102.25
-   },
-   "h2h": {
-    "Jbird531": 11,
-    "PapaMidnight": 4,
+    "thecreamer": 4,
     "games": 15
    },
    "streak": [
-    "PapaMidnight",
-    3
-   ],
-   "last": {
-    "season": 2025,
-    "week": 15,
-    "label": "Consolation R1",
-    "score": {
-     "Jbird531": 105.56,
-     "PapaMidnight": 129.58
-    }
-   },
-   "flags": [
-    "{PapaMidnight} has won 3 straight in this series",
-    "{Jbird531} owns this series 11-4"
-   ],
-   "note": "Joey is 2-0 and owns this series 11-4. Mikey has won the last three meetings anyway, the most recent a consolation game last December, 129.58 to 105.56.\nThe model sides with the record at 57%. Mikey is 0-2 with the lowest playoff odds in the league, 24.1%, which makes this about as close to a must-win as week 3 gets."
-  },
-  {
-   "a": "brettmn13",
-   "b": "snelson91",
-   "a_win": 40.6,
-   "rec": {
-    "brettmn13": [
-     1,
-     1
-    ],
-    "snelson91": [
-     1,
-     1
-    ]
-   },
-   "avg": {
-    "brettmn13": 91.13,
-    "snelson91": 114.67
-   },
-   "last3": {
-    "brettmn13": [
-     117.2,
-     65.06
-    ],
-    "snelson91": [
-     119.76,
-     109.58
-    ]
-   },
-   "proj": {
-    "brettmn13": 101.25,
-    "snelson91": 109.1
-   },
-   "h2h": {
-    "brettmn13": 7,
-    "snelson91": 8,
-    "games": 15
-   },
-   "streak": [
-    "brettmn13",
-    5
+    "YoungBuck04",
+    7
    ],
    "last": {
     "season": 2025,
     "week": 4,
     "label": null,
     "score": {
-     "brettmn13": 120.46,
-     "snelson91": 113.2
+     "YoungBuck04": 130.7,
+     "thecreamer": 111.7
     }
    },
    "flags": [
-    "{brettmn13} has won 5 straight in this series"
-   ],
-   "note": "Brett has won five straight against Scott, and Scott still leads the series 8-7. The model is not interested in the streak: Scott 59.4%, on a 114.67 average against Brett's 91.13.\nBrett's 65.06 was the lowest score of week 2, with Colston Loveland starting at tight end for 0.8. Scott lost with 109.58, above the week's median."
-  },
-  {
-   "a": "Wallner",
-   "b": "TuanonStan",
-   "a_win": 52.3,
-   "rec": {
-    "Wallner": [
-     0,
-     2
-    ],
-    "TuanonStan": [
-     1,
-     1
-    ]
-   },
-   "avg": {
-    "Wallner": 104.44,
-    "TuanonStan": 98.62
-   },
-   "last3": {
-    "Wallner": [
-     107.0,
-     101.88
-    ],
-    "TuanonStan": [
-     111.06,
-     86.18
-    ]
-   },
-   "proj": {
-    "Wallner": 105.69,
-    "TuanonStan": 103.75
-   },
-   "h2h": {
-    "Wallner": 8,
-    "TuanonStan": 13,
-    "games": 21
-   },
-   "streak": [
-    "TuanonStan",
-    1
-   ],
-   "last": {
-    "season": 2025,
-    "week": 17,
-    "label": "7th place",
-    "score": {
-     "Wallner": 65.78,
-     "TuanonStan": 97.18
-    }
-   },
-   "flags": [],
-   "note": "Wallner is 0-2 with 208.88 points, more than four teams that already have a win. The model makes him a 52.3% favorite over James, who managed 86.18 last week.\nJames leads the series 13-8. The last meeting was the seventh-place game in 2025, 97.18 to 65.78."
+    "{YoungBuck04} has won 7 straight in this series",
+    "{YoungBuck04} owns this series 11-4"
+   ]
   },
   {
    "a": "butterygoop",
-   "b": "triccster",
-   "a_win": 64.7,
+   "b": "PapaMidnight",
+   "a_win": 71.4,
    "rec": {
     "butterygoop": [
      2,
-     0
-    ],
-    "triccster": [
-     1,
      1
+    ],
+    "PapaMidnight": [
+     0,
+     3
     ]
    },
    "avg": {
-    "butterygoop": 146.39,
-    "triccster": 108.95
+    "butterygoop": 132.07,
+    "PapaMidnight": 91.63
    },
    "last3": {
     "butterygoop": [
      167.82,
-     124.96
+     124.96,
+     103.42
     ],
-    "triccster": [
-     101.66,
-     116.24
+    "PapaMidnight": [
+     105.1,
+     83.16,
+     86.64
     ]
    },
    "proj": {
-    "butterygoop": 119.67,
-    "triccster": 107.19
+    "butterygoop": 117.44,
+    "PapaMidnight": 100.11
    },
    "h2h": {
     "butterygoop": 4,
-    "triccster": 7,
-    "games": 11
+    "PapaMidnight": 3,
+    "games": 7
    },
    "streak": [
     "butterygoop",
@@ -268,71 +106,237 @@
    ],
    "last": {
     "season": 2025,
-    "week": 10,
+    "week": 5,
     "label": null,
     "score": {
-     "butterygoop": 137.42,
-     "triccster": 104.2
+     "butterygoop": 120.86,
+     "PapaMidnight": 96.98
     }
    },
-   "flags": [],
-   "note": "The biggest line of the week, 64.7% for Anthony, and the model has reason: 146.39 a game against T.J.'s 108.95, and 292.78 points already.\nT.J. leads the series 7-4. Anthony won the last one, 137.42 to 104.2 in week 10 last year, and went on to win the title. T.J.'s week-1 trade for CeeDee Lamb paid 31.3 in week 2."
+   "flags": [
+    "Upset watch: {PapaMidnight} is the underdog"
+   ]
   },
   {
    "a": "Colt45Johnson",
-   "b": "thecreamer",
-   "a_win": 50.7,
+   "b": "brettmn13",
+   "a_win": 51.1,
    "rec": {
     "Colt45Johnson": [
      1,
-     1
+     2
     ],
-    "thecreamer": [
+    "brettmn13": [
      1,
-     1
+     2
     ]
    },
    "avg": {
-    "Colt45Johnson": 97.7,
-    "thecreamer": 95.98
+    "Colt45Johnson": 98.67,
+    "brettmn13": 96.68
    },
    "last3": {
     "Colt45Johnson": [
      126.5,
-     68.9
+     68.9,
+     100.6
     ],
-    "thecreamer": [
-     88.44,
-     103.52
+    "brettmn13": [
+     117.2,
+     65.06,
+     107.78
     ]
    },
    "proj": {
-    "Colt45Johnson": 103.44,
-    "thecreamer": 102.87
+    "Colt45Johnson": 103.13,
+    "brettmn13": 102.28
    },
    "h2h": {
-    "Colt45Johnson": 8,
-    "thecreamer": 6,
-    "games": 14
+    "Colt45Johnson": 10,
+    "brettmn13": 12,
+    "games": 22
    },
    "streak": [
-    "thecreamer",
+    "brettmn13",
+    5
+   ],
+   "last": {
+    "season": 2025,
+    "week": 7,
+    "label": null,
+    "score": {
+     "Colt45Johnson": 64.54,
+     "brettmn13": 106.98
+    }
+   },
+   "flags": [
+    "{brettmn13} has won 5 straight in this series"
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "triccster",
+   "a_win": 45.0,
+   "rec": {
+    "Wallner": [
+     0,
+     3
+    ],
+    "triccster": [
+     2,
+     1
+    ]
+   },
+   "avg": {
+    "Wallner": 99.25,
+    "triccster": 108.25
+   },
+   "last3": {
+    "Wallner": [
+     107.0,
+     101.88,
+     88.88
+    ],
+    "triccster": [
+     101.66,
+     116.24,
+     106.86
+    ]
+   },
+   "proj": {
+    "Wallner": 103.38,
+    "triccster": 107.24
+   },
+   "h2h": {
+    "Wallner": 12,
+    "triccster": 11,
+    "games": 23
+   },
+   "streak": [
+    "triccster",
     1
    ],
    "last": {
     "season": 2025,
-    "week": 8,
+    "week": 4,
     "label": null,
     "score": {
-     "Colt45Johnson": 90.2,
-     "thecreamer": 99.46
+     "Wallner": 94.92,
+     "triccster": 127.58
     }
    },
-   "flags": [],
-   "note": "Colt 50.7, Zach Nase 49.3, between two 1-1 teams separated by 1.72 points a game. Colt leads the series 8-6; Zach Nase won the last one, 99.46 to 90.2.\nColt left 27.4 on his bench in week 2, the most in the league, 25.0 of it from the Carolina defense. Zach Nase won with 103.52, below the week's median."
+   "flags": []
+  },
+  {
+   "a": "TuanonStan",
+   "b": "Jbird531",
+   "a_win": 53.7,
+   "rec": {
+    "TuanonStan": [
+     2,
+     1
+    ],
+    "Jbird531": [
+     3,
+     0
+    ]
+   },
+   "avg": {
+    "TuanonStan": 117.77,
+    "Jbird531": 111.09
+   },
+   "last3": {
+    "TuanonStan": [
+     111.06,
+     86.18,
+     156.08
+    ],
+    "Jbird531": [
+     118.36,
+     104.72,
+     110.18
+    ]
+   },
+   "proj": {
+    "TuanonStan": 111.32,
+    "Jbird531": 108.45
+   },
+   "h2h": {
+    "TuanonStan": 7,
+    "Jbird531": 12,
+    "games": 19
+   },
+   "streak": [
+    "Jbird531",
+    2
+   ],
+   "last": {
+    "season": 2025,
+    "week": 13,
+    "label": null,
+    "score": {
+     "TuanonStan": 74.74,
+     "Jbird531": 101.5
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "RockMNwild",
+   "b": "snelson91",
+   "a_win": 41.4,
+   "rec": {
+    "RockMNwild": [
+     1,
+     2
+    ],
+    "snelson91": [
+     2,
+     1
+    ]
+   },
+   "avg": {
+    "RockMNwild": 100.95,
+    "snelson91": 116.59
+   },
+   "last3": {
+    "RockMNwild": [
+     79.16,
+     130.92,
+     92.76
+    ],
+    "snelson91": [
+     119.76,
+     109.58,
+     120.44
+    ]
+   },
+   "proj": {
+    "RockMNwild": 104.11,
+    "snelson91": 110.81
+   },
+   "h2h": {
+    "RockMNwild": 11,
+    "snelson91": 8,
+    "games": 19
+   },
+   "streak": [
+    "snelson91",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 7,
+    "label": null,
+    "score": {
+     "RockMNwild": 79.9,
+     "snelson91": 120.64
+    }
+   },
+   "flags": []
   }
  ],
- "league_note": "Two weeks in, Anthony is the only team playing like the favorite the model says he is. He is 2-0, averaging 146.39, and has a 93.7% playoff chance, more than 21 points clear of anyone else. Everyone from Joey at 72.3% down to Mikey at 24.1% is still one good or bad month from anywhere.\nWeek 3 has three games inside 53-47 and one that is not close on paper at all: T.J. gets Anthony. Austin and Zak meet for the 24th time, and two of their earlier meetings were finals.",
- "byline": "Written each week from the league's own numbers.",
+ "league_note": "",
+ "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."
 }
