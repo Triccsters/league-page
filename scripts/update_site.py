@@ -102,6 +102,10 @@ def read_json(path, default=None):
 def real_name(handle):
     if handle.startswith("?"):          # Yahoo hid this manager; the key is the team name
         return handle[1:]
+    # site_config "names": "handles" shows everyone by Sleeper username
+    # (FL Evolution, T.J.'s call 2026-09-30); default is the real-name map
+    if CONFIG.get("names") == "handles":
+        return handle
     return MANAGERS.get(handle, (handle,))[0]
 
 
