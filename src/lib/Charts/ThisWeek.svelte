@@ -68,7 +68,7 @@
                     <span>
                         Highest week {week} score: <b>{r2(best.p)}</b> by
                         {#if link(best.h)}<a href={link(best.h)}>{nameOf(best.h)}</a>{:else}{nameOf(best.h)}{/if}
-                        in {best.season}{#if teamName(best.season, best.h)} as {teamName(best.season, best.h)}{/if}.
+                        in {best.season}{#if teamName(best.season, best.h)}{' as '}{teamName(best.season, best.h)}{/if}.
                     </span>
                 </li>
             {/if}
@@ -76,8 +76,13 @@
                 <li>
                     <span class="em">😬</span>
                     <span>
-                        Closest week {week} game: {nameOf(winnerOf(closest.g))} beat {nameOf(loserOf(closest.g))}
-                        {r2(hi(closest.g))} to {r2(lo(closest.g))} in {closest.g.season} — {r2(closest.d)} points.
+                        {#if r2(closest.d) === 0}
+                            Closest week {week} game: {nameOf(closest.g.a)} and {nameOf(closest.g.b)}
+                            tied {r2(closest.g.pa)} to {r2(closest.g.pb)} in {closest.g.season}.
+                        {:else}
+                            Closest week {week} game: {nameOf(winnerOf(closest.g))} beat {nameOf(loserOf(closest.g))}
+                            {r2(hi(closest.g))} to {r2(lo(closest.g))} in {closest.g.season}, by {r2(closest.d)} points.
+                        {/if}
                     </span>
                 </li>
             {/if}

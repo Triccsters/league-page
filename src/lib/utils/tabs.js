@@ -8,28 +8,39 @@ export const tabs = [
         key: 'home',
     },
     {
+        // six top-level tabs so the whole bar fits on a laptop screen;
+        // the week-to-week pages live in this group
         icon: 'sports',
-        label: 'Matchups',
-        dest: '/matchups',
-        key: 'matchups',
-    },
-    {
-        icon: 'swap_horiz',
-        label: 'Trades & Waivers',
-        dest: '/transactions',
-        key: 'transactions',
-    },
-    {
-        icon: 'timeline',
-        label: 'Timeline',
-        dest: '/timeline',
-        key: 'timeline',
-    },
-    {
-        icon: 'article',
-        label: 'Recaps',
-        dest: '/recaps',
-        key: 'recaps',
+        label: 'This Week',
+        nest: true,
+        key: 'week',
+        children: [
+            {
+                icon: 'sports',
+                label: 'Matchups',
+                dest: '/matchups',
+            },
+            {
+                icon: 'visibility',
+                label: 'Week Preview',
+                dest: '/preview',
+            },
+            {
+                icon: 'article',
+                label: 'Recaps',
+                dest: '/recaps',
+            },
+            {
+                icon: 'swap_horiz',
+                label: 'Trades & Waivers',
+                dest: '/transactions',
+            },
+            {
+                icon: 'timeline',
+                label: 'Timeline',
+                dest: '/timeline',
+            },
+        ]
     },
     {
         icon: 'calendar_month',
@@ -51,11 +62,6 @@ export const tabs = [
                 icon: 'alt_route',
                 label: 'What If',
                 dest: '/what-if',
-            },
-            {
-                icon: 'visibility',
-                label: 'Week Preview',
-                dest: '/preview',
             },
             {
                 icon: 'balance',
@@ -182,16 +188,15 @@ export const tabs = [
                 dest: '/rules',
             },
             {
+                icon: 'lightbulb',
+                label: 'Resources',
+                dest: '/resources',
+            },
+            {
                 icon: 'sports_football',
                 label: 'Go to Sleeper',
                 dest: `https://sleeper.app/leagues/${leagueID}`,
             },
         ]
-    },
-    {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
-        key: 'resources',
     },
 ];

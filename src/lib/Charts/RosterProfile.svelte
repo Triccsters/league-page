@@ -80,6 +80,7 @@
         {#if me.injured?.length}
             <p class="inj">
                 🚑 {me.injured.map(p => `${p.n} (${p.inj})`).join(' · ')}
+                {#if data.generated}<small class="asof">{' '}as of {new Date(data.generated).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}; Sleeper has the latest</small>{/if}
             </p>
         {/if}
 
@@ -258,6 +259,7 @@
     .card small { display: block; font-size: 0.75em; opacity: 0.6; }
     .lead { font-size: 0.95em; margin: 0.3em 0 0.6em; }
     .inj { font-size: 0.85em; margin: 0 0 0.5em; color: #e67e22; }
+    .asof { color: var(--g555, #999); }
     .sub { opacity: 0.65; font-size: 0.8em; margin: 0.5em 0 0; }
     .err { color: #e74c3c; }
     .grp { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.6em; margin: 0.4em 0; }

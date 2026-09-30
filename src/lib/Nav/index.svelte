@@ -41,7 +41,9 @@
 	nav {
 		background-color: var(--fff);
 		position: relative;
-		z-index: 2;
+		/* above the "Which team is yours?" bar (z-index 2), which comes later
+		   in the page and was painting over the open dropdown menus */
+		z-index: 5;
 		border-bottom: 1px solid #00316b;
 		box-shadow: 0 0 8px 0 #00316b;
 	}

@@ -328,14 +328,18 @@
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
-    {#if loading}
-        <!-- promise is pending -->
-        <div class="loading">
-            <p>Retrieving players...</p>
-            <LinearProgress indeterminate />
-        </div>
-    {:else}
-        <Roster division="1" expanded={false} {rosterPositions} {roster} {leagueTeamManagers} {players} {startersAndReserve} />
+    <!-- RosterProfile above already shows the roster; the template's copy is
+         only kept for managers without a history page -->
+    {#if !viewManager.handle}
+        {#if loading}
+            <!-- promise is pending -->
+            <div class="loading">
+                <p>Retrieving players...</p>
+                <LinearProgress indeterminate />
+            </div>
+        {:else}
+            <Roster division="1" expanded={false} {rosterPositions} {roster} {leagueTeamManagers} {players} {startersAndReserve} />
+        {/if}
     {/if}
 
     <h3>Team Transactions</h3>

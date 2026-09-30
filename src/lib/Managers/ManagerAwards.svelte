@@ -90,9 +90,16 @@
         const pointsRecords = [...leagueManagerRecords].sort((a, b) => b.fptsFor - a.fptsFor);
         const iqRecords = [...leagueManagerRecords].sort((a, b) => (b.fptsFor/b.potentialPoints) - (a.fptsFor/a.potentialPoints));
 
+        // a season still being played is not a season-long record: only seasons
+        // that already have a podium count, re-ranked highest first
+        const doneYear = Math.max(...awards.map(p => p.year).filter(Boolean));
+        const seasonLongDone = (records.regularSeasonData.mostSeasonLongPoints || [])
+            .filter(r => r && r.year <= doneYear)
+            .sort((a, b) => b.fpts - a.fpts);
+
         for(let i = 0; i < records.regularSeasonData.leagueWeekHighs.length; i++) {
             const leagueWeekRecord = records.regularSeasonData.leagueWeekHighs[i];
-            const seasonLongRecord = records.regularSeasonData.mostSeasonLongPoints[i];
+            const seasonLongRecord = seasonLongDone[i];
             const winRecord = winRecords[i];
             const pointsRecord = pointsRecords[i];
             const iqRecord = iqRecords[i];
@@ -143,7 +150,7 @@
                 })
             }
 
-            if(checkIfDeserves(seasonLongRecord.rosterID, cRosterID, seasonLongRecord.year)) {
+            if(seasonLongRecord && checkIfDeserves(seasonLongRecord.rosterID, cRosterID, seasonLongRecord.year)) {
                 const former = tookOver && tookOver > seasonLongRecord.year;
                 if(former) {
                     formerGlobal = true;

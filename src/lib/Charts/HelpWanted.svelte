@@ -27,7 +27,7 @@
 </script>
 
 <section class="hw">
-    <h3>Requests, problems, and a favor</h3>
+    <h3>{unknown.length ? 'Requests, problems, and a favor' : 'Requests and problems'}</h3>
     <p>
         Something wrong on the site, a number that looks off, or a page you want built? Tell {contact}
         in {where}. It gets fixed.
