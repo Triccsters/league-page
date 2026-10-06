@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T12:00:07+00:00",
+ "generated": "2026-10-06T12:13:15+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -249,7 +249,7 @@
    "Jbird531": "Pink OD Floyd",
    "PapaMidnight": "Saquon Ds Nutz",
    "Colt45Johnson": "Those Darts Shough Me Up",
-   "brettmn13": "Buster brought me back",
+   "brettmn13": "Forget about it cuh",
    "snelson91": "LaPorta Potty",
    "thecreamer": "thecreamer"
   }
@@ -16836,6 +16836,72 @@
    107.78,
    "snelson91",
    120.44,
+   false,
+   null
+  ],
+  [
+   2026,
+   4,
+   "sleeper",
+   "Wallner",
+   136.42,
+   "triccster",
+   105.28,
+   false,
+   null
+  ],
+  [
+   2026,
+   4,
+   "sleeper",
+   "butterygoop",
+   123.02,
+   "PapaMidnight",
+   121.3,
+   false,
+   null
+  ],
+  [
+   2026,
+   4,
+   "sleeper",
+   "TuanonStan",
+   142.12,
+   "Jbird531",
+   75.58,
+   false,
+   null
+  ],
+  [
+   2026,
+   4,
+   "sleeper",
+   "YoungBuck04",
+   87.58,
+   "thecreamer",
+   110.56,
+   false,
+   null
+  ],
+  [
+   2026,
+   4,
+   "sleeper",
+   "RockMNwild",
+   85.62,
+   "snelson91",
+   130.8,
+   false,
+   null
+  ],
+  [
+   2026,
+   4,
+   "sleeper",
+   "Colt45Johnson",
+   108.44,
+   "brettmn13",
+   88.68,
    false,
    null
   ]
