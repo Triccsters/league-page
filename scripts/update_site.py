@@ -382,6 +382,7 @@ def optimal(season, pp, roster):
 
 
 _STARTS = {}
+BAD_LINEUPS = []
 
 
 def starter_points(season, state):
@@ -455,6 +456,11 @@ def side(season, m, slot_of):
     best_bench = max(bench, key=lambda p: pp.get(p, 0), default=None)
     worst_start = min(starters, key=lambda p: pp.get(p, 0), default=None)
     opt = optimal(season, pp, m.get("players") or [])
+    if opt + 0.01 < pts:
+        # The best lineup can never score less than the one that was played.
+        # When it does, the player positions behind it are wrong (League Bound,
+        # 2026-10-13: 152 ESPN players read as defences), so stop the push.
+        BAD_LINEUPS.append(f"{season.handle.get(m['roster_id'])} played {pts}, best lineup {opt}")
     rid = m["roster_id"]
     return {
         "manager": season.handle[rid],
@@ -743,8 +749,17 @@ def main():
            "write_json": write_json, "read_json": read_json, "sleeper": sleeper}
     print("extras:", extras.build_all(ctx))
 
+    if BAD_LINEUPS:
+        print(f"STOPPED: {len(BAD_LINEUPS)} team-weeks have a best lineup below the real score:")
+        for line in BAD_LINEUPS[:10]:
+            print("  " + line)
+        raise SystemExit("fix the player positions before pushing (see BAD_LINEUPS in update_site.py)")
+
     if args.push:
-        subprocess.run(["git", "-C", REPO, "add", "src/lib/data", "static/data"], check=True)
+        paths = ["src/lib/data", "static/data"]
+        if CONFIG.get("shim"):        # the ESPN copies the pages read in the browser
+            paths.append("static/shim")
+        subprocess.run(["git", "-C", REPO, "add", *paths], check=True)
         diff = subprocess.run(["git", "-C", REPO, "diff", "--cached", "--quiet"])
         if diff.returncode == 0:
             print("nothing changed, no push")
