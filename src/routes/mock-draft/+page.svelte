@@ -9,6 +9,7 @@
     import { DEFAULT_CPU, describeProfile } from '$lib/mockdraft/cpu';
     import { gradeDraft } from '$lib/mockdraft/grade';
     import { survivalOdds } from '$lib/mockdraft/survival';
+    import { liveBoard } from '$lib/mockdraft/liveAdp';
 
     const POS = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
     const PACE_MS = 140;
@@ -27,8 +28,15 @@
             data = await fetch('/data/mock_draft.json').then((r) => r.json());
             me = $myTeam || null;
             slot = seatOfHandle(me) ?? 1;
-        } catch (e) { error = 'Could not load the mock draft data.'; }
+        } catch (e) { error = 'Could not load the mock draft data.'; return; }
+        // Swap in Sleeper's current ADP; the snapshot stands if that fails.
+        try {
+            const live = await liveBoard(data.players, data.league.scoring);
+            if (live) { data = { ...data, players: live.players }; adpLive = live; }
+        } catch { /* snapshot stands */ }
+        adpChecking = false;
     });
+    let adpLive = null, adpChecking = true;
     onDestroy(() => clearTimeout(timer));
 
     // Seats in slot order, as handles, from last year's draft order.
@@ -156,9 +164,9 @@
                     <option value="adp">Drafts straight off ADP</option>
                 </select>
             </label>
-            <button class="go" on:click={start}>Start the draft</button>
+            <button class="go" on:click={start} disabled={adpChecking}>{adpChecking ? 'Reading live ADP…' : 'Start the draft'}</button>
         </section>
-        <p class="note">{data.league.teams} teams, {data.league.rounds} rounds, snake, half PPR. Seats start in last year's draft order. ADP from Sleeper and <a href="https://fantasyfootballcalculator.com" target="_blank" rel="noopener">Fantasy Football Calculator</a>, snapshot {data.built}.</p>
+        <p class="note">{data.league.teams} teams, {data.league.rounds} rounds, snake, half PPR. Seats start in last year's draft order. {#if adpLive}ADP live from Sleeper ({adpLive.season} season, {adpLive.ranked} players ranked, read just now){:else if adpChecking}Reading live ADP from Sleeper…{:else}Live ADP unavailable, so this uses the Sleeper snapshot from {data.built}{/if}. Draft-position spread from <a href="https://fantasyfootballcalculator.com" target="_blank" rel="noopener">Fantasy Football Calculator</a>.</p>
 
         <button class="link" on:click={() => (showHabits = !showHabits)}>{showHabits ? 'Hide' : 'Show'} how each manager drafts</button>
         {#if showHabits}
