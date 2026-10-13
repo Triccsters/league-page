@@ -11,6 +11,30 @@
     onMount(() => { ready = true; });
     export let data;
 
+    // The message to paste in the league chat: the week's headline awards and
+    // a link back to this issue. Built from the data, so it exists every week
+    // whether or not the issue has a written lead.
+    const SHARE_KEYS = ['high', 'top_player', 'closest', 'blowout', 'bench', 'unlucky'];
+    let copied = false, canShare = false;
+    onMount(() => { canShare = typeof navigator !== 'undefined' && !!navigator.share; });
+    $: issueUrl = ready && r ? `${location.origin}/recaps/${r.slug}` : '';
+    $: shareText = r ? [
+        `${site.league_name}, week ${r.week} newsletter`,
+        ...(r.intro ? [r.intro.split(/(?<=[.!?])\s/)[0]] : []),
+        '',
+        ...SHARE_KEYS.map((k) => (r.awards || []).find((a) => a.key === k)).filter(Boolean).map((a) =>
+            `${a.emoji} ${a.name}: ${nameOf(a.manager)}${a.vs ? ` over ${nameOf(a.vs)}` : ''}, ${a.value}${a.note && a.key === 'top_player' ? ` (${a.note})` : ''}`),
+        '',
+        `Read it: ${issueUrl}`,
+    ].join('\n') : '';
+    async function copyShare() {
+        try { await navigator.clipboard.writeText(shareText); copied = true; setTimeout(() => (copied = false), 2000); }
+        catch { copied = false; }
+    }
+    async function nativeShare() {
+        try { await navigator.share({ title: `${site.league_name} week ${r.week} newsletter`, text: shareText }); } catch { /* cancelled */ }
+    }
+
     $: r = recapBySlug(data.slug);
     $: v = r && videoEmbed(r.video);
     $: paras = (r?.intro || '').split(/\n\s*\n/).filter(Boolean);
@@ -34,15 +58,15 @@
     };
 </script>
 
-<svelte:head><title>{r ? `${r.season} ${r.title}` : 'Recap'} | {site.league_name}</title></svelte:head>
+<svelte:head><title>{r ? `${r.season} week ${r.week} newsletter` : 'Newsletter'} | {site.league_name}</title></svelte:head>
 
 <div class="holder">
-    <p class="back"><a href="/recaps">← All recaps</a></p>
+    <p class="back"><a href="/recaps">← Every issue</a></p>
     {#if !r}
         <h1>Recap not found</h1>
     {:else}
         {@const f = r.facts}
-        <h1>{r.season} · {r.title}</h1>
+        <h1>{r.season} · Week {r.week} newsletter</h1>
 
         {#if v}
             <div class="video">
@@ -58,6 +82,18 @@
         {/if}
 
         {#each paras as p}<p class="intro">{p}</p>{/each}
+
+        {#if ready}
+            <section class="share">
+                <h2>Share this issue</h2>
+                <p class="meta">Paste it in the league chat. The link opens this page.</p>
+                <textarea readonly rows={shareText.split('\n').length}>{shareText}</textarea>
+                <div class="share-actions">
+                    <button on:click={copyShare}>{copied ? 'Copied' : 'Copy message'}</button>
+                    {#if canShare}<button on:click={nativeShare}>Share…</button>{/if}
+                </div>
+            </section>
+        {/if}
 
         <WeekAwards awards={r.awards} />
 
@@ -141,5 +177,11 @@
     th, td { padding: 0.4em 0.5em; border-bottom: 1px solid rgba(127,127,127,0.25); text-align: left; font-size: 0.9em; }
     .num { text-align: right; }
     .what-if { color: #e67e22; font-weight: 600; margin: 0.5em 0 0; }
+    .share { border: 1px solid rgba(39,174,96,0.6); border-radius: 8px; padding: 0.8em 1em 1em; margin: 1.2em 0; }
+    .share h2 { margin-top: 0; border: none; padding: 0; }
+    .share textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 0.9em; line-height: 1.45; padding: 0.6em; border-radius: 6px; border: 1px solid rgba(127,127,127,0.4); background: rgba(127,127,127,0.08); color: inherit; resize: vertical; }
+    .share-actions { display: flex; gap: 0.5em; margin-top: 0.5em; }
+    .share-actions button { font: inherit; cursor: pointer; border-radius: 6px; padding: 0.4em 0.9em; border: 1px solid #27ae60; background: #27ae60; color: #fff; font-weight: 700; }
+    .share-actions button + button { background: transparent; color: inherit; }
     .stamp { opacity: 0.6; text-align: center; font-size: 0.85em; margin-top: 2em; }
 </style>

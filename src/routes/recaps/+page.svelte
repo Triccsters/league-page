@@ -4,11 +4,11 @@
     import ScoreHeatmap from '$lib/Charts/ScoreHeatmap.svelte';
 </script>
 
-<svelte:head><title>Weekly Recaps | {site.league_name}</title></svelte:head>
+<svelte:head><title>Weekly Newsletter | {site.league_name}</title></svelte:head>
 
 <div class="holder">
-    <h1>Weekly Recaps</h1>
-    <p class="sub">Every week: results, the closest game, the biggest bench mistake, and a timeline of how each matchup played out.</p>
+    <h1>Weekly Newsletter</h1>
+    <p class="sub">One issue a week, every week of the season: the story of the week, every result, the closest game, the biggest bench mistake and how each matchup played out. Each issue has a message ready to paste in the league chat.</p>
 
     <div class="links">
         <a href="/preview">Next week's preview →</a>
@@ -21,13 +21,13 @@
     <ScoreHeatmap season={site.season} />
 
     {#if recaps.length === 0}
-        <p class="sub">No recaps yet. The first one appears after week 1 is final.</p>
+        <p class="sub">No issues yet. The first one appears after week 1 is final.</p>
     {/if}
     {#each recaps as r}
         {@const f = r.facts}
         <a class="post" href="/recaps/{r.slug}">
             <div class="head">
-                <h2>{r.season} · {r.title}</h2>
+                <h2>{r.season} · Week {r.week}</h2>
                 {#if r.video}<span class="tag">▶ Video</span>{/if}
             </div>
             {#if r.intro}<p>{r.intro.length > 240 ? r.intro.slice(0, 240) + '…' : r.intro}</p>{/if}

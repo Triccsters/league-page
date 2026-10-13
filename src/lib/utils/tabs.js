@@ -34,7 +34,7 @@ export const tabs = [
             },
             {
                 icon: 'article',
-                label: 'Recaps',
+                label: 'Newsletter',
                 dest: '/recaps',
             },
             {

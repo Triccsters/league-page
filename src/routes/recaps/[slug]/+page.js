@@ -11,8 +11,8 @@ export function load({ params }) {
         if (f.closest) bits.push(`Closest: ${nameOf(f.closest.winner.manager)} by ${f.closest.margin}`);
         if (f.blowout) bits.push(`Blowout: ${nameOf(f.blowout.winner.manager)} by ${f.blowout.margin}`);
         og = {
-            title: `${site.league_name} ${r.season}: ${r.title}`,
-            description: (r.intro ? r.intro.slice(0, 160) : bits.join(' · ')) || 'Weekly recap',
+            title: `${site.league_name}: week ${r.week} newsletter`,
+            description: (r.intro ? r.intro.slice(0, 160) : bits.join(' · ')) || 'Weekly newsletter',
         };
     }
     return { slug: params.slug, og };
