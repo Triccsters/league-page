@@ -10,6 +10,7 @@
     import { gradeDraft } from '$lib/mockdraft/grade';
     import { survivalOdds } from '$lib/mockdraft/survival';
     import { liveBoard } from '$lib/mockdraft/liveAdp';
+    import { openNeeds, repeatsAvailable, habitNow, simulateWindow, areaMix } from '$lib/mockdraft/insights';
 
     const POS = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
     const PACE_MS = 140;
@@ -127,6 +128,42 @@
     $: myPlayers = engine && myTeamState ? playersOf(engine, myTeamState) : [];
     $: myResult = results ? results.find((r) => r.team.isUser) : null;
     const lasts = (p) => (myNext ? Math.round(survivalOdds(p, pickNo, myNext) * 100) : null);
+
+    // Read-outs beside the board.
+    let showHow = false;
+    let sim = null, simKey = '';
+    const pct = (x) => `${Math.round(x * 100)}%`;
+    $: round = st ? Math.min(data.league.rounds, Math.ceil(pickNo / teams)) : 1;
+    $: winStart = onClock ? pickNo + 1 : pickNo;
+    $: windowPicks = st && myNext
+        ? Array.from({ length: Math.max(0, myNext - winStart) }, (_, k) => winStart + k)
+            .map((o) => ({ o, team: st.teams[st.order[o - 1]] }))
+            .filter((x) => !x.team.isUser)
+        : [];
+    // A team at the turn picks twice in a row; show it once with both picks.
+    $: windowTeams = (() => {
+        const m = new Map();
+        for (const w of windowPicks) {
+            if (!m.has(w.team.index)) m.set(w.team.index, { team: w.team, picks: [] });
+            m.get(w.team.index).picks.push(w.o);
+        }
+        return [...m.values()];
+    })();
+    $: availAll = engine ? availablePlayers(engine) : [];
+    $: topByPos = ['QB', 'RB', 'WR', 'TE'].map((p) => availAll.find((x) => x.position === p)).filter(Boolean);
+    // The odds only matter when the pick is yours, so the runs happen then.
+    $: if (engine && onClock && myNext) {
+        const key = `${engine.state.league.seed}-${pickNo}`;
+        if (key !== simKey) {
+            simKey = key; sim = null;
+            const e = engine, until = myNext;
+            setTimeout(() => { if (engine === e) sim = { at: currentPick(e.state), ...simulateWindow(e, until) }; }, 30);
+        }
+    }
+    // Odds from an earlier turn describe a board that no longer exists.
+    $: liveSim = sim && onClock && sim.at === pickNo ? sim : null;
+    $: if (!engine) { sim = null; simKey = ''; }
+    $: area = data && st ? areaMix(data.roundMix, data.players, teams, round, Math.min(data.league.rounds, round + 2)) : null;
     const gradeColor = (g) => g.startsWith('A') ? '#27ae60' : g.startsWith('B') ? '#2980b9' : g.startsWith('C') ? '#7f8c8d' : g.startsWith('D') ? '#e67e22' : '#c0392b';
 </script>
 
@@ -168,6 +205,39 @@
         </section>
         <p class="note">{data.league.teams} teams, {data.league.rounds} rounds, snake, half PPR. Seats start in last year's draft order. {#if adpLive}ADP live from Sleeper ({adpLive.season} season, {adpLive.ranked} players ranked, read just now){:else if adpChecking}Reading live ADP from Sleeper…{:else}Live ADP unavailable, so this uses the Sleeper snapshot from {data.built}{/if}. Draft-position spread from <a href="https://fantasyfootballcalculator.com" target="_blank" rel="noopener">Fantasy Football Calculator</a>.</p>
 
+        <button class="link" on:click={() => (showHow = !showHow)}>{showHow ? 'Hide' : 'Show'} how this mock works</button>
+        {#if showHow}
+            <div class="md-how">
+                <div>
+                    <h3>The board</h3>
+                    <p>Players are ranked by Sleeper's current half PPR ADP, read in your browser every time this page opens. When Sleeper rolls over to next season, the board follows it. If Sleeper can't be reached, the page falls back to a saved copy and says so above.</p>
+                </div>
+                <div>
+                    <h3>How far players move</h3>
+                    <p>Nobody goes exactly at ADP. Each player gets a spread measured from thousands of real drafts by Fantasy Football Calculator, so a guy with a tight ADP stays put and a volatile one can slide or jump. The "lasts" number on the player list comes from the same spread.</p>
+                </div>
+                <div>
+                    <h3>The other eleven seats</h3>
+                    <p>Each seat drafts like its manager really has in this league, from every FL Players draft on Sleeper since 2021. Recent drafts count more than old ones. What carries over: the round he takes his first QB and TE (and no earlier than he has in his recent drafts), how many of each he carries, whether he leans RB or WR early, what he takes in round one, and the players he keeps drafting year after year. Pick "Drafts straight off ADP" to turn all of that off.</p>
+                </div>
+                <div>
+                    <h3>How a computer pick is made</h3>
+                    <p>Every pick starts from ADP, adds a roll of the dice sized by that player's spread, then adjusts for what the roster still needs and for that manager's habits. The best score left gets drafted.</p>
+                </div>
+                <div>
+                    <h3>The cards during the draft</h3>
+                    <p>"Before you're up again" lists everyone who picks before your next turn, what starting spots they still have open, and where they usually are by now. When you're on the clock it plays that stretch out over a hundred times to show who each team likely takes and how often the best player at each position is still there. "Rounds" compares what this league really took in this part of the draft with what today's ADP would hand out.</p>
+                </div>
+                <div>
+                    <h3>The grades</h3>
+                    <p>After the last pick, each roster's best starting lineup is scored on projected season points and ranked against the room. Value counts picks gained or lost against ADP. It's a projection, not a result.</p>
+                </div>
+                <div>
+                    <h3>What it doesn't know</h3>
+                    <p>News, injuries and depth charts only show up as far as ADP has already moved. Draft habits from your other leagues aren't in yet; each seat only knows how its manager drafts here.</p>
+                </div>
+            </div>
+        {/if}
         <button class="link" on:click={() => (showHabits = !showHabits)}>{showHabits ? 'Hide' : 'Show'} how each manager drafts</button>
         {#if showHabits}
             <div class="md-habits">
@@ -220,6 +290,65 @@
                         <small>{Math.round(r.points)} pts · {r.value > 0 ? '+' : ''}{Math.round(r.value)} value</small>
                     </div>
                 {/each}
+            </div>
+        {/if}
+
+        {#if !results && me && myNext}
+            <div class="md-cards">
+                <section class="md-card">
+                    <h3>Before you're up again <small>{windowPicks.length} pick{windowPicks.length === 1 ? '' : 's'}, your next is {label(myNext)}</small></h3>
+                    {#each windowTeams as w (w.team.index)}
+                        {@const h = seating[w.team.index]}
+                        {@const prof = room === 'managers' ? profileOf(h) : null}
+                        {@const needs = openNeeds(w.team.counts, data.league.roster, round, data.league.rounds)}
+                        {@const habit = room === 'managers' ? habitNow(prof, w.team.counts, Math.ceil(w.picks[0] / teams)) : ''}
+                        {@const fav = room === 'managers' ? repeatsAvailable(prof, engine).filter((f) => (engine.byId.get(f.id)?.adp ?? 999) <= myNext + teams).slice(0, 2) : []}
+                        <div class="md-who">
+                            <span class="at">{w.picks.map(label).join(' ')}</span>
+                            <div>
+                                <b>{nameOf(h)}</b>
+                                <span class="needs">needs {#each needs as n}<span class="pos {n}">{n}</span>{:else}<i>depth only</i>{/each}</span>
+                                {#if habit}<small>{habit}</small>{/if}
+                                {#if fav.length}<small>His guys still here: {fav.map((f) => f.label).join(', ')}</small>{/if}
+                                {#if liveSim}
+                                    {@const ln = liveSim.lean(w.team.index, w.picks.length)}
+                                    {#if ln.length}<small class="lean">{w.picks.length > 1 ? 'Each pick likely' : 'Likely takes'} {ln.map((x) => `${x.p} ${pct(x.share)}`).join(' · ')}</small>{/if}
+                                {/if}
+                            </div>
+                        </div>
+                    {:else}
+                        <p class="note">You pick again right away.</p>
+                    {/each}
+                    {#if windowPicks.length}
+                        <div class="md-risk">
+                            {#if liveSim}
+                                <small>If you pass on him now, the chance he's still there at {label(myNext)} ({liveSim.runs} runs of this stretch):</small>
+                                {#each topByPos as p}
+                                    {@const s = liveSim.survives(p.id)}
+                                    <div class="md-riskrow"><span class="pos {p.position}">{p.position}</span><span>{p.name}</span><b class:low={s < 0.35} class:high={s >= 0.7}>{pct(s)}</b><small>{liveSim.expected[p.position].toFixed(1)} {p.position} go</small></div>
+                                {/each}
+                            {:else if onClock}
+                                <small>Running this stretch…</small>
+                            {:else}
+                                <small>The odds run when you're on the clock.</small>
+                            {/if}
+                        </div>
+                    {/if}
+                </section>
+
+                {#if area}
+                    <section class="md-card">
+                        <h3>{area.toRound > area.fromRound ? `Rounds ${area.fromRound} to ${area.toRound}` : `Round ${area.fromRound}`} in FL Players <small>real picks, {area.seasons[0]} to {area.seasons[area.seasons.length - 1]}, against today's ADP</small></h3>
+                        {#each area.rows as r}
+                            <div class="md-bar">
+                                <span class="pos {r.p}">{r.p}</span>
+                                <span class="track"><span class="real {r.p}" style="width:{r.real * 100}%"></span><span class="adpmark" style="left:{r.adp * 100}%"></span></span>
+                                <b>{pct(r.real)}</b><small>ADP {pct(r.adp)}</small>
+                            </div>
+                        {/each}
+                        <p class="note left">{#if area.gap && Math.abs(area.gap.real - area.gap.adp) >= 0.06}This league takes {area.gap.p} {area.gap.real > area.gap.adp ? 'more' : 'less'} often here than ADP says ({pct(area.gap.real)} against {pct(area.gap.adp)}).{:else}This league drafts close to ADP in this stretch.{/if} The bar is what the league really took; the line is today's board.</p>
+                    </section>
+                {/if}
             </div>
         {/if}
 
@@ -359,4 +488,32 @@
     .md-grade small { opacity: 0.7; font-size: 0.78em; }
     .letter { grid-row: span 2; color: #fff; font-weight: 800; text-align: center; border-radius: 6px; padding: 0.35em 0; }
     .letter.big { font-size: 1.8em; padding: 0.2em 0.5em; }
+
+    .md-how { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.6em; margin: 0.8em 0; }
+    .md-how > div { border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 0.6em 0.8em; }
+    .md-how p { margin: 0; font-size: 0.88em; line-height: 1.5; opacity: 0.85; }
+
+    .md-cards { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 1em; margin-bottom: 1em; align-items: start; }
+    @media (max-width: 760px) { .md-cards { grid-template-columns: minmax(0, 1fr); } }
+    .md-card { border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 0.6em 0.8em; font-size: 0.86em; }
+    .md-card h3 small { display: block; font-weight: 400; opacity: 0.65; font-size: 0.82em; }
+    .md-who { display: grid; grid-template-columns: 3em 1fr; gap: 0.5em; padding: 0.35em 0; border-top: 1px solid rgba(127,127,127,0.15); }
+    .md-who .at { font-weight: 800; opacity: 0.6; font-variant-numeric: tabular-nums; }
+    .md-who div { display: flex; flex-direction: column; gap: 0.15em; }
+    .md-who small { opacity: 0.75; line-height: 1.35; }
+    .md-who .lean { opacity: 0.95; font-weight: 600; }
+    .needs { font-size: 0.85em; opacity: 0.85; display: flex; flex-wrap: wrap; gap: 0.25em; align-items: center; }
+    .md-risk { border-top: 1px solid rgba(127,127,127,0.3); margin-top: 0.4em; padding-top: 0.4em; display: flex; flex-direction: column; gap: 0.25em; }
+    .md-risk > small { opacity: 0.75; }
+    .md-riskrow { display: grid; grid-template-columns: 3em 1fr 3em 5.5em; gap: 0.5em; align-items: center; }
+    .md-riskrow b { text-align: right; font-variant-numeric: tabular-nums; }
+    .md-riskrow b.low { color: #e74c3c; } .md-riskrow b.high { color: #2ecc71; }
+    .md-riskrow small { opacity: 0.65; }
+    .md-bar { display: grid; grid-template-columns: 3em 1fr 2.8em 4.2em; gap: 0.5em; align-items: center; padding: 0.15em 0; }
+    .md-bar b { text-align: right; font-variant-numeric: tabular-nums; }
+    .md-bar small { opacity: 0.65; }
+    .track { position: relative; height: 0.7em; background: rgba(127,127,127,0.18); border-radius: 4px; }
+    .track .real { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; }
+    .track .adpmark { position: absolute; top: -0.2em; bottom: -0.2em; width: 2px; background: currentColor; }
+    .note.left { text-align: left; margin: 0.5em 0 0; }
 </style>
