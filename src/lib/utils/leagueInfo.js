@@ -64,3 +64,5 @@ export const managers = managersData;
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     // },
     
+
+export const mockDraft = true; // the /mock-draft page and its tab; needs static/data/mock_draft.json

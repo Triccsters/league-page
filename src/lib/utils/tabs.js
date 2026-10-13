@@ -1,4 +1,11 @@
-import {leagueID} from '$lib/utils/leagueInfo';
+import * as leagueInfo from '$lib/utils/leagueInfo';
+const {leagueID} = leagueInfo;
+// The mock draft page needs manager profiles baked for that league
+// (static/data/mock_draft.json), so a league opts in with
+// `export const mockDraft = true` in its own leagueInfo.js.
+const mockDraftTab = leagueInfo.mockDraft
+    ? [{ icon: 'grid_view', label: 'Mock Draft', dest: '/mock-draft' }]
+    : [];
 
 export const tabs = [
     {
@@ -192,6 +199,7 @@ export const tabs = [
                 label: 'League Rules',
                 dest: '/rules',
             },
+            ...mockDraftTab,
             {
                 icon: 'lightbulb',
                 label: 'Resources',
