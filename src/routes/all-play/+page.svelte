@@ -59,6 +59,10 @@
     .explainer strong {
         color: var(--g333, #333);
     }
+    /* Phones: the table scrolls sideways inside itself instead of widening the page. */
+    @media (max-width: 700px) {
+        table { display: block; overflow-x: auto; white-space: nowrap; }
+    }
 </style>
 
 <div class="holder">

@@ -467,6 +467,10 @@
     }
 
     /* END ranking table resizing */
+    /* Phones: the record tables keep their margins off the screen edge and scroll inside themselves. */
+    @media (max-width: 540px) {
+        :global(.recordTable) { margin: 1em 0; max-width: 100%; overflow-x: auto; }
+    }
 </style>
 
 <h4>{prefix} Records</h4>

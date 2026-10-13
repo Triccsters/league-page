@@ -220,5 +220,6 @@
     .neg { color: #e74c3c; }
     @media (max-width: 760px) {
         .cols { grid-template-columns: 1fr; }
+        .cols > * { min-width: 0; overflow-x: auto; }
     }
 </style>

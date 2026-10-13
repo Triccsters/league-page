@@ -127,7 +127,8 @@
             transition: width 380ms cubic-bezier(0.22,0.85,0.25,1); }
     .pf { text-align: right; font-variant-numeric: tabular-nums; opacity: 0.8; }
     @media (max-width: 560px) {
-        li { grid-template-columns: 1.8em 2.2em 1fr 3.2em 2.8em; }
+        li { grid-template-columns: 1.8em 2.2em minmax(0, 1fr) 3.2em 2.8em; }
+        .nm { min-width: 0; overflow-wrap: anywhere; }
         .bar { display: none; }
     }
     @media (prefers-reduced-motion: reduce) {

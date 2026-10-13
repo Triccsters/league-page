@@ -51,4 +51,8 @@
           font-size: 0.78em; opacity: 0.85; padding: 0.2em 0.4em 0.4em; }
     .qs b { font-weight: 700; }
     .gold { color: #d4a017; }
+    /* Phones: drop the stats onto their own line under the manager row. */
+    @media (max-width: 595px) {
+        .qs { flex-basis: 100%; }
+    }
 </style>

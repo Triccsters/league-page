@@ -54,6 +54,11 @@
 		<!-- SMUI Styles -->
 		<link rel="stylesheet" href="/smui.css" media="(prefers-color-scheme: light)" />
 		<link rel="stylesheet" href="/smui-dark.css" media="(prefers-color-scheme: dark)" />
+		<!-- Phones: the theme sets page titles at 96px, and a long word like
+		     "Standings" was wider than the screen, so the whole page zoomed out. -->
+		<style>
+			@media (max-width: 600px) { h1 { font-size: min(96px, 14vw); line-height: 1.15; } }
+		</style>
 		%sveltekit.head%
 	</head>
 	<body>

@@ -145,6 +145,7 @@
 
 	@media (max-width: 595px) {
         .manager {
+            flex-wrap: wrap;
             padding: 0.5em 0;
             margin: 0.3em 0;
             border-radius: 1.5em;
