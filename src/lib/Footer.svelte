@@ -42,6 +42,10 @@
 
 	const year = new Date().getFullYear();
 
+	const FOOTER = ['/', '/matchups', '/standings', '/insights', '/rules'];
+	const allLinks = tabs.flatMap(t => (t.nest ? t.children : [t]));
+	const footerLinks = FOOTER.map(d => allLinks.find(c => c.dest === d)).filter(Boolean);
+
     $: resize(el?.getBoundingClientRect(), false, innerWidth);
 </script>
 
@@ -109,21 +113,9 @@
     {/if}
 	<div id="navigation">
 		<ul>
-			{#each tabs as tab}
-				{#if !tab.nest}
-					<li><div class="navLink" onclick={() => goto(tab.dest)}>{tab.label}</div></li>
-				{:else}
-					{#each tab.children as child}
-                        <!-- Shouldn't show Managers tab unless managers has been populated -->
-				        {#if child.label != "Managers" || managers.length > 0}
-							{#if child.label == "Go to Sleeper"}
-								<li><div class="navLink" onclick={() => window.location = child.dest}>{child.label}</div></li>
-							{:else}
-                            	<li><div class="navLink" onclick={() => goto(child.dest)}>{child.label}</div></li>
-							{/if}
-                        {/if}
-					{/each}
-				{/if}
+			<!-- a short list: the full menu is at the top of every page -->
+			{#each footerLinks as l}
+				<li><div class="navLink" onclick={() => goto(l.dest)}>{l.label}</div></li>
 			{/each}
 		</ul>
 	</div>

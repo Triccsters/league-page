@@ -4,6 +4,7 @@
     import { games, nameOf, managerLink, currentManagers, site } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
+    import ScatterPFPA from '$lib/Charts/ScatterPFPA.svelte';
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -41,6 +42,7 @@
     }
 
     $: table = seasonTable(+season);
+    $: scatter = table.map(r => ({ label: nameOf(r.h), x: r.pf, y: r.pa, highlight: ready && r.h === $myTeam }));
     $: bars = table.map(r => ({ label: nameOf(r.h), value: r.luck, note: `${r.w}-${r.l}, expected ${r.exp}`,
         highlight: ready && r.h === $myTeam, color: r.luck >= 0 ? '#27ae60' : '#e74c3c' }));
     const allTime = (() => {
@@ -82,6 +84,10 @@
             </tbody>
         </table>
     </div>
+
+    <h2>Points for and against, {season}</h2>
+    <p class="note">The luck table as a picture. Far right scored the most; high up faced the toughest opponents. A team high and to the right has been unlucky, low and to the right has had it easy.</p>
+    <ScatterPFPA points={scatter} ariaLabel="Points for against points against in {season}" />
 
     <h2>Career luck, current managers</h2>
     <p class="note">Every season added up since {site.first_season}.</p>

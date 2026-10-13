@@ -707,4 +707,17 @@ def build_all(ctx):
     import rosters as R
     rs = R.build_rosters(ctx, rows, drafts, trades, wv)
     out["rosters"] = len(rs["managers"])
+
+    # projected vs actual and position-group surprises (insights.py);
+    # a failure here must not stop the rest of the Tuesday refresh
+    try:
+        import insights as I
+        ins = I.build_insights(ctx)
+        out["insights_through"] = ins.get("through_week")
+    except Exception as e:
+        print("insights failed:", e)
+    try:
+        out["trending"] = len(I.build_trending(ctx)["add"])
+    except Exception as e:
+        print("trending failed:", e)
     return out

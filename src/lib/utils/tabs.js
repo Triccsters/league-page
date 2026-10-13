@@ -82,6 +82,11 @@ export const tabs = [
         key: 'numbers',
         children: [
             {
+                icon: 'insights',
+                label: 'Insights',
+                dest: '/insights',
+            },
+            {
                 icon: 'casino',
                 label: 'Luck Meter',
                 dest: '/luck',

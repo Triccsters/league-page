@@ -6,6 +6,7 @@
     import { nameOf, managerLink, currentManagers, site } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
+    import trending from '$lib/data/trending.json';
 
     let data = null;
     let failed = false;
@@ -57,6 +58,26 @@
         {data ? data.first_season : ''}. Anyone that manager drafted that season is left out, so what is left is what
         the wire gave them. FAAB figures start in {data ? data.faab_from : ''}, and only some claims carry a bid.
     </p>
+
+    {#if trending && trending.add && trending.add.length}
+        <h2>Trending across Sleeper this week</h2>
+        <p class="note">The players most added and dropped in every Sleeper league over the last 7 days{trending.rostered_known ? ', and who has them here' : ''}. Data from <a href="https://sleeper.com">Sleeper</a>.</p>
+        <div class="trend">
+            {#each [['add', 'Most added'], ['drop', 'Most dropped']] as [k, title]}
+                <section>
+                    <h3>{title}</h3>
+                    <ol>
+                        {#each trending[k] as p}
+                            <li class:mine={ready && p.h && p.h === $myTeam}>
+                                <b>{p.n}</b> <span class="muted">{p.p}{p.t ? `, ${p.t}` : ''}</span>
+                                {#if trending.rostered_known}<span class="who">{p.h ? nameOf(p.h) : 'free agent here'}</span>{/if}
+                            </li>
+                        {/each}
+                    </ol>
+                </section>
+            {/each}
+        </div>
+    {/if}
 
     {#if data}
         <h2>Points per add</h2>
@@ -139,4 +160,11 @@
     tr.mine { background: rgba(52,152,219,0.14); }
     td a { color: #3498db; }
     .err { color: #e74c3c; }
+    .trend { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 2em; }
+    .trend h3 { font-size: 1.05em; margin: 1em 0 0.2em; }
+    .trend ol { margin: 0.3em 0 1em; padding-left: 1.6em; }
+    .trend li { margin: 0.25em 0; font-size: 0.9em; padding: 0.1em 0.3em; border-radius: 5px; }
+    .trend li.mine { background: rgba(39, 174, 96, 0.15); }
+    .trend .muted { opacity: 0.65; font-size: 0.9em; }
+    .trend .who { float: right; opacity: 0.8; font-size: 0.85em; }
 </style>
