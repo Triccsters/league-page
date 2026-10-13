@@ -3,6 +3,7 @@
     // Data: src/lib/data/insights.json, written by scripts/insights.py every Tuesday.
     import { onMount } from 'svelte';
     import data from '$lib/data/insights.json';
+    import notes from '$lib/data/sweep_notes.json';
     import { nameOf, managerLink } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
@@ -35,6 +36,20 @@
     <h1>Insights</h1>
     <p class="sub">Projected against actual, and position groups that suddenly broke out or fell apart. {data.season} regular season{data.through_week ? `, through week ${data.through_week}` : ''}.</p>
     {#if data.stale}<p class="note warn">Sleeper's projections did not answer at the last update, so this page is from the update before.</p>{/if}
+
+    {#if notes && notes.notes && notes.notes.length}
+        <h2>This week's notes, week {notes.week}</h2>
+        <p class="note">News, injuries, byes and trends that touch someone's roster, written by the weekly sweep{notes.written ? ` on ${notes.written}` : ''}. Yours are marked once you pick your name.</p>
+        <ul class="notes">
+            {#each [...notes.notes].sort((a, b) => (ready && b.h === $myTeam) - (ready && a.h === $myTeam)) as n}
+                <li class:mine={ready && n.h && n.h === $myTeam}>
+                    <span class="kind">{n.kind || 'note'}</span>
+                    {#if n.h}<b>{nameOf(n.h)}:</b>{/if} {n.text}
+                    {#if n.source}<span class="src">{n.source}</span>{/if}
+                </li>
+            {/each}
+        </ul>
+    {/if}
 
     {#if data.projections}
         <h2>Who beat their projections</h2>
@@ -122,4 +137,9 @@
     .tag { display: inline-block; font-size: 0.75em; font-weight: 700; padding: 0.1em 0.5em; border-radius: 99px; margin-right: 0.4em; color: #fff; }
     .tag.up { background: #27ae60; }
     .tag.down { background: #c0392b; }
+    .notes { list-style: none; padding: 0; margin: 0.5em 0 1em; }
+    .notes li { margin: 0.35em 0; padding: 0.35em 0.5em; border-left: 3px solid rgba(127,127,127,0.4); font-size: 0.92em; line-height: 1.45; }
+    .notes li.mine { border-left-color: #27ae60; background: rgba(39, 174, 96, 0.12); }
+    .notes .kind { display: inline-block; font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; margin-right: 0.4em; }
+    .notes .src { display: block; font-size: 0.8em; opacity: 0.6; }
 </style>

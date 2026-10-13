@@ -1,0 +1,6 @@
+{
+ "_about": "Written by the weekly league sweep (weekly-league-sweep skill). Shown on /insights. h is the manager handle exactly as in insights.json teams[].name; leave h out for a league-wide note.",
+ "week": null,
+ "written": null,
+ "notes": []
+}
