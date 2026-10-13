@@ -67,7 +67,8 @@
                     <div class="card" id="nl-{m.handle}" class:mine={mine === m.handle}>
                         <div class="top">
                             <span class="who">{#if managerLink(m.handle)}<a href={managerLink(m.handle)}>{nameOf(m.handle)}</a>{:else}{nameOf(m.handle)}{/if}</span>
-                            {#if s}<span class="rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</span>{/if}
+                            {#if m.record}<span class="rec" title={m.record_note || ''}>{m.record}</span>
+                            {:else if s}<span class="rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</span>{/if}
                         </div>
                         <div class="arc">
                             <span class="mood {m.mood || 'flat'}">{moodLabel[m.mood] || 'Holding'}</span>
