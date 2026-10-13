@@ -110,7 +110,7 @@
     <p class="note">One dot per week. A tight row is a steady team; a wide one is boom or bust. Sorted by median score; the line is each team's median.</p>
     <StripChart rows={spread} ariaLabel="Weekly scores by team" />
 
-    <p class="note small">Projections: {data.source}. Sleeper's projection feed isn't part of its public API, and Sleeper data is for non-commercial use.</p>
+    {#if data.projections}<p class="note small">Projections: {data.source}. Sleeper's projection feed isn't part of its public API, and Sleeper data is for non-commercial use.</p>{/if}
 </div>
 
 <style>
