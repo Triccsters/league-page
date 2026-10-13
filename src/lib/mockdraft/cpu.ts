@@ -73,6 +73,10 @@ const DUE_PULL_PER_ROUND = 10;
 /** The cost of one more QB or TE than a manager usually carries. */
 const OVER_HABIT = 12;
 const OVER_HABIT_SHARE = 0.35;
+/** The hold on a first QB or TE taken well before a manager's usual round. */
+const EARLY_HOLD_ROUNDS = 2;
+const EARLY_HOLD = 10;
+const EARLY_HOLD_SHARE = 0.3;
 
 const bias = (over: Partial<Record<Position, number>>): Record<Position, number> => ({
   QB: 0, RB: 0, WR: 0, TE: 0, K: 0, DEF: 0, ...over,
@@ -247,6 +251,12 @@ export function chooseCpuPick(available: Player[], ctx: PickContext): Player | n
 
     let score = applyBias(base, level);
     if (overdue >= 0) score -= DUE_PULL + DUE_PULL_PER_ROUND * overdue;
+    // The mirror of the pull: well before his usual round, his first one costs
+    // him picks. Without it a manager whose one early tight end sits inside the
+    // gate window took one in round three in most mocks against a real seven.
+    if (due != null && team.counts[pos] === 0 && round < Math.ceil(due) - EARLY_HOLD_ROUNDS) {
+      score += EARLY_HOLD + EARLY_HOLD_SHARE * base;
+    }
 
     // Past the number he usually carries at QB or TE, another one costs him a
     // round. A habit, not a cap: a good enough value still gets taken.
