@@ -84,6 +84,7 @@
         <p class="note">
             Through week {weeks[weeks.length - 1]}, regular season. The line marks the {playoffTeams} playoff spots. "Median effect" is how many places the median game moves each team, up or down.
             {#if movers.length}Changing the format would swap {movers.map((r) => nameOf(r.h)).join(' and ')} across the playoff line.{:else}Nobody crosses the playoff line either way.{/if}
+            Every past season, plus strength of schedule, is on <a href="/median">Median &amp; Schedule</a>.
         </p>
     </section>
 {/if}

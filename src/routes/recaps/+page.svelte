@@ -2,6 +2,7 @@
     import { recaps } from '$lib/utils/recaps';
     import { nameOf, site } from '$lib/utils/flpHistory';
     import ScoreHeatmap from '$lib/Charts/ScoreHeatmap.svelte';
+    import { newsletterFor } from '$lib/utils/newsletters';
 </script>
 
 <svelte:head><title>Weekly Newsletter | {site.league_name}</title></svelte:head>
@@ -25,12 +26,14 @@
     {/if}
     {#each recaps as r}
         {@const f = r.facts}
+        {@const nl = newsletterFor(r.slug)}
         <a class="post" href="/recaps/{r.slug}">
             <div class="head">
                 <h2>{r.season} · Week {r.week}</h2>
                 {#if r.video}<span class="tag">▶ Video</span>{/if}
             </div>
-            {#if r.intro}<p>{r.intro.length > 240 ? r.intro.slice(0, 240) + '…' : r.intro}</p>{/if}
+            {#if nl}<p class="hl">{nl.headline}</p>{#if nl.dek}<p>{nl.dek}</p>{/if}
+            {:else if r.intro}<p>{r.intro.length > 240 ? r.intro.slice(0, 240) + '…' : r.intro}</p>{/if}
             <ul>
                 {#if f.closest}<li>Closest: {nameOf(f.closest.winner.manager)} over {nameOf(f.closest.loser.manager)} by {f.closest.margin}</li>{/if}
                 {#if f.high}<li>High score: {nameOf(f.high.manager)}, {f.high.points}</li>{/if}
@@ -54,4 +57,5 @@
     .now { font-size: 0.6em; font-weight: 600; color: #fff; background: #27ae60; border-radius: 4px; padding: 0.15em 0.5em; vertical-align: middle; }
     .tag { background: #c0392b; color: #fff; border-radius: 4px; padding: 0.15em 0.5em; font-size: 0.8em; white-space: nowrap; }
     ul { margin: 0.5em 0 0; padding-left: 1.2em; }
+    .hl { font-family: Georgia, 'Times New Roman', serif; font-size: 1.15em; font-weight: 800; margin: 0.4em 0 0; }
 </style>

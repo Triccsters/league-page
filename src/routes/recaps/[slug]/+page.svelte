@@ -7,6 +7,8 @@
     import WeekAwards from '$lib/Charts/WeekAwards.svelte';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { myTeam } from '$lib/utils/myTeam';
+    import NewsletterIssue from '$lib/Newsletter/NewsletterIssue.svelte';
+    import { newsletterFor } from '$lib/utils/newsletters';
     let ready = false;
     onMount(() => { ready = true; });
     export let data;
@@ -19,8 +21,8 @@
     onMount(() => { canShare = typeof navigator !== 'undefined' && !!navigator.share; });
     $: issueUrl = ready && r ? `${location.origin}/recaps/${r.slug}` : '';
     $: shareText = r ? [
-        `${site.league_name}, week ${r.week} newsletter`,
-        ...(r.intro ? [r.intro.split(/(?<=[.!?])\s/)[0]] : []),
+        nl ? `${nl.masthead}, week ${r.week}: ${nl.headline}` : `${site.league_name}, week ${r.week} newsletter`,
+        ...(nl?.dek ? [nl.dek] : r.intro ? [r.intro.split(/(?<=[.!?])\s/)[0]] : []),
         '',
         ...SHARE_KEYS.map((k) => (r.awards || []).find((a) => a.key === k)).filter(Boolean).map((a) =>
             `${a.emoji} ${a.name}: ${nameOf(a.manager)}${a.vs ? ` over ${nameOf(a.vs)}` : ''}, ${a.value}${a.note && a.key === 'top_player' ? ` (${a.note})` : ''}`),
@@ -36,6 +38,7 @@
     }
 
     $: r = recapBySlug(data.slug);
+    $: nl = r ? newsletterFor(r.slug) : null;
     $: v = r && videoEmbed(r.video);
     $: paras = (r?.intro || '').split(/\n\s*\n/).filter(Boolean);
     $: scoreBars = (r?.scores || []).map(s => ({
@@ -81,7 +84,11 @@
             </div>
         {/if}
 
-        {#each paras as p}<p class="intro">{p}</p>{/each}
+        {#if nl}
+            <NewsletterIssue {nl} recap={r} />
+        {:else}
+            {#each paras as p}<p class="intro">{p}</p>{/each}
+        {/if}
 
         {#if ready}
             <section class="share">
@@ -95,6 +102,7 @@
             </section>
         {/if}
 
+        {#if nl}<h2>The numbers</h2>{/if}
         <WeekAwards awards={r.awards} />
 
         {#if r.scores?.length}
