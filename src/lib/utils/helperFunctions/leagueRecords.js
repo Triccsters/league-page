@@ -73,7 +73,7 @@ export const getLeagueRecords = async (refresh = false) => {
 
 		// on first run, week is provided above from nflState,
 		// after that get the final week of regular season from leagueData
-		if(leagueData.status == 'complete' || week > leagueData.settings.playoff_week_start - 1) {
+		if(leagueData.status == 'complete' || week > (leagueData.settings.playoff_week_start || 15) - 1) {
 			week = 99; // set it high
 		}
 
@@ -136,8 +136,8 @@ const processRegularSeason = async ({rosters, leagueData, curSeason, week, regul
 
 	// on first run, week is provided above from nflState,
 	// after that get the final week of regular season from leagueData
-	if(leagueData.status == 'complete' || week > leagueData.settings.playoff_week_start - 1) {
-		week = leagueData.settings.playoff_week_start - 1;
+	if(leagueData.status == 'complete' || week > (leagueData.settings.playoff_week_start || 15) - 1) {
+		week = (leagueData.settings.playoff_week_start || 15) - 1;
 	}
 
 	for(const rosterID in rosters) {

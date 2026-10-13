@@ -79,6 +79,13 @@ def get(url):
 
 
 def sleeper(path):
+    # A shimmed league (League Bound is on ESPN) has no Sleeper league or
+    # draft to call: espn_shim.py writes Sleeper-shaped copies under
+    # static/shim/v1/ and we read those instead. Everything else - NFL
+    # state, the player index, projections - is still really Sleeper.
+    if CONFIG.get("shim") and path.startswith(("/league/", "/draft/")):
+        f = os.path.join(REPO, "static", "shim", "v1", path.strip("/") + ".json")
+        return read_json(f, None)
     return get("https://api.sleeper.app/v1" + path)
 
 
@@ -696,6 +703,10 @@ def main():
     ap.add_argument("--all", action="store_true", help="rebuild every finished week")
     ap.add_argument("--push", action="store_true", help="git commit and push")
     args = ap.parse_args()
+
+    if CONFIG.get("shim"):            # rebuild the ESPN copies first
+        import espn_shim             # only exists in a shimmed repo
+        espn_shim.main()
 
     state = sleeper("/state/nfl")
     cur = Season(LEAGUE_ID)

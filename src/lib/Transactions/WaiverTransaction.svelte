@@ -180,8 +180,13 @@
         <div class="avatarAndDetails">
             <div class="details">
                 {#each transaction.moves as move}
+                    <!-- Guarded for the same reason as TransactionMove.svelte: the
+                         ESPN shim yields player ids with no Sleeper entry, and one
+                         of them threw here and left the sidebar stuck on
+                         "Loading league transactions...". -->
+                    {@const p = players[move[0].player] || {}}
                     <div class="player">
-                        <div class="playerAvatar" style="border-color: var(--{players[move[0].player].pos}); background-color: var(--{move[0].type == "Added" ? "waiverAdd" : "waiverDrop"}); {getAvatar(players[move[0].player].pos, move[0].player)}">
+                        <div class="playerAvatar" style="border-color: var(--{p.pos || 'FLEX'}); background-color: var(--{move[0].type == "Added" ? "waiverAdd" : "waiverDrop"}); {getAvatar(p.pos, move[0].player)}">
                             {#if move[0].type == "Added"}
                                 <i class="add indicator material-icons" aria-hidden="true">add_circle</i>
                             {:else if move[0].type == "Dropped"}
@@ -189,12 +194,12 @@
                             {/if}
                         </div>
                         <span class="nameHolder">
-                            <span class="playerName">{`${players[move[0].player].fn} ${players[move[0].player].ln}`}</span>
+                            <span class="playerName">{p.fn || p.ln ? `${p.fn || ''} ${p.ln || ''}`.trim() : 'Unknown player'}</span>
                             <span class="playerInfo">
-                                <span>{players[move[0].player].pos}</span>
-                                {#if players[move[0].player].t}
+                                <span>{p.pos || ''}</span>
+                                {#if p.t}
                                     -
-                                    <span>{players[move[0].player].t}</span> 
+                                    <span>{p.t}</span> 
                                 {/if}
                             </span>
                         </span>

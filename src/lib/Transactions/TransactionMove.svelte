@@ -244,17 +244,24 @@
                 <div class="line lineL {checkL(cell, ix) ? "hidden" : ""}" />
                 <div class="line lineR {checkR(cell, ix) ? "hidden" : ""}" />
                 {#if cell && cell.player}
+                    <!-- On League Bound the ids come from the ESPN shim and ~152 of
+                         them have no Sleeper id, so they are absent from the player
+                         index. Every access below used to be unguarded, and one
+                         missing player threw "Cannot read properties of undefined
+                         (reading 't')" and left the whole sidebar on "Loading league
+                         transactions...". Degrade to a placeholder instead. -->
+                    {@const p = players[cell.player] || {}}
                     <div class="playerSlot">
-                            <div class="tradeSlot playerAvatar" style="border-color: var(--{players[cell.player].pos}); {getAvatar(players[cell.player].pos, cell.player)}">
+                            <div class="tradeSlot playerAvatar" style="border-color: var(--{p.pos || 'FLEX'}); {getAvatar(p.pos, cell.player)}">
                                 <i class="indicator material-icons" aria-hidden="true">add_circle</i>
                             </div>
                         <div class="nameHolder">
-                            <span class="name">{`${players[cell.player].fn} ${players[cell.player].ln}`}</span>
+                            <span class="name">{p.fn || p.ln ? `${p.fn || ''} ${p.ln || ''}`.trim() : 'Unknown player'}</span>
                             <span class="playerInfo">
-                                <span>{players[cell.player].pos}</span>
-                                {#if players[cell.player].t}
+                                <span>{p.pos || ''}</span>
+                                {#if p.t}
                                     -
-                                    <span>{players[cell.player].t}</span> 
+                                    <span>{p.t}</span> 
                                 {/if}
                             </span>
                         </div>

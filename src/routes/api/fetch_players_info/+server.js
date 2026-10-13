@@ -1,14 +1,25 @@
-import { leagueID } from "$lib/utils/leagueInfo"
+import { leagueID, shimmed } from "$lib/utils/leagueInfo"
 import { round } from "$lib/utils/helperFunctions/universalFunctions"
 import { waitForAll } from "$lib/utils/helperFunctions/multiPromise"
 import { json, error } from '@sveltejs/kit';
 
-export async function GET() {
+export async function GET({ url }) {
     // get NFL state from sleeper (week and year)
+    // hooks.client.js redirects Sleeper league/draft calls to the baked shim,
+    // but it is a CLIENT hook and this endpoint runs on the server. Without
+    // these two, a shimmed (ESPN) league id is sent to api.sleeper.app, which
+    // has no such league, and the whole endpoint 500s.
+    const leagueUrl = shimmed
+        ? `${url.origin}/shim/v1/league/${leagueID}.json`
+        : `https://api.sleeper.app/v1/league/${leagueID}`;
+    const bracketUrl = shimmed
+        ? `${url.origin}/shim/v1/league/${leagueID}/winners_bracket.json`
+        : `https://api.sleeper.app/v1/league/${leagueID}/winners_bracket`;
+
     const [nflStateRes, leagueDataRes, playoffsRes] = await waitForAll(
         fetch(`https://api.sleeper.app/v1/state/nfl`, {compress: true}),
-        fetch(`https://api.sleeper.app/v1/league/${leagueID}`, {compress: true}),
-        fetch(`https://api.sleeper.app/v1/league/${leagueID}/winners_bracket`, {compress: true}),
+        fetch(leagueUrl, {compress: true}),
+        fetch(bracketUrl, {compress: true}),
     )
     
     const [nflState, leagueData, playoffs] = await waitForAll(
@@ -18,8 +29,15 @@ export async function GET() {
     )
 
 	let year = nflState.league_season;
-    const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
-    const playoffLength = playoffs.pop().r;
+    // playoff_week_start can be 0 (commissioner has not set a playoff start
+    // week) and /winners_bracket then returns null, which made `playoffs.pop()`
+    // throw and killed this endpoint. Both values only decide HOW MANY weeks of
+    // projections to fetch, so a long fallback is harmless; a short one would
+    // silently miss late weeks.
+    const regularSeasonLength = (leagueData.settings.playoff_week_start || 15) - 1;
+    const playoffLength = (Array.isArray(playoffs) && playoffs.length)
+        ? playoffs.pop().r
+        : 3;
     const fullSeasonLength = regularSeasonLength + playoffLength;
 
     const resPromises = [
@@ -48,7 +66,38 @@ export async function GET() {
 
     const scoringSettings = leagueData.scoring_settings;
 
-    return json(computePlayers(playerData, weeklyData, scoringSettings));
+    const computed = computePlayers(playerData, weeklyData, scoringSettings);
+
+    // Shimmed leagues carry players Sleeper has never heard of (ESPN ids with no
+    // espn_id match), keyed espn<id>. espn_shim records their name, position and
+    // team in _meta.json; without this merge every one of them renders as
+    // "Unknown player" in transactions, rosters and trades.
+    if(shimmed) {
+        try {
+            const metaRes = await fetch(`${url.origin}/shim/v1/_meta.json`, {compress: true});
+            if(metaRes.ok) {
+                const meta = await metaRes.json();
+                for(const [espnId, info] of Object.entries(meta.unmapped_players || {})) {
+                    const key = `espn${espnId}`;
+                    if(computed[key]) continue;
+                    const name = (info && info.name) || "";
+                    const sp = name.indexOf(" ");
+                    computed[key] = {
+                        fn: sp > 0 ? name.slice(0, sp) : name,
+                        ln: sp > 0 ? name.slice(sp + 1) : "",
+                        pos: (info && info.pos) || "",
+                        t: (info && info.team) || undefined,
+                    };
+                }
+            }
+        } catch (e) {
+            // A missing or malformed overlay must not take the endpoint down -
+            // that is the failure this whole file already had once.
+            console.error("shim player overlay skipped:", e);
+        }
+    }
+
+    return json(computed);
 }
 
 const computePlayers = (playerData, weeklyData, scoringSettings) => {

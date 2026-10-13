@@ -29,7 +29,7 @@ export const getBrackets = async (queryLeagueID = leagueID) => {
     // let numPOTeams = parseInt(leagueData.settings.playoff_teams);
     let playoffType;
     const year = parseInt(leagueData.season);
-    const playoffsStart = parseInt(leagueData.settings.playoff_week_start);
+    const playoffsStart = parseInt(leagueData.settings.playoff_week_start) || 15;
 
     // before 2020, 1 week/round was only option; in 2020, 2 weeks/rounds added; in 2021, 1 week/round + 2 champ
     // 0: 1 week per round
@@ -73,8 +73,11 @@ export const getBrackets = async (queryLeagueID = leagueID) => {
     const losersData = playoffMatchups.shift();
 
     // determine the length of the playoffs by looking at the last bracket
-    const playoffRounds = winnersData[winnersData.length - 1].r;
-    const loserRounds = losersData[losersData.length - 1].r;
+    // A league with no playoff week set has no bracket at all (null, not []).
+    const playoffRounds = (Array.isArray(winnersData) && winnersData.length)
+        ? winnersData[winnersData.length - 1].r : 0;
+    const loserRounds = (Array.isArray(losersData) && losersData.length)
+        ? losersData[losersData.length - 1].r : 0;
 
     // champBracket is an object where the key will be the round number
     // the value at each key will be an array of matchups

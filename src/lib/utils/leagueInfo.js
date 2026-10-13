@@ -7,6 +7,10 @@ export const dues = 100; // (optional) used in template constitution page
 // where the draft order is drawn at random every season, so a projection means nothing.
 export const showUpcomingDraft = false;
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
+// true only for a league whose data is baked into static/shim/v1/ by a
+// shim script (League Bound, which is on ESPN). Server routes must check
+// this themselves - hooks.client.js only covers the browser.
+export const shimmed = false;
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */

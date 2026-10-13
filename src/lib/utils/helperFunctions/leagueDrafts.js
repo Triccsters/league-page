@@ -15,7 +15,7 @@ export const getUpcomingDraft = async () => {
 	).catch((err) => { console.error(err); });
 
 	const draftID = leagueData.draft_id;
-	const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
+	const regularSeasonLength = (leagueData.settings.playoff_week_start || 15) - 1;
 
 	let year = parseInt(leagueData.season);
 

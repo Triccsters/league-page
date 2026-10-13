@@ -50,7 +50,7 @@ export const getRivalryMatchups = async (userOneID, userTwoID) => {
 
         // pull in all matchup data for the season
         const matchupsPromises = [];
-        for(let i = 1; i < leagueData.settings.playoff_week_start; i++) {
+        for(let i = 1; i < (leagueData.settings.playoff_week_start || 15); i++) {
             matchupsPromises.push(fetch(`https://api.sleeper.app/v1/league/${curLeagueID}/matchups/${i}`, {compress: true}))
         }
         const matchupsRes = await waitForAll(...matchupsPromises);
@@ -110,6 +110,7 @@ const processRivalryMatchups = (inputMatchups, week, rosterIDOne, rosterIDTwo) =
 	}
 	const matchups = {};
 	for(const match of inputMatchups) {
+		if(match.matchup_id == null) continue; // bye week (13-team ESPN league)
         if(match.roster_id == rosterIDOne || match.roster_id == rosterIDTwo) {
             if(!matchups[match.matchup_id]) {
                 matchups[match.matchup_id] = [];

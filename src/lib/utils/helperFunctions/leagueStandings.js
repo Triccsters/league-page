@@ -19,7 +19,7 @@ export const getLeagueStandings = async () => {
 	).catch((err) => { console.error(err); });
 
 	const yearData = leagueData.season;
-	const regularSeasonLength = leagueData.settings.playoff_week_start - 1;
+	const regularSeasonLength = (leagueData.settings.playoff_week_start || 15) - 1;
 	const divisions = leagueData.settings.divisions && leagueData.settings.divisions > 1;
     const rosters = rostersData.rosters;
 
@@ -96,6 +96,7 @@ export const getLeagueStandings = async () => {
 const processStandings = (matchup, standingsData, rosters) => {
 	const matchups = {};
 	for(const match of matchup) {
+		if(match.matchup_id == null) continue; // bye week (13-team ESPN league)
 		if(!matchups[match.matchup_id]) {
 			matchups[match.matchup_id] = [];
 		}

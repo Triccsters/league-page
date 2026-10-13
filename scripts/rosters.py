@@ -101,26 +101,77 @@ def _slot_map(league, roster):
     return out
 
 
+def _ecr_scoring(ctx):
+    """Which scoring block this league should read: "PPR" or "HALF".
+
+    Added 2026-10-13. Until then the file was half-PPR only and every league
+    read it, which was wrong for the two full-PPR ones (Lets go Brandon, which
+    is also TE-premium, and League Bound). The redraft/dynasty split was already
+    handled; scoring is a second, independent axis that was not.
+    """
+    sc = ((ctx.get("cur") and getattr(ctx["cur"], "league", None)) or {})
+    rec = ((sc.get("scoring_settings") or {}).get("rec")) if isinstance(sc, dict) else None
+    try:
+        return "PPR" if float(rec) >= 1 else "HALF"
+    except (TypeError, ValueError):
+        return "HALF"
+
+
 def _load_ecr(ctx):
     """FantasyPros expert consensus, positional rank, as a name -> rank map.
 
-    Redraft leagues get rest-of-season, dynasty leagues get dynasty. The file
-    is a dated snapshot pulled through the FantasyPros connector by hand, not
-    a live feed, so everything built off it is labelled with that date.
+    Redraft leagues get rest-of-season, dynasty leagues get dynasty, and a
+    full-PPR league gets the PPR block when the file has one. The file is a
+    dated snapshot pulled through the FantasyPros connector BY HAND, not a live
+    feed, so everything built off it is labelled with that date.
+
+    ⚠ Do not try to refresh it by scraping fantasypros.com. Checked 2026-10-13:
+    every /nfl/rankings/ros-*-cheatsheets.php URL serves the SAME embedded
+    `ecrData` blob - type=Draft, scoring=STD, weeks out of date - whatever
+    scoring the URL names. A scraper would look like it worked and silently
+    produce the wrong rankings. The page loads the real data over an XHR whose
+    API key is not in the page. The connector is the only trustworthy source.
     """
     from extras import pkey
     raw = ctx["read_json"](os.path.join(ctx["data"], "ecr.json"), {}) or {}
-    kind = "DYNASTY" if ctx.get("dynasty") else "ROS"
+    dyn = bool(ctx.get("dynasty"))
+    kind = "DYNASTY" if dyn else "ROS"
+    # Dynasty has no scoring axis to pick from. FantasyPros serves dynasty off
+    # dynasty-overall.php, which takes no scoring parameter - a DYNASTY/HALF and
+    # a DYNASTY/PPR pull came back identical (checked 2026-10-13). A
+    # DYNASTY_PPR block would be invented differentiation, so we never look for
+    # one, and dynasty reports its scoring as "N/A" rather than implying it
+    # settled for half-PPR ranks.
+    if dyn:
+        return _shape(raw, raw.get(kind), kind, "N/A")
+    # Redraft: prefer an exact scoring match, and fall back to the base block so
+    # an older ecr.json without the PPR variant keeps working unchanged.
+    scoring = _ecr_scoring(ctx)
+    block = raw.get("%s_%s" % (kind, scoring))
+    if block is None:
+        block = raw.get(kind)
+        used = raw.get("scoring") or "HALF"
+    else:
+        used = scoring
+        kind = "%s_%s" % (kind, scoring)
+    return _shape(raw, block, kind, used)
+
+
+def _shape(raw, block, kind, used):
+    """Turn one ecr.json block into the map/floor structure callers expect."""
+    from extras import pkey
     m, floor = {}, {}
-    for pos, names in (raw.get(kind) or {}).items():
+    for pos, names in (block or {}).items():
         for name, rank in names.items():
             m[(pos, pkey(name))] = rank
         # a player nobody ranked is not "unrated", he is worse than everyone on
         # the list. Counting him one past the end keeps a thin bench from
         # outscoring a deep one just by having fewer rankable players on it.
         floor[pos] = len(names) + 1
+    # `scoring` reports what was ACTUALLY used, not what the file's header says,
+    # so a league reading the fallback block is visibly reading half-PPR ranks.
     return {"map": m, "floor": floor, "kind": kind, "asof": raw.get("generated"),
-            "scoring": raw.get("scoring"), "source": raw.get("source")}
+            "scoring": used, "source": raw.get("source")}
 
 
 def build_rosters(ctx, rows, drafts, trades, waivers):

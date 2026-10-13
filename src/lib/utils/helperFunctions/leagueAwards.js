@@ -105,8 +105,10 @@ const getPreviousLeagueData = async (previousSeasonID) => {
 
 	previousSeasonID = prevLeagueData.previous_league_id;
 
-	const playoffRounds = winnersData[winnersData.length - 1].r
-	const toiletRounds = losersData[losersData.length - 1].r
+	const playoffRounds = (Array.isArray(winnersData) && winnersData.length)
+		? winnersData[winnersData.length - 1].r : 0
+	const toiletRounds = (Array.isArray(losersData) && losersData.length)
+		? losersData[losersData.length - 1].r : 0
 
 	return {
 		losersData,

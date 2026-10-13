@@ -122,7 +122,10 @@
 		for(const move of moves) {
 			for(const col of move) {
 				if(!col?.player) continue;
-				return checkMatch(query, `${players[col.player].fn} ${players[col.player].ln}`);
+				// A shimmed (ESPN) id can be absent from the Sleeper player index.
+				const p = players[col.player];
+				if(!p) continue;
+				return checkMatch(query, `${p.fn || ''} ${p.ln || ''}`);
 			}
 		}
 		return false;
