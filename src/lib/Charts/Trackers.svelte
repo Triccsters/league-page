@@ -74,7 +74,7 @@
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 1em; }
     .card { border: 1px solid rgba(127,127,127,0.3); border-radius: 10px; padding: 0.8em 0.9em; min-width: 0; }
     h2 { font-size: 1.1em; margin: 0 0 0.2em; display: flex; align-items: center; gap: 0.5em; }
-    .tag { font-size: 0.65em; font-weight: 700; border: 1px solid #e67e22; color: #e67e22; border-radius: 999px; padding: 0.05em 0.5em; }
+    .tag { display: inline-block; line-height: 1.5; height: auto; font-size: 0.65em; font-weight: 700; border: 1px solid #e67e22; color: #e67e22; border-radius: 999px; padding: 0.05em 0.5em; }
     .note { font-size: 0.82em; opacity: 0.8; margin: 0 0 0.6em; line-height: 1.45; }
     .scroll { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 0.88em; }

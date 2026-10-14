@@ -393,7 +393,7 @@ def races(C, waivers, drafts):
             pts, st = C.started_since(h, pid, w)
             cur.append({"h": h, "n": C.name(pid)[0], "pts": pts, "st": st, "faab": faab or 0})
     if cur:
-        top = sorted(cur, key=lambda p: -(p.get("pts") or 0))[:8]
+        top = sorted((p for p in cur if p.get("pts")), key=lambda p: -p["pts"])[:8]
         cards.append(card("pickup", "Pickup of the year",
                           "Waiver and free-agent adds this season, by points scored in that team's starting lineup since.",
                           ["Team", "Player", "Started pts", "Starts", "FAAB"],
