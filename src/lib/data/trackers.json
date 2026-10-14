@@ -656,7 +656,7 @@
       ],
       [
        "@@Wallner",
-       "QB",
+       "QB, RB",
        "TE",
        "QB 3 RB 5 WR 6 TE 12"
       ],
@@ -674,7 +674,7 @@
       ],
       [
        "@@snelson91",
-       "TE",
+       "RB, TE",
        "WR",
        "QB 4 RB 1 WR 12 TE 5"
       ],
@@ -737,7 +737,7 @@
        "@@brettmn13",
        "WR",
        "@@snelson91",
-       "TE"
+       "RB/TE"
       ]
      ]
     },
@@ -774,7 +774,7 @@
        "@@butterygoop",
        "D'Andre Swift",
        "RB CHI",
-       12.4
+       12.3
       ],
       [
        "@@TuanonStan",
@@ -786,7 +786,7 @@
        "@@brettmn13",
        "Garrett Wilson",
        "WR NYJ",
-       11.9
+       11.8
       ],
       [
        "@@butterygoop",
@@ -799,6 +799,18 @@
        "DeVonta Smith",
        "WR PHI",
        9.9
+      ],
+      [
+       "@@snelson91",
+       "David Montgomery",
+       "RB HOU",
+       8.9
+      ],
+      [
+       "@@Wallner",
+       "RJ Harvey",
+       "RB DEN",
+       8.7
       ],
       [
        "@@Jbird531",
@@ -1122,7 +1134,7 @@
        "@@snelson91",
        3,
        36.3,
-       "Jahmyr Gibbs, Sam LaPorta, Jake Bates"
+       "Jahmyr Gibbs, Jake Bates, Sam LaPorta"
       ],
       [
        6,
@@ -1150,14 +1162,14 @@
        "@@RockMNwild",
        2,
        20.6,
-       "Ja'Marr Chase, T.J. Hockenson"
+       "T.J. Hockenson, Ja'Marr Chase"
       ],
       [
        7,
        "@@RockMNwild",
        2,
        33.4,
-       "Josh Allen, Parker Washington"
+       "Parker Washington, Josh Allen"
       ],
       [
        7,
@@ -1171,7 +1183,7 @@
        "@@butterygoop",
        2,
        13.3,
-       "Cameron Dicker, Jacksonville Jaguars"
+       "Jacksonville Jaguars, Cameron Dicker"
       ],
       [
        8,
@@ -1185,14 +1197,14 @@
        "@@PapaMidnight",
        3,
        30.7,
-       "Ka'imi Fairbairn, Cam Skattebo, Nico Collins"
+       "Nico Collins, Cam Skattebo, Ka'imi Fairbairn"
       ],
       [
        8,
        "@@Colt45Johnson",
        3,
        29.3,
-       "San Francisco 49ers, Tyler Shough, Malik Nabers"
+       "Malik Nabers, San Francisco 49ers, Tyler Shough"
       ]
      ]
     }

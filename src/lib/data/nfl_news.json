@@ -1,8 +1,73 @@
 {
- "read_at": "2026-10-14T16:28+00:00",
+ "read_at": "2026-10-14T20:21+00:00",
  "days": 7,
- "count": 110,
+ "count": 115,
  "items": [
+  {
+   "headline": "Patriots CB Gonzalez says he's 'ready to go'; WR Brown returns to practice",
+   "url": "https://www.espn.com/nfl/story/_/id/50183044/patriots-gonzalez-set-return-wr-brown-back-practice",
+   "date": "2026-10-14",
+   "kind": "news",
+   "teams": [
+    "NE"
+   ],
+   "named": [
+    {
+     "n": "A.J. Brown",
+     "p": "WR",
+     "t": "NE",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "A.J. Brown"
+   ],
+   "ripple": [
+    {
+     "n": "Drake Maye",
+     "p": "QB",
+     "t": "NE",
+     "h": "Wallner"
+    },
+    {
+     "n": "Hunter Henry",
+     "p": "TE",
+     "t": "NE",
+     "h": "Wallner"
+    },
+    {
+     "n": "Romeo Doubs",
+     "p": "WR",
+     "t": "NE",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Corey Kiner",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "TreVeyon Henderson",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rhamondre Stevenson",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "Wallner",
+    "YoungBuck04"
+   ],
+   "score": 15.0
+  },
   {
    "headline": "Sources: Patriots' TreVeyon Henderson out multiple weeks with high ankle sprain",
    "url": "https://www.espn.com/nfl/story/_/id/50173985/sources-patriots-treveyon-henderson-high-ankle-sprain",
@@ -378,52 +443,6 @@
    "score": 14.0
   },
   {
-   "headline": "Judkins, Schwesinger (ankles) add to injury woes for Browns",
-   "url": "https://www.espn.com/nfl/story/_/id/50167865/judkins-schwesinger-ankles-add-injury-woes-browns",
-   "date": "2026-10-12",
-   "kind": "news",
-   "teams": [
-    "CLE"
-   ],
-   "named": [
-    {
-     "n": "Quinshon Judkins",
-     "p": "RB",
-     "t": "CLE",
-     "h": "thecreamer"
-    },
-    {
-     "n": "KC Concepcion",
-     "p": "WR",
-     "t": "CLE",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "Quinshon Judkins"
-   ],
-   "ripple": [
-    {
-     "n": "Denzel Boston",
-     "p": "WR",
-     "t": "CLE",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Harold Fannin",
-     "p": "TE",
-     "t": "CLE",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "butterygoop",
-    "thecreamer"
-   ],
-   "score": 14.0
-  },
-  {
    "headline": "Bears QB Caleb Williams 'close' to returning, Ben Johnson says",
    "url": "https://www.espn.com/nfl/story/_/id/50161771/bears-qb-caleb-williams-close-returning-ben-johnson-says",
    "date": "2026-10-11",
@@ -491,72 +510,6 @@
    "score": 13.0
   },
   {
-   "headline": "Texans RB David Montgomery ruled out with groin injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50159624/texans-rb-david-montgomery-ruled-groin-injury",
-   "date": "2026-10-11",
-   "kind": "news",
-   "teams": [
-    "HOU"
-   ],
-   "named": [
-    {
-     "n": "David Montgomery",
-     "p": "RB",
-     "t": "HOU",
-     "h": "snelson91"
-    }
-   ],
-   "lead": [
-    "David Montgomery"
-   ],
-   "ripple": [
-    {
-     "n": "Woody Marks",
-     "p": "RB",
-     "t": "HOU",
-     "h": "Wallner"
-    },
-    {
-     "n": "Tank Dell",
-     "p": "WR",
-     "t": "HOU",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Marvin Harrison",
-     "p": "WR",
-     "t": "HOU",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Dalton Schultz",
-     "p": "TE",
-     "t": "HOU",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Nico Collins",
-     "p": "WR",
-     "t": "HOU",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Kayshon Boutte",
-     "p": "WR",
-     "t": "HOU",
-     "h": "PapaMidnight"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "RockMNwild",
-    "Wallner",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 13.0
-  },
-  {
    "headline": "Bills' Joe Brady warns RB James Cook of 'consequences' for costly fumbles",
    "url": "https://www.espn.com/nfl/story/_/id/50177135/bills-brady-warns-rb-cook-consequences-costly-fumbles",
    "date": "2026-10-13",
@@ -617,64 +570,147 @@
    "score": 12.5
   },
   {
-   "headline": "Bills rule out Ed Oliver, Joshua Palmer, wait on WR DJ Moore",
-   "url": "https://www.espn.com/nfl/story/_/id/50149505/bills-rule-ed-oliver-joshua-palmer-wait-wr-dj-moore",
-   "date": "2026-10-10",
+   "headline": "Falcons QB Michael Penix on track to start vs. Bears if no setbacks, coach says",
+   "url": "https://www.espn.com/nfl/story/_/id/50182471/falcons-say-michael-penix-track-start-bears",
+   "date": "2026-10-14",
    "kind": "news",
    "teams": [
-    "BUF"
+    "ATL",
+    "CHI"
    ],
-   "named": [
+   "named": [],
+   "lead": [],
+   "ripple": [
     {
-     "n": "DJ Moore",
+     "n": "Drake London",
      "p": "WR",
-     "t": "BUF",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Brian Robinson",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Bijan Robinson",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kyle Pitts",
+     "p": "TE",
+     "t": "ATL",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "D'Andre Swift",
+     "p": "RB",
+     "t": "CHI",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Luther Burden",
+     "p": "WR",
+     "t": "CHI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Kyle Monangai",
+     "p": "RB",
+     "t": "CHI",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
      "h": "thecreamer"
     }
    ],
+   "managers": [
+    "Jbird531",
+    "RockMNwild",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "thecreamer"
+   ],
+   "score": 12.0
+  },
+  {
+   "headline": "Source: Lamar Jackson has realistic chance to play Ravens' Week 6 game at Browns",
+   "url": "https://www.espn.com/nfl/story/_/id/50181398/source-lamar-jackson-realistic-chance-play-week-6",
+   "date": "2026-10-14",
+   "kind": "news",
+   "teams": [
+    "BAL"
+   ],
+   "named": [
+    {
+     "n": "Lamar Jackson",
+     "p": "QB",
+     "t": "BAL",
+     "h": "YoungBuck04"
+    }
+   ],
    "lead": [
-    "DJ Moore"
+    "Lamar Jackson"
    ],
    "ripple": [
     {
-     "n": "James Cook",
-     "p": "RB",
-     "t": "BUF",
-     "h": "Wallner"
-    },
-    {
-     "n": "Josh Allen",
-     "p": "QB",
-     "t": "BUF",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Khalil Shakir",
+     "n": "Zay Flowers",
      "p": "WR",
-     "t": "BUF",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Keon Coleman",
-     "p": "WR",
-     "t": "BUF",
+     "t": "BAL",
      "h": "PapaMidnight"
     },
     {
-     "n": "Dalton Kincaid",
+     "n": "Derrick Henry",
+     "p": "RB",
+     "t": "BAL",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Justice Hill",
+     "p": "RB",
+     "t": "BAL",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Mark Andrews",
      "p": "TE",
-     "t": "BUF",
+     "t": "BAL",
      "h": "snelson91"
     }
    ],
    "managers": [
+    "Colt45Johnson",
     "PapaMidnight",
-    "RockMNwild",
-    "Wallner",
-    "snelson91",
-    "thecreamer"
+    "YoungBuck04",
+    "snelson91"
    ],
-   "score": 12.5
+   "score": 12.0
   },
   {
    "headline": "NFL suspends Rams' Alaric Jackson for two games after punch",

@@ -481,6 +481,21 @@ def _bracket(seeds, draw):
     return seeds[0]
 
 
+def _seed(teams, wins, pf, div):
+    """Seed order. With divisions, each division winner (best record, then points)
+    takes a top seed, ordered among themselves; everyone else follows by record."""
+    key = lambda h: (-wins[h], -pf[h])
+    if not div or len(set(div.values())) < 2:
+        return sorted(teams, key=key)
+    leaders = []
+    for d in sorted(set(div.values())):
+        mem = [h for h in teams if div.get(h) == d]
+        if mem:
+            leaders.append(min(mem, key=key))
+    leaders.sort(key=key)
+    return leaders + sorted([h for h in teams if h not in leaders], key=key)
+
+
 def build_odds_and_previews(ctx):
     cur, season, state = ctx["cur"], ctx["season"], ctx["state"]
     st = cur.league.get("settings") or {}
@@ -491,6 +506,13 @@ def build_odds_and_previews(ctx):
     last_done = max(done) if done else 0
     models, sd = team_models(ctx)
     teams = list(models)
+    div = {}
+    if (st.get("divisions") or 0) > 1:
+        for r in getattr(cur, "rosters", []) or []:
+            d = (r.get("settings") or {}).get("division")
+            h = cur.handle.get(r.get("roster_id"))
+            if d and h in models:
+                div[h] = d
 
     rec = {h: [0, 0, 0.0] for h in teams}
     for s, w, _e, a, pa, b, pb, playoff, _l in ctx["history"]["games"]:
@@ -538,7 +560,11 @@ def build_odds_and_previews(ctx):
                     wins[h] += s > med
             for h, s in scores.items():
                 pf[h] += s
-        order = sorted(teams, key=lambda h: (-wins[h], -pf[h]))
+        order = _seed(teams, wins, pf, div)
+        if div:
+            for d in set(div.values()):
+                mem = [h for h in teams if div.get(h) == d]
+                tally[min(mem, key=lambda h: (-wins[h], -pf[h]))]["div"] += 1
         for i, h in enumerate(order):
             wins_sum[h] += wins[h]
             if i < n_playoff:
@@ -577,6 +603,7 @@ def build_odds_and_previews(ctx):
     rows = [{"h": h, "w": rec[h][0], "l": rec[h][1], "pf": round(rec[h][2], 2), "mu": models[h]["mu"],
              "proj_w": round(wins_sum[h] / SIMS, 1), "playoff": pct(h, "playoff"), "bye": pct(h, "bye"),
              "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last"),
+             "div": div.get(h), "div_win": pct(h, "div") if div else None,
              "sos_faced": sos[h]["faced"], "sos_rest": sos[h]["rest"], "rest_opponents": sos[h]["opponents"],
              "tau": round(models[h]["tau"], 3)} for h in teams]
     rows.sort(key=lambda r: (-r["playoff"], -r["title"], -r["proj_w"]))
@@ -591,7 +618,9 @@ def build_odds_and_previews(ctx):
             "remaining_weeks": sorted(schedule), "teams": rows, "history": hist,
             # the games still to play, so the what-if page can re-run the model in the browser
             "schedule": {str(w): [[a, b] for a, b in pairs] for w, pairs in sorted(schedule.items())},
-            "bye_teams": n_playoff - 4 if n_playoff > 4 else 0}
+            "bye_teams": n_playoff - 4 if n_playoff > 4 else 0,
+            # division per team; empty when the league has none. Division winners seed first.
+            "divisions": div}
     ctx["write_json"](path, odds)
 
     # previews for the next week

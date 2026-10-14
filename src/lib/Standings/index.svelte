@@ -18,6 +18,7 @@
     let loading = true;
     let preseason = false;
     let standings, year, leagueTeamManagers;
+    let groups = [];
     onMount(async () => {
         const asyncStandingsData = await standingsData;
         if(!asyncStandingsData) {
@@ -39,6 +40,10 @@
         }
 
         standings = finalStandings;
+        const divs = [...new Set(finalStandings.map(s => s.division).filter(d => d))].sort();
+        groups = divs.length > 1
+            ? divs.map(d => ({ label: `Division ${d}`, rows: finalStandings.filter(s => s.division === d) }))
+            : [{ label: null, rows: finalStandings }];
         loading = false;
     })
 
@@ -71,6 +76,8 @@
         margin: 1.5em 0 2em;
     }
 
+    .divnote { max-width: 640px; margin: -1em auto 1.5em; line-height: 1.4; }
+    .divhead { margin: 0.6em 0 0.2em; font-size: 1.4em; }
     .standingsTable {
         max-width: 100%;
         overflow-x: scroll;
@@ -91,6 +98,11 @@
     <p>Preseason, No Standings Yet</p>
 </div>
 {:else}
+    {#if groups.length > 1}
+        <p class="divnote">Two divisions. Each division winner gets one of the two first-round byes; the other four playoff spots go to the best records left, whatever the division.</p>
+    {/if}
+    {#each groups as g}
+    {#if g.label}<h2 class="divhead">{g.label}</h2>{/if}
     <div class="standingsTable">
         <DataTable table$aria-label="League Standings" >
             <Head> <!-- Team name  -->
@@ -103,10 +115,11 @@
             </Head>
             <Body>
                 <!-- 	Standing	 -->
-                {#each standings as standing}
+                {#each g.rows as standing}
                     <Standing {columnOrder} {standing} {leagueTeamManagers} team={getTeamFromTeamManagers(leagueTeamManagers, standing.rosterID)} />
                 {/each}
             </Body>
         </DataTable>
     </div>
+    {/each}
 {/if}

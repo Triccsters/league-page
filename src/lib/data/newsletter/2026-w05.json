@@ -2,8 +2,8 @@
  "slug": "2026-w05",
  "masthead": "FL Players Weekly",
  "tagline": "Written every Tuesday from the league's own numbers.",
- "headline": "Colt Goes Perfect, Mikey's Kicker Goes MVP",
- "dek": "The playoff line draws itself, Scott loses with the second-best score of the week, and the commissioner takes a 39-point beating from the guy who hosts the draft.",
+ "headline": "Issue One: Two Byes, Six Playoff Spots and a Kicker Debate",
+ "dek": "The first FL Players Weekly. Inside: Colt's perfect week, a kicker as Mikey's top scorer, the division races that decide the byes, the Kicker File, the brother bowl on Thursday, and every manager's story so far.",
  "lead": "Five weeks in, the league has drawn its own playoff line. The top six are all 3-2 or better and the bottom six are all 2-3 or worse. History says that line is stickier than it looks: in every season on record, teams at 3-2 after week 5 have made the playoffs 71% of the time, and teams at 2-3 only 36%.\n\nWeek 5 belonged to Colt, who set a perfect lineup and dropped 146.68 on a Scott team that scored 138.24 and lost anyway. James won the closest game of the week by 4.96 over T.J., Brett hung the biggest blowout of the week on the commissioner, and Mikey fell to 0-5 with his kicker as his top scorer.",
  "managers": [
   {
@@ -351,7 +351,7 @@
   },
   {
    "title": "Everybody has one",
-   "text": "A five-weeks-in redraft of the top 24 players made the rounds this week, and every FL Players roster has at least one of them. T.J., Austin and John have three each: T.J. with Brock Bowers, CeeDee Lamb and Christian Watson; Austin with Ja'Marr Chase, Josh Allen and Parker Washington; John with James Cook, Tetairoa McMillan and Ashton Jeanty. The first pick was Jahmyr Gibbs, who is on bye for Scott this week."
+   "text": "A five-weeks-in redraft of the top 24 players made the rounds this week, and every FL Players roster has at least one of them. T.J., Austin and John have three each: T.J. with Brock Bowers, CeeDee Lamb and Christian Watson; Austin with Ja'Marr Chase, Josh Allen and Parker Washington; John with James Cook, Tetairoa McMillan and Ashton Jeanty. The first pick was Jahmyr Gibbs, who is on bye for Scott this week. Parker Washington is wanted, too. On A Rock and a Hard Place, the podcast Austin does with Colt, Austin said offers for him came in from \"five teams out of the 12.\" He kept him: \"I like him too much.\" The show had named Washington one of its sleepers back in July."
   }
  ],
  "history": [
@@ -364,7 +364,7 @@
    "text": "Ten teams on record have started 0-5 in this league. None of them made the playoffs."
   }
  ],
- "ahead": "Game of the week: James and Austin, a rematch of the 2016 final. Also worth watching: Joey tries to make it five straight over Scott, Anthony tries for five straight over Colt, and Brett gets Mikey, whose best player last week was a kicker. Brett would like that noted.",
+ "ahead": "Game of the week: James and Austin, a Division 2 game and a rematch of the 2016 final. Also worth watching: the brother bowl, where Joey goes for five straight over his brother Scott (Joey leads the series 10-5), Anthony goes for five straight over Colt, and Brett gets Mikey, whose best player last week was a kicker. Brett would like that noted.",
  "moves": {
   "intro": "Five weeks in, one trade and a busy free-agent market. Here is what moved and what it has done since.",
   "items": [
@@ -1765,6 +1765,144 @@
    ]
   },
   {
+   "id": "division-races",
+   "style": "article",
+   "place": "after-lead",
+   "label": "The races",
+   "title": "Two divisions, two byes",
+   "dek": "The byes go to the division winners, not the two best records.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "FL Players plays in two divisions, and it decides who rests in the first round of the playoffs. The two byes go to the two division winners. Last season Anthony won Division 1 at 8-6 and got a bye, while Brett went 9-5 and had to play wild-card weekend. The other four playoff spots go to the best records left, from either division."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Division 1",
+      "Record",
+      "Points",
+      "Wins division",
+      "Makes playoffs"
+     ],
+     "rows": [
+      [
+       "Joey",
+       "4-1",
+       "527.5",
+       "33%",
+       "75%"
+      ],
+      [
+       "Anthony",
+       "3-2",
+       "608.4",
+       "42%",
+       "82%"
+      ],
+      [
+       "Nase",
+       "3-2",
+       "489.8",
+       "7%",
+       "34%"
+      ],
+      [
+       "T.J.",
+       "2-3",
+       "549.6",
+       "11%",
+       "48%"
+      ],
+      [
+       "John",
+       "2-3",
+       "543.4",
+       "8%",
+       "40%"
+      ],
+      [
+       "Mikey",
+       "0-5",
+       "474.0",
+       "<1%",
+       "3%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Division 1 is the real race. Joey leads at 4-1, but Anthony has scored 81 more points, and the model makes Anthony the favorite to win it, 42% to 33%. T.J. and John are two games back at 2-3, and Mikey needs a lot to go right at 0-5."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Division 2",
+      "Record",
+      "Points",
+      "Wins division",
+      "Makes playoffs"
+     ],
+     "rows": [
+      [
+       "James",
+       "4-1",
+       "619.9",
+       "56%",
+       "94%"
+      ],
+      [
+       "Scott",
+       "3-2",
+       "618.8",
+       "30%",
+       "86%"
+      ],
+      [
+       "Colt",
+       "3-2",
+       "551.1",
+       "10%",
+       "66%"
+      ],
+      [
+       "Brett",
+       "2-3",
+       "511.7",
+       "2%",
+       "27%"
+      ],
+      [
+       "Buckley",
+       "2-3",
+       "493.1",
+       "1%",
+       "20%"
+      ],
+      [
+       "Austin",
+       "2-3",
+       "493.1",
+       "1%",
+       "23%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Division 2 is James's to lose. He is 4-1 with the most points in the league and wins the division 56% of the time. Scott, at 3-2 with nearly the same points, is next at 30%. Colt is third at 10%."
+    },
+    {
+     "type": "p",
+     "text": "Week 6 has two division games: James against Austin, and T.J. against Nase. Of the 54 regular-season games left, 22 are inside a division."
+    },
+    {
+     "type": "note",
+     "text": "Chances come from 10,000 simulated finishes of the season after week 5. A tie for a division is broken on points in the model."
+    }
+   ]
+  },
+  {
    "id": "kicker-file",
    "style": "article",
    "place": "after-lead",
@@ -2248,7 +2386,7 @@
     },
     {
      "type": "p",
-     "text": "Seven FL Players rosters have someone playing in the opener, and the best of it is Joey against Scott. Joey has Bo Nix and Jaxon Smith-Njigba. Scott has the Seattle defense, which means Scott's defense spends Thursday night chasing Joey's quarterback. Denver also has Austin's Jaylen Waddle, T.J.'s J.K. Dobbins, John's RJ Harvey and Nase's Courtland Sutton, and Nase has the Broncos defense too. On Seattle's side, Nase's Emanuel Wilson leads the backfield again with Buckley's Zach Charbonnet held out until week 7, and Colt's kicker, Jason Myers, gets the first kick of the week."
+     "text": "Seven FL Players rosters have someone playing in the opener, and the best of it is the brother bowl, Joey against Scott. Joey has Bo Nix and Jaxon Smith-Njigba. Scott has the Seattle defense, which means Scott's defense spends Thursday night chasing Joey's quarterback. Denver also has Austin's Jaylen Waddle, T.J.'s J.K. Dobbins, John's RJ Harvey and Nase's Courtland Sutton, and Nase has the Broncos defense too. On Seattle's side, Nase's Emanuel Wilson leads the backfield again with Buckley's Zach Charbonnet held out until week 7, and Colt's kicker, Jason Myers, gets the first kick of the week."
     },
     {
      "type": "p",

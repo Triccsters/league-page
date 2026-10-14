@@ -24,25 +24,27 @@
 
     $: titleBars = odds.teams.map(t => ({ label: nameOf(t.h), value: t.title, highlight: mine(t.h) }))
         .sort((a, b) => b.value - a.value);
+    const hasDiv = Object.keys(odds.divisions || {}).length > 0;
     const pct = (v) => (v >= 99.95 ? '>99.9' : v > 0 && v < 0.1 ? '<0.1' : v.toFixed(1)) + '%';
 </script>
 
 <div class="holder">
     <h1>Playoff Odds</h1>
     <p class="sub">After week {odds.through_week} of {odds.season}. {odds.sims.toLocaleString()} simulated finishes of the {odds.remaining_weeks.length} regular-season weeks left.
-        Top {odds.playoff_teams} make the playoffs{odds.playoff_teams >= 6 ? ', top 2 get a bye' : ''}{odds.median ? ', and every week also counts a game against the league median' : ''}.</p>
+        Top {odds.playoff_teams} make the playoffs{hasDiv ? '. The two division winners take the byes and the top two seeds; the other four spots go to the best records left' : odds.playoff_teams >= 6 ? ', top 2 get a bye' : ''}{odds.median ? ', and every week also counts a game against the league median' : ''}.</p>
 
     <div class="scroll">
         <table>
-            <thead><tr><th>Team</th><th>W-L</th><th class="num">Proj. wins</th><th class="bar">Playoffs</th>{#if odds.playoff_teams >= 6}<th class="num">Bye</th>{/if}<th class="num">#1 seed</th><th class="num">Title</th><th class="num">Last place</th></tr></thead>
+            <thead><tr><th>Team</th><th>W-L</th><th class="num">Proj. wins</th><th class="bar">Playoffs</th>{#if hasDiv}<th class="num">Win div.</th>{/if}{#if odds.playoff_teams >= 6}<th class="num">Bye</th>{/if}<th class="num">#1 seed</th><th class="num">Title</th><th class="num">Last place</th></tr></thead>
             <tbody>
                 {#each odds.teams as t}
                     <tr class:mine={mine(t.h)}>
                         <td><b>{nameOf(t.h)}</b><YourTeamBadge handle={t.h} size="small" />
                             {#if teamName(site.season, t.h) && teamName(site.season, t.h) !== nameOf(t.h)}<small>{teamName(site.season, t.h)}</small>{/if}</td>
-                        <td>{t.w}-{t.l}</td>
+                        <td>{t.w}-{t.l}{#if hasDiv && t.div}<small>Div. {t.div}</small>{/if}</td>
                         <td class="num">{t.proj_w}</td>
                         <td class="bar"><div class="meter"><span style="width:{t.playoff}%"></span><em>{pct(t.playoff)}</em></div></td>
+                        {#if hasDiv}<td class="num">{pct(t.div_win ?? 0)}</td>{/if}
                         {#if odds.playoff_teams >= 6}<td class="num">{pct(t.bye)}</td>{/if}
                         <td class="num">{pct(t.seed1)}</td>
                         <td class="num">{pct(t.title)}</td>

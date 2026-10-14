@@ -3,7 +3,7 @@
  "week": 5,
  "slug": "2026-w05",
  "title": "Week 5 recap",
- "generated": "2026-10-14T16:28:31+00:00",
+ "generated": "2026-10-14T20:21:04+00:00",
  "intro": "Colt posted a perfect lineup: 146.68 points, every starter the right call, and the best score in the league. Puka Nacua (29.2), Jacoby Brissett (24.78) and Malik Nabers (23.6) did the work. The unlucky one was Scott, whose 138.24 was the second-best score of the week and still lost. Jahmyr Gibbs gave him 35.2, the top player of the week. David Montgomery gave him 1.1.\n\nJames edged T.J. by 4.96 in the closest game of the week. CeeDee Lamb's 1.9 was 21.5 under his average and decided it on its own, and T.J. watched Jayden Daniels score 32.26 on his bench. James is 4-1 with the best playoff odds in the league, 94.3%.\n\nJohn beat Mikey 109.26 to 77.84 while leaving Drake Maye's 39.46 on his bench, the most points any manager left sitting this week. Mikey's top scorer was his kicker. He is 0-5 and his playoff odds are down to 3%. Next up for him: Brett, the man who wants kickers out of this league, who has won the last four in that series.\n\nElsewhere, Brett beat Buckley by 39.84, the biggest blowout of the week, with every one of his points in by the end of the Sunday early games. Austin won with 104.6, under the week's median of 113.98, because Nase put up the week's lowest score, 77.4. Joey beat Anthony 118.7 to 89.2 and sits at 4-1 alongside James.",
  "video": "",
  "notes": [],
@@ -189,25 +189,35 @@
      {
       "name": "Bucky Irving",
       "pos": "RB",
+      "id": "11584",
+      "nfl": "TB",
       "pts": 30.5
      },
      {
       "name": "Joe Burrow",
       "pos": "QB",
+      "id": "6770",
+      "nfl": "CIN",
       "pts": 24.6
      },
      {
       "name": "Drake London",
       "pos": "WR",
+      "id": "8112",
+      "nfl": "ATL",
       "pts": 15.3
      }
     ],
     "best_bench": {
      "name": "Matthew Stafford",
+     "id": "421",
+     "nfl": "LAR",
      "pts": 27.32
     },
     "worst_start": {
      "name": "Tee Higgins",
+     "id": "6801",
+     "nfl": "CIN",
      "pts": 3.2
     }
    },
@@ -237,25 +247,35 @@
      {
       "name": "Christian Watson",
       "pos": "WR",
+      "id": "8167",
+      "nfl": "GB",
       "pts": 29.3
      },
      {
       "name": "Jared Goff",
       "pos": "QB",
+      "id": "3163",
+      "nfl": "DET",
       "pts": 28.94
      },
      {
       "name": "Brock Bowers",
       "pos": "TE",
+      "id": "11604",
+      "nfl": "LV",
       "pts": 19.0
      }
     ],
     "best_bench": {
      "name": "Jayden Daniels",
+     "id": "11566",
+     "nfl": "WAS",
      "pts": 32.26
     },
     "worst_start": {
      "name": "Los Angeles Rams",
+     "id": "LAR",
+     "nfl": "LAR",
      "pts": 1.0
     }
    },
@@ -333,25 +353,35 @@
      {
       "name": "Puka Nacua",
       "pos": "WR",
+      "id": "9493",
+      "nfl": "LAR",
       "pts": 29.2
      },
      {
       "name": "Jacoby Brissett",
       "pos": "QB",
+      "id": "3257",
+      "nfl": "ARI",
       "pts": 24.78
      },
      {
       "name": "Malik Nabers",
       "pos": "WR",
+      "id": "11632",
+      "nfl": "NYG",
       "pts": 23.6
      }
     ],
     "best_bench": {
      "name": "Kenny Gainwell",
+     "id": "7567",
+     "nfl": "TB",
      "pts": 4.3
     },
     "worst_start": {
      "name": "Dallas Cowboys",
+     "id": "DAL",
+     "nfl": "DAL",
      "pts": 1.0
     }
    },
@@ -381,25 +411,35 @@
      {
       "name": "Jahmyr Gibbs",
       "pos": "RB",
+      "id": "9221",
+      "nfl": "DET",
       "pts": 35.2
      },
      {
       "name": "George Pickens",
       "pos": "WR",
+      "id": "8137",
+      "nfl": "DAL",
       "pts": 23.5
      },
      {
       "name": "Matthew Golden",
       "pos": "WR",
+      "id": "12501",
+      "nfl": "GB",
       "pts": 17.3
      }
     ],
     "best_bench": {
      "name": "Terry McLaurin",
+     "id": "5927",
+     "nfl": "WAS",
      "pts": 10.2
     },
     "worst_start": {
      "name": "David Montgomery",
+     "id": "5892",
+     "nfl": "HOU",
      "pts": 1.1
     }
    },
@@ -469,25 +509,35 @@
      {
       "name": "Josh Allen",
       "pos": "QB",
+      "id": "4984",
+      "nfl": "BUF",
       "pts": 30.5
      },
      {
       "name": "Parker Washington",
       "pos": "WR",
+      "id": "9487",
+      "nfl": "JAX",
       "pts": 27.4
      },
      {
       "name": "Ja'Marr Chase",
       "pos": "WR",
+      "id": "7564",
+      "nfl": "CIN",
       "pts": 16.7
      }
     ],
     "best_bench": {
      "name": "Kyle Pitts",
+     "id": "7553",
+     "nfl": "ATL",
      "pts": 12.7
     },
     "worst_start": {
      "name": "T.J. Hockenson",
+     "id": "5844",
+     "nfl": "MIN",
      "pts": 1.2
     }
    },
@@ -517,25 +567,35 @@
      {
       "name": "Aaron Rodgers",
       "pos": "QB",
+      "id": "96",
+      "nfl": "PIT",
       "pts": 22.0
      },
      {
       "name": "Emanuel Wilson",
       "pos": "RB",
+      "id": "11435",
+      "nfl": "SEA",
       "pts": 12.2
      },
      {
       "name": "Denver Broncos",
       "pos": "DEF",
+      "id": "DEN",
+      "nfl": "DEN",
       "pts": 12.0
      }
     ],
     "best_bench": {
      "name": "Courtland Sutton",
+     "id": "5045",
+     "nfl": "DEN",
      "pts": 8.8
     },
     "worst_start": {
      "name": "Harold Fannin",
+     "id": "12506",
+     "nfl": "CLE",
      "pts": 0.9
     }
    },
@@ -612,25 +672,35 @@
      {
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
+      "id": "9488",
+      "nfl": "SEA",
       "pts": 20.3
      },
      {
       "name": "Braelon Allen",
       "pos": "RB",
+      "id": "11576",
+      "nfl": "NYJ",
       "pts": 18.1
      },
      {
       "name": "Tyler Warren",
       "pos": "TE",
+      "id": "12518",
+      "nfl": "IND",
       "pts": 17.9
      }
     ],
     "best_bench": {
      "name": "Denzel Boston",
+     "id": "13346",
+     "nfl": "CLE",
      "pts": 12.1
     },
     "worst_start": {
      "name": "Michael Wilson",
+     "id": "10232",
+     "nfl": "ARI",
      "pts": 5.28
     }
    },
@@ -660,25 +730,35 @@
      {
       "name": "Isaiah Likely",
       "pos": "TE",
+      "id": "8131",
+      "nfl": "NYG",
       "pts": 26.9
      },
      {
       "name": "D'Andre Swift",
       "pos": "RB",
+      "id": "6790",
+      "nfl": "CHI",
       "pts": 15.3
      },
      {
       "name": "Jalen Hurts",
       "pos": "QB",
+      "id": "6904",
+      "nfl": "PHI",
       "pts": 13.0
      }
     ],
     "best_bench": {
      "name": "Jake Ferguson",
+     "id": "8110",
+     "nfl": "DAL",
      "pts": 3.4
     },
     "worst_start": {
      "name": "KC Concepcion",
+     "id": "13298",
+     "nfl": "CLE",
      "pts": 1.0
     }
    },
@@ -755,25 +835,35 @@
      {
       "name": "Mike Evans",
       "pos": "WR",
+      "id": "2216",
+      "nfl": "SF",
       "pts": 22.8
      },
      {
       "name": "James Cook",
       "pos": "RB",
+      "id": "8138",
+      "nfl": "BUF",
       "pts": 22.3
      },
      {
       "name": "Brock Purdy",
       "pos": "QB",
+      "id": "8183",
+      "nfl": "SF",
       "pts": 16.16
      }
     ],
     "best_bench": {
      "name": "Drake Maye",
+     "id": "11564",
+     "nfl": "NE",
      "pts": 39.46
     },
     "worst_start": {
      "name": "RJ Harvey",
+     "id": "12489",
+     "nfl": "DEN",
      "pts": 0.7
     }
    },
@@ -803,25 +893,35 @@
      {
       "name": "Ka'imi Fairbairn",
       "pos": "K",
+      "id": "3451",
+      "nfl": "HOU",
       "pts": 14.0
      },
      {
       "name": "Dak Prescott",
       "pos": "QB",
+      "id": "3294",
+      "nfl": "DAL",
       "pts": 12.64
      },
      {
       "name": "Zay Flowers",
       "pos": "WR",
+      "id": "9997",
+      "nfl": "BAL",
       "pts": 10.6
      }
     ],
     "best_bench": {
      "name": "Pat Freiermuth",
+     "id": "7600",
+     "nfl": "PIT",
      "pts": 19.0
     },
     "worst_start": {
      "name": "Romeo Doubs",
+     "id": "8121",
+     "nfl": "NE",
      "pts": 2.1
     }
    },
@@ -883,25 +983,35 @@
      {
       "name": "Jaylen Warren",
       "pos": "RB",
+      "id": "8228",
+      "nfl": "PIT",
       "pts": 33.8
      },
      {
       "name": "Trevor Lawrence",
       "pos": "QB",
+      "id": "7523",
+      "nfl": "JAX",
       "pts": 21.74
      },
      {
       "name": "Garrett Wilson",
       "pos": "WR",
+      "id": "8146",
+      "nfl": "NYJ",
       "pts": 19.9
      }
     ],
     "best_bench": {
      "name": "Kendre Miller",
+     "id": "9757",
+     "nfl": "NO",
      "pts": 9.0
     },
     "worst_start": {
      "name": "Colston Loveland",
+     "id": "12517",
+     "nfl": "CHI",
      "pts": 2.9
     }
    },
@@ -931,25 +1041,35 @@
      {
       "name": "Davante Adams",
       "pos": "WR",
+      "id": "2133",
+      "nfl": "LAR",
       "pts": 19.6
      },
      {
       "name": "Trey McBride",
       "pos": "TE",
+      "id": "8130",
+      "nfl": "ARI",
       "pts": 17.1
      },
      {
       "name": "Christian McCaffrey",
       "pos": "RB",
+      "id": "4034",
+      "nfl": "SF",
       "pts": 15.8
      }
     ],
     "best_bench": {
      "name": "Blake Corum",
+     "id": "11586",
+     "nfl": "LAR",
      "pts": 14.7
     },
     "worst_start": {
      "name": "Pittsburgh Steelers",
+     "id": "PIT",
+     "nfl": "PIT",
      "pts": 1.0
     }
    },
@@ -1013,25 +1133,35 @@
      {
       "name": "Bucky Irving",
       "pos": "RB",
+      "id": "11584",
+      "nfl": "TB",
       "pts": 30.5
      },
      {
       "name": "Joe Burrow",
       "pos": "QB",
+      "id": "6770",
+      "nfl": "CIN",
       "pts": 24.6
      },
      {
       "name": "Drake London",
       "pos": "WR",
+      "id": "8112",
+      "nfl": "ATL",
       "pts": 15.3
      }
     ],
     "best_bench": {
      "name": "Matthew Stafford",
+     "id": "421",
+     "nfl": "LAR",
      "pts": 27.32
     },
     "worst_start": {
      "name": "Tee Higgins",
+     "id": "6801",
+     "nfl": "CIN",
      "pts": 3.2
     }
    },
@@ -1061,25 +1191,35 @@
      {
       "name": "Christian Watson",
       "pos": "WR",
+      "id": "8167",
+      "nfl": "GB",
       "pts": 29.3
      },
      {
       "name": "Jared Goff",
       "pos": "QB",
+      "id": "3163",
+      "nfl": "DET",
       "pts": 28.94
      },
      {
       "name": "Brock Bowers",
       "pos": "TE",
+      "id": "11604",
+      "nfl": "LV",
       "pts": 19.0
      }
     ],
     "best_bench": {
      "name": "Jayden Daniels",
+     "id": "11566",
+     "nfl": "WAS",
      "pts": 32.26
     },
     "worst_start": {
      "name": "Los Angeles Rams",
+     "id": "LAR",
+     "nfl": "LAR",
      "pts": 1.0
     }
    },
@@ -1157,25 +1297,35 @@
      {
       "name": "Jaylen Warren",
       "pos": "RB",
+      "id": "8228",
+      "nfl": "PIT",
       "pts": 33.8
      },
      {
       "name": "Trevor Lawrence",
       "pos": "QB",
+      "id": "7523",
+      "nfl": "JAX",
       "pts": 21.74
      },
      {
       "name": "Garrett Wilson",
       "pos": "WR",
+      "id": "8146",
+      "nfl": "NYJ",
       "pts": 19.9
      }
     ],
     "best_bench": {
      "name": "Kendre Miller",
+     "id": "9757",
+     "nfl": "NO",
      "pts": 9.0
     },
     "worst_start": {
      "name": "Colston Loveland",
+     "id": "12517",
+     "nfl": "CHI",
      "pts": 2.9
     }
    },
@@ -1205,25 +1355,35 @@
      {
       "name": "Davante Adams",
       "pos": "WR",
+      "id": "2133",
+      "nfl": "LAR",
       "pts": 19.6
      },
      {
       "name": "Trey McBride",
       "pos": "TE",
+      "id": "8130",
+      "nfl": "ARI",
       "pts": 17.1
      },
      {
       "name": "Christian McCaffrey",
       "pos": "RB",
+      "id": "4034",
+      "nfl": "SF",
       "pts": 15.8
      }
     ],
     "best_bench": {
      "name": "Blake Corum",
+     "id": "11586",
+     "nfl": "LAR",
      "pts": 14.7
     },
     "worst_start": {
      "name": "Pittsburgh Steelers",
+     "id": "PIT",
+     "nfl": "PIT",
      "pts": 1.0
     }
    },
@@ -1270,6 +1430,8 @@
    "manager": "snelson91",
    "name": "Jahmyr Gibbs",
    "pos": "RB",
+   "id": "9221",
+   "nfl": "DET",
    "pts": 35.2
   },
   "bench_regret": {
@@ -1277,6 +1439,8 @@
    "points": 33.1,
    "best_bench": {
     "name": "Drake Maye",
+    "id": "11564",
+    "nfl": "NE",
     "pts": 39.46
    }
   }

@@ -24,6 +24,8 @@
     const weeks = Object.keys(schedule).map(Number).sort((a, b) => a - b);
     const nPlayoff = odds.playoff_teams || 6;
     const sd = odds.sd || 25;
+    const divOf = odds.divisions || {};
+    const DIVS = [...new Set(Object.values(divOf))].sort();
 
     const gameKey = (w, a, b) => `${w}|${a}|${b}`;
     const totalGames = weeks.reduce((n, w) => n + schedule[String(w)].length, 0);
@@ -62,7 +64,13 @@
                     if (sa > sb) w[a]++; else if (sb > sa) w[b]++;
                 }
             }
-            const order = hs.slice().sort((x, y) => (w[y] - w[x]) || (pf[y] - pf[x]));
+            const cmp = (x, y) => (w[y] - w[x]) || (pf[y] - pf[x]);
+            let order = hs.slice().sort(cmp);
+            // with divisions, each division winner takes a top seed
+            if (DIVS.length > 1) {
+                const leaders = DIVS.map(d => order.find(h => divOf[h] === d)).filter(Boolean).sort(cmp);
+                order = leaders.concat(order.filter(h => !leaders.includes(h)));
+            }
             for (let i = 0; i < nPlayoff && i < order.length; i++) made[order[i]]++;
             for (let i = 0; i < (odds.bye_teams || 0) && i < order.length; i++) byes[order[i]]++;
             for (const h of hs) winSum[h] += w[h];

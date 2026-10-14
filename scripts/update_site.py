@@ -471,11 +471,14 @@ def side(season, m, slot_of):
         "timeline": tl,
         "by_pos": {k: round(v, 2) for k, v in sorted(by_pos.items())},
         "top": sorted(({"name": season.pinfo(p)["name"], "pos": season.pinfo(p)["pos"],
+                        "id": p, "nfl": season.pinfo(p)["team"],
                         "pts": round(pp.get(p, 0), 2)} for p in starters),
                       key=lambda x: -x["pts"])[:3],
         "best_bench": best_bench and {"name": season.pinfo(best_bench)["name"],
+                                      "id": best_bench, "nfl": season.pinfo(best_bench)["team"],
                                       "pts": round(pp.get(best_bench, 0), 2)},
         "worst_start": worst_start and {"name": season.pinfo(worst_start)["name"],
+                                        "id": worst_start, "nfl": season.pinfo(worst_start)["team"],
                                         "pts": round(pp.get(worst_start, 0), 2)},
     }
 
@@ -627,6 +630,13 @@ def build_index():
 
 
 # ---------------------------------------------------------------- managers
+def _img(a):
+    """Sleeper stores an avatar id; the ESPN shim stores a full URL."""
+    if not a:
+        return None
+    return a if str(a).startswith("http") else f"https://sleepercdn.com/avatars/{a}"
+
+
 def build_managers(cur, history):
     """managers.json for the Managers pages. Anything in manager_overrides.json
     (keyed by Sleeper handle) replaces the generated value."""
@@ -678,8 +688,10 @@ def build_managers(cur, history):
             "managerID": u["user_id"],
             "handle": h,
             "name": name,
-            "photo": (f"https://sleepercdn.com/avatars/{u['avatar']}" if u.get("avatar")
-                      else "/managers/question.jpg"),
+            "photo": _img(u.get("avatar")) or "/managers/question.jpg",
+            # the team's avatar in this league (Sleeper team photo, ESPN team logo),
+            # falling back to the manager's own photo
+            "avatar": (u.get("metadata") or {}).get("avatar") or _img(u.get("avatar")) or "/managers/question.jpg",
             "fantasyStart": min(seasons) if seasons else None,
             "bio": bio,
             "rival": {
