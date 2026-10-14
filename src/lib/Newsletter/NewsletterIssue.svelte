@@ -355,6 +355,36 @@
         <section>
             <h3 class="sec">The week ahead</h3>
             {#each paras(nl.ahead) as p}<p>{p}</p>{/each}
+            {#each (nl.features || []).filter((f) => f.place === 'ahead') as f (f.id)}
+        <section class="feature {f.style}" id="f-{f.id}">
+            {#if f.label}<div class="flabel">{f.label}</div>{/if}
+            <h3 class="sec ftitle">{f.title}</h3>
+            {#if f.dek}<p class="fdek">{f.dek}</p>{/if}
+            {#each f.blocks as b}
+                {#if b.type === 'fold'}
+                    <details class="fold"><summary>{b.summary}</summary>
+                        {#each b.blocks as b}
+                    {#if b.type === 'p'}<p>{b.text}</p>
+                    {:else if b.type === 'h'}<h4>{b.text}</h4>
+                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {/if}
+                {/each}
+                    </details>
+                {:else}
+                    {#each [b] as b}
+                    {#if b.type === 'p'}<p>{b.text}</p>
+                    {:else if b.type === 'h'}<h4>{b.text}</h4>
+                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {/if}
+                {/each}
+                {/if}
+            {/each}
+        </section>
+    {/each}
             {#if nl.take?.picks?.length}
                 <div class="tjbox"><b>{nl.take.byline || "T.J.'s take"}: my picks</b>
                     <table class="picks"><tbody>{#each nl.take.picks as k}<tr><td>{k.matchup}</td><td><b>{k.pick}</b></td><td>{k.why || ''}</td></tr>{/each}</tbody></table>
@@ -410,6 +440,7 @@
     .feature { margin: 1.4em 0; padding: 1em 1.1em; border-radius: 10px; border: 1px solid rgba(127,127,127,0.3); }
     .feature.help { border: 2px solid #e67e22; background: rgba(230,126,34,0.08); }
     .feature.article { border-left: 5px solid #2980b9; }
+    .feature.notes { border-left: 5px solid #27ae60; }
     .flabel { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72em; font-weight: 800; opacity: 0.8; }
     .feature.help .flabel { color: #e67e22; opacity: 1; }
     .feature .ftitle { margin-top: 0.15em; font-family: Georgia, 'Times New Roman', serif; font-size: 1.45em; }

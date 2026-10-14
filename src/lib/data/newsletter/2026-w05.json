@@ -348,6 +348,10 @@
   {
    "title": "Records lie, a little",
    "text": "Joey is 4-1 with the seventh-most points. Nase is 3-2 with the 11th-most. Scott has beaten the median every week and has two losses to show for it, and T.J. is fifth in points at 2-3."
+  },
+  {
+   "title": "Everybody has one",
+   "text": "A five-weeks-in redraft of the top 24 players made the rounds this week, and every FL Players roster has at least one of them. T.J., Austin and John have three each: T.J. with Brock Bowers, CeeDee Lamb and Christian Watson; Austin with Ja'Marr Chase, Josh Allen and Parker Washington; John with James Cook, Tetairoa McMillan and Ashton Jeanty. The first pick was Jahmyr Gibbs, who is on bye for Scott this week."
   }
  ],
  "history": [
@@ -2228,6 +2232,45 @@
        "text": "Ranks break ties on points, the way Sleeper does. Weekly scores from Sleeper, read 10-14."
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "week6-notes",
+   "style": "notes",
+   "place": "ahead",
+   "label": "Before you set your lineup",
+   "title": "Week 6 starts Thursday",
+   "blocks": [
+    {
+     "type": "h",
+     "text": "Thursday night: Seattle at Denver"
+    },
+    {
+     "type": "p",
+     "text": "Seven FL Players rosters have someone playing in the opener, and the best of it is Joey against Scott. Joey has Bo Nix and Jaxon Smith-Njigba. Scott has the Seattle defense, which means Scott's defense spends Thursday night chasing Joey's quarterback. Denver also has Austin's Jaylen Waddle, T.J.'s J.K. Dobbins, John's RJ Harvey and Nase's Courtland Sutton, and Nase has the Broncos defense too. On Seattle's side, Nase's Emanuel Wilson leads the backfield again with Buckley's Zach Charbonnet held out until week 7, and Colt's kicker, Jason Myers, gets the first kick of the week."
+    },
+    {
+     "type": "p",
+     "text": "The Seattle defense is one of the popular plays of the week, which is good news for Scott and not for the Denver crowd. Nix has been one of the shakiest starters in football, and Waddle has one good game in five and is one of the most-asked start or sit questions going. Lineups lock for those players at 7:15 Thursday."
+    },
+    {
+     "type": "h",
+     "text": "Injury watch, as of Wednesday afternoon"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Buckley: Lamar Jackson has a realistic chance to play Sunday against Cleveland, but he wasn't there for the start of Wednesday's practice. A.J. Brown is back at practice off injured reserve.",
+      "Joey: Caleb Williams was set to practice in full Wednesday and could be back Sunday at Atlanta.",
+      "Nase: Quinshon Judkins missed Wednesday's practice and was in a walking boot. Cleveland says Dylan Sampson has a chance to play Sunday.",
+      "Anthony: Jalen Coker is on track to play against the Eagles.",
+      "Mikey: Jordan Mason is expected back in week 7, after the Vikings' bye."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "From FantasyPros injury news, read Wednesday 10-14. Statuses change before kickoff."
     }
    ]
   }
