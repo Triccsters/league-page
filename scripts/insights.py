@@ -46,11 +46,18 @@ def _projections(season, week, cache_dir, read_json, write_json, final, shim_dir
     cached = read_json(path, None)
     if cached is not None:
         return cached
+    if (season, week) in _MEMO:            # future weeks: fetched once per run
+        return _MEMO[(season, week)]
     rows = _get(PROJ_URL.format(season=season, week=week)) or []
     out = {r["player_id"]: r.get("stats") or {} for r in rows if r.get("player_id")}
     if final and out:
         write_json(path, out, compact=True)
+    else:
+        _MEMO[(season, week)] = out
     return out
+
+
+_MEMO = {}
 
 
 def _scorer(scoring):

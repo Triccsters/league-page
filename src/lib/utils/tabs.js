@@ -66,6 +66,11 @@ export const tabs = [
                 dest: '/odds',
             },
             {
+                icon: 'track_changes',
+                label: 'Trackers',
+                dest: '/trackers',
+            },
+            {
                 icon: 'alt_route',
                 label: 'What If',
                 dest: '/what-if',

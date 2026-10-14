@@ -728,4 +728,13 @@ def build_all(ctx):
         out["power_weeks_left"] = pw["weeks_left"]
     except Exception as e:
         print("power failed:", e)
+    # season storylines and trackers (trackers.py), for the /trackers page
+    try:
+        import trackers as TR
+        tr = TR.build_trackers(ctx, drafts, wv)
+        out["trackers"] = sum(len(g["cards"]) for g in tr["groups"])
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print("trackers failed:", e)
     return out
