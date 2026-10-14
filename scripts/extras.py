@@ -481,6 +481,28 @@ def _bracket(seeds, draw):
     return seeds[0]
 
 
+def _toilet(seeds, draw):
+    """Sleeper's losers bracket. seeds: the teams that missed the playoffs, worst
+    first (the worst teams get the byes). In each game the LOSER advances, so the
+    team left at the end is the loser of the losers bracket. Checked against the
+    FL Players 2023-2025 brackets: byes and loser-advances match all three (2025:
+    Wallner, who has board duty in 2026); the round-one pairings match 2023 and
+    2024, while 2025 crossed them over (worst team met the 3rd/6th winner), which
+    barely moves the odds."""
+    def g(a, b):
+        return a if draw(a) < draw(b) else b
+    n = len(seeds)
+    if n == 2:
+        return g(seeds[0], seeds[1])
+    if n == 4:
+        return g(g(seeds[0], seeds[3]), g(seeds[1], seeds[2]))
+    if n == 6:
+        return g(g(seeds[0], g(seeds[3], seeds[4])), g(seeds[1], g(seeds[2], seeds[5])))
+    if n == 8:
+        return g(g(g(seeds[0], seeds[7]), g(seeds[3], seeds[4])), g(g(seeds[1], seeds[6]), g(seeds[2], seeds[5])))
+    return seeds[0] if seeds else None
+
+
 def _seed(teams, wins, pf, div):
     """Seed order. With divisions, each division winner (best record, then points)
     takes a top seed, ordered among themselves; everyone else follows by record."""
@@ -575,8 +597,12 @@ def build_odds_and_previews(ctx):
                 tally[h]["seed1"] += 1
             if i == len(order) - 1:
                 tally[h]["last"] += 1
-        champ = _bracket(order[:n_playoff], lambda h: rnd.gauss(true_mu[h], sd))
+        draw = lambda h: rnd.gauss(true_mu[h], sd)
+        champ = _bracket(order[:n_playoff], draw)
         tally[champ]["title"] += 1
+        board = _toilet(order[n_playoff:][::-1], draw)
+        if board:
+            tally[board]["board"] += 1
 
     # schedule strength: how strong the opponents have been, and how strong the rest look
     faced = defaultdict(list)
@@ -602,7 +628,7 @@ def build_odds_and_previews(ctx):
     pct = lambda h, k: round(100.0 * tally[h][k] / SIMS, 1)
     rows = [{"h": h, "w": rec[h][0], "l": rec[h][1], "pf": round(rec[h][2], 2), "mu": models[h]["mu"],
              "proj_w": round(wins_sum[h] / SIMS, 1), "playoff": pct(h, "playoff"), "bye": pct(h, "bye"),
-             "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last"),
+             "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last"), "board": pct(h, "board"),
              "div": div.get(h), "div_win": pct(h, "div") if div else None,
              "sos_faced": sos[h]["faced"], "sos_rest": sos[h]["rest"], "rest_opponents": sos[h]["opponents"],
              "tau": round(models[h]["tau"], 3)} for h in teams]

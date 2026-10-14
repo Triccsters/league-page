@@ -151,6 +151,9 @@ def build_power(ctx):
            "weights": {k: WEIGHTS[k] for k in measures}, "dynasty": bool(dyn),
            "dyn_asof": (R._load_ecr(ctx).get("asof") if dyn else None),
            "prev_rank": prev, "teams": teams,
-           "source": "Sleeper weekly projections scored with this league's scoring"}
+           "source": "Sleeper weekly projections scored with this league's scoring",
+           # local date of this build: the home page says "as of" this, since the board
+           # moves daily with projections while a newsletter issue is a snapshot
+           "generated": __import__("datetime").date.today().isoformat()}
     write_json(out_path, doc)
     return doc

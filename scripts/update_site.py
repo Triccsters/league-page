@@ -760,6 +760,12 @@ def main():
            "data": DATA, "static": STATIC, "vault_manual": VAULT_MANUAL,
            "write_json": write_json, "read_json": read_json, "sleeper": sleeper}
     print("extras:", extras.build_all(ctx))
+    # Across the Leagues (2026-10-14): reads the other Sleeper repos' history.json
+    try:
+        import crossleague
+        print("crossleague:", crossleague.build(REPO, DATA, write_json))
+    except Exception as e:
+        print("crossleague failed:", e)
 
     if BAD_LINEUPS:
         print(f"STOPPED: {len(BAD_LINEUPS)} team-weeks have a best lineup below the real score:")

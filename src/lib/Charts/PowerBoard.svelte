@@ -6,6 +6,7 @@
     import power from '$lib/data/power.json';
     import { nameOf, managerLink } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
+    import Who from '$lib/Charts/Who.svelte';
 
     let ready = false, showHow = false;
     onMount(() => { ready = true; });
@@ -16,18 +17,22 @@
     $: min = Math.min(...teams.map((t) => t.score), 0);
     const width = (s) => `${Math.max(4, ((s - min) / ((max - min) || 1)) * 100)}%`;
     const w = power?.weights || {};
+    // "as of" the build date; the board moves every morning with the projections
+    const asOf = power?.generated
+        ? new Date(power.generated + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
+        : 'today';
 </script>
 
 {#if teams.length}
     <section class="pb">
-        <h2>Power Rankings <small>after week {power.through_week}</small></h2>
+        <h2>Power Rankings <small>as of {asOf}, after week {power.through_week}</small></h2>
         <div class="rows">
             {#each teams as t (t.h)}
                 {@const mv = t.prev ? t.prev - t.rank : 0}
                 <div class="row" class:mine={ready && t.h === $myTeam}>
                     <span class="rk">{t.rank}</span>
                     <span class="mv" class:up={mv > 0} class:down={mv < 0}>{mv > 0 ? `▲${mv}` : mv < 0 ? `▼${-mv}` : ''}</span>
-                    <span class="who">{#if managerLink(t.h)}<a href={managerLink(t.h)}>{nameOf(t.h)}</a>{:else}{nameOf(t.h)}{/if}</span>
+                    <span class="who"><Who h={t.h} /></span>
                     <span class="bar"><span style="width:{width(t.score)}"></span></span>
                     <span class="parts">
                         {#if t.ros_rank}<span title="Projected best lineup per remaining week">ROS {ord(t.ros_rank)}</span>{/if}
@@ -44,7 +49,7 @@
                 {#if w.ros}<b>Rest of season ({pct(w.ros)})</b>: each roster's best lineup for every remaining regular-season week (weeks {power.first_left} to {power.last_left}) on Sleeper's weekly projections, scored with this league's own scoring, byes included. {/if}
                 <b>Scoring ({pct(w.ppg)})</b>: points per game this season. <b>All-play ({pct(w.allplay)})</b>: this season's record against every team every week, which takes the schedule out of it.
                 {#if power.dynasty}<b>Dynasty</b> is shown, not blended in: roster value from FantasyPros dynasty rankings ({power.dyn_asof}). Who wins this year and who owns the future are different questions.{/if}
-                Updated every Tuesday.
+                Updated every morning, so this can differ from the rankings in a newsletter issue, which are a snapshot from the day it went out.
             </p>
         {/if}
     </section>
@@ -60,8 +65,9 @@
     .rk { font-weight: 800; text-align: center; }
     .mv { font-size: 0.75em; font-weight: 700; }
     .mv.up { color: #2ecc71; } .mv.down { color: #e74c3c; }
-    .who { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .who a { color: inherit; }
+    .who { font-weight: 700; min-width: 0; overflow: hidden; }
+    .who :global(a) { color: inherit; }
+    .who :global(.tn) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .bar { height: 0.7em; background: rgba(127,127,127,0.18); border-radius: 4px; overflow: hidden; }
     .bar span { display: block; height: 100%; background: #27ae60; border-radius: 4px; }
     .parts { display: flex; gap: 0.35em; flex-wrap: wrap; justify-content: flex-end; }

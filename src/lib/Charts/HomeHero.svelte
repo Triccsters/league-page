@@ -6,6 +6,8 @@
     import { myTeam } from '$lib/utils/myTeam';
     import previews from '$lib/data/previews.json';
     import odds from '$lib/data/odds.json';
+    import { newsletters } from '$lib/utils/newsletters';
+    import Who from '$lib/Charts/Who.svelte';
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -28,7 +30,18 @@
     const closest = (pool) => (pool.length
         ? pool.reduce((b, g) => (Math.abs(g.a_win - 50) < Math.abs(b.a_win - 50) ? g : b))
         : null);
-    $: marquee = closest(mine ? list.filter(g => g !== mine) : list);
+    // The newsletter's game of the week wins when the latest issue picked one for
+    // this week (issue field "gotw": {"week": N, "teams": [handle, handle]}).
+    const issuePick = (() => {
+        const n = newsletters
+            .filter(x => x.gotw && x.gotw.week === week && x.gotw.teams?.length === 2)
+            .sort((p, q) => q.slug.localeCompare(p.slug))[0];
+        if (!n) return null;
+        const [x, y] = n.gotw.teams;
+        const g = list.find(g => (g.a === x && g.b === y) || (g.a === y && g.b === x));
+        return g ? { g, slug: n.slug } : null;
+    })();
+    $: marquee = issuePick ? issuePick.g : closest(mine ? list.filter(g => g !== mine) : list);
 
     // what last week actually produced
     const lastWeek = (() => {
@@ -66,9 +79,9 @@
                 <div class="card mine">
                     <h3>Your week {week}</h3>
                     <p class="vs">
-                        <b>{label(me.him)}</b>
+                        <Who h={me.him} link={false} bold />
                         <span class="v">vs</span>
-                        {#if managerLink(me.them)}<a href={managerLink(me.them)}>{label(me.them)}</a>{:else}{label(me.them)}{/if}
+                        <Who h={me.them} />
                     </p>
                     <div class="meter" aria-label="Win chance {me.win}%">
                         <div class="fill" style="width: {me.win}%"></div>
@@ -97,9 +110,14 @@
                 <div class="card">
                     <h3>Game of the week</h3>
                     <p class="vs">
-                        <b>{label(marquee.a)}</b><span class="v">vs</span><b>{label(marquee.b)}</b>
+                        <Who h={marquee.a} bold /><span class="v">vs</span><Who h={marquee.b} bold />
                     </p>
-                    <p class="line sub">The closest call on the board: {marquee.a_win}% / {Math.round((100 - marquee.a_win) * 10) / 10}%</p>
+                    {#if issuePick}
+                        <p class="line sub">Win chances {marquee.a_win}% / {Math.round((100 - marquee.a_win) * 10) / 10}%</p>
+                        <p class="line"><a href="/recaps/{issuePick.slug}">Why it's the pick, in the newsletter →</a></p>
+                    {:else}
+                        <p class="line sub">The closest call on the board: {marquee.a_win}% / {Math.round((100 - marquee.a_win) * 10) / 10}%</p>
+                    {/if}
                     {#if marquee.flags?.length}
                         <p class="flag">{marquee.flags[0].replace(/\{([^}]+)\}/g, (_, h) => nameOf(h))}</p>
                     {/if}
@@ -111,10 +129,10 @@
                     <h3>Week {lastWeek.week} produced</h3>
                     <p class="line">
                         🏆 <b>{Math.round(lastWeek.top[1] * 100) / 100}</b>
-                        {#if managerLink(lastWeek.top[0])}<a href={managerLink(lastWeek.top[0])}>{nameOf(lastWeek.top[0])}</a>{:else}{nameOf(lastWeek.top[0])}{/if}
+                        <Who h={lastWeek.top[0]} />
                     </p>
                     <p class="line sub">
-                        💤 {Math.round(lastWeek.low[1] * 100) / 100} {nameOf(lastWeek.low[0])}
+                        💤 {Math.round(lastWeek.low[1] * 100) / 100} <Who h={lastWeek.low[0]} link={false} />
                     </p>
                     <p class="line"><a href="/recaps">The recap →</a> · <a href="/what-if">What if →</a></p>
                 </div>
@@ -133,8 +151,9 @@
     .card { border: 1px solid rgba(127,127,127,0.28); border-radius: 10px; padding: 0.7em 0.9em; }
     .card.mine { border-color: rgba(52,152,219,0.6); background: rgba(52,152,219,0.08); }
     h3 { margin: 0 0 0.3em; font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.65; }
-    .vs { margin: 0 0 0.4em; font-size: 0.95em; line-height: 1.35; }
-    .v { opacity: 0.55; margin: 0 0.4em; font-size: 0.85em; }
+    .vs { margin: 0 0 0.4em; font-size: 0.95em; line-height: 1.35; display: flex; align-items: flex-start; flex-wrap: wrap; }
+    .v { opacity: 0.55; margin: 0 0.5em; font-size: 0.85em; }
+    .line { display: flex; align-items: baseline; gap: 0.35em; flex-wrap: wrap; }
     .meter { height: 7px; border-radius: 99px; background: rgba(127,127,127,0.25); overflow: hidden; margin-bottom: 0.4em; }
     .fill { height: 100%; background: #3498db; border-radius: 99px; animation: grow 700ms cubic-bezier(0.22,0.85,0.25,1) both; }
     @keyframes grow { from { width: 0 !important; } }

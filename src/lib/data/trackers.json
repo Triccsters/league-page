@@ -417,75 +417,75 @@
      "rows": [
       [
        "@@TuanonStan",
-       "94.3%",
+       "94.5%",
        "Lock",
-       "+39.6"
+       "+39.8"
       ],
       [
        "@@snelson91",
-       "86.3%",
+       "86.4%",
        "Likely",
-       "+23.3"
+       "+23.4"
       ],
       [
        "@@butterygoop",
-       "82.0%",
+       "82.6%",
        "Likely",
-       -4.8
+       -4.2
       ],
       [
        "@@Jbird531",
-       "75.4%",
+       "76.0%",
        "Likely",
-       "+13.4"
+       "+14.0"
       ],
       [
        "@@Colt45Johnson",
-       "66.0%",
+       "65.6%",
        "Likely",
-       -3.2
+       -3.6
       ],
       [
        "@@triccster",
-       "48.1%",
+       "46.6%",
        "Bubble",
-       "+12.0"
+       "+10.5"
       ],
       [
        "@@Wallner",
-       "40.4%",
+       "39.9%",
        "Bubble",
-       "+0.2"
+       -0.3
       ],
       [
        "@@thecreamer",
-       "34.2%",
-       "Fading",
-       "+6.0"
+       "35.9%",
+       "Bubble",
+       "+7.7"
       ],
       [
        "@@brettmn13",
-       "27.1%",
+       "27.7%",
        "Fading",
-       -34.3
+       -33.7
       ],
       [
        "@@RockMNwild",
-       "22.8%",
+       "22.6%",
        "Fading",
-       -1.7
+       -1.9
       ],
       [
        "@@YoungBuck04",
-       "20.4%",
+       "19.4%",
        "Fading",
-       -14.0
+       -15.0
       ],
       [
        "@@PapaMidnight",
-       "3.0%",
+       "2.8%",
        "Long shot",
-       -36.6
+       -36.8
       ]
      ]
     },
@@ -1269,14 +1269,14 @@
        "@@snelson91",
        3,
        36.3,
-       "Jahmyr Gibbs, Sam LaPorta, Jake Bates"
+       "Sam LaPorta, Jake Bates, Jahmyr Gibbs"
       ],
       [
        6,
        "@@TuanonStan",
        2,
        27.4,
-       "Joe Burrow, Tee Higgins"
+       "Tee Higgins, Joe Burrow"
       ],
       [
        6,
@@ -1290,49 +1290,49 @@
        "@@Jbird531",
        2,
        20.7,
-       "Jameson Williams, Chase Brown"
+       "Chase Brown, Jameson Williams"
       ],
       [
        6,
        "@@RockMNwild",
        2,
        20.6,
-       "T.J. Hockenson, Ja'Marr Chase"
+       "Ja'Marr Chase, T.J. Hockenson"
       ],
       [
        7,
        "@@RockMNwild",
        2,
        33.4,
-       "Josh Allen, Parker Washington"
+       "Parker Washington, Josh Allen"
       ],
       [
        7,
        "@@butterygoop",
        2,
        13.3,
-       "Jacksonville Jaguars, Cameron Dicker"
+       "Cameron Dicker, Jacksonville Jaguars"
       ],
       [
        8,
        "@@Wallner",
        2,
        32.5,
-       "Brock Purdy, Mike Evans"
+       "Mike Evans, Brock Purdy"
       ],
       [
        8,
        "@@PapaMidnight",
        3,
        30.7,
-       "Ka'imi Fairbairn, Nico Collins, Cam Skattebo"
+       "Nico Collins, Ka'imi Fairbairn, Cam Skattebo"
       ],
       [
        8,
        "@@Colt45Johnson",
        3,
        29.3,
-       "Malik Nabers, San Francisco 49ers, Tyler Shough"
+       "San Francisco 49ers, Malik Nabers, Tyler Shough"
       ]
      ]
     }
@@ -1367,67 +1367,98 @@
     {
      "id": "board",
      "title": "Board duty race",
-     "note": "Chance of finishing last, from the same simulations as the playoff odds.",
+     "note": "Chance of losing the losers bracket, played out in the same simulations as the playoff odds. In Sleeper's losers bracket the worst two teams get byes and the loser of each game moves on, so finishing last does not settle it.",
      "cols": [
       "Team",
+      "Board duty",
       "Last place",
+      "Playoffs",
       "Record"
      ],
      "rows": [
       [
        "@@PapaMidnight",
-       "54.8%",
+       "24.7%",
+       "54.9%",
+       "2.8%",
        "0-5"
       ],
       [
        "@@YoungBuck04",
-       "11.7%",
+       "14.9%",
+       "12.0%",
+       "19.4%",
        "2-3"
       ],
       [
        "@@RockMNwild",
-       "11.2%",
-       "2-3"
-      ],
-      [
-       "@@brettmn13",
-       "7.8%",
+       "14.5%",
+       "11.0%",
+       "22.6%",
        "2-3"
       ],
       [
        "@@thecreamer",
-       "5.4%",
+       "11.6%",
+       "4.9%",
+       "35.9%",
        "3-2"
       ],
       [
+       "@@brettmn13",
+       "11.4%",
+       "8.0%",
+       "27.7%",
+       "2-3"
+      ],
+      [
        "@@Wallner",
-       "3.8%",
+       "7.1%",
+       "3.9%",
+       "39.9%",
        "2-3"
       ],
       [
        "@@triccster",
-       "3.1%",
+       "5.8%",
+       "3.2%",
+       "46.6%",
        "2-3"
       ],
       [
        "@@Colt45Johnson",
-       "1.2%",
+       "4.1%",
+       "1.1%",
+       "65.6%",
        "3-2"
       ],
       [
        "@@Jbird531",
-       "0.6%",
+       "3.4%",
+       "0.4%",
+       "76.0%",
        "4-1"
       ],
       [
        "@@butterygoop",
-       "0.3%",
+       "1.2%",
+       "0.2%",
+       "82.6%",
        "3-2"
       ],
       [
        "@@snelson91",
-       "0.1%",
+       "0.9%",
+       "0.2%",
+       "86.4%",
        "3-2"
+      ],
+      [
+       "@@TuanonStan",
+       "0.4%",
+       "0.0%",
+       "94.5%",
+       "4-1"
       ]
      ]
     },

@@ -7,10 +7,22 @@
 	import PowerBoard from '$lib/Charts/PowerBoard.svelte';
 	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
+	import { games } from '$lib/utils/flpHistory';
+	import Who from '$lib/Charts/Who.svelte';
 
     const nflState = getNflState();
     const podiumsData = getAwards();
     const leagueTeamManagersData = getLeagueTeamManagers();
+
+    // Last champion from the league's own history, so the name reads like every
+    // other name on the site (name, with that season's team name under it).
+    const lastFinal = games.filter(g => g.label === 'Championship' && g.pa !== g.pb)
+        .sort((a, b) => b.season - a.season)[0];
+    const champOf = (year) => (lastFinal && lastFinal.season === Number(year)
+        ? (lastFinal.pa > lastFinal.pb ? lastFinal.a : lastFinal.b) : null);
+    // the template's "Welcome to ..." intro is gone; a league can still set a
+    // one-line description in leagueInfo.js
+    const intro = String(homepageText || '').replace(/<[^>]+>/g, '').trim();
 </script>
 
 <style>
@@ -26,7 +38,7 @@
         flex-grow: 1;
         min-width: 320px;
         margin: 0 auto;
-        padding: 60px 0;
+        padding: 12px 0 40px;
     }
 
     .text {
@@ -124,6 +136,7 @@
         font-style: italic;
     }
 
+    .label :global(.tn) { font-size: 0.55em; font-style: normal; }
     .label {
         display: table;
         text-align: center;
@@ -142,15 +155,15 @@
 
 <div id="home">
     <div id="main">
-        <div class="text">
-            <h6>{leagueName}</h6>
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
-            {@html homepageText }
-            <!-- Most recent Blog Post (if enabled) -->
-            {#if enableBlog}
-                <HomePost />
-            {/if}
-        </div>
+        {#if intro || enableBlog}
+            <div class="text">
+                <!-- homepageText: an optional one-line description, set in /src/lib/utils/leagueInfo.js -->
+                {#if intro}{@html homepageText}{/if}
+                {#if enableBlog}
+                    <HomePost />
+                {/if}
+            </div>
+        {/if}
         <HomeHero />
         <PowerBoard />
         <ThisWeek />
@@ -188,7 +201,7 @@
                         <img src="{getAvatarFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year)}" class="first" alt="champion" />
                         <img src="/laurel.png" class="laurel" alt="laurel" />
                     </div>
-                    <span class="label" onclick={() => gotoManager({year: podiums[0].year, leagueTeamManagers, rosterID: parseInt(podiums[0].champion)})} >{getTeamFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year).name}</span>
+                    <span class="label" onclick={() => gotoManager({year: podiums[0].year, leagueTeamManagers, rosterID: parseInt(podiums[0].champion)})} >{#if champOf(podiums[0].year)}<Who h={champOf(podiums[0].year)} season={podiums[0].year} link={false} />{:else}{getTeamFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year).name}{/if}</span>
                 {:else}
                     <p class="center">No former champs.</p>
                 {/if}

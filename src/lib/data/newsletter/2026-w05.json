@@ -357,6 +357,13 @@
   }
  ],
  "ahead": "Game of the week: James and Austin, a Division 2 game and a rematch of the 2016 final. Also worth watching: the brother bowl, where Joey goes for five straight over his brother Scott (Joey leads the series 10-5), Anthony goes for five straight over Colt, and Brett gets Mikey, whose best player last week was a kicker. Brett would like that noted.",
+ "gotw": {
+  "week": 6,
+  "teams": [
+   "TuanonStan",
+   "RockMNwild"
+  ]
+ },
  "moves": {
   "intro": "One trade and a busy waiver wire through five weeks. Here's how the moves have worked out.",
   "items": [

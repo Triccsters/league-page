@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
     import { managers } from '$lib/utils/helper';
 	import { tabs } from '$lib/utils/tabs';
+	import { site } from '$lib/utils/flpHistory';
 	import { onMount } from 'svelte';
 
 	let outOfDate = false;
@@ -105,12 +106,6 @@
 
 <!-- footer with update notice -->
 <footer bind:this={el}>
-    {#if outOfDate}
-	    <p class="updateNotice">There is an update available for your League Page. <a href="https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#iv-updates">Follow the Update Instructions</a> to get all of the newest features!</p>
-    {/if}
-    {#if managersOutOfDate}
-	    <p class="updateNotice">Your managers page needs an update, <a href="https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#2-add-managers">please follow the instructions</a> to get the most up-to-date experience.</p>
-    {/if}
 	<div id="navigation">
 		<ul>
 			<!-- a short list: the full menu is at the top of every page -->
@@ -119,9 +114,8 @@
 			{/each}
 		</ul>
 	</div>
-	<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
-	<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado/league-page">League Page</a></span>
+	<span class="copyright">{site.league_name} · est. {site.first_season}</span>
 	<br />
-	<!-- PLEASE DO NOT REMOVE THE BUILT BY -->
-	<span class="creator">Created by <a href="http://www.nmelhado.com/">Nicholas Melhado</a>, expanded on by <a href="https://triccsters.vercel.app">T.J. Ricci</a></span>
+	<!-- template credit kept (the template asks for it), just quieter than the old "© League Page" line -->
+	<span class="creator">Built on <a href="https://github.com/nmelhado/league-page">League Page</a> by <a href="http://www.nmelhado.com/">Nicholas Melhado</a>, expanded by <a href="https://triccsters.vercel.app">T.J. Ricci</a></span>
 </footer>

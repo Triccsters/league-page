@@ -782,13 +782,18 @@ def kicker_file(C):
 
 def board_duty(C):
     ot = C.odds.get("teams") or []
-    if not ot or "last" not in ot[0]:
+    if not ot or "board" not in ot[0]:
         return []
-    rows = sorted(([T(t["h"]), f"{t['last']}%", f"{t['w']}-{t['l']}"] for t in ot if t.get("last", 0) > 0),
+    # Board duty goes to the loser of the losers bracket (T.J., 2026-10-14), not
+    # regular-season last place. The odds sim plays out Sleeper's losers bracket.
+    rows = sorted(([T(t["h"]), f"{t['board']}%", f"{t['last']}%", f"{t['playoff']}%", f"{t['w']}-{t['l']}"]
+                   for t in ot if t.get("board", 0) > 0),
                   key=lambda r: -float(r[1][:-1]))
     return [card("board", "Board duty race",
-                 "Chance of finishing last, from the same simulations as the playoff odds.",
-                 ["Team", "Last place", "Record"], rows)]
+                 "Chance of losing the losers bracket, played out in the same simulations as the playoff "
+                 "odds. In Sleeper's losers bracket the worst two teams get byes and the loser of each game "
+                 "moves on, so finishing last does not settle it.",
+                 ["Team", "Board duty", "Last place", "Playoffs", "Record"], rows)]
 
 
 def draft_report(C):

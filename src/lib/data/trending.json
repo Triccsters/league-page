@@ -6,105 +6,105 @@
    "n": "Dameon Pierce",
    "p": "RB",
    "t": "PHI",
-   "c": 5345504,
+   "c": 5334680,
    "h": "Wallner"
   },
   {
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 3527343,
+   "c": 3528594,
    "h": "PapaMidnight"
   },
   {
    "n": "Darius Cooper",
    "p": "WR",
    "t": "PHI",
-   "c": 2398361,
+   "c": 2394546,
    "h": null
   },
   {
    "n": "Brenton Strange",
    "p": "TE",
    "t": "JAX",
-   "c": 2248200,
+   "c": 2251170,
    "h": null
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 2051623,
+   "c": 2054857,
    "h": "brettmn13"
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1814076,
+   "c": 1802691,
    "h": null
   },
   {
    "n": "Roman Wilson",
    "p": "WR",
    "t": "PIT",
-   "c": 1796769,
+   "c": 1779543,
    "h": null
   },
   {
    "n": "Roschon Johnson",
    "p": "RB",
    "t": "CHI",
-   "c": 1341296,
+   "c": 1339520,
    "h": null
   },
   {
    "n": "Kimani Vidal",
    "p": "RB",
    "t": "LAC",
-   "c": 1228760,
+   "c": 1232830,
    "h": null
   },
   {
    "n": "Kirk Cousins",
    "p": "QB",
    "t": "LV",
-   "c": 1129408,
+   "c": 1120408,
    "h": null
   },
   {
    "n": "Tyler Loop",
    "p": "K",
    "t": "BAL",
-   "c": 1069602,
+   "c": 1075080,
    "h": "TuanonStan"
   },
   {
    "n": "Nick Folk",
    "p": "K",
    "t": "ATL",
-   "c": 1038588,
+   "c": 1043496,
    "h": "Jbird531"
-  },
-  {
-   "n": "Kendrick Bourne",
-   "p": "WR",
-   "t": "ARI",
-   "c": 1005825,
-   "h": "RockMNwild"
   },
   {
    "n": "Indianapolis Colts",
    "p": "DEF",
    "t": "IND",
-   "c": 1004064,
+   "c": 1009329,
+   "h": "RockMNwild"
+  },
+  {
+   "n": "Kendrick Bourne",
+   "p": "WR",
+   "t": "ARI",
+   "c": 1008558,
    "h": "RockMNwild"
   },
   {
    "n": "Efton Chism",
    "p": "WR",
    "t": "NE",
-   "c": 991280,
+   "c": 991004,
    "h": null
   }
  ],
@@ -113,105 +113,105 @@
    "n": "Dohnte Meyers",
    "p": "WR",
    "t": "CIN",
-   "c": 2285955,
+   "c": 2286855,
    "h": null
   },
   {
    "n": "Roman Wilson",
    "p": "WR",
    "t": "PIT",
-   "c": 2179062,
+   "c": 2181186,
    "h": null
   },
   {
    "n": "Kenyon Sadiq",
    "p": "TE",
    "t": "NYJ",
-   "c": 1625850,
+   "c": 1623717,
    "h": null
   },
   {
    "n": "Jake Bates",
    "p": "K",
    "t": "DET",
-   "c": 1168480,
+   "c": 1176144,
    "h": "snelson91"
   },
   {
    "n": "Tyreek Hill",
    "p": "WR",
    "t": null,
-   "c": 1072384,
+   "c": 1069784,
    "h": null
   },
   {
    "n": "Keon Coleman",
    "p": "WR",
    "t": "BUF",
-   "c": 968454,
+   "c": 970164,
    "h": "PapaMidnight"
   },
   {
    "n": "Will Shipley",
    "p": "RB",
    "t": "PHI",
-   "c": 894948,
+   "c": 896900,
    "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 818762,
+   "c": 820715,
    "h": null
   },
   {
    "n": "Keaton Mitchell",
    "p": "RB",
    "t": "LAC",
-   "c": 808191,
+   "c": 809361,
    "h": "triccster"
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 759378,
+   "c": 760788,
    "h": "butterygoop"
   },
   {
    "n": "Jordan Addison",
    "p": "WR",
    "t": "MIN",
-   "c": 739908,
+   "c": 737235,
    "h": "Wallner"
-  },
-  {
-   "n": "Darren Waller",
-   "p": "TE",
-   "t": "CAR",
-   "c": 735588,
-   "h": null
   },
   {
    "n": "Las Vegas Raiders",
    "p": "DEF",
    "t": "LV",
-   "c": 731550,
+   "c": 731580,
+   "h": null
+  },
+  {
+   "n": "Darren Waller",
+   "p": "TE",
+   "t": "CAR",
+   "c": 725724,
    "h": null
   },
   {
    "n": "Michael Mayer",
    "p": "TE",
    "t": "LV",
-   "c": 707247,
+   "c": 706518,
    "h": null
   },
   {
    "n": "Quentin Johnston",
    "p": "WR",
    "t": "LAC",
-   "c": 694841,
+   "c": 690732,
    "h": null
   }
  ]

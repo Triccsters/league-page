@@ -6,6 +6,11 @@ const {leagueID} = leagueInfo;
 const mockDraftTab = leagueInfo.mockDraft
     ? [{ icon: 'grid_view', label: 'Mock Draft', dest: '/mock-draft' }]
     : [];
+// Across the Leagues only works where people are Sleeper accounts; League Bound
+// (ESPN, shimmed) has team names only.
+const acrossTab = leagueInfo.shimmed
+    ? []
+    : [{ icon: 'hub', label: 'Across the Leagues', dest: '/across' }];
 
 export const tabs = [
     {
@@ -181,6 +186,7 @@ export const tabs = [
                 label: 'Head-to-Head Tool',
                 dest: '/rivalry',
             },
+            ...acrossTab,
             {
                 icon: 'view_comfy',
                 label: 'Drafts',
