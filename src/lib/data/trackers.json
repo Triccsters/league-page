@@ -178,13 +178,13 @@
      "rows": [
       [
        "@@Colt45Johnson",
-       20,
+       22,
        86.8,
        "$36"
       ],
       [
        "@@triccster",
-       5,
+       6,
        78.8,
        "$10"
       ],
@@ -202,21 +202,21 @@
       ],
       [
        "@@YoungBuck04",
-       10,
+       12,
        58.7,
-       "$71"
+       "$84"
       ],
       [
        "@@brettmn13",
-       11,
+       15,
        47.1,
-       "$11"
+       "$26"
       ],
       [
        "@@RockMNwild",
-       14,
+       16,
        45.9,
-       "$25"
+       "$34"
       ],
       [
        "@@Jbird531",
@@ -226,9 +226,9 @@
       ],
       [
        "@@TuanonStan",
-       6,
+       7,
        11.0,
-       "$31"
+       "$37"
       ],
       [
        "@@butterygoop",
@@ -626,7 +626,7 @@
      "rows": [
       [
        "@@Colt45Johnson",
-       "TE",
+       "-",
        "QB",
        "QB 12 RB 7 WR 7 TE 4"
       ],
@@ -634,13 +634,13 @@
        "@@Jbird531",
        "TE",
        "QB",
-       "QB 11 RB 8 WR 2 TE 7"
+       "QB 11 RB 8 WR 1 TE 7"
       ],
       [
        "@@PapaMidnight",
        "-",
        "QB, RB, TE",
-       "QB 10 RB 9 WR 1 TE 9"
+       "QB 10 RB 9 WR 2 TE 9"
       ],
       [
        "@@RockMNwild",
@@ -662,7 +662,7 @@
       ],
       [
        "@@YoungBuck04",
-       "-",
+       "QB",
        "WR",
        "QB 2 RB 4 WR 11 TE 2"
       ],
@@ -709,12 +709,6 @@
       "Can send back"
      ],
      "rows": [
-      [
-       "@@Colt45Johnson",
-       "TE",
-       "@@Wallner",
-       "QB"
-      ],
       [
        "@@Jbird531",
        "TE",
@@ -765,6 +759,12 @@
        17.7
       ],
       [
+       "@@YoungBuck04",
+       "Jordan Love",
+       "QB GB",
+       15.2
+      ],
+      [
        "@@triccster",
        "Jayden Daniels",
        "QB WAS",
@@ -774,7 +774,7 @@
        "@@butterygoop",
        "D'Andre Swift",
        "RB CHI",
-       12.3
+       12.4
       ],
       [
        "@@TuanonStan",
@@ -786,7 +786,7 @@
        "@@brettmn13",
        "Garrett Wilson",
        "WR NYJ",
-       11.8
+       11.9
       ],
       [
        "@@butterygoop",
@@ -804,12 +804,6 @@
        "@@Jbird531",
        "Tyler Warren",
        "TE IND",
-       8.1
-      ],
-      [
-       "@@Colt45Johnson",
-       "Brenton Strange",
-       "TE JAX",
        8.1
       ],
       [
@@ -882,9 +876,9 @@
       ],
       [
        6,
-       "@@Colt45Johnson",
-       28.1,
-       "Jacoby Brissett, Brenton Strange, TreVeyon Henderson"
+       "@@YoungBuck04",
+       28.4,
+       "Jordan Love, Zach Charbonnet, Blake Corum"
       ],
       [
        7,
@@ -895,32 +889,32 @@
       [
        8,
        "@@thecreamer",
-       27.1,
+       27.0,
        "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
       ],
       [
        9,
-       "@@YoungBuck04",
-       26.9,
-       "Sam Darnold, Zach Charbonnet, Blake Corum"
-      ],
-      [
-       10,
        "@@PapaMidnight",
        21.4,
        "Malik Washington, Jordan Mason, Pat Freiermuth"
       ],
       [
-       11,
+       10,
        "@@brettmn13",
-       20.0,
-       "Aaron Jones, Josh Jacobs, Alvin Kamara"
+       20.2,
+       "Aaron Jones, Josh Jacobs, Tre Tucker"
+      ],
+      [
+       11,
+       "@@Colt45Johnson",
+       19.6,
+       "TreVeyon Henderson, Kenny Gainwell, Deebo Samuel"
       ],
       [
        12,
        "@@RockMNwild",
-       17.4,
-       "Dalton Schultz, Khalil Shakir, Kyle Pitts"
+       18.1,
+       "Dalton Schultz, Khalil Shakir, Kendrick Bourne"
       ]
      ]
     },
@@ -1128,14 +1122,14 @@
        "@@snelson91",
        3,
        36.3,
-       "Jahmyr Gibbs, Sam LaPorta, Jake Bates"
+       "Sam LaPorta, Jahmyr Gibbs, Jake Bates"
       ],
       [
        6,
        "@@TuanonStan",
-       3,
-       32.1,
-       "Joe Burrow, Cincinnati Bengals, Tee Higgins"
+       2,
+       27.4,
+       "Tee Higgins, Joe Burrow"
       ],
       [
        6,
@@ -1159,25 +1153,11 @@
        "Ja'Marr Chase, T.J. Hockenson"
       ],
       [
-       6,
-       "@@brettmn13",
-       2,
-       20.4,
-       "Justin Jefferson, Will Reichard"
-      ],
-      [
        7,
        "@@RockMNwild",
        2,
        33.4,
        "Parker Washington, Josh Allen"
-      ],
-      [
-       7,
-       "@@brettmn13",
-       2,
-       22.3,
-       "Washington Commanders, Trevor Lawrence"
       ],
       [
        7,
@@ -1191,21 +1171,21 @@
        "@@Wallner",
        2,
        32.5,
-       "Brock Purdy, Mike Evans"
+       "Mike Evans, Brock Purdy"
       ],
       [
        8,
        "@@PapaMidnight",
        3,
        30.7,
-       "Cam Skattebo, Ka'imi Fairbairn, Nico Collins"
+       "Ka'imi Fairbairn, Nico Collins, Cam Skattebo"
       ],
       [
        8,
        "@@Colt45Johnson",
-       2,
-       24.1,
-       "Malik Nabers, Tyler Shough"
+       3,
+       29.3,
+       "Tyler Shough, Malik Nabers, San Francisco 49ers"
       ]
      ]
     }
