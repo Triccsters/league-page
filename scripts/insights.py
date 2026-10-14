@@ -31,8 +31,17 @@ def _get(url):
         return json.loads(r.read().decode("utf-8"))
 
 
-def _projections(season, week, cache_dir, read_json, write_json, final):
-    """player_id -> projected stats for one week. A finished week is cached for good."""
+def _projections(season, week, cache_dir, read_json, write_json, final, shim_dir=None):
+    """player_id -> projected stats for one week. A finished week is cached for good.
+
+    A shimmed league (League Bound, on ESPN) uses ESPN's own projections,
+    written by espn_extras.py as points already scored the league's way.
+    They come back as {"__pts": n} so the scorer passes them straight through.
+    """
+    if shim_dir:
+        pts = read_json(os.path.join(shim_dir, f"{week}.json"), None)
+        if pts:
+            return {pid: {"__pts": v} for pid, v in pts.items()}
     path = os.path.join(cache_dir, f"{season}-w{week:02d}.json")
     cached = read_json(path, None)
     if cached is not None:
@@ -51,6 +60,8 @@ def _scorer(scoring):
     def score(stats):
         if not stats:
             return None
+        if "__pts" in stats:
+            return round(stats["__pts"], 2)
         if scoring:
             v = sum((stats.get(k) or 0) * w for k, w in scoring.items())
             if v:
@@ -69,6 +80,9 @@ def build_insights(ctx):
     # cached outside the repo: one file per week is ~3,000 players, too big to commit
     cache_dir = os.path.join(os.path.expanduser("~"), ".cache", "league_page_projections")
     os.makedirs(cache_dir, exist_ok=True)
+    repo = os.path.abspath(os.path.join(data, "..", "..", ".."))
+    shim_dir = os.path.join(repo, "static", "shim", "v1", "projections")
+    shim_dir = shim_dir if os.path.isdir(shim_dir) else None
 
     teams = {}
     pos_week = defaultdict(dict)          # handle -> week -> {pos: pts}
@@ -77,7 +91,7 @@ def build_insights(ctx):
     n_started = n_proj = n_pos = 0          # coverage, so a bad id map is reported, not drawn
     for w in weeks:
         try:
-            proj = _projections(season, w, cache_dir, read_json, write_json, final=True)
+            proj = _projections(season, w, cache_dir, read_json, write_json, final=True, shim_dir=shim_dir)
         except Exception as e:             # feed down: keep the last good file
             print("insights: projections unavailable:", e)
             feed_ok = False
@@ -153,7 +167,8 @@ def build_insights(ctx):
         "surprises": surprises,
         "week_best": list(reversed(lw[-8:])),
         "week_worst": lw[:8],
-        "source": "Sleeper projections, re-scored with this league's scoring",
+        "source": ("ESPN's own projections for this league" if shim_dir
+                   else "Sleeper projections, re-scored with this league's scoring"),
     }
     write_json(out_path, out)
     return out

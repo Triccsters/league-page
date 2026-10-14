@@ -8,6 +8,7 @@
     import { myTeam } from '$lib/utils/myTeam';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
     import StripChart from '$lib/Charts/StripChart.svelte';
+    import EspnExtras from '$lib/Charts/EspnExtras.svelte';
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -35,7 +36,7 @@
 <div class="holder">
     <h1>Insights</h1>
     <p class="sub">Projected against actual, and position groups that suddenly broke out or fell apart. {data.season} regular season{data.through_week ? `, through week ${data.through_week}` : ''}.</p>
-    {#if data.stale}<p class="note warn">Sleeper's projections did not answer at the last update, so this page is from the update before.</p>{/if}
+    {#if data.stale}<p class="note warn">The projections did not answer at the last update, so this page is from the update before.</p>{/if}
 
     {#if notes && notes.notes && notes.notes.length}
         <h2>This week's notes, week {notes.week}</h2>
@@ -110,7 +111,9 @@
     <p class="note">One dot per week. A tight row is a steady team; a wide one is boom or bust. Sorted by median score; the line is each team's median.</p>
     <StripChart rows={spread} ariaLabel="Weekly scores by team" />
 
-    {#if data.projections}<p class="note small">Projections: {data.source}. Sleeper's projection feed isn't part of its public API, and Sleeper data is for non-commercial use.</p>{/if}
+    <EspnExtras />
+
+    {#if data.projections}<p class="note small">Projections: {data.source}.{#if !/ESPN/.test(data.source)} Sleeper's projection feed isn't part of its public API, and Sleeper data is for non-commercial use.{/if}</p>{/if}
 </div>
 
 <style>
