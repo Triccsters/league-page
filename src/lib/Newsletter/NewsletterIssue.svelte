@@ -11,6 +11,10 @@
 
     export let nl;      // this issue's newsletter JSON
     export let recap;   // the recap for the same week (standings, scores)
+    // which piece to draw: 'all' (whole issue), 'top' (masthead to power rankings),
+    // 'story' (one manager's card, see handle), 'bottom' (moves to the end)
+    export let part = 'all';
+    export let handle = null;
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -63,7 +67,8 @@
     $: mine = ready ? $myTeam : null;
 </script>
 
-<article class="nl">
+<article class="nl" class:story={part === 'story'} class:cont={part === 'bottom'}>
+    {#if part === 'all' || part === 'top'}
     <header class="mast">
         <div class="name">{nl.masthead}</div>
         {#if nl.tagline}<div class="tag">{nl.tagline}</div>{/if}
@@ -113,7 +118,56 @@
         </section>
     {/if}
 
-    {#if nl.managers?.length}
+    {/if}
+
+    {#if part === 'story'}
+        {#each (nl.managers || []).filter((x) => x.handle === handle) as m (m.handle)}
+                    {@const s = rec(m.handle)}
+                    {@const ch = chapter(m)}
+                    {@const was = lastArc(m)}
+                    <div class="card" id="nl-{m.handle}" class:mine={mine === m.handle}>
+                        <div class="top">
+                            <span class="who">{#if managerLink(m.handle)}<a href={managerLink(m.handle)}>{nameOf(m.handle)}</a>{:else}{nameOf(m.handle)}{/if}</span>
+                            {#if m.record}<span class="rec" title={m.record_note || ''}>{m.record}</span>
+                            {:else if s}<span class="rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</span>{/if}
+                        </div>
+                        <div class="arc">
+                            <span class="mood {m.mood || 'flat'}">{moodLabel[m.mood] || 'Holding'}</span>
+                            <b>{m.arc}</b>
+                            {#if ch > 1}<small>chapter {ch}</small>{:else if was}<small>was: {was}</small>{/if}
+                        </div>
+                        {#if m.tags?.length}
+                            <div class="tags">{#each m.tags as t}<span class="t {t.k}">{t.t}</span>{/each}</div>
+                        {/if}
+                        {#each paras(m.text) as p}<p>{p}</p>{/each}
+                        {#if m.tj_note}<p class="tjn"><b>{nl.take?.byline || "T.J.'s take"}:</b> {m.tj_note}</p>{/if}
+                        {#if m.nfl_hits?.length && nl.nfl?.items}
+                            <div class="hits"><span class="lbl">In the NFL news</span>
+                                {#each m.nfl_hits as i}{@const x = nl.nfl.items[i]}{#if x}<a href="#nfl-{i}">{x.headline}</a>{/if}{/each}
+                            </div>
+                        {/if}
+                        {#if m.outlook || m.odds}
+                            <div class="outlook">
+                                <span class="lbl">Rest of the way</span>
+                                {#if m.odds}
+                                    <div class="chips">
+                                        <span><b>{m.odds.playoff}%</b> playoffs</span>
+                                        <span><b>{m.odds.proj_w}</b> projected wins</span>
+                                        <span><b>{m.odds.title}%</b> title</span>
+                                        <span>{sosLabel(m.odds)}</span>
+                                    </div>
+                                {/if}
+                                {#if m.outlook}<p>{m.outlook}</p>{/if}
+                            </div>
+                        {/if}
+                        {#if m.next}
+                            <p class="next">{m.next}
+                                {#if m.next_opp}<a href="/rivalries/{slugFor(m.handle, m.next_opp)}">The rivalry →</a>{/if}
+                            </p>
+                        {/if}
+                    </div>
+        {/each}
+    {:else if part === 'all' && nl.managers?.length}
         <section>
             <h3 class="sec">Around the league <small>every manager's story, in standings order</small></h3>
             {#if mine && nl.managers.some((m) => m.handle === mine)}
@@ -171,34 +225,8 @@
         </section>
     {/if}
 
-    {#if nl.nfl?.items?.length}
-        <section>
-            <h3 class="sec">Around the NFL <small>the real week, and who it hits here</small></h3>
-            {#if nl.nfl.intro}{#each paras(nl.nfl.intro) as p}<p class="sub">{p}</p>{/each}{/if}
-            {#each nl.nfl.items as x, i}
-                <div class="nfl" id="nfl-{i}">
-                    <div class="top">
-                        <span class="kind {x.kind}">{x.kind === 'news' ? 'News' : 'Story'}</span>
-                        <a class="hl" href={x.url} target="_blank" rel="noopener">{x.headline}</a>
-                        <span class="dt">{fmtDate(x.date)}{#if x.teams?.length} · {x.teams.join(', ')}{/if}</span>
-                    </div>
-                    {#if x.note}{#each paras(x.note) as p}<p>{p}</p>{/each}{/if}
-                    {#if x.named?.length}
-                        <p class="own"><b>Owned here:</b>
-                            {#each byOwner(x.named) as [h, ns], j}{j ? ' · ' : ''}{ns.join(', ')} (<a href="#nl-{h}">{nameOf(h)}</a>){/each}
-                        </p>
-                    {/if}
-                    {#if x.ripple?.length}
-                        <p class="own rip"><b>Same offense:</b>
-                            {#each byOwner(x.ripple.slice(0, 10)) as [h, ns], j}{j ? ' · ' : ''}{ns.join(', ')} (<a href="#nl-{h}">{nameOf(h)}</a>){/each}{#if x.ripple.length > 10} · and {x.ripple.length - 10} more{/if}
-                        </p>
-                    {/if}
-                </div>
-            {/each}
-            <p class="fine">Headlines and links from ESPN, read {String(nl.nfl.read_at || '').slice(0, 10)}. {nl.nfl.note}</p>
-        </section>
-    {/if}
 
+    {#if part === 'all' || part === 'bottom'}
     {#if nl.moves?.items?.length}
         <section>
             <h3 class="sec">Moves of the week</h3>
@@ -276,6 +304,34 @@
         </section>
     {/if}
 
+    {#if nl.nfl?.items?.length}
+        <section>
+            <h3 class="sec">Around the NFL <small>the real week, and who it hits here</small></h3>
+            {#if nl.nfl.intro}{#each paras(nl.nfl.intro) as p}<p class="sub">{p}</p>{/each}{/if}
+            {#each nl.nfl.items as x, i}
+                <div class="nfl" id="nfl-{i}">
+                    <div class="top">
+                        <span class="kind {x.kind}">{x.kind === 'news' ? 'News' : 'Story'}</span>
+                        <a class="hl" href={x.url} target="_blank" rel="noopener">{x.headline}</a>
+                        <span class="dt">{fmtDate(x.date)}{#if x.teams?.length} · {x.teams.join(', ')}{/if}</span>
+                    </div>
+                    {#if x.note}{#each paras(x.note) as p}<p>{p}</p>{/each}{/if}
+                    {#if x.named?.length}
+                        <p class="own"><b>Owned here:</b>
+                            {#each byOwner(x.named) as [h, ns], j}{j ? ' · ' : ''}{ns.join(', ')} (<a href="#nl-{h}">{nameOf(h)}</a>){/each}
+                        </p>
+                    {/if}
+                    {#if x.ripple?.length}
+                        <p class="own rip"><b>Same offense:</b>
+                            {#each byOwner(x.ripple.slice(0, 10)) as [h, ns], j}{j ? ' · ' : ''}{ns.join(', ')} (<a href="#nl-{h}">{nameOf(h)}</a>){/each}{#if x.ripple.length > 10} · and {x.ripple.length - 10} more{/if}
+                        </p>
+                    {/if}
+                </div>
+            {/each}
+            <p class="fine">Headlines and links from ESPN, read {String(nl.nfl.read_at || '').slice(0, 10)}. {nl.nfl.note}</p>
+        </section>
+    {/if}
+
     {#if nl.links?.length}
         <section>
             <h3 class="sec">Around the site</h3>
@@ -286,10 +342,14 @@
             </div>
         </section>
     {/if}
+    {/if}
 </article>
 
 <style>
     .nl { margin: 0.5em 0 2em; }
+    .nl.story { margin: 0; }
+    .nl.story .card { height: 100%; box-sizing: border-box; }
+    .nl.cont { margin-top: 1.5em; }
     .mast { text-align: center; border-top: 3px solid currentColor; border-bottom: 1px solid currentColor; padding: 0.6em 0 0.5em; margin-bottom: 1em; }
     .mast .name { font-family: Georgia, 'Times New Roman', serif; font-size: 2.1em; font-weight: 800; letter-spacing: 0.02em; line-height: 1.1; }
     .mast .tag { font-style: italic; opacity: 0.8; font-size: 0.9em; margin-top: 0.2em; }

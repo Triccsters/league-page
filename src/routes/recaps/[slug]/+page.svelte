@@ -85,7 +85,7 @@
         {/if}
 
         {#if nl}
-            <NewsletterIssue {nl} recap={r} />
+            <NewsletterIssue {nl} recap={r} part="top" />
         {:else}
             {#each paras as p}<p class="intro">{p}</p>{/each}
         {/if}
@@ -118,7 +118,7 @@
             <ul>{#each r.notes as n}<li>{n}</li>{/each}</ul>
         {/if}
 
-        <h2>Every matchup</h2>
+        <h2>Every matchup{#if nl} <small class="h2s">and every manager's story</small>{/if}</h2>
         {#each games as g}
             <section class="game" class:mine={ready && [g.winner.manager, g.loser.manager].includes($myTeam)}>
                 <h3>
@@ -145,6 +145,12 @@
                 {#if g.loser.optimal > g.winner.points}
                     <p class="what-if">{nameOf(g.loser.manager)}'s best lineup ({g.loser.optimal}) would have won.</p>
                 {/if}
+                {#if nl?.managers?.length}
+                    <div class="stories">
+                        <NewsletterIssue {nl} recap={r} part="story" handle={g.winner.manager} />
+                        <NewsletterIssue {nl} recap={r} part="story" handle={g.loser.manager} />
+                    </div>
+                {/if}
             </section>
         {/each}
 
@@ -157,6 +163,8 @@
                 {/each}
             </tbody>
         </table>
+        {#if nl}<NewsletterIssue {nl} recap={r} part="bottom" />{/if}
+
         <p class="stamp">Built {r.generated.slice(0, 10)} from Sleeper. Timeline windows use NFL kickoff times.</p>
     {/if}
 </div>
@@ -184,6 +192,9 @@
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: 0.4em 0.5em; border-bottom: 1px solid rgba(127,127,127,0.25); text-align: left; font-size: 0.9em; }
     .num { text-align: right; }
+    .stories { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8em; margin-top: 0.9em; }
+    @media (max-width: 700px) { .stories { grid-template-columns: 1fr; } }
+    .h2s { font-size: 0.7em; font-weight: 400; opacity: 0.7; }
     .what-if { color: #e67e22; font-weight: 600; margin: 0.5em 0 0; }
     .share { border: 1px solid rgba(39,174,96,0.6); border-radius: 8px; padding: 0.8em 1em 1em; margin: 1.2em 0; }
     .share h2 { margin-top: 0; border: none; padding: 0; }
