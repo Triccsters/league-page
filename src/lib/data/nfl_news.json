@@ -1,7 +1,7 @@
 {
- "read_at": "2026-10-14T20:21+00:00",
+ "read_at": "2026-10-14T22:14+00:00",
  "days": 7,
- "count": 115,
+ "count": 114,
  "items": [
   {
    "headline": "Patriots CB Gonzalez says he's 'ready to go'; WR Brown returns to practice",
@@ -134,73 +134,6 @@
    "score": 15.0
   },
   {
-   "headline": "Texans complete trade with Cardinals for WR Marvin Harrison Jr.",
-   "url": "https://www.espn.com/nfl/story/_/id/50160631/texans-complete-trade-cardinals-wr-marvin-harrison-jr",
-   "date": "2026-10-12",
-   "kind": "news",
-   "teams": [
-    "ARI",
-    "HOU"
-   ],
-   "named": [
-    {
-     "n": "Marvin Harrison",
-     "p": "WR",
-     "t": "HOU",
-     "h": "RockMNwild"
-    }
-   ],
-   "lead": [
-    "Marvin Harrison"
-   ],
-   "ripple": [
-    {
-     "n": "Woody Marks",
-     "p": "RB",
-     "t": "HOU",
-     "h": "Wallner"
-    },
-    {
-     "n": "Tank Dell",
-     "p": "WR",
-     "t": "HOU",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Dalton Schultz",
-     "p": "TE",
-     "t": "HOU",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Nico Collins",
-     "p": "WR",
-     "t": "HOU",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Kayshon Boutte",
-     "p": "WR",
-     "t": "HOU",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "David Montgomery",
-     "p": "RB",
-     "t": "HOU",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "RockMNwild",
-    "Wallner",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 15.0
-  },
-  {
    "headline": "Bills QB Josh Allen earns first overtime win of career vs. Rams on MNF",
    "url": "https://www.espn.com/nfl/story/_/id/50171513/bills-josh-allen-earns-first-career-win-vs-rams-mnf",
    "date": "2026-10-13",
@@ -258,65 +191,6 @@
     "Wallner",
     "snelson91",
     "thecreamer"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "Shanahan says 49ers WR Deebo Samuel to miss time with hamstring injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
-   "date": "2026-10-12",
-   "kind": "news",
-   "teams": [
-    "SF"
-   ],
-   "named": [
-    {
-     "n": "Deebo Samuel",
-     "p": "WR",
-     "t": "SF",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "Deebo Samuel"
-   ],
-   "ripple": [
-    {
-     "n": "Mike Evans",
-     "p": "WR",
-     "t": "SF",
-     "h": "Wallner"
-    },
-    {
-     "n": "Brock Purdy",
-     "p": "QB",
-     "t": "SF",
-     "h": "Wallner"
-    },
-    {
-     "n": "George Kittle",
-     "p": "TE",
-     "t": "SF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kaelon Black",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Christian McCaffrey",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "TuanonStan",
-    "Wallner",
-    "YoungBuck04"
    ],
    "score": 14.5
   },
@@ -443,6 +317,73 @@
    "score": 14.0
   },
   {
+   "headline": "Texans complete trade with Cardinals for WR Marvin Harrison Jr.",
+   "url": "https://www.espn.com/nfl/story/_/id/50160631/texans-complete-trade-cardinals-wr-marvin-harrison-jr",
+   "date": "2026-10-12",
+   "kind": "news",
+   "teams": [
+    "ARI",
+    "HOU"
+   ],
+   "named": [
+    {
+     "n": "Marvin Harrison",
+     "p": "WR",
+     "t": "HOU",
+     "h": "RockMNwild"
+    }
+   ],
+   "lead": [
+    "Marvin Harrison"
+   ],
+   "ripple": [
+    {
+     "n": "Woody Marks",
+     "p": "RB",
+     "t": "HOU",
+     "h": "Wallner"
+    },
+    {
+     "n": "Tank Dell",
+     "p": "WR",
+     "t": "HOU",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Dalton Schultz",
+     "p": "TE",
+     "t": "HOU",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Nico Collins",
+     "p": "WR",
+     "t": "HOU",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Kayshon Boutte",
+     "p": "WR",
+     "t": "HOU",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "David Montgomery",
+     "p": "RB",
+     "t": "HOU",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "PapaMidnight",
+    "RockMNwild",
+    "Wallner",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 13.0
+  },
+  {
    "headline": "Bears QB Caleb Williams 'close' to returning, Ben Johnson says",
    "url": "https://www.espn.com/nfl/story/_/id/50161771/bears-qb-caleb-williams-close-returning-ben-johnson-says",
    "date": "2026-10-11",
@@ -566,6 +507,65 @@
     "Wallner",
     "snelson91",
     "thecreamer"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Shanahan says 49ers WR Deebo Samuel to miss time with hamstring injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
+   "date": "2026-10-12",
+   "kind": "news",
+   "teams": [
+    "SF"
+   ],
+   "named": [
+    {
+     "n": "Deebo Samuel",
+     "p": "WR",
+     "t": "SF",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Deebo Samuel"
+   ],
+   "ripple": [
+    {
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "Brock Purdy",
+     "p": "QB",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "George Kittle",
+     "p": "TE",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "TuanonStan",
+    "Wallner",
+    "YoungBuck04"
    ],
    "score": 12.5
   },

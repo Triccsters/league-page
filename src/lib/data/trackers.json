@@ -333,62 +333,73 @@
     {
      "id": "gm",
      "title": "GM of the year",
-     "note": "Points started this season by players brought in by trade or off the wire, not the draft.",
+     "note": "Points started this season by players brought in by trade or off the wire, not the draft. Wire pts missed: each week's best possible free-agent upgrade over a starter, added up.",
      "cols": [
       "Team",
       "Started pts",
-      "Players used"
+      "Players used",
+      "Wire pts missed"
      ],
      "rows": [
       [
        "@@triccster",
        198.6,
-       4
+       4,
+       80.5
       ],
       [
        "@@brettmn13",
        135.4,
-       8
+       8,
+       101.4
       ],
       [
        "@@Colt45Johnson",
        86.8,
-       7
+       7,
+       91.8
       ],
       [
        "@@thecreamer",
        69.3,
-       3
+       3,
+       98.8
       ],
       [
        "@@Wallner",
        67.0,
-       6
+       6,
+       87.2
       ],
       [
        "@@YoungBuck04",
        58.7,
-       6
+       6,
+       86.8
       ],
       [
        "@@RockMNwild",
        45.9,
-       8
+       8,
+       86.6
       ],
       [
        "@@Jbird531",
        40.8,
-       3
+       3,
+       99.6
       ],
       [
        "@@TuanonStan",
        11.0,
-       3
+       3,
+       86.1
       ],
       [
        "@@butterygoop",
        5.5,
-       1
+       1,
+       86.4
       ]
      ],
      "race": true
@@ -603,6 +614,117 @@
        493.1,
        536.6,
        -43.5
+      ]
+     ]
+    },
+    {
+     "id": "wire_flips",
+     "title": "The wire would have won it",
+     "note": "Losses that one unrostered player would have turned into a win: the best free agent that week, scored with this league's settings, in for a starter at a slot he could fill. Unrostered means not on any roster by the end of that week; waiver timing and game locks are not checked.",
+     "cols": [
+      "Week",
+      "Team",
+      "Lost to",
+      "Free agent",
+      "In for",
+      "Lost by"
+     ],
+     "rows": [
+      [
+       5,
+       "@@snelson91",
+       "@@Colt45Johnson",
+       "DeMario Douglas (WR) 20.5",
+       "David Montgomery 1.1",
+       8.4
+      ],
+      [
+       5,
+       "@@triccster",
+       "@@TuanonStan",
+       "DeMario Douglas (WR) 20.5",
+       "CeeDee Lamb 1.9",
+       5.0
+      ],
+      [
+       4,
+       "@@YoungBuck04",
+       "@@thecreamer",
+       "Tyquan Thornton (WR) 25.6",
+       "Kenyon Sadiq 0.0",
+       23.0
+      ],
+      [
+       4,
+       "@@brettmn13",
+       "@@Colt45Johnson",
+       "Tyquan Thornton (WR) 25.6",
+       "Rashee Rice 0.0",
+       19.8
+      ],
+      [
+       4,
+       "@@PapaMidnight",
+       "@@butterygoop",
+       "Tyquan Thornton (WR) 25.6",
+       "Tony Pollard 12.0",
+       1.7
+      ],
+      [
+       3,
+       "@@brettmn13",
+       "@@snelson91",
+       "Kenyon Sadiq (TE) 20.0",
+       "Oronde Gadsden 0.0",
+       12.7
+      ],
+      [
+       3,
+       "@@Colt45Johnson",
+       "@@thecreamer",
+       "Kalif Raymond (WR) 18.0",
+       "Malik Nabers 5.1",
+       9.2
+      ],
+      [
+       3,
+       "@@RockMNwild",
+       "@@YoungBuck04",
+       "Kenyon Sadiq (TE) 20.0",
+       "Dalton Schultz 4.5",
+       5.3
+      ],
+      [
+       3,
+       "@@butterygoop",
+       "@@triccster",
+       "Kenyon Sadiq (TE) 20.0",
+       "Isaiah Likely 2.3",
+       3.4
+      ],
+      [
+       2,
+       "@@snelson91",
+       "@@YoungBuck04",
+       "Rashod Bateman (WR) 18.3",
+       "David Montgomery 3.4",
+       10.2
+      ],
+      [
+       2,
+       "@@Wallner",
+       "@@Jbird531",
+       "New England Patriots (DEF) 21.0",
+       "Philadelphia Eagles 3.0",
+       2.8
+      ],
+      [
+       1,
+       "@@PapaMidnight",
+       "@@TuanonStan",
+       "Bryce Young (QB) 31.4",
+       "Dak Prescott 14.4",
+       6.0
       ]
      ]
     }
@@ -902,7 +1024,7 @@
        8,
        "@@thecreamer",
        27.0,
-       "Aaron Rodgers, Rome Odunze, Courtland Sutton"
+       "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
       ],
       [
        9,
@@ -1047,72 +1169,85 @@
     {
      "id": "coach",
      "title": "Coach of the year",
-     "note": "Average lineup efficiency: started points as a share of the best possible lineup each week.",
+     "note": "Average lineup efficiency: started points as a share of the best possible lineup each week. Wire flips: losses one free agent would have turned into wins.",
      "cols": [
       "Team",
       "Efficiency",
-      "Weeks"
+      "Weeks",
+      "Wire flips"
      ],
      "rows": [
       [
        "@@YoungBuck04",
        "94.7%",
-       5
+       5,
+       1
       ],
       [
        "@@TuanonStan",
        "92.6%",
-       5
+       5,
+       0
       ],
       [
        "@@brettmn13",
        "91.4%",
-       5
+       5,
+       2
       ],
       [
        "@@triccster",
        "91.2%",
-       5
+       5,
+       1
       ],
       [
        "@@butterygoop",
        "91.0%",
-       5
+       5,
+       1
       ],
       [
        "@@thecreamer",
        "91.0%",
-       5
+       5,
+       0
       ],
       [
        "@@Colt45Johnson",
        "90.8%",
-       5
+       5,
+       1
       ],
       [
        "@@Jbird531",
        "89.2%",
-       5
+       5,
+       0
       ],
       [
        "@@snelson91",
        "88.7%",
-       5
+       5,
+       2
       ],
       [
        "@@Wallner",
        "87.9%",
-       5
+       5,
+       1
       ],
       [
        "@@RockMNwild",
        "84.7%",
-       5
+       5,
+       1
       ],
       [
        "@@PapaMidnight",
        "83.9%",
-       5
+       5,
+       2
       ]
      ],
      "race": true
@@ -1134,7 +1269,7 @@
        "@@snelson91",
        3,
        36.3,
-       "Jahmyr Gibbs, Jake Bates, Sam LaPorta"
+       "Jake Bates, Sam LaPorta, Jahmyr Gibbs"
       ],
       [
        6,
@@ -1169,21 +1304,14 @@
        "@@RockMNwild",
        2,
        33.4,
-       "Parker Washington, Josh Allen"
-      ],
-      [
-       7,
-       "@@thecreamer",
-       2,
-       18.8,
-       "DJ Moore, Omarion Hampton"
+       "Josh Allen, Parker Washington"
       ],
       [
        7,
        "@@butterygoop",
        2,
        13.3,
-       "Jacksonville Jaguars, Cameron Dicker"
+       "Cameron Dicker, Jacksonville Jaguars"
       ],
       [
        8,
@@ -1204,7 +1332,7 @@
        "@@Colt45Johnson",
        3,
        29.3,
-       "Malik Nabers, San Francisco 49ers, Tyler Shough"
+       "Tyler Shough, Malik Nabers, San Francisco 49ers"
       ]
      ]
     }

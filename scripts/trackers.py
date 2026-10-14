@@ -108,6 +108,7 @@ class Ctx:
                     continue
                 wk[h] = {"players": [p for p in (m.get("players") or []) if p],
                          "starters": [p for p in (m.get("starters") or []) if p and p != "0"],
+                         "raw": list(m.get("starters") or []),
                          "pp": m.get("players_points") or {},
                          "pts": m.get("points") or 0, "mid": m.get("matchup_id")}
             self.weeks[w] = wk
@@ -151,6 +152,24 @@ class Ctx:
                 n += 1
         return pts, n
 
+    def week_stats(self, w):
+        """pid -> that week's raw stat line (Sleeper), cached on disk."""
+        path = os.path.join(self.cache_dir, f"fullstats-{self.season}-w{w:02d}.json")
+        st = self.read_json(path, None)
+        if st is None:
+            try:
+                raw = _get(STATS_URL.format(season=self.season, week=w)) or []
+            except Exception as e:
+                print("trackers: weekly stats unavailable", w, e)
+                return {}
+            if isinstance(raw, dict):
+                st = {k: v or {} for k, v in raw.items()}
+            else:
+                st = {r["player_id"]: (r.get("stats") or {}) for r in raw if r.get("player_id")}
+            if w < self.last or w == self.last:
+                self.write_json(path, st, compact=True)
+        return st
+
     def name(self, pid):
         i = self.S.pinfo(pid)
         return i["name"], i["pos"], i.get("team") or ""
@@ -189,6 +208,90 @@ class Ctx:
         avg = {p: tot[p] / n for p in tot} if n else {}
         self._ros = (avg, per_week, n)
         return self._ros
+
+
+# ------------------------------------------------------------ the wire
+def wire_data(C):
+    """Unrostered players each week, scored with this league's scoring, and the best
+    single swap each team could have made. Cached on C."""
+    if getattr(C, "_wire", None) is not None:
+        return C._wire
+    out = {"flips": [], "missed": defaultdict(float), "flipcount": defaultdict(int),
+           "ok": False, "checked": 0, "agree": 0}
+    C._wire = out
+    positions = [x for x in (C.S.league.get("roster_positions") or []) if x not in ("BN", "IR", "TAXI")]
+    if not C.scoring or not positions:
+        return out
+    for w, wk in sorted(C.weeks.items()):
+        st = C.week_stats(w)
+        if not st:
+            continue
+        rostered = {x for t in wk.values() for x in t["players"]}
+        for t in wk.values():
+            for x in t["starters"]:
+                if x in t["pp"] and x in st:
+                    out["checked"] += 1
+                    out["agree"] += abs((C.score(st[x]) or 0) - float(t["pp"][x] or 0)) <= 0.11
+        fa = {}
+        for pid, line in st.items():
+            # TEAM_XX lines are whole-team totals, not a rosterable defense
+            if pid in rostered or not line or pid.startswith("TEAM_") or C.pos_of(pid) not in ("QB", "RB", "WR", "TE", "K", "DEF"):
+                continue
+            v = C.score(line)
+            if v and v > 0:
+                fa[pid] = v
+        top = {}
+
+        def best_for(slot):
+            if slot not in top:
+                el = ELIG.get(slot, ())
+                cands = [(v, x) for x, v in fa.items() if C.pos_of(x) in el]
+                top[slot] = max(cands) if cands else None
+            return top[slot]
+
+        pairs = defaultdict(list)
+        for h, t in wk.items():
+            if t["mid"] is not None:
+                pairs[t["mid"]].append(h)
+        for h, t in wk.items():
+            best = None
+            for i, slot in enumerate(positions):
+                if slot not in ELIG or i >= len(t["raw"]):
+                    continue
+                cur = t["raw"][i]
+                cur_pts = float(t["pp"].get(cur, 0) or 0) if cur and cur != "0" else 0.0
+                b = best_for(slot)
+                if b and (best is None or b[0] - cur_pts > best[0]):
+                    best = (b[0] - cur_pts, b[1], b[0], cur, cur_pts)
+            if not best or best[0] <= 0:
+                continue
+            out["missed"][h] += best[0]
+            opp = [x for x in pairs.get(t["mid"], []) if x != h]
+            if not opp:
+                continue
+            margin = wk[opp[0]]["pts"] - t["pts"]
+            if margin > 0 and best[0] > margin:
+                out["flipcount"][h] += 1
+                gone = C.name(best[3])[0] if best[3] and best[3] != "0" else "an empty slot"
+                nm, pos, _tm = C.name(best[1])
+                out["flips"].append([w, T(h), T(opp[0]), f"{nm} ({pos}) {_r1(best[2])}",
+                                     f"{gone} {_r1(best[4])}", _r1(margin)])
+    out["ok"] = out["checked"] > 0 and out["agree"] / out["checked"] >= 0.9
+    print(f"trackers: wire {'on' if out['ok'] else 'skipped'}, scoring matched "
+          f"{out['agree']} of {out['checked']} started players")
+    return out
+
+
+def wire_flips(C):
+    W = wire_data(C)
+    if not W["ok"]:
+        return []
+    rows = sorted(W["flips"], key=lambda r: (-r[0], -r[5]))
+    return [card("wire_flips", "The wire would have won it",
+                 "Losses that one unrostered player would have turned into a win: the best free agent that week, "
+                 "scored with this league's settings, in for a starter at a slot he could fill. "
+                 "Unrostered means not on any roster by the end of that week; waiver timing and game locks are not checked.",
+                 ["Week", "Team", "Lost to", "Free agent", "In for", "Lost by"], rows)]
 
 
 # ------------------------------------------------------------ trade market
@@ -304,11 +407,14 @@ def bench(C):
         cards.append(card("regret_week", "Worst lineup weeks",
                           "The single weeks with the most points sitting on the bench.",
                           ["Week", "Team", "Points left"], worst[:6]))
-        coach = sorted(([T(h), f"{round(100 * statistics.mean(eff[h]), 1)}%", len(eff[h])] for h in eff),
+        W = wire_data(C)
+        coach = sorted(([T(h), f"{round(100 * statistics.mean(eff[h]), 1)}%", len(eff[h])]
+                        + ([W["flipcount"].get(h, 0)] if W["ok"] else []) for h in eff),
                        key=lambda r: -float(r[1][:-1]))
         cards.append(card("coach", "Coach of the year",
-                          "Average lineup efficiency: started points as a share of the best possible lineup each week.",
-                          ["Team", "Efficiency", "Weeks"], coach, race=True))
+                          "Average lineup efficiency: started points as a share of the best possible lineup each week."
+                          + (" Wire flips: losses one free agent would have turned into wins." if W["ok"] else ""),
+                          ["Team", "Efficiency", "Weeks"] + (["Wire flips"] if W["ok"] else []), coach, race=True))
     cards += byes(C)
     return cards
 
@@ -500,10 +606,14 @@ def gm(C):
                 n[h].add(pid)
     if not tot:
         return []
-    rows = sorted(([T(h), _r1(v), len(n[h])] for h, v in tot.items()), key=lambda r: -r[1])
+    W = wire_data(C)
+    rows = sorted(([T(h), _r1(v), len(n[h])] + ([_r1(W["missed"].get(h, 0))] if W["ok"] else [])
+                   for h, v in tot.items()), key=lambda r: -r[1])
     return [card("gm", "GM of the year",
-                 "Points started this season by players brought in by trade or off the wire, not the draft.",
-                 ["Team", "Started pts", "Players used"], rows, race=True)]
+                 "Points started this season by players brought in by trade or off the wire, not the draft."
+                 + (" Wire pts missed: each week's best possible free-agent upgrade over a starter, added up."
+                    if W["ok"] else ""),
+                 ["Team", "Started pts", "Players used"] + (["Wire pts missed"] if W["ok"] else []), rows, race=True)]
 
 
 # ------------------------------------------------------------ dynasty
@@ -902,7 +1012,7 @@ def build_trackers(ctx, drafts=None, waivers=None):
             groups.append({"id": gid, "title": title, "intro": intro, "cards": cards})
 
     group("races", "Season races", "Who is winning the awards nobody hands out until December.",
-          lambda: races(C, waivers, drafts) + beat_projection(C))
+          lambda: races(C, waivers, drafts) + beat_projection(C) + _safe(wire_flips, C))
     group("market", "Trade market", "Where the surplus is, where the holes are, and who should be talking.",
           lambda: trade_market(C))
     group("depth", "Bench and depth", "Depth wins the weeks nobody plans for.", lambda: bench(C))
