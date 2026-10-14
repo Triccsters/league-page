@@ -728,6 +728,12 @@ def build_all(ctx):
         out["power_weeks_left"] = pw["weeks_left"]
     except Exception as e:
         print("power failed:", e)
+    # the week's NFL headlines tied to this league (nfl_news.py), for the newsletter
+    try:
+        import nfl_news as NN
+        out["nfl_news"] = len(NN.build_nfl_news(ctx)["items"])
+    except Exception as e:
+        print("nfl_news failed:", e)
     # season storylines and trackers (trackers.py), for the /trackers page
     try:
         import trackers as TR
