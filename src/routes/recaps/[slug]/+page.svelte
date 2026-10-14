@@ -129,9 +129,9 @@
         {#each games as g}
             <section class="game" class:mine={ready && [g.winner.manager, g.loser.manager].includes($myTeam)}>
                 <h3>
-                    {#if avatarOf(g.winner.manager)}<img class="av" src={avatarOf(g.winner.manager)} alt="" loading="lazy" on:error={hideBroken} />{/if}<span class="w">{nameOf(g.winner.manager)} {g.winner.points}</span><YourTeamBadge handle={g.winner.manager} size="small" />
+                    {#if avatarOf(g.winner.manager)}<img class="av" src={avatarOf(g.winner.manager)} alt="" decoding="async" on:error={hideBroken} />{/if}<span class="w">{nameOf(g.winner.manager)} {g.winner.points}</span><YourTeamBadge handle={g.winner.manager} size="small" />
                     <span class="d">def.</span>
-                    {#if avatarOf(g.loser.manager)}<img class="av" src={avatarOf(g.loser.manager)} alt="" loading="lazy" on:error={hideBroken} />{/if}<span>{nameOf(g.loser.manager)} {g.loser.points}</span><YourTeamBadge handle={g.loser.manager} size="small" />
+                    {#if avatarOf(g.loser.manager)}<img class="av" src={avatarOf(g.loser.manager)} alt="" decoding="async" on:error={hideBroken} />{/if}<span>{nameOf(g.loser.manager)} {g.loser.points}</span><YourTeamBadge handle={g.loser.manager} size="small" />
                 </h3>
                 <p class="meta">
                     {h2h(g)} · <a href="/rivalries/{slugFor(g.winner.manager, g.loser.manager)}">rivalry page</a>
@@ -144,9 +144,9 @@
                     <tbody>
                         <tr><td>Best possible lineup</td><td>{g.winner.optimal}</td><td>{g.loser.optimal}</td></tr>
                         <tr><td>Left on the bench</td><td>{g.winner.left_on_bench}</td><td>{g.loser.left_on_bench}</td></tr>
-                        <tr><td>Top starter</td><td>{#if playerImg(g.winner.top[0])}<img class="ph" src={playerImg(g.winner.top[0])} alt="" loading="lazy" on:error={hideBroken} />{/if}{g.winner.top[0]?.name} {g.winner.top[0]?.pts}</td><td>{#if playerImg(g.loser.top[0])}<img class="ph" src={playerImg(g.loser.top[0])} alt="" loading="lazy" on:error={hideBroken} />{/if}{g.loser.top[0]?.name} {g.loser.top[0]?.pts}</td></tr>
-                        <tr><td>Best bench player</td><td>{#if playerImg(g.winner.best_bench)}<img class="ph" src={playerImg(g.winner.best_bench)} alt="" loading="lazy" on:error={hideBroken} />{/if}{g.winner.best_bench?.name ?? '—'} {g.winner.best_bench?.pts ?? ''}</td><td>{#if playerImg(g.loser.best_bench)}<img class="ph" src={playerImg(g.loser.best_bench)} alt="" loading="lazy" on:error={hideBroken} />{/if}{g.loser.best_bench?.name ?? '—'} {g.loser.best_bench?.pts ?? ''}</td></tr>
-                        <tr><td>Lowest starter</td><td>{#if playerImg(g.winner.worst_start)}<img class="ph" src={playerImg(g.winner.worst_start)} alt="" loading="lazy" on:error={hideBroken} />{/if}{g.winner.worst_start?.name} {g.winner.worst_start?.pts}</td><td>{#if playerImg(g.loser.worst_start)}<img class="ph" src={playerImg(g.loser.worst_start)} alt="" loading="lazy" on:error={hideBroken} />{/if}{g.loser.worst_start?.name} {g.loser.worst_start?.pts}</td></tr>
+                        <tr><td>Top starter</td><td>{#if playerImg(g.winner.top[0])}<img class="ph" src={playerImg(g.winner.top[0])} alt="" decoding="async" on:error={hideBroken} />{/if}{g.winner.top[0]?.name} {g.winner.top[0]?.pts}</td><td>{#if playerImg(g.loser.top[0])}<img class="ph" src={playerImg(g.loser.top[0])} alt="" decoding="async" on:error={hideBroken} />{/if}{g.loser.top[0]?.name} {g.loser.top[0]?.pts}</td></tr>
+                        <tr><td>Best bench player</td><td>{#if playerImg(g.winner.best_bench)}<img class="ph" src={playerImg(g.winner.best_bench)} alt="" decoding="async" on:error={hideBroken} />{/if}{g.winner.best_bench?.name ?? '—'} {g.winner.best_bench?.pts ?? ''}</td><td>{#if playerImg(g.loser.best_bench)}<img class="ph" src={playerImg(g.loser.best_bench)} alt="" decoding="async" on:error={hideBroken} />{/if}{g.loser.best_bench?.name ?? '—'} {g.loser.best_bench?.pts ?? ''}</td></tr>
+                        <tr><td>Lowest starter</td><td>{#if playerImg(g.winner.worst_start)}<img class="ph" src={playerImg(g.winner.worst_start)} alt="" decoding="async" on:error={hideBroken} />{/if}{g.winner.worst_start?.name} {g.winner.worst_start?.pts}</td><td>{#if playerImg(g.loser.worst_start)}<img class="ph" src={playerImg(g.loser.worst_start)} alt="" decoding="async" on:error={hideBroken} />{/if}{g.loser.worst_start?.name} {g.loser.worst_start?.pts}</td></tr>
                     </tbody>
                 </table>
                 {#if g.loser.optimal > g.winner.points}
@@ -163,7 +163,7 @@
 
         {#each byeStories as m (m.handle)}
             <section class="game">
-                <h3>{#if avatarOf(m.handle)}<img class="av" src={avatarOf(m.handle)} alt="" loading="lazy" on:error={hideBroken} />{/if}<span>{nameOf(m.handle)}</span><span class="d">on bye</span></h3>
+                <h3>{#if avatarOf(m.handle)}<img class="av" src={avatarOf(m.handle)} alt="" decoding="async" on:error={hideBroken} />{/if}<span>{nameOf(m.handle)}</span><span class="d">on bye</span></h3>
                 <div class="stories one"><NewsletterIssue {nl} recap={r} part="story" handle={m.handle} /></div>
             </section>
         {/each}
@@ -173,7 +173,7 @@
             <thead><tr><th>#</th><th>Manager</th>{#if hasDiv}<th>Div.</th>{/if}<th>W-L</th><th class="num">PF</th></tr></thead>
             <tbody>
                 {#each r.standings as s, i}
-                    <tr class:minerow={ready && s.manager === $myTeam}><td>{i + 1}</td><td>{#if avatarOf(s.manager)}<img class="av sm" src={avatarOf(s.manager)} alt="" loading="lazy" on:error={hideBroken} />{/if}{nameOf(s.manager)}<YourTeamBadge handle={s.manager} size="small" /></td>{#if hasDiv}<td>{divOf[s.manager] ?? ""}</td>{/if}<td>{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td><td class="num">{s.pf}</td></tr>
+                    <tr class:minerow={ready && s.manager === $myTeam}><td>{i + 1}</td><td>{#if avatarOf(s.manager)}<img class="av sm" src={avatarOf(s.manager)} alt="" decoding="async" on:error={hideBroken} />{/if}{nameOf(s.manager)}<YourTeamBadge handle={s.manager} size="small" /></td>{#if hasDiv}<td>{divOf[s.manager] ?? ""}</td>{/if}<td>{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</td><td class="num">{s.pf}</td></tr>
                 {/each}
             </tbody>
         </table>
