@@ -51,15 +51,15 @@ PLAYER_CACHE = os.path.join(os.path.expanduser("~"), ".cache", "league_page_play
 # Display-name renames that the vault data already folded together (FL Players).
 CANON = {"Austin7Rock": "RockMNwild", "Tongueohvaeloa": "TuanonStan"}
 
-# Real names, confirmed by T.J. 2026-09-08. Second value is the Yahoo name.
+# Real names, confirmed by T.J. 2026-09-08; John, Buckley, Nase per T.J. 2026-10-14. Second value is the Yahoo name.
 # Anyone not listed shows under their Sleeper display name.
 MANAGERS = {
     "triccster": ("T.J.", "T.J.R"), "brettmn13": ("Brett", "Brett"),
-    "Wallner": ("John Wallner", "John Wall"), "Colt45Johnson": ("Colt", "Colt"),
+    "Wallner": ("John", "John Wall"), "Colt45Johnson": ("Colt", "Colt"),
     "RockMNwild": ("Austin", "Austin"), "snelson91": ("Scott", "Scott"),
     "TuanonStan": ("James", "LordPmp"), "Jbird531": ("Joey", "Joey"),
-    "YoungBuck04": ("Zak", "zak"), "butterygoop": ("Anthony", "Anthony"),
-    "PapaMidnight": ("Mikey", "Mikey"), "thecreamer": ("Zach Nase", "zach"),
+    "YoungBuck04": ("Buckley", "zak"), "butterygoop": ("Anthony", "Anthony"),
+    "PapaMidnight": ("Mikey", "Mikey"), "thecreamer": ("Nase", "zach"),
     "J Rock": ("J Rock", "J Rock"), "Tyler": ("Tyler", "Tyler"),
     "DJ": ("DJ", "DJ"), "Mitchell": ("Mitchell", "Mitchell"),
 }

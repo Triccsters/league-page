@@ -634,13 +634,13 @@
        "@@Jbird531",
        "TE",
        "QB",
-       "QB 11 RB 8 WR 1 TE 7"
+       "QB 11 RB 8 WR 2 TE 7"
       ],
       [
        "@@PapaMidnight",
        "-",
        "QB, RB, TE",
-       "QB 10 RB 9 WR 2 TE 9"
+       "QB 10 RB 9 WR 1 TE 9"
       ],
       [
        "@@RockMNwild",
@@ -884,13 +884,13 @@
        7,
        "@@butterygoop",
        27.6,
-       "Bhayshul Tuten, DeVonta Smith, KC Concepcion"
+       "Bhayshul Tuten, DeVonta Smith, Chris Godwin"
       ],
       [
        8,
        "@@thecreamer",
        27.0,
-       "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
+       "Aaron Rodgers, Rome Odunze, Courtland Sutton"
       ],
       [
        9,
@@ -907,7 +907,7 @@
       [
        11,
        "@@Colt45Johnson",
-       19.6,
+       19.7,
        "TreVeyon Henderson, Kenny Gainwell, Deebo Samuel"
       ],
       [
@@ -1122,14 +1122,14 @@
        "@@snelson91",
        3,
        36.3,
-       "Sam LaPorta, Jahmyr Gibbs, Jake Bates"
+       "Jahmyr Gibbs, Sam LaPorta, Jake Bates"
       ],
       [
        6,
        "@@TuanonStan",
        2,
        27.4,
-       "Tee Higgins, Joe Burrow"
+       "Joe Burrow, Tee Higgins"
       ],
       [
        6,
@@ -1157,7 +1157,14 @@
        "@@RockMNwild",
        2,
        33.4,
-       "Parker Washington, Josh Allen"
+       "Josh Allen, Parker Washington"
+      ],
+      [
+       7,
+       "@@thecreamer",
+       2,
+       18.8,
+       "DJ Moore, Omarion Hampton"
       ],
       [
        7,
@@ -1171,21 +1178,21 @@
        "@@Wallner",
        2,
        32.5,
-       "Mike Evans, Brock Purdy"
+       "Brock Purdy, Mike Evans"
       ],
       [
        8,
        "@@PapaMidnight",
        3,
        30.7,
-       "Ka'imi Fairbairn, Nico Collins, Cam Skattebo"
+       "Ka'imi Fairbairn, Cam Skattebo, Nico Collins"
       ],
       [
        8,
        "@@Colt45Johnson",
        3,
        29.3,
-       "Tyler Shough, Malik Nabers, San Francisco 49ers"
+       "San Francisco 49ers, Tyler Shough, Malik Nabers"
       ]
      ]
     }

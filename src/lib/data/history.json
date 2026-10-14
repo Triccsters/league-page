@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T13:43:23+00:00",
+ "generated": "2026-10-14T16:28:30+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -377,12 +377,12 @@
    "hidden": false
   },
   "Wallner": {
-   "name": "John Wallner",
+   "name": "John",
    "yahoo": "John Wall",
    "hidden": false
   },
   "YoungBuck04": {
-   "name": "Zak",
+   "name": "Buckley",
    "yahoo": "zak",
    "hidden": false
   },
@@ -402,7 +402,7 @@
    "hidden": false
   },
   "thecreamer": {
-   "name": "Zach Nase",
+   "name": "Nase",
    "yahoo": "zach",
    "hidden": false
   },
