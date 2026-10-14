@@ -52,6 +52,9 @@
     })).sort((a, b) => b.value - a.value);
     $: games = r ? [...r.games].sort((a, b) =>
         (ready && [b.winner.manager, b.loser.manager].includes($myTeam)) - (ready && [a.winner.manager, a.loser.manager].includes($myTeam))) : [];
+    // a team on bye (13-team League Bound) has no matchup card; its story goes after them
+    $: byeStories = nl?.managers && r ? nl.managers.filter((m) =>
+        !r.games.some((g) => g.winner.manager === m.handle || g.loser.manager === m.handle)) : [];
     const h2h = (g) => {
         const [w, l] = g.h2h_before;
         if (!w && !l) return 'First ever meeting';
@@ -154,6 +157,13 @@
             </section>
         {/each}
 
+        {#each byeStories as m (m.handle)}
+            <section class="game">
+                <h3><span>{nameOf(m.handle)}</span><span class="d">on bye</span></h3>
+                <div class="stories one"><NewsletterIssue {nl} recap={r} part="story" handle={m.handle} /></div>
+            </section>
+        {/each}
+
         <h2>Standings after week {r.week}</h2>
         <table>
             <thead><tr><th>#</th><th>Manager</th><th>W-L</th><th class="num">PF</th></tr></thead>
@@ -193,6 +203,7 @@
     th, td { padding: 0.4em 0.5em; border-bottom: 1px solid rgba(127,127,127,0.25); text-align: left; font-size: 0.9em; }
     .num { text-align: right; }
     .stories { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8em; margin-top: 0.9em; }
+    .stories.one { grid-template-columns: 1fr; }
     @media (max-width: 700px) { .stories { grid-template-columns: 1fr; } }
     .h2s { font-size: 0.7em; font-weight: 400; opacity: 0.7; }
     .what-if { color: #e67e22; font-weight: 600; margin: 0.5em 0 0; }
