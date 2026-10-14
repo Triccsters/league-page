@@ -1,7 +1,7 @@
 {
  "slug": "2026-w05",
  "masthead": "FL Players Weekly",
- "tagline": "Written every Tuesday from the league's own numbers.",
+ "tagline": "The FL Players league newsletter · est. 2008",
  "headline": "Issue One: Two Byes, Six Playoff Spots and a Kicker Debate",
  "dek": "The first FL Players Weekly. Inside: Colt's perfect week, a kicker as Mikey's top scorer, the division races that decide the byes, the Kicker File, the brother bowl on Thursday, and every manager's story so far.",
  "lead": "Five weeks in, the league has drawn its own playoff line. The top six are all 3-2 or better and the bottom six are all 2-3 or worse. History says that line is stickier than it looks: in every season on record, teams at 3-2 after week 5 have made the playoffs 71% of the time, and teams at 2-3 only 36%.\n\nWeek 5 belonged to Colt, who set a perfect lineup and dropped 146.68 on a Scott team that scored 138.24 and lost anyway. James won the closest game of the week by 4.96 over T.J., Brett hung the biggest blowout of the week on the commissioner, and Mikey fell to 0-5 with his kicker as his top scorer.",
@@ -10,9 +10,9 @@
    "handle": "TuanonStan",
    "arc": "The front-runner",
    "mood": "up",
-   "text": "4-1, first in the standings and first in points (619.94). He beat T.J. by 4.96 behind Bucky Irving (30.5) and Joe Burrow (24.6), and he did it with Matthew Stafford's 27.32 sitting on his bench. Three straight wins, above the median in four of five weeks, and 94.3% playoff odds. His 4-1 starts have produced a title (2017) and a lost final (2016), and the one time he started 5-0, in 2019, he won the whole thing.",
-   "next": "Week 6: Austin, a rematch of the 2016 final that Austin won. Austin leads the series 15-10, but James is a 67.5% favorite.",
-   "outlook": "The favorite. Best title odds in the league, a top-two seed more often than not, and one of the easier schedules the rest of the way.",
+   "text": "4-1, first in the standings and first in points (619.94). He beat T.J. by 4.96 behind Bucky Irving (30.5) and Joe Burrow (24.6), and he did it with Matthew Stafford's 27.32 sitting on his bench. Three straight wins, above the median in four of five weeks, and 94% playoff odds. His 4-1 starts have produced a title (2017) and a lost final (2016), and the one time he started 5-0, in 2019, he won the whole thing.",
+   "next": "Week 6: Austin, a rematch of the 2016 final that Austin won. Austin leads the series 15-10, but James is a 68% favorite.",
+   "outlook": "Best title odds in the league, a top-two seed more often than not, and one of the easier schedules left.",
    "odds": {
     "playoff": 94.3,
     "bye": 61.3,
@@ -38,8 +38,8 @@
    "handle": "Jbird531",
    "arc": "Winning ugly",
    "mood": "up",
-   "text": "4-1 with only the seventh-most points in the league (527.54), and he has not cracked 120 once. That isn't luck so much as timing: he has been above the median in four of five weeks. Jaxon Smith-Njigba (20.3), Braelon Allen (18.1) and Tyler Warren (17.9) were plenty against Anthony, 118.70 to 89.20. Joey has started 4-1 three times before (2019, 2022, 2024). He made the playoffs every time and won it all in 2022.",
-   "next": "Week 6: Scott, a team he has beaten four straight times. The model still likes Scott, 62.8%.",
+   "text": "4-1 with only the seventh-most points in the league (527.54), and he has not cracked 120 once. He has been above the median in four of five weeks, so the wins aren't flukes. Jaxon Smith-Njigba (20.3), Braelon Allen (18.1) and Tyler Warren (17.9) were plenty against Anthony, 118.70 to 89.20. Joey has started 4-1 three times before (2019, 2022, 2024). He made the playoffs every time and won it all in 2022.",
+   "next": "Week 6: the brother bowl. Joey has beaten Scott four straight times, but the model likes Scott, 63%.",
    "outlook": "The schedule turns his way. He has faced the second-toughest slate so far and gets the easiest one left, which matters for a team that wins without big scores.",
    "odds": {
     "playoff": 75.4,
@@ -64,9 +64,9 @@
    "handle": "snelson91",
    "arc": "Too good to be 3-2",
    "mood": "flat",
-   "text": "Scott is the only manager who has been above the league median in all five weeks, and he is 3-2. This week he put up 138.24, the second-best score in the league, and ran straight into Colt's perfect lineup. Jahmyr Gibbs gave him 35.2, the top player of the week. David Montgomery gave him 1.1, about nine points under his average, in a game decided by 8.44. The good news: his three previous 3-2 starts all made the playoffs, and one of them (2015) ended with a ring.",
-   "next": "Week 6: Joey, who has won the last four in this series. Scott is a 62.8% favorite anyway.",
-   "outlook": "Built to last. The model rates his weekly scoring among the top three, and second-best title odds say the two losses were bad timing, not a bad team.",
+   "text": "Scott is the only manager who has been above the league median in all five weeks, and he is 3-2. This week he put up 138.24, the second-best score in the league, and ran straight into Colt's perfect lineup. Jahmyr Gibbs gave him 35.2, the top player of the week. David Montgomery gave him 1.1, about nine points under his average, in a game decided by 8.44. His three previous 3-2 starts all made the playoffs, and one of them (2015) ended with a title.",
+   "next": "Week 6: the brother bowl. Joey has won the last four, and Scott is a 63% favorite anyway.",
+   "outlook": "The model rates his weekly scoring in the top three, and he has the second-best title odds. The two losses look like bad timing more than a bad team.",
    "odds": {
     "playoff": 86.3,
     "bye": 39.9,
@@ -91,8 +91,8 @@
    "arc": "The defending champ",
    "mood": "down",
    "text": "The 2025 champion opened with 167.82, still the high score of the season, and has cooled since. This week was 89.20 in a 29.50 loss to Joey, with Isaiah Likely (26.9) the only starter over 20. He is still 3-2 with the third-most points, and his last three 3-2 starts (2018, 2022, 2025) all made the playoffs. The last one is why he is the defending champ.",
-   "next": "Week 6: Colt. Anthony has won four straight in this series and is a 58.1% favorite.",
-   "outlook": "Safe, not dominant. A top-three scoring team with a middle-of-the-road schedule left; another 167 would help, a few more 89s would not.",
+   "next": "Week 6: Colt. Anthony has won four straight in this series and is a 58% favorite.",
+   "outlook": "A top-three scoring team with an average schedule left. Another 167 would help. A few more 89s would not.",
    "odds": {
     "playoff": 82.0,
     "bye": 33.1,
@@ -120,9 +120,9 @@
    "handle": "Colt45Johnson",
    "arc": "Perfect",
    "mood": "up",
-   "text": "Every starter right, nothing left on the bench, 146.68 points and the top score of the week. Puka Nacua (29.2), Jacoby Brissett (24.78) and Malik Nabers (23.6) did the heavy lifting against Scott. That is two straight wins after a 68.90 in week 2. For a man who chirps for a living, this is the week he has earned the right to.",
-   "next": "Week 6: Anthony, who has won the last four meetings. Colt is at 41.9%.",
-   "outlook": "On the bubble's good side. Two out of three seasons from here end in the playoffs. Keeping the lineup calls perfect is optional, but it helps.",
+   "text": "Every starter right, nothing left on the bench, 146.68 points and the top score of the week. Puka Nacua (29.2), Jacoby Brissett (24.78) and Malik Nabers (23.6) did the heavy lifting against Scott. That is two straight wins after a 68.90 in week 2. Colt chirps every week. This week he backed it up.",
+   "next": "Week 6: Anthony, who has won the last four meetings. Colt is at 42%.",
+   "outlook": "Two out of three simulated seasons end with him in the playoffs. Keeping the lineup perfect is optional, but it helps.",
    "odds": {
     "playoff": 66.0,
     "bye": 16.3,
@@ -147,9 +147,9 @@
    "handle": "thecreamer",
    "arc": "Borrowed time",
    "mood": "down",
-   "text": "3-2 with the 11th-most points in the league (489.76). One of his three wins came in a week he finished under the median, and week 5 was 77.40, the quietest score in the league, with Aaron Rodgers (22.0) doing most of the work in a 27.20 loss to Austin. He has started 3-2 twice before (2014, 2021) and missed the playoffs both times. The odds have him at 34.2%.",
-   "next": "Week 6: T.J., who leads the series 9-7 and has won the last two. Nase is at 41.5%.",
-   "outlook": "The hardest road in the league. Toughest remaining schedule and the second-lowest projected weekly score, which is how a 3-2 team ends up a long shot.",
+   "text": "3-2 with the 11th-most points in the league (489.76). One of his three wins came in a week he finished under the median, and week 5 was 77.40, the quietest score in the league, with Aaron Rodgers (22.0) doing most of the work in a 27.20 loss to Austin. He has started 3-2 twice before (2014, 2021) and missed the playoffs both times. The odds have him at 34%.",
+   "next": "Week 6: T.J., who leads the series 9-7 and has won the last two. Nase is at 42%.",
+   "outlook": "The toughest schedule left in the league and the second-lowest projected weekly score. That is how a 3-2 team ends up a long shot.",
    "odds": {
     "playoff": 34.2,
     "bye": 4.7,
@@ -174,9 +174,9 @@
    "handle": "triccster",
    "arc": "Benched the answer",
    "mood": "down",
-   "text": "Lost to James by 4.96 with Jayden Daniels scoring 32.26 on his bench and CeeDee Lamb scoring 1.9 in his lineup, about 21.5 under his average. Only the Lamb call flips it: Wan'Dale Robinson scored 8.3 on the bench. Daniels over Jared Goff (28.94) would have closed the gap to 1.64. Four finals, no title, and now 2-3. History isn't kind here: one playoff trip in five previous 2-3 starts, and that was 2010. The points say he's better than his record, fifth in the league in scoring with 48.1% playoff odds.",
-   "next": "Week 6: Nase. T.J. is a 58.5% favorite and has won the last two.",
-   "outlook": "A coin flip with a friendly schedule. Second-easiest remaining slate after one of the toughest so far; the lineup calls are the swing factor.",
+   "text": "Lost to James by 4.96 with Jayden Daniels scoring 32.26 on his bench and CeeDee Lamb scoring 1.9 in his lineup, about 21.5 under his average. Only the Lamb call flips it: Wan'Dale Robinson scored 8.3 on the bench. Daniels over Jared Goff (28.94) would have closed the gap to 1.64. Four finals, no title, and now 2-3. History isn't kind here: one playoff trip in five previous 2-3 starts, and that was 2010. The points say he's better than his record, fifth in the league in scoring with 48% playoff odds.",
+   "next": "Week 6: Nase. T.J. is a 58% favorite and has won the last two.",
+   "outlook": "The second-easiest schedule left, after one of the toughest so far. His lineup calls will decide it.",
    "odds": {
     "playoff": 48.1,
     "bye": 7.4,
@@ -208,8 +208,8 @@
    "handle": "Wallner",
    "arc": "Board duty, bench duty",
    "mood": "up",
-   "text": "Two straight wins after an 0-3 start, and he still left 33.10 points on the bench, the most in the league. Drake Maye scored 39.46 sitting down, the same Drake Maye he has drafted in two different seasons. He beat Mikey 109.26 to 77.84 anyway behind Mike Evans (22.8) and James Cook (22.3). Board duty is his this year. The bench, apparently, is his too.",
-   "next": "Week 6: Buckley, who leads the series 10-9. John is a 57.1% favorite.",
+   "text": "Two straight wins after an 0-3 start, and he still left 33.10 points on the bench, the most in the league. Drake Maye scored 39.46 sitting down, the same Drake Maye he has drafted in two different seasons. He beat Mikey 109.26 to 77.84 anyway behind Mike Evans (22.8) and James Cook (22.3). Board duty is his this year.",
+   "next": "Week 6: Buckley, who leads the series 10-9. John is a 57% favorite.",
    "outlook": "The model rates his weekly scoring sixth in the league, better than a 2-3 record. A top-four hardest schedule from here doesn't help.",
    "odds": {
     "playoff": 40.4,
@@ -232,9 +232,9 @@
    "handle": "brettmn13",
    "arc": "Back in the fight",
    "mood": "up",
-   "text": "Brett handed the commissioner a 132.94 to 93.10 beating, the biggest blowout of the week at 39.84, with Jaylen Warren (33.8) leading the way. It snapped a three-game skid and got him to 2-3. Week 5 owed him one: in 2019 he lost a week 5 game 224.06 to 98.64 to James, still the highest week 5 score on record. This year he was on the right end of it.",
-   "next": "Week 6: Mikey, whose best player last week was a kicker. Brett has won four straight in this series and is at 55.3%.",
-   "outlook": "Needs a run. A top-three hardest remaining schedule and a projection around six wins.",
+   "text": "Brett handed the commissioner a 132.94 to 93.10 beating, the biggest blowout of the week at 39.84, with Jaylen Warren (33.8) leading the way. It snapped a three-game skid and got him to 2-3. In 2019 he was on the wrong end of the biggest week 5 score on record, 224.06 to 98.64 against James. This year he handed one out.",
+   "next": "Week 6: Mikey, whose best player last week was a kicker. Brett has won four straight in this series and is at 55%.",
+   "outlook": "A top-three hardest schedule left and a projection of about six wins.",
    "odds": {
     "playoff": 27.1,
     "bye": 2.5,
@@ -256,9 +256,9 @@
    "handle": "YoungBuck04",
    "arc": "The commish is slipping",
    "mood": "down",
-   "text": "Two straight losses, under the median in four of five weeks, and a 39.84 point beating from Brett. Davante Adams (19.6) led a lineup that left 12.10 on the bench, with Blake Corum scoring 14.7 there. The only other time Buckley sat at 2-3 after five weeks was 2018, and he reached the final that year. He would take that. The odds give him 20.4% to make the playoffs at all. SKOL anyway.",
-   "next": "Week 6: John. Buckley leads the series 10-9 but is at 42.9%.",
-   "outlook": "Second-hardest schedule left and a one-in-five shot. The commissioner needs wins against the bottom half to stay alive.",
+   "text": "Two straight losses, under the median in four of five weeks, and a 39.84 point beating from Brett. Davante Adams (19.6) led a lineup that left 12.10 on the bench, with Blake Corum scoring 14.7 there. The only other time Buckley sat at 2-3 after five weeks was 2018, and he reached the final that year. The odds give him 20% to make the playoffs at all. SKOL anyway.",
+   "next": "Week 6: John. Buckley leads the series 10-9 but is at 43%.",
+   "outlook": "The second-hardest schedule left and about a one-in-five shot. He needs wins against the bottom half.",
    "odds": {
     "playoff": 20.4,
     "bye": 1.9,
@@ -284,9 +284,9 @@
    "handle": "RockMNwild",
    "arc": "2-3, his favorite number",
    "mood": "flat",
-   "text": "Austin won 104.60 to 77.40 while scoring under the week's median of 113.98, the luckiest win of the week. Josh Allen (30.5) and Parker Washington (27.4) carried it. 2-3 is practically tradition for Austin: seven previous 2-3 starts, and two of them ended in the final, including the 2018 title. Four rings say don't count him out. The odds (22.8%) count him out a little.",
-   "next": "Week 6: James, the man he beat in the 2016 final. Austin leads the series 15-10 but is at 32.5%.",
-   "outlook": "Long odds, short memory. Four rings say he knows how to finish; the projection says about six wins.",
+   "text": "Austin won 104.60 to 77.40 while scoring under the week's median of 113.98, the luckiest win of the week. Josh Allen (30.5) and Parker Washington (27.4) carried it. 2-3 is practically tradition for Austin: seven previous 2-3 starts, and two of them ended in the final, including the 2018 title. He has four titles, so nobody should count him out, even if the odds (23%) mostly do.",
+   "next": "Week 6: James, the man he beat in the 2016 final. Austin leads the series 15-10 but is at 32%.",
+   "outlook": "The projection says about six wins.",
    "odds": {
     "playoff": 22.8,
     "bye": 2.0,
@@ -311,9 +311,9 @@
    "handle": "PapaMidnight",
    "arc": "Searching for one",
    "mood": "down",
-   "text": "0-5, and his top scorer this week was his kicker, Ka'imi Fairbairn, with 14.0. Pat Freiermuth scored 19.0 on his bench in a 31.42 loss to John. Ten teams on record have started 0-5 in this league and none of them made the playoffs. The odds give Mikey 3.0%, and a 54.8% chance at last place. Week 4 was the heartbreaker, a 1.72 loss to Anthony, so the first win isn't far off.",
-   "next": "Week 6: Brett, who has won four straight in this series. Mikey is at 44.7%.",
-   "outlook": "He has faced the toughest schedule in the league so far, and it eases from here. Last place is still the likelier finish, but the first win is close.",
+   "text": "0-5, and his top scorer this week was his kicker, Ka'imi Fairbairn, with 14.0. Pat Freiermuth scored 19.0 on his bench in a 31.42 loss to John. Ten teams on record have started 0-5 in this league and none of them made the playoffs. The odds give Mikey 3%, and a 55% chance at last place. Week 4 was the heartbreaker, a 1.72 loss to Anthony, so the first win isn't far off.",
+   "next": "Week 6: Brett, who has won four straight in this series. Mikey is at 45%.",
+   "outlook": "He has faced the toughest schedule in the league so far, and it eases from here.",
    "odds": {
     "playoff": 3.0,
     "bye": 0.1,
@@ -338,10 +338,6 @@
  ],
  "trends": [
   {
-   "title": "The line is already drawn",
-   "text": "Six teams at 3-2 or better, six at 2-3 or worse, and six make the playoffs. In every season on record, 81% of 4-1 teams and 71% of 3-2 teams made it, against 36% of 2-3 teams and 12% of 1-4 teams."
-  },
-  {
    "title": "Points are up",
    "text": "The league is averaging 108.0 a team through five weeks, the most since 2021 (114.9). The weekly average has gone up every week since a 101.2 in week 2, and hit 111.0 in week 5."
   },
@@ -358,15 +354,11 @@
   {
    "title": "Week 5, all time",
    "text": "The highest week 5 score on record is James's 224.06 against Brett in 2019, a 125.42 point margin. The closest week 5 game was Buckley over Colt in 2023, 116.48 to 116.14."
-  },
-  {
-   "title": "The 0-5 club",
-   "text": "Ten teams on record have started 0-5 in this league. None of them made the playoffs."
   }
  ],
  "ahead": "Game of the week: James and Austin, a Division 2 game and a rematch of the 2016 final. Also worth watching: the brother bowl, where Joey goes for five straight over his brother Scott (Joey leads the series 10-5), Anthony goes for five straight over Colt, and Brett gets Mikey, whose best player last week was a kicker. Brett would like that noted.",
  "moves": {
-  "intro": "Five weeks in, one trade and a busy free-agent market. Here is what moved and what it has done since.",
+  "intro": "One trade and a busy waiver wire through five weeks. Here's how the moves have worked out.",
   "items": [
    {
     "kind": "trade",
@@ -375,7 +367,7 @@
      "brettmn13"
     ],
     "title": "The only trade of the season",
-    "text": "Week 1: T.J. sent Travis Etienne and Garrett Wilson to Brett for CeeDee Lamb and J.K. Dobbins. Five weeks later T.J. has started 119.8 points from his side (Lamb 95.6 in five starts, Dobbins 24.2 in three) and Brett has started 88.3 from his (Wilson 70.9 in five, Etienne 17.4 in two, and zeros in weeks 4 and 5). The catch: Lamb's worst week, 1.9, came in a 4.96 point loss.",
+    "text": "Week 1: T.J. sent Travis Etienne and Garrett Wilson to Brett for CeeDee Lamb and J.K. Dobbins. Five weeks later T.J. has started 119.8 points from his side (Lamb 95.6 in five starts, Dobbins 24.2 in three) and Brett has started 88.3 from his (Wilson 70.9 in five, Etienne 17.4 in two, and zeros in weeks 4 and 5). Lamb's worst week, 1.9, came in a 4.96 point loss.",
     "verdict": "T.J. by about 31 started points. Wilson is the piece keeping it close."
    },
    {
@@ -2099,7 +2091,7 @@
     },
     {
      "type": "p",
-     "text": "Interesting that the manager loudest about getting rid of kickers has scored the most from the position this year."
+     "text": "The manager who most wants kickers gone has scored the most from the position this year."
     },
     {
      "type": "table",
