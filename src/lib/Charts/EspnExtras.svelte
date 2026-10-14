@@ -49,6 +49,19 @@
         <p class="note">Each team's current starting lineup, using ESPN's projections in this league's scoring.</p>
         <HBarChart items={nextBars} ariaLabel="ESPN projected points next week" />
 
+        {#if d.upside && d.upside.length}
+            <h3>Biggest boom potential in week {d.next_week}</h3>
+            <p class="note">ESPN's projection and its ceiling for each player. The bigger the gap, the more room for a boom.</p>
+            <div class="scroll">
+                <table>
+                    <thead><tr><th>Player</th><th>Team</th><th class="num">Proj</th><th class="num">Ceiling</th><th class="num">Room</th></tr></thead>
+                    <tbody>
+                        {#each d.upside as p}<tr class:mine={ready && p.h === $myTeam}><td><b>{p.n}</b> <span class="muted">{p.p}{p.start ? '' : ', bench'}</span></td><td>{nameOf(p.h)}</td><td class="num">{p.proj}</td><td class="num">{p.ceil}</td><td class="num pos">+{(p.ceil - p.proj).toFixed(1)}</td></tr>{/each}
+                    </tbody>
+                </table>
+            </div>
+        {/if}
+
         <h3>Busiest on the wire</h3>
         <div class="scroll">
             <table>

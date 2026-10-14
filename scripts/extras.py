@@ -720,4 +720,12 @@ def build_all(ctx):
         out["trending"] = len(I.build_trending(ctx)["add"])
     except Exception as e:
         print("trending failed:", e)
+    # power rankings (power.py): projections, scoring and all-play, built here
+    # instead of in the visitor's browser
+    try:
+        import power as P
+        pw = P.build_power(ctx)
+        out["power_weeks_left"] = pw["weeks_left"]
+    except Exception as e:
+        print("power failed:", e)
     return out

@@ -9,6 +9,7 @@
     import HBarChart from '$lib/Charts/HBarChart.svelte';
     import StripChart from '$lib/Charts/StripChart.svelte';
     import EspnExtras from '$lib/Charts/EspnExtras.svelte';
+    import BoomBust from '$lib/Charts/BoomBust.svelte';
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -106,6 +107,8 @@
             {/each}
         {/each}
     {/if}
+
+    {#if data.boombust && data.boombust.players.length}<BoomBust bb={data.boombust} />{/if}
 
     <h2>Weekly scores, every team</h2>
     <p class="note">One dot per week. A tight row is a steady team; a wide one is boom or bust. Sorted by median score; the line is each team's median.</p>

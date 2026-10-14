@@ -3,109 +3,109 @@
  "rostered_known": true,
  "add": [
   {
-   "n": "Keon Coleman",
-   "p": "WR",
-   "t": "BUF",
-   "c": 3566799,
-   "h": "PapaMidnight"
+   "n": "Dameon Pierce",
+   "p": "RB",
+   "t": "PHI",
+   "c": 3585216,
+   "h": "Wallner"
   },
   {
    "n": "Dohnte Meyers",
    "p": "WR",
    "t": "CIN",
-   "c": 3484197,
+   "c": 3112371,
    "h": "brettmn13"
   },
   {
-   "n": "Dameon Pierce",
-   "p": "RB",
-   "t": "PHI",
-   "c": 3160440,
-   "h": "Wallner"
-  },
-  {
-   "n": "Roman Wilson",
+   "n": "Keon Coleman",
    "p": "WR",
-   "t": "PIT",
-   "c": 2858850,
-   "h": null
+   "t": "BUF",
+   "c": 3100212,
+   "h": "PapaMidnight"
   },
   {
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 2493135,
+   "c": 2739465,
    "h": "PapaMidnight"
+  },
+  {
+   "n": "Roman Wilson",
+   "p": "WR",
+   "t": "PIT",
+   "c": 2705859,
+   "h": null
   },
   {
    "n": "Darius Cooper",
    "p": "WR",
    "t": "PHI",
-   "c": 2119810,
+   "c": 2177042,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1995354,
+   "c": 1993329,
    "h": null
   },
   {
    "n": "Brenton Strange",
    "p": "TE",
    "t": "JAX",
-   "c": 1487997,
+   "c": 1628064,
    "h": "Colt45Johnson"
   },
   {
    "n": "Keaton Mitchell",
    "p": "RB",
    "t": "LAC",
-   "c": 1455768,
+   "c": 1371555,
    "h": "triccster"
   },
   {
-   "n": "Jacksonville Jaguars",
+   "n": "New England Patriots",
    "p": "DEF",
-   "t": "JAX",
-   "c": 1413636,
-   "h": "butterygoop"
+   "t": "NE",
+   "c": 1370012,
+   "h": null
   },
   {
    "n": "Kirk Cousins",
    "p": "QB",
    "t": "LV",
-   "c": 1402616,
+   "c": 1354968,
    "h": null
+  },
+  {
+   "n": "Roschon Johnson",
+   "p": "RB",
+   "t": "CHI",
+   "c": 1309648,
+   "h": null
+  },
+  {
+   "n": "Jacksonville Jaguars",
+   "p": "DEF",
+   "t": "JAX",
+   "c": 1296720,
+   "h": "butterygoop"
   },
   {
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 1386999,
+   "c": 1193319,
    "h": "thecreamer"
   },
   {
    "n": "Will Shipley",
    "p": "RB",
    "t": "PHI",
-   "c": 1310586,
+   "c": 1121584,
    "h": "RockMNwild"
-  },
-  {
-   "n": "Roschon Johnson",
-   "p": "RB",
-   "t": "CHI",
-   "c": 1299896,
-   "h": null
-  },
-  {
-   "n": "New England Patriots",
-   "p": "DEF",
-   "t": "NE",
-   "c": 1222193,
-   "h": null
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "Dohnte Meyers",
    "p": "WR",
    "t": "CIN",
-   "c": 1619163,
+   "c": 1736424,
    "h": "brettmn13"
   },
   {
    "n": "Roman Wilson",
    "p": "WR",
    "t": "PIT",
-   "c": 1365363,
+   "c": 1509435,
    "h": null
   },
   {
    "n": "Kenyon Sadiq",
    "p": "TE",
    "t": "NYJ",
-   "c": 1353924,
+   "c": 1398249,
    "h": null
   },
   {
    "n": "Darren Waller",
    "p": "TE",
    "t": "CAR",
-   "c": 1294560,
+   "c": 1219905,
    "h": null
   },
   {
    "n": "Jauan Jennings",
    "p": "WR",
    "t": "MIN",
-   "c": 850388,
-   "h": null
-  },
-  {
-   "n": "Quentin Johnston",
-   "p": "WR",
-   "t": "LAC",
-   "c": 803957,
+   "c": 812035,
    "h": null
   },
   {
    "n": "Tyreek Hill",
    "p": "WR",
    "t": null,
-   "c": 789464,
+   "c": 807488,
    "h": "triccster"
+  },
+  {
+   "n": "Quentin Johnston",
+   "p": "WR",
+   "t": "LAC",
+   "c": 792771,
+   "h": null
   },
   {
    "n": "Courtland Sutton",
    "p": "WR",
    "t": "DEN",
-   "c": 721215,
+   "c": 711324,
    "h": "thecreamer"
-  },
-  {
-   "n": "Adonai Mitchell",
-   "p": "WR",
-   "t": "NYJ",
-   "c": 706480,
-   "h": "thecreamer"
-  },
-  {
-   "n": "Isaiah Davis",
-   "p": "RB",
-   "t": "NYJ",
-   "c": 696042,
-   "h": null
-  },
-  {
-   "n": "Michael Pittman",
-   "p": "WR",
-   "t": "PIT",
-   "c": 691995,
-   "h": null
   },
   {
    "n": "Jordan Addison",
    "p": "WR",
    "t": "MIN",
-   "c": 689481,
+   "c": 701586,
    "h": "Wallner"
   },
   {
-   "n": "Konata Mumpfield",
+   "n": "Adonai Mitchell",
    "p": "WR",
-   "t": "LAR",
-   "c": 650430,
+   "t": "NYJ",
+   "c": 695848,
+   "h": "thecreamer"
+  },
+  {
+   "n": "Michael Pittman",
+   "p": "WR",
+   "t": "PIT",
+   "c": 678700,
+   "h": null
+  },
+  {
+   "n": "Isaiah Davis",
+   "p": "RB",
+   "t": "NYJ",
+   "c": 653274,
    "h": null
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 646632,
+   "c": 629464,
    "h": null
   },
   {
-   "n": "Harrison Butker",
-   "p": "K",
-   "t": "KC",
-   "c": 623808,
+   "n": "Konata Mumpfield",
+   "p": "WR",
+   "t": "LAR",
+   "c": 627840,
+   "h": null
+  },
+  {
+   "n": "Cleveland Browns",
+   "p": "DEF",
+   "t": "CLE",
+   "c": 618429,
    "h": null
   }
  ]

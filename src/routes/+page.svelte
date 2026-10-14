@@ -4,6 +4,7 @@
 	import { Transactions, PowerRankings, HomePost} from '$lib/components';
 	import ThisWeek from '$lib/Charts/ThisWeek.svelte';
 	import HomeHero from '$lib/Charts/HomeHero.svelte';
+	import PowerBoard from '$lib/Charts/PowerBoard.svelte';
 	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
@@ -151,7 +152,7 @@
             {/if}
         </div>
         <HomeHero />
-        <PowerRankings />
+        <PowerBoard />
         <ThisWeek />
         <HelpWanted />
     </div>

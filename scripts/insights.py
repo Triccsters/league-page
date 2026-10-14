@@ -87,6 +87,7 @@ def build_insights(ctx):
     teams = {}
     pos_week = defaultdict(dict)          # handle -> week -> {pos: pts}
     players_week = []                      # per started player: proj vs actual
+    every_player = []                      # (week, pid, handle, proj, actual, started)
     feed_ok = True
     n_started = n_proj = n_pos = 0          # coverage, so a bad id map is reported, not drawn
     for w in weeks:
@@ -102,6 +103,11 @@ def build_insights(ctx):
                 continue
             t = teams.setdefault(h, {"weeks": []})
             pp = m.get("players_points") or {}
+            starters_set = set(m.get("starters") or [])
+            for pid, act_all in pp.items():       # every rostered player, for boom or bust
+                pjv = score(proj.get(pid))
+                if pjv is not None:
+                    every_player.append((w, pid, h, pjv, round(act_all or 0, 2), pid in starters_set))
             p_tot, a_tot, unproj, groups = 0.0, 0.0, [], defaultdict(float)
             for pid in m.get("starters") or []:
                 if not pid or pid == "0":
@@ -169,9 +175,79 @@ def build_insights(ctx):
         "week_worst": lw[:8],
         "source": ("ESPN's own projections for this league" if shim_dir
                    else "Sleeper projections, re-scored with this league's scoring"),
+        "boombust": _boom_bust(every_player, S) if proj_ok else None,
     }
     write_json(out_path, out)
     return out
+
+
+BOOM_MIN_PROJ = 4.0      # a week projected under this says nothing either way
+
+
+def _week_call(proj, act):
+    """'boom', 'bust' or None for one player-week, measured against his own
+    projection: a boom beats it by half again and by 8+ points, a bust scores
+    under half of it."""
+    if proj < BOOM_MIN_PROJ:
+        return None
+    if act >= max(proj * 1.5, proj + 8):
+        return "boom"
+    if act <= proj * 0.5:
+        return "bust"
+    return None
+
+
+def _boom_bust(rows, S):
+    """Per player and per team, how often weeks land far from the projection.
+
+    Every rostered player counts, bench included, because a bench boom is still
+    a boom; the team view counts starters only, because that is what scored.
+    """
+    by_player = defaultdict(list)
+    holder = {}
+    for w, pid, h, pj, act, st in sorted(rows):
+        by_player[pid].append((w, pj, act))
+        holder[pid] = h                   # the latest week's holder
+    players = []
+    for pid, wk in by_player.items():
+        calls = [_week_call(pj, act) for _w, pj, act in wk]
+        n = sum(1 for _w, pj, _a in wk if pj >= BOOM_MIN_PROJ)
+        if n < 3:
+            continue
+        boom, bust = calls.count("boom"), calls.count("bust")
+        bp, sp = boom / n, bust / n
+        if bp >= 0.3 and sp >= 0.3:
+            label = "Boom or bust"
+        elif bp >= 0.35 and sp < 0.2:
+            label = "Booming"
+        elif sp >= 0.4:
+            label = "Busting"
+        elif bp < 0.2 and sp < 0.2:
+            label = "Steady"
+        else:
+            label = "Mixed"
+        info = S.pinfo(pid)
+        acts = [a for _w, pj, a in wk if pj >= BOOM_MIN_PROJ]
+        pjs = [pj for _w, pj, _a in wk if pj >= BOOM_MIN_PROJ]
+        players.append({"n": info["name"], "p": info["pos"], "h": holder[pid], "g": n,
+                        "avg": round(statistics.mean(acts), 1), "proj": round(statistics.mean(pjs), 1),
+                        "hi": round(max(acts), 1), "lo": round(min(acts), 1),
+                        "boom": boom, "bust": bust, "label": label})
+    players.sort(key=lambda p: (-(p["boom"] + p["bust"]) / p["g"], -p["avg"]))
+    teams = defaultdict(lambda: {"starts": 0, "boom": 0, "bust": 0})
+    for w, pid, h, pj, act, st in rows:
+        if not st:
+            continue
+        c = _week_call(pj, act)
+        if pj >= BOOM_MIN_PROJ:
+            teams[h]["starts"] += 1
+        if c:
+            teams[h][c] += 1
+    return {"players": players,
+            "teams": sorted(({"h": h, **v} for h, v in teams.items()),
+                            key=lambda t: -(t["boom"] - t["bust"])),
+            "rule": "Boom: beat his projection by half again and by 8 or more. "
+                    "Bust: under half his projection. Weeks projected under 4 don't count."}
 
 
 def _position_surprises(pos_week, weeks):
