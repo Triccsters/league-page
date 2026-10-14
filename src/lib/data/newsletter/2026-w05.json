@@ -1610,5 +1610,626 @@
     ]
    }
   ]
- }
+ },
+ "features": [
+  {
+   "id": "record-book",
+   "style": "help",
+   "place": "before-lead",
+   "label": "Calling the league",
+   "title": "Help finish the record book",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The site has every FL Players game on record back to 2008, 1,504 of them. Two seasons and a handful of teams are still blank. If you know any of it, tell T.J. in the chat."
+    },
+    {
+     "type": "h",
+     "text": "Missing seasons"
+    },
+    {
+     "type": "list",
+     "items": [
+      "2009 and 2011. There was no FL Players league on T.J.'s Yahoo account those years, so the site has no scores, standings or champions. If you were in it and still have the Yahoo league, the league ID or a screenshot fills it in.",
+      "Before 2008. If the league goes back further, same ask."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Teams with a hidden manager"
+    },
+    {
+     "type": "p",
+     "text": "Yahoo hides the manager on these teams, so the site lists them by team name. Records are regular season."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Season",
+      "Team",
+      "Record",
+      "What we know"
+     ],
+     "rows": [
+      [
+       "2008",
+       "Broncos",
+       "8-6",
+       "Lost the final to DJ, 100-77. Same Yahoo account as 0 Breaks Given in 2012. T.J. thinks this was John."
+      ],
+      [
+       "2008",
+       "vikes",
+       "5-9",
+       "No leads yet"
+      ],
+      [
+       "2008",
+       "kicked out next year",
+       "3-11",
+       "No leads yet"
+      ],
+      [
+       "2010",
+       "Broncos",
+       "8-5",
+       "Won the title, 87-68 over DJ. Same team name and account as 2008."
+      ],
+      [
+       "2010",
+       "Quool",
+       "5-8",
+       "T.J. remembers this as Brandon Erickson."
+      ],
+      [
+       "2010",
+       "da best",
+       "6-7",
+       "No leads yet"
+      ],
+      [
+       "2010",
+       "The Guru's",
+       "6-7",
+       "No leads yet"
+      ],
+      [
+       "2010",
+       "Minnesota 69ers",
+       "2-11",
+       "No leads yet"
+      ],
+      [
+       "2012",
+       "0 Breaks Given",
+       "5-6-2",
+       "Yahoo lists Colt as a co-manager."
+      ],
+      [
+       "2012",
+       "Murphadelic",
+       "6-5-2",
+       "Yahoo lists Tom as a co-manager. Made the playoffs."
+      ],
+      [
+       "2012",
+       "2012 champ",
+       "7-6",
+       "Made the playoffs. Not the champion: Austin won 2012. Played again in 2013."
+      ],
+      [
+       "2012",
+       "bELIeve No More",
+       "5-8",
+       "No leads yet"
+      ],
+      [
+       "2012",
+       "PackNation",
+       "2-11",
+       "Maybe Scotty?"
+      ],
+      [
+       "2013",
+       "2012 champ",
+       "8-5",
+       "Made the playoffs, lost to Brett 142.52 to 124.02."
+      ],
+      [
+       "2013",
+       "suit and a TIE",
+       "4-9",
+       "Same Yahoo account as Murphadelic in 2012."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Also open"
+    },
+    {
+     "type": "list",
+     "items": [
+      "John played every year, but his name only shows up from 2013. Which teams were yours before that?",
+      "DJ has named teams in 2008, 2010 and 2013. Were you in the league in 2012, and which team?"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Once a team is confirmed, the site moves its record, playoff games and any title to the right person."
+    }
+   ]
+  },
+  {
+   "id": "kicker-file",
+   "style": "article",
+   "place": "after-lead",
+   "label": "Feature",
+   "title": "The Kicker File, Vol. 1",
+   "dek": "The data, not a verdict.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Kickers come up in the chat every year, so here's the data. The test: take both kickers out of a game's box score and see whether the other team would have won. Since 2014, that's happened in 65 of 1,164 games, about one in 18. The records before 2014 only have season totals, so they can't be checked."
+    },
+    {
+     "type": "h",
+     "text": "Games decided by kickers, by season"
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Season",
+      "Games decided",
+      "Playoff games among them"
+     ],
+     "rows": [
+      [
+       "2014",
+       "8",
+       "none"
+      ],
+      [
+       "2015",
+       "6",
+       "none"
+      ],
+      [
+       "2016",
+       "4",
+       "none"
+      ],
+      [
+       "2017",
+       "7",
+       "3, all losers bracket: Tyler over T.J., Scott over Nase, Joey over Mikey"
+      ],
+      [
+       "2018",
+       "3",
+       "1 semifinal: Buckley over Scott, kickers 9 to 5"
+      ],
+      [
+       "2019",
+       "3",
+       "1 losers bracket: Buckley over Anthony"
+      ],
+      [
+       "2020",
+       "5",
+       "none"
+      ],
+      [
+       "2021",
+       "3",
+       "none"
+      ],
+      [
+       "2022",
+       "3",
+       "none"
+      ],
+      [
+       "2023",
+       "9 (most)",
+       "1 semifinal: Scott over Austin, 15 to 6 · 1 losers bracket: Nase over T.J."
+      ],
+      [
+       "2024",
+       "8",
+       "1 losers bracket: Anthony over Nase"
+      ],
+      [
+       "2025",
+       "5",
+       "1 semifinal: Austin over T.J., 12 to 3, by 2.40"
+      ],
+      [
+       "2026",
+       "1 so far",
+       "Joey over John in week 2, 15 to 8"
+      ],
+      [
+       "Total",
+       "65",
+       "9 playoff games: 3 semifinals, 6 losers bracket, no championships"
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Who kickers have cost, and who they've carried"
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Manager",
+      "Lost on kickers",
+      "Won on kickers",
+      "Playoff games (won-lost)"
+     ],
+     "rows": [
+      [
+       "T.J.",
+       "11 (most)",
+       "6",
+       "0-3: 2017 losers bracket, 2023 losers bracket, 2025 semifinal"
+      ],
+      [
+       "Scott",
+       "6",
+       "4",
+       "2-1: lost the 2018 semifinal, won the 2023 semifinal"
+      ],
+      [
+       "Nase",
+       "6",
+       "5",
+       "1-2, all losers bracket"
+      ],
+      [
+       "John",
+       "6",
+       "7",
+       "none"
+      ],
+      [
+       "Brett",
+       "6",
+       "5",
+       "none"
+      ],
+      [
+       "James",
+       "5",
+       "2",
+       "none"
+      ],
+      [
+       "Joey",
+       "5",
+       "9 (most)",
+       "1-0, losers bracket"
+      ],
+      [
+       "Colt",
+       "5",
+       "9 (most)",
+       "none"
+      ],
+      [
+       "Austin",
+       "4",
+       "4",
+       "1-1: lost the 2023 semifinal, won the 2025 semifinal"
+      ],
+      [
+       "Anthony",
+       "4",
+       "3",
+       "1-1, losers bracket"
+      ],
+      [
+       "Mikey",
+       "4",
+       "2",
+       "0-1, losers bracket"
+      ],
+      [
+       "Buckley",
+       "0 (never)",
+       "5",
+       "2-0: the 2018 semifinal and a 2019 losers bracket game"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Former managers: Tyler lost 2 and won 2 (1-0 in the playoffs); J Rock lost 1 and won 2."
+    },
+    {
+     "type": "h",
+     "text": "Every kicker, every week of 2026"
+    },
+    {
+     "type": "note",
+     "text": "Points from the kicker each manager started. ⇄ marks a new kicker that week."
+    },
+    {
+     "type": "p",
+     "text": "Interesting that the manager loudest about getting rid of kickers has scored the most from the position this year."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Manager",
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "Total",
+      "Kicker and changes"
+     ],
+     "rows": [
+      [
+       "Brett",
+       "7",
+       "9",
+       "11",
+       "15",
+       "11",
+       "53",
+       "Will Reichard (MIN), the most kicker points in the league. ⇄ Dropped him Wednesday for Matt Gay (LV) with the Vikings on bye."
+      ],
+      [
+       "John",
+       "10",
+       "8",
+       "2",
+       "⇄ 12",
+       "16",
+       "48",
+       "Trey Smack (GB), then Spencer Shrader (IND) from week 4"
+      ],
+      [
+       "Joey",
+       "7",
+       "15",
+       "6",
+       "6",
+       "⇄ 11",
+       "45",
+       "Harrison Butker (KC), then Nick Folk (ATL) from week 5"
+      ],
+      [
+       "Colt",
+       "7",
+       "7",
+       "7",
+       "6",
+       "17",
+       "44",
+       "Jason Myers (SEA), all season"
+      ],
+      [
+       "Mikey",
+       "7",
+       "6",
+       "5",
+       "12",
+       "14",
+       "44",
+       "Ka'imi Fairbairn (HOU), all season; his top scorer in week 5"
+      ],
+      [
+       "Scott",
+       "7",
+       "7",
+       "7",
+       "14",
+       "9",
+       "44",
+       "Jake Bates (DET), all season; the Lions are on bye this week"
+      ],
+      [
+       "T.J.",
+       "15",
+       "8",
+       "9",
+       "5",
+       "7",
+       "44",
+       "Evan McPherson (CIN). ⇄ Added Eddy Pineiro (SF) for the Bengals' bye."
+      ],
+      [
+       "James",
+       "11",
+       "5",
+       "10",
+       "6",
+       "10",
+       "42",
+       "Tyler Loop (BAL), all season"
+      ],
+      [
+       "Austin",
+       "2",
+       "13",
+       "11",
+       "10",
+       "4",
+       "40",
+       "Brandon Aubrey (DAL), all season"
+      ],
+      [
+       "Buckley",
+       "10",
+       "7",
+       "5",
+       "10",
+       "7",
+       "39",
+       "Cam Little (JAX), all season"
+      ],
+      [
+       "Anthony",
+       "2",
+       "2",
+       "10",
+       "11",
+       "5",
+       "30",
+       "Cameron Dicker (LAC), all season"
+      ],
+      [
+       "Nase",
+       "1",
+       "4",
+       "14",
+       "6",
+       "4",
+       "29 (fewest)",
+       "Harrison Mevis (LAR), all season. The Rams released him Tuesday after he missed both of his field goals in Monday's overtime loss."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Suggestions that have come up in the chat before"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Anthony: bring back 3, 4 and 5 points by distance, plus a minus for a miss.",
+      "Austin: 6 for a 60-yarder and 7 for a 70.",
+      "Brett: remove the kicker and add a flex."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "📊 Coming next week: what if we had a median game?"
+    },
+    {
+     "type": "p",
+     "text": "Kickers aren't the only rule change that comes up. Next week's issue looks at league median scoring: every week you play your opponent and the league median, so a big score always earns a win and a bad one always takes a loss. Here's a preview of what it would have done to this season."
+    },
+    {
+     "type": "fold",
+     "summary": "Open: the standings now vs with a median game, through week 5",
+     "blocks": [
+      {
+       "type": "table",
+       "cols": [
+        "Manager",
+        "Now",
+        "With median",
+        "Move",
+        "Points"
+       ],
+       "rows": [
+        [
+         "James",
+         "1. 4-1",
+         "1. 8-2",
+         "·",
+         "619.9"
+        ],
+        [
+         "Joey",
+         "2. 4-1",
+         "3. 8-2",
+         "▼ 1",
+         "527.5"
+        ],
+        [
+         "Scott",
+         "3. 3-2",
+         "2. 8-2",
+         "▲ 1",
+         "618.8"
+        ],
+        [
+         "Anthony",
+         "4. 3-2",
+         "4. 6-4",
+         "·",
+         "608.4"
+        ],
+        [
+         "Colt",
+         "5. 3-2",
+         "5. 5-5",
+         "·",
+         "551.1"
+        ],
+        [
+         "Nase",
+         "6. 3-2",
+         "8. 5-5",
+         "▼ 2",
+         "489.8"
+        ],
+        [
+         "T.J.",
+         "7. 2-3",
+         "6. 5-5",
+         "▲ 1",
+         "549.6"
+        ],
+        [
+         "John",
+         "8. 2-3",
+         "9. 3-7",
+         "▼ 1",
+         "543.4"
+        ],
+        [
+         "Brett",
+         "9. 2-3",
+         "7. 5-5",
+         "▲ 2",
+         "511.7"
+        ],
+        [
+         "Buckley",
+         "10. 2-3",
+         "10. 3-7",
+         "·",
+         "493.1"
+        ],
+        [
+         "Austin",
+         "11. 2-3",
+         "11. 3-7",
+         "·",
+         "493.1"
+        ],
+        [
+         "Mikey",
+         "12. 0-5",
+         "12. 1-9",
+         "·",
+         "474.0"
+        ]
+       ]
+      },
+      {
+       "type": "list",
+       "items": [
+        "The playoff line moves. Six teams make it. Nase is sixth now at 3-2, but he was under the median in three of five weeks, so he falls to eighth. T.J. takes the sixth spot.",
+        "Scott is the only team above the median every week. That turns 3-2 into 8-2.",
+        "Brett gains the most, two spots. He beat the median three times, as often as Anthony and T.J.",
+        "Mikey gets a win. His 121.30 in week 4 beat the median, so he'd be 1-9 instead of winless."
+       ]
+      },
+      {
+       "type": "note",
+       "text": "Ranks break ties on points, the way Sleeper does. Weekly scores from Sleeper, read 10-14."
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
