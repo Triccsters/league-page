@@ -63,6 +63,17 @@
     {#if nl.dek}<p class="dek">{nl.dek}</p>{/if}
     {#each paras(nl.lead) as p}<p class="lead">{p}</p>{/each}
 
+    {#if nl.take?.text || nl.take?.shoutouts?.length}
+        <section class="take">
+            <h3 class="sec">{nl.take.byline || "T.J.'s take"}</h3>
+            {#each paras(nl.take.text) as p}<p>{p}</p>{/each}
+            {#if nl.take.shoutouts?.length}
+                <div class="lbl">Shout-outs and roasts</div>
+                <ul>{#each nl.take.shoutouts as x}<li>{x}</li>{/each}</ul>
+            {/if}
+        </section>
+    {/if}
+
     {#if nl.power?.teams?.length}
         <section>
             <h3 class="sec">Power rankings <small>after week {nl.power.through_week}</small></h3>
@@ -107,6 +118,7 @@
                             <div class="tags">{#each m.tags as t}<span class="t {t.k}">{t.t}</span>{/each}</div>
                         {/if}
                         {#each paras(m.text) as p}<p>{p}</p>{/each}
+                        {#if m.tj_note}<p class="tjn"><b>{nl.take?.byline || "T.J.'s take"}:</b> {m.tj_note}</p>{/if}
                         {#if m.nfl_hits?.length && nl.nfl?.items}
                             <div class="hits"><span class="lbl">In the NFL news</span>
                                 {#each m.nfl_hits as i}{@const x = nl.nfl.items[i]}{#if x}<a href="#nfl-{i}">{x.headline}</a>{/if}{/each}
@@ -181,6 +193,7 @@
                     {#if mv.verdict}<p class="verdict">The call: {mv.verdict}</p>{/if}
                 </div>
             {/each}
+            {#if nl.take?.moves}<div class="tjbox"><b>{nl.take.byline || "T.J.'s take"}</b>{#each paras(nl.take.moves) as p}<p>{p}</p>{/each}</div>{/if}
             <p class="more"><a href="/trade-grades">Every trade, graded →</a> <a href="/waivers">Waiver returns →</a> <a href="/transactions">All transactions →</a></p>
         </section>
     {/if}
@@ -233,6 +246,11 @@
         <section>
             <h3 class="sec">The week ahead</h3>
             {#each paras(nl.ahead) as p}<p>{p}</p>{/each}
+            {#if nl.take?.picks?.length}
+                <div class="tjbox"><b>{nl.take.byline || "T.J.'s take"}: my picks</b>
+                    <table class="picks"><tbody>{#each nl.take.picks as k}<tr><td>{k.matchup}</td><td><b>{k.pick}</b></td><td>{k.why || ''}</td></tr>{/each}</tbody></table>
+                </div>
+            {/if}
             <p class="more"><a href="/preview">Full preview with win odds →</a></p>
         </section>
     {/if}
@@ -328,4 +346,13 @@
     .bc td { padding: 0.2em 0.3em; border-top: 1px solid rgba(127,127,127,0.15); }
     .bc td a { color: inherit; font-weight: 600; }
     .bc tr.mine td { background: rgba(39,174,96,0.14); }
+    .take { border: 2px solid #27ae60; border-radius: 10px; padding: 0.6em 1em 0.8em; }
+    .take h3.sec { border-bottom: none; color: #27ae60; }
+    .take p { line-height: 1.6; }
+    .take .lbl { font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.7; font-weight: 700; margin-top: 0.6em; }
+    .tjn { border-left: 3px solid #27ae60; padding-left: 0.6em; }
+    .tjbox { border-left: 4px solid #27ae60; padding: 0.3em 0 0.3em 0.8em; margin: 0.8em 0; }
+    .tjbox p { margin: 0.3em 0 0; line-height: 1.55; }
+    .picks { border-collapse: collapse; margin-top: 0.4em; font-size: 0.9em; }
+    .picks td { padding: 0.2em 0.6em 0.2em 0; border-top: 1px solid rgba(127,127,127,0.2); }
 </style>
