@@ -49,6 +49,17 @@
         return Object.entries(g);
     };
     const pmove = (t) => (t.prev ? t.prev - t.rank : 0);
+    // Power rankings in three tiers (T.J., 2026-10-14): top quarter, the middle, the rest.
+    const tiers = (teams) => {
+        const list = [...(teams || [])].sort((a, b) => a.rank - b.rank);
+        const n = list.length, a = Math.round(n * 0.25), b = Math.round(n * 0.58);
+        return [
+            { key: 'c', icon: '🏆', label: 'Contenders', teams: list.slice(0, a) },
+            { key: 'h', icon: '🎯', label: 'In the hunt', teams: list.slice(a, b) },
+            { key: 'r', icon: '🧗', label: 'Need a run', teams: list.slice(b) },
+        ].filter((x) => x.teams.length);
+    };
+    const fmtAp = (x) => Number(x).toFixed(3).replace(/^0/, '');
     $: mine = ready ? $myTeam : null;
 </script>
 
@@ -77,17 +88,27 @@
     {#if nl.power?.teams?.length}
         <section>
             <h3 class="sec">Power rankings <small>after week {nl.power.through_week}</small></h3>
-            <ol class="pw">
-                {#each nl.power.teams as t (t.h)}
-                    {@const mv = pmove(t)}
-                    <li class:mine={mine === t.h}>
-                        <span class="rk">{t.rank}</span>
-                        <span class="mv" class:up={mv > 0} class:down={mv < 0}>{mv > 0 ? `▲${mv}` : mv < 0 ? `▼${-mv}` : '·'}</span>
-                        <a class="nm" href="#nl-{t.h}">{nameOf(t.h)}</a>
-                        <span class="pp">ROS {ord(t.ros_rank)}{#if t.dyn_rank} · Dyn {ord(t.dyn_rank)}{/if}</span>
-                    </li>
-                {/each}
-            </ol>
+            {#each tiers(nl.power.teams) as tier (tier.key)}
+                <div class="tier {tier.key}">
+                    <div class="band">{tier.icon} {tier.label}</div>
+                    {#each tier.teams as t (t.h)}
+                        {@const mv = pmove(t)}
+                        {@const s = rec(t.h)}
+                        <a class="prow" class:mine={mine === t.h} href="#nl-{t.h}">
+                            <span class="rk">{t.rank}</span>
+                            <span class="mv" class:up={mv > 0} class:down={mv < 0}>{mv > 0 ? `▲${mv}` : mv < 0 ? `▼${-mv}` : '·'}</span>
+                            <span class="nm">{nameOf(t.h)}</span>
+                            <span class="rc">{s ? `${s.w}-${s.l}${s.t ? `-${s.t}` : ''}` : ''}</span>
+                            <span class="stats">
+                                <span class="st"><b>ROS</b>{ord(t.ros_rank)}</span>
+                                {#if t.ppg_rank}<span class="st"><b>PPG</b>{ord(t.ppg_rank)}</span>{/if}
+                                {#if t.allplay != null}<span class="st"><b>All-play</b>{fmtAp(t.allplay)}</span>{/if}
+                                {#if t.dyn_rank}<span class="st"><b>Dynasty</b>{ord(t.dyn_rank)}</span>{/if}
+                            </span>
+                        </a>
+                    {/each}
+                </div>
+            {/each}
             <p class="more"><a href="/">How they are ranked, on the home page →</a></p>
         </section>
     {/if}
@@ -316,14 +337,26 @@
     .lk:hover { border-color: #3498db; }
     .lk b { color: #3498db; }
     .lk span { font-size: 0.86em; opacity: 0.8; line-height: 1.4; }
-    .pw { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.3em 1em; }
-    .pw li { display: grid; grid-template-columns: 1.6em 2.2em 1fr auto; align-items: center; gap: 0.4em; padding: 0.2em 0.3em; border-bottom: 1px solid rgba(127,127,127,0.18); }
-    .pw li.mine { background: rgba(39,174,96,0.14); }
-    .pw .rk { font-weight: 800; text-align: center; }
-    .pw .mv { font-size: 0.75em; font-weight: 700; opacity: 0.7; }
-    .pw .mv.up { color: #2ecc71; opacity: 1; } .pw .mv.down { color: #e74c3c; opacity: 1; }
-    .pw .nm { color: inherit; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .pw .pp { font-size: 0.75em; opacity: 0.75; white-space: nowrap; }
+    .tier { margin: 0.6em 0 0.9em; border-radius: 8px; overflow: hidden; border: 1px solid rgba(127,127,127,0.25); }
+    .tier .band { padding: 0.35em 0.75em; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.78em; color: #fff; }
+    .tier.c .band { background: #27ae60; } .tier.h .band { background: #2980b9; } .tier.r .band { background: #c0392b; }
+    .prow { display: grid; grid-template-columns: 2.2em 2.4em minmax(6em, 1fr) 3.4em 19em; align-items: center; gap: 0.25em 0.8em; padding: 0.5em 0.75em; color: inherit; text-decoration: none; border-top: 1px solid rgba(127,127,127,0.15); }
+    .prow:first-of-type { border-top: none; }
+    .prow:hover { background: rgba(127,127,127,0.08); }
+    .prow.mine { background: rgba(39,174,96,0.16); }
+    .prow .rk { font-size: 1.45em; font-weight: 800; text-align: center; }
+    .prow .mv { font-size: 0.75em; font-weight: 700; opacity: 0.6; }
+    .prow .mv.up { color: #2ecc71; opacity: 1; } .prow .mv.down { color: #e74c3c; opacity: 1; }
+    .prow .nm { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .prow .rc { font-variant-numeric: tabular-nums; font-weight: 600; opacity: 0.85; }
+    .prow .stats { display: flex; gap: 0.9em; flex-wrap: wrap; justify-content: flex-end; }
+    .prow .st { font-size: 0.8em; white-space: nowrap; font-variant-numeric: tabular-nums; min-width: 5.6em; text-align: right; }
+    .prow .st b { font-weight: 600; opacity: 0.6; margin-right: 0.3em; }
+    @media (max-width: 640px) {
+        .prow { grid-template-columns: 2em 2.2em 1fr auto; }
+        .prow .stats { grid-column: 3 / -1; justify-content: flex-start; }
+        .prow .st { min-width: 0; text-align: left; }
+    }
     .tags { display: flex; flex-wrap: wrap; gap: 0.3em; margin-top: 0.4em; }
     .tags .t { font-size: 0.72em; font-weight: 700; border-radius: 999px; padding: 0.1em 0.55em; border: 1px solid rgba(127,127,127,0.5); }
     .tags .t.power { border-color: #27ae60; } .tags .t.dyn { border-color: #8e44ad; } .tags .t.lead { border-color: #e67e22; }
