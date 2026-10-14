@@ -1269,7 +1269,7 @@
        "@@snelson91",
        3,
        36.3,
-       "Jake Bates, Sam LaPorta, Jahmyr Gibbs"
+       "Jahmyr Gibbs, Sam LaPorta, Jake Bates"
       ],
       [
        6,
@@ -1311,7 +1311,7 @@
        "@@butterygoop",
        2,
        13.3,
-       "Cameron Dicker, Jacksonville Jaguars"
+       "Jacksonville Jaguars, Cameron Dicker"
       ],
       [
        8,
@@ -1325,14 +1325,14 @@
        "@@PapaMidnight",
        3,
        30.7,
-       "Nico Collins, Cam Skattebo, Ka'imi Fairbairn"
+       "Ka'imi Fairbairn, Nico Collins, Cam Skattebo"
       ],
       [
        8,
        "@@Colt45Johnson",
        3,
        29.3,
-       "Tyler Shough, Malik Nabers, San Francisco 49ers"
+       "Malik Nabers, San Francisco 49ers, Tyler Shough"
       ]
      ]
     }
@@ -1540,6 +1540,91 @@
        "Terry McLaurin",
        "WR",
        88
+      ]
+     ]
+    },
+    {
+     "id": "names",
+     "title": "Team name history",
+     "note": "Every name a team has gone by: its name at the end of each season on record, plus renames caught by the daily update from October 2026 on. Before shows the last five, newest first.",
+     "cols": [
+      "Team",
+      "Names",
+      "Now",
+      "Before"
+     ],
+     "rows": [
+      [
+       "@@RockMNwild",
+       17,
+       "Thirty Seconds to Jamarrs",
+       "Swift Beer Pounders (2025) / Bo-lieve it (2024) / Da Pierced Christians (2023) / 10-Ply Qbs (2022) / The Bubble Kuppies (2021)"
+      ],
+      [
+       "@@brettmn13",
+       16,
+       "Injecto Seato Cuz!!",
+       "The Buster (2025) / Bowser (2024) / Bijan piss mustard (2023) / The 0RB's (2022) / Creme Fraiche (2021)"
+      ],
+      [
+       "@@Colt45Johnson",
+       14,
+       "Those Darts Shough Me Up",
+       "Rome Wasnt Built n Odunze (2025) / Injured Reserves (2024) / Austin n the Eks Factors (2023) / Racial Undertones (2022) / Bigots (2021)"
+      ],
+      [
+       "@@YoungBuck04",
+       14,
+       "no team name set",
+       "Christian MaCalf-Hurts (2025) / Aggravated Assault (2024) / 2 Girls 1 Kupp (2023) / All About that Bass (2022) / Fake IDs (2021)"
+      ],
+      [
+       "@@Wallner",
+       13,
+       "Still PA Sponge",
+       "I’m on the Outside (2025) / The Sweetner (2024) / Dahn and aht (2023) / Dark roast (2022) / Dos Gesickis (2021)"
+      ],
+      [
+       "@@TuanonStan",
+       12,
+       "no team name set",
+       "Hindenburg (2024) / Dank Brandon (2022) / Carole Gaskins (2021) / Christian Mingle (2020) / Quadfather (2019)"
+      ],
+      [
+       "@@Jbird531",
+       9,
+       "no team name set",
+       "Pink OD Floyd (2025) / The redskins (2024) / The Gender Mob (2023) / Wally (2022) / Smoking Kamarijuana (2021)"
+      ],
+      [
+       "@@PapaMidnight",
+       9,
+       "Saquon Ds Nutz",
+       "Puka & Rally (2025) / Get Swifty (2024) / Najee by Nature (2023) / Brady and the Champ (2022) / NotLast (2020)"
+      ],
+      [
+       "@@butterygoop",
+       9,
+       "SmithHurtsBrownDickTutes",
+       "Gabe Utsext (2025) / Jerry Slave Owner Jones (2024) / Off on kelcknee mustard (2023) / Amon piss rim king 🤴 (2022) / Xfire copycat (2021)"
+      ],
+      [
+       "@@triccster",
+       9,
+       "no team name set",
+       "Kareem Punt (2018) / Mr. Brightside (2017) / The Absolute Madman (2016) / can I geta witteness (2015) / T.J.R's Team (2014)"
+      ],
+      [
+       "@@snelson91",
+       4,
+       "LaPorta Potty",
+       "Saquon My Wiener (2024) / What The Buck (2018) / Scott's Team (2014)"
+      ],
+      [
+       "@@thecreamer",
+       4,
+       "no team name set",
+       "The Chowbox (2017) / Blame the hamms (2016) / P.C. Players (2015) / Team white (2014)"
       ]
      ]
     }

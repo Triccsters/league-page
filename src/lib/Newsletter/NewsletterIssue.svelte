@@ -4,7 +4,9 @@
     // rest-of-season outlooks, trends, history and links around the site.
     // Prose lives in src/lib/data/newsletter/<slug>.json, one file per issue,
     // never touched by the build. A week without a file shows nothing here.
-    import { nameOf, managerLink, slugFor } from '$lib/utils/flpHistory';
+    import { nameOf, managerLink, slugFor, teamName, site } from '$lib/utils/flpHistory';
+    // the team's current name, when it says something the manager's name doesn't
+    const tname = (h) => { const t = (teamName(site?.season, h) || '').trim(); return t && t !== h && t !== nameOf(h) ? t : null; };
     import { avatarOf, hideBroken } from '$lib/utils/avatars';
     import { myTeam } from '$lib/utils/myTeam';
     import { onMount } from 'svelte';
@@ -163,7 +165,7 @@
                         <a class="prow" class:mine={mine === t.h} href="#nl-{t.h}">
                             <span class="rk">{t.rank}</span>
                             <span class="mv" class:up={mv > 0} class:down={mv < 0}>{mv > 0 ? `▲${mv}` : mv < 0 ? `▼${-mv}` : '·'}</span>
-                            <span class="nm">{#if avatarOf(t.h)}<img class="av" src={avatarOf(t.h)} alt="" decoding="async" on:error={hideBroken} />{/if}{nameOf(t.h)}</span>
+                            <span class="nm">{#if avatarOf(t.h)}<img class="av" src={avatarOf(t.h)} alt="" decoding="async" on:error={hideBroken} />{/if}<span class="nmt">{nameOf(t.h)}{#if tname(t.h)}<small class="tn">{tname(t.h)}</small>{/if}</span></span>
                             <span class="rc">{s ? `${s.w}-${s.l}${s.t ? `-${s.t}` : ''}` : ''}</span>
                             <span class="stats">
                                 <span class="st"><b>ROS</b>{ord(t.ros_rank)}</span>
@@ -188,7 +190,7 @@
                     {@const was = lastArc(m)}
                     <div class="card" id="nl-{m.handle}" class:mine={mine === m.handle}>
                         <div class="top">
-                            <span class="who">{#if avatarOf(m.handle)}<img class="av big" src={avatarOf(m.handle)} alt="" decoding="async" on:error={hideBroken} />{/if}{#if managerLink(m.handle)}<a href={managerLink(m.handle)}>{nameOf(m.handle)}</a>{:else}{nameOf(m.handle)}{/if}</span>
+                            <span class="who">{#if avatarOf(m.handle)}<img class="av big" src={avatarOf(m.handle)} alt="" decoding="async" on:error={hideBroken} />{/if}{#if managerLink(m.handle)}<a href={managerLink(m.handle)}>{nameOf(m.handle)}</a>{:else}{nameOf(m.handle)}{/if}{#if tname(m.handle)}<small class="tn">{tname(m.handle)}</small>{/if}</span>
                             {#if m.record}<span class="rec" title={m.record_note || ''}>{m.record}</span>
                             {:else if s}<span class="rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</span>{/if}
                         </div>
@@ -241,7 +243,7 @@
                     {@const was = lastArc(m)}
                     <div class="card" id="nl-{m.handle}" class:mine={mine === m.handle}>
                         <div class="top">
-                            <span class="who">{#if avatarOf(m.handle)}<img class="av big" src={avatarOf(m.handle)} alt="" decoding="async" on:error={hideBroken} />{/if}{#if managerLink(m.handle)}<a href={managerLink(m.handle)}>{nameOf(m.handle)}</a>{:else}{nameOf(m.handle)}{/if}</span>
+                            <span class="who">{#if avatarOf(m.handle)}<img class="av big" src={avatarOf(m.handle)} alt="" decoding="async" on:error={hideBroken} />{/if}{#if managerLink(m.handle)}<a href={managerLink(m.handle)}>{nameOf(m.handle)}</a>{:else}{nameOf(m.handle)}{/if}{#if tname(m.handle)}<small class="tn">{tname(m.handle)}</small>{/if}</span>
                             {#if m.record}<span class="rec" title={m.record_note || ''}>{m.record}</span>
                             {:else if s}<span class="rec">{s.w}-{s.l}{s.t ? `-${s.t}` : ''}</span>{/if}
                         </div>
@@ -560,4 +562,6 @@
     .picks td { padding: 0.2em 0.6em 0.2em 0; border-top: 1px solid rgba(127,127,127,0.2); }
     .av { width: 1.5em; height: 1.5em; border-radius: 50%; object-fit: cover; vertical-align: middle; margin-right: 0.45em; flex: none; background: rgba(127,127,127,.2); }
     .av.big { width: 2.1em; height: 2.1em; }
+    .nmt { display: inline-block; vertical-align: middle; min-width: 0; }
+    .tn { display: block; font-size: 0.72em; font-weight: 400; opacity: 0.75; line-height: 1.2; }
 </style>

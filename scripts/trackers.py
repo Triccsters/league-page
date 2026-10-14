@@ -810,36 +810,49 @@ def draft_report(C):
 
 
 def names_log(C):
-    """Snapshot each team's name every build and keep a log of renames."""
+    """Every name each team has gone by: the season-end name for every season on record
+    (history.json team_names), plus renames caught by the daily build (team_names.json)."""
     path = os.path.join(C.data, "team_names.json")
-    block = set((C.read_json(os.path.join(C.data, "name_blocklist.json"), []) or []))
     log = C.read_json(path, {}) or {}
-    cur = {}
+    hist = log.get("history") or {}
     try:
         users = C.ctx["sleeper"](f"/league/{C.S.league_id}/users") or []
         by_user = {u.get("user_id"): ((u.get("metadata") or {}).get("team_name") or "") for u in users}
         for r in C.S.rosters:
             h = C.S.handle.get(r["roster_id"])
             nm = by_user.get(r.get("owner_id"), "").strip()
-            if h and nm and nm not in block:
-                cur[h] = nm
+            if h and nm:
+                seen = hist.setdefault(h, [])
+                if not seen or seen[-1]["name"] != nm:
+                    seen.append({"name": nm, "since": f"{C.season} week {C.last}"})
     except Exception as e:
         print("trackers: team names unavailable", e)
-        return []
-    hist = log.get("history") or {}
-    for h, nm in cur.items():
-        seen = hist.setdefault(h, [])
-        if not seen or seen[-1]["name"] != nm:
-            seen.append({"name": nm, "since": f"{C.season} week {C.last}"})
     C.write_json(path, {"history": hist})
+    by_season = (C.ctx["history"].get("team_names") or {})
+    current = set(C.teams)
     rows = []
-    for h, seen in hist.items():
-        names = [s["name"] for s in seen if s["name"] not in block]
-        if names:
-            rows.append([T(h), len(names), names[-1], " / ".join(reversed(names[:-1][-4:])) or "-"])
+    for h in sorted(current):
+        names = []   # (label, name), oldest first, consecutive repeats dropped
+
+        def add(label, nm):
+            nm = (nm or "").strip()
+            if nm and nm != h and (not names or names[-1][1] != nm):
+                names.append((label, nm))
+        for season in sorted(by_season, key=int):
+            add(season, (by_season.get(season) or {}).get(h))
+        for e in hist.get(h, []):
+            add(e["since"].split(" week ")[0] + " (wk " + e["since"].split(" week ")[-1] + ")", e["name"])
+        if not names:
+            continue
+        is_now = names[-1][0].startswith(str(C.season))
+        now = names[-1][1] if is_now else "no team name set"
+        older = names[:-1] if is_now else names
+        before = " / ".join(f"{nm} ({lab})" for lab, nm in reversed(older[-5:])) or "-"
+        rows.append([T(h), len({nm for _l, nm in names}), now, before])
     rows.sort(key=lambda r: -r[1])
-    return [card("names", "Team name log",
-                 "Logged every Tuesday from today on. Renames stack up here.",
+    return [card("names", "Team name history",
+                 "Every name a team has gone by: its name at the end of each season on record, "
+                 "plus renames caught by the daily update from October 2026 on. Before shows the last five, newest first.",
                  ["Team", "Names", "Now", "Before"], rows)]
 
 
@@ -973,10 +986,13 @@ def trade_drama(C):
 
 
 # ------------------------------------------------------------ build
+# names_log on in every league (T.J., 2026-10-14: crude names are fine)
 LEAGUE_SPECIALS = {
-    "league-page": ["kicker_file", "board_duty", "draft_report"],  # names_log: held for T.J.'s OK
-    "league-megalabowl": ["median_misery", "qb_race", "firsts"],
-    "league-bound": ["trade_drama"],
+    "league-page": ["kicker_file", "board_duty", "draft_report", "names_log"],
+    "league-fl-evolution": ["names_log"],
+    "league-lets-go-brandon": ["names_log"],
+    "league-megalabowl": ["median_misery", "qb_race", "firsts", "names_log"],
+    "league-bound": ["trade_drama", "names_log"],
 }
 
 
