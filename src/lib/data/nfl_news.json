@@ -1,7 +1,7 @@
 {
- "read_at": "2026-10-17T14:30+00:00",
+ "read_at": "2026-10-18T13:46+00:00",
  "days": 7,
- "count": 110,
+ "count": 109,
  "items": [
   {
    "headline": "Eagles' Saquon Barkley ruled out; DeVonta Smith likely to return",
@@ -112,6 +112,146 @@
    "score": 18.0
   },
   {
+   "headline": "Sources: Saints QB Tyler Shough playing with 2 broken bones in non-throwing hand",
+   "url": "https://www.espn.com/nfl/story/_/id/50200514/sources-saints-tyler-shough-broken-bones-left-hand",
+   "date": "2026-10-18",
+   "kind": "news",
+   "teams": [
+    "NO"
+   ],
+   "named": [
+    {
+     "n": "Tyler Shough",
+     "p": "QB",
+     "t": "NO",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Tyler Shough"
+   ],
+   "ripple": [
+    {
+     "n": "Jordyn Tyson",
+     "p": "WR",
+     "t": "NO",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Juwan Johnson",
+     "p": "TE",
+     "t": "NO",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Devaughn Vele",
+     "p": "WR",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Alvin Kamara",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Travis Etienne",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Kendre Miller",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Chris Olave",
+     "p": "WR",
+     "t": "NO",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "RockMNwild",
+    "YoungBuck04",
+    "brettmn13",
+    "thecreamer"
+   ],
+   "score": 15.5
+  },
+  {
+   "headline": "Sources: Bears plan to start QB Caleb Williams in Week 6 vs. Falcons",
+   "url": "https://www.espn.com/nfl/story/_/id/50201828/sources-bears-plan-start-qb-caleb-williams-vs-falcons",
+   "date": "2026-10-17",
+   "kind": "news",
+   "teams": [
+    "ATL",
+    "CHI"
+   ],
+   "named": [
+    {
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Caleb Williams"
+   ],
+   "ripple": [
+    {
+     "n": "D'Andre Swift",
+     "p": "RB",
+     "t": "CHI",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Kyle Monangai",
+     "p": "RB",
+     "t": "CHI",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Luther Burden",
+     "p": "WR",
+     "t": "CHI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "thecreamer"
+   ],
+   "score": 15.0
+  },
+  {
    "headline": "Packers' Josh Jacobs eligible to return next week amid investigation",
    "url": "https://www.espn.com/nfl/story/_/id/50197784/packers-josh-jacobs-eligible-return-next-week-amid-probe",
    "date": "2026-10-17",
@@ -179,132 +319,64 @@
    "score": 15.0
   },
   {
-   "headline": "Bears QB Williams unsure if he's playing, has to still go through protocols",
-   "url": "https://www.espn.com/nfl/story/_/id/50192123/bears-caleb-williams-yet-know-playing",
-   "date": "2026-10-15",
+   "headline": "49ers rule out Bosa for Monday, still hopeful for Evans, Juszczyk",
+   "url": "https://www.espn.com/nfl/story/_/id/50205015/san-francisco-49ers-rule-de-nick-bosa-monday-night",
+   "date": "2026-10-17",
    "kind": "news",
    "teams": [
-    "CHI"
+    "SF",
+    "WAS"
    ],
    "named": [
     {
-     "n": "Caleb Williams",
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
+    }
+   ],
+   "lead": [
+    "Mike Evans"
+   ],
+   "ripple": [
+    {
+     "n": "Brock Purdy",
      "p": "QB",
-     "t": "CHI",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Caleb Williams"
-   ],
-   "ripple": [
-    {
-     "n": "D'Andre Swift",
-     "p": "RB",
-     "t": "CHI",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Kyle Monangai",
-     "p": "RB",
-     "t": "CHI",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Luther Burden",
-     "p": "WR",
-     "t": "CHI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Colston Loveland",
-     "p": "TE",
-     "t": "CHI",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Rome Odunze",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Kalif Raymond",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "TuanonStan",
-    "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "thecreamer"
-   ],
-   "score": 15.0
-  },
-  {
-   "headline": "Texans RB Montgomery, S Pitre out for London affair vs. Jaguars",
-   "url": "https://www.espn.com/nfl/story/_/id/50192302/texans-rb-montgomery-s-pitre-london-affair-vs-jaguars",
-   "date": "2026-10-15",
-   "kind": "news",
-   "teams": [
-    "HOU",
-    "JAX"
-   ],
-   "named": [
-    {
-     "n": "David Montgomery",
-     "p": "RB",
-     "t": "HOU",
-     "h": "snelson91"
-    },
-    {
-     "n": "Tank Dell",
-     "p": "WR",
-     "t": "HOU",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "David Montgomery"
-   ],
-   "ripple": [
-    {
-     "n": "Woody Marks",
-     "p": "RB",
-     "t": "HOU",
+     "t": "SF",
      "h": "Wallner"
     },
     {
-     "n": "Marvin Harrison",
-     "p": "WR",
-     "t": "HOU",
-     "h": "RockMNwild"
+     "n": "George Kittle",
+     "p": "TE",
+     "t": "SF",
+     "h": "TuanonStan"
     },
     {
-     "n": "C.J. Stroud",
-     "p": "QB",
-     "t": "HOU",
-     "h": "RockMNwild"
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
     },
     {
-     "n": "Nico Collins",
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Deebo Samuel",
      "p": "WR",
-     "t": "HOU",
-     "h": "PapaMidnight"
+     "t": "SF",
+     "h": "Colt45Johnson"
     }
    ],
    "managers": [
-    "PapaMidnight",
-    "RockMNwild",
+    "Colt45Johnson",
+    "TuanonStan",
     "Wallner",
-    "butterygoop",
-    "snelson91"
+    "YoungBuck04"
    ],
-   "score": 15.0
+   "score": 14.5
   },
   {
    "headline": "Chiefs WR Rashee Rice out Sunday vs. Chargers with hamstring injury",
@@ -368,8 +440,61 @@
    "score": 14.5
   },
   {
-   "headline": "Sources: Eagles' Jalen Hurts, out indefinitely with blood clot, not planned for IR",
-   "url": "https://www.espn.com/nfl/story/_/id/50200331/sources-no-ir-plans-hurts-indefinitely-clot",
+   "headline": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
+   "url": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
+   "date": "2026-10-17",
+   "kind": "news",
+   "teams": [
+    "NE"
+   ],
+   "named": [
+    {
+     "n": "A.J. Brown",
+     "p": "WR",
+     "t": "NE",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "A.J. Brown"
+   ],
+   "ripple": [
+    {
+     "n": "Drake Maye",
+     "p": "QB",
+     "t": "NE",
+     "h": "Wallner"
+    },
+    {
+     "n": "Romeo Doubs",
+     "p": "WR",
+     "t": "NE",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "TreVeyon Henderson",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rhamondre Stevenson",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "Wallner",
+    "YoungBuck04"
+   ],
+   "score": 14.0
+  },
+  {
+   "headline": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely",
+   "url": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot",
    "date": "2026-10-17",
    "kind": "news",
    "teams": [
@@ -417,6 +542,58 @@
     "PapaMidnight",
     "Wallner",
     "butterygoop"
+   ],
+   "score": 14.0
+  },
+  {
+   "headline": "Commanders RB Jacory Croskey-Merritt out vs. 49ers with groin injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50202044/commanders-rb-croskey-merritt-vs-49ers-groin-injury",
+   "date": "2026-10-17",
+   "kind": "news",
+   "teams": [
+    "WAS"
+   ],
+   "named": [
+    {
+     "n": "Jacory Croskey-Merritt",
+     "p": "RB",
+     "t": "WAS",
+     "h": "triccster"
+    }
+   ],
+   "lead": [
+    "Jacory Croskey-Merritt"
+   ],
+   "ripple": [
+    {
+     "n": "Jayden Daniels",
+     "p": "QB",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Stefon Diggs",
+     "p": "WR",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Rachaad White",
+     "p": "RB",
+     "t": "WAS",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Terry McLaurin",
+     "p": "WR",
+     "t": "WAS",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "snelson91",
+    "triccster"
    ],
    "score": 14.0
   },
@@ -581,23 +758,30 @@
    "score": 14.0
   },
   {
-   "headline": "Marvin Harrison Jr. will play for Texans on Sunday in London, coach says",
-   "url": "https://www.espn.com/nfl/story/_/id/50184544/marvin-harrison-jr-play-texans-sunday-london",
+   "headline": "Texans RB Montgomery, S Pitre out for London affair vs. Jaguars",
+   "url": "https://www.espn.com/nfl/story/_/id/50192302/texans-rb-montgomery-s-pitre-london-affair-vs-jaguars",
    "date": "2026-10-15",
    "kind": "news",
    "teams": [
-    "HOU"
+    "HOU",
+    "JAX"
    ],
    "named": [
     {
-     "n": "Marvin Harrison",
+     "n": "David Montgomery",
+     "p": "RB",
+     "t": "HOU",
+     "h": "snelson91"
+    },
+    {
+     "n": "Tank Dell",
      "p": "WR",
      "t": "HOU",
-     "h": "RockMNwild"
+     "h": "butterygoop"
     }
    ],
    "lead": [
-    "Marvin Harrison"
+    "David Montgomery"
    ],
    "ripple": [
     {
@@ -607,10 +791,10 @@
      "h": "Wallner"
     },
     {
-     "n": "Tank Dell",
+     "n": "Marvin Harrison",
      "p": "WR",
      "t": "HOU",
-     "h": "butterygoop"
+     "h": "RockMNwild"
     },
     {
      "n": "C.J. Stroud",
@@ -623,12 +807,6 @@
      "p": "WR",
      "t": "HOU",
      "h": "PapaMidnight"
-    },
-    {
-     "n": "David Montgomery",
-     "p": "RB",
-     "t": "HOU",
-     "h": "snelson91"
     }
    ],
    "managers": [
@@ -638,166 +816,7 @@
     "butterygoop",
     "snelson91"
    ],
-   "score": 12.5
-  },
-  {
-   "headline": "Jayden Daniels addresses teammates on gaffe, vows 'it'll never happen again'",
-   "url": "https://www.espn.com/nfl/story/_/id/50191830/jayden-daniels-addresses-commanders-teammates-ot-gaffe",
-   "date": "2026-10-16",
-   "kind": "news",
-   "teams": [
-    "WAS"
-   ],
-   "named": [
-    {
-     "n": "Jayden Daniels",
-     "p": "QB",
-     "t": "WAS",
-     "h": "triccster"
-    }
-   ],
-   "lead": [
-    "Jayden Daniels"
-   ],
-   "ripple": [
-    {
-     "n": "Jacory Croskey-Merritt",
-     "p": "RB",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Stefon Diggs",
-     "p": "WR",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Rachaad White",
-     "p": "RB",
-     "t": "WAS",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Terry McLaurin",
-     "p": "WR",
-     "t": "WAS",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "snelson91",
-    "triccster"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Patriots star WR A.J. Brown says status 'still up in the air' for game vs. Jets",
-   "url": "https://www.espn.com/nfl/story/_/id/50191062/pats-aj-brown-says-status-air-vs-jets",
-   "date": "2026-10-15",
-   "kind": "news",
-   "teams": [
-    "NE"
-   ],
-   "named": [
-    {
-     "n": "A.J. Brown",
-     "p": "WR",
-     "t": "NE",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "A.J. Brown"
-   ],
-   "ripple": [
-    {
-     "n": "Drake Maye",
-     "p": "QB",
-     "t": "NE",
-     "h": "Wallner"
-    },
-    {
-     "n": "Romeo Doubs",
-     "p": "WR",
-     "t": "NE",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "TreVeyon Henderson",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Rhamondre Stevenson",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "Wallner",
-    "YoungBuck04"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Broncos' Bo Nix says he needs to simplify approach, play faster amid rocky start",
-   "url": "https://www.espn.com/nfl/story/_/id/50177580/broncos-bo-nix-says-needs-simplify-approach-amid-rocky-start",
-   "date": "2026-10-14",
-   "kind": "news",
-   "teams": [
-    "DEN"
-   ],
-   "named": [
-    {
-     "n": "Bo Nix",
-     "p": "QB",
-     "t": "DEN",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Bo Nix"
-   ],
-   "ripple": [
-    {
-     "n": "RJ Harvey",
-     "p": "RB",
-     "t": "DEN",
-     "h": "Wallner"
-    },
-    {
-     "n": "J.K. Dobbins",
-     "p": "RB",
-     "t": "DEN",
-     "h": "triccster"
-    },
-    {
-     "n": "Jaylen Waddle",
-     "p": "WR",
-     "t": "DEN",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Courtland Sutton",
-     "p": "WR",
-     "t": "DEN",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "RockMNwild",
-    "Wallner",
-    "thecreamer",
-    "triccster"
-   ],
-   "score": 12.0
+   "score": 13.0
   }
  ],
  "source": "ESPN NFL news, headlines and links only",

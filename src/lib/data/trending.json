@@ -6,105 +6,105 @@
    "n": "Dameon Pierce",
    "p": "RB",
    "t": "PHI",
-   "c": 5782192,
+   "c": 6046008,
    "h": "Wallner"
   },
   {
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 3572622,
+   "c": 3512592,
    "h": "PapaMidnight"
-  },
-  {
-   "n": "Darius Cooper",
-   "p": "WR",
-   "t": "PHI",
-   "c": 2558262,
-   "h": null
   },
   {
    "n": "Brenton Strange",
    "p": "TE",
    "t": "JAX",
-   "c": 2484864,
+   "c": 2523690,
    "h": "Wallner"
   },
   {
-   "n": "New England Patriots",
-   "p": "DEF",
-   "t": "NE",
-   "c": 2174557,
-   "h": "brettmn13"
+   "n": "Darius Cooper",
+   "p": "WR",
+   "t": "PHI",
+   "c": 2413810,
+   "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1810089,
+   "c": 2202597,
+   "h": null
+  },
+  {
+   "n": "New England Patriots",
+   "p": "DEF",
+   "t": "NE",
+   "c": 2173479,
+   "h": "brettmn13"
+  },
+  {
+   "n": "Tanner McKee",
+   "p": "QB",
+   "t": "PHI",
+   "c": 1744256,
    "h": null
   },
   {
    "n": "Nick Folk",
    "p": "K",
    "t": "ATL",
-   "c": 1584240,
+   "c": 1654866,
    "h": "Jbird531"
   },
   {
    "n": "Kimani Vidal",
    "p": "RB",
    "t": "LAC",
-   "c": 1546870,
-   "h": null
-  },
-  {
-   "n": "Tanner McKee",
-   "p": "QB",
-   "t": "PHI",
-   "c": 1510968,
+   "c": 1638065,
    "h": null
   },
   {
    "n": "Jaleel McLaughlin",
    "p": "RB",
    "t": "CLE",
-   "c": 1415505,
+   "c": 1498325,
    "h": "RockMNwild"
   },
   {
    "n": "Kirk Cousins",
    "p": "QB",
    "t": "LV",
-   "c": 1376800,
+   "c": 1435512,
    "h": "brettmn13"
   },
   {
    "n": "Indianapolis Colts",
    "p": "DEF",
    "t": "IND",
-   "c": 1330965,
+   "c": 1379442,
    "h": "RockMNwild"
   },
   {
    "n": "Tyler Loop",
    "p": "K",
    "t": "BAL",
-   "c": 1252266,
+   "c": 1261782,
    "h": "TuanonStan"
   },
   {
    "n": "Kendrick Bourne",
    "p": "WR",
    "t": "ARI",
-   "c": 1165368,
+   "c": 1045410,
    "h": null
   },
   {
    "n": "Aaron Rodgers",
    "p": "QB",
    "t": "PIT",
-   "c": 948924,
+   "c": 978444,
    "h": "thecreamer"
   }
  ],
@@ -113,105 +113,105 @@
    "n": "Roman Wilson",
    "p": "WR",
    "t": "PIT",
-   "c": 2523087,
+   "c": 2690514,
    "h": null
   },
   {
    "n": "Dohnte Meyers",
    "p": "WR",
    "t": "CIN",
-   "c": 2344113,
+   "c": 2243169,
    "h": null
-  },
-  {
-   "n": "Kenyon Sadiq",
-   "p": "TE",
-   "t": "NYJ",
-   "c": 1770291,
-   "h": "TuanonStan"
   },
   {
    "n": "Jake Bates",
    "p": "K",
    "t": "DET",
-   "c": 1754840,
+   "c": 1847112,
    "h": "snelson91"
+  },
+  {
+   "n": "Kenyon Sadiq",
+   "p": "TE",
+   "t": "NYJ",
+   "c": 1787364,
+   "h": "TuanonStan"
   },
   {
    "n": "Keon Coleman",
    "p": "WR",
    "t": "BUF",
-   "c": 1211778,
+   "c": 1276569,
    "h": "PapaMidnight"
   },
   {
    "n": "Tyreek Hill",
    "p": "WR",
    "t": null,
-   "c": 1165992,
+   "c": 1209216,
    "h": null
   },
   {
    "n": "Will Shipley",
    "p": "RB",
    "t": "PHI",
-   "c": 1041146,
+   "c": 1065136,
    "h": null
   },
   {
    "n": "Keaton Mitchell",
    "p": "RB",
    "t": "LAC",
-   "c": 975285,
+   "c": 1037952,
    "h": "triccster"
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 973721,
+   "c": 995827,
    "h": null
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 893880,
+   "c": 929370,
    "h": null
   },
   {
    "n": "Las Vegas Raiders",
    "p": "DEF",
    "t": "LV",
-   "c": 809694,
+   "c": 823482,
    "h": null
   },
   {
    "n": "Jordan Addison",
    "p": "WR",
    "t": "MIN",
-   "c": 794466,
-   "h": "Wallner"
+   "c": 812790,
+   "h": null
   },
   {
-   "n": "Michael Mayer",
-   "p": "TE",
-   "t": "LV",
-   "c": 755307,
-   "h": null
+   "n": "Alvin Kamara",
+   "p": "RB",
+   "t": "NO",
+   "c": 799360,
+   "h": "brettmn13"
   },
   {
    "n": "Tre' Harris",
    "p": "WR",
    "t": "LAC",
-   "c": 753988,
+   "c": 771312,
    "h": null
   },
   {
-   "n": "Tyler Higbee",
+   "n": "Michael Mayer",
    "p": "TE",
-   "t": "LAR",
-   "c": 752139,
+   "t": "LV",
+   "c": 765855,
    "h": null
   }
  ]
