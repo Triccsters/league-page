@@ -6,106 +6,106 @@
    "n": "Dameon Pierce",
    "p": "RB",
    "t": "PHI",
-   "c": 6046008,
+   "c": 6199456,
    "h": "Wallner"
   },
   {
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 3512592,
+   "c": 3234645,
    "h": "PapaMidnight"
-  },
-  {
-   "n": "Brenton Strange",
-   "p": "TE",
-   "t": "JAX",
-   "c": 2523690,
-   "h": "Wallner"
-  },
-  {
-   "n": "Darius Cooper",
-   "p": "WR",
-   "t": "PHI",
-   "c": 2413810,
-   "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 2202597,
+   "c": 2677086,
    "h": null
+  },
+  {
+   "n": "Brenton Strange",
+   "p": "TE",
+   "t": "JAX",
+   "c": 2391786,
+   "h": "Wallner"
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 2173479,
+   "c": 2087722,
    "h": "brettmn13"
   },
   {
-   "n": "Tanner McKee",
-   "p": "QB",
+   "n": "Darius Cooper",
+   "p": "WR",
    "t": "PHI",
-   "c": 1744256,
-   "h": null
-  },
-  {
-   "n": "Nick Folk",
-   "p": "K",
-   "t": "ATL",
-   "c": 1654866,
-   "h": "Jbird531"
-  },
-  {
-   "n": "Kimani Vidal",
-   "p": "RB",
-   "t": "LAC",
-   "c": 1638065,
+   "c": 2070572,
    "h": null
   },
   {
    "n": "Jaleel McLaughlin",
    "p": "RB",
    "t": "CLE",
-   "c": 1498325,
+   "c": 1850505,
    "h": "RockMNwild"
+  },
+  {
+   "n": "Tanner McKee",
+   "p": "QB",
+   "t": "PHI",
+   "c": 1833048,
+   "h": null
+  },
+  {
+   "n": "Nick Folk",
+   "p": "K",
+   "t": "ATL",
+   "c": 1663434,
+   "h": "Jbird531"
+  },
+  {
+   "n": "Kimani Vidal",
+   "p": "RB",
+   "t": "LAC",
+   "c": 1635710,
+   "h": null
   },
   {
    "n": "Kirk Cousins",
    "p": "QB",
    "t": "LV",
-   "c": 1435512,
+   "c": 1462424,
    "h": "brettmn13"
   },
   {
    "n": "Indianapolis Colts",
    "p": "DEF",
    "t": "IND",
-   "c": 1379442,
+   "c": 1378083,
    "h": "RockMNwild"
   },
   {
    "n": "Tyler Loop",
    "p": "K",
    "t": "BAL",
-   "c": 1261782,
+   "c": 1249584,
    "h": "TuanonStan"
   },
   {
-   "n": "Kendrick Bourne",
-   "p": "WR",
+   "n": "Tyler Allgeier",
+   "p": "RB",
    "t": "ARI",
-   "c": 1045410,
-   "h": null
+   "c": 1062770,
+   "h": "TuanonStan"
   },
   {
-   "n": "Aaron Rodgers",
-   "p": "QB",
-   "t": "PIT",
-   "c": 978444,
-   "h": "thecreamer"
+   "n": "Xavier Worthy",
+   "p": "WR",
+   "t": "KC",
+   "c": 1062648,
+   "h": "TuanonStan"
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "Roman Wilson",
    "p": "WR",
    "t": "PIT",
-   "c": 2690514,
-   "h": null
-  },
-  {
-   "n": "Dohnte Meyers",
-   "p": "WR",
-   "t": "CIN",
-   "c": 2243169,
+   "c": 2611062,
    "h": null
   },
   {
    "n": "Jake Bates",
    "p": "K",
    "t": "DET",
-   "c": 1847112,
+   "c": 1942112,
    "h": "snelson91"
+  },
+  {
+   "n": "Dohnte Meyers",
+   "p": "WR",
+   "t": "CIN",
+   "c": 1941255,
+   "h": null
   },
   {
    "n": "Kenyon Sadiq",
    "p": "TE",
    "t": "NYJ",
-   "c": 1787364,
+   "c": 1718262,
    "h": "TuanonStan"
   },
   {
    "n": "Keon Coleman",
    "p": "WR",
    "t": "BUF",
-   "c": 1276569,
+   "c": 1345986,
    "h": "PapaMidnight"
   },
   {
    "n": "Tyreek Hill",
    "p": "WR",
    "t": null,
-   "c": 1209216,
-   "h": null
-  },
-  {
-   "n": "Will Shipley",
-   "p": "RB",
-   "t": "PHI",
-   "c": 1065136,
+   "c": 1306824,
    "h": null
   },
   {
    "n": "Keaton Mitchell",
    "p": "RB",
    "t": "LAC",
-   "c": 1037952,
+   "c": 1149129,
    "h": "triccster"
+  },
+  {
+   "n": "Will Shipley",
+   "p": "RB",
+   "t": "PHI",
+   "c": 1043812,
+   "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 995827,
+   "c": 1003401,
    "h": null
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 929370,
+   "c": 963672,
    "h": null
   },
   {
-   "n": "Las Vegas Raiders",
-   "p": "DEF",
-   "t": "LV",
-   "c": 823482,
+   "n": "Tyler Higbee",
+   "p": "TE",
+   "t": "LAR",
+   "c": 876348,
    "h": null
   },
   {
    "n": "Jordan Addison",
    "p": "WR",
    "t": "MIN",
-   "c": 812790,
+   "c": 808380,
    "h": null
   },
   {
    "n": "Alvin Kamara",
    "p": "RB",
    "t": "NO",
-   "c": 799360,
+   "c": 796104,
    "h": "brettmn13"
+  },
+  {
+   "n": "Las Vegas Raiders",
+   "p": "DEF",
+   "t": "LV",
+   "c": 792198,
+   "h": null
   },
   {
    "n": "Tre' Harris",
    "p": "WR",
    "t": "LAC",
-   "c": 771312,
-   "h": null
-  },
-  {
-   "n": "Michael Mayer",
-   "p": "TE",
-   "t": "LV",
-   "c": 765855,
+   "c": 758512,
    "h": null
   }
  ]

@@ -1,7 +1,7 @@
 {
- "read_at": "2026-10-18T13:46+00:00",
+ "read_at": "2026-10-19T12:00+00:00",
  "days": 7,
- "count": 109,
+ "count": 106,
  "items": [
   {
    "headline": "Eagles' Saquon Barkley ruled out; DeVonta Smith likely to return",
@@ -55,7 +55,7 @@
     "Wallner",
     "butterygoop"
    ],
-   "score": 18.0
+   "score": 16.0
   },
   {
    "headline": "Jets rookie WR Omar Cooper Jr. to return vs. Patriots; RB Hall, WR Mitchell out",
@@ -109,7 +109,7 @@
     "brettmn13",
     "thecreamer"
    ],
-   "score": 18.0
+   "score": 16.0
   },
   {
    "headline": "Sources: Saints QB Tyler Shough playing with 2 broken bones in non-throwing hand",
@@ -184,12 +184,11 @@
    "score": 15.5
   },
   {
-   "headline": "Sources: Bears plan to start QB Caleb Williams in Week 6 vs. Falcons",
-   "url": "https://www.espn.com/nfl/story/_/id/50201828/sources-bears-plan-start-qb-caleb-williams-vs-falcons",
-   "date": "2026-10-17",
+   "headline": "Caleb Williams leads Bears by Falcons in return from injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50214605/caleb-williams-leads-bears-falcons-return-injury",
+   "date": "2026-10-19",
    "kind": "news",
    "teams": [
-    "ATL",
     "CHI"
    ],
    "named": [
@@ -252,76 +251,71 @@
    "score": 15.0
   },
   {
-   "headline": "Packers' Josh Jacobs eligible to return next week amid investigation",
-   "url": "https://www.espn.com/nfl/story/_/id/50197784/packers-josh-jacobs-eligible-return-next-week-amid-probe",
-   "date": "2026-10-17",
+   "headline": "Chiefs' Patrick Mahomes earns 100th win in 131st start, tying Tom Brady",
+   "url": "https://www.espn.com/nfl/story/_/id/50215969/chiefs-patrick-mahomes-ties-tom-brady-fastest-100-career-wins",
+   "date": "2026-10-19",
    "kind": "news",
    "teams": [
-    "GB"
+    "KC",
+    "NE"
    ],
    "named": [
     {
-     "n": "Josh Jacobs",
-     "p": "RB",
-     "t": "GB",
-     "h": "brettmn13"
-    }
-   ],
-   "lead": [
-    "Josh Jacobs"
-   ],
-   "ripple": [
-    {
-     "n": "Christian Watson",
-     "p": "WR",
-     "t": "GB",
-     "h": "triccster"
-    },
-    {
-     "n": "Jordan Love",
+     "n": "Patrick Mahomes",
      "p": "QB",
-     "t": "GB",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Jayden Reed",
-     "p": "WR",
-     "t": "GB",
-     "h": "Jbird531"
-    },
-    {
-     "n": "MarShawn Lloyd",
-     "p": "RB",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Tucker Kraft",
-     "p": "TE",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Matthew Golden",
-     "p": "WR",
-     "t": "GB",
+     "t": "KC",
      "h": "snelson91"
     }
    ],
+   "lead": [
+    "Patrick Mahomes"
+   ],
+   "ripple": [
+    {
+     "n": "Kenneth Walker",
+     "p": "RB",
+     "t": "KC",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Xavier Worthy",
+     "p": "WR",
+     "t": "KC",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    }
+   ],
    "managers": [
-    "Jbird531",
-    "PapaMidnight",
+    "Colt45Johnson",
+    "TuanonStan",
     "YoungBuck04",
     "brettmn13",
-    "snelson91",
-    "triccster"
+    "butterygoop",
+    "snelson91"
    ],
-   "score": 15.0
+   "score": 14.5
   },
   {
-   "headline": "49ers rule out Bosa for Monday, still hopeful for Evans, Juszczyk",
+   "headline": "49ers rule out Bosa, still hopeful for Evans; Juszczyk will play",
    "url": "https://www.espn.com/nfl/story/_/id/50205015/san-francisco-49ers-rule-de-nick-bosa-monday-night",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "kind": "news",
    "teams": [
     "SF",
@@ -379,70 +373,62 @@
    "score": 14.5
   },
   {
-   "headline": "Chiefs WR Rashee Rice out Sunday vs. Chargers with hamstring injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50197599/chiefs-wr-rashee-rice-vs-chargers-hamstring-injury",
-   "date": "2026-10-16",
+   "headline": "Kyren Williams says Rams' inconsistencies on offense 'probably' due to role",
+   "url": "https://www.espn.com/nfl/story/_/id/50215576/kyren-williams-rams-inconsistencies-due-role",
+   "date": "2026-10-19",
    "kind": "news",
    "teams": [
-    "KC"
+    "LAR"
    ],
    "named": [
     {
-     "n": "Rashee Rice",
-     "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
+     "n": "Kyren Williams",
+     "p": "RB",
+     "t": "LAR",
+     "h": "snelson91"
     }
    ],
    "lead": [
-    "Rashee Rice"
+    "Kyren Williams"
    ],
    "ripple": [
     {
-     "n": "Kenneth Walker",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Xavier Worthy",
-     "p": "WR",
-     "t": "KC",
+     "n": "Matthew Stafford",
+     "p": "QB",
+     "t": "LAR",
      "h": "TuanonStan"
     },
     {
-     "n": "Emmett Johnson",
+     "n": "Blake Corum",
      "p": "RB",
-     "t": "KC",
+     "t": "LAR",
      "h": "YoungBuck04"
     },
     {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
-     "h": "Colt45Johnson"
+     "n": "Davante Adams",
+     "p": "WR",
+     "t": "LAR",
+     "h": "YoungBuck04"
     },
     {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
+     "n": "Puka Nacua",
+     "p": "WR",
+     "t": "LAR",
+     "h": "Colt45Johnson"
     }
    ],
    "managers": [
     "Colt45Johnson",
     "TuanonStan",
     "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
     "snelson91"
    ],
-   "score": 14.5
+   "score": 14.0
   },
   {
-   "headline": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
-   "url": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
-   "date": "2026-10-17",
+   "headline": "Patriots' A.J. Brown has career-high 3 dropped passes in return from injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50213864/patriots-aj-brown-career-high-3-drops-return-injury",
+   "date": "2026-10-19",
    "kind": "news",
    "teams": [
     "NE"
@@ -598,164 +584,158 @@
    "score": 14.0
   },
   {
-   "headline": "Cardinals 'do what's right,' rule RB Jeremiyah Love (ankle) out vs. Rams",
-   "url": "https://www.espn.com/nfl/story/_/id/50197712/cardinals-rb-jeremiyah-love-ankle-sunday-vs-rams",
-   "date": "2026-10-16",
+   "headline": "McCarthy nearly rallies Giants after Winston benched; Skattebo logs no carries",
+   "url": "https://www.espn.com/nfl/story/_/id/50214248/giants-john-harbaugh-not-ready-name-week-7-starter-qb",
+   "date": "2026-10-19",
    "kind": "news",
    "teams": [
-    "ARI"
+    "NYG"
    ],
    "named": [
     {
-     "n": "Jeremiyah Love",
+     "n": "Cam Skattebo",
      "p": "RB",
-     "t": "ARI",
-     "h": "RockMNwild"
+     "t": "NYG",
+     "h": "PapaMidnight"
     }
    ],
    "lead": [
-    "Jeremiyah Love"
+    "Cam Skattebo"
    ],
    "ripple": [
     {
-     "n": "Jacoby Brissett",
-     "p": "QB",
-     "t": "ARI",
+     "n": "Isaiah Likely",
+     "p": "TE",
+     "t": "NYG",
      "h": "butterygoop"
     },
     {
-     "n": "Tyler Allgeier",
-     "p": "RB",
-     "t": "ARI",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Trey McBride",
-     "p": "TE",
-     "t": "ARI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Michael Wilson",
+     "n": "Malik Nabers",
      "p": "WR",
-     "t": "ARI",
-     "h": "Jbird531"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "RockMNwild",
-    "TuanonStan",
-    "YoungBuck04",
-    "butterygoop"
-   ],
-   "score": 14.0
-  },
-  {
-   "headline": "Ravens rule out QB Lamar Jackson; Tyler Huntley to start vs. Browns",
-   "url": "https://www.espn.com/nfl/story/_/id/50197342/ravens-rule-qb-jackson-huntley-start-browns",
-   "date": "2026-10-16",
-   "kind": "news",
-   "teams": [
-    "BAL"
-   ],
-   "named": [
-    {
-     "n": "Lamar Jackson",
-     "p": "QB",
-     "t": "BAL",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Lamar Jackson"
-   ],
-   "ripple": [
-    {
-     "n": "Zay Flowers",
-     "p": "WR",
-     "t": "BAL",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Derrick Henry",
-     "p": "RB",
-     "t": "BAL",
+     "t": "NYG",
      "h": "Colt45Johnson"
     },
     {
-     "n": "Justice Hill",
+     "n": "Najee Harris",
      "p": "RB",
-     "t": "BAL",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Mark Andrews",
-     "p": "TE",
-     "t": "BAL",
+     "t": "NYG",
      "h": "snelson91"
     }
    ],
    "managers": [
     "Colt45Johnson",
     "PapaMidnight",
-    "YoungBuck04",
+    "butterygoop",
     "snelson91"
    ],
-   "score": 14.0
+   "score": 13.5
   },
   {
-   "headline": "Browns WR KC Concepcion clears concussion protocol, will play vs. Ravens",
-   "url": "https://www.espn.com/nfl/story/_/id/50197266/browns-wr-concepcion-clears-protocol-play-vs-ravens",
-   "date": "2026-10-16",
+   "headline": "Chargers WR Ladd McConkey ruled out with concussion vs. Chiefs",
+   "url": "https://www.espn.com/nfl/story/_/id/50213342/chargers-ladd-mcconkey-ruled-concussion-vs-chiefs",
+   "date": "2026-10-19",
    "kind": "news",
    "teams": [
-    "CLE"
+    "LAC"
    ],
    "named": [
     {
-     "n": "KC Concepcion",
+     "n": "Ladd McConkey",
      "p": "WR",
-     "t": "CLE",
-     "h": "butterygoop"
+     "t": "LAC",
+     "h": "Colt45Johnson"
     }
    ],
    "lead": [
-    "KC Concepcion"
+    "Ladd McConkey"
    ],
    "ripple": [
     {
-     "n": "Jaleel McLaughlin",
+     "n": "Keaton Mitchell",
      "p": "RB",
-     "t": "CLE",
-     "h": "RockMNwild"
+     "t": "LAC",
+     "h": "triccster"
     },
     {
-     "n": "Denzel Boston",
-     "p": "WR",
-     "t": "CLE",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Harold Fannin",
-     "p": "TE",
-     "t": "CLE",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Quinshon Judkins",
+     "n": "Omarion Hampton",
      "p": "RB",
-     "t": "CLE",
+     "t": "LAC",
      "h": "thecreamer"
     }
    ],
    "managers": [
-    "Jbird531",
-    "RockMNwild",
-    "butterygoop",
-    "thecreamer"
+    "Colt45Johnson",
+    "thecreamer",
+    "triccster"
    ],
-   "score": 14.0
+   "score": 13.0
+  },
+  {
+   "headline": "Packers' Josh Jacobs eligible to return next week amid investigation",
+   "url": "https://www.espn.com/nfl/story/_/id/50197784/packers-josh-jacobs-eligible-return-next-week-amid-probe",
+   "date": "2026-10-17",
+   "kind": "news",
+   "teams": [
+    "GB"
+   ],
+   "named": [
+    {
+     "n": "Josh Jacobs",
+     "p": "RB",
+     "t": "GB",
+     "h": "brettmn13"
+    }
+   ],
+   "lead": [
+    "Josh Jacobs"
+   ],
+   "ripple": [
+    {
+     "n": "Christian Watson",
+     "p": "WR",
+     "t": "GB",
+     "h": "triccster"
+    },
+    {
+     "n": "Jordan Love",
+     "p": "QB",
+     "t": "GB",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Jayden Reed",
+     "p": "WR",
+     "t": "GB",
+     "h": "Jbird531"
+    },
+    {
+     "n": "MarShawn Lloyd",
+     "p": "RB",
+     "t": "GB",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Tucker Kraft",
+     "p": "TE",
+     "t": "GB",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Matthew Golden",
+     "p": "WR",
+     "t": "GB",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "PapaMidnight",
+    "YoungBuck04",
+    "brettmn13",
+    "snelson91",
+    "triccster"
+   ],
+   "score": 13.0
   },
   {
    "headline": "Texans RB Montgomery, S Pitre out for London affair vs. Jaguars",
