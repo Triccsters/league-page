@@ -1,0 +1,2146 @@
+{
+ "slug": "2026-w06",
+ "masthead": "FL Players Weekly",
+ "tagline": "The FL Players league newsletter · est. 2008",
+ "headline": "Monday Night Flips the Brother Bowl",
+ "dek": "Inside: Joey's fifth straight over Scott, the Allen trade that met itself on Sunday, what a median game would do to the standings, the division races, the defense that flipped three games from the waiver wire, and every manager's story.",
+ "lead": "Week 6 was the quietest week of the season, a league average of 94.0 after 111.0 in week 5, and Monday night had a hand in five of the six games. It flipped one, and it was the brother bowl. Scott led Joey 73.68 to 65.60 going into Monday. Rachaad White scored 13.7 for Washington, and Joey won 79.30 to 77.08, his fifth straight win over his brother.\n\nThe other story is a trade that met itself. Before the week, Austin sent Josh Allen and Kyle Monangai to James for Joe Burrow, Bucky Irving and Juwan Johnson. Then the two of them played. Allen scored 18.3 for James in a 97.30 to 76.38 win, and James is 5-1. Anthony had the best score of the week, 134.02, and is back on top of the points table.",
+ "used_notes": [],
+ "managers": [
+  {
+   "handle": "TuanonStan",
+   "arc": "Traded for the QB, then beat the seller",
+   "mood": "up",
+   "text": "5-1 with four straight wins and the second-most points in the league (717.24). He made the trade of the week and won it on the field the same week, with George Kittle (15.4) and the Chiefs defense (15.0) backing up his new quarterback. He also added Kenyon Sadiq off the wire. His five previous 5-1 starts produced a title (2019), a lost final (2016) and three more playoff trips.",
+   "next": "Week 7: Brett, a Division 2 game. James leads the series 12-10, but Brett won the last meeting, 107.02 to 70.82 last season. James is a 63% favorite.",
+   "outlook": "The best playoff odds in the league (97%) and a 72% chance to win Division 2, which comes with a bye. Allen is on bye in week 7. Matthew Stafford, who scored 16.88 on the bench in week 6, is the other quarterback on the roster.",
+   "odds": {
+    "playoff": 96.5,
+    "bye": 71.6,
+    "title": 25.6,
+    "proj_w": 9.8,
+    "sos_rest_rank": 6,
+    "teams": 12
+   },
+   "next_opp": "brettmn13",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 1"
+    }
+   ],
+   "nfl_hits": [
+    0
+   ]
+  },
+  {
+   "handle": "Jbird531",
+   "arc": "Five straight over Scott",
+   "mood": "up",
+   "text": "5-1 with only the eighth-most points in the league (606.84), and the brother bowl is his again: he now leads the series 11-5. Jaxon Smith-Njigba (19.4) and Caleb Williams (16.5) did most of the work before Monday. Joey has started 5-1 three times before (2019, 2022, 2024), made the playoffs every time and won the title in 2022.",
+   "next": "Week 7: Nase, a Division 1 game and the game of the week. The series is 8-8, and Nase won the last one. Joey is a 53% favorite.",
+   "outlook": "He leads Division 1 by a game, but the model makes Anthony the favorite to win it. Joey has the easiest schedule left in the league, which suits a team that wins without big scores. Rachaad White is on bye in week 7, and Breece Hall did not practice Wednesday, so Braelon Allen, also his, is in line for another start.",
+   "odds": {
+    "playoff": 83.1,
+    "bye": 31.5,
+    "title": 8.5,
+    "proj_w": 9.0,
+    "sos_rest_rank": 12,
+    "teams": 12
+   },
+   "next_opp": "thecreamer",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 7"
+    }
+   ],
+   "nfl_hits": [
+    0,
+    7
+   ]
+  },
+  {
+   "handle": "butterygoop",
+   "arc": "Top of the points table",
+   "mood": "up",
+   "text": "Beat Colt by 34.96, the biggest margin of the week, behind Kenneth Walker (26.9), D'Andre Swift (21.0) and Isaiah Likely (20.9), with Bhayshul Tuten scoring 22.7 on his bench. He is first in points again (742.44) and has the best title odds in the league, 26%. Then a hard week off the field: Jalen Hurts is out for the season with blood clots in his lungs, and Anthony picked up J.J. McCarthy, who the Giants have named their starter for week 7.",
+   "next": "Week 7: Buckley. Anthony has won 6 of their 10 meetings and is a 68% favorite.",
+   "outlook": "His three previous 4-2 starts all made the playoffs, and the last one, 2025, ended with the title. He outscores Joey by more than 20 points a week on average, which is why the model has him winning Division 1 from a game back.",
+   "odds": {
+    "playoff": 93.5,
+    "bye": 55.0,
+    "title": 26.4,
+    "proj_w": 9.1,
+    "sos_rest_rank": 7,
+    "teams": 12
+   },
+   "next_opp": "YoungBuck04",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 2 (up 1)"
+    },
+    {
+     "k": "lead",
+     "t": "Leads: Who beats Sleeper's projections"
+    }
+   ],
+   "nfl_hits": [
+    1,
+    2
+   ]
+  },
+  {
+   "handle": "thecreamer",
+   "arc": "Perfect, and 4-2",
+   "mood": "flat",
+   "text": "Beat T.J. 96.14 to 84.70 with a perfect lineup, not a point left on the bench. Jonathan Taylor (20.1) and Bryce Young (19.84) led it, and Chris Boswell, the kicker he picked up after the Rams cut his old one, added 14.0. That is 4-2 with the 10th-most points in the league. His four previous 4-2 starts produced one playoff trip, in 2019.",
+   "next": "Week 7: Joey, a Division 1 game and the game of the week. Nase won the last meeting, 134.02 to 116.06, and the series is 8-8. He is at 47%.",
+   "outlook": "A coin flip to make the playoffs (49%), with the hardest schedule left in the league. Beating Joey would put him level with the division leader.",
+   "odds": {
+    "playoff": 49.2,
+    "bye": 8.0,
+    "title": 3.9,
+    "proj_w": 7.3,
+    "sos_rest_rank": 1,
+    "teams": 12
+   },
+   "next_opp": "Jbird531",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 10"
+    }
+   ],
+   "nfl_hits": [
+    0
+   ]
+  },
+  {
+   "handle": "snelson91",
+   "arc": "Perfect, and lost",
+   "mood": "down",
+   "text": "Lost the brother bowl by 2.22 without leaving a point on the bench. Kyren Williams (8.2) and Patrick Mahomes (10.48) came in about 11 and 10 under their averages, and Tyler Bass, the kicker he picked up for Jake Bates's bye, was his second-best scorer at 15.0. Two straight losses, by 8.44 and 2.22. His three previous 3-3 starts went 1 for 3 at making the playoffs; the one that did was last year.",
+   "next": "Week 7: T.J., who leads the series 12-9 and won their last meeting, the 2025 third-place game, 125.6 to 86.04. Scott is a 58% favorite.",
+   "outlook": "71% to make the playoffs, the fourth-best odds in the league. He is without Terry McLaurin, who is out for the season with a torn patellar tendon.",
+   "odds": {
+    "playoff": 71.3,
+    "bye": 14.2,
+    "title": 12.6,
+    "proj_w": 7.6,
+    "sos_rest_rank": 5,
+    "teams": 12
+   },
+   "next_opp": "triccster",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 3 (down 1)"
+    }
+   ],
+   "nfl_hits": [
+    6
+   ]
+  },
+  {
+   "handle": "Colt45Johnson",
+   "arc": "Ran into the best score",
+   "mood": "down",
+   "text": "99.06 beat seven of the week's scores and lost by 34.96 to Anthony. Tyler Shough scored 26.96, the top player in the league this week, the same Shough T.J. cut in week 1, and Malik Nabers added 22.5. Rhamondre Stevenson scored 3.6 in the lineup, and Colt still set his second straight perfect lineup. He has made 24 adds this season.",
+   "next": "Week 7: John, who has won seven straight in the series and leads it 9-7. A coin flip: Colt is at 51%.",
+   "outlook": "60% to make the playoffs, fifth in the league. Nabers and the 49ers defense are on bye in week 8, so he has two pieces to replace that week.",
+   "odds": {
+    "playoff": 60.1,
+    "bye": 8.0,
+    "title": 7.5,
+    "proj_w": 7.4,
+    "sos_rest_rank": 11,
+    "teams": 12
+   },
+   "next_opp": "Wallner",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 6 (down 1)"
+    },
+    {
+     "k": "lead",
+     "t": "Leads: Hot hand"
+    }
+   ],
+   "nfl_hits": []
+  },
+  {
+   "handle": "brettmn13",
+   "arc": "Two straight",
+   "mood": "up",
+   "text": "Beat Mikey 101.12 to 73.62 behind Germie Bernard (20.2), Kirk Cousins (18.52), a free agent he added and started right away, and Colston Loveland (15.5). Trevor Lawrence scored 27.34 on his bench, the best bench score of the week. Matt Gay, the kicker he swapped in for the Vikings' bye, scored 12.0. Two straight wins and back to 3-3. His only two previous 3-3 starts split: a playoff trip in 2008, a miss in 2018.",
+   "next": "Week 7: James, a Division 2 game. Brett won the last meeting but trails the series 12-10 and is at 37%.",
+   "outlook": "38% to make the playoffs, with the second-hardest schedule left. He claimed the Tennessee defense off waivers this week, so the next big week from that defense counts for him.",
+   "odds": {
+    "playoff": 38.2,
+    "bye": 3.1,
+    "title": 3.6,
+    "proj_w": 6.7,
+    "sos_rest_rank": 2,
+    "teams": 12
+   },
+   "next_opp": "TuanonStan",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 8 (up 1)"
+    }
+   ],
+   "nfl_hits": []
+  },
+  {
+   "handle": "YoungBuck04",
+   "arc": "Held on Monday",
+   "mood": "up",
+   "text": "Beat John 108.34 to 101.46, the second-best score of the week. Buckley went ahead on Sunday night, and both teams had players going Monday: John outscored him 28.26 to 26.2 that night and still came up short. Christian McCaffrey (26.2) and Jordan Love (20.24) led the way. He leads the Coach of the year race at 95% lineup efficiency. SKOL.",
+   "next": "Week 7: Anthony, who has won 6 of their 10 meetings. Buckley is at 32%.",
+   "outlook": "34% to make the playoffs. Davante Adams is on injured reserve, out 6 to 10 weeks with a ruptured hamstring, so the receiver group needs help. His last 3-3 start, in 2018, ended in the final.",
+   "odds": {
+    "playoff": 34.0,
+    "bye": 2.8,
+    "title": 3.2,
+    "proj_w": 6.6,
+    "sos_rest_rank": 4,
+    "teams": 12
+   },
+   "next_opp": "butterygoop",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 5 (up 1)"
+    },
+    {
+     "k": "lead",
+     "t": "Leads: Coach of the year"
+    }
+   ],
+   "nfl_hits": [
+    3
+   ]
+  },
+  {
+   "handle": "Wallner",
+   "arc": "Lost anyway",
+   "mood": "down",
+   "text": "Scored above the median and lost by 6.88. James Cook (22.8) and Brock Purdy (17.36) led the lineup, the Giants defense scored 1.0, and Drake Maye scored 23.8 on the bench, another big week from his best bench piece.",
+   "next": "Week 7: Colt. John has won seven straight in the series and is at 49%.",
+   "outlook": "About a 30% shot at the playoffs. The model rates his bench the best in the league, and he has three pieces to replace in week 8: Purdy, Mike Evans and the Giants defense. His one 2-4 start that made the playoffs was 2013, in five tries.",
+   "odds": {
+    "playoff": 29.5,
+    "bye": 2.7,
+    "title": 4.0,
+    "proj_w": 6.0,
+    "sos_rest_rank": 3,
+    "teams": 12
+   },
+   "next_opp": "Colt45Johnson",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 4"
+    }
+   ],
+   "nfl_hits": [
+    0
+   ]
+  },
+  {
+   "handle": "triccster",
+   "arc": "Three straight losses",
+   "mood": "down",
+   "text": "Lost to Nase by 11.44, and a perfect lineup would have scored 90.20 and lost anyway. Jayden Daniels (21.0) and DK Metcalf (14.8) led it, Stefon Diggs scored 13.4 on the bench, and Keaton Mitchell started for 0.4. Three straight losses after a 2-1 start. Sixth in points, tenth in the standings. His three previous 2-4 starts (2016, 2017, 2023) all missed the playoffs.",
+   "next": "Week 7: Scott. T.J. leads the series 12-9 and won the last meeting, but is at 42%.",
+   "outlook": "About a 30% shot at the playoffs. Daniels and Mitchell, both week 6 starters, are on bye in week 7. He claimed Roschon Johnson for $20 and Will Reichard for $2.",
+   "odds": {
+    "playoff": 30.5,
+    "bye": 2.8,
+    "title": 3.6,
+    "proj_w": 6.1,
+    "sos_rest_rank": 10,
+    "teams": 12
+   },
+   "next_opp": "snelson91",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 9 (down 1)"
+    },
+    {
+     "k": "lead",
+     "t": "Leads: Pickup of the year"
+    },
+    {
+     "k": "lead",
+     "t": "Leads: GM of the year"
+    }
+   ],
+   "nfl_hits": [
+    5
+   ]
+  },
+  {
+   "handle": "RockMNwild",
+   "arc": "Traded his QB to his opponent",
+   "mood": "down",
+   "text": "Lost to the team he had just traded with, by 20.92. With Burrow on the Bengals' bye, Austin started C.J. Stroud off the wire (22.98), and Tre Tucker, another pickup, led the team with 24.2. Juwan Johnson, from the trade, scored 0.0 in the lineup and Bucky Irving 5.9, while Kyle Pitts scored 20.5 on the bench. 27.50 points left on the bench, the most this week, and the most on the season too (114.5). Stroud is already gone, dropped for Kenny Gainwell.",
+   "next": "Week 7: Mikey, who has won the last two meetings. Austin leads the series 5-4 and is a 53% favorite.",
+   "outlook": "13% to make the playoffs and a 14% chance at last place. Burrow is back from his bye. Irving missed Wednesday's practice with an illness and is listed questionable, as of Wednesday. Austin has turned 2-4 into a title before, in 2018.",
+   "odds": {
+    "playoff": 13.0,
+    "bye": 0.3,
+    "title": 1.0,
+    "proj_w": 5.4,
+    "sos_rest_rank": 9,
+    "teams": 12
+   },
+   "next_opp": "PapaMidnight",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 11"
+    },
+    {
+     "k": "lead",
+     "t": "Most points left on the bench"
+    }
+   ],
+   "nfl_hits": []
+  },
+  {
+   "handle": "PapaMidnight",
+   "arc": "Still looking for one",
+   "mood": "down",
+   "text": "0-6 after the quietest score of the week, 73.62, in a 27.50 loss to Brett. Dak Prescott led the team with 11.02. Cam Skattebo started and scored 0.0, and Romeo Doubs scored 10.7 before going on injured reserve with a shoulder injury. Six teams in league history have started 0-6, and none made the playoffs.",
+   "next": "Week 7: Austin. Mikey has won the last two meetings and is at 47%.",
+   "outlook": "Under 1% to make the playoffs and 69% to finish last. Last place is not board duty: that goes to the loser of the losers bracket, and his chance of that is 29%. The first win is still out there.",
+   "odds": {
+    "playoff": 0.9,
+    "bye": 0.0,
+    "title": 0.1,
+    "proj_w": 3.2,
+    "sos_rest_rank": 8,
+    "teams": 12
+   },
+   "next_opp": "RockMNwild",
+   "tags": [
+    {
+     "k": "power",
+     "t": "Power 12"
+    }
+   ],
+   "nfl_hits": [
+    1,
+    4
+   ]
+  }
+ ],
+ "trends": [
+  {
+   "title": "Records lie, a little",
+   "text": "Nase is 4-2 with the 10th-most points. John is 2-4 with the fifth-most. Joey is 5-1 with the eighth-most, and Anthony, at 4-2, has scored 135.60 more than Joey."
+  },
+  {
+   "title": "The quarterback swap nobody planned",
+   "text": "Anthony cut Jared Goff in week 3 and T.J. picked him up; T.J. cut Tyler Shough in week 1 and Colt picked him up. They are the two best pickups of the season by started points: Goff 68.8 for T.J., Shough 66.7 for Colt."
+  },
+  {
+   "title": "The kickers stayed out of it",
+   "text": "Four managers started a new kicker in week 6. The brother bowl was the close one, and kickers didn't decide it: take both out and Joey still wins. Scott's kicker outscored Joey's 15.0 to 1.0. The last game a kicker decided was still Joey over John in week 2."
+  }
+ ],
+ "history": [
+  {
+   "title": "Week 6, all time",
+   "text": "The highest week 6 score on record is Scott's 180.2 against T.J. in 2018. The biggest week 6 blowout was last year's: Anthony over Brett, 146.36 to 70.8. The closest was J Rock over Brett, 78 to 77, in 2008."
+  }
+ ],
+ "ahead": "Game of the week: Joey and Nase, a Division 1 game between two teams at the top of it, with the series at 8-8. Also worth watching: James and Brett in Division 2, Colt trying to end John's seven-game run in their series, and Austin against Mikey, where the loser takes a step toward last place.",
+ "gotw": {
+  "week": 7,
+  "teams": [
+   "Jbird531",
+   "thecreamer"
+  ]
+ },
+ "moves": {
+  "intro": "One trade, one defense nobody owned, and the biggest bidding war of the week.",
+  "items": [
+   {
+    "kind": "trade",
+    "managers": [
+     "RockMNwild",
+     "TuanonStan"
+    ],
+    "title": "The Allen trade",
+    "text": "Before week 6: Austin sent Josh Allen and Kyle Monangai to James for Joe Burrow, Bucky Irving and Juwan Johnson. They played each other that week. James started Allen; Austin started Irving and Johnson, who scored 5.9 between them, and Burrow was on bye.",
+    "verdict": "Round one to James, on the field and in the standings. Burrow's first start for Austin is week 7."
+   },
+   {
+    "kind": "pickup",
+    "managers": [
+     "triccster",
+     "Wallner",
+     "snelson91"
+    ],
+    "title": "The defense nobody had",
+    "text": "The Tennessee defense scored 21.0 while unrostered that week. Started in place of the defense each of these three used, it flips three losses: T.J.'s to Nase (Rams 3.0, lost by 11.44), John's to Buckley (Giants 1.0, lost by 6.88) and Scott's to Joey (Seahawks 3.0, lost by 2.22).",
+    "verdict": "Three flips from one free agent in one week ties Kenyon Sadiq (week 3) and Tyquan Thornton (week 4). Brett has the Titans now."
+   },
+   {
+    "kind": "pickup",
+    "managers": [
+     "Wallner",
+     "Colt45Johnson"
+    ],
+    "title": "Four bids for Omar Cooper",
+    "text": "John won the Jets' rookie receiver for $22, one dollar over Colt. Scott bid $13 and Austin $5.",
+    "verdict": "The biggest winning bid of the week."
+   },
+   {
+    "kind": "swap",
+    "managers": [
+     "butterygoop"
+    ],
+    "title": "Hurts out, McCarthy in",
+    "text": "Anthony dropped Jalen Hurts, who is out for the season, and added J.J. McCarthy, the Giants' starter for week 7 as of Wednesday.",
+    "verdict": "A quarterback room rebuilt in a day. Hurts is expected to make a full recovery."
+   }
+  ]
+ },
+ "nfl": {
+  "read_at": "2026-10-21T12:00+00:00",
+  "note": "Headlines as ESPN reported them on the date shown. Injury and depth-chart news can change before kickoff.",
+  "intro": "A rough NFL week for this league's receivers. Buckley loses Davante Adams for 6 to 10 weeks, Scott loses Terry McLaurin for the season, and Mikey's Romeo Doubs is on injured reserve. Joey's Jets backfield is unsettled again, and Anthony has a new Giants quarterback.",
+  "items": [
+   {
+    "headline": "Jets rookie WR Omar Cooper Jr. to return vs. Patriots; RB Hall, WR Mitchell out",
+    "url": "https://www.espn.com/nfl/story/_/id/50196775/jets-rookie-wr-cooper-play-vs-patriots-hall-mitchell-out",
+    "date": "2026-10-16",
+    "kind": "news",
+    "teams": [
+     "NYJ"
+    ],
+    "named": [
+     {
+      "n": "Breece Hall",
+      "p": "RB",
+      "t": "NYJ",
+      "h": "Jbird531"
+     },
+     {
+      "n": "Adonai Mitchell",
+      "p": "WR",
+      "t": "NYJ",
+      "h": "thecreamer"
+     },
+     {
+      "n": "Omar Cooper",
+      "p": "WR",
+      "t": "NYJ",
+      "h": "Wallner"
+     },
+     {
+      "n": "Kenyon Sadiq",
+      "p": "TE",
+      "t": "NYJ",
+      "h": "TuanonStan"
+     }
+    ],
+    "lead": [
+     "Breece Hall",
+     "Adonai Mitchell",
+     "Omar Cooper"
+    ],
+    "ripple": [
+     {
+      "n": "Braelon Allen",
+      "p": "RB",
+      "t": "NYJ",
+      "h": "Jbird531"
+     },
+     {
+      "n": "Garrett Wilson",
+      "p": "WR",
+      "t": "NYJ",
+      "h": "brettmn13"
+     }
+    ],
+    "managers": [
+     "Jbird531",
+     "TuanonStan",
+     "Wallner",
+     "brettmn13",
+     "thecreamer"
+    ],
+    "note": "John now has Cooper. Joey's Breece Hall did not practice Wednesday and the Jets don't expect him back this week, which leaves Braelon Allen, also Joey's, as the starter again."
+   },
+   {
+    "headline": "McCarthy nearly rallies Giants after Winston benched; Skattebo logs no carries",
+    "url": "https://www.espn.com/nfl/story/_/id/50214248/giants-john-harbaugh-not-ready-name-week-7-starter-qb",
+    "date": "2026-10-19",
+    "kind": "news",
+    "teams": [
+     "NYG"
+    ],
+    "named": [
+     {
+      "n": "J.J. McCarthy",
+      "p": "QB",
+      "t": "NYG",
+      "h": "butterygoop"
+     },
+     {
+      "n": "Cam Skattebo",
+      "p": "RB",
+      "t": "NYG",
+      "h": "PapaMidnight"
+     }
+    ],
+    "lead": [
+     "J.J. McCarthy",
+     "Cam Skattebo"
+    ],
+    "ripple": [
+     {
+      "n": "Isaiah Likely",
+      "p": "TE",
+      "t": "NYG",
+      "h": "butterygoop"
+     },
+     {
+      "n": "Malik Nabers",
+      "p": "WR",
+      "t": "NYG",
+      "h": "Colt45Johnson"
+     },
+     {
+      "n": "Tyrone Tracy",
+      "p": "RB",
+      "t": "NYG",
+      "h": "snelson91"
+     }
+    ],
+    "managers": [
+     "Colt45Johnson",
+     "PapaMidnight",
+     "butterygoop",
+     "snelson91"
+    ],
+    "note": "Anthony is already there: he picked up J.J. McCarthy, and the Giants named him their week 7 starter on Wednesday. Mikey's Cam Skattebo didn't get a carry."
+   },
+   {
+    "headline": "Texans WR Tank Dell to play Sunday in 1st game since major 2024 knee injury",
+    "url": "https://www.espn.com/nfl/story/_/id/50220990/texans-tank-dell-play-sunday-1st-game-knee-injury",
+    "date": "2026-10-19",
+    "kind": "news",
+    "teams": [
+     "HOU"
+    ],
+    "named": [
+     {
+      "n": "Tank Dell",
+      "p": "WR",
+      "t": "HOU",
+      "h": "butterygoop"
+     }
+    ],
+    "lead": [
+     "Tank Dell"
+    ],
+    "ripple": [
+     {
+      "n": "Woody Marks",
+      "p": "RB",
+      "t": "HOU",
+      "h": "Wallner"
+     },
+     {
+      "n": "Marvin Harrison",
+      "p": "WR",
+      "t": "HOU",
+      "h": "RockMNwild"
+     },
+     {
+      "n": "C.J. Stroud",
+      "p": "QB",
+      "t": "HOU",
+      "h": "RockMNwild"
+     },
+     {
+      "n": "Nico Collins",
+      "p": "WR",
+      "t": "HOU",
+      "h": "PapaMidnight"
+     },
+     {
+      "n": "Jaylin Noel",
+      "p": "WR",
+      "t": "HOU",
+      "h": "snelson91"
+     },
+     {
+      "n": "David Montgomery",
+      "p": "RB",
+      "t": "HOU",
+      "h": "snelson91"
+     }
+    ],
+    "managers": [
+     "PapaMidnight",
+     "RockMNwild",
+     "Wallner",
+     "butterygoop",
+     "snelson91"
+    ],
+    "note": "Anthony's Tank Dell is set to play in week 7, his first game since December 2024."
+   },
+   {
+    "headline": "Rams suffer several major injuries, including to WR Adams, who's out 6-10 weeks",
+    "url": "https://www.espn.com/nfl/story/_/id/50221426/rams-lose-star-wr-davante-adams-6-10-weeks-mcvay-says",
+    "date": "2026-10-20",
+    "kind": "news",
+    "teams": [
+     "LAR"
+    ],
+    "named": [
+     {
+      "n": "Davante Adams",
+      "p": "WR",
+      "t": "LAR",
+      "h": "YoungBuck04"
+     }
+    ],
+    "lead": [
+     "Davante Adams"
+    ],
+    "ripple": [
+     {
+      "n": "Matthew Stafford",
+      "p": "QB",
+      "t": "LAR",
+      "h": "TuanonStan"
+     },
+     {
+      "n": "Blake Corum",
+      "p": "RB",
+      "t": "LAR",
+      "h": "YoungBuck04"
+     },
+     {
+      "n": "Puka Nacua",
+      "p": "WR",
+      "t": "LAR",
+      "h": "Colt45Johnson"
+     },
+     {
+      "n": "Kyren Williams",
+      "p": "RB",
+      "t": "LAR",
+      "h": "snelson91"
+     }
+    ],
+    "managers": [
+     "Colt45Johnson",
+     "TuanonStan",
+     "YoungBuck04",
+     "snelson91"
+    ],
+    "note": "Buckley's Davante Adams ruptured his hamstring and is on injured reserve. Colt's Puka Nacua, Scott's Kyren Williams and James's Matthew Stafford stay in an offense that just lost a top receiver."
+   },
+   {
+    "headline": "Patriots place WR Romeo Doubs (shoulder) on IR",
+    "url": "https://www.espn.com/nfl/story/_/id/50221307/patriots-place-romeo-doubs-shoulder-ir",
+    "date": "2026-10-20",
+    "kind": "news",
+    "teams": [
+     "NE"
+    ],
+    "named": [
+     {
+      "n": "Romeo Doubs",
+      "p": "WR",
+      "t": "NE",
+      "h": "PapaMidnight"
+     }
+    ],
+    "lead": [
+     "Romeo Doubs"
+    ],
+    "ripple": [
+     {
+      "n": "Drake Maye",
+      "p": "QB",
+      "t": "NE",
+      "h": "Wallner"
+     },
+     {
+      "n": "A.J. Brown",
+      "p": "WR",
+      "t": "NE",
+      "h": "YoungBuck04"
+     },
+     {
+      "n": "TreVeyon Henderson",
+      "p": "RB",
+      "t": "NE",
+      "h": "Colt45Johnson"
+     },
+     {
+      "n": "Rhamondre Stevenson",
+      "p": "RB",
+      "t": "NE",
+      "h": "Colt45Johnson"
+     }
+    ],
+    "managers": [
+     "Colt45Johnson",
+     "PapaMidnight",
+     "Wallner",
+     "YoungBuck04"
+    ],
+    "note": "Mikey's Doubs is out at least four games, and the Patriots' coach would not put a timeline on it."
+   },
+   {
+    "headline": "Commanders' Quinn, Daniels discuss QB's throwaway on fourth-down play",
+    "url": "https://www.espn.com/nfl/story/_/id/50231812/quinn-daniels-discuss-qb-throwaway-fourth-play",
+    "date": "2026-10-20",
+    "kind": "news",
+    "teams": [
+     "WAS"
+    ],
+    "named": [
+     {
+      "n": "Jayden Daniels",
+      "p": "QB",
+      "t": "WAS",
+      "h": "triccster"
+     }
+    ],
+    "lead": [
+     "Jayden Daniels"
+    ],
+    "ripple": [
+     {
+      "n": "Jacory Croskey-Merritt",
+      "p": "RB",
+      "t": "WAS",
+      "h": "triccster"
+     },
+     {
+      "n": "Stefon Diggs",
+      "p": "WR",
+      "t": "WAS",
+      "h": "triccster"
+     },
+     {
+      "n": "Rachaad White",
+      "p": "RB",
+      "t": "WAS",
+      "h": "Jbird531"
+     },
+     {
+      "n": "Terry McLaurin",
+      "p": "WR",
+      "t": "WAS",
+      "h": "snelson91"
+     }
+    ],
+    "managers": [
+     "Jbird531",
+     "snelson91",
+     "triccster"
+    ]
+   },
+   {
+    "headline": "Commanders WR Terry McLaurin has torn patellar tendon, ending his season",
+    "url": "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon",
+    "date": "2026-10-20",
+    "kind": "news",
+    "teams": [
+     "WAS"
+    ],
+    "named": [
+     {
+      "n": "Terry McLaurin",
+      "p": "WR",
+      "t": "WAS",
+      "h": "snelson91"
+     }
+    ],
+    "lead": [
+     "Terry McLaurin"
+    ],
+    "ripple": [
+     {
+      "n": "Jayden Daniels",
+      "p": "QB",
+      "t": "WAS",
+      "h": "triccster"
+     },
+     {
+      "n": "Jacory Croskey-Merritt",
+      "p": "RB",
+      "t": "WAS",
+      "h": "triccster"
+     },
+     {
+      "n": "Stefon Diggs",
+      "p": "WR",
+      "t": "WAS",
+      "h": "triccster"
+     },
+     {
+      "n": "Rachaad White",
+      "p": "RB",
+      "t": "WAS",
+      "h": "Jbird531"
+     }
+    ],
+    "managers": [
+     "Jbird531",
+     "snelson91",
+     "triccster"
+    ],
+    "note": "Scott loses McLaurin for the year. T.J.'s Jayden Daniels and Stefon Diggs and Joey's Rachaad White are in the same offense, and all three are on bye in week 7."
+   },
+   {
+    "headline": "Sean Payton: Broncos not considering benching Bo Nix amid offense's struggles",
+    "url": "https://www.espn.com/nfl/story/_/id/50219761/broncos-not-considering-benching-qb-bo-nix-sean-payton-says",
+    "date": "2026-10-19",
+    "kind": "news",
+    "teams": [
+     "DEN"
+    ],
+    "named": [
+     {
+      "n": "Bo Nix",
+      "p": "QB",
+      "t": "DEN",
+      "h": "Jbird531"
+     }
+    ],
+    "lead": [
+     "Bo Nix"
+    ],
+    "ripple": [
+     {
+      "n": "RJ Harvey",
+      "p": "RB",
+      "t": "DEN",
+      "h": "Wallner"
+     },
+     {
+      "n": "J.K. Dobbins",
+      "p": "RB",
+      "t": "DEN",
+      "h": "triccster"
+     },
+     {
+      "n": "Jaylen Waddle",
+      "p": "WR",
+      "t": "DEN",
+      "h": "RockMNwild"
+     },
+     {
+      "n": "Courtland Sutton",
+      "p": "WR",
+      "t": "DEN",
+      "h": "thecreamer"
+     }
+    ],
+    "managers": [
+     "Jbird531",
+     "RockMNwild",
+     "Wallner",
+     "thecreamer",
+     "triccster"
+    ]
+   }
+  ]
+ },
+ "features": [
+  {
+   "id": "median-file",
+   "style": "article",
+   "place": "after-lead",
+   "label": "Feature",
+   "title": "What if we had a median game?",
+   "dek": "The data first, then both sides. No verdict.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Promised last week. With a median game, every week you play your opponent and the league median: score above it and you get a second win, below it a second loss. Sleeper has it as a setting called Extra Game Each Week Against League Median. Here is what it would do to this season and to every season on record, then the case for it and the case against."
+    },
+    {
+     "type": "h",
+     "text": "This season, through week 6"
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Manager",
+      "Now",
+      "With median",
+      "Move",
+      "Points"
+     ],
+     "rows": [
+      [
+       "James",
+       "1. 5-1",
+       "1. 10-2",
+       "·",
+       "717.2"
+      ],
+      [
+       "Joey",
+       "2. 5-1",
+       "2. 9-3",
+       "·",
+       "606.8"
+      ],
+      [
+       "Anthony",
+       "3. 4-2",
+       "3. 8-4",
+       "·",
+       "742.4"
+      ],
+      [
+       "Nase",
+       "4. 4-2",
+       "7. 6-6",
+       "▼ 3",
+       "585.9"
+      ],
+      [
+       "Scott",
+       "5. 3-3",
+       "4. 8-4",
+       "▲ 1",
+       "695.9"
+      ],
+      [
+       "Colt",
+       "6. 3-3",
+       "6. 6-6",
+       "·",
+       "650.2"
+      ],
+      [
+       "Brett",
+       "7. 3-3",
+       "5. 7-5",
+       "▲ 2",
+       "612.8"
+      ],
+      [
+       "Buckley",
+       "8. 3-3",
+       "9. 5-7",
+       "▼ 1",
+       "601.4"
+      ],
+      [
+       "John",
+       "9. 2-4",
+       "10. 4-8",
+       "▼ 1",
+       "644.9"
+      ],
+      [
+       "T.J.",
+       "10. 2-4",
+       "8. 5-7",
+       "▲ 2",
+       "634.3"
+      ],
+      [
+       "Austin",
+       "11. 2-4",
+       "11. 3-9",
+       "·",
+       "569.4"
+      ],
+      [
+       "Mikey",
+       "12. 0-6",
+       "12. 1-11",
+       "·",
+       "547.7"
+      ]
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "The playoff line moves. Six teams make it. Nase is fourth now, but he has been under the median in four of six weeks, so he falls to seventh and out. Brett, above it four times, comes in at fifth.",
+      "James and Scott have beaten the median five times each, the most in the league. For Scott that turns 3-3 into 8-4.",
+      "Week 6 shows both sides of it. The week's median was 96.72. Joey won the brother bowl under it and John lost to Buckley above it, so both would have gone 1-1.",
+      "Mikey would have a win: his 121.30 in week 4 beat the median."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Ranks break ties on points, the way Sleeper does. Divisions are left out. Weekly scores from Sleeper, read Wednesday 10-21."
+    },
+    {
+     "type": "h",
+     "text": "Every season on record"
+    },
+    {
+     "type": "p",
+     "text": "Run back through every regular season on record (2008, 2010 and 2012 to 2025; 2009 and 2011 are missing), a median game changes the playoff field in 9 of 16 seasons and swaps 11 teams in all. The team in first place stays the same in 11 of 16. One champion would have missed the playoffs: Buckley in 2023, who got in as the 6 seed, won it all, and would have finished eighth."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Season",
+      "Would have missed",
+      "Would have made it",
+      "Champion (seed now / with median)"
+     ],
+     "rows": [
+      [
+       "2010",
+       "T.J.",
+       "The Guru's",
+       "Broncos (3 / 3)"
+      ],
+      [
+       "2012",
+       "James, Murphadelic",
+       "0 Breaks Given, J Rock",
+       "Austin (1 / 1)"
+      ],
+      [
+       "2013",
+       "J Rock",
+       "Colt",
+       "Brett (6 / 4)"
+      ],
+      [
+       "2015",
+       "Buckley",
+       "Colt",
+       "Scott (2 / 2)"
+      ],
+      [
+       "2016",
+       "Nase",
+       "Tyler",
+       "Austin (3 / 3)"
+      ],
+      [
+       "2018",
+       "Scott",
+       "James",
+       "Austin (4 / 2)"
+      ],
+      [
+       "2021",
+       "Anthony",
+       "James",
+       "Austin (4 / 5)"
+      ],
+      [
+       "2023",
+       "Scott, Buckley",
+       "Nase, Anthony",
+       "Buckley (6 / 8, misses)"
+      ],
+      [
+       "2025",
+       "Austin",
+       "James",
+       "Anthony (3 / 3)"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "No change in 2008, 2014, 2017, 2019, 2020, 2022 or 2024. Field = top six by wins, then points (top four in 2008); on plain head-to-head that rule reproduces every real playoff field. Since 2021 division winners are guaranteed a spot, which this doesn't model."
+    },
+    {
+     "type": "h",
+     "text": "Who the schedule has helped"
+    },
+    {
+     "type": "p",
+     "text": "Over a career, head-to-head wins minus wins against the median shows who has been handed wins their scoring didn't earn (a plus) and who has been robbed of them (a minus)."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Manager",
+      "Head to head",
+      "vs median",
+      "Gap",
+      "Playoff trips now / with median"
+     ],
+     "rows": [
+      [
+       "T.J.",
+       "111.5-102.5",
+       "104-110",
+       "+7.5",
+       "9 / 8"
+      ],
+      [
+       "Anthony",
+       "53-56",
+       "47-62",
+       "+6",
+       "4 / 4"
+      ],
+      [
+       "Joey",
+       "100-61",
+       "95-66",
+       "+5",
+       "8 / 8"
+      ],
+      [
+       "Buckley",
+       "100-87",
+       "95-92",
+       "+5",
+       "9 / 7"
+      ],
+      [
+       "Scott",
+       "72-89",
+       "69-92",
+       "+3",
+       "4 / 2"
+      ],
+      [
+       "Nase",
+       "69-92",
+       "66-95",
+       "+3",
+       "2 / 2"
+      ],
+      [
+       "Mikey",
+       "43-79",
+       "44-78",
+       "-1",
+       "1 / 1"
+      ],
+      [
+       "Brett",
+       "111-103",
+       "112-102",
+       "-1",
+       "11 / 11"
+      ],
+      [
+       "Austin",
+       "115-99",
+       "117.5-96.5",
+       "-2.5",
+       "11 / 10"
+      ],
+      [
+       "Colt",
+       "88-86",
+       "94-80",
+       "-6",
+       "6 / 8"
+      ],
+      [
+       "John",
+       "83-91",
+       "91-83",
+       "-8",
+       "5 / 5"
+      ],
+      [
+       "James",
+       "104-83",
+       "113-74",
+       "-9",
+       "9 / 11"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "James is the manager a median game would have helped most: three more playoff trips (2018, 2021 and 2025) against one lost (2012). Scott and Buckley would each have lost two."
+    },
+    {
+     "type": "note",
+     "text": "Regular seasons 2008, 2010 and 2012 to 2025. Old Yahoo teams with a hidden manager are left out, so anything John played before 2013 is not in his line."
+    },
+    {
+     "type": "h",
+     "text": "How Sleeper's setting works"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The median is the average of the two middle scores: the 6th and 7th highest in a 12-team league.",
+      "A tie only happens when a score equals the median exactly.",
+      "Regular season only. Playoff and losers bracket games are untouched, so board duty is decided the same way it is now.",
+      "Seeding still goes by record, then points for, then points against.",
+      "Not confirmed: whether it can be switched on in the middle of a season."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The case for"
+    },
+    {
+     "type": "list",
+     "items": [
+      "It cuts schedule luck, which is what Sleeper says the setting is for. The week's second-best score that draws the best score still goes 1-1.",
+      "One league that tracked six seasons found its luckiest and unluckiest managers running about three wins a season off what their scoring earned, and it didn't even out over time.",
+      "Monday night still matters after your own game is decided, and a big week counts twice.",
+      "Teams out of the race still have a game every week, against the whole league."
+     ]
+    },
+    {
+     "type": "h",
+     "text": "The case against"
+    },
+    {
+     "type": "list",
+     "items": [
+      "A bad week costs twice. A dud is 0-2, not 0-1.",
+      "It waters down the rivalry. Half of every week's result has nothing to do with who you played, so the brother bowl and every grudge game count for less.",
+      "Records look odd. 10-2 after six weeks doesn't match the matchup page.",
+      "It's often small in practice. FL Players' own history mostly shuffles the last playoff spot, not the top.",
+      "Fewer Cinderella runs. Buckley's 2023 title from the 6 seed doesn't happen.",
+      "It doesn't touch the playoffs, which are as single-elimination as ever, and division winners still get in regardless."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Outside research read 10-18: Sleeper's and Yahoo's help pages, one six-season league study and commissioners' write-ups. Yahoo has the same option."
+    }
+   ]
+  },
+  {
+   "id": "division-races",
+   "style": "article",
+   "place": "after-lead",
+   "label": "The races",
+   "title": "Two divisions, two byes",
+   "dek": "The byes go to the division winners, not the two best records.",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      "Division 1",
+      "Record",
+      "Points",
+      "Wins division",
+      "Makes playoffs"
+     ],
+     "rows": [
+      [
+       "Joey",
+       "5-1",
+       "606.8",
+       "32%",
+       "83%"
+      ],
+      [
+       "Anthony",
+       "4-2",
+       "742.4",
+       "55%",
+       "94%"
+      ],
+      [
+       "Nase",
+       "4-2",
+       "585.9",
+       "8%",
+       "49%"
+      ],
+      [
+       "T.J.",
+       "2-4",
+       "634.3",
+       "3%",
+       "31%"
+      ],
+      [
+       "John",
+       "2-4",
+       "644.9",
+       "3%",
+       "30%"
+      ],
+      [
+       "Mikey",
+       "0-6",
+       "547.7",
+       "<1%",
+       "1%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Division 1 has a leader and a favorite, and they aren't the same team. Joey is a game up, but Anthony is the one the model expects to finish on top. Nase is the third team in it at 4-2, and he and Joey meet this week."
+    },
+    {
+     "type": "table",
+     "cols": [
+      "Division 2",
+      "Record",
+      "Points",
+      "Wins division",
+      "Makes playoffs"
+     ],
+     "rows": [
+      [
+       "James",
+       "5-1",
+       "717.2",
+       "72%",
+       "97%"
+      ],
+      [
+       "Scott",
+       "3-3",
+       "695.9",
+       "14%",
+       "71%"
+      ],
+      [
+       "Colt",
+       "3-3",
+       "650.2",
+       "8%",
+       "60%"
+      ],
+      [
+       "Brett",
+       "3-3",
+       "612.8",
+       "3%",
+       "38%"
+      ],
+      [
+       "Buckley",
+       "3-3",
+       "601.4",
+       "3%",
+       "34%"
+      ],
+      [
+       "Austin",
+       "2-4",
+       "569.4",
+       "<1%",
+       "13%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Division 2 is James's to lose, up from 56% a week ago. Four teams sit two games back at 3-3. James plays Brett this week, the other division game of week 7."
+    },
+    {
+     "type": "note",
+     "text": "Chances come from 10,000 simulated finishes of the season after week 6. A tie for a division is broken on points in the model."
+    }
+   ]
+  },
+  {
+   "id": "week7-notes",
+   "style": "notes",
+   "place": "ahead",
+   "label": "Before you set your lineup",
+   "title": "Week 7 starts Thursday",
+   "blocks": [
+    {
+     "type": "h",
+     "text": "Thursday night: Patriots at Bears"
+    },
+    {
+     "type": "p",
+     "text": "The opener runs through at least eight FL Players rosters. Chicago has Joey's Caleb Williams, Anthony's D'Andre Swift, Brett's Colston Loveland, Buckley's Luther Burden, Nase's Rome Odunze and T.J.'s new pickup, Roschon Johnson. New England has John's Drake Maye, Buckley's A.J. Brown and Colt's backfield, TreVeyon Henderson and Rhamondre Stevenson."
+    },
+    {
+     "type": "h",
+     "text": "Byes: Buffalo, Jacksonville, the Chargers and Washington"
+    },
+    {
+     "type": "p",
+     "text": "James's Josh Allen, Joey's Rachaad White, and T.J.'s Jayden Daniels and Keaton Mitchell all started in week 6 and all sit in week 7. Brett's Trevor Lawrence is off too."
+    },
+    {
+     "type": "h",
+     "text": "Injury watch, as of Wednesday"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Austin: Bucky Irving missed Wednesday's practice with an illness and is listed questionable.",
+      "Joey: Breece Hall did not practice Wednesday and is unlikely to play this week.",
+      "Anthony: Tank Dell is set to make his return Sunday against the Giants.",
+      "Buckley: Davante Adams is on injured reserve.",
+      "Mikey: Romeo Doubs is on injured reserve."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "From FantasyPros injury reports and news, read Wednesday 10-21. Statuses change before kickoff."
+    }
+   ]
+  }
+ ],
+ "power": {
+  "through_week": 6,
+  "dynasty": false,
+  "teams": [
+   {
+    "h": "TuanonStan",
+    "rank": 1,
+    "prev": 1,
+    "ros_rank": 1,
+    "ppg_rank": 2,
+    "allplay": 0.682,
+    "dyn_rank": null
+   },
+   {
+    "h": "butterygoop",
+    "rank": 2,
+    "prev": 3,
+    "ros_rank": 3,
+    "ppg_rank": 1,
+    "allplay": 0.712,
+    "dyn_rank": null
+   },
+   {
+    "h": "snelson91",
+    "rank": 3,
+    "prev": 2,
+    "ros_rank": 2,
+    "ppg_rank": 3,
+    "allplay": 0.712,
+    "dyn_rank": null
+   },
+   {
+    "h": "Wallner",
+    "rank": 4,
+    "prev": 4,
+    "ros_rank": 6,
+    "ppg_rank": 5,
+    "allplay": 0.515,
+    "dyn_rank": null
+   },
+   {
+    "h": "YoungBuck04",
+    "rank": 5,
+    "prev": 6,
+    "ros_rank": 4,
+    "ppg_rank": 9,
+    "allplay": 0.439,
+    "dyn_rank": null
+   },
+   {
+    "h": "Colt45Johnson",
+    "rank": 6,
+    "prev": 5,
+    "ros_rank": 8,
+    "ppg_rank": 4,
+    "allplay": 0.576,
+    "dyn_rank": null
+   },
+   {
+    "h": "Jbird531",
+    "rank": 7,
+    "prev": 7,
+    "ros_rank": 5,
+    "ppg_rank": 8,
+    "allplay": 0.485,
+    "dyn_rank": null
+   },
+   {
+    "h": "brettmn13",
+    "rank": 8,
+    "prev": 9,
+    "ros_rank": 7,
+    "ppg_rank": 7,
+    "allplay": 0.515,
+    "dyn_rank": null
+   },
+   {
+    "h": "triccster",
+    "rank": 9,
+    "prev": 8,
+    "ros_rank": 11,
+    "ppg_rank": 6,
+    "allplay": 0.485,
+    "dyn_rank": null
+   },
+   {
+    "h": "thecreamer",
+    "rank": 10,
+    "prev": 10,
+    "ros_rank": 9,
+    "ppg_rank": 10,
+    "allplay": 0.379,
+    "dyn_rank": null
+   },
+   {
+    "h": "RockMNwild",
+    "rank": 11,
+    "prev": 11,
+    "ros_rank": 10,
+    "ppg_rank": 11,
+    "allplay": 0.288,
+    "dyn_rank": null
+   },
+   {
+    "h": "PapaMidnight",
+    "rank": 12,
+    "prev": 12,
+    "ros_rank": 12,
+    "ppg_rank": 12,
+    "allplay": 0.212,
+    "dyn_rank": null
+   }
+  ]
+ },
+ "board": {
+  "review": [
+   {
+    "id": "hot",
+    "title": "Hot hand",
+    "note": "Points per game over the last three weeks against the season average.",
+    "cols": [
+     "Team",
+     "Last 3",
+     "Season",
+     "Change"
+    ],
+    "rows": [
+     [
+      "@@Colt45Johnson",
+      118.1,
+      108.4,
+      9.7
+     ],
+     [
+      "@@Wallner",
+      115.7,
+      107.5,
+      8.2
+     ],
+     [
+      "@@brettmn13",
+      107.6,
+      102.1,
+      5.5
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "coach",
+    "title": "Coach of the year",
+    "note": "Average lineup efficiency: started points as a share of the best possible lineup each week. Wire flips: losses one free agent would have turned into wins.",
+    "cols": [
+     "Team",
+     "Efficiency",
+     "Weeks",
+     "Wire flips"
+    ],
+    "rows": [
+     [
+      "@@YoungBuck04",
+      "95.3%",
+      6,
+      1
+     ],
+     [
+      "@@thecreamer",
+      "92.5%",
+      6,
+      0
+     ],
+     [
+      "@@Colt45Johnson",
+      "92.3%",
+      6,
+      1
+     ]
+    ],
+    "race": true
+   },
+   {
+    "id": "pickup",
+    "title": "Pickup of the year",
+    "note": "Waiver and free-agent adds this season, by points scored in that team's starting lineup since.",
+    "cols": [
+     "Team",
+     "Player",
+     "Started pts",
+     "Starts",
+     "FAAB"
+    ],
+    "rows": [
+     [
+      "@@triccster",
+      "Jared Goff",
+      68.8,
+      3,
+      "-"
+     ],
+     [
+      "@@Colt45Johnson",
+      "Tyler Shough",
+      66.7,
+      3,
+      "$19"
+     ],
+     [
+      "@@thecreamer",
+      "Bryce Young",
+      54.9,
+      3,
+      "$20"
+     ]
+    ],
+    "race": true
+   },
+   {
+    "id": "gm",
+    "title": "GM of the year",
+    "note": "Points started this season by players brought in by trade or off the wire, not the draft. Wire pts missed: each week's best possible free-agent upgrade over a starter, added up.",
+    "cols": [
+     "Team",
+     "Started pts",
+     "Players used",
+     "Wire pts missed"
+    ],
+    "rows": [
+     [
+      "@@triccster",
+      227.6,
+      6,
+      98.5
+     ],
+     [
+      "@@brettmn13",
+      212.2,
+      13,
+      116.4
+     ],
+     [
+      "@@Colt45Johnson",
+      131.0,
+      9,
+      107.8
+     ]
+    ],
+    "race": true
+   },
+   {
+    "id": "gotaway",
+    "title": "The one that got away",
+    "note": "Players cut this season, by points they have since scored in someone else's starting lineup.",
+    "cols": [
+     "Cut by",
+     "Player",
+     "Pos",
+     "Week",
+     "Now starting for",
+     "Pts since"
+    ],
+    "rows": [
+     [
+      "@@butterygoop",
+      "Jared Goff",
+      "QB",
+      3,
+      "@@triccster",
+      68.8
+     ],
+     [
+      "@@triccster",
+      "Tyler Shough",
+      "QB",
+      1,
+      "@@Colt45Johnson",
+      66.7
+     ],
+     [
+      "@@Wallner",
+      "Tre Tucker",
+      "WR",
+      4,
+      "@@RockMNwild",
+      24.2
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "regret",
+    "title": "Bench regret",
+    "note": "Points left on the bench all season: the best lineup each week on real points, minus the lineup that was started.",
+    "cols": [
+     "Team",
+     "Points left",
+     "Lineup efficiency"
+    ],
+    "rows": [
+     [
+      "@@RockMNwild",
+      114.5,
+      "83%"
+     ],
+     [
+      "@@PapaMidnight",
+      97.0,
+      "85%"
+     ],
+     [
+      "@@Wallner",
+      91.7,
+      "88%"
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "beatproj",
+    "title": "Who beats Sleeper's projections",
+    "note": "Points from started players this season against what Sleeper projected for those same players.",
+    "cols": [
+     "Team",
+     "Scored",
+     "Projected",
+     "Over / under"
+    ],
+    "rows": [
+     [
+      "@@butterygoop",
+      742.4,
+      648.1,
+      94.4
+     ],
+     [
+      "@@Wallner",
+      644.9,
+      626.2,
+      18.7
+     ],
+     [
+      "@@triccster",
+      634.3,
+      621.7,
+      12.6
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "kickers",
+    "title": "The kicker file",
+    "note": "Games this season where the kickers decided it: take both kickers out and the result flips.",
+    "cols": [
+     "Week",
+     "Winner",
+     "Loser",
+     "Margin",
+     "Kickers"
+    ],
+    "rows": [
+     [
+      2,
+      "@@Jbird531",
+      "@@Wallner",
+      2.84,
+      "15.0 to 8.0"
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "steals",
+    "title": "Draft steals",
+    "note": "This year's QB, RB, WR and TE picks returning far more than their draft slot, by started points for the team that drafted them. Traded players left out.",
+    "cols": [
+     "Pick",
+     "Team",
+     "Player",
+     "Pos",
+     "Value rank"
+    ],
+    "rows": [
+     [
+      "14.05",
+      "@@Wallner",
+      "Brock Purdy",
+      "QB",
+      3
+     ],
+     [
+      "10.01",
+      "@@PapaMidnight",
+      "Dak Prescott",
+      "QB",
+      10
+     ],
+     [
+      "10.04",
+      "@@butterygoop",
+      "Isaiah Likely",
+      "TE",
+      16
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "busts",
+    "title": "Draft busts",
+    "note": "Early picks (first five rounds) returning the least so far. Traded players left out.",
+    "cols": [
+     "Pick",
+     "Team",
+     "Player",
+     "Pos",
+     "Value rank"
+    ],
+    "rows": [
+     [
+      "2.09",
+      "@@YoungBuck04",
+      "A.J. Brown",
+      "WR",
+      91
+     ],
+     [
+      "1.11",
+      "@@triccster",
+      "De'Von Achane",
+      "RB",
+      78
+     ],
+     [
+      "1.12",
+      "@@PapaMidnight",
+      "Saquon Barkley",
+      "RB",
+      79
+     ]
+    ],
+    "race": false
+   }
+  ],
+  "ahead": [
+   {
+    "id": "locks",
+    "title": "Locks and long shots",
+    "note": "Playoff chances from 10,000 simulated seasons, and the move since week 1.",
+    "cols": [
+     "Team",
+     "Playoffs",
+     "Status",
+     "Since week 1"
+    ],
+    "rows": [
+     [
+      "@@TuanonStan",
+      "96.5%",
+      "Lock",
+      "+41.8"
+     ],
+     [
+      "@@butterygoop",
+      "93.5%",
+      "Lock",
+      "+6.7"
+     ],
+     [
+      "@@Jbird531",
+      "83.1%",
+      "Likely",
+      "+21.1"
+     ],
+     [
+      "@@snelson91",
+      "71.3%",
+      "Likely",
+      "+8.3"
+     ],
+     [
+      "@@Colt45Johnson",
+      "60.1%",
+      "Bubble",
+      -9.1
+     ],
+     [
+      "@@thecreamer",
+      "49.2%",
+      "Bubble",
+      "+21.0"
+     ],
+     [
+      "@@brettmn13",
+      "38.2%",
+      "Bubble",
+      -23.2
+     ],
+     [
+      "@@YoungBuck04",
+      "34.0%",
+      "Fading",
+      -0.4
+     ],
+     [
+      "@@triccster",
+      "30.5%",
+      "Fading",
+      -5.6
+     ],
+     [
+      "@@Wallner",
+      "29.5%",
+      "Fading",
+      -10.7
+     ],
+     [
+      "@@RockMNwild",
+      "13.0%",
+      "Fading",
+      -11.5
+     ],
+     [
+      "@@PapaMidnight",
+      "0.9%",
+      "Long shot",
+      -38.7
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "byes",
+    "title": "Bye week danger",
+    "note": "Teams losing two or more of their usual starters to byes in the next four weeks, with those starters' projected points.",
+    "cols": [
+     "Week",
+     "Team",
+     "Starters out",
+     "Proj pts lost",
+     "Who"
+    ],
+    "rows": [
+     [
+      8,
+      "@@Wallner",
+      3,
+      35.7,
+      "Brock Purdy, New York Giants, Mike Evans"
+     ],
+     [
+      8,
+      "@@PapaMidnight",
+      2,
+      21.0,
+      "Ka'imi Fairbairn, Nico Collins"
+     ],
+     [
+      8,
+      "@@Colt45Johnson",
+      2,
+      15.0,
+      "Malik Nabers, San Francisco 49ers"
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "partners",
+    "title": "Natural trade partners",
+    "note": "Pairs where each side has a surplus at the other's weak spot.",
+    "cols": [
+     "Team",
+     "Can send",
+     "Partner",
+     "Can send back"
+    ],
+    "rows": [
+     [
+      "@@Jbird531",
+      "TE",
+      "@@Wallner",
+      "QB"
+     ],
+     [
+      "@@brettmn13",
+      "WR",
+      "@@snelson91",
+      "TE"
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "sell",
+    "title": "Selling pieces",
+    "note": "Bench players projected close to a starter for most teams. Points are projected per remaining week.",
+    "cols": [
+     "Team",
+     "Player",
+     "Pos",
+     "Proj/wk"
+    ],
+    "rows": [
+     [
+      "@@Wallner",
+      "Drake Maye",
+      "QB NE",
+      17.9
+     ],
+     [
+      "@@butterygoop",
+      "D'Andre Swift",
+      "RB CHI",
+      12.4
+     ],
+     [
+      "@@brettmn13",
+      "Garrett Wilson",
+      "WR NYJ",
+      11.3
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "bench",
+    "title": "Best bench",
+    "note": "The three best bench players on rest-of-season projections, per week combined. Depth for byes and injuries.",
+    "cols": [
+     "#",
+     "Team",
+     "Top 3 bench / wk",
+     "Who"
+    ],
+    "rows": [
+     [
+      1,
+      "@@Wallner",
+      33.3,
+      "Drake Maye, Emeka Egbuka, Woody Marks"
+     ],
+     [
+      2,
+      "@@triccster",
+      31.1,
+      "Jayden Daniels, Wan'Dale Robinson, Jakobi Meyers"
+     ],
+     [
+      3,
+      "@@Jbird531",
+      30.6,
+      "Bo Nix, Denzel Boston, Tyler Warren"
+     ]
+    ],
+    "race": false
+   },
+   {
+    "id": "board",
+    "title": "Board duty race",
+    "note": "Chance of losing the losers bracket, played out in the same simulations as the playoff odds. In Sleeper's losers bracket the worst two teams get byes and the loser of each game moves on, so finishing last does not settle it.",
+    "cols": [
+     "Team",
+     "Board duty",
+     "Last place",
+     "Playoffs",
+     "Record"
+    ],
+    "rows": [
+     [
+      "@@PapaMidnight",
+      "29.2%",
+      "68.8%",
+      "0.9%",
+      "0-6"
+     ],
+     [
+      "@@RockMNwild",
+      "18.6%",
+      "14.0%",
+      "13.0%",
+      "2-4"
+     ],
+     [
+      "@@YoungBuck04",
+      "9.7%",
+      "3.6%",
+      "34.0%",
+      "3-3"
+     ]
+    ],
+    "race": false
+   }
+  ]
+ },
+ "links": [
+  {
+   "href": "/trackers",
+   "label": "League trackers",
+   "why": "Season races, the trade market, bench depth and bye-week danger."
+  },
+  {
+   "href": "/standings",
+   "label": "Standings, with a median toggle",
+   "why": "Flip between head-to-head and a league-median game and see who moves."
+  },
+  {
+   "href": "/odds",
+   "label": "Playoff odds",
+   "why": "10,000 simulated finishes, updated every week."
+  },
+  {
+   "href": "/what-if",
+   "label": "What if",
+   "why": "Pick winners for the games left and watch the odds re-run."
+  },
+  {
+   "href": "/preview",
+   "label": "Week 7 preview",
+   "why": "Every matchup with win odds and the head-to-head history."
+  },
+  {
+   "href": "/trade-grades",
+   "label": "Trade grades",
+   "why": "Every trade graded by the starting-lineup points each side got."
+  },
+  {
+   "href": "/waivers",
+   "label": "Waiver returns",
+   "why": "Which pickups actually turned into starts."
+  },
+  {
+   "href": "/luck",
+   "label": "Luck meter",
+   "why": "Your record against what it would be if you played everyone every week."
+  },
+  {
+   "href": "/record-book",
+   "label": "Record book",
+   "why": "The highs, lows and blowouts on record."
+  }
+ ]
+}
