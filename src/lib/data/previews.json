@@ -1,337 +1,331 @@
 {
- "generated": "2026-10-19T12:00:26+00:00",
+ "generated": "2026-10-21T12:00:29+00:00",
  "season": 2026,
- "week": 6,
+ "week": 7,
  "playoff": false,
  "games": [
   {
-   "a": "butterygoop",
+   "a": "Wallner",
    "b": "Colt45Johnson",
-   "a_win": 58.1,
+   "a_win": 49.3,
    "rec": {
-    "butterygoop": [
-     3,
-     2
-    ],
-    "Colt45Johnson": [
-     3,
-     2
-    ]
-   },
-   "avg": {
-    "butterygoop": 121.68,
-    "Colt45Johnson": 110.22
-   },
-   "last3": {
-    "butterygoop": [
-     103.42,
-     123.02,
-     89.2
-    ],
-    "Colt45Johnson": [
-     100.6,
-     108.44,
-     146.68
-    ]
-   },
-   "proj": {
-    "butterygoop": 115.61,
-    "Colt45Johnson": 109.24
-   },
-   "h2h": {
-    "butterygoop": 9,
-    "Colt45Johnson": 6,
-    "games": 15
-   },
-   "streak": [
-    "butterygoop",
-    4
-   ],
-   "last": {
-    "season": 2025,
-    "week": 12,
-    "label": null,
-    "score": {
-     "butterygoop": 103.54,
-     "Colt45Johnson": 91.76
-    }
-   },
-   "flags": [
-    "{butterygoop} has won 4 straight in this series"
-   ]
-  },
-  {
-   "a": "TuanonStan",
-   "b": "RockMNwild",
-   "a_win": 67.5,
-   "rec": {
-    "TuanonStan": [
-     4,
-     1
-    ],
-    "RockMNwild": [
+    "Wallner": [
      2,
+     4
+    ],
+    "Colt45Johnson": [
+     3,
      3
     ]
    },
    "avg": {
-    "TuanonStan": 123.99,
-    "RockMNwild": 98.61
+    "Wallner": 107.48,
+    "Colt45Johnson": 108.36
    },
    "last3": {
-    "TuanonStan": [
-     156.08,
-     142.12,
-     124.5
+    "Wallner": [
+     136.42,
+     109.26,
+     101.46
     ],
-    "RockMNwild": [
-     92.76,
-     85.62,
-     104.6
+    "Colt45Johnson": [
+     108.44,
+     146.68,
+     99.06
     ]
    },
    "proj": {
-    "TuanonStan": 116.89,
-    "RockMNwild": 102.79
+    "Wallner": 106.76,
+    "Colt45Johnson": 107.29
    },
    "h2h": {
-    "TuanonStan": 10,
-    "RockMNwild": 15,
-    "games": 25
+    "Wallner": 9,
+    "Colt45Johnson": 7,
+    "games": 16
    },
    "streak": [
-    "TuanonStan",
-    1
-   ],
-   "last": {
-    "season": 2025,
-    "week": 5,
-    "label": null,
-    "score": {
-     "TuanonStan": 131.82,
-     "RockMNwild": 88.44
-    }
-   },
-   "flags": [
-    "Rematch of the 2016 final"
-   ]
-  },
-  {
-   "a": "Jbird531",
-   "b": "snelson91",
-   "a_win": 37.2,
-   "rec": {
-    "Jbird531": [
-     4,
-     1
-    ],
-    "snelson91": [
-     3,
-     2
-    ]
-   },
-   "avg": {
-    "Jbird531": 105.51,
-    "snelson91": 123.76
-   },
-   "last3": {
-    "Jbird531": [
-     110.18,
-     75.58,
-     118.7
-    ],
-    "snelson91": [
-     120.44,
-     130.8,
-     138.24
-    ]
-   },
-   "proj": {
-    "Jbird531": 106.62,
-    "snelson91": 116.76
-   },
-   "h2h": {
-    "Jbird531": 10,
-    "snelson91": 5,
-    "games": 15
-   },
-   "streak": [
-    "Jbird531",
-    4
+    "Wallner",
+    7
    ],
    "last": {
     "season": 2025,
     "week": 6,
     "label": null,
     "score": {
-     "Jbird531": 100.14,
-     "snelson91": 89.98
+     "Wallner": 96.84,
+     "Colt45Johnson": 72.84
     }
    },
    "flags": [
-    "{Jbird531} has won 4 straight in this series"
+    "{Wallner} has won 7 straight in this series"
    ]
   },
   {
-   "a": "PapaMidnight",
-   "b": "brettmn13",
-   "a_win": 44.7,
+   "a": "butterygoop",
+   "b": "YoungBuck04",
+   "a_win": 67.6,
    "rec": {
-    "PapaMidnight": [
-     0,
-     5
+    "butterygoop": [
+     4,
+     2
     ],
-    "brettmn13": [
-     2,
+    "YoungBuck04": [
+     3,
      3
     ]
    },
    "avg": {
-    "PapaMidnight": 94.81,
-    "brettmn13": 102.33
+    "butterygoop": 123.74,
+    "YoungBuck04": 100.24
    },
    "last3": {
-    "PapaMidnight": [
-     86.64,
-     121.3,
-     77.84
+    "butterygoop": [
+     123.02,
+     89.2,
+     134.02
     ],
-    "brettmn13": [
-     107.78,
-     88.68,
-     132.94
+    "YoungBuck04": [
+     87.58,
+     93.1,
+     108.34
     ]
    },
    "proj": {
-    "PapaMidnight": 100.67,
-    "brettmn13": 104.85
+    "butterygoop": 116.52,
+    "YoungBuck04": 102.41
    },
    "h2h": {
-    "PapaMidnight": 4,
-    "brettmn13": 6,
+    "butterygoop": 6,
+    "YoungBuck04": 4,
     "games": 10
    },
    "streak": [
-    "brettmn13",
-    4
-   ],
-   "last": {
-    "season": 2025,
-    "week": 9,
-    "label": null,
-    "score": {
-     "PapaMidnight": 103.02,
-     "brettmn13": 113.02
-    }
-   },
-   "flags": [
-    "{brettmn13} has won 4 straight in this series"
-   ]
-  },
-  {
-   "a": "Wallner",
-   "b": "YoungBuck04",
-   "a_win": 57.1,
-   "rec": {
-    "Wallner": [
-     2,
-     3
-    ],
-    "YoungBuck04": [
-     2,
-     3
-    ]
-   },
-   "avg": {
-    "Wallner": 108.69,
-    "YoungBuck04": 98.62
-   },
-   "last3": {
-    "Wallner": [
-     88.88,
-     136.42,
-     109.26
-    ],
-    "YoungBuck04": [
-     98.04,
-     87.58,
-     93.1
-    ]
-   },
-   "proj": {
-    "Wallner": 108.39,
-    "YoungBuck04": 102.79
-   },
-   "h2h": {
-    "Wallner": 9,
-    "YoungBuck04": 10,
-    "games": 19
-   },
-   "streak": [
-    "Wallner",
+    "butterygoop",
     1
    ],
    "last": {
     "season": 2025,
-    "week": 13,
+    "week": 11,
     "label": null,
     "score": {
-     "Wallner": 125.38,
-     "YoungBuck04": 87.4
+     "butterygoop": 132.62,
+     "YoungBuck04": 126.7
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "TuanonStan",
+   "b": "brettmn13",
+   "a_win": 63.2,
+   "rec": {
+    "TuanonStan": [
+     5,
+     1
+    ],
+    "brettmn13": [
+     3,
+     3
+    ]
+   },
+   "avg": {
+    "TuanonStan": 119.54,
+    "brettmn13": 102.13
+   },
+   "last3": {
+    "TuanonStan": [
+     142.12,
+     124.5,
+     97.3
+    ],
+    "brettmn13": [
+     88.68,
+     132.94,
+     101.12
+    ]
+   },
+   "proj": {
+    "TuanonStan": 114.0,
+    "brettmn13": 103.55
+   },
+   "h2h": {
+    "TuanonStan": 12,
+    "brettmn13": 10,
+    "games": 22
+   },
+   "streak": [
+    "brettmn13",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 8,
+    "label": null,
+    "score": {
+     "TuanonStan": 70.82,
+     "brettmn13": 107.02
     }
    },
    "flags": []
   },
   {
    "a": "triccster",
-   "b": "thecreamer",
-   "a_win": 58.5,
+   "b": "snelson91",
+   "a_win": 42.1,
    "rec": {
     "triccster": [
      2,
-     3
+     4
     ],
-    "thecreamer": [
+    "snelson91": [
      3,
-     2
+     3
     ]
    },
    "avg": {
-    "triccster": 109.92,
-    "thecreamer": 97.95
+    "triccster": 105.71,
+    "snelson91": 115.98
    },
    "last3": {
     "triccster": [
-     106.86,
      105.28,
-     119.54
+     119.54,
+     84.7
     ],
-    "thecreamer": [
-     109.84,
-     110.56,
-     77.4
+    "snelson91": [
+     130.8,
+     138.24,
+     77.08
     ]
    },
    "proj": {
-    "triccster": 109.07,
-    "thecreamer": 102.42
+    "triccster": 105.7,
+    "snelson91": 111.86
    },
    "h2h": {
-    "triccster": 9,
-    "thecreamer": 7,
-    "games": 16
+    "triccster": 12,
+    "snelson91": 9,
+    "games": 21
    },
    "streak": [
     "triccster",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 17,
+    "label": "3rd place",
+    "score": {
+     "triccster": 125.6,
+     "snelson91": 86.04
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "RockMNwild",
+   "b": "PapaMidnight",
+   "a_win": 52.8,
+   "rec": {
+    "RockMNwild": [
+     2,
+     4
+    ],
+    "PapaMidnight": [
+     0,
+     6
+    ]
+   },
+   "avg": {
+    "RockMNwild": 94.91,
+    "PapaMidnight": 91.28
+   },
+   "last3": {
+    "RockMNwild": [
+     85.62,
+     104.6,
+     76.38
+    ],
+    "PapaMidnight": [
+     121.3,
+     77.84,
+     73.62
+    ]
+   },
+   "proj": {
+    "RockMNwild": 99.22,
+    "PapaMidnight": 97.04
+   },
+   "h2h": {
+    "RockMNwild": 5,
+    "PapaMidnight": 4,
+    "games": 9
+   },
+   "streak": [
+    "PapaMidnight",
     2
    ],
    "last": {
     "season": 2025,
-    "week": 5,
+    "week": 4,
     "label": null,
     "score": {
-     "triccster": 134.58,
-     "thecreamer": 117.72
+     "RockMNwild": 96.62,
+     "PapaMidnight": 135.64
+    }
+   },
+   "flags": []
+  },
+  {
+   "a": "Jbird531",
+   "b": "thecreamer",
+   "a_win": 52.7,
+   "rec": {
+    "Jbird531": [
+     5,
+     1
+    ],
+    "thecreamer": [
+     4,
+     2
+    ]
+   },
+   "avg": {
+    "Jbird531": 101.14,
+    "thecreamer": 97.65
+   },
+   "last3": {
+    "Jbird531": [
+     75.58,
+     118.7,
+     79.3
+    ],
+    "thecreamer": [
+     110.56,
+     77.4,
+     96.14
+    ]
+   },
+   "proj": {
+    "Jbird531": 102.96,
+    "thecreamer": 100.86
+   },
+   "h2h": {
+    "Jbird531": 8,
+    "thecreamer": 8,
+    "games": 16
+   },
+   "streak": [
+    "thecreamer",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 7,
+    "label": null,
+    "score": {
+     "Jbird531": 116.06,
+     "thecreamer": 134.02
     }
    },
    "flags": []
