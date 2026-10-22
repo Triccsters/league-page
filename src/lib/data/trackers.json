@@ -196,9 +196,9 @@
       ],
       [
        "@@RockMNwild",
-       22,
+       24,
        102.6,
-       "$40"
+       "$41"
       ],
       [
        "@@YoungBuck04",
@@ -214,7 +214,7 @@
       ],
       [
        "@@Wallner",
-       14,
+       15,
        82.9,
        "$27"
       ],
@@ -232,7 +232,7 @@
       ],
       [
        "@@butterygoop",
-       7,
+       9,
        16.4,
        "-"
       ],
@@ -798,13 +798,13 @@
        "@@PapaMidnight",
        "-",
        "QB, RB, TE",
-       "QB 11 RB 11 WR 4 TE 9"
+       "QB 11 RB 10 WR 4 TE 9"
       ],
       [
        "@@RockMNwild",
        "-",
        "RB, TE",
-       "QB 5 RB 10 WR 2 TE 10"
+       "QB 5 RB 11 WR 2 TE 10"
       ],
       [
        "@@Wallner",
@@ -832,7 +832,7 @@
       ],
       [
        "@@snelson91",
-       "RB, TE",
+       "TE",
        "WR",
        "QB 4 RB 1 WR 12 TE 5"
       ],
@@ -917,12 +917,6 @@
        10.6
       ],
       [
-       "@@snelson91",
-       "David Montgomery",
-       "RB HOU",
-       9.3
-      ],
-      [
        "@@Jbird531",
        "Tyler Warren",
        "TE IND",
@@ -932,7 +926,7 @@
        "@@snelson91",
        "Mark Andrews",
        "TE BAL",
-       7.4
+       7.3
       ],
       [
        "@@snelson91",
@@ -963,7 +957,7 @@
       [
        1,
        "@@Wallner",
-       33.3,
+       33.8,
        "Drake Maye, Emeka Egbuka, Woody Marks"
       ],
       [
@@ -980,15 +974,15 @@
       ],
       [
        4,
-       "@@TuanonStan",
-       29.5,
-       "Matthew Stafford, Xavier Worthy, Kyle Monangai"
+       "@@brettmn13",
+       29.1,
+       "Kirk Cousins, Aaron Jones, Travis Etienne"
       ],
       [
        5,
-       "@@brettmn13",
-       29.2,
-       "Kirk Cousins, Aaron Jones, Travis Etienne"
+       "@@TuanonStan",
+       28.7,
+       "Matthew Stafford, Xavier Worthy, Kyle Monangai"
       ],
       [
        6,
@@ -998,39 +992,39 @@
       ],
       [
        7,
-       "@@RockMNwild",
-       27.3,
-       "C.J. Stroud, Tre Tucker, Khalil Shakir"
-      ],
-      [
-       8,
        "@@butterygoop",
        27.2,
        "Bhayshul Tuten, DeVonta Smith, Chris Godwin"
       ],
       [
-       9,
+       8,
        "@@thecreamer",
        26.6,
        "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
       ],
       [
-       10,
+       9,
        "@@YoungBuck04",
        26.3,
        "Jordan Love, Jordyn Tyson, Blake Corum"
       ],
       [
-       11,
+       10,
        "@@snelson91",
        22.6,
        "Terry McLaurin, Mark Andrews, Dalton Kincaid"
       ],
       [
-       12,
+       11,
        "@@PapaMidnight",
        20.1,
        "Malik Washington, Pat Freiermuth, Keon Coleman"
+      ],
+      [
+       12,
+       "@@RockMNwild",
+       19.5,
+       "Tre Tucker, Kenny Gainwell, Khalil Shakir"
       ]
      ]
     },
@@ -1249,22 +1243,22 @@
       [
        8,
        "@@Wallner",
-       3,
-       35.7,
-       "Brock Purdy, New York Giants, Mike Evans"
+       2,
+       30.6,
+       "Brock Purdy, Mike Evans"
       ],
       [
        8,
        "@@PapaMidnight",
        2,
-       21.0,
-       "Ka'imi Fairbairn, Nico Collins"
+       21.1,
+       "Nico Collins, Ka'imi Fairbairn"
       ],
       [
        8,
        "@@Colt45Johnson",
        2,
-       15.0,
+       14.9,
        "Malik Nabers, San Francisco 49ers"
       ],
       [
@@ -1272,13 +1266,20 @@
        "@@brettmn13",
        2,
        16.1,
-       "Tennessee Titans, Jaylen Warren"
+       "Jaylen Warren, Tennessee Titans"
+      ],
+      [
+       10,
+       "@@butterygoop",
+       3,
+       24.5,
+       "D'Andre Swift, Chicago Bears, Chase McLaughlin"
       ],
       [
        10,
        "@@Jbird531",
        2,
-       23.6,
+       23.7,
        "Caleb Williams, Dallas Goedert"
       ],
       [
@@ -1286,14 +1287,14 @@
        "@@RockMNwild",
        2,
        21.2,
-       "Jaylen Waddle, Bucky Irving"
+       "Bucky Irving, Jaylen Waddle"
       ],
       [
        10,
        "@@thecreamer",
        2,
        14.1,
-       "Denver Broncos, Rome Odunze"
+       "Rome Odunze, Denver Broncos"
       ]
      ]
     }
@@ -1554,9 +1555,9 @@
       ],
       [
        "@@brettmn13",
-       16,
-       "Injecto Seato Cuz!!",
-       "The Buster (2025) / Bowser (2024) / Bijan piss mustard (2023) / The 0RB's (2022) / Creme Fraiche (2021)"
+       17,
+       "NEVER NARC'D ON NOBODY!",
+       "Injecto Seato Cuz!! (2026 (wk 5)) / NEVER NARC'D ON NOBODY! (2026) / The Buster (2025) / Bowser (2024) / Bijan piss mustard (2023)"
       ],
       [
        "@@Colt45Johnson",
