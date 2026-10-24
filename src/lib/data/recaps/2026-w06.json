@@ -3,7 +3,7 @@
  "week": 6,
  "slug": "2026-w06",
  "title": "Week 6 recap",
- "generated": "2026-10-23T12:48:20+00:00",
+ "generated": "2026-10-24T16:02:37+00:00",
  "intro": "",
  "video": "",
  "notes": [],
@@ -68,7 +68,7 @@
    "name": "Left on the bench",
    "manager": "RockMNwild",
    "value": 27.5,
-   "note": "Kyle Pitts scored 20.5 on his bench",
+   "note": "Kyle Pitts Sr. scored 20.5 on his bench",
    "vs": null
   },
   {
@@ -372,7 +372,7 @@
       "pts": 20.24
      },
      {
-      "name": "Luther Burden",
+      "name": "Luther Burden III",
       "pos": "WR",
       "id": "12519",
       "nfl": "CHI",
@@ -416,7 +416,7 @@
     },
     "top": [
      {
-      "name": "James Cook",
+      "name": "James Cook III",
       "pos": "RB",
       "id": "8138",
       "nfl": "BUF",
@@ -542,7 +542,7 @@
      "pts": 16.02
     },
     "worst_start": {
-     "name": "Harold Fannin",
+     "name": "Harold Fannin Jr.",
      "id": "12506",
      "nfl": "CLE",
      "pts": 1.4
@@ -633,7 +633,7 @@
    "cost_decisive": [],
    "won_despite": [
     {
-     "name": "Harold Fannin",
+     "name": "Harold Fannin Jr.",
      "pos": "TE",
      "pts": 1.4,
      "avg": 8.54,
@@ -750,7 +750,7 @@
      }
     ],
     "best_bench": {
-     "name": "Kyle Pitts",
+     "name": "Kyle Pitts Sr.",
      "id": "7553",
      "nfl": "ATL",
      "pts": 20.5
@@ -989,7 +989,7 @@
     },
     "top": [
      {
-      "name": "Kenneth Walker",
+      "name": "Kenneth Walker III",
       "pos": "RB",
       "id": "8151",
       "nfl": "KC",
@@ -1310,7 +1310,7 @@
     },
     "top": [
      {
-      "name": "Kenneth Walker",
+      "name": "Kenneth Walker III",
       "pos": "RB",
       "id": "8151",
       "nfl": "KC",
@@ -1453,7 +1453,7 @@
    "manager": "RockMNwild",
    "points": 27.5,
    "best_bench": {
-    "name": "Kyle Pitts",
+    "name": "Kyle Pitts Sr.",
     "id": "7553",
     "nfl": "ATL",
     "pts": 20.5

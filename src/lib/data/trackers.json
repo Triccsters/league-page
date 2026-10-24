@@ -136,7 +136,7 @@
       ],
       [
        "@@YoungBuck04",
-       "Ollie Gordon",
+       "Ollie Gordon II",
        31.8,
        2,
        "$37"
@@ -178,15 +178,15 @@
      "rows": [
       [
        "@@Colt45Johnson",
-       24,
+       25,
        131.0,
        "$36"
       ],
       [
        "@@brettmn13",
-       17,
+       18,
        117.5,
-       "$26"
+       "$39"
       ],
       [
        "@@thecreamer",
@@ -202,19 +202,19 @@
       ],
       [
        "@@YoungBuck04",
-       14,
+       15,
        88.9,
        "$84"
       ],
       [
        "@@triccster",
-       8,
+       9,
        84.2,
-       "$32"
+       "$34"
       ],
       [
        "@@Wallner",
-       16,
+       17,
        82.9,
        "$27"
       ],
@@ -790,7 +790,7 @@
       ],
       [
        "@@Jbird531",
-       "TE",
+       "-",
        "QB",
        "QB 9 RB 7 WR 2 TE 7"
       ],
@@ -804,25 +804,25 @@
        "@@RockMNwild",
        "-",
        "RB, TE",
-       "QB 5 RB 11 WR 3 TE 10"
+       "QB 3 RB 11 WR 3 TE 10"
       ],
       [
        "@@Wallner",
        "QB",
        "WR, TE",
-       "QB 3 RB 5 WR 9 TE 12"
+       "QB 4 RB 5 WR 9 TE 12"
       ],
       [
        "@@YoungBuck04",
        "-",
        "WR",
-       "QB 2 RB 4 WR 11 TE 3"
+       "QB 5 RB 4 WR 11 TE 3"
       ],
       [
        "@@brettmn13",
        "WR",
        "TE",
-       "QB 6 RB 8 WR 6 TE 11"
+       "QB 6 RB 8 WR 7 TE 11"
       ],
       [
        "@@butterygoop",
@@ -834,7 +834,7 @@
        "@@snelson91",
        "TE",
        "WR",
-       "QB 4 RB 1 WR 12 TE 5"
+       "QB 2 RB 1 WR 12 TE 5"
       ],
       [
        "@@thecreamer",
@@ -846,7 +846,7 @@
        "@@triccster",
        "-",
        "RB",
-       "QB 7 RB 12 WR 7 TE 1"
+       "QB 7 RB 12 WR 6 TE 1"
       ],
       [
        "@@TuanonStan",
@@ -867,12 +867,6 @@
       "Can send back"
      ],
      "rows": [
-      [
-       "@@Jbird531",
-       "TE",
-       "@@Wallner",
-       "QB"
-      ],
       [
        "@@brettmn13",
        "WR",
@@ -906,9 +900,9 @@
       ],
       [
        "@@brettmn13",
-       "Garrett Wilson",
-       "WR NYJ",
-       11.4
+       "Rashee Rice",
+       "WR KC",
+       10.9
       ],
       [
        "@@butterygoop",
@@ -921,12 +915,6 @@
        "Carnell Tate",
        "WR TEN",
        9.8
-      ],
-      [
-       "@@Jbird531",
-       "Dallas Goedert",
-       "TE PHI",
-       7.9
       ],
       [
        "@@snelson91",
@@ -957,8 +945,8 @@
       [
        1,
        "@@Wallner",
-       32.9,
-       "Drake Maye, Woody Marks, RJ Harvey"
+       32.3,
+       "Drake Maye, RJ Harvey, Emeka Egbuka"
       ],
       [
        2,
@@ -969,32 +957,32 @@
       [
        3,
        "@@triccster",
-       31.3,
+       31.2,
        "Jayden Daniels, Wan'Dale Robinson, DK Metcalf"
       ],
       [
        4,
        "@@Jbird531",
-       30.4,
-       "Bo Nix, Denzel Boston, Dallas Goedert"
+       29.8,
+       "Bo Nix, Denzel Boston, Josh Downs"
       ],
       [
        5,
        "@@brettmn13",
-       28.9,
-       "Kirk Cousins, Aaron Jones, Travis Etienne"
+       29.8,
+       "C.J. Stroud, Aaron Jones Sr., Travis Etienne Jr."
       ],
       [
        6,
        "@@TuanonStan",
-       28.6,
+       28.9,
        "Matthew Stafford, Xavier Worthy, Kyle Monangai"
       ],
       [
        7,
        "@@Colt45Johnson",
        27.3,
-       "Tyler Shough, Jordan Addison, Deebo Samuel"
+       "Tyler Shough, Jordan Addison, Deebo Samuel Sr."
       ],
       [
        8,
@@ -1005,14 +993,14 @@
       [
        9,
        "@@YoungBuck04",
-       26.3,
-       "Jordan Love, Jordyn Tyson, Blake Corum"
+       25.6,
+       "Jordan Love, Blake Corum, Antonio Williams"
       ],
       [
        10,
        "@@snelson91",
        20.5,
-       "Dalton Kincaid, Mark Andrews, Tyrone Tracy"
+       "Dalton Kincaid, Tyrone Tracy Jr., Mark Andrews"
       ],
       [
        11,
@@ -1023,8 +1011,8 @@
       [
        12,
        "@@RockMNwild",
-       18.7,
-       "Tre Tucker, Khalil Shakir, Kyle Pitts"
+       18.8,
+       "Tre Tucker, Jordyn Tyson, Rico Dowdle"
       ]
      ]
     },
@@ -1245,21 +1233,21 @@
        "@@triccster",
        2,
        13.7,
-       "Stefon Diggs, Keaton Mitchell"
+       "Keaton Mitchell, Stefon Diggs"
       ],
       [
        8,
        "@@Wallner",
-       2,
-       30.3,
-       "Brock Purdy, Mike Evans"
+       3,
+       38.0,
+       "Woody Marks, Brock Purdy, Mike Evans"
       ],
       [
        8,
        "@@PapaMidnight",
        2,
-       21.1,
-       "Ka'imi Fairbairn, Nico Collins"
+       21.0,
+       "Nico Collins, Ka'imi Fairbairn"
       ],
       [
        8,
@@ -1272,7 +1260,7 @@
        9,
        "@@brettmn13",
        2,
-       16.2,
+       16.1,
        "Jaylen Warren, Tennessee Titans"
       ],
       [
@@ -1280,13 +1268,20 @@
        "@@butterygoop",
        3,
        24.0,
-       "Chicago Bears, D'Andre Swift, Chase McLaughlin"
+       "Chase McLaughlin, Chicago Bears, D'Andre Swift"
+      ],
+      [
+       10,
+       "@@Jbird531",
+       2,
+       23.7,
+       "Dallas Goedert, Caleb Williams"
       ],
       [
        10,
        "@@RockMNwild",
        2,
-       21.8,
+       21.7,
        "Jaylen Waddle, Bucky Irving"
       ],
       [
@@ -1476,7 +1471,7 @@
        "@@Jbird531",
        "Braelon Allen",
        "RB",
-       63
+       62
       ]
      ]
     },
@@ -1497,42 +1492,42 @@
        "@@YoungBuck04",
        "A.J. Brown",
        "WR",
-       91
+       89
       ],
       [
        "1.11",
        "@@triccster",
        "De'Von Achane",
        "RB",
-       78
+       77
       ],
       [
        "1.12",
        "@@PapaMidnight",
        "Saquon Barkley",
        "RB",
-       79
+       78
       ],
       [
        "5.08",
        "@@Wallner",
        "Drake Maye",
        "QB",
-       104
+       102
       ],
       [
        "4.03",
        "@@brettmn13",
        "Colston Loveland",
        "TE",
-       82
+       81
       ],
       [
-       "5.01",
-       "@@snelson91",
-       "Terry McLaurin",
+       "1.10",
+       "@@brettmn13",
+       "Justin Jefferson",
        "WR",
-       86
+       46
       ]
      ]
     },

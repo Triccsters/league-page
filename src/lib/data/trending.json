@@ -3,109 +3,109 @@
  "rostered_known": true,
  "add": [
   {
-   "n": "Omar Cooper",
+   "n": "Omar Cooper Jr.",
    "p": "WR",
    "t": "NYJ",
-   "c": 7861264,
+   "c": 7865976,
    "h": "Wallner"
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 3615605,
+   "c": 3646657,
+   "h": "TuanonStan"
+  },
+  {
+   "n": "Konata Mumpfield",
+   "p": "WR",
+   "t": "LAR",
+   "c": 3501180,
    "h": "TuanonStan"
   },
   {
    "n": "Roschon Johnson",
    "p": "RB",
    "t": "CHI",
-   "c": 3310032,
+   "c": 3236152,
    "h": "triccster"
-  },
-  {
-   "n": "Konata Mumpfield",
-   "p": "WR",
-   "t": "LAR",
-   "c": 3063591,
-   "h": "TuanonStan"
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 2551878,
-   "h": null
+   "c": 2572398,
+   "h": "Colt45Johnson"
   },
   {
    "n": "Michael Mayer",
    "p": "TE",
    "t": "LV",
-   "c": 1857843,
+   "c": 1985274,
    "h": null
   },
   {
    "n": "C.J. Stroud",
    "p": "QB",
    "t": "HOU",
-   "c": 1837927,
-   "h": null
+   "c": 1787667,
+   "h": "brettmn13"
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 1705488,
+   "c": 1743968,
    "h": "Colt45Johnson"
   },
   {
    "n": "Chase McLaughlin",
    "p": "K",
    "t": "TB",
-   "c": 1625832,
+   "c": 1688944,
    "h": "butterygoop"
-  },
-  {
-   "n": "Dameon Pierce",
-   "p": "RB",
-   "t": "PHI",
-   "c": 1375824,
-   "h": null
   },
   {
    "n": "Jake Bates",
    "p": "K",
    "t": "DET",
-   "c": 1309536,
+   "c": 1355096,
    "h": "YoungBuck04"
   },
   {
    "n": "Tre Tucker",
    "p": "WR",
    "t": "LV",
-   "c": 1244274,
+   "c": 1222968,
    "h": "RockMNwild"
-  },
-  {
-   "n": "Tanner McKee",
-   "p": "QB",
-   "t": "PHI",
-   "c": 1215720,
-   "h": null
-  },
-  {
-   "n": "Tyler Allgeier",
-   "p": "RB",
-   "t": "ARI",
-   "c": 1214440,
-   "h": "TuanonStan"
   },
   {
    "n": "Tank Dell",
    "p": "WR",
    "t": "HOU",
-   "c": 1073016,
+   "c": 1097232,
    "h": "butterygoop"
+  },
+  {
+   "n": "Treylon Burks",
+   "p": "WR",
+   "t": "WAS",
+   "c": 1066310,
+   "h": null
+  },
+  {
+   "n": "Kyle Pitts Sr.",
+   "p": "TE",
+   "t": "ATL",
+   "c": 1062824,
+   "h": "RockMNwild"
+  },
+  {
+   "n": "Tyrone Tracy Jr.",
+   "p": "RB",
+   "t": "NYG",
+   "c": 1030452,
+   "h": "snelson91"
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 2883492,
+   "c": 3014721,
    "h": "PapaMidnight"
   },
   {
    "n": "Terry McLaurin",
    "p": "WR",
    "t": "WAS",
-   "c": 2071224,
+   "c": 2134044,
    "h": "snelson91"
   },
   {
    "n": "Keaton Mitchell",
    "p": "RB",
    "t": "LAC",
-   "c": 1723797,
+   "c": 1714005,
    "h": "triccster"
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 1693164,
-   "h": null
-  },
-  {
-   "n": "Darius Cooper",
-   "p": "WR",
-   "t": "PHI",
-   "c": 1468957,
+   "c": 1705194,
    "h": null
   },
   {
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 1449810,
+   "c": 1498284,
    "h": "thecreamer"
+  },
+  {
+   "n": "Darius Cooper",
+   "p": "WR",
+   "t": "PHI",
+   "c": 1423569,
+   "h": null
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 1305990,
+   "c": 1311121,
    "h": null
   },
   {
    "n": "Jalen Hurts",
    "p": "QB",
    "t": "PHI",
-   "c": 1289820,
+   "c": 1250648,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1249686,
-   "h": null
+   "c": 1236978,
+   "h": "Colt45Johnson"
   },
   {
    "n": "Romeo Doubs",
    "p": "WR",
    "t": "NE",
-   "c": 1249608,
-   "h": "PapaMidnight"
+   "c": 1220000,
+   "h": null
   },
   {
    "n": "Jacory Croskey-Merritt",
    "p": "RB",
    "t": "WAS",
-   "c": 1147230,
+   "c": 1123479,
    "h": "triccster"
-  },
-  {
-   "n": "Tyreek Hill",
-   "p": "WR",
-   "t": null,
-   "c": 1077960,
-   "h": null
   },
   {
    "n": "Darren Waller",
    "p": "TE",
    "t": "CAR",
-   "c": 1051137,
+   "c": 1055511,
    "h": null
   },
   {
    "n": "Indianapolis Colts",
    "p": "DEF",
    "t": "IND",
-   "c": 1030599,
+   "c": 1045644,
+   "h": null
+  },
+  {
+   "n": "Tyreek Hill",
+   "p": "WR",
+   "t": null,
+   "c": 1011568,
    "h": null
   },
   {
    "n": "Najee Harris",
    "p": "RB",
    "t": null,
-   "c": 988075,
+   "c": 1008565,
    "h": null
   }
  ]
