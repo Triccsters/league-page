@@ -1,7 +1,7 @@
 {
- "read_at": "2026-10-25T12:53+00:00",
+ "read_at": "2026-10-26T13:16+00:00",
  "days": 7,
- "count": 109,
+ "count": 102,
  "items": [
   {
    "headline": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
@@ -62,60 +62,6 @@
     "YoungBuck04"
    ],
    "score": 18.0
-  },
-  {
-   "headline": "Jets WR Adonai Mitchell to play, RB Breece Hall questionable vs. Dolphins",
-   "url": "https://www.espn.com/nfl/story/_/id/50258482/jets-wr-mitchell-play-rb-hall-questionable-vs-dolphins",
-   "date": "2026-10-23",
-   "kind": "news",
-   "teams": [
-    "NYJ"
-   ],
-   "named": [
-    {
-     "n": "Adonai Mitchell",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Breece Hall",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Adonai Mitchell",
-    "Breece Hall"
-   ],
-   "ripple": [
-    {
-     "n": "Omar Cooper Jr.",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "Wallner"
-    },
-    {
-     "n": "Braelon Allen",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Garrett Wilson",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "Wallner",
-    "brettmn13",
-    "thecreamer"
-   ],
-   "score": 15.5
   },
   {
    "headline": "Packers activate RB Josh Jacobs for 2026 debut",
@@ -184,6 +130,68 @@
     "triccster"
    ],
    "score": 15.0
+  },
+  {
+   "headline": "Seahawks contain Chiefs' Kenneth Walker III in RB's return to Seattle",
+   "url": "https://www.espn.com/nfl/story/_/id/50285364/seahawks-limit-chiefs-rb-kenneth-walker-iii-seattle-return",
+   "date": "2026-10-26",
+   "kind": "news",
+   "teams": [
+    "KC",
+    "SEA"
+   ],
+   "named": [
+    {
+     "n": "Kenneth Walker III",
+     "p": "RB",
+     "t": "KC",
+     "h": "butterygoop"
+    }
+   ],
+   "lead": [
+    "Kenneth Walker III"
+   ],
+   "ripple": [
+    {
+     "n": "Xavier Worthy",
+     "p": "WR",
+     "t": "KC",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 14.5
   },
   {
    "headline": "Why Derrick Henry has taken Jets RB Braelon Allen under his wing",
@@ -374,281 +382,56 @@
    "score": 14.5
   },
   {
-   "headline": "Cards rookie RB Jeremiyah Love to miss second straight game with ankle injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50259624/cardinals-rookie-rb-jeremiyah-love-miss-second-straight-game",
-   "date": "2026-10-23",
+   "headline": "Bo Nix wows with 62-yard run as Broncos stand by 'our guy' at QB after win",
+   "url": "https://www.espn.com/nfl/story/_/id/50284110/bo-nix-breaks-slump-carries-broncos-cardinals",
+   "date": "2026-10-26",
    "kind": "news",
    "teams": [
-    "ARI"
+    "DEN"
    ],
    "named": [
     {
-     "n": "Jeremiyah Love",
-     "p": "RB",
-     "t": "ARI",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Jeremiyah Love"
-   ],
-   "ripple": [
-    {
-     "n": "Jacoby Brissett",
+     "n": "Bo Nix",
      "p": "QB",
-     "t": "ARI",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Tyler Allgeier",
-     "p": "RB",
-     "t": "ARI",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Trey McBride",
-     "p": "TE",
-     "t": "ARI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Zonovan Knight",
-     "p": "RB",
-     "t": "ARI",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Michael Wilson",
-     "p": "WR",
-     "t": "ARI",
-     "h": "Jbird531"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "RockMNwild",
-    "TuanonStan",
-    "YoungBuck04",
-    "butterygoop"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "Colts' Tyler Warren to miss second game with groin injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50259536/colts-tyler-warren-miss-second-game-groin-injury",
-   "date": "2026-10-23",
-   "kind": "news",
-   "teams": [
-    "IND"
-   ],
-   "named": [
-    {
-     "n": "Tyler Warren",
-     "p": "TE",
-     "t": "IND",
+     "t": "DEN",
      "h": "Jbird531"
     }
    ],
    "lead": [
-    "Tyler Warren"
+    "Bo Nix"
    ],
    "ripple": [
     {
-     "n": "Alec Pierce",
-     "p": "WR",
-     "t": "IND",
+     "n": "RJ Harvey",
+     "p": "RB",
+     "t": "DEN",
      "h": "Wallner"
     },
     {
-     "n": "Seth McGowan",
+     "n": "J.K. Dobbins",
      "p": "RB",
-     "t": "IND",
-     "h": "TuanonStan"
+     "t": "DEN",
+     "h": "triccster"
     },
     {
-     "n": "Josh Downs",
+     "n": "Jaylen Waddle",
      "p": "WR",
-     "t": "IND",
-     "h": "Jbird531"
+     "t": "DEN",
+     "h": "RockMNwild"
     },
     {
-     "n": "Keenan Allen",
+     "n": "Courtland Sutton",
      "p": "WR",
-     "t": "IND",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Jonathan Taylor",
-     "p": "RB",
-     "t": "IND",
+     "t": "DEN",
      "h": "thecreamer"
     }
    ],
    "managers": [
-    "Colt45Johnson",
     "Jbird531",
-    "TuanonStan",
-    "Wallner",
-    "thecreamer"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "McCarthy nearly rallies Giants after Winston benched; Skattebo logs no carries",
-   "url": "https://www.espn.com/nfl/story/_/id/50214248/giants-john-harbaugh-not-ready-name-week-7-starter-qb",
-   "date": "2026-10-19",
-   "kind": "news",
-   "teams": [
-    "NYG"
-   ],
-   "named": [
-    {
-     "n": "J.J. McCarthy",
-     "p": "QB",
-     "t": "NYG",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Cam Skattebo",
-     "p": "RB",
-     "t": "NYG",
-     "h": "PapaMidnight"
-    }
-   ],
-   "lead": [
-    "J.J. McCarthy",
-    "Cam Skattebo"
-   ],
-   "ripple": [
-    {
-     "n": "Isaiah Likely",
-     "p": "TE",
-     "t": "NYG",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Malik Nabers",
-     "p": "WR",
-     "t": "NYG",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Tyrone Tracy Jr.",
-     "p": "RB",
-     "t": "NYG",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "Rams WR Puka Nacua misses practice, questionable vs. Raiders with calf injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50259748/rams-wr-puka-nacua-questionable-vs-raiders-calf-injury",
-   "date": "2026-10-23",
-   "kind": "news",
-   "teams": [
-    "LAR"
-   ],
-   "named": [
-    {
-     "n": "Puka Nacua",
-     "p": "WR",
-     "t": "LAR",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "Puka Nacua"
-   ],
-   "ripple": [
-    {
-     "n": "Matthew Stafford",
-     "p": "QB",
-     "t": "LAR",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Blake Corum",
-     "p": "RB",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Davante Adams",
-     "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Kyren Williams",
-     "p": "RB",
-     "t": "LAR",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "TuanonStan",
-    "YoungBuck04",
-    "snelson91"
-   ],
-   "score": 14.0
-  },
-  {
-   "headline": "Baker Mayfield returns for Bucs, but WR Emeka Egbuka, RT Luke Goedeke out",
-   "url": "https://www.espn.com/nfl/story/_/id/50259196/baker-mayfield-returns-emeka-egbuka-luke-goedeke-out",
-   "date": "2026-10-23",
-   "kind": "news",
-   "teams": [
-    "TB"
-   ],
-   "named": [
-    {
-     "n": "Emeka Egbuka",
-     "p": "WR",
-     "t": "TB",
-     "h": "Wallner"
-    }
-   ],
-   "lead": [
-    "Emeka Egbuka"
-   ],
-   "ripple": [
-    {
-     "n": "Ted Hurst III",
-     "p": "WR",
-     "t": "TB",
-     "h": "Wallner"
-    },
-    {
-     "n": "Chris Godwin Jr.",
-     "p": "WR",
-     "t": "TB",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Bucky Irving",
-     "p": "RB",
-     "t": "TB",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Kenny Gainwell",
-     "p": "RB",
-     "t": "TB",
-     "h": "RockMNwild"
-    }
-   ],
-   "managers": [
     "RockMNwild",
     "Wallner",
-    "butterygoop"
+    "thecreamer",
+    "triccster"
    ],
    "score": 14.0
   },
@@ -747,50 +530,299 @@
    "score": 13.5
   },
   {
-   "headline": "Seahawks rule out RB Zach Charbonnet vs. Chiefs",
-   "url": "https://www.espn.com/nfl/story/_/id/50261029/seahawks-rule-rb-zach-charbonnet-vs-chiefs",
+   "headline": "Jets WR Adonai Mitchell to play, RB Breece Hall questionable vs. Dolphins",
+   "url": "https://www.espn.com/nfl/story/_/id/50258482/jets-wr-mitchell-play-rb-hall-questionable-vs-dolphins",
    "date": "2026-10-23",
    "kind": "news",
    "teams": [
-    "SEA"
+    "NYJ"
    ],
    "named": [
     {
-     "n": "Zach Charbonnet",
+     "n": "Adonai Mitchell",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Breece Hall",
      "p": "RB",
-     "t": "SEA",
-     "h": "RockMNwild"
+     "t": "NYJ",
+     "h": "Jbird531"
     }
    ],
    "lead": [
-    "Zach Charbonnet"
+    "Adonai Mitchell",
+    "Breece Hall"
    ],
    "ripple": [
     {
-     "n": "Jadarian Price",
-     "p": "RB",
-     "t": "SEA",
-     "h": "RockMNwild"
+     "n": "Omar Cooper Jr.",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "Wallner"
     },
     {
-     "n": "Jaxon Smith-Njigba",
-     "p": "WR",
-     "t": "SEA",
+     "n": "Braelon Allen",
+     "p": "RB",
+     "t": "NYJ",
      "h": "Jbird531"
     },
     {
-     "n": "Emanuel Wilson",
+     "n": "Garrett Wilson",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "Wallner",
+    "brettmn13",
+    "thecreamer"
+   ],
+   "score": 13.5
+  },
+  {
+   "headline": "Sources: Josh Simmons told to leave Chiefs meeting by Andy Reid, Patrick Mahomes",
+   "url": "https://www.espn.com/nfl/story/_/id/50268181/sources-josh-simmons-told-leave-chiefs-team-meeting",
+   "date": "2026-10-25",
+   "kind": "news",
+   "teams": [
+    "KC"
+   ],
+   "named": [
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
+    }
+   ],
+   "lead": [
+    "Patrick Mahomes"
+   ],
+   "ripple": [
+    {
+     "n": "Kenneth Walker III",
      "p": "RB",
-     "t": "SEA",
+     "t": "KC",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Xavier Worthy",
+     "p": "WR",
+     "t": "KC",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Aaron Rodgers breaks tie with Peyton Manning for third-most TD passes",
+   "url": "https://www.espn.com/nfl/story/_/id/50277960/rodgers-throws-historic-td-pass-steelers-win-1st-paris-game",
+   "date": "2026-10-25",
+   "kind": "news",
+   "teams": [
+    "PIT"
+   ],
+   "named": [
+    {
+     "n": "Aaron Rodgers",
+     "p": "QB",
+     "t": "PIT",
      "h": "thecreamer"
+    }
+   ],
+   "lead": [
+    "Aaron Rodgers"
+   ],
+   "ripple": [
+    {
+     "n": "DK Metcalf",
+     "p": "WR",
+     "t": "PIT",
+     "h": "triccster"
+    },
+    {
+     "n": "Rico Dowdle",
+     "p": "RB",
+     "t": "PIT",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Pat Freiermuth",
+     "p": "TE",
+     "t": "PIT",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Germie Bernard",
+     "p": "WR",
+     "t": "PIT",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Jaylen Warren",
+     "p": "RB",
+     "t": "PIT",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "PapaMidnight",
+    "RockMNwild",
+    "brettmn13",
+    "thecreamer",
+    "triccster"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Cards rookie RB Jeremiyah Love to miss second straight game with ankle injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50259624/cardinals-rookie-rb-jeremiyah-love-miss-second-straight-game",
+   "date": "2026-10-23",
+   "kind": "news",
+   "teams": [
+    "ARI"
+   ],
+   "named": [
+    {
+     "n": "Jeremiyah Love",
+     "p": "RB",
+     "t": "ARI",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "Jeremiyah Love"
+   ],
+   "ripple": [
+    {
+     "n": "Jacoby Brissett",
+     "p": "QB",
+     "t": "ARI",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Tyler Allgeier",
+     "p": "RB",
+     "t": "ARI",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Trey McBride",
+     "p": "TE",
+     "t": "ARI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Zonovan Knight",
+     "p": "RB",
+     "t": "ARI",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Michael Wilson",
+     "p": "WR",
+     "t": "ARI",
+     "h": "Jbird531"
     }
    ],
    "managers": [
     "Jbird531",
     "RockMNwild",
+    "TuanonStan",
+    "YoungBuck04",
+    "butterygoop"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Colts' Tyler Warren to miss second game with groin injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50259536/colts-tyler-warren-miss-second-game-groin-injury",
+   "date": "2026-10-23",
+   "kind": "news",
+   "teams": [
+    "IND"
+   ],
+   "named": [
+    {
+     "n": "Tyler Warren",
+     "p": "TE",
+     "t": "IND",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Tyler Warren"
+   ],
+   "ripple": [
+    {
+     "n": "Alec Pierce",
+     "p": "WR",
+     "t": "IND",
+     "h": "Wallner"
+    },
+    {
+     "n": "Seth McGowan",
+     "p": "RB",
+     "t": "IND",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Josh Downs",
+     "p": "WR",
+     "t": "IND",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Keenan Allen",
+     "p": "WR",
+     "t": "IND",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Jonathan Taylor",
+     "p": "RB",
+     "t": "IND",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "TuanonStan",
+    "Wallner",
     "thecreamer"
    ],
-   "score": 13.5
+   "score": 12.5
   }
  ],
  "source": "ESPN NFL news, headlines and links only",

@@ -208,7 +208,7 @@
       ],
       [
        "@@triccster",
-       9,
+       11,
        84.2,
        "$34"
       ],
@@ -232,13 +232,13 @@
       ],
       [
        "@@butterygoop",
-       9,
+       10,
        16.4,
        "-"
       ],
       [
        "@@snelson91",
-       6,
+       7,
        15.2,
        "$18"
       ],
@@ -786,7 +786,7 @@
        "@@Colt45Johnson",
        "-",
        "QB, RB",
-       "QB 10 RB 9 WR 4 TE 4"
+       "QB 10 RB 9 WR 5 TE 4"
       ],
       [
        "@@Jbird531",
@@ -798,19 +798,19 @@
        "@@PapaMidnight",
        "-",
        "QB, RB",
-       "QB 11 RB 10 WR 6 TE 8"
+       "QB 11 RB 10 WR 4 TE 8"
       ],
       [
        "@@RockMNwild",
        "-",
        "RB, TE",
-       "QB 4 RB 11 WR 3 TE 10"
+       "QB 2 RB 11 WR 3 TE 10"
       ],
       [
        "@@Wallner",
        "QB",
        "WR, TE",
-       "QB 3 RB 5 WR 9 TE 12"
+       "QB 4 RB 5 WR 9 TE 12"
       ],
       [
        "@@YoungBuck04",
@@ -834,7 +834,7 @@
        "@@snelson91",
        "-",
        "WR",
-       "QB 2 RB 1 WR 12 TE 5"
+       "QB 3 RB 1 WR 12 TE 5"
       ],
       [
        "@@thecreamer",
@@ -844,34 +844,15 @@
       ],
       [
        "@@triccster",
-       "QB",
+       "-",
        "RB",
-       "QB 6 RB 12 WR 5 TE 1"
+       "QB 6 RB 12 WR 6 TE 1"
       ],
       [
        "@@TuanonStan",
        "WR",
        "-",
        "QB 1 RB 3 WR 8 TE 2"
-      ]
-     ]
-    },
-    {
-     "id": "partners",
-     "title": "Natural trade partners",
-     "note": "Pairs where each side has a surplus at the other's weak spot.",
-     "cols": [
-      "Team",
-      "Can send",
-      "Partner",
-      "Can send back"
-     ],
-     "rows": [
-      [
-       "@@butterygoop",
-       "RB",
-       "@@triccster",
-       "QB"
       ]
      ]
     },
@@ -891,12 +872,6 @@
        "Drake Maye",
        "QB NE",
        17.8
-      ],
-      [
-       "@@triccster",
-       "Jayden Daniels",
-       "QB WAS",
-       15.4
       ],
       [
        "@@butterygoop",
@@ -926,7 +901,7 @@
        "@@brettmn13",
        "Aaron Jones Sr.",
        "RB MIN",
-       8.6
+       9.2
       ]
      ]
     }
@@ -951,38 +926,38 @@
       [
        1,
        "@@Wallner",
-       32.4,
-       "Drake Maye, RJ Harvey, Emeka Egbuka"
+       32.6,
+       "Drake Maye, Woody Marks, Emeka Egbuka"
       ],
       [
        2,
        "@@triccster",
-       31.2,
+       31.0,
        "Jayden Daniels, Wan'Dale Robinson, DK Metcalf"
       ],
       [
        3,
-       "@@butterygoop",
-       30.3,
-       "J.J. McCarthy, Bhayshul Tuten, DeVonta Smith"
+       "@@brettmn13",
+       30.8,
+       "C.J. Stroud, Aaron Jones Sr., Travis Etienne Jr."
       ],
       [
        4,
-       "@@brettmn13",
-       30.2,
-       "C.J. Stroud, Aaron Jones Sr., Travis Etienne Jr."
+       "@@butterygoop",
+       30.4,
+       "J.J. McCarthy, Bhayshul Tuten, DeVonta Smith"
       ],
       [
        5,
        "@@Jbird531",
-       29.7,
+       29.8,
        "Bo Nix, Denzel Boston, Josh Downs"
       ],
       [
        6,
        "@@TuanonStan",
-       28.6,
-       "Matthew Stafford, Xavier Worthy, Kyle Monangai"
+       28.2,
+       "Matthew Stafford, Xavier Worthy, Tyler Allgeier"
       ],
       [
        7,
@@ -993,26 +968,26 @@
       [
        8,
        "@@thecreamer",
-       27.1,
-       "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
+       27.2,
+       "Aaron Rodgers, Rome Odunze, Courtland Sutton"
       ],
       [
        9,
        "@@YoungBuck04",
-       25.8,
+       25.7,
        "Jordan Love, Blake Corum, Antonio Williams"
       ],
       [
        10,
-       "@@PapaMidnight",
-       20.1,
-       "Malik Washington, Pat Freiermuth, Keon Coleman"
+       "@@snelson91",
+       20.3,
+       "Dalton Kincaid, Mark Andrews, Tyrone Tracy Jr."
       ],
       [
        11,
-       "@@snelson91",
-       19.8,
-       "Dalton Kincaid, Tyrone Tracy Jr., Mark Andrews"
+       "@@PapaMidnight",
+       20.0,
+       "Jordan Mason, Pat Freiermuth, Keon Coleman"
       ],
       [
        12,
@@ -1236,24 +1211,31 @@
      "rows": [
       [
        7,
+       "@@thecreamer",
+       2,
+       18.8,
+       "DJ Moore, Omarion Hampton"
+      ],
+      [
+       7,
        "@@triccster",
        2,
-       13.9,
-       "Stefon Diggs, Keaton Mitchell"
+       14.1,
+       "Keaton Mitchell, Stefon Diggs"
       ],
       [
        8,
        "@@Wallner",
-       3,
-       38.1,
-       "Brock Purdy, Mike Evans, Woody Marks"
+       2,
+       30.3,
+       "Brock Purdy, Mike Evans"
       ],
       [
        8,
        "@@PapaMidnight",
        2,
        21.0,
-       "Nico Collins, Ka'imi Fairbairn"
+       "Ka'imi Fairbairn, Nico Collins"
       ],
       [
        8,
@@ -1267,21 +1249,14 @@
        "@@brettmn13",
        2,
        16.0,
-       "Tennessee Titans, Jaylen Warren"
-      ],
-      [
-       10,
-       "@@butterygoop",
-       3,
-       24.1,
-       "D'Andre Swift, Chase McLaughlin, Chicago Bears"
+       "Jaylen Warren, Tennessee Titans"
       ],
       [
        10,
        "@@Jbird531",
        2,
-       23.8,
-       "Caleb Williams, Dallas Goedert"
+       23.9,
+       "Dallas Goedert, Caleb Williams"
       ],
       [
        10,
@@ -1292,10 +1267,10 @@
       ],
       [
        10,
-       "@@thecreamer",
+       "@@butterygoop",
        2,
-       14.1,
-       "Rome Odunze, Denver Broncos"
+       19.0,
+       "D'Andre Swift, Chase McLaughlin"
       ]
      ]
     }
@@ -1573,22 +1548,22 @@
        "Christian MaCalf-Hurts (2025) / Aggravated Assault (2024) / 2 Girls 1 Kupp (2023) / All About that Bass (2022) / Fake IDs (2021)"
       ],
       [
+       "@@TuanonStan",
+       13,
+       "“Winnings winning”",
+       "Hindenburg (2026 (wk 5)) / “Winnings winning” (2026) / Hindenburg (2024) / Dank Brandon (2022) / Carole Gaskins (2021)"
+      ],
+      [
        "@@Wallner",
        13,
        "Still PA Sponge",
        "I’m on the Outside (2025) / The Sweetner (2024) / Dahn and aht (2023) / Dark roast (2022) / Dos Gesickis (2021)"
       ],
       [
-       "@@TuanonStan",
-       12,
-       "no team name set",
-       "Hindenburg (2024) / Dank Brandon (2022) / Carole Gaskins (2021) / Christian Mingle (2020) / Quadfather (2019)"
-      ],
-      [
        "@@Jbird531",
-       9,
-       "no team name set",
-       "Pink OD Floyd (2025) / The redskins (2024) / The Gender Mob (2023) / Wally (2022) / Smoking Kamarijuana (2021)"
+       10,
+       "Too soon, Junior",
+       "Pink OD Floyd (2026 (wk 5)) / Too soon, Junior (2026) / Pink OD Floyd (2025) / The redskins (2024) / The Gender Mob (2023)"
       ],
       [
        "@@PapaMidnight",

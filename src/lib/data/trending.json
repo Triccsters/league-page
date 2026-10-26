@@ -6,106 +6,106 @@
    "n": "Omar Cooper Jr.",
    "p": "WR",
    "t": "NYJ",
-   "c": 7858000,
+   "c": 7647640,
    "h": "Wallner"
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 3741030,
+   "c": 3851784,
    "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 3676071,
+   "c": 3600779,
    "h": "TuanonStan"
   },
   {
    "n": "Roschon Johnson",
    "p": "RB",
    "t": "CHI",
-   "c": 3025992,
+   "c": 2782288,
    "h": "triccster"
-  },
-  {
-   "n": "Tyler Higbee",
-   "p": "TE",
-   "t": "LAR",
-   "c": 2332422,
-   "h": null
   },
   {
    "n": "Michael Mayer",
    "p": "TE",
    "t": "LV",
-   "c": 2040210,
+   "c": 2016387,
    "h": null
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 1833160,
+   "c": 1890576,
    "h": "Colt45Johnson"
-  },
-  {
-   "n": "C.J. Stroud",
-   "p": "QB",
-   "t": "HOU",
-   "c": 1767955,
-   "h": "brettmn13"
   },
   {
    "n": "Chase McLaughlin",
    "p": "K",
    "t": "TB",
-   "c": 1742304,
+   "c": 1829600,
    "h": "butterygoop"
   },
   {
    "n": "Seth McGowan",
    "p": "RB",
    "t": "IND",
-   "c": 1410984,
+   "c": 1818800,
    "h": "TuanonStan"
+  },
+  {
+   "n": "Tyler Higbee",
+   "p": "TE",
+   "t": "LAR",
+   "c": 1681200,
+   "h": null
+  },
+  {
+   "n": "C.J. Stroud",
+   "p": "QB",
+   "t": "HOU",
+   "c": 1660057,
+   "h": "brettmn13"
   },
   {
    "n": "Jake Bates",
    "p": "K",
    "t": "DET",
-   "c": 1404000,
+   "c": 1487624,
    "h": "YoungBuck04"
-  },
-  {
-   "n": "Tre Tucker",
-   "p": "WR",
-   "t": "LV",
-   "c": 1212822,
-   "h": "RockMNwild"
   },
   {
    "n": "Tank Dell",
    "p": "WR",
    "t": "HOU",
-   "c": 1125072,
-   "h": "butterygoop"
+   "c": 1187592,
+   "h": null
+  },
+  {
+   "n": "Tre Tucker",
+   "p": "WR",
+   "t": "LV",
+   "c": 1152672,
+   "h": "RockMNwild"
+  },
+  {
+   "n": "Darius Cooper",
+   "p": "WR",
+   "t": "PHI",
+   "c": 1136583,
+   "h": "Colt45Johnson"
   },
   {
    "n": "Treylon Burks",
    "p": "WR",
    "t": "WAS",
-   "c": 1071042,
+   "c": 1069495,
    "h": null
-  },
-  {
-   "n": "Kyle Pitts Sr.",
-   "p": "TE",
-   "t": "ATL",
-   "c": 1070776,
-   "h": "RockMNwild"
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 3175515,
+   "c": 3221190,
    "h": "PapaMidnight"
   },
   {
    "n": "Terry McLaurin",
    "p": "WR",
    "t": "WAS",
-   "c": 2195538,
+   "c": 2276832,
    "h": null
-  },
-  {
-   "n": "Keaton Mitchell",
-   "p": "RB",
-   "t": "LAC",
-   "c": 1730502,
-   "h": "triccster"
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 1723236,
-   "h": null
+   "c": 1711014,
+   "h": "butterygoop"
+  },
+  {
+   "n": "Keaton Mitchell",
+   "p": "RB",
+   "t": "LAC",
+   "c": 1638405,
+   "h": "triccster"
   },
   {
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 1527804,
+   "c": 1524006,
    "h": "thecreamer"
-  },
-  {
-   "n": "Darius Cooper",
-   "p": "WR",
-   "t": "PHI",
-   "c": 1353597,
-   "h": "Colt45Johnson"
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 1316399,
-   "h": null
-  },
-  {
-   "n": "Tyler Higbee",
-   "p": "TE",
-   "t": "LAR",
-   "c": 1248318,
-   "h": null
-  },
-  {
-   "n": "Jalen Hurts",
-   "p": "QB",
-   "t": "PHI",
-   "c": 1202244,
-   "h": null
-  },
-  {
-   "n": "Romeo Doubs",
-   "p": "WR",
-   "t": "NE",
-   "c": 1191712,
+   "c": 1286089,
    "h": null
   },
   {
    "n": "Dameon Pierce",
    "p": "RB",
    "t": "PHI",
-   "c": 1131512,
+   "c": 1263984,
    "h": null
   },
   {
-   "n": "Darren Waller",
+   "n": "Tyler Higbee",
    "p": "TE",
-   "t": "CAR",
-   "c": 1071396,
+   "t": "LAR",
+   "c": 1232316,
+   "h": null
+  },
+  {
+   "n": "Darius Cooper",
+   "p": "WR",
+   "t": "PHI",
+   "c": 1193171,
+   "h": "Colt45Johnson"
+  },
+  {
+   "n": "Jalen Hurts",
+   "p": "QB",
+   "t": "PHI",
+   "c": 1186700,
+   "h": null
+  },
+  {
+   "n": "Romeo Doubs",
+   "p": "WR",
+   "t": "NE",
+   "c": 1148008,
    "h": null
   },
   {
    "n": "Indianapolis Colts",
    "p": "DEF",
    "t": "IND",
-   "c": 1062342,
-   "h": null
-  },
-  {
-   "n": "Najee Harris",
-   "p": "RB",
-   "t": null,
-   "c": 1035090,
+   "c": 1040745,
    "h": null
   },
   {
    "n": "Jaleel McLaughlin",
    "p": "RB",
    "t": "CLE",
-   "c": 1028380,
+   "c": 1034775,
+   "h": null
+  },
+  {
+   "n": "Najee Harris",
+   "p": "RB",
+   "t": null,
+   "c": 1000830,
+   "h": null
+  },
+  {
+   "n": "Brenton Strange",
+   "p": "TE",
+   "t": "JAX",
+   "c": 980262,
    "h": null
   }
  ]
