@@ -1,7 +1,7 @@
 {
- "read_at": "2026-10-26T13:16+00:00",
+ "read_at": "2026-10-27T12:14+00:00",
  "days": 7,
- "count": 102,
+ "count": 101,
  "items": [
   {
    "headline": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
@@ -61,12 +61,12 @@
     "Wallner",
     "YoungBuck04"
    ],
-   "score": 18.0
+   "score": 16.0
   },
   {
    "headline": "Packers activate RB Josh Jacobs for 2026 debut",
    "url": "https://www.espn.com/nfl/story/_/id/50269266/packers-activate-rb-josh-jacobs-2026-debut",
-   "date": "2026-10-24",
+   "date": "2026-10-26",
    "kind": "news",
    "teams": [
     "DET",
@@ -330,58 +330,6 @@
    "score": 14.5
   },
   {
-   "headline": "Vikings activate RB Jordan Mason off injured reserve",
-   "url": "https://www.espn.com/nfl/story/_/id/50269656/vikings-activate-rb-jordan-mason-injured-reserve",
-   "date": "2026-10-24",
-   "kind": "news",
-   "teams": [
-    "MIN"
-   ],
-   "named": [
-    {
-     "n": "Jordan Mason",
-     "p": "RB",
-     "t": "MIN",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Aaron Jones Sr.",
-     "p": "RB",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "lead": [
-    "Jordan Mason"
-   ],
-   "ripple": [
-    {
-     "n": "Kyler Murray",
-     "p": "QB",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Jordan Addison",
-     "p": "WR",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Justin Jefferson",
-     "p": "WR",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "brettmn13"
-   ],
-   "score": 14.5
-  },
-  {
    "headline": "Bo Nix wows with 62-yard run as Broncos stand by 'our guy' at QB after win",
    "url": "https://www.espn.com/nfl/story/_/id/50284110/bo-nix-breaks-slump-carries-broncos-cardinals",
    "date": "2026-10-26",
@@ -436,9 +384,108 @@
    "score": 14.0
   },
   {
-   "headline": "Ravens rule out Lamar Jackson (ankle) vs. Bengals; Tyler 'Snoop' Huntley to start",
-   "url": "https://www.espn.com/nfl/story/_/id/50268816/ravens-rule-lamar-jackson-high-ankle-sprain-vs-bengals",
-   "date": "2026-10-24",
+   "headline": "Vikings RB Jones avoids serious knee injury, day-to-day",
+   "url": "https://www.espn.com/nfl/story/_/id/50289047/vikings-rb-jones-avoids-serious-knee-injury-day-day",
+   "date": "2026-10-26",
+   "kind": "news",
+   "teams": [
+    "MIN"
+   ],
+   "named": [
+    {
+     "n": "Aaron Jones Sr.",
+     "p": "RB",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "lead": [
+    "Aaron Jones Sr."
+   ],
+   "ripple": [
+    {
+     "n": "Jordan Mason",
+     "p": "RB",
+     "t": "MIN",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Kyler Murray",
+     "p": "QB",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Jordan Addison",
+     "p": "WR",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "brettmn13"
+   ],
+   "score": 14.0
+  },
+  {
+   "headline": "Eagles' Saquon Barkley says hamstring 'great' in return, not sweating back issue",
+   "url": "https://www.espn.com/nfl/story/_/id/50294604/eagles-saquon-barkley-hobbled-highly-efficient-gutsy-losing-effort-vs-cowboys",
+   "date": "2026-10-27",
+   "kind": "news",
+   "teams": [
+    "PHI"
+   ],
+   "named": [
+    {
+     "n": "Saquon Barkley",
+     "p": "RB",
+     "t": "PHI",
+     "h": "PapaMidnight"
+    }
+   ],
+   "lead": [
+    "Saquon Barkley"
+   ],
+   "ripple": [
+    {
+     "n": "DeVonta Smith",
+     "p": "WR",
+     "t": "PHI",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Dallas Goedert",
+     "p": "TE",
+     "t": "PHI",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Darius Cooper",
+     "p": "WR",
+     "t": "PHI",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "PapaMidnight",
+    "butterygoop"
+   ],
+   "score": 13.5
+  },
+  {
+   "headline": "Ravens' Jesse Minter optimistic QB Lamar Jackson can return vs. Bills",
+   "url": "https://www.espn.com/nfl/story/_/id/50290411/ravens-coach-minter-optimistic-qb-jackson-returns-vs-bills",
+   "date": "2026-10-26",
    "kind": "news",
    "teams": [
     "BAL"
@@ -479,107 +526,6 @@
     "PapaMidnight",
     "YoungBuck04",
     "snelson91"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
-   "url": "https://www.espn.com/nfl/story/_/id/50269752/eagles-devonta-smith-dontayvion-wicks-vs-cowboys",
-   "date": "2026-10-24",
-   "kind": "news",
-   "teams": [
-    "PHI"
-   ],
-   "named": [
-    {
-     "n": "DeVonta Smith",
-     "p": "WR",
-     "t": "PHI",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "DeVonta Smith"
-   ],
-   "ripple": [
-    {
-     "n": "Dallas Goedert",
-     "p": "TE",
-     "t": "PHI",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Saquon Barkley",
-     "p": "RB",
-     "t": "PHI",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Darius Cooper",
-     "p": "WR",
-     "t": "PHI",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "PapaMidnight",
-    "butterygoop"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Jets WR Adonai Mitchell to play, RB Breece Hall questionable vs. Dolphins",
-   "url": "https://www.espn.com/nfl/story/_/id/50258482/jets-wr-mitchell-play-rb-hall-questionable-vs-dolphins",
-   "date": "2026-10-23",
-   "kind": "news",
-   "teams": [
-    "NYJ"
-   ],
-   "named": [
-    {
-     "n": "Adonai Mitchell",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Breece Hall",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Adonai Mitchell",
-    "Breece Hall"
-   ],
-   "ripple": [
-    {
-     "n": "Omar Cooper Jr.",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "Wallner"
-    },
-    {
-     "n": "Braelon Allen",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Garrett Wilson",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "Wallner",
-    "brettmn13",
-    "thecreamer"
    ],
    "score": 13.5
   },
@@ -701,6 +647,58 @@
     "brettmn13",
     "thecreamer",
     "triccster"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Vikings activate RB Jordan Mason off injured reserve",
+   "url": "https://www.espn.com/nfl/story/_/id/50269656/vikings-activate-rb-jordan-mason-injured-reserve",
+   "date": "2026-10-24",
+   "kind": "news",
+   "teams": [
+    "MIN"
+   ],
+   "named": [
+    {
+     "n": "Jordan Mason",
+     "p": "RB",
+     "t": "MIN",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Aaron Jones Sr.",
+     "p": "RB",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "lead": [
+    "Jordan Mason"
+   ],
+   "ripple": [
+    {
+     "n": "Kyler Murray",
+     "p": "QB",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Jordan Addison",
+     "p": "WR",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "brettmn13"
    ],
    "score": 12.5
   },

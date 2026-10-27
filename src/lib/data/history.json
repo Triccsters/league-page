@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T13:16:24+00:00",
+ "generated": "2026-10-27T12:14:24+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -245,7 +245,7 @@
    "TuanonStan": "“Winnings winning”",
    "triccster": "triccster",
    "YoungBuck04": "Christian MaCalf-Hurts",
-   "RockMNwild": "3 dogs and a pile of shit",
+   "RockMNwild": "Tummy Blasters",
    "Jbird531": "Too soon, Junior",
    "PapaMidnight": "Saquon Ds Nutz",
    "Colt45Johnson": "Those Darts Shough Me Up",
@@ -17034,6 +17034,72 @@
    73.62,
    "brettmn13",
    101.12,
+   false,
+   null
+  ],
+  [
+   2026,
+   7,
+   "sleeper",
+   "Wallner",
+   87.74,
+   "Colt45Johnson",
+   88.4,
+   false,
+   null
+  ],
+  [
+   2026,
+   7,
+   "sleeper",
+   "butterygoop",
+   81.18,
+   "YoungBuck04",
+   135.46,
+   false,
+   null
+  ],
+  [
+   2026,
+   7,
+   "sleeper",
+   "TuanonStan",
+   123.8,
+   "brettmn13",
+   79.42,
+   false,
+   null
+  ],
+  [
+   2026,
+   7,
+   "sleeper",
+   "triccster",
+   87.62,
+   "snelson91",
+   76.5,
+   false,
+   null
+  ],
+  [
+   2026,
+   7,
+   "sleeper",
+   "RockMNwild",
+   124.18,
+   "PapaMidnight",
+   134.28,
+   false,
+   null
+  ],
+  [
+   2026,
+   7,
+   "sleeper",
+   "Jbird531",
+   126.62,
+   "thecreamer",
+   105.92,
    false,
    null
   ]
