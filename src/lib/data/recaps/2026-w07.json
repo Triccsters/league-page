@@ -3,7 +3,7 @@
  "week": 7,
  "slug": "2026-w07",
  "title": "Week 7 recap",
- "generated": "2026-10-27T12:14:25+00:00",
+ "generated": "2026-10-28T13:07:20+00:00",
  "intro": "",
  "video": "",
  "notes": [],
@@ -113,7 +113,7 @@
   {
    "manager": "Jbird531",
    "points": 126.62,
-   "optimal": 130.78
+   "optimal": 130.68
   },
   {
    "manager": "RockMNwild",
@@ -651,8 +651,8 @@
     "manager": "Jbird531",
     "team": "Too soon, Junior",
     "points": 126.62,
-    "optimal": 130.78,
-    "left_on_bench": 4.16,
+    "optimal": 130.68,
+    "left_on_bench": 4.06,
     "timeline": [
      0.0,
      22.12,
@@ -696,7 +696,7 @@
      "name": "Bo Nix",
      "id": "11563",
      "nfl": "DEN",
-     "pts": 26.28
+     "pts": 26.18
     },
     "worst_start": {
      "name": "Houston Texans",
@@ -855,7 +855,7 @@
    },
    "loser": {
     "manager": "brettmn13",
-    "team": "NEVER NARC'D ON NOBODY!",
+    "team": "Still a buster",
     "points": 79.42,
     "optimal": 109.72,
     "left_on_bench": 30.3,

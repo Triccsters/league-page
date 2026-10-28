@@ -1,68 +1,8 @@
 {
- "read_at": "2026-10-27T12:14+00:00",
+ "read_at": "2026-10-28T13:07+00:00",
  "days": 7,
- "count": 101,
+ "count": 100,
  "items": [
-  {
-   "headline": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
-   "url": "https://www.espn.com/nfl/story/_/id/50260609/49ers-wr-evans-de-bosa-wr-samuel-vs-atlanta-wr-kirk-return",
-   "date": "2026-10-25",
-   "kind": "news",
-   "teams": [
-    "SF"
-   ],
-   "named": [
-    {
-     "n": "Mike Evans",
-     "p": "WR",
-     "t": "SF",
-     "h": "Wallner"
-    },
-    {
-     "n": "Deebo Samuel Sr.",
-     "p": "WR",
-     "t": "SF",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "Mike Evans",
-    "Deebo Samuel Sr."
-   ],
-   "ripple": [
-    {
-     "n": "Brock Purdy",
-     "p": "QB",
-     "t": "SF",
-     "h": "Wallner"
-    },
-    {
-     "n": "George Kittle",
-     "p": "TE",
-     "t": "SF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kaelon Black",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Christian McCaffrey",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "TuanonStan",
-    "Wallner",
-    "YoungBuck04"
-   ],
-   "score": 16.0
-  },
   {
    "headline": "Packers activate RB Josh Jacobs for 2026 debut",
    "url": "https://www.espn.com/nfl/story/_/id/50269266/packers-activate-rb-josh-jacobs-2026-debut",
@@ -132,66 +72,330 @@
    "score": 15.0
   },
   {
-   "headline": "Seahawks contain Chiefs' Kenneth Walker III in RB's return to Seattle",
-   "url": "https://www.espn.com/nfl/story/_/id/50285364/seahawks-limit-chiefs-rb-kenneth-walker-iii-seattle-return",
-   "date": "2026-10-26",
+   "headline": "Giants place RB Tyrone Tracy Jr. on IR with hamstring injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50300226/giants-place-rb-tyrone-tracy-ir-hamstring-injury",
+   "date": "2026-10-28",
    "kind": "news",
    "teams": [
-    "KC",
-    "SEA"
+    "NYG"
    ],
    "named": [
     {
-     "n": "Kenneth Walker III",
+     "n": "Tyrone Tracy Jr.",
      "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
+     "t": "NYG",
+     "h": "snelson91"
+    },
+    {
+     "n": "Cam Skattebo",
+     "p": "RB",
+     "t": "NYG",
+     "h": "PapaMidnight"
     }
    ],
    "lead": [
-    "Kenneth Walker III"
+    "Tyrone Tracy Jr."
    ],
    "ripple": [
     {
-     "n": "Xavier Worthy",
+     "n": "J.J. McCarthy",
+     "p": "QB",
+     "t": "NYG",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Isaiah Likely",
+     "p": "TE",
+     "t": "NYG",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Malik Nabers",
      "p": "WR",
-     "t": "KC",
+     "t": "NYG",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 14.5
+  },
+  {
+   "headline": "Vikings RB Jones avoids serious knee injury, day-to-day",
+   "url": "https://www.espn.com/nfl/story/_/id/50289047/vikings-rb-jones-avoids-serious-knee-injury-day-day",
+   "date": "2026-10-26",
+   "kind": "news",
+   "teams": [
+    "MIN"
+   ],
+   "named": [
+    {
+     "n": "Aaron Jones Sr.",
+     "p": "RB",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "lead": [
+    "Aaron Jones Sr."
+   ],
+   "ripple": [
+    {
+     "n": "T.J. Hockenson",
+     "p": "TE",
+     "t": "MIN",
      "h": "TuanonStan"
     },
     {
-     "n": "Emmett Johnson",
+     "n": "Jordan Mason",
      "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
+     "t": "MIN",
+     "h": "PapaMidnight"
     },
     {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
+     "n": "Kyler Murray",
+     "p": "QB",
+     "t": "MIN",
      "h": "Colt45Johnson"
     },
     {
-     "n": "Rashee Rice",
+     "n": "Jordan Addison",
      "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
+     "t": "MIN",
+     "h": "Colt45Johnson"
     },
     {
-     "n": "Patrick Mahomes",
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "TuanonStan",
+    "brettmn13"
+   ],
+   "score": 14.5
+  },
+  {
+   "headline": "Eagles' Saquon Barkley says hamstring 'great' in return, not sweating back issue",
+   "url": "https://www.espn.com/nfl/story/_/id/50294604/eagles-saquon-barkley-hobbled-highly-efficient-gutsy-losing-effort-vs-cowboys",
+   "date": "2026-10-27",
+   "kind": "news",
+   "teams": [
+    "PHI"
+   ],
+   "named": [
+    {
+     "n": "Saquon Barkley",
+     "p": "RB",
+     "t": "PHI",
+     "h": "PapaMidnight"
+    }
+   ],
+   "lead": [
+    "Saquon Barkley"
+   ],
+   "ripple": [
+    {
+     "n": "DeVonta Smith",
+     "p": "WR",
+     "t": "PHI",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Makai Lemon",
+     "p": "WR",
+     "t": "PHI",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Dallas Goedert",
+     "p": "TE",
+     "t": "PHI",
+     "h": "Jbird531"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "PapaMidnight",
+    "TuanonStan",
+    "butterygoop"
+   ],
+   "score": 13.5
+  },
+  {
+   "headline": "Ravens' Jesse Minter optimistic QB Lamar Jackson can return vs. Bills",
+   "url": "https://www.espn.com/nfl/story/_/id/50290411/ravens-coach-minter-optimistic-qb-jackson-returns-vs-bills",
+   "date": "2026-10-26",
+   "kind": "news",
+   "teams": [
+    "BAL"
+   ],
+   "named": [
+    {
+     "n": "Lamar Jackson",
      "p": "QB",
-     "t": "KC",
+     "t": "BAL",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "Lamar Jackson"
+   ],
+   "ripple": [
+    {
+     "n": "Zay Flowers",
+     "p": "WR",
+     "t": "BAL",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Derrick Henry",
+     "p": "RB",
+     "t": "BAL",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Mark Andrews",
+     "p": "TE",
+     "t": "BAL",
      "h": "snelson91"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "TuanonStan",
+    "PapaMidnight",
     "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
     "snelson91"
    ],
-   "score": 14.5
+   "score": 13.5
+  },
+  {
+   "headline": "Vikings activate RB Jordan Mason off injured reserve",
+   "url": "https://www.espn.com/nfl/story/_/id/50269656/vikings-activate-rb-jordan-mason-injured-reserve",
+   "date": "2026-10-24",
+   "kind": "news",
+   "teams": [
+    "MIN"
+   ],
+   "named": [
+    {
+     "n": "Jordan Mason",
+     "p": "RB",
+     "t": "MIN",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Aaron Jones Sr.",
+     "p": "RB",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "lead": [
+    "Jordan Mason"
+   ],
+   "ripple": [
+    {
+     "n": "T.J. Hockenson",
+     "p": "TE",
+     "t": "MIN",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kyler Murray",
+     "p": "QB",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Jordan Addison",
+     "p": "WR",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "TuanonStan",
+    "brettmn13"
+   ],
+   "score": 13.0
+  },
+  {
+   "headline": "Bo Nix wows with 62-yard run as Broncos stand by 'our guy' at QB after win",
+   "url": "https://www.espn.com/nfl/story/_/id/50284110/bo-nix-breaks-slump-carries-broncos-cardinals",
+   "date": "2026-10-26",
+   "kind": "news",
+   "teams": [
+    "DEN"
+   ],
+   "named": [
+    {
+     "n": "Bo Nix",
+     "p": "QB",
+     "t": "DEN",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Bo Nix"
+   ],
+   "ripple": [
+    {
+     "n": "RJ Harvey",
+     "p": "RB",
+     "t": "DEN",
+     "h": "Wallner"
+    },
+    {
+     "n": "J.K. Dobbins",
+     "p": "RB",
+     "t": "DEN",
+     "h": "triccster"
+    },
+    {
+     "n": "Jaylen Waddle",
+     "p": "WR",
+     "t": "DEN",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Jonah Coleman",
+     "p": "RB",
+     "t": "DEN",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Courtland Sutton",
+     "p": "WR",
+     "t": "DEN",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "RockMNwild",
+    "Wallner",
+    "brettmn13",
+    "thecreamer",
+    "triccster"
+   ],
+   "score": 12.5
   },
   {
    "headline": "Why Derrick Henry has taken Jets RB Braelon Allen under his wing",
@@ -274,7 +478,7 @@
     "snelson91",
     "thecreamer"
    ],
-   "score": 14.5
+   "score": 12.5
   },
   {
    "headline": "Sources: Cam Skattebo expected to resume role as Giants' lead RB vs. Texans",
@@ -327,181 +531,100 @@
     "butterygoop",
     "snelson91"
    ],
-   "score": 14.5
+   "score": 12.5
   },
   {
-   "headline": "Bo Nix wows with 62-yard run as Broncos stand by 'our guy' at QB after win",
-   "url": "https://www.espn.com/nfl/story/_/id/50284110/bo-nix-breaks-slump-carries-broncos-cardinals",
-   "date": "2026-10-26",
+   "headline": "Bears RB Kyle Monangai (toe, thumb) out Thursday vs. Patriots",
+   "url": "https://www.espn.com/nfl/story/_/id/50240756/bears-rb-kyle-monangai-toe-thumb-thursday-vs-patriots",
+   "date": "2026-10-21",
    "kind": "news",
    "teams": [
-    "DEN"
+    "CHI"
    ],
    "named": [
     {
-     "n": "Bo Nix",
-     "p": "QB",
-     "t": "DEN",
-     "h": "Jbird531"
+     "n": "Kyle Monangai",
+     "p": "RB",
+     "t": "CHI",
+     "h": "TuanonStan"
     }
    ],
    "lead": [
-    "Bo Nix"
+    "Kyle Monangai"
    ],
    "ripple": [
     {
-     "n": "RJ Harvey",
+     "n": "D'Andre Swift",
      "p": "RB",
-     "t": "DEN",
-     "h": "Wallner"
+     "t": "CHI",
+     "h": "butterygoop"
     },
     {
-     "n": "J.K. Dobbins",
+     "n": "Roschon Johnson",
      "p": "RB",
-     "t": "DEN",
+     "t": "CHI",
      "h": "triccster"
     },
     {
-     "n": "Jaylen Waddle",
+     "n": "Luther Burden III",
      "p": "WR",
-     "t": "DEN",
-     "h": "RockMNwild"
+     "t": "CHI",
+     "h": "YoungBuck04"
     },
     {
-     "n": "Courtland Sutton",
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
      "p": "WR",
-     "t": "DEN",
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
      "h": "thecreamer"
     }
    ],
    "managers": [
     "Jbird531",
-    "RockMNwild",
-    "Wallner",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
     "thecreamer",
     "triccster"
    ],
-   "score": 14.0
+   "score": 12.5
   },
   {
-   "headline": "Vikings RB Jones avoids serious knee injury, day-to-day",
-   "url": "https://www.espn.com/nfl/story/_/id/50289047/vikings-rb-jones-avoids-serious-knee-injury-day-day",
-   "date": "2026-10-26",
+   "headline": "Sources: Chiefs sign former Ravens kicker Justin Tucker to practice squad",
+   "url": "https://www.espn.com/nfl/story/_/id/50307506/sources-chiefs-sign-justin-tucker-practice-squad",
+   "date": "2026-10-28",
    "kind": "news",
    "teams": [
-    "MIN"
+    "BAL",
+    "KC"
    ],
-   "named": [
-    {
-     "n": "Aaron Jones Sr.",
-     "p": "RB",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "lead": [
-    "Aaron Jones Sr."
-   ],
+   "named": [],
+   "lead": [],
    "ripple": [
-    {
-     "n": "Jordan Mason",
-     "p": "RB",
-     "t": "MIN",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Kyler Murray",
-     "p": "QB",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Jordan Addison",
-     "p": "WR",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Justin Jefferson",
-     "p": "WR",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "brettmn13"
-   ],
-   "score": 14.0
-  },
-  {
-   "headline": "Eagles' Saquon Barkley says hamstring 'great' in return, not sweating back issue",
-   "url": "https://www.espn.com/nfl/story/_/id/50294604/eagles-saquon-barkley-hobbled-highly-efficient-gutsy-losing-effort-vs-cowboys",
-   "date": "2026-10-27",
-   "kind": "news",
-   "teams": [
-    "PHI"
-   ],
-   "named": [
-    {
-     "n": "Saquon Barkley",
-     "p": "RB",
-     "t": "PHI",
-     "h": "PapaMidnight"
-    }
-   ],
-   "lead": [
-    "Saquon Barkley"
-   ],
-   "ripple": [
-    {
-     "n": "DeVonta Smith",
-     "p": "WR",
-     "t": "PHI",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Dallas Goedert",
-     "p": "TE",
-     "t": "PHI",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Darius Cooper",
-     "p": "WR",
-     "t": "PHI",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "PapaMidnight",
-    "butterygoop"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Ravens' Jesse Minter optimistic QB Lamar Jackson can return vs. Bills",
-   "url": "https://www.espn.com/nfl/story/_/id/50290411/ravens-coach-minter-optimistic-qb-jackson-returns-vs-bills",
-   "date": "2026-10-26",
-   "kind": "news",
-   "teams": [
-    "BAL"
-   ],
-   "named": [
     {
      "n": "Lamar Jackson",
      "p": "QB",
      "t": "BAL",
      "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Lamar Jackson"
-   ],
-   "ripple": [
+    },
     {
      "n": "Zay Flowers",
      "p": "WR",
@@ -519,47 +642,12 @@
      "p": "TE",
      "t": "BAL",
      "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "YoungBuck04",
-    "snelson91"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Sources: Josh Simmons told to leave Chiefs meeting by Andy Reid, Patrick Mahomes",
-   "url": "https://www.espn.com/nfl/story/_/id/50268181/sources-josh-simmons-told-leave-chiefs-team-meeting",
-   "date": "2026-10-25",
-   "kind": "news",
-   "teams": [
-    "KC"
-   ],
-   "named": [
-    {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
-    }
-   ],
-   "lead": [
-    "Patrick Mahomes"
-   ],
-   "ripple": [
+    },
     {
      "n": "Kenneth Walker III",
      "p": "RB",
      "t": "KC",
      "h": "butterygoop"
-    },
-    {
-     "n": "Xavier Worthy",
-     "p": "WR",
-     "t": "KC",
-     "h": "TuanonStan"
     },
     {
      "n": "Emmett Johnson",
@@ -578,209 +666,106 @@
      "p": "WR",
      "t": "KC",
      "h": "brettmn13"
+    },
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "TuanonStan",
+    "PapaMidnight",
     "YoungBuck04",
     "brettmn13",
     "butterygoop",
     "snelson91"
    ],
-   "score": 12.5
+   "score": 12.0
   },
   {
-   "headline": "Aaron Rodgers breaks tie with Peyton Manning for third-most TD passes",
-   "url": "https://www.espn.com/nfl/story/_/id/50277960/rodgers-throws-historic-td-pass-steelers-win-1st-paris-game",
-   "date": "2026-10-25",
+   "headline": "Montez Sweat returns to Bears following 'devastating' 2-game suspension",
+   "url": "https://www.espn.com/nfl/story/_/id/50301493/montez-sweat-back-bears-devastating-2-game-suspension",
+   "date": "2026-10-28",
    "kind": "news",
    "teams": [
-    "PIT"
+    "CHI"
    ],
-   "named": [
-    {
-     "n": "Aaron Rodgers",
-     "p": "QB",
-     "t": "PIT",
-     "h": "thecreamer"
-    }
-   ],
-   "lead": [
-    "Aaron Rodgers"
-   ],
+   "named": [],
+   "lead": [],
    "ripple": [
     {
-     "n": "DK Metcalf",
-     "p": "WR",
-     "t": "PIT",
-     "h": "triccster"
-    },
-    {
-     "n": "Rico Dowdle",
+     "n": "D'Andre Swift",
      "p": "RB",
-     "t": "PIT",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Pat Freiermuth",
-     "p": "TE",
-     "t": "PIT",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Germie Bernard",
-     "p": "WR",
-     "t": "PIT",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Jaylen Warren",
-     "p": "RB",
-     "t": "PIT",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "RockMNwild",
-    "brettmn13",
-    "thecreamer",
-    "triccster"
-   ],
-   "score": 12.5
-  },
-  {
-   "headline": "Vikings activate RB Jordan Mason off injured reserve",
-   "url": "https://www.espn.com/nfl/story/_/id/50269656/vikings-activate-rb-jordan-mason-injured-reserve",
-   "date": "2026-10-24",
-   "kind": "news",
-   "teams": [
-    "MIN"
-   ],
-   "named": [
-    {
-     "n": "Jordan Mason",
-     "p": "RB",
-     "t": "MIN",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Aaron Jones Sr.",
-     "p": "RB",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "lead": [
-    "Jordan Mason"
-   ],
-   "ripple": [
-    {
-     "n": "Kyler Murray",
-     "p": "QB",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Jordan Addison",
-     "p": "WR",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Justin Jefferson",
-     "p": "WR",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "brettmn13"
-   ],
-   "score": 12.5
-  },
-  {
-   "headline": "Cards rookie RB Jeremiyah Love to miss second straight game with ankle injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50259624/cardinals-rookie-rb-jeremiyah-love-miss-second-straight-game",
-   "date": "2026-10-23",
-   "kind": "news",
-   "teams": [
-    "ARI"
-   ],
-   "named": [
-    {
-     "n": "Jeremiyah Love",
-     "p": "RB",
-     "t": "ARI",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Jeremiyah Love"
-   ],
-   "ripple": [
-    {
-     "n": "Jacoby Brissett",
-     "p": "QB",
-     "t": "ARI",
+     "t": "CHI",
      "h": "butterygoop"
     },
     {
-     "n": "Tyler Allgeier",
+     "n": "Kyle Monangai",
      "p": "RB",
-     "t": "ARI",
+     "t": "CHI",
      "h": "TuanonStan"
     },
     {
-     "n": "Trey McBride",
-     "p": "TE",
-     "t": "ARI",
+     "n": "Roschon Johnson",
+     "p": "RB",
+     "t": "CHI",
+     "h": "triccster"
+    },
+    {
+     "n": "Luther Burden III",
+     "p": "WR",
+     "t": "CHI",
      "h": "YoungBuck04"
     },
     {
-     "n": "Zonovan Knight",
-     "p": "RB",
-     "t": "ARI",
-     "h": "RockMNwild"
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
     },
     {
-     "n": "Michael Wilson",
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
      "p": "WR",
-     "t": "ARI",
-     "h": "Jbird531"
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
     }
    ],
    "managers": [
     "Jbird531",
-    "RockMNwild",
     "TuanonStan",
     "YoungBuck04",
-    "butterygoop"
+    "brettmn13",
+    "butterygoop",
+    "thecreamer",
+    "triccster"
    ],
-   "score": 12.5
+   "score": 12.0
   },
   {
-   "headline": "Colts' Tyler Warren to miss second game with groin injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50259536/colts-tyler-warren-miss-second-game-groin-injury",
-   "date": "2026-10-23",
+   "headline": "Colts trade DT DeForest Buckner to 49ers in another major move",
+   "url": "https://www.espn.com/nfl/story/_/id/50301125/colts-trade-de-deforest-buckner-49ers",
+   "date": "2026-10-28",
    "kind": "news",
    "teams": [
-    "IND"
+    "IND",
+    "SF"
    ],
-   "named": [
-    {
-     "n": "Tyler Warren",
-     "p": "TE",
-     "t": "IND",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Tyler Warren"
-   ],
+   "named": [],
+   "lead": [],
    "ripple": [
     {
      "n": "Alec Pierce",
@@ -793,6 +778,12 @@
      "p": "RB",
      "t": "IND",
      "h": "TuanonStan"
+    },
+    {
+     "n": "Tyler Warren",
+     "p": "TE",
+     "t": "IND",
+     "h": "Jbird531"
     },
     {
      "n": "Josh Downs",
@@ -811,6 +802,42 @@
      "p": "RB",
      "t": "IND",
      "h": "thecreamer"
+    },
+    {
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "Brock Purdy",
+     "p": "QB",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "George Kittle",
+     "p": "TE",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "p": "WR",
+     "t": "SF",
+     "h": "Colt45Johnson"
     }
    ],
    "managers": [
@@ -818,9 +845,93 @@
     "Jbird531",
     "TuanonStan",
     "Wallner",
+    "YoungBuck04",
     "thecreamer"
    ],
-   "score": 12.5
+   "score": 12.0
+  },
+  {
+   "headline": "Seahawks acquire Pro Bowl guard Quenton Nelson in trade with Colts",
+   "url": "https://www.espn.com/nfl/story/_/id/50298913/sources-seahawks-get-pro-bowl-guard-nelson-trade-colts",
+   "date": "2026-10-27",
+   "kind": "news",
+   "teams": [
+    "IND",
+    "SEA"
+   ],
+   "named": [],
+   "lead": [],
+   "ripple": [
+    {
+     "n": "Alec Pierce",
+     "p": "WR",
+     "t": "IND",
+     "h": "Wallner"
+    },
+    {
+     "n": "Seth McGowan",
+     "p": "RB",
+     "t": "IND",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Tyler Warren",
+     "p": "TE",
+     "t": "IND",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Josh Downs",
+     "p": "WR",
+     "t": "IND",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Keenan Allen",
+     "p": "WR",
+     "t": "IND",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Jonathan Taylor",
+     "p": "RB",
+     "t": "IND",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Jadarian Price",
+     "p": "RB",
+     "t": "SEA",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Zach Charbonnet",
+     "p": "RB",
+     "t": "SEA",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Jaxon Smith-Njigba",
+     "p": "WR",
+     "t": "SEA",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Emanuel Wilson",
+     "p": "RB",
+     "t": "SEA",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "RockMNwild",
+    "TuanonStan",
+    "Wallner",
+    "thecreamer"
+   ],
+   "score": 12.0
   }
  ],
  "source": "ESPN NFL news, headlines and links only",
