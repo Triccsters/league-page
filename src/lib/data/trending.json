@@ -6,212 +6,212 @@
    "n": "Seth McGowan",
    "p": "RB",
    "t": "IND",
-   "c": 3048040,
+   "c": 3213504,
    "h": "TuanonStan"
   },
   {
    "n": "Caleb Douglas",
    "p": "WR",
    "t": "MIA",
-   "c": 2893552,
+   "c": 3130440,
    "h": "TuanonStan"
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 2108418,
-   "h": "butterygoop"
-  },
-  {
-   "n": "Konata Mumpfield",
-   "p": "WR",
-   "t": "LAR",
-   "c": 1916550,
-   "h": null
-  },
-  {
-   "n": "Roschon Johnson",
-   "p": "RB",
-   "t": "CHI",
-   "c": 1885208,
-   "h": "triccster"
-  },
-  {
-   "n": "Chase McLaughlin",
-   "p": "K",
-   "t": "TB",
-   "c": 1527272,
+   "c": 2540244,
    "h": "butterygoop"
   },
   {
    "n": "KC Concepcion Jr.",
    "p": "WR",
    "t": "CLE",
-   "c": 1503342,
+   "c": 1569447,
+   "h": "butterygoop"
+  },
+  {
+   "n": "Konata Mumpfield",
+   "p": "WR",
+   "t": "LAR",
+   "c": 1505808,
+   "h": null
+  },
+  {
+   "n": "New England Patriots",
+   "p": "DEF",
+   "t": "NE",
+   "c": 1477651,
+   "h": "Colt45Johnson"
+  },
+  {
+   "n": "Washington Commanders",
+   "p": "DEF",
+   "t": "WAS",
+   "c": 1471526,
+   "h": "Jbird531"
+  },
+  {
+   "n": "Elijah Mitchell",
+   "p": "RB",
+   "t": "PHI",
+   "c": 1294200,
+   "h": null
+  },
+  {
+   "n": "Chase McLaughlin",
+   "p": "K",
+   "t": "TB",
+   "c": 1287544,
+   "h": "butterygoop"
+  },
+  {
+   "n": "Darius Cooper",
+   "p": "WR",
+   "t": "PHI",
+   "c": 1219372,
+   "h": null
+  },
+  {
+   "n": "Devin Singletary",
+   "p": "RB",
+   "t": "NYG",
+   "c": 1192959,
+   "h": null
+  },
+  {
+   "n": "Ryan Flournoy",
+   "p": "WR",
+   "t": "DAL",
+   "c": 1105384,
+   "h": null
+  },
+  {
+   "n": "Brenton Strange",
+   "p": "TE",
+   "t": "JAX",
+   "c": 1103850,
    "h": "butterygoop"
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1337202,
+   "c": 1088820,
    "h": null
   },
   {
-   "n": "Omar Cooper Jr.",
-   "p": "WR",
-   "t": "NYJ",
-   "c": 1294256,
-   "h": "Wallner"
-  },
-  {
-   "n": "New England Patriots",
-   "p": "DEF",
-   "t": "NE",
-   "c": 1251180,
-   "h": "Colt45Johnson"
-  },
-  {
-   "n": "Darius Cooper",
-   "p": "WR",
-   "t": "PHI",
-   "c": 1219750,
-   "h": null
-  },
-  {
-   "n": "Michael Mayer",
-   "p": "TE",
-   "t": "LV",
-   "c": 1047501,
-   "h": null
-  },
-  {
-   "n": "Cleveland Browns",
-   "p": "DEF",
-   "t": "CLE",
-   "c": 1038940,
-   "h": "TuanonStan"
-  },
-  {
-   "n": "Ryan Flournoy",
-   "p": "WR",
-   "t": "DAL",
-   "c": 994256,
-   "h": null
-  },
-  {
-   "n": "Jake Bates",
-   "p": "K",
-   "t": "DET",
-   "c": 965576,
+   "n": "Kaelon Black",
+   "p": "RB",
+   "t": "SF",
+   "c": 926730,
    "h": "YoungBuck04"
   }
  ],
  "drop": [
   {
-   "n": "MarShawn Lloyd",
+   "n": "Dameon Pierce",
    "p": "RB",
-   "t": "GB",
-   "c": 1864665,
-   "h": "PapaMidnight"
-  },
-  {
-   "n": "Tyler Higbee",
-   "p": "TE",
-   "t": "LAR",
-   "c": 1704051,
-   "h": null
-  },
-  {
-   "n": "Konata Mumpfield",
-   "p": "WR",
-   "t": "LAR",
-   "c": 1647378,
+   "t": "PHI",
+   "c": 2168560,
    "h": null
   },
   {
    "n": "Roschon Johnson",
    "p": "RB",
    "t": "CHI",
-   "c": 1589800,
+   "c": 1879456,
    "h": "triccster"
   },
   {
-   "n": "Dameon Pierce",
-   "p": "RB",
-   "t": "PHI",
-   "c": 1507424,
+   "n": "Tyler Higbee",
+   "p": "TE",
+   "t": "LAR",
+   "c": 1851174,
+   "h": null
+  },
+  {
+   "n": "Konata Mumpfield",
+   "p": "WR",
+   "t": "LAR",
+   "c": 1817577,
    "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 1453179,
+   "c": 1741418,
    "h": "TuanonStan"
+  },
+  {
+   "n": "MarShawn Lloyd",
+   "p": "RB",
+   "t": "GB",
+   "c": 1471608,
+   "h": "PapaMidnight"
   },
   {
    "n": "Darius Cooper",
    "p": "WR",
    "t": "PHI",
-   "c": 1100372,
+   "c": 1082837,
    "h": null
-  },
-  {
-   "n": "Terry McLaurin",
-   "p": "WR",
-   "t": "WAS",
-   "c": 1021182,
-   "h": null
-  },
-  {
-   "n": "Emanuel Wilson",
-   "p": "RB",
-   "t": "SEA",
-   "c": 917343,
-   "h": "thecreamer"
-  },
-  {
-   "n": "Keaton Mitchell",
-   "p": "RB",
-   "t": "LAC",
-   "c": 896409,
-   "h": "triccster"
-  },
-  {
-   "n": "Jacksonville Jaguars",
-   "p": "DEF",
-   "t": "JAX",
-   "c": 764118,
-   "h": "butterygoop"
   },
   {
    "n": "Houston Texans",
    "p": "DEF",
    "t": "HOU",
-   "c": 763260,
+   "c": 998270,
    "h": "Jbird531"
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 726608,
+   "c": 791784,
    "h": "Colt45Johnson"
-  },
-  {
-   "n": "Jaleel McLaughlin",
-   "p": "RB",
-   "t": "CLE",
-   "c": 715300,
-   "h": null
   },
   {
    "n": "Michael Mayer",
    "p": "TE",
    "t": "LV",
-   "c": 712062,
+   "c": 774207,
+   "h": null
+  },
+  {
+   "n": "New York Jets",
+   "p": "DEF",
+   "t": "NYJ",
+   "c": 745960,
+   "h": null
+  },
+  {
+   "n": "Keaton Mitchell",
+   "p": "RB",
+   "t": "LAC",
+   "c": 725994,
+   "h": "triccster"
+  },
+  {
+   "n": "Terry McLaurin",
+   "p": "WR",
+   "t": "WAS",
+   "c": 719370,
+   "h": null
+  },
+  {
+   "n": "Emanuel Wilson",
+   "p": "RB",
+   "t": "SEA",
+   "c": 706833,
+   "h": "thecreamer"
+  },
+  {
+   "n": "San Francisco 49ers",
+   "p": "DEF",
+   "t": "SF",
+   "c": 676722,
    "h": null
   }
  ]
