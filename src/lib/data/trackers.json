@@ -214,7 +214,7 @@
       ],
       [
        "@@Wallner",
-       18,
+       20,
        98.0,
        "$27"
       ],
@@ -238,7 +238,7 @@
       ],
       [
        "@@snelson91",
-       8,
+       10,
        20.9,
        "$18"
       ],
@@ -816,43 +816,37 @@
        "@@Jbird531",
        "TE",
        "QB",
-       "QB 9 RB 7 WR 3 TE 7"
+       "QB 9 RB 8 WR 3 TE 7"
       ],
       [
        "@@PapaMidnight",
        "-",
-       "QB, RB, TE",
-       "QB 10 RB 11 WR 4 TE 10"
+       "QB, RB, WR, TE",
+       "QB 10 RB 11 WR 9 TE 11"
       ],
       [
        "@@RockMNwild",
        "-",
        "TE",
-       "QB 4 RB 8 WR 5 TE 9"
-      ],
-      [
-       "@@TuanonStan",
-       "TE",
-       "WR",
-       "QB 1 RB 3 WR 9 TE 3"
+       "QB 4 RB 7 WR 4 TE 10"
       ],
       [
        "@@Wallner",
        "QB",
        "TE",
-       "QB 5 RB 5 WR 8 TE 12"
+       "QB 5 RB 5 WR 7 TE 12"
       ],
       [
        "@@YoungBuck04",
        "-",
        "WR",
-       "QB 6 RB 4 WR 11 TE 2"
+       "QB 7 RB 4 WR 12 TE 3"
       ],
       [
        "@@brettmn13",
        "WR",
-       "RB, TE",
-       "QB 2 RB 10 WR 2 TE 11"
+       "RB",
+       "QB 2 RB 10 WR 2 TE 8"
       ],
       [
        "@@butterygoop",
@@ -864,19 +858,25 @@
        "@@snelson91",
        "TE",
        "WR",
-       "QB 3 RB 1 WR 12 TE 5"
+       "QB 3 RB 1 WR 11 TE 5"
       ],
       [
        "@@thecreamer",
        "-",
-       "WR",
-       "QB 8 RB 6 WR 10 TE 8"
+       "WR, TE",
+       "QB 8 RB 6 WR 10 TE 9"
       ],
       [
        "@@triccster",
        "QB, WR",
        "RB",
-       "QB 7 RB 12 WR 7 TE 1"
+       "QB 6 RB 12 WR 5 TE 1"
+      ],
+      [
+       "@@TuanonStan",
+       "TE",
+       "-",
+       "QB 1 RB 3 WR 8 TE 2"
       ]
      ]
     },
@@ -898,21 +898,9 @@
        "QB"
       ],
       [
-       "@@TuanonStan",
-       "TE",
-       "@@brettmn13",
-       "WR"
-      ],
-      [
        "@@Wallner",
        "QB",
        "@@butterygoop",
-       "TE"
-      ],
-      [
-       "@@brettmn13",
-       "WR",
-       "@@snelson91",
        "TE"
       ],
       [
@@ -936,15 +924,21 @@
      "rows": [
       [
        "@@triccster",
-       "Jayden Daniels",
-       "QB WAS",
-       17.7
+       "Jared Goff",
+       "QB DET",
+       17.6
       ],
       [
        "@@Wallner",
        "Drake Maye",
        "QB NE",
-       17.3
+       17.2
+      ],
+      [
+       "@@butterygoop",
+       "Bhayshul Tuten",
+       "RB JAX",
+       12.4
       ],
       [
        "@@brettmn13",
@@ -954,21 +948,15 @@
       ],
       [
        "@@butterygoop",
-       "Bhayshul Tuten",
-       "RB JAX",
-       12.3
-      ],
-      [
-       "@@butterygoop",
        "D'Andre Swift",
        "RB CHI",
-       11.5
+       11.8
       ],
       [
        "@@triccster",
        "Stefon Diggs",
        "WR WAS",
-       10.1
+       10.3
       ],
       [
        "@@Colt45Johnson",
@@ -980,7 +968,7 @@
        "@@butterygoop",
        "Brenton Strange",
        "TE JAX",
-       9.0
+       8.9
       ],
       [
        "@@snelson91",
@@ -998,7 +986,7 @@
        "@@Jbird531",
        "Dallas Goedert",
        "TE PHI",
-       7.7
+       7.6
       ]
      ]
     }
@@ -1023,74 +1011,74 @@
       [
        1,
        "@@triccster",
-       34.5,
-       "Jayden Daniels, Jakobi Meyers, Wan'Dale Robinson"
+       34.2,
+       "Jared Goff, Jakobi Meyers, Wan'Dale Robinson"
       ],
       [
        2,
        "@@butterygoop",
-       32.2,
+       32.6,
        "J.J. McCarthy, D'Andre Swift, Brenton Strange"
       ],
       [
        3,
        "@@Wallner",
-       31.5,
-       "Drake Maye, RJ Harvey, Woody Marks"
+       30.7,
+       "Drake Maye, Emeka Egbuka, Omar Cooper Jr."
       ],
       [
        4,
        "@@Colt45Johnson",
-       28.0,
+       28.2,
        "Tyler Shough, Deebo Samuel Sr., Jordan Addison"
       ],
       [
        5,
        "@@thecreamer",
-       26.4,
+       26.3,
        "Aaron Rodgers, Rome Odunze, Courtland Sutton"
       ],
       [
        6,
        "@@YoungBuck04",
-       25.7,
-       "Jordan Love, Antonio Williams, Blake Corum"
+       25.6,
+       "Jordan Love, Jeremiyah Love, Blake Corum"
       ],
       [
        7,
-       "@@Jbird531",
-       23.9,
-       "Rachaad White, Denzel Boston, Dallas Goedert"
+       "@@brettmn13",
+       24.8,
+       "Aaron Jones Sr., Travis Etienne Jr., Zach Charbonnet"
       ],
       [
        8,
-       "@@brettmn13",
-       22.3,
-       "Travis Etienne Jr., Zach Charbonnet, Germie Bernard"
+       "@@snelson91",
+       23.9,
+       "Xavier Worthy, Dalton Kincaid, Khalil Shakir"
       ],
       [
        9,
-       "@@snelson91",
-       22.1,
-       "Dalton Kincaid, Khalil Shakir, Tyrone Tracy Jr."
+       "@@Jbird531",
+       23.8,
+       "Rachaad White, Denzel Boston, Dallas Goedert"
       ],
       [
        10,
        "@@PapaMidnight",
-       20.8,
-       "Jordan Mason, Pat Freiermuth, Keon Coleman"
+       22.0,
+       "Malik Washington, Cam Skattebo, Pat Freiermuth"
       ],
       [
        11,
        "@@RockMNwild",
-       20.2,
-       "Jordyn Tyson, Tre Tucker, Rico Dowdle"
+       20.8,
+       "Tre Tucker, Jordyn Tyson, Rico Dowdle"
       ],
       [
        12,
        "@@TuanonStan",
-       20.0,
-       "T.J. Hockenson, Kyle Monangai, Caleb Douglas"
+       19.3,
+       "T.J. Hockenson, Caleb Douglas, Kyle Monangai"
       ]
      ]
     },
@@ -1309,65 +1297,65 @@
       [
        8,
        "@@Wallner",
-       2,
-       31.9,
-       "Mike Evans, Brock Purdy"
+       3,
+       38.5,
+       "Woody Marks, Brock Purdy, Mike Evans"
       ],
       [
        10,
        "@@RockMNwild",
        2,
-       21.2,
+       21.6,
        "Bucky Irving, Jaylen Waddle"
       ],
       [
        10,
-       "@@Wallner",
+       "@@brettmn13",
        2,
-       12.8,
-       "Tampa Bay Buccaneers, Emeka Egbuka"
+       17.1,
+       "Colston Loveland, Jonah Coleman"
       ],
       [
        11,
        "@@Colt45Johnson",
        4,
-       36.5,
-       "Rhamondre Stevenson, Jason Myers, New England Patriots, Puka Nacua"
+       37.1,
+       "Puka Nacua, Jason Myers, New England Patriots, Rhamondre Stevenson"
       ],
       [
        11,
        "@@TuanonStan",
        3,
-       33.1,
-       "Cleveland Browns, Drake London, Bijan Robinson"
+       33.3,
+       "Bijan Robinson, Cleveland Browns, Drake London"
       ],
       [
        11,
        "@@snelson91",
        3,
-       30.8,
-       "Matthew Golden, Seattle Seahawks, Kyren Williams"
+       31.0,
+       "Matthew Golden, Kyren Williams, Seattle Seahawks"
       ],
       [
        11,
        "@@Jbird531",
        2,
        25.1,
-       "Jaxon Smith-Njigba, Nick Folk"
+       "Nick Folk, Jaxon Smith-Njigba"
       ],
       [
        11,
        "@@brettmn13",
        2,
-       17.3,
+       17.6,
        "Los Angeles Rams, Josh Jacobs"
       ],
       [
        11,
        "@@thecreamer",
        2,
-       16.0,
-       "Harold Fannin Jr., Quinshon Judkins"
+       15.7,
+       "Quinshon Judkins, Harold Fannin Jr."
       ]
      ]
     }
