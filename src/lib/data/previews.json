@@ -1,271 +1,217 @@
 {
- "generated": "2026-11-02T20:36:10+00:00",
+ "generated": "2026-11-03T14:54:11+00:00",
  "season": 2026,
- "week": 8,
+ "week": 9,
  "playoff": false,
  "games": [
   {
-   "a": "Wallner",
+   "a": "butterygoop",
    "b": "snelson91",
-   "a_win": 45.4,
+   "a_win": 58.6,
    "rec": {
-    "Wallner": [
-     2,
-     5
+    "butterygoop": [
+     5,
+     3
     ],
     "snelson91": [
      3,
-     4
+     5
     ]
    },
    "avg": {
-    "Wallner": 104.66,
-    "snelson91": 110.34
+    "butterygoop": 120.84,
+    "snelson91": 110.73
    },
    "last3": {
-    "Wallner": [
-     109.26,
-     101.46,
-     87.74
+    "butterygoop": [
+     134.02,
+     81.18,
+     143.08
     ],
     "snelson91": [
-     138.24,
      77.08,
-     76.5
+     76.5,
+     113.44
     ]
    },
    "proj": {
-    "Wallner": 104.96,
-    "snelson91": 108.57
+    "butterygoop": 115.78,
+    "snelson91": 109.04
    },
    "h2h": {
-    "Wallner": 6,
-    "snelson91": 10,
-    "games": 16
-   },
-   "streak": [
-    "snelson91",
-    6
-   ],
-   "last": {
-    "season": 2025,
-    "week": 5,
-    "label": null,
-    "score": {
-     "Wallner": 78.38,
-     "snelson91": 112.02
-    }
-   },
-   "flags": [
-    "{snelson91} has won 6 straight in this series"
-   ]
-  },
-  {
-   "a": "butterygoop",
-   "b": "thecreamer",
-   "a_win": 65.0,
-   "rec": {
-    "butterygoop": [
-     4,
-     3
-    ],
-    "thecreamer": [
-     4,
-     3
-    ]
-   },
-   "avg": {
-    "butterygoop": 117.66,
-    "thecreamer": 98.83
-   },
-   "last3": {
-    "butterygoop": [
-     89.2,
-     134.02,
-     81.18
-    ],
-    "thecreamer": [
-     77.4,
-     96.14,
-     105.92
-    ]
-   },
-   "proj": {
-    "butterygoop": 113.23,
-    "thecreamer": 101.25
-   },
-   "h2h": {
-    "butterygoop": 9,
-    "thecreamer": 4,
-    "games": 13
+    "butterygoop": 3,
+    "snelson91": 7,
+    "games": 10
    },
    "streak": [
     "butterygoop",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 16,
+    "label": "Semifinal",
+    "score": {
+     "butterygoop": 127.5,
+     "snelson91": 115.08
+    }
+   },
+   "flags": [
+    "Playoff rematch: {snelson91} lost the 2025 semifinal",
+    "{snelson91} owns this series 7-3"
+   ]
+  },
+  {
+   "a": "YoungBuck04",
+   "b": "PapaMidnight",
+   "a_win": 55.8,
+   "rec": {
+    "YoungBuck04": [
+     4,
+     4
+    ],
+    "PapaMidnight": [
+     1,
+     7
+    ]
+   },
+   "avg": {
+    "YoungBuck04": 103.14,
+    "PapaMidnight": 96.38
+   },
+   "last3": {
+    "YoungBuck04": [
+     108.34,
+     135.46,
+     88.2
+    ],
+    "PapaMidnight": [
+     73.62,
+     134.28,
+     89.1
+    ]
+   },
+   "proj": {
+    "YoungBuck04": 103.98,
+    "PapaMidnight": 99.48
+   },
+   "h2h": {
+    "YoungBuck04": 11,
+    "PapaMidnight": 3,
+    "games": 14
+   },
+   "streak": [
+    "YoungBuck04",
     3
    ],
    "last": {
     "season": 2025,
-    "week": 9,
+    "week": 6,
     "label": null,
     "score": {
-     "butterygoop": 113.2,
-     "thecreamer": 88.94
+     "YoungBuck04": 140.22,
+     "PapaMidnight": 86.16
     }
    },
    "flags": [
-    "{butterygoop} has won 3 straight in this series"
+    "{YoungBuck04} has won 3 straight in this series",
+    "{YoungBuck04} owns this series 11-3"
    ]
   },
   {
    "a": "TuanonStan",
-   "b": "YoungBuck04",
-   "a_win": 61.9,
+   "b": "Colt45Johnson",
+   "a_win": 61.3,
    "rec": {
     "TuanonStan": [
-     6,
+     7,
      1
     ],
-    "YoungBuck04": [
-     4,
+    "Colt45Johnson": [
+     5,
      3
     ]
    },
    "avg": {
-    "TuanonStan": 120.15,
-    "YoungBuck04": 105.27
+    "TuanonStan": 118.09,
+    "Colt45Johnson": 104.72
    },
    "last3": {
     "TuanonStan": [
-     124.5,
      97.3,
-     123.8
+     123.8,
+     103.66
     ],
-    "YoungBuck04": [
-     93.1,
-     108.34,
-     135.46
+    "Colt45Johnson": [
+     99.06,
+     88.4,
+     99.2
     ]
    },
    "proj": {
-    "TuanonStan": 114.81,
-    "YoungBuck04": 105.34
+    "TuanonStan": 113.95,
+    "Colt45Johnson": 105.04
    },
    "h2h": {
-    "TuanonStan": 10,
-    "YoungBuck04": 7,
-    "games": 17
+    "TuanonStan": 8,
+    "Colt45Johnson": 8,
+    "games": 16
    },
    "streak": [
-    "YoungBuck04",
-    4
+    "Colt45Johnson",
+    1
    ],
    "last": {
     "season": 2025,
-    "week": 7,
-    "label": null,
+    "week": 16,
+    "label": "Consolation R2",
     "score": {
-     "TuanonStan": 134.64,
-     "YoungBuck04": 137.94
+     "TuanonStan": 85.82,
+     "Colt45Johnson": 92.6
     }
    },
    "flags": [
-    "{YoungBuck04} has won 4 straight in this series"
+    "Rematch of the 2017 final"
    ]
   },
   {
    "a": "triccster",
-   "b": "brettmn13",
-   "a_win": 53.5,
+   "b": "RockMNwild",
+   "a_win": 46.9,
    "rec": {
     "triccster": [
      3,
-     4
-    ],
-    "brettmn13": [
-     3,
-     4
-    ]
-   },
-   "avg": {
-    "triccster": 103.13,
-    "brettmn13": 98.89
-   },
-   "last3": {
-    "triccster": [
-     119.54,
-     84.7,
-     87.62
-    ],
-    "brettmn13": [
-     132.94,
-     101.12,
-     79.42
-    ]
-   },
-   "proj": {
-    "triccster": 103.98,
-    "brettmn13": 101.28
-   },
-   "h2h": {
-    "triccster": 10,
-    "brettmn13": 15,
-    "games": 25
-   },
-   "streak": [
-    "triccster",
-    2
-   ],
-   "last": {
-    "season": 2025,
-    "week": 15,
-    "label": "Quarterfinal",
-    "score": {
-     "triccster": 111.9,
-     "brettmn13": 90.72
-    }
-   },
-   "flags": [
-    "Playoff rematch: {brettmn13} lost the 2025 quarterfinal"
-   ]
-  },
-  {
-   "a": "RockMNwild",
-   "b": "Jbird531",
-   "a_win": 45.4,
-   "rec": {
-    "RockMNwild": [
-     2,
      5
     ],
-    "Jbird531": [
-     6,
-     1
+    "RockMNwild": [
+     3,
+     5
     ]
    },
    "avg": {
-    "RockMNwild": 99.09,
-    "Jbird531": 104.78
+    "triccster": 100.02,
+    "RockMNwild": 103.67
    },
    "last3": {
-    "RockMNwild": [
-     104.6,
-     76.38,
-     124.18
+    "triccster": [
+     84.7,
+     87.62,
+     78.28
     ],
-    "Jbird531": [
-     118.7,
-     79.3,
-     126.62
+    "RockMNwild": [
+     76.38,
+     124.18,
+     135.78
     ]
    },
    "proj": {
-    "RockMNwild": 101.41,
-    "Jbird531": 105.03
+    "triccster": 101.9,
+    "RockMNwild": 104.34
    },
    "h2h": {
+    "triccster": 15,
     "RockMNwild": 8,
-    "Jbird531": 6,
-    "games": 14
+    "games": 23
    },
    "streak": [
     "RockMNwild",
@@ -273,65 +219,121 @@
    ],
    "last": {
     "season": 2025,
-    "week": 12,
+    "week": 16,
+    "label": "Semifinal",
+    "score": {
+     "triccster": 101.46,
+     "RockMNwild": 103.86
+    }
+   },
+   "flags": [
+    "Playoff rematch: {triccster} lost the 2025 semifinal"
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "thecreamer",
+   "a_win": 59.2,
+   "rec": {
+    "Wallner": [
+     3,
+     5
+    ],
+    "thecreamer": [
+     4,
+     4
+    ]
+   },
+   "avg": {
+    "Wallner": 107.25,
+    "thecreamer": 96.46
+   },
+   "last3": {
+    "Wallner": [
+     101.46,
+     87.74,
+     125.36
+    ],
+    "thecreamer": [
+     96.14,
+     105.92,
+     79.86
+    ]
+   },
+   "proj": {
+    "Wallner": 106.72,
+    "thecreamer": 99.53
+   },
+   "h2h": {
+    "Wallner": 11,
+    "thecreamer": 10,
+    "games": 21
+   },
+   "streak": [
+    "Wallner",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 14,
     "label": null,
     "score": {
-     "RockMNwild": 93.46,
-     "Jbird531": 86.26
+     "Wallner": 117.96,
+     "thecreamer": 90.64
     }
    },
    "flags": []
   },
   {
-   "a": "PapaMidnight",
-   "b": "Colt45Johnson",
-   "a_win": 43.4,
+   "a": "Jbird531",
+   "b": "brettmn13",
+   "a_win": 56.5,
    "rec": {
-    "PapaMidnight": [
-     1,
-     6
+    "Jbird531": [
+     6,
+     2
     ],
-    "Colt45Johnson": [
+    "brettmn13": [
      4,
-     3
+     4
     ]
    },
    "avg": {
-    "PapaMidnight": 97.42,
-    "Colt45Johnson": 105.51
+    "Jbird531": 107.16,
+    "brettmn13": 99.58
    },
    "last3": {
-    "PapaMidnight": [
-     77.84,
-     73.62,
-     134.28
+    "Jbird531": [
+     79.3,
+     126.62,
+     123.78
     ],
-    "Colt45Johnson": [
-     146.68,
-     99.06,
-     88.4
+    "brettmn13": [
+     101.12,
+     79.42,
+     104.4
     ]
    },
    "proj": {
-    "PapaMidnight": 100.35,
-    "Colt45Johnson": 105.5
+    "Jbird531": 106.66,
+    "brettmn13": 101.61
    },
    "h2h": {
-    "PapaMidnight": 6,
-    "Colt45Johnson": 8,
-    "games": 14
+    "Jbird531": 13,
+    "brettmn13": 7,
+    "games": 20
    },
    "streak": [
-    "PapaMidnight",
-    2
+    "Jbird531",
+    1
    ],
    "last": {
     "season": 2025,
-    "week": 13,
+    "week": 10,
     "label": null,
     "score": {
-     "PapaMidnight": 86.34,
-     "Colt45Johnson": 60.46
+     "Jbird531": 85.26,
+     "brettmn13": 84.74
     }
    },
    "flags": []
