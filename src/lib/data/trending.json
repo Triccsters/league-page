@@ -3,215 +3,215 @@
  "rostered_known": true,
  "add": [
   {
+   "n": "Adonai Mitchell",
+   "p": "WR",
+   "t": "NYJ",
+   "c": 3316248,
+   "h": "TuanonStan"
+  },
+  {
    "n": "Devin Singletary",
    "p": "RB",
    "t": "NYG",
-   "c": 2520792,
+   "c": 2995389,
+   "h": "RockMNwild"
+  },
+  {
+   "n": "Tyler Allgeier",
+   "p": "RB",
+   "t": "ARI",
+   "c": 2363435,
+   "h": "Wallner"
+  },
+  {
+   "n": "Elijah Mitchell",
+   "p": "RB",
+   "t": "PHI",
+   "c": 1912599,
    "h": null
   },
   {
    "n": "Washington Commanders",
    "p": "DEF",
    "t": "WAS",
-   "c": 2334661,
+   "c": 1719137,
+   "h": "Jbird531"
+  },
+  {
+   "n": "Gardner Minshew II",
+   "p": "QB",
+   "t": "ARI",
+   "c": 1600500,
+   "h": null
+  },
+  {
+   "n": "Emmett Johnson",
+   "p": "RB",
+   "t": "KC",
+   "c": 1532799,
+   "h": "YoungBuck04"
+  },
+  {
+   "n": "Ryan Flournoy",
+   "p": "WR",
+   "t": "DAL",
+   "c": 1444120,
+   "h": "snelson91"
+  },
+  {
+   "n": "Tyler Bass",
+   "p": "K",
+   "t": "BUF",
+   "c": 1134795,
+   "h": "TuanonStan"
+  },
+  {
+   "n": "Detroit Lions",
+   "p": "DEF",
+   "t": "DET",
+   "c": 1134369,
+   "h": "YoungBuck04"
+  },
+  {
+   "n": "Seth McGowan",
+   "p": "RB",
+   "t": "IND",
+   "c": 1071920,
+   "h": "TuanonStan"
+  },
+  {
+   "n": "Houston Texans",
+   "p": "DEF",
+   "t": "HOU",
+   "c": 1000015,
    "h": "Jbird531"
   },
   {
    "n": "Jacksonville Jaguars",
    "p": "DEF",
    "t": "JAX",
-   "c": 2293548,
+   "c": 937482,
    "h": "butterygoop"
-  },
-  {
-   "n": "Elijah Mitchell",
-   "p": "RB",
-   "t": "PHI",
-   "c": 2185083,
-   "h": null
-  },
-  {
-   "n": "Caleb Douglas",
-   "p": "WR",
-   "t": "MIA",
-   "c": 2147008,
-   "h": "TuanonStan"
-  },
-  {
-   "n": "Seth McGowan",
-   "p": "RB",
-   "t": "IND",
-   "c": 1958368,
-   "h": "TuanonStan"
-  },
-  {
-   "n": "Ryan Flournoy",
-   "p": "WR",
-   "t": "DAL",
-   "c": 1510736,
-   "h": "snelson91"
-  },
-  {
-   "n": "Adonai Mitchell",
-   "p": "WR",
-   "t": "NYJ",
-   "c": 1418768,
-   "h": null
-  },
-  {
-   "n": "New England Patriots",
-   "p": "DEF",
-   "t": "NE",
-   "c": 1240946,
-   "h": "Colt45Johnson"
   },
   {
    "n": "Tampa Bay Buccaneers",
    "p": "DEF",
    "t": "TB",
-   "c": 1215970,
+   "c": 907775,
    "h": "Wallner"
   },
   {
-   "n": "Brenton Strange",
-   "p": "TE",
-   "t": "JAX",
-   "c": 1125279,
-   "h": "butterygoop"
-  },
-  {
-   "n": "KC Concepcion Jr.",
-   "p": "WR",
-   "t": "CLE",
-   "c": 1018719,
-   "h": "butterygoop"
-  },
-  {
-   "n": "Tyler Allgeier",
+   "n": "Chris Rodriguez Jr.",
    "p": "RB",
-   "t": "ARI",
-   "c": 932905,
-   "h": "Wallner"
-  },
-  {
-   "n": "Tyler Bass",
-   "p": "K",
-   "t": "BUF",
-   "c": 930815,
+   "t": "JAX",
+   "c": 870318,
    "h": null
-  },
-  {
-   "n": "Chase McLaughlin",
-   "p": "K",
-   "t": "TB",
-   "c": 844712,
-   "h": "butterygoop"
   }
  ],
  "drop": [
   {
+   "n": "Emanuel Wilson",
+   "p": "RB",
+   "t": "SEA",
+   "c": 2388726,
+   "h": "thecreamer"
+  },
+  {
    "n": "Dameon Pierce",
    "p": "RB",
    "t": "PHI",
-   "c": 2212648,
+   "c": 2040240,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1708227,
+   "c": 1246392,
    "h": null
+  },
+  {
+   "n": "Washington Commanders",
+   "p": "DEF",
+   "t": "WAS",
+   "c": 1123633,
+   "h": "Jbird531"
   },
   {
    "n": "Roschon Johnson",
    "p": "RB",
    "t": "CHI",
-   "c": 1675232,
-   "h": "triccster"
+   "c": 1093072,
+   "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 1663641,
-   "h": "TuanonStan"
+   "c": 1033606,
+   "h": null
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 1418688,
+   "c": 968409,
    "h": null
   },
   {
-   "n": "Emanuel Wilson",
-   "p": "RB",
-   "t": "SEA",
-   "c": 1205010,
-   "h": "thecreamer"
+   "n": "Tyler Loop",
+   "p": "K",
+   "t": "BAL",
+   "c": 920994,
+   "h": null
   },
   {
-   "n": "Houston Texans",
+   "n": "New England Patriots",
    "p": "DEF",
-   "t": "HOU",
-   "c": 1090075,
-   "h": "Jbird531"
+   "t": "NE",
+   "c": 819126,
+   "h": null
+  },
+  {
+   "n": "Keon Coleman",
+   "p": "WR",
+   "t": "BUF",
+   "c": 783747,
+   "h": "PapaMidnight"
+  },
+  {
+   "n": "Elijah Mitchell",
+   "p": "RB",
+   "t": "PHI",
+   "c": 770598,
+   "h": null
   },
   {
    "n": "Darius Cooper",
    "p": "WR",
    "t": "PHI",
-   "c": 911631,
+   "c": 671258,
    "h": null
+  },
+  {
+   "n": "Houston Texans",
+   "p": "DEF",
+   "t": "HOU",
+   "c": 658545,
+   "h": "Jbird531"
   },
   {
    "n": "MarShawn Lloyd",
    "p": "RB",
    "t": "GB",
-   "c": 757440,
+   "c": 650439,
    "h": "PapaMidnight"
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 737256,
-   "h": "Colt45Johnson"
-  },
-  {
-   "n": "C.J. Stroud",
-   "p": "QB",
-   "t": "HOU",
-   "c": 687008,
-   "h": null
-  },
-  {
-   "n": "New York Jets",
-   "p": "DEF",
-   "t": "NYJ",
-   "c": 661078,
-   "h": null
-  },
-  {
-   "n": "Michael Mayer",
-   "p": "TE",
-   "t": "LV",
-   "c": 622845,
-   "h": null
-  },
-  {
-   "n": "Elijah Mitchell",
-   "p": "RB",
-   "t": "PHI",
-   "c": 616959,
-   "h": null
-  },
-  {
-   "n": "San Francisco 49ers",
-   "p": "DEF",
-   "t": "SF",
-   "c": 609771,
+   "c": 601288,
    "h": null
   }
  ]
