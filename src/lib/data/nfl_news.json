@@ -1,8 +1,69 @@
 {
- "read_at": "2026-11-06T15:48+00:00",
+ "read_at": "2026-11-07T13:44+00:00",
  "days": 7,
  "count": 112,
  "items": [
+  {
+   "headline": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'",
+   "url": "https://www.espn.com/nfl/story/_/id/50402162/giants-cam-skattebo-doubtful-vs-eagles-nabers-full-go",
+   "date": "2026-11-07",
+   "kind": "news",
+   "teams": [
+    "NYG"
+   ],
+   "named": [
+    {
+     "n": "Cam Skattebo",
+     "p": "RB",
+     "t": "NYG",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Malik Nabers",
+     "p": "WR",
+     "t": "NYG",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Cam Skattebo",
+    "Malik Nabers"
+   ],
+   "ripple": [
+    {
+     "n": "J.J. McCarthy",
+     "p": "QB",
+     "t": "NYG",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Isaiah Likely",
+     "p": "TE",
+     "t": "NYG",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Devin Singletary",
+     "p": "RB",
+     "t": "NYG",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Tyrone Tracy Jr.",
+     "p": "RB",
+     "t": "NYG",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "RockMNwild",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 16.0
+  },
   {
    "headline": "Jets' Garrett Wilson in concussion protocol, Breece Hall trending toward return",
    "url": "https://www.espn.com/nfl/story/_/id/50380113/jets-wr-wilson-protocol-rb-hall-trending-return",
@@ -55,138 +116,60 @@
     "TuanonStan",
     "Wallner"
    ],
-   "score": 17.5
-  },
-  {
-   "headline": "Saints' Jordyn Tyson returns to practice, listed as limited participant",
-   "url": "https://www.espn.com/nfl/story/_/id/50383380/saints-jordyn-tyson-first-practice-august-injury",
-   "date": "2026-11-05",
-   "kind": "news",
-   "teams": [
-    "NO"
-   ],
-   "named": [
-    {
-     "n": "Jordyn Tyson",
-     "p": "WR",
-     "t": "NO",
-     "h": "RockMNwild"
-    }
-   ],
-   "lead": [
-    "Jordyn Tyson"
-   ],
-   "ripple": [
-    {
-     "n": "Juwan Johnson",
-     "p": "TE",
-     "t": "NO",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Tyler Shough",
-     "p": "QB",
-     "t": "NO",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Kendre Miller",
-     "p": "RB",
-     "t": "NO",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Devaughn Vele",
-     "p": "WR",
-     "t": "NO",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Alvin Kamara",
-     "p": "RB",
-     "t": "NO",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Travis Etienne Jr.",
-     "p": "RB",
-     "t": "NO",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Chris Olave",
-     "p": "WR",
-     "t": "NO",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "RockMNwild",
-    "brettmn13",
-    "thecreamer"
-   ],
    "score": 15.5
   },
   {
-   "headline": "Chiefs' Patrick Mahomes hasn't run QB sneak since '19 season",
-   "url": "https://www.espn.com/nfl/story/_/id/50381715/chiefs-patrick-mahomes-run-qb-sneak-19-season",
-   "date": "2026-11-04",
+   "headline": "Jets WR Garrett Wilson (concussion) ruled out Sunday vs. the Chiefs",
+   "url": "https://www.espn.com/nfl/story/_/id/50400158/jets-wr-garrett-wilson-concussion-ruled-vs-chiefs",
+   "date": "2026-11-06",
    "kind": "news",
    "teams": [
-    "KC"
+    "NYJ"
    ],
    "named": [
     {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
+     "n": "Garrett Wilson",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Breece Hall",
+     "p": "RB",
+     "t": "NYJ",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Braelon Allen",
+     "p": "RB",
+     "t": "NYJ",
+     "h": "Jbird531"
     }
    ],
    "lead": [
-    "Patrick Mahomes"
+    "Garrett Wilson"
    ],
    "ripple": [
     {
-     "n": "Kenneth Walker III",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Emmett Johnson",
-     "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Rashee Rice",
+     "n": "Omar Cooper Jr.",
      "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
+     "t": "NYJ",
+     "h": "Wallner"
     },
     {
-     "n": "Xavier Worthy",
+     "n": "Adonai Mitchell",
      "p": "WR",
-     "t": "KC",
-     "h": "snelson91"
+     "t": "NYJ",
+     "h": "TuanonStan"
     }
    ],
    "managers": [
-    "Colt45Johnson",
-    "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "snelson91"
+    "Jbird531",
+    "RockMNwild",
+    "TuanonStan",
+    "Wallner"
    ],
-   "score": 14.5
+   "score": 15.0
   },
   {
    "headline": "Patriots rule out A.J. Brown, TreVeyon Henderson vs. Dolphins",
@@ -296,69 +279,172 @@
    "score": 14.0
   },
   {
-   "headline": "RB Josh Jacobs not anticipating missing more time despite additional allegations",
-   "url": "https://www.espn.com/nfl/story/_/id/50383288/packers-josh-jacobs-not-worried-missing-more-games-additional-allegations",
+   "headline": "Saints' Jordyn Tyson returns to practice, listed as limited participant",
+   "url": "https://www.espn.com/nfl/story/_/id/50383380/saints-jordyn-tyson-first-practice-august-injury",
    "date": "2026-11-05",
    "kind": "news",
    "teams": [
-    "GB"
+    "NO"
    ],
    "named": [
     {
-     "n": "Josh Jacobs",
-     "p": "RB",
-     "t": "GB",
-     "h": "brettmn13"
+     "n": "Jordyn Tyson",
+     "p": "WR",
+     "t": "NO",
+     "h": "RockMNwild"
     }
    ],
    "lead": [
-    "Josh Jacobs"
+    "Jordyn Tyson"
    ],
    "ripple": [
     {
-     "n": "Christian Watson",
-     "p": "WR",
-     "t": "GB",
-     "h": "triccster"
-    },
-    {
-     "n": "Jordan Love",
-     "p": "QB",
-     "t": "GB",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Jayden Reed",
-     "p": "WR",
-     "t": "GB",
-     "h": "Jbird531"
-    },
-    {
-     "n": "MarShawn Lloyd",
-     "p": "RB",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Tucker Kraft",
+     "n": "Juwan Johnson",
      "p": "TE",
-     "t": "GB",
-     "h": "PapaMidnight"
+     "t": "NO",
+     "h": "RockMNwild"
     },
     {
-     "n": "Matthew Golden",
+     "n": "Tyler Shough",
+     "p": "QB",
+     "t": "NO",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Kendre Miller",
+     "p": "RB",
+     "t": "NO",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Devaughn Vele",
      "p": "WR",
-     "t": "GB",
-     "h": "snelson91"
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Alvin Kamara",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Travis Etienne Jr.",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Chris Olave",
+     "p": "WR",
+     "t": "NO",
+     "h": "thecreamer"
     }
    ],
    "managers": [
-    "Jbird531",
-    "PapaMidnight",
-    "YoungBuck04",
+    "Colt45Johnson",
+    "RockMNwild",
     "brettmn13",
-    "snelson91",
-    "triccster"
+    "thecreamer"
+   ],
+   "score": 13.5
+  },
+  {
+   "headline": "Sources: Ravens not expected to deal RB Derrick Henry before NFL trade deadline",
+   "url": "https://www.espn.com/nfl/story/_/id/50400748/sources-ravens-not-expected-trade-star-rb-derrick-henry",
+   "date": "2026-11-07",
+   "kind": "news",
+   "teams": [
+    "BAL"
+   ],
+   "named": [
+    {
+     "n": "Derrick Henry",
+     "p": "RB",
+     "t": "BAL",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Derrick Henry"
+   ],
+   "ripple": [
+    {
+     "n": "Lamar Jackson",
+     "p": "QB",
+     "t": "BAL",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Zay Flowers",
+     "p": "WR",
+     "t": "BAL",
+     "h": "PapaMidnight"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "YoungBuck04"
+   ],
+   "score": 13.0
+  },
+  {
+   "headline": "Nick Bosa back, Christian McCaffrey good to go for Niners",
+   "url": "https://www.espn.com/nfl/story/_/id/50402463/nick-bosa-back-christian-mccaffrey-good-go-niners",
+   "date": "2026-11-06",
+   "kind": "news",
+   "teams": [
+    "SF"
+   ],
+   "named": [
+    {
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
+    }
+   ],
+   "lead": [
+    "Christian McCaffrey"
+   ],
+   "ripple": [
+    {
+     "n": "Brock Purdy",
+     "p": "QB",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "George Kittle",
+     "p": "TE",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "p": "WR",
+     "t": "SF",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "TuanonStan",
+    "Wallner",
+    "YoungBuck04"
    ],
    "score": 13.0
   },
@@ -421,6 +507,131 @@
     "snelson91"
    ],
    "score": 12.5
+  },
+  {
+   "headline": "Chiefs' Patrick Mahomes hasn't run QB sneak since '19 season",
+   "url": "https://www.espn.com/nfl/story/_/id/50381715/chiefs-patrick-mahomes-run-qb-sneak-19-season",
+   "date": "2026-11-04",
+   "kind": "news",
+   "teams": [
+    "KC"
+   ],
+   "named": [
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
+    }
+   ],
+   "lead": [
+    "Patrick Mahomes"
+   ],
+   "ripple": [
+    {
+     "n": "Kenneth Walker III",
+     "p": "RB",
+     "t": "KC",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Xavier Worthy",
+     "p": "WR",
+     "t": "KC",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Sources: Ravens trade 4th-, 7th-rounders to get Jacoby Brissett, 5th-round pick",
+   "url": "https://www.espn.com/nfl/story/_/id/50400123/ravens-complete-trade-cardinals-qb-jacoby-brissett",
+   "date": "2026-11-06",
+   "kind": "news",
+   "teams": [
+    "ARI",
+    "BAL"
+   ],
+   "named": [
+    {
+     "n": "Lamar Jackson",
+     "p": "QB",
+     "t": "BAL",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [],
+   "ripple": [
+    {
+     "n": "Tyler Allgeier",
+     "p": "RB",
+     "t": "ARI",
+     "h": "Wallner"
+    },
+    {
+     "n": "Jeremiyah Love",
+     "p": "RB",
+     "t": "ARI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Trey McBride",
+     "p": "TE",
+     "t": "ARI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Michael Wilson",
+     "p": "WR",
+     "t": "ARI",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Zay Flowers",
+     "p": "WR",
+     "t": "BAL",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Derrick Henry",
+     "p": "RB",
+     "t": "BAL",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "PapaMidnight",
+    "Wallner",
+    "YoungBuck04"
+   ],
+   "score": 12.0
   },
   {
    "headline": "Jaguars' Bhayshul Tuten, Travon Walker will face Ravens on TNF",
@@ -560,299 +771,54 @@
    "score": 12.0
   },
   {
-   "headline": "Jets' Breece Hall says he's ready to play, cites threats for social media exit",
-   "url": "https://www.espn.com/nfl/story/_/id/50393506/jets-breece-hall-return-chiefs-social-media-threats",
+   "headline": "Patriots' TreVeyon Henderson affected by neurological symptoms",
+   "url": "https://www.espn.com/nfl/story/_/id/50400016/patriots-treveyon-henderson-affected-neurological-symptoms",
    "date": "2026-11-06",
    "kind": "news",
    "teams": [
-    "NYJ"
+    "NE"
    ],
    "named": [
     {
-     "n": "Breece Hall",
+     "n": "TreVeyon Henderson",
      "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
+     "t": "NE",
+     "h": "Colt45Johnson"
     }
    ],
    "lead": [
-    "Breece Hall"
+    "TreVeyon Henderson"
    ],
    "ripple": [
     {
-     "n": "Omar Cooper Jr.",
-     "p": "WR",
-     "t": "NYJ",
+     "n": "Drake Maye",
+     "p": "QB",
+     "t": "NE",
      "h": "Wallner"
     },
     {
-     "n": "Adonai Mitchell",
+     "n": "A.J. Brown",
      "p": "WR",
-     "t": "NYJ",
-     "h": "TuanonStan"
+     "t": "NE",
+     "h": "YoungBuck04"
     },
     {
-     "n": "Garrett Wilson",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Braelon Allen",
+     "n": "Rhamondre Stevenson",
      "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "RockMNwild",
-    "TuanonStan",
-    "Wallner"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Sources: Slumping Eagles turn to Joe Milton as starting QB vs. Giants",
-   "url": "https://www.espn.com/nfl/story/_/id/50380724/sources-eagles-turn-joe-milton-starting-qb-vs-giants",
-   "date": "2026-11-05",
-   "kind": "news",
-   "teams": [
-    "NYG",
-    "PHI"
-   ],
-   "named": [],
-   "lead": [],
-   "ripple": [
-    {
-     "n": "J.J. McCarthy",
-     "p": "QB",
-     "t": "NYG",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Isaiah Likely",
-     "p": "TE",
-     "t": "NYG",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Devin Singletary",
-     "p": "RB",
-     "t": "NYG",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Cam Skattebo",
-     "p": "RB",
-     "t": "NYG",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Malik Nabers",
-     "p": "WR",
-     "t": "NYG",
+     "t": "NE",
      "h": "Colt45Johnson"
     },
     {
-     "n": "Tyrone Tracy Jr.",
-     "p": "RB",
-     "t": "NYG",
-     "h": "snelson91"
-    },
-    {
-     "n": "DeVonta Smith",
+     "n": "DeMario Douglas",
      "p": "WR",
-     "t": "PHI",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Makai Lemon",
-     "p": "WR",
-     "t": "PHI",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Dallas Goedert",
-     "p": "TE",
-     "t": "PHI",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Saquon Barkley",
-     "p": "RB",
-     "t": "PHI",
-     "h": "PapaMidnight"
+     "t": "NE",
+     "h": "thecreamer"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "Jbird531",
-    "PapaMidnight",
-    "RockMNwild",
-    "TuanonStan",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Cardinals RB Jeremiyah Love placed on IR, out 4-5 weeks with high ankle sprain",
-   "url": "https://www.espn.com/nfl/story/_/id/50370763/sources-cards-jeremiyah-love-headed-ir-4-5-weeks",
-   "date": "2026-11-04",
-   "kind": "news",
-   "teams": [
-    "ARI"
-   ],
-   "named": [
-    {
-     "n": "Jeremiyah Love",
-     "p": "RB",
-     "t": "ARI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Tyler Allgeier",
-     "p": "RB",
-     "t": "ARI",
-     "h": "Wallner"
-    }
-   ],
-   "lead": [
-    "Jeremiyah Love"
-   ],
-   "ripple": [
-    {
-     "n": "Trey McBride",
-     "p": "TE",
-     "t": "ARI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Michael Wilson",
-     "p": "WR",
-     "t": "ARI",
-     "h": "Jbird531"
-    }
-   ],
-   "managers": [
-    "Jbird531",
     "Wallner",
-    "YoungBuck04"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Bucs down Falcons without pass completion; Bucky Irving, Kenny Gainwell run wild",
-   "url": "https://www.espn.com/nfl/story/_/id/50351129/buccaneers-silence-falcons-pass-completion",
-   "date": "2026-11-01",
-   "kind": "news",
-   "teams": [
-    "ATL",
-    "TB"
-   ],
-   "named": [
-    {
-     "n": "Bucky Irving",
-     "p": "RB",
-     "t": "TB",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Kenny Gainwell",
-     "p": "RB",
-     "t": "TB",
-     "h": "RockMNwild"
-    }
-   ],
-   "lead": [
-    "Bucky Irving",
-    "Kenny Gainwell"
-   ],
-   "ripple": [
-    {
-     "n": "Emeka Egbuka",
-     "p": "WR",
-     "t": "TB",
-     "h": "Wallner"
-    },
-    {
-     "n": "Chris Godwin Jr.",
-     "p": "WR",
-     "t": "TB",
-     "h": "butterygoop"
-    }
-   ],
-   "managers": [
-    "RockMNwild",
-    "Wallner",
-    "butterygoop"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Bears QB Caleb Williams won't 'spat' custom cleats out of principle, source says",
-   "url": "https://www.espn.com/nfl/story/_/id/50343312/source-caleb-williams-spat-cleats-principle",
-   "date": "2026-11-01",
-   "kind": "news",
-   "teams": [
-    "CHI"
-   ],
-   "named": [
-    {
-     "n": "Caleb Williams",
-     "p": "QB",
-     "t": "CHI",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Caleb Williams"
-   ],
-   "ripple": [
-    {
-     "n": "D'Andre Swift",
-     "p": "RB",
-     "t": "CHI",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Kyle Monangai",
-     "p": "RB",
-     "t": "CHI",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Luther Burden III",
-     "p": "WR",
-     "t": "CHI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Colston Loveland",
-     "p": "TE",
-     "t": "CHI",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Rome Odunze",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Kalif Raymond",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "TuanonStan",
     "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
     "thecreamer"
    ],
    "score": 12.0

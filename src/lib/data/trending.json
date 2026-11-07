@@ -6,106 +6,106 @@
    "n": "Adonai Mitchell",
    "p": "WR",
    "t": "NYJ",
-   "c": 4179584,
+   "c": 4421960,
    "h": "TuanonStan"
   },
   {
    "n": "Devin Singletary",
    "p": "RB",
    "t": "NYG",
-   "c": 3289860,
+   "c": 3898854,
    "h": "RockMNwild"
   },
   {
    "n": "Tyler Allgeier",
    "p": "RB",
    "t": "ARI",
-   "c": 2484650,
+   "c": 2482765,
    "h": "Wallner"
   },
   {
    "n": "Emmett Johnson",
    "p": "RB",
    "t": "KC",
-   "c": 1925361,
+   "c": 1983033,
    "h": "YoungBuck04"
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1800117,
+   "c": 1849626,
    "h": "YoungBuck04"
   },
   {
    "n": "Gardner Minshew II",
    "p": "QB",
    "t": "ARI",
-   "c": 1790848,
+   "c": 1796848,
    "h": null
   },
   {
    "n": "Chris Rodriguez Jr.",
    "p": "RB",
    "t": "JAX",
-   "c": 1767393,
+   "c": 1750770,
    "h": null
   },
   {
    "n": "Houston Texans",
    "p": "DEF",
    "t": "HOU",
-   "c": 1260855,
+   "c": 1271445,
    "h": "Jbird531"
-  },
-  {
-   "n": "Ryan Flournoy",
-   "p": "WR",
-   "t": "DAL",
-   "c": 1256888,
-   "h": "snelson91"
   },
   {
    "n": "Malik Willis",
    "p": "QB",
    "t": "MIA",
-   "c": 1182783,
+   "c": 1232357,
    "h": null
+  },
+  {
+   "n": "Ryan Flournoy",
+   "p": "WR",
+   "t": "DAL",
+   "c": 1189320,
+   "h": "snelson91"
   },
   {
    "n": "Tyler Bass",
    "p": "K",
    "t": "BUF",
-   "c": 1138280,
+   "c": 1130285,
    "h": "TuanonStan"
-  },
-  {
-   "n": "Cairo Santos",
-   "p": "K",
-   "t": "CHI",
-   "c": 1047277,
-   "h": "thecreamer"
   },
   {
    "n": "New Orleans Saints",
    "p": "DEF",
    "t": "NO",
-   "c": 1027565,
+   "c": 1093865,
    "h": null
+  },
+  {
+   "n": "Cairo Santos",
+   "p": "K",
+   "t": "CHI",
+   "c": 1091566,
+   "h": "thecreamer"
   },
   {
    "n": "Mike Gesicki",
    "p": "TE",
    "t": "CIN",
-   "c": 922952,
+   "c": 961216,
    "h": "Wallner"
   },
   {
-   "n": "Elijah Mitchell",
-   "p": "RB",
-   "t": "PHI",
-   "c": 889614,
-   "h": null
+   "n": "Malik Washington",
+   "p": "WR",
+   "t": "MIA",
+   "c": 836912,
+   "h": "PapaMidnight"
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 3280491,
+   "c": 3344418,
    "h": "thecreamer"
   },
   {
    "n": "Washington Commanders",
    "p": "DEF",
    "t": "WAS",
-   "c": 1732927,
+   "c": 1768725,
    "h": "Jbird531"
   },
   {
    "n": "Tyler Loop",
    "p": "K",
    "t": "BAL",
-   "c": 1401522,
+   "c": 1397868,
    "h": null
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 1171849,
+   "c": 1197126,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1085355,
+   "c": 1064583,
    "h": null
   },
   {
    "n": "Keon Coleman",
    "p": "WR",
    "t": "BUF",
-   "c": 947727,
+   "c": 973332,
    "h": "PapaMidnight"
   },
   {
    "n": "Dameon Pierce",
    "p": "RB",
    "t": "PHI",
-   "c": 931928,
+   "c": 958128,
    "h": null
   },
   {
    "n": "Lamar Jackson",
    "p": "QB",
    "t": "BAL",
-   "c": 876872,
+   "c": 904032,
    "h": "YoungBuck04"
   },
   {
    "n": "Tanner McKee",
    "p": "QB",
    "t": "PHI",
-   "c": 842456,
-   "h": null
-  },
-  {
-   "n": "Konata Mumpfield",
-   "p": "WR",
-   "t": "LAR",
-   "c": 783918,
-   "h": null
-  },
-  {
-   "n": "Cleveland Browns",
-   "p": "DEF",
-   "t": "CLE",
-   "c": 752367,
+   "c": 879376,
    "h": null
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 741016,
+   "c": 777280,
    "h": null
   },
   {
-   "n": "Elijah Mitchell",
-   "p": "RB",
-   "t": "PHI",
-   "c": 721539,
+   "n": "Konata Mumpfield",
+   "p": "WR",
+   "t": "LAR",
+   "c": 760149,
+   "h": null
+  },
+  {
+   "n": "Cleveland Browns",
+   "p": "DEF",
+   "t": "CLE",
+   "c": 737338,
    "h": null
   },
   {
    "n": "Omar Cooper Jr.",
    "p": "WR",
    "t": "NYJ",
-   "c": 710600,
+   "c": 716032,
    "h": "Wallner"
+  },
+  {
+   "n": "Mark Andrews",
+   "p": "TE",
+   "t": "BAL",
+   "c": 679743,
+   "h": null
   },
   {
    "n": "Roschon Johnson",
    "p": "RB",
    "t": "CHI",
-   "c": 692016,
+   "c": 658304,
    "h": null
   }
  ]

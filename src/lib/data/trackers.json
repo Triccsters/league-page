@@ -841,26 +841,26 @@
       [
        "@@Colt45Johnson",
        "WR",
-       "QB, RB",
-       "QB 9 RB 9 WR 3 TE 4"
+       "QB",
+       "QB 9 RB 8 WR 3 TE 4"
       ],
       [
        "@@Jbird531",
        "-",
-       "TE",
-       "QB 8 RB 8 WR 2 TE 10"
+       "RB, TE",
+       "QB 8 RB 9 WR 2 TE 9"
       ],
       [
        "@@PapaMidnight",
        "-",
        "QB, RB, TE",
-       "QB 10 RB 11 WR 7 TE 12"
+       "QB 10 RB 11 WR 6 TE 12"
       ],
       [
-       "@@Wallner",
-       "QB, RB",
+       "@@RockMNwild",
+       "-",
        "WR",
-       "QB 3 RB 5 WR 9 TE 8"
+       "QB 4 RB 6 WR 10 TE 7"
       ],
       [
        "@@YoungBuck04",
@@ -884,31 +884,31 @@
        "@@snelson91",
        "TE",
        "WR",
-       "QB 6 RB 1 WR 11 TE 5"
+       "QB 5 RB 1 WR 11 TE 5"
       ],
       [
        "@@thecreamer",
        "RB",
        "TE",
-       "QB 7 RB 7 WR 6 TE 9"
+       "QB 7 RB 7 WR 5 TE 10"
       ],
       [
        "@@triccster",
        "QB",
        "RB, WR",
-       "QB 5 RB 12 WR 10 TE 2"
-      ],
-      [
-       "@@RockMNwild",
-       "-",
-       "-",
-       "QB 4 RB 6 WR 5 TE 7"
+       "QB 6 RB 12 WR 9 TE 2"
       ],
       [
        "@@TuanonStan",
        "-",
        "-",
-       "QB 1 RB 4 WR 8 TE 1"
+       "QB 1 RB 4 WR 7 TE 1"
+      ],
+      [
+       "@@Wallner",
+       "QB, RB",
+       "-",
+       "QB 3 RB 5 WR 8 TE 8"
       ]
      ]
     },
@@ -926,20 +926,8 @@
       [
        "@@Colt45Johnson",
        "WR",
-       "@@Wallner",
-       "QB/RB"
-      ],
-      [
-       "@@Colt45Johnson",
-       "WR",
        "@@triccster",
        "QB"
-      ],
-      [
-       "@@Wallner",
-       "RB",
-       "@@brettmn13",
-       "WR"
       ],
       [
        "@@brettmn13",
@@ -1006,7 +994,7 @@
        "@@Wallner",
        "Tyler Allgeier",
        "RB ARI",
-       8.8
+       9.0
       ],
       [
        "@@snelson91",
@@ -1061,13 +1049,13 @@
       [
        3,
        "@@Wallner",
-       33.2,
-       "Drake Maye, Woody Marks, Emeka Egbuka"
+       33.5,
+       "Drake Maye, Woody Marks, Omar Cooper Jr."
       ],
       [
        4,
        "@@snelson91",
-       30.7,
+       30.6,
        "Matthew Stafford, Xavier Worthy, Khalil Shakir"
       ],
       [
@@ -1085,25 +1073,25 @@
       [
        7,
        "@@Jbird531",
-       23.3,
+       23.4,
        "Rachaad White, Dallas Goedert, Denzel Boston"
       ],
       [
        8,
-       "@@PapaMidnight",
-       22.5,
-       "Malik Washington, Jordan Mason, Pat Freiermuth"
+       "@@RockMNwild",
+       22.2,
+       "Devin Singletary, Tre Tucker, Jordyn Tyson"
       ],
       [
        9,
-       "@@RockMNwild",
-       21.3,
-       "Tre Tucker, Jordyn Tyson, Devin Singletary"
+       "@@PapaMidnight",
+       21.8,
+       "Cam Skattebo, Jordan Mason, Pat Freiermuth"
       ],
       [
        10,
        "@@Colt45Johnson",
-       20.7,
+       20.8,
        "Deebo Samuel Sr., Jordan Addison, Keenan Allen"
       ],
       [
@@ -1115,7 +1103,7 @@
       [
        12,
        "@@TuanonStan",
-       17.6,
+       17.8,
        "Caleb Douglas, Kyle Monangai, Adonai Mitchell"
       ]
      ]
@@ -1344,21 +1332,21 @@
        "@@brettmn13",
        2,
        17.1,
-       "Colston Loveland, Jonah Coleman"
+       "Jonah Coleman, Colston Loveland"
       ],
       [
        10,
        "@@thecreamer",
        2,
        12.3,
-       "Cairo Santos, Denver Broncos"
+       "Denver Broncos, Cairo Santos"
       ],
       [
        11,
        "@@Colt45Johnson",
        3,
-       30.9,
-       "Rhamondre Stevenson, Jason Myers, Puka Nacua"
+       31.2,
+       "Puka Nacua, Rhamondre Stevenson, Jason Myers"
       ],
       [
        11,
@@ -1372,7 +1360,7 @@
        "@@TuanonStan",
        2,
        28.2,
-       "Bijan Robinson, Drake London"
+       "Drake London, Bijan Robinson"
       ],
       [
        11,
@@ -1393,21 +1381,21 @@
        "@@triccster",
        2,
        18.0,
-       "Christian Watson, Dylan Sampson"
+       "Dylan Sampson, Christian Watson"
       ],
       [
        11,
        "@@brettmn13",
        2,
        17.5,
-       "Josh Jacobs, Los Angeles Rams"
+       "Los Angeles Rams, Josh Jacobs"
       ],
       [
        11,
        "@@thecreamer",
        2,
        16.6,
-       "Quinshon Judkins, Harold Fannin Jr."
+       "Harold Fannin Jr., Quinshon Judkins"
       ]
      ]
     }
