@@ -184,7 +184,7 @@
       ],
       [
        "@@Colt45Johnson",
-       31,
+       32,
        189.8,
        "$39"
       ],
@@ -840,7 +840,7 @@
      "rows": [
       [
        "@@Colt45Johnson",
-       "WR",
+       "WR, TE",
        "QB",
        "QB 9 RB 8 WR 3 TE 4"
       ],
@@ -1013,6 +1013,12 @@
        "Brenton Strange",
        "TE JAX",
        8.6
+      ],
+      [
+       "@@Colt45Johnson",
+       "T.J. Hockenson",
+       "TE MIN",
+       8.2
       ]
      ]
     }
@@ -1049,7 +1055,7 @@
       [
        3,
        "@@Wallner",
-       33.5,
+       33.4,
        "Drake Maye, Woody Marks, Omar Cooper Jr."
       ],
       [
@@ -1079,20 +1085,20 @@
       [
        8,
        "@@RockMNwild",
-       22.2,
-       "Devin Singletary, Tre Tucker, Jordyn Tyson"
+       23.0,
+       "Jordyn Tyson, Devin Singletary, Tre Tucker"
       ],
       [
        9,
-       "@@PapaMidnight",
-       21.8,
-       "Cam Skattebo, Jordan Mason, Pat Freiermuth"
+       "@@Colt45Johnson",
+       22.5,
+       "T.J. Hockenson, Deebo Samuel Sr., Jordan Addison"
       ],
       [
        10,
-       "@@Colt45Johnson",
-       20.8,
-       "Deebo Samuel Sr., Jordan Addison, Keenan Allen"
+       "@@PapaMidnight",
+       21.7,
+       "Cam Skattebo, Jordan Mason, Pat Freiermuth"
       ],
       [
        11,
@@ -1325,7 +1331,7 @@
        "@@RockMNwild",
        2,
        21.9,
-       "Bucky Irving, Jaylen Waddle"
+       "Jaylen Waddle, Bucky Irving"
       ],
       [
        10,
@@ -1338,7 +1344,7 @@
        10,
        "@@thecreamer",
        2,
-       12.3,
+       12.2,
        "Denver Broncos, Cairo Santos"
       ],
       [
@@ -1353,21 +1359,21 @@
        "@@snelson91",
        3,
        29.5,
-       "Kyren Williams, Matthew Golden, Seattle Seahawks"
+       "Matthew Golden, Kyren Williams, Seattle Seahawks"
       ],
       [
        11,
        "@@TuanonStan",
        2,
-       28.2,
-       "Drake London, Bijan Robinson"
+       28.1,
+       "Bijan Robinson, Drake London"
       ],
       [
        11,
        "@@Jbird531",
        2,
-       24.5,
-       "Nick Folk, Jaxon Smith-Njigba"
+       24.4,
+       "Jaxon Smith-Njigba, Nick Folk"
       ],
       [
        11,
@@ -1387,7 +1393,7 @@
        11,
        "@@brettmn13",
        2,
-       17.5,
+       17.4,
        "Los Angeles Rams, Josh Jacobs"
       ],
       [
@@ -1395,7 +1401,7 @@
        "@@thecreamer",
        2,
        16.6,
-       "Harold Fannin Jr., Quinshon Judkins"
+       "Quinshon Judkins, Harold Fannin Jr."
       ]
      ]
     }

@@ -6,106 +6,106 @@
    "n": "Adonai Mitchell",
    "p": "WR",
    "t": "NYJ",
-   "c": 4421960,
+   "c": 4542608,
    "h": "TuanonStan"
   },
   {
    "n": "Devin Singletary",
    "p": "RB",
    "t": "NYG",
-   "c": 3898854,
+   "c": 4162176,
    "h": "RockMNwild"
   },
   {
    "n": "Tyler Allgeier",
    "p": "RB",
    "t": "ARI",
-   "c": 2482765,
+   "c": 2471035,
    "h": "Wallner"
   },
   {
    "n": "Emmett Johnson",
    "p": "RB",
    "t": "KC",
-   "c": 1983033,
+   "c": 2011563,
    "h": "YoungBuck04"
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1849626,
+   "c": 1872774,
    "h": "YoungBuck04"
   },
   {
    "n": "Gardner Minshew II",
    "p": "QB",
    "t": "ARI",
-   "c": 1796848,
+   "c": 1802772,
    "h": null
   },
   {
    "n": "Chris Rodriguez Jr.",
    "p": "RB",
    "t": "JAX",
-   "c": 1750770,
+   "c": 1696905,
+   "h": null
+  },
+  {
+   "n": "Malik Willis",
+   "p": "QB",
+   "t": "MIA",
+   "c": 1288385,
    "h": null
   },
   {
    "n": "Houston Texans",
    "p": "DEF",
    "t": "HOU",
-   "c": 1271445,
+   "c": 1284620,
    "h": "Jbird531"
-  },
-  {
-   "n": "Malik Willis",
-   "p": "QB",
-   "t": "MIA",
-   "c": 1232357,
-   "h": null
-  },
-  {
-   "n": "Ryan Flournoy",
-   "p": "WR",
-   "t": "DAL",
-   "c": 1189320,
-   "h": "snelson91"
-  },
-  {
-   "n": "Tyler Bass",
-   "p": "K",
-   "t": "BUF",
-   "c": 1130285,
-   "h": "TuanonStan"
   },
   {
    "n": "New Orleans Saints",
    "p": "DEF",
    "t": "NO",
-   "c": 1093865,
+   "c": 1186650,
    "h": null
   },
   {
    "n": "Cairo Santos",
    "p": "K",
    "t": "CHI",
-   "c": 1091566,
+   "c": 1134994,
    "h": "thecreamer"
+  },
+  {
+   "n": "Tyler Bass",
+   "p": "K",
+   "t": "BUF",
+   "c": 1114535,
+   "h": "TuanonStan"
+  },
+  {
+   "n": "Ryan Flournoy",
+   "p": "WR",
+   "t": "DAL",
+   "c": 1084744,
+   "h": "snelson91"
   },
   {
    "n": "Mike Gesicki",
    "p": "TE",
    "t": "CIN",
-   "c": 961216,
+   "c": 994212,
    "h": "Wallner"
   },
   {
-   "n": "Malik Washington",
+   "n": "Demarcus Robinson",
    "p": "WR",
-   "t": "MIA",
-   "c": 836912,
-   "h": "PapaMidnight"
+   "t": "SF",
+   "c": 888408,
+   "h": null
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 3344418,
+   "c": 3370734,
    "h": "thecreamer"
   },
   {
    "n": "Washington Commanders",
    "p": "DEF",
    "t": "WAS",
-   "c": 1768725,
+   "c": 1814652,
    "h": "Jbird531"
   },
   {
    "n": "Tyler Loop",
    "p": "K",
    "t": "BAL",
-   "c": 1397868,
+   "c": 1392264,
    "h": null
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 1197126,
+   "c": 1226197,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1064583,
+   "c": 1048608,
+   "h": null
+  },
+  {
+   "n": "Dameon Pierce",
+   "p": "RB",
+   "t": "PHI",
+   "c": 1043648,
    "h": null
   },
   {
    "n": "Keon Coleman",
    "p": "WR",
    "t": "BUF",
-   "c": 973332,
+   "c": 1005525,
    "h": "PapaMidnight"
-  },
-  {
-   "n": "Dameon Pierce",
-   "p": "RB",
-   "t": "PHI",
-   "c": 958128,
-   "h": null
   },
   {
    "n": "Lamar Jackson",
    "p": "QB",
    "t": "BAL",
-   "c": 904032,
+   "c": 926424,
    "h": "YoungBuck04"
   },
   {
    "n": "Tanner McKee",
    "p": "QB",
    "t": "PHI",
-   "c": 879376,
+   "c": 922104,
    "h": null
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 777280,
+   "c": 828976,
    "h": null
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 760149,
+   "c": 748332,
    "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 737338,
+   "c": 725711,
    "h": null
   },
   {
    "n": "Omar Cooper Jr.",
    "p": "WR",
    "t": "NYJ",
-   "c": 716032,
+   "c": 723464,
    "h": "Wallner"
   },
   {
    "n": "Mark Andrews",
    "p": "TE",
    "t": "BAL",
-   "c": 679743,
+   "c": 673308,
    "h": null
   },
   {
-   "n": "Roschon Johnson",
-   "p": "RB",
-   "t": "CHI",
-   "c": 658304,
+   "n": "Chris Boswell",
+   "p": "K",
+   "t": "PIT",
+   "c": 660516,
    "h": null
   }
  ]
