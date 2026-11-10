@@ -3,109 +3,109 @@
  "rostered_known": true,
  "add": [
   {
-   "n": "Adonai Mitchell",
-   "p": "WR",
-   "t": "NYJ",
-   "c": 4204464,
-   "h": "TuanonStan"
-  },
-  {
    "n": "Devin Singletary",
    "p": "RB",
    "t": "NYG",
-   "c": 3959046,
+   "c": 3767220,
    "h": "RockMNwild"
+  },
+  {
+   "n": "Adonai Mitchell",
+   "p": "WR",
+   "t": "NYJ",
+   "c": 3462184,
+   "h": "TuanonStan"
   },
   {
    "n": "Tyler Allgeier",
    "p": "RB",
    "t": "ARI",
-   "c": 2223795,
+   "c": 1756720,
    "h": "Wallner"
   },
   {
-   "n": "Emmett Johnson",
-   "p": "RB",
-   "t": "KC",
-   "c": 1847403,
-   "h": "YoungBuck04"
+   "n": "Tank Dell",
+   "p": "WR",
+   "t": "HOU",
+   "c": 1739704,
+   "h": null
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1827108,
+   "c": 1664793,
    "h": "YoungBuck04"
-  },
-  {
-   "n": "Gardner Minshew II",
-   "p": "QB",
-   "t": "ARI",
-   "c": 1660256,
-   "h": null
   },
   {
    "n": "Chris Rodriguez Jr.",
    "p": "RB",
    "t": "JAX",
-   "c": 1628253,
+   "c": 1622925,
    "h": null
   },
   {
-   "n": "Malik Willis",
-   "p": "QB",
-   "t": "MIA",
-   "c": 1317141,
+   "n": "Emmett Johnson",
+   "p": "RB",
+   "t": "KC",
+   "c": 1546065,
+   "h": "YoungBuck04"
+  },
+  {
+   "n": "Corey Kiner",
+   "p": "RB",
+   "t": "NE",
+   "c": 1277748,
+   "h": null
+  },
+  {
+   "n": "Demarcus Robinson",
+   "p": "WR",
+   "t": "SF",
+   "c": 1273692,
    "h": null
   },
   {
    "n": "New Orleans Saints",
    "p": "DEF",
    "t": "NO",
-   "c": 1294270,
+   "c": 1241495,
    "h": null
   },
   {
-   "n": "Houston Texans",
-   "p": "DEF",
-   "t": "HOU",
-   "c": 1286015,
-   "h": "Jbird531"
-  },
-  {
-   "n": "Demarcus Robinson",
-   "p": "WR",
-   "t": "SF",
-   "c": 1233426,
+   "n": "Malik Willis",
+   "p": "QB",
+   "t": "MIA",
+   "c": 1241373,
    "h": null
   },
   {
    "n": "Cairo Santos",
    "p": "K",
    "t": "CHI",
-   "c": 1198309,
+   "c": 1149302,
    "h": "thecreamer"
+  },
+  {
+   "n": "Houston Texans",
+   "p": "DEF",
+   "t": "HOU",
+   "c": 1139980,
+   "h": "Jbird531"
+  },
+  {
+   "n": "Gardner Minshew II",
+   "p": "QB",
+   "t": "ARI",
+   "c": 1119664,
+   "h": null
   },
   {
    "n": "Ryan Flournoy",
    "p": "WR",
    "t": "DAL",
-   "c": 1108640,
+   "c": 1053712,
    "h": "snelson91"
-  },
-  {
-   "n": "Tyler Bass",
-   "p": "K",
-   "t": "BUF",
-   "c": 1037800,
-   "h": "TuanonStan"
-  },
-  {
-   "n": "Mike Gesicki",
-   "p": "TE",
-   "t": "CIN",
-   "c": 969140,
-   "h": "Wallner"
   }
  ],
  "drop": [
@@ -113,105 +113,105 @@
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 3402630,
+   "c": 3167631,
    "h": "thecreamer"
   },
   {
    "n": "Washington Commanders",
    "p": "DEF",
    "t": "WAS",
-   "c": 1844388,
+   "c": 1686573,
    "h": "Jbird531"
   },
   {
    "n": "Tyler Loop",
    "p": "K",
    "t": "BAL",
-   "c": 1370586,
+   "c": 1278780,
    "h": null
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 1271921,
+   "c": 1230201,
    "h": null
   },
   {
    "n": "Dameon Pierce",
    "p": "RB",
-   "t": "PHI",
-   "c": 1080480,
+   "t": null,
+   "c": 1100152,
    "h": null
+  },
+  {
+   "n": "Michael Wilson",
+   "p": "WR",
+   "t": "ARI",
+   "c": 989838,
+   "h": "Jbird531"
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 997290,
+   "c": 950562,
    "h": null
   },
   {
    "n": "Keon Coleman",
    "p": "WR",
    "t": "BUF",
-   "c": 970533,
+   "c": 935595,
    "h": "PapaMidnight"
   },
   {
    "n": "Tanner McKee",
    "p": "QB",
    "t": "PHI",
-   "c": 936000,
+   "c": 922608,
+   "h": null
+  },
+  {
+   "n": "Kyler Murray",
+   "p": "QB",
+   "t": "MIN",
+   "c": 895136,
    "h": null
   },
   {
    "n": "Lamar Jackson",
    "p": "QB",
    "t": "BAL",
-   "c": 891968,
+   "c": 768656,
    "h": "YoungBuck04"
   },
   {
-   "n": "Kyler Murray",
-   "p": "QB",
-   "t": "MIN",
-   "c": 880456,
+   "n": "Cleveland Browns",
+   "p": "DEF",
+   "t": "CLE",
+   "c": 657433,
    "h": null
   },
   {
    "n": "Chris Boswell",
    "p": "K",
    "t": "PIT",
-   "c": 690796,
+   "c": 645988,
    "h": null
   },
   {
-   "n": "Konata Mumpfield",
-   "p": "WR",
-   "t": "LAR",
-   "c": 685143,
-   "h": null
-  },
-  {
-   "n": "Cleveland Browns",
-   "p": "DEF",
-   "t": "CLE",
-   "c": 684271,
-   "h": null
-  },
-  {
-   "n": "Omar Cooper Jr.",
-   "p": "WR",
-   "t": "NYJ",
-   "c": 649304,
-   "h": "Wallner"
+   "n": "MarShawn Lloyd",
+   "p": "RB",
+   "t": "GB",
+   "c": 638739,
+   "h": "PapaMidnight"
   },
   {
    "n": "Mark Andrews",
    "p": "TE",
    "t": "BAL",
-   "c": 645255,
+   "c": 625266,
    "h": null
   }
  ]

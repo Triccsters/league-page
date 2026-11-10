@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:21:19+00:00",
+ "generated": "2026-11-10T12:47:00+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -17166,6 +17166,72 @@
    89.1,
    "Colt45Johnson",
    99.2,
+   false,
+   null
+  ],
+  [
+   2026,
+   9,
+   "sleeper",
+   "Wallner",
+   91.56,
+   "thecreamer",
+   83.84,
+   false,
+   null
+  ],
+  [
+   2026,
+   9,
+   "sleeper",
+   "butterygoop",
+   112.64,
+   "snelson91",
+   100.68,
+   false,
+   null
+  ],
+  [
+   2026,
+   9,
+   "sleeper",
+   "TuanonStan",
+   126.76,
+   "Colt45Johnson",
+   106.68,
+   false,
+   null
+  ],
+  [
+   2026,
+   9,
+   "sleeper",
+   "triccster",
+   111.8,
+   "RockMNwild",
+   113.44,
+   false,
+   null
+  ],
+  [
+   2026,
+   9,
+   "sleeper",
+   "YoungBuck04",
+   128.68,
+   "PapaMidnight",
+   75.7,
+   false,
+   null
+  ],
+  [
+   2026,
+   9,
+   "sleeper",
+   "Jbird531",
+   67.16,
+   "brettmn13",
+   83.08,
    false,
    null
   ]

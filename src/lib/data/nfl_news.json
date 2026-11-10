@@ -1,7 +1,7 @@
 {
- "read_at": "2026-11-09T13:21+00:00",
+ "read_at": "2026-11-10T12:47+00:00",
  "days": 7,
- "count": 112,
+ "count": 100,
  "items": [
   {
    "headline": "Bengals' Burrow, Chase, Higgins add Spanish flair to TD celebrations in Madrid",
@@ -133,73 +133,75 @@
    "score": 15.0
   },
   {
-   "headline": "Saints activate WR Jordyn Tyson, LT Kelvin Banks, cut RB Kendre Miller",
-   "url": "https://www.espn.com/nfl/story/_/id/50410541/sources-saints-activate-wr-jordyn-tyson-lt-kelvin-banks",
-   "date": "2026-11-07",
+   "headline": "Matt LaFleur: Packers' Josh Jacobs needs surgery on finger; IR not ruled out",
+   "url": "https://www.espn.com/nfl/story/_/id/50435349/packers-rb-josh-jacobs-needs-surgery-fractured-finger",
+   "date": "2026-11-09",
    "kind": "news",
    "teams": [
-    "NO"
+    "GB"
    ],
    "named": [
     {
-     "n": "Jordyn Tyson",
-     "p": "WR",
-     "t": "NO",
-     "h": "RockMNwild"
+     "n": "Josh Jacobs",
+     "p": "RB",
+     "t": "GB",
+     "h": "brettmn13"
     }
    ],
    "lead": [
-    "Jordyn Tyson"
+    "Josh Jacobs"
    ],
    "ripple": [
     {
-     "n": "Juwan Johnson",
-     "p": "TE",
-     "t": "NO",
-     "h": "RockMNwild"
+     "n": "Christian Watson",
+     "p": "WR",
+     "t": "GB",
+     "h": "triccster"
     },
     {
-     "n": "Tyler Shough",
+     "n": "Jordan Love",
      "p": "QB",
-     "t": "NO",
-     "h": "Colt45Johnson"
+     "t": "GB",
+     "h": "YoungBuck04"
     },
     {
-     "n": "Devaughn Vele",
+     "n": "Jayden Reed",
      "p": "WR",
-     "t": "NO",
-     "h": "brettmn13"
+     "t": "GB",
+     "h": "Jbird531"
     },
     {
-     "n": "Alvin Kamara",
+     "n": "MarShawn Lloyd",
      "p": "RB",
-     "t": "NO",
-     "h": "brettmn13"
+     "t": "GB",
+     "h": "PapaMidnight"
     },
     {
-     "n": "Travis Etienne Jr.",
-     "p": "RB",
-     "t": "NO",
-     "h": "brettmn13"
+     "n": "Tucker Kraft",
+     "p": "TE",
+     "t": "GB",
+     "h": "PapaMidnight"
     },
     {
-     "n": "Chris Olave",
+     "n": "Matthew Golden",
      "p": "WR",
-     "t": "NO",
-     "h": "thecreamer"
+     "t": "GB",
+     "h": "snelson91"
     }
    ],
    "managers": [
-    "Colt45Johnson",
-    "RockMNwild",
+    "Jbird531",
+    "PapaMidnight",
+    "YoungBuck04",
     "brettmn13",
-    "thecreamer"
+    "snelson91",
+    "triccster"
    ],
    "score": 15.0
   },
   {
-   "headline": "Chiefs' Patrick Mahomes brushes off injury scare during rout of Jets",
-   "url": "https://www.espn.com/nfl/story/_/id/50427266/chiefs-patrick-mahomes-brushes-injury-scare",
+   "headline": "Chiefs QB Patrick Mahomes day-to-day with elbow injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50434564/chiefs-qb-patrick-mahomes-day-day-elbow-injury",
    "date": "2026-11-09",
    "kind": "news",
    "teams": [
@@ -479,9 +481,9 @@
    "score": 14.0
   },
   {
-   "headline": "Sources: Puka Nacua set for tests on late-game knee injury; Rams believe ACL OK",
-   "url": "https://www.espn.com/nfl/story/_/id/50425853/sources-rams-puka-nacua-undergo-tests-knee",
-   "date": "2026-11-08",
+   "headline": "Rams WR Puka Nacua likely to hit IR with MCL and PCL sprain, turf toe",
+   "url": "https://www.espn.com/nfl/story/_/id/50435879/rams-nacua-likely-hit-ir-mcl-pcl-sprain-turf-toe",
+   "date": "2026-11-09",
    "kind": "news",
    "teams": [
     "LAR"
@@ -531,65 +533,50 @@
    "score": 14.0
   },
   {
-   "headline": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'",
-   "url": "https://www.espn.com/nfl/story/_/id/50402162/giants-cam-skattebo-doubtful-vs-eagles-nabers-full-go",
-   "date": "2026-11-07",
+   "headline": "Sources: Cardinals' Gardner Minshew has UCL injury; Michael Wilson out for year",
+   "url": "https://www.espn.com/nfl/story/_/id/50435608/cardinals-wr-michael-wilson-neck-miss-rest-season",
+   "date": "2026-11-10",
    "kind": "news",
    "teams": [
-    "NYG"
+    "ARI"
    ],
    "named": [
     {
-     "n": "Cam Skattebo",
-     "p": "RB",
-     "t": "NYG",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Malik Nabers",
+     "n": "Michael Wilson",
      "p": "WR",
-     "t": "NYG",
-     "h": "Colt45Johnson"
+     "t": "ARI",
+     "h": "Jbird531"
     }
    ],
    "lead": [
-    "Cam Skattebo",
-    "Malik Nabers"
+    "Michael Wilson"
    ],
    "ripple": [
     {
-     "n": "J.J. McCarthy",
-     "p": "QB",
-     "t": "NYG",
-     "h": "butterygoop"
+     "n": "Tyler Allgeier",
+     "p": "RB",
+     "t": "ARI",
+     "h": "Wallner"
     },
     {
-     "n": "Isaiah Likely",
+     "n": "Jeremiyah Love",
+     "p": "RB",
+     "t": "ARI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Trey McBride",
      "p": "TE",
-     "t": "NYG",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Devin Singletary",
-     "p": "RB",
-     "t": "NYG",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Tyrone Tracy Jr.",
-     "p": "RB",
-     "t": "NYG",
-     "h": "snelson91"
+     "t": "ARI",
+     "h": "YoungBuck04"
     }
    ],
    "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "RockMNwild",
-    "butterygoop",
-    "snelson91"
+    "Jbird531",
+    "Wallner",
+    "YoungBuck04"
    ],
-   "score": 14.0
+   "score": 13.5
   },
   {
    "headline": "'Balling' Jordan Love wows teammates with big performance at Patriots",
@@ -659,73 +646,6 @@
    "score": 13.0
   },
   {
-   "headline": "Packers' Josh Jacobs dealing with broken finger, status for Vikings tilt TBD",
-   "url": "https://www.espn.com/nfl/story/_/id/50429092/packers-josh-jacobs-dealing-fractured-finger",
-   "date": "2026-11-09",
-   "kind": "news",
-   "teams": [
-    "GB"
-   ],
-   "named": [
-    {
-     "n": "Josh Jacobs",
-     "p": "RB",
-     "t": "GB",
-     "h": "brettmn13"
-    }
-   ],
-   "lead": [
-    "Josh Jacobs"
-   ],
-   "ripple": [
-    {
-     "n": "Christian Watson",
-     "p": "WR",
-     "t": "GB",
-     "h": "triccster"
-    },
-    {
-     "n": "Jordan Love",
-     "p": "QB",
-     "t": "GB",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Jayden Reed",
-     "p": "WR",
-     "t": "GB",
-     "h": "Jbird531"
-    },
-    {
-     "n": "MarShawn Lloyd",
-     "p": "RB",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Tucker Kraft",
-     "p": "TE",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Matthew Golden",
-     "p": "WR",
-     "t": "GB",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "PapaMidnight",
-    "YoungBuck04",
-    "brettmn13",
-    "snelson91",
-    "triccster"
-   ],
-   "score": 13.0
-  },
-  {
    "headline": "Sources: Lamar Jackson told Ravens teammates he plans to return this season",
    "url": "https://www.espn.com/nfl/story/_/id/50407561/sources-lamar-jackson-told-ravens-plans-return-26",
    "date": "2026-11-08",
@@ -766,57 +686,129 @@
    "score": 13.0
   },
   {
-   "headline": "Jets WR Garrett Wilson (concussion) ruled out Sunday vs. the Chiefs",
-   "url": "https://www.espn.com/nfl/story/_/id/50400158/jets-wr-garrett-wilson-concussion-ruled-vs-chiefs",
-   "date": "2026-11-06",
+   "headline": "Saints activate WR Jordyn Tyson, LT Kelvin Banks, cut RB Kendre Miller",
+   "url": "https://www.espn.com/nfl/story/_/id/50410541/sources-saints-activate-wr-jordyn-tyson-lt-kelvin-banks",
+   "date": "2026-11-07",
    "kind": "news",
    "teams": [
-    "NYJ"
+    "NO"
    ],
    "named": [
     {
-     "n": "Garrett Wilson",
+     "n": "Jordyn Tyson",
      "p": "WR",
-     "t": "NYJ",
+     "t": "NO",
      "h": "RockMNwild"
-    },
-    {
-     "n": "Breece Hall",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Braelon Allen",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
     }
    ],
    "lead": [
-    "Garrett Wilson"
+    "Jordyn Tyson"
    ],
    "ripple": [
     {
-     "n": "Omar Cooper Jr.",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "Wallner"
+     "n": "Juwan Johnson",
+     "p": "TE",
+     "t": "NO",
+     "h": "RockMNwild"
     },
     {
-     "n": "Adonai Mitchell",
+     "n": "Tyler Shough",
+     "p": "QB",
+     "t": "NO",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Devaughn Vele",
      "p": "WR",
-     "t": "NYJ",
-     "h": "TuanonStan"
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Alvin Kamara",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Travis Etienne Jr.",
+     "p": "RB",
+     "t": "NO",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Chris Olave",
+     "p": "WR",
+     "t": "NO",
+     "h": "thecreamer"
     }
    ],
    "managers": [
-    "Jbird531",
+    "Colt45Johnson",
     "RockMNwild",
-    "TuanonStan",
-    "Wallner"
+    "brettmn13",
+    "thecreamer"
    ],
    "score": 13.0
+  },
+  {
+   "headline": "Giants' Malik Nabers takes issue with Greg Olsen, Fox for comments during game",
+   "url": "https://www.espn.com/nfl/story/_/id/50429684/giants-malik-nabers-takes-issue-fox-telecast",
+   "date": "2026-11-09",
+   "kind": "news",
+   "teams": [
+    "NYG"
+   ],
+   "named": [
+    {
+     "n": "Malik Nabers",
+     "p": "WR",
+     "t": "NYG",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Malik Nabers"
+   ],
+   "ripple": [
+    {
+     "n": "J.J. McCarthy",
+     "p": "QB",
+     "t": "NYG",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Isaiah Likely",
+     "p": "TE",
+     "t": "NYG",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Devin Singletary",
+     "p": "RB",
+     "t": "NYG",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Cam Skattebo",
+     "p": "RB",
+     "t": "NYG",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Tyrone Tracy Jr.",
+     "p": "RB",
+     "t": "NYG",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "RockMNwild",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 12.5
   }
  ],
  "source": "ESPN NFL news, headlines and links only",
