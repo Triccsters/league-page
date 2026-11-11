@@ -214,6 +214,8 @@ def _pick_results(ctx):
                 continue
             s2r = full.get("slot_to_roster_id") or {}
             teams = (full.get("settings") or {}).get("teams") or len(s2r) or 12
+            # same test build_drafts uses to tell a rookie draft from a startup draft
+            rookie = ((full.get("settings") or d.get("settings") or {}).get("rounds") or 99) <= 6
             user_h = {S.owner[r]: h for r, h in S.handle.items() if r in S.owner}
             for pk in dp:
                 orig = s2r.get(str(pk.get("draft_slot")))
@@ -222,7 +224,7 @@ def _pick_results(ctx):
                 info = S.pinfo(pk.get("player_id"))
                 no = pk.get("pick_no") or 0
                 out[(int(S.season), pk.get("round"), int(orig))] = {
-                    "n": info["name"], "p": info["pos"],
+                    "n": info["name"], "p": info["pos"], "rookie": rookie,
                     "slot": f"{pk.get('round')}.{((no - 1) % teams) + 1:02d}" if no else "",
                     "by": S.handle.get(pk.get("roster_id")) or user_h.get(pk.get("picked_by"))}
     return out
@@ -273,6 +275,7 @@ def build_trades(ctx, rows):
                         pts, st = value_after(idx, h, pkey(info["name"]), S.season, week, dyn)
                         got.append({"n": info["name"], "p": info["pos"], "pts": pts, "st": st})
                     picks = []
+                    pick_pts = 0.0
                     for p in (tx.get("draft_picks") or []):
                         if p.get("owner_id") != rid:
                             continue
@@ -287,11 +290,21 @@ def build_trades(ctx, rows):
                                 label += f" ({res['slot']})"
                             if res["by"] and res["by"] != h:
                                 label += f", used by {res['by']}"
+                            elif res["by"] == h and res["rookie"]:
+                                # He made the pick himself, so it counts like an acquired
+                                # player: what the drafted player scored in his lineup from
+                                # the draft season on. A pick he traded on scores nothing
+                                # here; what he got for it is graded in that later trade.
+                                # Rookie drafts only (T.J., 2026-11-11): startup draft pick
+                                # swaps are shown but not scored, or they swamp the page.
+                                ppts, _pst = value_after(idx, h, pkey(res["n"]), int(p.get("season")), 0, dyn)
+                                pick_pts += ppts
+                                label += f", {round(ppts, 1)} pts"
                         picks.append(label)
                     faab = sum((w.get("amount") or 0) for w in (tx.get("waiver_budget") or []) if w.get("receiver") == rid)
                     if faab:
                         picks.append(f"${faab} FAAB")
-                    sides[h] = {"got": got, "picks": picks, "value": round(sum(g["pts"] for g in got), 2)}
+                    sides[h] = {"got": got, "picks": picks, "value": round(sum(g["pts"] for g in got) + pick_pts, 2)}
                 if len(sides) < 2:
                     continue
                 winner, margin = _grade_trade(sides)

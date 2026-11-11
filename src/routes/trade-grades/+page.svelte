@@ -52,7 +52,7 @@
     {#if data}
         <p class="sub">Every trade since {data.first_season}, graded by what each side actually got out of it:
             the points each acquired player scored <b>in that manager's starting lineup</b> from the trade week on{data.dynasty ? ', in every later season he stayed there' : ', for the rest of that season'}.
-            Bench points don't count. {data.dynasty ? 'Draft picks and FAAB are listed but not scored.' : ''} Trades from {site.season} are still being scored.</p>
+            Bench points don't count. {data.dynasty ? 'A rookie draft pick counts for what the drafted player scored in the lineup of the manager who got the pick and used it. Picks that were traded on again, startup draft picks and FAAB are listed but not scored.' : ''} Trades from {site.season} are still being scored.</p>
 
         <h2>Net points from trading</h2>
         <p class="note">Points gained from players received, minus points the other side got. The number after each name is that manager's trade record.</p>
