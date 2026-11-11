@@ -16,7 +16,30 @@
 
     $: seasons = data ? [...new Set(data.trades.map(t => t.season))].sort((a, b) => b - a) : [];
     $: people = data ? Object.keys(data.managers).sort((a, b) => nameOf(a).localeCompare(nameOf(b))) : [];
-    $: shown = data ? data.trades.filter(t => (season === 'all' || t.season === +season) && (!who || who in t.sides)).slice().reverse() : [];
+    // Trade matrix (T.J., 2026-11-11): trades between each pair of managers.
+    // Managers are keyed by handle, which the build resolves from user_id.
+    let pair = null;
+    $: counts = (() => {
+        const c = {};
+        if (!data) return c;
+        for (const t of data.trades) {
+            const hs = Object.keys(t.sides);
+            for (const a of hs) for (const b of hs) if (a !== b) {
+                c[a] = c[a] || {};
+                c[a][b] = (c[a][b] || 0) + 1;
+            }
+        }
+        return c;
+    })();
+    $: maxPair = Math.max(1, ...Object.values(counts).flatMap(r => Object.values(r)));
+    // only where there is more than one season of trades to show
+    $: showMatrix = seasons.length > 1;
+    const shade = (n, max) => `hsl(145, 63%, ${Math.round(20 + 24 * (max > 1 ? (n - 1) / (max - 1) : 1))}%)`;
+    const pick = (a, b) => {
+        pair = pair && pair.includes(a) && pair.includes(b) ? null : [a, b];
+        if (pair) { who = ''; season = 'all'; document.getElementById('every-trade')?.scrollIntoView({ behavior: 'smooth' }); }
+    };
+    $: shown = data ? data.trades.filter(t => (season === 'all' || t.season === +season) && (!who || who in t.sides) && (!pair || (pair[0] in t.sides && pair[1] in t.sides))).slice().reverse() : [];
     $: lopsided = data ? [...data.trades].filter(t => !t.live && t.winner).sort((a, b) => b.margin - a.margin).slice(0, 5) : [];
     $: table = data ? Object.entries(data.managers).map(([h, m]) => ({ h, ...m, net: Math.round((m.in - m.out) * 10) / 10 }))
         .sort((a, b) => b.net - a.net) : [];
@@ -51,6 +74,40 @@
             </table>
         </div>
 
+        {#if showMatrix}
+            <h2>Trade matrix</h2>
+            <p class="note">How many trades each pair of managers has made since {data.first_season}. Brighter means more. Tap a number to see those trades below.</p>
+            <div class="scroll">
+                <table class="matrix">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            {#each people as c}<th class="mh" class:me={ready && c === $myTeam}><span>{nameOf(c)}</span></th>{/each}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {#each people as r}
+                            <tr>
+                                <th class="rh" class:me={ready && r === $myTeam}>{nameOf(r)}</th>
+                                {#each people as c}
+                                    {#if r === c}
+                                        <td class="self"></td>
+                                    {:else if counts[r]?.[c]}
+                                        <td class="cell"><button class="mx" class:on={pair && pair.includes(r) && pair.includes(c)}
+                                            style="background: {shade(counts[r][c], maxPair)}"
+                                            aria-label="{nameOf(r)} and {nameOf(c)}: {counts[r][c]} trades"
+                                            on:click={() => pick(r, c)}>{counts[r][c]}</button></td>
+                                    {:else}
+                                        <td class="cell zero">·</td>
+                                    {/if}
+                                {/each}
+                            </tr>
+                        {/each}
+                    </tbody>
+                </table>
+            </div>
+        {/if}
+
         <h2>Most lopsided trades</h2>
         {#each lopsided as t}
             <div class="trade lop">
@@ -61,7 +118,11 @@
             </div>
         {/each}
 
-        <h2>Every trade</h2>
+        <h2 id="every-trade">Every trade</h2>
+        {#if pair}
+            <p class="pairbar">Showing trades between <b>{nameOf(pair[0])}</b> and <b>{nameOf(pair[1])}</b>
+                <button on:click={() => (pair = null)}>Show all</button></p>
+        {/if}
         <div class="filters">
             <select bind:value={season}><option value="all">All seasons</option>{#each seasons as s}<option value={s}>{s}</option>{/each}</select>
             <select bind:value={who}><option value="">Everyone</option>{#each people as p}<option value={p}>{nameOf(p)}</option>{/each}</select>
@@ -117,4 +178,16 @@
     small { opacity: 0.7; }
     .pick { margin-left: 0.4em; padding: 0 0.35em; border-radius: 3px; background: #34495e; color: #fff; font-size: 0.8em; }
     .val { float: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .matrix { width: auto; margin: 0 auto; }
+    .matrix th, .matrix td { padding: 2px; border: 0; text-align: center; }
+    .matrix .rh { text-align: right; padding-right: 0.5em; font-weight: 600; }
+    .matrix .mh { vertical-align: bottom; height: 6.5em; font-weight: 600; }
+    .matrix .mh span { writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; }
+    .matrix .me { color: #2ecc71; }
+    .matrix .self { background: rgba(127,127,127,0.28); border-radius: 4px; }
+    .matrix .zero { opacity: 0.35; }
+    .mx { width: 2.1em; height: 2.1em; padding: 0; border: 2px solid transparent; border-radius: 4px; color: #ffffff; font-weight: 700; font-size: 0.95em; cursor: pointer; font-variant-numeric: tabular-nums; }
+    .mx.on { border-color: #ffffff; outline: 2px solid #27ae60; }
+    .pairbar { margin: 0.6em 0 0; padding: 0.45em 0.7em; border-radius: 6px; background: #1e8449; color: #ffffff; font-size: 0.92em; }
+    .pairbar button { margin-left: 0.6em; padding: 0.15em 0.6em; font-size: 0.95em; }
 </style>
