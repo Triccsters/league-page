@@ -192,10 +192,50 @@ def _grade_trade(sides):
     return winner, margin
 
 
+def _pick_results(ctx):
+    """(season, round, original roster_id) -> the player a traded pick became
+    (T.J., 2026-11-11). Sleeper only. The original owner of each selection comes
+    from the draft's slot_to_roster_id, which only the single-draft endpoint
+    carries. A draft that has not happened yet has no entry, so its picks keep
+    their plain "2027 round 2" label."""
+    out = {}
+    for S in ctx["live_seasons"]:
+        try:
+            drafts = ctx["sleeper"](f"/league/{S.league_id}/drafts") or []
+        except Exception:
+            continue
+        for d in drafts:
+            if d.get("status") != "complete":
+                continue
+            try:
+                full = ctx["sleeper"](f"/draft/{d['draft_id']}") or {}
+                dp = ctx["sleeper"](f"/draft/{d['draft_id']}/picks") or []
+            except Exception:
+                continue
+            s2r = full.get("slot_to_roster_id") or {}
+            teams = (full.get("settings") or {}).get("teams") or len(s2r) or 12
+            user_h = {S.owner[r]: h for r, h in S.handle.items() if r in S.owner}
+            for pk in dp:
+                orig = s2r.get(str(pk.get("draft_slot")))
+                if orig is None or not pk.get("player_id"):
+                    continue
+                info = S.pinfo(pk.get("player_id"))
+                no = pk.get("pick_no") or 0
+                out[(int(S.season), pk.get("round"), int(orig))] = {
+                    "n": info["name"], "p": info["pos"],
+                    "slot": f"{pk.get('round')}.{((no - 1) % teams) + 1:02d}" if no else "",
+                    "by": S.handle.get(pk.get("roster_id")) or user_h.get(pk.get("picked_by"))}
+    return out
+
+
 def build_trades(ctx, rows):
     idx = started_index(rows)
     dyn = ctx["dynasty"]
     trades = []
+    try:
+        pick_results = _pick_results(ctx)
+    except Exception:
+        pick_results = {}
     if ctx["mode"] == "vault":
         import flp_trade_value as TV
         for t in TV.trades():
@@ -232,8 +272,22 @@ def build_trades(ctx, rows):
                         info = S.pinfo(pid)
                         pts, st = value_after(idx, h, pkey(info["name"]), S.season, week, dyn)
                         got.append({"n": info["name"], "p": info["pos"], "pts": pts, "st": st})
-                    picks = [f"{p.get('season')} round {p.get('round')}"
-                             for p in (tx.get("draft_picks") or []) if p.get("owner_id") == rid]
+                    picks = []
+                    for p in (tx.get("draft_picks") or []):
+                        if p.get("owner_id") != rid:
+                            continue
+                        label = f"{p.get('season')} round {p.get('round')}"
+                        try:
+                            res = pick_results.get((int(p.get("season")), p.get("round"), int(p.get("roster_id"))))
+                        except (TypeError, ValueError):
+                            res = None
+                        if res:
+                            label += f": {res['n']}{(' ' + res['p']) if res['p'] else ''}"
+                            if res["slot"]:
+                                label += f" ({res['slot']})"
+                            if res["by"] and res["by"] != h:
+                                label += f", used by {res['by']}"
+                        picks.append(label)
                     faab = sum((w.get("amount") or 0) for w in (tx.get("waiver_budget") or []) if w.get("receiver") == rid)
                     if faab:
                         picks.append(f"${faab} FAAB")
