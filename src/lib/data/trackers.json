@@ -178,19 +178,19 @@
      "rows": [
       [
        "@@YoungBuck04",
-       16,
+       17,
        248.6,
        "$84"
       ],
       [
        "@@brettmn13",
-       20,
+       22,
        227.9,
-       "$75"
+       "$76"
       ],
       [
        "@@Colt45Johnson",
-       32,
+       33,
        222.5,
        "$39"
       ],
@@ -208,15 +208,15 @@
       ],
       [
        "@@RockMNwild",
-       27,
+       28,
        149.6,
-       "$44"
+       "$50"
       ],
       [
        "@@triccster",
-       12,
+       13,
        148.5,
-       "$42"
+       "$54"
       ],
       [
        "@@butterygoop",
@@ -226,9 +226,9 @@
       ],
       [
        "@@TuanonStan",
-       17,
+       19,
        119.8,
-       "$73"
+       "$80"
       ],
       [
        "@@Jbird531",
@@ -882,19 +882,19 @@
        "@@Colt45Johnson",
        "TE",
        "RB, WR",
-       "QB 8 RB 10 WR 10 TE 3"
+       "QB 8 RB 11 WR 10 TE 3"
       ],
       [
        "@@Jbird531",
        "-",
        "QB, RB, TE",
-       "QB 9 RB 9 WR 2 TE 12"
+       "QB 9 RB 9 WR 3 TE 12"
       ],
       [
        "@@PapaMidnight",
        "RB",
        "QB, TE",
-       "QB 11 RB 7 WR 5 TE 9"
+       "QB 11 RB 7 WR 6 TE 9"
       ],
       [
        "@@YoungBuck04",
@@ -906,7 +906,7 @@
        "@@brettmn13",
        "WR",
        "RB, TE",
-       "QB 2 RB 11 WR 3 TE 11"
+       "QB 2 RB 10 WR 2 TE 11"
       ],
       [
        "@@butterygoop",
@@ -936,7 +936,7 @@
        "@@RockMNwild",
        "-",
        "-",
-       "QB 3 RB 5 WR 6 TE 7"
+       "QB 3 RB 5 WR 5 TE 7"
       ],
       [
        "@@TuanonStan",
@@ -1022,7 +1022,7 @@
        "@@Wallner",
        "Drake Maye",
        "QB NE",
-       16.5
+       16.6
       ],
       [
        "@@butterygoop",
@@ -1034,7 +1034,7 @@
        "@@brettmn13",
        "Rashee Rice",
        "WR KC",
-       12.9
+       12.8
       ],
       [
        "@@butterygoop",
@@ -1058,13 +1058,13 @@
        "@@PapaMidnight",
        "Cam Skattebo",
        "RB NYG",
-       9.4
+       9.5
       ],
       [
        "@@snelson91",
        "Dalton Kincaid",
        "TE BUF",
-       9.0
+       8.9
       ],
       [
        "@@butterygoop",
@@ -1076,7 +1076,7 @@
        "@@PapaMidnight",
        "Jordan Mason",
        "RB MIN",
-       8.8
+       8.7
       ],
       [
        "@@thecreamer",
@@ -1088,7 +1088,7 @@
        "@@Colt45Johnson",
        "T.J. Hockenson",
        "TE MIN",
-       8.4
+       8.5
       ]
      ]
     }
@@ -1113,13 +1113,13 @@
       [
        1,
        "@@triccster",
-       36.6,
+       36.5,
        "Jared Goff, Wan'Dale Robinson, Jakobi Meyers"
       ],
       [
        2,
        "@@butterygoop",
-       34.8,
+       34.7,
        "Kirk Cousins, D'Andre Swift, DeVonta Smith"
       ],
       [
@@ -1131,56 +1131,56 @@
       [
        4,
        "@@thecreamer",
-       29.4,
+       29.5,
        "Aaron Rodgers, Rome Odunze, Courtland Sutton"
       ],
       [
        5,
        "@@snelson91",
-       28.9,
-       "Matthew Stafford, Dalton Kincaid, Xavier Worthy"
+       28.6,
+       "Matthew Stafford, Dalton Kincaid, Khalil Shakir"
       ],
       [
        6,
-       "@@PapaMidnight",
+       "@@brettmn13",
        24.3,
-       "Jordan Mason, Malik Washington, Tucker Kraft"
+       "Jonah Coleman, Zach Charbonnet, Josh Jacobs"
       ],
       [
        7,
-       "@@RockMNwild",
-       23.3,
-       "Jaylen Waddle, Tre Tucker, Rico Dowdle"
+       "@@PapaMidnight",
+       24.1,
+       "Jordan Mason, Malik Washington, Tucker Kraft"
       ],
       [
        8,
-       "@@brettmn13",
-       22.9,
-       "Travis Etienne Jr., Josh Jacobs, Germie Bernard"
+       "@@RockMNwild",
+       22.2,
+       "Jordyn Tyson, Rico Dowdle, Tre Tucker"
       ],
       [
        9,
-       "@@Colt45Johnson",
-       21.3,
-       "T.J. Hockenson, Jordan Addison, Keenan Allen"
+       "@@Jbird531",
+       21.5,
+       "Denzel Boston, Breece Hall, Tyler Warren"
       ],
       [
        10,
-       "@@Jbird531",
-       20.9,
-       "Denzel Boston, Tyler Warren, Breece Hall"
+       "@@Colt45Johnson",
+       20.8,
+       "Deebo Samuel Sr., Jordan Addison, Keenan Allen"
       ],
       [
        11,
        "@@YoungBuck04",
-       19.1,
-       "Antonio Williams, Blake Corum, Emmett Johnson"
+       19.4,
+       "Blake Corum, Antonio Williams, Emmett Johnson"
       ],
       [
        12,
        "@@TuanonStan",
-       17.8,
-       "Caleb Douglas, Adonai Mitchell, Kyle Monangai"
+       16.0,
+       "Caleb Douglas, Kyle Monangai, Makai Lemon"
       ]
      ]
     },
@@ -1401,49 +1401,49 @@
        "@@Jbird531",
        2,
        22.9,
-       "Dallas Goedert, Caleb Williams"
+       "Caleb Williams, Dallas Goedert"
       ],
       [
        10,
-       "@@brettmn13",
+       "@@RockMNwild",
        2,
-       16.3,
-       "Colston Loveland, Jonah Coleman"
+       21.9,
+       "Bucky Irving, Jaylen Waddle"
       ],
       [
        10,
        "@@thecreamer",
        2,
        11.5,
-       "Cairo Santos, Denver Broncos"
+       "Denver Broncos, Cairo Santos"
       ],
       [
        11,
        "@@YoungBuck04",
        3,
-       30.1,
+       30.0,
        "A.J. Brown, Davante Adams, Jordan Love"
       ],
       [
        11,
        "@@snelson91",
        3,
-       27.2,
-       "Kyren Williams, Matthew Golden, Seattle Seahawks"
+       27.4,
+       "Matthew Golden, Seattle Seahawks, Kyren Williams"
       ],
       [
        11,
        "@@TuanonStan",
        2,
-       26.0,
-       "Bijan Robinson, Drake London"
+       25.9,
+       "Drake London, Bijan Robinson"
       ],
       [
        11,
        "@@Jbird531",
        2,
-       23.1,
-       "Nick Folk, Jaxon Smith-Njigba"
+       21.5,
+       "Jaxon Smith-Njigba, Nick Folk"
       ],
       [
        11,
@@ -1463,15 +1463,22 @@
        11,
        "@@Colt45Johnson",
        2,
-       15.2,
-       "Jason Myers, Rhamondre Stevenson"
+       10.8,
+       "Rhamondre Stevenson, Green Bay Packers"
       ],
       [
        13,
        "@@Wallner",
        2,
        16.5,
-       "Spencer Shrader, Ashton Jeanty"
+       "Ashton Jeanty, Spencer Shrader"
+      ],
+      [
+       13,
+       "@@RockMNwild",
+       2,
+       15.0,
+       "Garrett Wilson, Baltimore Ravens"
       ]
      ]
     }
