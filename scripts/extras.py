@@ -585,6 +585,56 @@ def _seed(teams, wins, pf, div):
     return leaders + sorted([h for h in teams if h not in leaders], key=key)
 
 
+ROSTER_WEIGHT = 0.5      # share of a team's rating that comes from its current roster
+# First (season, completed week) the roster half applies. T.J., 2026-11-12: it
+# switches on with the week 10 results, so the week 9 numbers already quoted in
+# that week's newsletters stay as they were.
+ROSTER_FROM = (2026, 10)
+
+
+def _roster_weeks(ctx, teams, weeks, lg_cur):
+    """{handle: {week: expected score from the CURRENT roster}} (T.J., 2026-11-12).
+
+    The best legal lineup each week on Sleeper's weekly projections, scored the
+    league's way: the measure power.py calls "rest of season", kept per week.
+    Projections move with each player's NFL opponent, bye and injury status, so
+    this is what lets the odds see rosters, injuries, trades and the NFL
+    schedule. Each week is re-centred on the league's real scoring average, so
+    only the gap between teams carries over, not the projections' overall level
+    or a bye-heavy week. A week with no projections is left out and the caller
+    falls back to scoring alone.
+    """
+    import insights as I
+    import power as P
+    S, season = ctx["cur"], ctx["season"]
+    score = I._scorer(S.league.get("scoring_settings"))
+    slots = [s for s in (S.league.get("roster_positions") or []) if s in P.ELIG]
+    pos_of = lambda pid: S.pinfo(pid)["pos"]
+    cache_dir = os.path.join(os.path.expanduser("~"), ".cache", "league_page_projections")
+    rosters = {S.handle.get(r["roster_id"]): [x for x in (r.get("players") or []) if x]
+               for r in S.rosters if S.handle.get(r["roster_id"])}
+    out = {h: {} for h in teams}
+    for w in weeks:
+        try:
+            proj = I._projections(season, w, cache_dir, ctx["read_json"], ctx["write_json"], final=False)
+        except Exception as e:
+            print("odds: projections unavailable for week", w, e)
+            continue
+        if not proj:
+            continue
+        got = {}
+        for h in teams:
+            players = rosters.get(h) or []
+            pts = {x: (score(proj.get(x)) or 0) for x in players}
+            got[h] = P._best_lineup(slots, players, pts, pos_of)
+        if not any(got.values()):
+            continue
+        m = statistics.mean(got.values())
+        for h in teams:
+            out[h][w] = lg_cur + (got[h] - m)
+    return out
+
+
 def build_odds_and_previews(ctx):
     cur, season, state = ctx["cur"], ctx["season"], ctx["state"]
     st = cur.league.get("settings") or {}
@@ -629,18 +679,47 @@ def build_odds_and_previews(ctx):
                 for w in range(last_done + 1, pstart)}
     schedule = {w: v for w, v in schedule.items() if v}
 
+    # Roster-aware ratings (T.J., 2026-11-12): one per remaining week and one for
+    # the playoff weeks, each half scoring so far and half the current roster's
+    # projections. Scoring alone could not see an injury, a trade or the NFL
+    # schedule until the points showed up.
+    avgs = [m["avg"] for m in models.values() if m["avg"] is not None]
+    lg_cur = statistics.mean(avgs) if avgs else statistics.mean(m["mu"] for m in models.values())
+    po_weeks = list(range(pstart, 18))
+    rw = {h: {} for h in teams}
+    if (season, last_done) >= ROSTER_FROM:
+        try:
+            rw = _roster_weeks(ctx, teams, sorted(schedule) + po_weeks, lg_cur)
+        except Exception as e:
+            print("odds: roster ratings failed, using scoring alone:", e)
+            rw = {h: {} for h in teams}
+    base_mu = {h: models[h]["mu"] for h in teams}
+
+    def rating(h, weeks):
+        xs = [rw[h][w] for w in weeks if w in rw[h]]
+        return base_mu[h] if not xs else (1 - ROSTER_WEIGHT) * base_mu[h] + ROSTER_WEIGHT * statistics.mean(xs)
+
+    mu_week = {h: {w: rating(h, [w]) for w in schedule} for h in teams}
+    mu_po = {h: rating(h, po_weeks) for h in teams}
+    roster_on = any(rw[h] for h in teams)
+    for h in teams:
+        reg = [rw[h][w] for w in schedule if w in rw[h]]
+        models[h]["mu_scores"] = base_mu[h]
+        models[h]["mu_roster"] = round(statistics.mean(reg), 2) if reg else None
+        models[h]["mu"] = round(rating(h, sorted(schedule)) if schedule else mu_po[h], 2)
+
     tally = {h: Counter() for h in teams}
     wins_sum = defaultdict(float)
     rnd = random.Random(season * 100 + last_done)
     for _ in range(SIMS):
         # how good each team really is is itself uncertain, most of all early in the season
-        true_mu = {h: rnd.gauss(models[h]["mu"], models[h]["tau"]) for h in teams}
+        off = {h: rnd.gauss(0, models[h]["tau"]) for h in teams}
         wins = {h: rec[h][0] for h in teams}
         pf = {h: rec[h][2] for h in teams}
         for w, pairs in schedule.items():
             scores = {}
             for a, b in pairs:
-                sa, sb = rnd.gauss(true_mu[a], sd), rnd.gauss(true_mu[b], sd)
+                sa, sb = rnd.gauss(mu_week[a][w] + off[a], sd), rnd.gauss(mu_week[b][w] + off[b], sd)
                 scores[a], scores[b] = sa, sb
                 wins[a if sa > sb else b] += 1
             if median and scores:
@@ -664,7 +743,7 @@ def build_odds_and_previews(ctx):
                 tally[h]["seed1"] += 1
             if i == len(order) - 1:
                 tally[h]["last"] += 1
-        draw = lambda h: rnd.gauss(true_mu[h], sd)
+        draw = lambda h: rnd.gauss(mu_po[h] + off[h], sd)
         champ = _bracket(order[:n_playoff], draw)
         tally[champ]["title"] += 1
         board = _toilet(order[n_playoff:][::-1], draw)
@@ -698,7 +777,10 @@ def build_odds_and_previews(ctx):
              "seed1": pct(h, "seed1"), "title": pct(h, "title"), "last": pct(h, "last"), "board": pct(h, "board"),
              "div": div.get(h), "div_win": pct(h, "div") if div else None,
              "sos_faced": sos[h]["faced"], "sos_rest": sos[h]["rest"], "rest_opponents": sos[h]["opponents"],
-             "tau": round(models[h]["tau"], 3)} for h in teams]
+             "tau": round(models[h]["tau"], 3),
+             "mu_scores": models[h]["mu_scores"], "mu_roster": models[h]["mu_roster"],
+             "mu_playoff": round(mu_po[h], 2),
+             "mu_weeks": {str(w): round(v, 2) for w, v in sorted(mu_week[h].items())}} for h in teams]
     rows.sort(key=lambda r: (-r["playoff"], -r["title"], -r["proj_w"]))
 
     path = os.path.join(ctx["data"], "odds.json")
@@ -713,7 +795,9 @@ def build_odds_and_previews(ctx):
             "schedule": {str(w): [[a, b] for a, b in pairs] for w, pairs in sorted(schedule.items())},
             "bye_teams": n_playoff - 4 if n_playoff > 4 else 0,
             # division per team; empty when the league has none. Division winners seed first.
-            "divisions": div}
+            "divisions": div,
+            # 0 when no projections could be read and the ratings are scoring alone
+            "roster_weight": ROSTER_WEIGHT if roster_on else 0}
     ctx["write_json"](path, odds)
 
     # previews for the next week
@@ -740,7 +824,8 @@ def build_odds_and_previews(ctx):
                 break
         last = meet[-1] if meet else None
         spread = math.sqrt(2 * sd * sd + models[a]["tau"] ** 2 + models[b]["tau"] ** 2)
-        pa_win = round(100 * _phi((models[a]["mu"] - models[b]["mu"]) / spread), 1)
+        ma, mb = mu_week[a].get(nxt, models[a]["mu"]), mu_week[b].get(nxt, models[b]["mu"])
+        pa_win = round(100 * _phi((ma - mb) / spread), 1)
         flags = []
         if not meet:
             flags.append("First ever meeting")
@@ -771,7 +856,7 @@ def build_odds_and_previews(ctx):
             "rec": {a: ra[:2], b: rb[:2]},
             "avg": {a: models[a]["avg"], b: models[b]["avg"]},
             "last3": {a: models[a]["last3"], b: models[b]["last3"]},
-            "proj": {a: models[a]["mu"], b: models[b]["mu"]},
+            "proj": {a: round(ma, 2), b: round(mb, 2)},
             "h2h": {a: wa, b: wb, "games": len(meet)},
             "streak": streak,
             "last": ({"season": last[0], "week": last[1], "label": last[8],

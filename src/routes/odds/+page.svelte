@@ -24,27 +24,25 @@
 
     $: titleBars = odds.teams.map(t => ({ label: nameOf(t.h), value: t.title, highlight: mine(t.h) }))
         .sort((a, b) => b.value - a.value);
-    const hasDiv = Object.keys(odds.divisions || {}).length > 0;
     const pct = (v) => (v >= 99.95 ? '>99.9' : v > 0 && v < 0.1 ? '<0.1' : v.toFixed(1)) + '%';
 </script>
 
 <div class="holder">
     <h1>Playoff Odds</h1>
     <p class="sub">After week {odds.through_week} of {odds.season}. {odds.sims.toLocaleString()} simulated finishes of the {odds.remaining_weeks.length} regular-season weeks left.
-        Top {odds.playoff_teams} make the playoffs{hasDiv ? '. The two division winners take the byes and the top two seeds; the other four spots go to the best records left' : odds.playoff_teams >= 6 ? ', top 2 get a bye' : ''}{odds.median ? ', and every week also counts a game against the league median' : ''}.</p>
+        Top {odds.playoff_teams} make the playoffs{odds.playoff_teams >= 6 ? ', top 2 get a bye' : ''}{odds.median ? ', and every week also counts a game against the league median' : ''}.</p>
 
     <div class="scroll">
         <table>
-            <thead><tr><th>Team</th><th>W-L</th><th class="num">Proj. wins</th><th class="bar">Playoffs</th>{#if hasDiv}<th class="num">Win div.</th>{/if}{#if odds.playoff_teams >= 6}<th class="num">Bye</th>{/if}<th class="num">#1 seed</th><th class="num">Title</th><th class="num">Last place</th></tr></thead>
+            <thead><tr><th>Team</th><th>W-L</th><th class="num">Proj. wins</th><th class="bar">Playoffs</th>{#if odds.playoff_teams >= 6}<th class="num">Bye</th>{/if}<th class="num">#1 seed</th><th class="num">Title</th><th class="num">Last place</th></tr></thead>
             <tbody>
                 {#each odds.teams as t}
                     <tr class:mine={mine(t.h)}>
                         <td><b>{nameOf(t.h)}</b><YourTeamBadge handle={t.h} size="small" />
                             {#if teamName(site.season, t.h) && teamName(site.season, t.h) !== nameOf(t.h)}<small>{teamName(site.season, t.h)}</small>{/if}</td>
-                        <td>{t.w}-{t.l}{#if hasDiv && t.div}<small>Div. {t.div}</small>{/if}</td>
+                        <td>{t.w}-{t.l}</td>
                         <td class="num">{t.proj_w}</td>
                         <td class="bar"><div class="meter"><span style="width:{t.playoff}%"></span><em>{pct(t.playoff)}</em></div></td>
-                        {#if hasDiv}<td class="num">{pct(t.div_win ?? 0)}</td>{/if}
                         {#if odds.playoff_teams >= 6}<td class="num">{pct(t.bye)}</td>{/if}
                         <td class="num">{pct(t.seed1)}</td>
                         <td class="num">{pct(t.title)}</td>
@@ -84,7 +82,11 @@
         <summary>How are these odds worked out?</summary>
         <p>Each team gets an expected weekly score: its average this season, pulled toward {odds.prior === 'last_season' ? 'its scoring last season and ' : ''}the league average while there are only a few games to go on.
             {#if odds.prior !== 'last_season'}Nothing before {odds.season} counts: this is a redraft league, so last year's roster is gone and last year's scoring says nothing about this team.{:else}Last season counts because this is a dynasty league and the roster carried over.{/if} The site then plays out every remaining regular-season game {odds.sims.toLocaleString()} times with realistic week-to-week swings (a typical score varies by about {odds.sd} points), ranks the teams by wins and then points, and plays out the bracket. Each run also redraws how good every team really is, which keeps early-season odds from getting too confident.</p>
-        <p>It does not look at rosters, injuries or trades, so a team that just traded for a star will be underrated until the points show up. Updated every Tuesday.</p>
+        {#if odds.roster_weight}
+            <p>Half of each team's rating is that scoring. The other half is its current roster: the best lineup it can field each remaining week on that week's projections, which move with injuries, trades, byes and each player's NFL opponent. The playoff rounds use the roster's projections for the playoff weeks. A player who is out now is projected as out until his status changes, so a team waiting on a return is underrated until he is back. Updated every morning.</p>
+        {:else}
+            <p>It does not look at rosters, injuries or trades, so a team that just traded for a star will be underrated until the points show up. Updated every morning.</p>
+        {/if}
     </details>
 </div>
 
