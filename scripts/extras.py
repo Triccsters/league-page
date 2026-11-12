@@ -533,18 +533,35 @@ def team_models(ctx):
 
 
 def _bracket(seeds, draw):
-    """seeds: list of handles best first. Returns champion. Sleeper default, no reseeding."""
+    """seeds: list of handles best first. Returns champion. Sleeper default, no reseeding.
+
+    draw(handle, round) scores one team in one round (0 = the first playoff
+    week), so a team can be rated differently from week to week. The games are
+    played in the same order as before, which keeps the random stream, and so
+    the published numbers, unchanged when every round has the same rating."""
     n = len(seeds)
-    def g(a, b):
-        return a if draw(a) >= draw(b) else b
+    def g(a, b, rd):
+        return a if draw(a, rd) >= draw(b, rd) else b
     if n == 2:
-        return g(seeds[0], seeds[1])
+        return g(seeds[0], seeds[1], 0)
     if n == 4:
-        return g(g(seeds[0], seeds[3]), g(seeds[1], seeds[2]))
+        x = g(seeds[0], seeds[3], 0)
+        y = g(seeds[1], seeds[2], 0)
+        return g(x, y, 1)
     if n == 6:
-        return g(g(seeds[0], g(seeds[3], seeds[4])), g(seeds[1], g(seeds[2], seeds[5])))
+        a = g(seeds[3], seeds[4], 0)
+        x = g(seeds[0], a, 1)
+        b = g(seeds[2], seeds[5], 0)
+        y = g(seeds[1], b, 1)
+        return g(x, y, 2)
     if n == 8:
-        return g(g(g(seeds[0], seeds[7]), g(seeds[3], seeds[4])), g(g(seeds[1], seeds[6]), g(seeds[2], seeds[5])))
+        a = g(seeds[0], seeds[7], 0)
+        b = g(seeds[3], seeds[4], 0)
+        x = g(a, b, 1)
+        c = g(seeds[1], seeds[6], 0)
+        d = g(seeds[2], seeds[5], 0)
+        y = g(c, d, 1)
+        return g(x, y, 2)
     return seeds[0]
 
 
@@ -701,6 +718,8 @@ def build_odds_and_previews(ctx):
 
     mu_week = {h: {w: rating(h, [w]) for w in schedule} for h in teams}
     mu_po = {h: rating(h, po_weeks) for h in teams}
+    # one rating per playoff round: the roster's projections for that week
+    mu_round = {h: [rating(h, [pstart + k]) for k in range(3)] for h in teams}
     roster_on = any(rw[h] for h in teams)
     for h in teams:
         reg = [rw[h][w] for w in schedule if w in rw[h]]
@@ -743,7 +762,7 @@ def build_odds_and_previews(ctx):
                 tally[h]["seed1"] += 1
             if i == len(order) - 1:
                 tally[h]["last"] += 1
-        draw = lambda h: rnd.gauss(mu_po[h] + off[h], sd)
+        draw = lambda h, rd=None: rnd.gauss((mu_po[h] if rd is None else mu_round[h][min(rd, 2)]) + off[h], sd)
         champ = _bracket(order[:n_playoff], draw)
         tally[champ]["title"] += 1
         board = _toilet(order[n_playoff:][::-1], draw)
