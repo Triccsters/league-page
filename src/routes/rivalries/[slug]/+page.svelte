@@ -27,6 +27,21 @@
 
     const rec = (t) => `${t.x}–${t.y}${t.t ? `–${t.t}` : ''}`;
     const gameName = (m) => m.label || (m.playoff ? 'Playoffs' : `Week ${m.week}`);
+    // regular season, playoff or consolation (T.J., 2026-11-12). Every game counts
+    // toward the series record; this only says what kind of game it was.
+    const REAL = new Set(['Quarterfinal', 'Semifinal', 'Championship']);
+    const kindOf = (m) => (!m.playoff ? 'Regular season' : REAL.has(m.label) ? 'Playoff' : 'Consolation');
+    const tally = (ms, a, b) => {
+        const s = { x: 0, y: 0, t: 0, xpts: 0, ypts: 0 };
+        for (const m of ms) {
+            if (m.winner === a) s.x++; else if (m.winner === b) s.y++; else s.t++;
+            s.xpts += m.xp; s.ypts += m.yp;
+        }
+        s.xpts = Math.round(s.xpts * 100) / 100; s.ypts = Math.round(s.ypts * 100) / 100;
+        return s;
+    };
+    $: po = tally(r.meetings.filter(m => kindOf(m) === 'Playoff'), x, y);
+    $: con = tally(r.meetings.filter(m => kindOf(m) === 'Consolation'), x, y);
 </script>
 
 <svelte:head><title>{X} vs {Y} | {site.league_name} rivalries</title></svelte:head>
@@ -57,7 +72,8 @@
             <tbody>
                 <tr><td>All games</td><td>{rec(r.all)}</td><td>{r.all.xpts} – {r.all.ypts}</td></tr>
                 <tr><td>Regular season</td><td>{rec(r.regular)}</td><td>{r.regular.xpts} – {r.regular.ypts}</td></tr>
-                <tr><td>Playoffs and consolation</td><td>{rec(r.playoffs)}</td><td>{r.playoffs.xpts} – {r.playoffs.ypts}</td></tr>
+                <tr><td>Playoffs</td><td>{rec(po)}</td><td>{po.xpts} – {po.ypts}</td></tr>
+                <tr><td>Consolation</td><td>{rec(con)}</td><td>{con.xpts} – {con.ypts}</td></tr>
                 {#if hasYahoo}
                     <tr><td>Yahoo era ({site.yahoo_years[0]}–{site.yahoo_years[1]})</td><td>{rec(r.yahoo)}</td><td>{r.yahoo.xpts} – {r.yahoo.ypts}</td></tr>
                     <tr><td>Sleeper era ({site.sleeper_from}–now)</td><td>{rec(r.sleeper)}</td><td>{r.sleeper.xpts} – {r.sleeper.ypts}</td></tr>
@@ -91,14 +107,16 @@
         <HBarChart items={margins} format={(v) => (v > 0 ? `+${v.toFixed(1)}` : v.toFixed(1))} ariaLabel="Margin of every meeting between {X} and {Y}" />
 
         <h2>Every meeting</h2>
+        <p class="sub">Every game counts toward the series record: regular season, playoff and consolation.</p>
         <table class="log">
-            <thead><tr><th>#</th><th>Season</th><th>Game</th><th class="num">{X}</th><th class="num">{Y}</th><th>Winner</th></tr></thead>
+            <thead><tr><th>#</th><th>Season</th><th>Game</th><th>Type</th><th class="num">{X}</th><th class="num">{Y}</th><th>Winner</th></tr></thead>
             <tbody>
                 {#each [...r.meetings].reverse() as m, i}
                     <tr class:po={m.playoff} class:live={m.season === site.season}>
                         <td>{n - i}</td>
                         <td>{m.season}{#if m.season === site.season} <span class="now">this season</span>{:else if hasYahoo} <small>{m.eraLabel}</small>{/if}</td>
                         <td>{gameName(m)}</td>
+                        <td><span class="kind" class:kp={kindOf(m) === 'Playoff'} class:kc={kindOf(m) === 'Consolation'}>{kindOf(m)}</span></td>
                         <td class="num" class:win={m.winner === x}>{m.xp.toFixed(2)}</td>
                         <td class="num" class:win={m.winner === y}>{m.yp.toFixed(2)}</td>
                         <td>{m.winner ? nameOf(m.winner) : 'Tie'} <small>+{m.margin}</small></td>
@@ -145,4 +163,7 @@
     .sw { display: inline-block; width: 14px; height: 14px; border-radius: 50%; }
     .sw.blue { background: #3498db; }
     .sw.red { background: #e74c3c; }
+    .kind { display: inline-block; padding: 0 0.45em; border-radius: 3px; background: #34495e; color: #ffffff; font-size: 0.8em; white-space: nowrap; }
+    .kind.kp { background: #1e8449; }
+    .kind.kc { background: #935116; }
 </style>

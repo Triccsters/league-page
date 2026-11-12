@@ -6,6 +6,7 @@
 	import HomeHero from '$lib/Charts/HomeHero.svelte';
 	import PowerBoard from '$lib/Charts/PowerBoard.svelte';
 	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
+	import WhatsNew from '$lib/Charts/WhatsNew.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 	import { games } from '$lib/utils/flpHistory';
 	import Who from '$lib/Charts/Who.svelte';
@@ -167,6 +168,7 @@
         <HomeHero />
         <PowerBoard />
         <ThisWeek />
+        <WhatsNew />
         <HelpWanted />
     </div>
     

@@ -1,0 +1,43 @@
+[
+ {
+  "d": "2026-11-12",
+  "kind": "new",
+  "title": "Rivalry pages show what kind of game each meeting was",
+  "text": "Every meeting is tagged regular season, playoff or consolation, and the series record is split the same way. All of them still count.",
+  "link": "/rivalries"
+ },
+ {
+  "d": "2026-11-12",
+  "kind": "new",
+  "title": "Playoff odds that know your roster",
+  "text": "Starting with the week 10 results, the odds and the weekly win chances read each team's current roster, injuries, byes and NFL matchups, not only what the team has scored so far.",
+  "link": "/odds"
+ },
+ {
+  "d": "2026-11-12",
+  "kind": "new",
+  "title": "This box",
+  "text": "Additions and fixes to the site get listed here as they happen."
+ },
+ {
+  "d": "2026-11-11",
+  "kind": "new",
+  "title": "Trade matrix",
+  "text": "A grid of how many trades every pair of managers has made. Tap a number to see those trades.",
+  "link": "/trade-grades"
+ },
+ {
+  "d": "2026-11-11",
+  "kind": "new",
+  "title": "If the season ended today",
+  "text": "Each weekly newsletter now shows the playoff field, the byes and the first-round games as the standings sit.",
+  "link": "/recaps"
+ },
+ {
+  "d": "2026-11-11",
+  "kind": "new",
+  "title": "The what-if tracker",
+  "text": "Each weekly newsletter tracks where the league would stand without kickers and with a league median game.",
+  "link": "/recaps"
+ }
+]
