@@ -170,7 +170,7 @@ def _shape(raw, block, kind, used):
         floor[pos] = len(names) + 1
     # `scoring` reports what was ACTUALLY used, not what the file's header says,
     # so a league reading the fallback block is visibly reading half-PPR ranks.
-    return {"map": m, "floor": floor, "kind": kind, "asof": raw.get("generated"),
+    return {"map": m, "floor": floor, "kind": kind, "asof": (raw.get("asof") or {}).get(kind) or raw.get("generated"),   # per-block date when the file has one
             "scoring": used, "source": raw.get("source")}
 
 
