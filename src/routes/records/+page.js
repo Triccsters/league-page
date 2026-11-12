@@ -1,13 +1,7 @@
-import { getLeagueRecords, getLeagueTeamManagers, getLeagueTransactions, waitForAll } from '$lib/utils/helper';
+import { redirect } from '@sveltejs/kit';
 
-export async function load() {
-    const recordsInfo = waitForAll(
-        getLeagueRecords(false),
-        getLeagueTransactions(false),
-        getLeagueTeamManagers(),
-    )
-
-    return {
-        recordsInfo
-    };
+// The original Records page read Sleeper only (2021 on). The Record Book covers every
+// season on Yahoo and Sleeper, with an era toggle for the Sleeper years (T.J., 2026-11-12).
+export function load() {
+    throw redirect(308, '/record-book');
 }

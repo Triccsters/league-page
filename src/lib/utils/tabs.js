@@ -172,11 +172,6 @@ export const tabs = [
                 dest: '/awards',
             },
             {
-                icon: 'military_tech',
-                label: 'Records',
-                dest: '/records',
-            },
-            {
                 icon: 'local_fire_department',
                 label: 'Rivalries (all-time)',
                 dest: '/rivalries',
