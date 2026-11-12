@@ -60,7 +60,7 @@
             </p>
         </section>
     {/each}
-    <p class="note">Built {previews.generated.slice(0, 10)}. Updated every Tuesday for the week ahead.</p>
+    <p class="note">Built {previews.generated.slice(0, 10)}. Updated every morning for the week ahead.</p>
 </div>
 
 <style>

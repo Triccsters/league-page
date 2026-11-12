@@ -41,27 +41,40 @@
 
     function simulate() {
         const hs = teams.map(t => t.h);
+        const byH = Object.fromEntries(teams.map(t => [t.h, t]));
+        const muAt = (h, wk) => byH[h].mu_weeks?.[String(wk)] ?? byH[h].mu;
         const made = Object.fromEntries(hs.map(h => [h, 0]));
         const byes = Object.fromEntries(hs.map(h => [h, 0]));
         const winSum = Object.fromEntries(hs.map(h => [h, 0]));
 
         for (let s = 0; s < SIMS; s++) {
             // each simulation gets its own view of how good every team really is
-            const trueMu = {};
-            for (const t of teams) trueMu[t.h] = gauss(t.mu, t.tau ?? 3);
+            const off = {};
+            for (const t of teams) off[t.h] = gauss(0, t.tau ?? 3);
 
             const w = {}, pf = {};
             for (const t of teams) { w[t.h] = t.w; pf[t.h] = t.pf; }
 
             for (const wk of weeks) {
+                const wkScores = {};
                 for (const [a, b] of schedule[String(wk)]) {
                     const forced = picks[gameKey(wk, a, b)];
-                    let sa = gauss(trueMu[a], sd);
-                    let sb = gauss(trueMu[b], sd);
+                    // the odds page's own rating for this team this week, when it has one
+                    let sa = gauss(muAt(a, wk) + off[a], sd);
+                    let sb = gauss(muAt(b, wk) + off[b], sd);
                     if (forced === a && sb > sa) { const t = sa; sa = sb; sb = t; }
                     if (forced === b && sa > sb) { const t = sa; sa = sb; sb = t; }
                     pf[a] += sa; pf[b] += sb;
+                    wkScores[a] = sa; wkScores[b] = sb;
                     if (sa > sb) w[a]++; else if (sb > sa) w[b]++;
+                }
+                // a median league also plays the middle of the league every week
+                if (odds.median) {
+                    const xs = Object.values(wkScores).sort((x, y) => x - y);
+                    if (xs.length) {
+                        const med = xs.length % 2 ? xs[(xs.length - 1) / 2] : (xs[xs.length / 2 - 1] + xs[xs.length / 2]) / 2;
+                        for (const h in wkScores) if (wkScores[h] > med) w[h]++;
+                    }
                 }
             }
             const cmp = (x, y) => (w[y] - w[x]) || (pf[y] - pf[x]);
@@ -136,9 +149,9 @@
 <div class="holder">
     <h1>What If</h1>
     <p class="sub">
-        Pick winners for any of the {totalGames} games left and the playoff odds below re-run on the spot —
+        Pick winners for any of the {totalGames} games left and the playoff odds below re-run on the spot:
         {SIMS.toLocaleString()} simulations every time you click. Games you have not picked are still
-        simulated from each team's scoring average and spread, the same model the
+        simulated from each team's rating and spread, the same model the
         <a href="/odds">playoff odds</a> page uses. Nothing here changes the real standings.
     </p>
 
