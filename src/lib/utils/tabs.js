@@ -12,6 +12,12 @@ const acrossTab = leagueInfo.shimmed
     ? []
     : [{ icon: 'hub', label: 'Across the Leagues', dest: '/across' }];
 
+// Win now v long term needs src/lib/data/dynasty.json, so a dynasty league
+// opts in with `export const dynastyOutlook = true` in its own leagueInfo.js.
+const dynastyTab = leagueInfo.dynastyOutlook
+    ? [{ icon: 'trending_up', label: 'Win Now v Long Term', dest: '/dynasty-outlook' }]
+    : [];
+
 export const tabs = [
     {
         icon: 'home',
@@ -70,6 +76,12 @@ export const tabs = [
                 label: 'Playoff Odds',
                 dest: '/odds',
             },
+            {
+                icon: 'emoji_events',
+                label: 'Playoff Picture',
+                dest: '/playoff-picture',
+            },
+            ...dynastyTab,
             {
                 icon: 'track_changes',
                 label: 'Trackers',
@@ -170,6 +182,11 @@ export const tabs = [
                 icon: 'emoji_events',
                 label: 'Trophy Room',
                 dest: '/awards',
+            },
+            {
+                icon: 'military_tech',
+                label: 'Records',
+                dest: '/records',
             },
             {
                 icon: 'local_fire_department',
