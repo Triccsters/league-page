@@ -2,6 +2,7 @@
     import { onMount } from 'svelte';
     import { currentPairs, nameOf, currentManagers, generated, site, hasYahoo } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
+    import RivalryHub from '$lib/Charts/RivalryHub.svelte';
 
     const pairs = currentPairs();
     let who = '';
@@ -30,6 +31,9 @@
     <h1>Rivalries</h1>
     <p class="sub">Every head-to-head since {site.first_season}{hasYahoo ? ', Yahoo and Sleeper eras combined' : ''}. Playoff and consolation games included.</p>
 
+    {#if !who}<RivalryHub />{/if}
+
+    <h2 class="allh">Every series</h2>
     <label class="pick">Show one manager:
         <select bind:value={who}>
             <option value="">Everyone ({pairs.length} rivalries)</option>

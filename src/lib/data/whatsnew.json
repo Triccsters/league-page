@@ -2,6 +2,13 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "Rivalry Hub",
+  "text": "Every head-to-head series now gets a rivalry score out of 100, with the league's biggest rivalry on top and tabs for the closest, the most played and the ones with a title game in them.",
+  "link": "/rivalries"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Career Leaders",
   "text": "All-time leader cards on the Hall of Fame page: titles, title games, playoff trips, playoff wins, wins, winning percentage and points.",
   "link": "/hall-of-fame"
