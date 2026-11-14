@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T14:46:21+00:00",
+ "generated": "2026-11-14T02:05:17+00:00",
  "season": 2026,
  "through_week": 9,
  "sims": 10000,
@@ -40,7 +40,17 @@
     "butterygoop",
     "Wallner"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 114.75,
+   "mu_roster": null,
+   "mu_playoff": 114.75,
+   "mu_weeks": {
+    "10": 114.75,
+    "11": 114.75,
+    "12": 114.75,
+    "13": 114.75,
+    "14": 114.75
+   }
   },
   {
    "h": "butterygoop",
@@ -66,7 +76,17 @@
     "TuanonStan",
     "triccster"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 115.35,
+   "mu_roster": null,
+   "mu_playoff": 115.35,
+   "mu_weeks": {
+    "10": 115.35,
+    "11": 115.35,
+    "12": 115.35,
+    "13": 115.35,
+    "14": 115.35
+   }
   },
   {
    "h": "Jbird531",
@@ -92,7 +112,17 @@
     "Wallner",
     "PapaMidnight"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 103.43,
+   "mu_roster": null,
+   "mu_playoff": 103.43,
+   "mu_weeks": {
+    "10": 103.43,
+    "11": 103.43,
+    "12": 103.43,
+    "13": 103.43,
+    "14": 103.43
+   }
   },
   {
    "h": "Colt45Johnson",
@@ -118,7 +148,17 @@
     "RockMNwild",
     "thecreamer"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 104.98,
+   "mu_roster": null,
+   "mu_playoff": 104.98,
+   "mu_weeks": {
+    "10": 104.98,
+    "11": 104.98,
+    "12": 104.98,
+    "13": 104.98,
+    "14": 104.98
+   }
   },
   {
    "h": "YoungBuck04",
@@ -144,7 +184,17 @@
     "snelson91",
     "RockMNwild"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 105.69,
+   "mu_roster": null,
+   "mu_playoff": 105.69,
+   "mu_weeks": {
+    "10": 105.69,
+    "11": 105.69,
+    "12": 105.69,
+    "13": 105.69,
+    "14": 105.69
+   }
   },
   {
    "h": "brettmn13",
@@ -170,7 +220,17 @@
     "thecreamer",
     "snelson91"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 99.99,
+   "mu_roster": null,
+   "mu_playoff": 99.99,
+   "mu_weeks": {
+    "10": 99.99,
+    "11": 99.99,
+    "12": 99.99,
+    "13": 99.99,
+    "14": 99.99
+   }
   },
   {
    "h": "RockMNwild",
@@ -196,7 +256,17 @@
     "Colt45Johnson",
     "YoungBuck04"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 104.85,
+   "mu_roster": null,
+   "mu_playoff": 104.85,
+   "mu_weeks": {
+    "10": 104.85,
+    "11": 104.85,
+    "12": 104.85,
+    "13": 104.85,
+    "14": 104.85
+   }
   },
   {
    "h": "Wallner",
@@ -222,7 +292,17 @@
     "Jbird531",
     "TuanonStan"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 105.37,
+   "mu_roster": null,
+   "mu_playoff": 105.37,
+   "mu_weeks": {
+    "10": 105.37,
+    "11": 105.37,
+    "12": 105.37,
+    "13": 105.37,
+    "14": 105.37
+   }
   },
   {
    "h": "snelson91",
@@ -248,7 +328,17 @@
     "YoungBuck04",
     "brettmn13"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 108.21,
+   "mu_roster": null,
+   "mu_playoff": 108.21,
+   "mu_weeks": {
+    "10": 108.21,
+    "11": 108.21,
+    "12": 108.21,
+    "13": 108.21,
+    "14": 108.21
+   }
   },
   {
    "h": "thecreamer",
@@ -274,7 +364,17 @@
     "brettmn13",
     "Colt45Johnson"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 98.13,
+   "mu_roster": null,
+   "mu_playoff": 98.13,
+   "mu_weeks": {
+    "10": 98.13,
+    "11": 98.13,
+    "12": 98.13,
+    "13": 98.13,
+    "14": 98.13
+   }
   },
   {
    "h": "triccster",
@@ -300,7 +400,17 @@
     "PapaMidnight",
     "butterygoop"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 102.48,
+   "mu_roster": null,
+   "mu_playoff": 102.48,
+   "mu_weeks": {
+    "10": 102.48,
+    "11": 102.48,
+    "12": 102.48,
+    "13": 102.48,
+    "14": 102.48
+   }
   },
   {
    "h": "PapaMidnight",
@@ -326,7 +436,17 @@
     "triccster",
     "Jbird531"
    ],
-   "tau": 5.79
+   "tau": 5.79,
+   "mu_scores": 97.46,
+   "mu_roster": null,
+   "mu_playoff": 97.46,
+   "mu_weeks": {
+    "10": 97.46,
+    "11": 97.46,
+    "12": 97.46,
+    "13": 97.46,
+    "14": 97.46
+   }
   }
  ],
  "history": {
@@ -603,5 +723,6 @@
   "brettmn13": 2,
   "snelson91": 2,
   "thecreamer": 1
- }
+ },
+ "roster_weight": 0
 }

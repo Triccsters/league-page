@@ -144,7 +144,7 @@
 
         {#if pickValue.length}
             <h2>What a pick is worth</h2>
-            <p class="note">Average points a pick in each round has returned in its manager's starting lineup, across every finished {drafts?.dynasty ? 'rookie draft' : 'draft'} in this league{drafts?.dynasty ? '. The startup draft is left out' : ''}. Use it to judge a trade for picks.</p>
+            <p class="note">Average points a pick in each round has returned in its manager's starting lineup, across every finished {drafts?.dynasty ? 'rookie draft' : 'draft'} in this league{drafts?.dynasty ? '. The startup draft is left out. Use it to judge a trade for picks.' : '. It shows what each round of the draft has been worth.'}</p>
             <div class="pv">{#each pickValue as v}<div class:early={v.r <= 2}><small>Rd {v.r}</small><b>{v.avg}</b><small>{v.n} picks</small></div>{/each}</div>
         {/if}
 

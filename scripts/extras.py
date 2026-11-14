@@ -352,6 +352,17 @@ def build_drafts(ctx, rows):
             if p.season >= ctx["season"]:
                 continue
             picks.append([p.season, p.rnd, p.pick_no, p.manager, p.player, p.pos or "", round(p.value, 2), False, ""])
+        # some seasons in the vault notes carry every pick as round 1, with the pick number restarting each round.
+        # Rebuild the round from how many times that pick number has already come up (T.J. spotted this 2026-11-13).
+        _by = defaultdict(list)
+        for _p in picks:
+            _by[_p[0]].append(_p)
+        for _season, _rows in _by.items():
+            if sum(1 for _p in _rows if _p[1] == 1) > 2 * (len({_p[3] for _p in _rows}) or 1):
+                _seen = defaultdict(int)
+                for _p in _rows:
+                    _seen[_p[2]] += 1
+                    _p[1] = _seen[_p[2]]
     for S in ctx["live_seasons"]:
         try:
             drafts = ctx["sleeper"](f"/league/{S.league_id}/drafts") or []
@@ -384,6 +395,14 @@ def build_drafts(ctx, rows):
                 ypos.setdefault(pkey(name), pos)
         for season, got in sorted(ydrafts.items()):
             lab = yahoo_label(ycov, season)
+            # some Yahoo seasons arrive with every pick marked round 1 and the pick number restarting each
+            # round; rebuild the round from how many times that pick number has already come up (2026-11-13)
+            _mgrs = len({pk["handle"] for pk in got}) or 1
+            if sum(1 for pk in got if pk["round"] == 1) > 2 * _mgrs:
+                _seen = defaultdict(int)
+                for pk in got:
+                    _seen[pk["pick"]] += 1
+                    pk["round"] = _seen[pk["pick"]]
             for pk in got:
                 k = pkey(pk["player"])
                 picks.append([season, pk["round"], pk["pick"], pk["handle"], pk["player"],
