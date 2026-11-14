@@ -3,6 +3,7 @@
     import { onMount } from 'svelte';
     import { nameOf, managerLink, teamName, site } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
+    import Champions from '$lib/Charts/Champions.svelte';
 
     let data = null;
     let failed = false;
@@ -48,6 +49,8 @@
         picks, across all {site.first_season ? `seasons since ${site.first_season}` : 'seasons on record'}. Nothing is
         voted on. Top three in each, with the leader's detail where there is one.
     </p>
+
+    <Champions />
 
     {#if data}
         <div class="filters">

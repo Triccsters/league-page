@@ -203,6 +203,11 @@ export const tabs = [
                 dest: '/managers',
             },
             {
+                icon: 'sports_score',
+                label: 'Challenges',
+                dest: '/challenges',
+            },
+            {
                 icon: 'history_edu',
                 label: 'League Rules',
                 dest: '/rules',
