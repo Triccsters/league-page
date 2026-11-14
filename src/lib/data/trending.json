@@ -6,105 +6,105 @@
    "n": "Corey Kiner",
    "p": "RB",
    "t": "NE",
-   "c": 6033174,
+   "c": 6013800,
    "h": "Colt45Johnson"
   },
   {
    "n": "Tank Dell",
    "p": "WR",
    "t": "HOU",
-   "c": 4508696,
+   "c": 4521048,
    "h": "TuanonStan"
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 4451418,
+   "c": 4472460,
    "h": "YoungBuck04"
   },
   {
    "n": "Darren Waller",
    "p": "TE",
    "t": "CAR",
-   "c": 2390274,
+   "c": 2441682,
+   "h": null
+  },
+  {
+   "n": "Tutu Atwell",
+   "p": "WR",
+   "t": "LAR",
+   "c": 2137023,
    "h": null
   },
   {
    "n": "Audric Estime",
    "p": "RB",
    "t": "NO",
-   "c": 2123145,
+   "c": 2128620,
    "h": "triccster"
-  },
-  {
-   "n": "Tutu Atwell",
-   "p": "WR",
-   "t": "LAR",
-   "c": 2108981,
-   "h": null
   },
   {
    "n": "Fernando Mendoza",
    "p": "QB",
    "t": "LV",
-   "c": 1657896,
+   "c": 1667648,
    "h": null
   },
   {
    "n": "Demarcus Robinson",
    "p": "WR",
    "t": "SF",
-   "c": 1344654,
+   "c": 1294032,
    "h": null
-  },
-  {
-   "n": "Devin Singletary",
-   "p": "RB",
-   "t": "NYG",
-   "c": 1226295,
-   "h": null
-  },
-  {
-   "n": "Justice Hill",
-   "p": "RB",
-   "t": "BAL",
-   "c": 1113768,
-   "h": "brettmn13"
-  },
-  {
-   "n": "Baltimore Ravens",
-   "p": "DEF",
-   "t": "BAL",
-   "c": 1023729,
-   "h": "RockMNwild"
   },
   {
    "n": "Emmett Johnson",
    "p": "RB",
    "t": "KC",
-   "c": 1007478,
+   "c": 1195479,
    "h": "YoungBuck04"
+  },
+  {
+   "n": "Justice Hill",
+   "p": "RB",
+   "t": "BAL",
+   "c": 1126431,
+   "h": "brettmn13"
+  },
+  {
+   "n": "Devin Singletary",
+   "p": "RB",
+   "t": "NYG",
+   "c": 1049337,
+   "h": null
+  },
+  {
+   "n": "Baltimore Ravens",
+   "p": "DEF",
+   "t": "BAL",
+   "c": 1028433,
+   "h": "RockMNwild"
   },
   {
    "n": "Ashton Dulin",
    "p": "WR",
    "t": "IND",
-   "c": 962100,
+   "c": 978813,
    "h": null
   },
   {
    "n": "Kyle McCord",
    "p": "QB",
    "t": "MIA",
-   "c": 949788,
+   "c": 953296,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 868221,
+   "c": 888417,
    "h": null
   }
  ],
@@ -113,105 +113,105 @@
    "n": "Michael Wilson",
    "p": "WR",
    "t": "ARI",
-   "c": 3228624,
+   "c": 3245310,
    "h": "Jbird531"
   },
   {
    "n": "Devin Singletary",
    "p": "RB",
    "t": "NYG",
-   "c": 2059173,
+   "c": 2088378,
    "h": null
   },
   {
    "n": "Seth McGowan",
    "p": "RB",
    "t": "IND",
-   "c": 1732248,
+   "c": 1744672,
    "h": "TuanonStan"
   },
   {
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 1506924,
+   "c": 1489446,
    "h": "thecreamer"
   },
   {
    "n": "Malik Willis",
    "p": "QB",
    "t": "MIA",
-   "c": 1477105,
+   "c": 1480724,
    "h": null
   },
   {
    "n": "Chase McLaughlin",
    "p": "K",
    "t": "TB",
-   "c": 1446984,
+   "c": 1456952,
    "h": "butterygoop"
   },
   {
    "n": "Adonai Mitchell",
    "p": "WR",
    "t": "NYJ",
-   "c": 1344088,
+   "c": 1357160,
    "h": null
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 1221888,
-   "h": null
-  },
-  {
-   "n": "Dameon Pierce",
-   "p": "RB",
-   "t": null,
-   "c": 1159352,
+   "c": 1218304,
    "h": null
   },
   {
    "n": "Cairo Santos",
    "p": "K",
    "t": "CHI",
-   "c": 1148945,
+   "c": 1153796,
    "h": null
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1132137,
+   "c": 1137042,
+   "h": null
+  },
+  {
+   "n": "Dameon Pierce",
+   "p": "RB",
+   "t": null,
+   "c": 1079904,
    "h": null
   },
   {
    "n": "Elijah Mitchell",
    "p": "RB",
    "t": "PHI",
-   "c": 1049211,
+   "c": 1051317,
    "h": null
   },
   {
    "n": "Devaughn Vele",
    "p": "WR",
    "t": "NO",
-   "c": 939274,
+   "c": 945413,
    "h": null
   },
   {
    "n": "Carson Wentz",
    "p": "QB",
    "t": "MIN",
-   "c": 889926,
+   "c": 895176,
    "h": null
   },
   {
    "n": "New England Patriots",
    "p": "DEF",
    "t": "NE",
-   "c": 862211,
+   "c": 863478,
    "h": null
   }
  ]

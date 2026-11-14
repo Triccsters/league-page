@@ -220,7 +220,7 @@
       ],
       [
        "@@butterygoop",
-       12,
+       13,
        138.9,
        "-"
       ],
@@ -238,7 +238,7 @@
       ],
       [
        "@@snelson91",
-       13,
+       14,
        42.2,
        "$18"
       ],
@@ -922,7 +922,7 @@
       ],
       [
        "@@butterygoop",
-       "RB, WR, TE",
+       "RB, WR",
        "QB",
        "QB 9 RB 2 WR 2 TE 6"
       ],
@@ -1064,7 +1064,7 @@
        "@@triccster",
        "Stefon Diggs",
        "WR WAS",
-       10.3
+       10.2
       ],
       [
        "@@PapaMidnight",
@@ -1089,12 +1089,6 @@
        "Dalton Kincaid",
        "TE BUF",
        8.1
-      ],
-      [
-       "@@butterygoop",
-       "Brenton Strange",
-       "TE JAX",
-       7.9
       ]
      ]
     }
@@ -1154,20 +1148,20 @@
       ],
       [
        7,
+       "@@PapaMidnight",
+       25.1,
+       "Jordan Mason, Malik Washington, Keon Coleman"
+      ],
+      [
+       8,
        "@@brettmn13",
        25.1,
        "Zach Charbonnet, Aaron Jones Sr., Josh Jacobs"
       ],
       [
-       8,
-       "@@PapaMidnight",
-       25.0,
-       "Jordan Mason, Malik Washington, Keon Coleman"
-      ],
-      [
        9,
        "@@RockMNwild",
-       21.4,
+       21.5,
        "Jordyn Tyson, Rico Dowdle, Tre Tucker"
       ],
       [
@@ -1179,7 +1173,7 @@
       [
        11,
        "@@YoungBuck04",
-       20.4,
+       20.3,
        "Blake Corum, Emmett Johnson, Antonio Williams"
       ],
       [
@@ -1407,42 +1401,42 @@
        "@@RockMNwild",
        2,
        21.7,
-       "Bucky Irving, Jaylen Waddle"
+       "Jaylen Waddle, Bucky Irving"
       ],
       [
        10,
        "@@brettmn13",
        2,
        16.8,
-       "Colston Loveland, Jonah Coleman"
+       "Jonah Coleman, Colston Loveland"
       ],
       [
        11,
        "@@YoungBuck04",
        3,
        31.3,
-       "Davante Adams, Jordan Love, A.J. Brown"
+       "Jordan Love, A.J. Brown, Davante Adams"
       ],
       [
        11,
        "@@snelson91",
        3,
        27.7,
-       "Matthew Golden, Seattle Seahawks, Kyren Williams"
+       "Matthew Golden, Kyren Williams, Seattle Seahawks"
       ],
       [
        11,
        "@@TuanonStan",
        2,
        26.0,
-       "Drake London, Bijan Robinson"
+       "Bijan Robinson, Drake London"
       ],
       [
        11,
        "@@thecreamer",
        3,
        19.8,
-       "Harold Fannin Jr., Cleveland Browns, Quinshon Judkins"
+       "Quinshon Judkins, Harold Fannin Jr., Cleveland Browns"
       ],
       [
        11,

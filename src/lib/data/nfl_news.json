@@ -1,7 +1,7 @@
 {
- "read_at": "2026-11-14T02:05+00:00",
+ "read_at": "2026-11-14T14:29+00:00",
  "days": 7,
- "count": 112,
+ "count": 113,
  "items": [
   {
    "headline": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
@@ -142,62 +142,63 @@
    "score": 21.0
   },
   {
-   "headline": "Sean McVay: Rams optimistic WR Davante Adams will return 'sooner than later'",
-   "url": "https://www.espn.com/nfl/story/_/id/50455318/mcvay-rams-optimistic-wr-adams-return-sooner-later",
-   "date": "2026-11-12",
+   "headline": "Vikings to start reacquired QB Kirk Cousins vs. Packers",
+   "url": "https://www.espn.com/nfl/story/_/id/50474753/vikings-start-reacquired-qb-kirk-cousins-vs-packers",
+   "date": "2026-11-14",
    "kind": "news",
    "teams": [
-    "LAR"
+    "MIN"
    ],
    "named": [
     {
-     "n": "Davante Adams",
-     "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Puka Nacua",
-     "p": "WR",
-     "t": "LAR",
-     "h": "Colt45Johnson"
+     "n": "Kirk Cousins",
+     "p": "QB",
+     "t": "MIN",
+     "h": "butterygoop"
     }
    ],
    "lead": [
-    "Davante Adams"
+    "Kirk Cousins"
    ],
    "ripple": [
     {
-     "n": "Blake Corum",
+     "n": "Jordan Mason",
      "p": "RB",
-     "t": "LAR",
-     "h": "YoungBuck04"
+     "t": "MIN",
+     "h": "PapaMidnight"
     },
     {
-     "n": "Konata Mumpfield",
+     "n": "T.J. Hockenson",
+     "p": "TE",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Jordan Addison",
      "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
+     "t": "MIN",
+     "h": "Colt45Johnson"
     },
     {
-     "n": "Matthew Stafford",
-     "p": "QB",
-     "t": "LAR",
-     "h": "snelson91"
-    },
-    {
-     "n": "Kyren Williams",
+     "n": "Aaron Jones Sr.",
      "p": "RB",
-     "t": "LAR",
-     "h": "snelson91"
+     "t": "MIN",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "YoungBuck04",
-    "snelson91"
+    "PapaMidnight",
+    "brettmn13",
+    "butterygoop"
    ],
-   "score": 15.0
+   "score": 14.5
   },
   {
    "headline": "Rams put WR Puka Nacua on IR with knee, toe injuries",
@@ -254,65 +255,6 @@
     "Colt45Johnson",
     "YoungBuck04",
     "snelson91"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "Vikings to start reacquired QB Kirk Cousins vs. Packers",
-   "url": "https://www.espn.com/nfl/story/_/id/50474753/vikings-start-reacquired-qb-kirk-cousins-vs-packers",
-   "date": "2026-11-13",
-   "kind": "news",
-   "teams": [
-    "MIN"
-   ],
-   "named": [
-    {
-     "n": "Kirk Cousins",
-     "p": "QB",
-     "t": "MIN",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "Kirk Cousins"
-   ],
-   "ripple": [
-    {
-     "n": "Jordan Mason",
-     "p": "RB",
-     "t": "MIN",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "T.J. Hockenson",
-     "p": "TE",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Jordan Addison",
-     "p": "WR",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Aaron Jones Sr.",
-     "p": "RB",
-     "t": "MIN",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Justin Jefferson",
-     "p": "WR",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "brettmn13",
-    "butterygoop"
    ],
    "score": 14.5
   },
@@ -376,73 +318,6 @@
    "score": 14.5
   },
   {
-   "headline": "Chiefs RB Kenneth Walker III (groin) misses practice, status uncertain",
-   "url": "https://www.espn.com/nfl/story/_/id/50473948/chiefs-rb-walker-groin-misses-practice-status-uncertain",
-   "date": "2026-11-13",
-   "kind": "news",
-   "teams": [
-    "KC"
-   ],
-   "named": [
-    {
-     "n": "Kenneth Walker III",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Xavier Worthy",
-     "p": "WR",
-     "t": "KC",
-     "h": "snelson91"
-    },
-    {
-     "n": "Josh Downs",
-     "p": "WR",
-     "t": "KC",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Kenneth Walker III"
-   ],
-   "ripple": [
-    {
-     "n": "Emmett Johnson",
-     "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Rashee Rice",
-     "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 14.0
-  },
-  {
    "headline": "Commanders QB Jayden Daniels finds redemption with game-winning drive",
    "url": "https://www.espn.com/nfl/story/_/id/50469451/commanders-jayden-daniels-redemption-game-winning-drive",
    "date": "2026-11-13",
@@ -493,56 +368,6 @@
     "triccster"
    ],
    "score": 14.0
-  },
-  {
-   "headline": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, source says",
-   "url": "https://www.espn.com/nfl/story/_/id/50472222/ravens-lamar-jackson-injury-typical-line-6-10-weeks",
-   "date": "2026-11-13",
-   "kind": "news",
-   "teams": [
-    "BAL",
-    "BUF",
-    "CLE",
-    "LAC"
-   ],
-   "named": [
-    {
-     "n": "Lamar Jackson",
-     "p": "QB",
-     "t": "BAL",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Lamar Jackson"
-   ],
-   "ripple": [
-    {
-     "n": "Zay Flowers",
-     "p": "WR",
-     "t": "BAL",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Derrick Henry",
-     "p": "RB",
-     "t": "BAL",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Justice Hill",
-     "p": "RB",
-     "t": "BAL",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "YoungBuck04",
-    "brettmn13"
-   ],
-   "score": 13.5
   },
   {
    "headline": "Does Packers' Christian Watson + Matthew Golden = 3,000 yards?",
@@ -600,6 +425,12 @@
      "p": "RB",
      "t": "GB",
      "h": "brettmn13"
+    },
+    {
+     "n": "Kaleb Johnson",
+     "p": "RB",
+     "t": "GB",
+     "h": "snelson91"
     }
    ],
    "managers": [
@@ -609,6 +440,56 @@
     "brettmn13",
     "snelson91",
     "triccster"
+   ],
+   "score": 14.0
+  },
+  {
+   "headline": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, sources say",
+   "url": "https://www.espn.com/nfl/story/_/id/50472222/ravens-lamar-jackson-injury-typical-line-6-10-weeks",
+   "date": "2026-11-14",
+   "kind": "news",
+   "teams": [
+    "BAL",
+    "BUF",
+    "CLE",
+    "LAC"
+   ],
+   "named": [
+    {
+     "n": "Lamar Jackson",
+     "p": "QB",
+     "t": "BAL",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "Lamar Jackson"
+   ],
+   "ripple": [
+    {
+     "n": "Zay Flowers",
+     "p": "WR",
+     "t": "BAL",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Derrick Henry",
+     "p": "RB",
+     "t": "BAL",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Justice Hill",
+     "p": "RB",
+     "t": "BAL",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "YoungBuck04",
+    "brettmn13"
    ],
    "score": 13.5
   },
@@ -673,6 +554,67 @@
     "triccster"
    ],
    "score": 13.5
+  },
+  {
+   "headline": "Chiefs RB Kenneth Walker III (groin) misses practice, status uncertain",
+   "url": "https://www.espn.com/nfl/story/_/id/50473948/chiefs-rb-walker-groin-misses-practice-status-uncertain",
+   "date": "2026-11-13",
+   "kind": "news",
+   "teams": [
+    "KC"
+   ],
+   "named": [
+    {
+     "n": "Kenneth Walker III",
+     "p": "RB",
+     "t": "KC",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Josh Downs",
+     "p": "WR",
+     "t": "KC",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Kenneth Walker III"
+   ],
+   "ripple": [
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 13.0
   },
   {
    "headline": "Rookie WR Carnell Tate among multiple Titans starters ruled out vs. Jaguars",
@@ -755,6 +697,117 @@
    "score": 13.0
   },
   {
+   "headline": "Sean McVay: Rams optimistic WR Davante Adams will return 'sooner than later'",
+   "url": "https://www.espn.com/nfl/story/_/id/50455318/mcvay-rams-optimistic-wr-adams-return-sooner-later",
+   "date": "2026-11-12",
+   "kind": "news",
+   "teams": [
+    "LAR"
+   ],
+   "named": [
+    {
+     "n": "Davante Adams",
+     "p": "WR",
+     "t": "LAR",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Puka Nacua",
+     "p": "WR",
+     "t": "LAR",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Davante Adams"
+   ],
+   "ripple": [
+    {
+     "n": "Blake Corum",
+     "p": "RB",
+     "t": "LAR",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Konata Mumpfield",
+     "p": "WR",
+     "t": "LAR",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Matthew Stafford",
+     "p": "QB",
+     "t": "LAR",
+     "h": "snelson91"
+    },
+    {
+     "n": "Kyren Williams",
+     "p": "RB",
+     "t": "LAR",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "YoungBuck04",
+    "snelson91"
+   ],
+   "score": 13.0
+  },
+  {
+   "headline": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
+   "url": "https://www.espn.com/nfl/story/_/id/50453373/sources-giants-eyed-bijan-robinson-trade-deadline",
+   "date": "2026-11-11",
+   "kind": "news",
+   "teams": [
+    "ATL",
+    "NYG"
+   ],
+   "named": [
+    {
+     "n": "Bijan Robinson",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Cam Skattebo",
+     "p": "RB",
+     "t": "NYG",
+     "h": "PapaMidnight"
+    }
+   ],
+   "lead": [
+    "Bijan Robinson"
+   ],
+   "ripple": [
+    {
+     "n": "Drake London",
+     "p": "WR",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Brian Robinson Jr.",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kyle Pitts Sr.",
+     "p": "TE",
+     "t": "ATL",
+     "h": "RockMNwild"
+    }
+   ],
+   "managers": [
+    "PapaMidnight",
+    "RockMNwild",
+    "TuanonStan"
+   ],
+   "score": 12.5
+  },
+  {
    "headline": "Chiefs snag needed help at WR, trade for Colts' Josh Downs",
    "url": "https://www.espn.com/nfl/story/_/id/50445576/chiefs-trade-colts-wr-josh-downs",
    "date": "2026-11-11",
@@ -800,12 +853,6 @@
      "h": "brettmn13"
     },
     {
-     "n": "Xavier Worthy",
-     "p": "WR",
-     "t": "KC",
-     "h": "snelson91"
-    },
-    {
      "n": "Patrick Mahomes",
      "p": "QB",
      "t": "KC",
@@ -820,75 +867,7 @@
     "butterygoop",
     "snelson91"
    ],
-   "score": 13.0
-  },
-  {
-   "headline": "How Josh Downs fits with Patrick Mahomes and the Chiefs' offense",
-   "url": "https://www.espn.com/nfl/story/_/id/50448000/josh-downs-chiefs-trade-patrick-mahomes-offense-role",
-   "date": "2026-11-11",
-   "kind": "story",
-   "teams": [
-    "KC"
-   ],
-   "named": [
-    {
-     "n": "Josh Downs",
-     "p": "WR",
-     "t": "KC",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
-    },
-    {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Rashee Rice",
-     "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Xavier Worthy",
-     "p": "WR",
-     "t": "KC",
-     "h": "snelson91"
-    }
-   ],
-   "lead": [
-    "Josh Downs",
-    "Patrick Mahomes"
-   ],
-   "ripple": [
-    {
-     "n": "Kenneth Walker III",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Emmett Johnson",
-     "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 13.0
+   "score": 12.5
   }
  ],
  "source": "ESPN NFL news, headlines and links only",
