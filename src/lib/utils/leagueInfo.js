@@ -73,3 +73,6 @@ export const podcastTitle = 'A Rock and a Hard Place, with Austin and Colt';
 
 // Google Form embedded on /challenges (made 2026-11-13)
 export const challengeForm = 'https://docs.google.com/forms/d/e/1FAIpQLSc6TrWlfn1BIeUvDnuzBP2sbMazx9WwVTT_aqAEbVOqsr84Hw/viewform';
+
+// Google Form embedded on /rule-ideas (made 2026-11-13)
+export const rulesForm = 'https://docs.google.com/forms/d/e/1FAIpQLScpBW-nKlfxA-mj-msNrgYCN7qzASyF3EjnPy_oCJqWguOIZw/viewform';
