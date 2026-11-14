@@ -155,5 +155,9 @@ def build_power(ctx):
            # local date of this build: the home page says "as of" this, since the board
            # moves daily with projections while a newsletter issue is a snapshot
            "generated": __import__("datetime").date.today().isoformat()}
+    # week-by-week snapshot of the ranks; the latest build of a week wins
+    hist = dict(old.get("history") or {}) if old.get("season") == season else {}
+    hist[str(last)] = {t["h"]: {"rank": t["rank"], "score": t["score"]} for t in teams}
+    doc["history"] = hist
     write_json(out_path, doc)
     return doc
