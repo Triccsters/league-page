@@ -5,6 +5,7 @@
 	import ThisWeek from '$lib/Charts/ThisWeek.svelte';
 	import HomeHero from '$lib/Charts/HomeHero.svelte';
 	import PowerBoard from '$lib/Charts/PowerBoard.svelte';
+	import PowerLines from '$lib/Charts/PowerLines.svelte';
 	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
 	import WhatsNew from '$lib/Charts/WhatsNew.svelte';
 	import LatestNewsletters from '$lib/Charts/LatestNewsletters.svelte';
@@ -171,6 +172,7 @@
         <LatestNewsletters />
         <HomeHero />
         <PowerBoard />
+<PowerLines />
         <ThisWeek />
         <Podcast />
         <HelpWanted />

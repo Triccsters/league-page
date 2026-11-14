@@ -2,6 +2,7 @@
 	import { Standings } from '$lib/components'
 	import MedianStandings from '$lib/Standings/MedianStandings.svelte';
 	import PowerBoard from '$lib/Charts/PowerBoard.svelte';
+	import PowerLines from '$lib/Charts/PowerLines.svelte';
 	// the other standings-type pages, folded in as sections (T.J., 2026-11-13)
 	import AllPlay from '../all-play/+page.svelte';
 	import Luck from '../luck/+page.svelte';
@@ -31,6 +32,10 @@
 
 <section class="fold">
 	<PowerBoard />
+</section>
+
+<section class="fold">
+	<PowerLines />
 </section>
 
 <section class="fold">

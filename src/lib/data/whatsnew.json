@@ -2,6 +2,13 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "Power Lines",
+  "text": "Every team's place in the standings, week by week, as crossing lines. Tap a name to trace one team, or drag the slider to rewind the season.",
+  "link": "/standings"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Rule Ideas page",
   "text": "A list of things other leagues do that we could try. Nothing on it is a rule, and nothing changes without a league vote.",
   "link": "/rule-ideas"
