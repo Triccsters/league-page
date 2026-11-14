@@ -2,6 +2,26 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "Head-to-head grid on Rivalries",
+  "text": "Every manager's record against every other manager on one grid. Green means the row leads the series, red means it trails. Tap a square for the full rivalry.",
+  "link": "/rivalries"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
+  "title": "Jump to a section on long pages",
+  "text": "Pages with four or more sections now start with a row of links, so you can go straight to the part you want."
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
+  "title": "Newsletters on the home page",
+  "text": "The three latest issues sit right under this box, and each issue now ends with what is new on the site.",
+  "link": "/recaps"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Playoff Picture",
   "text": "The seeds if the season ended today, how far every team is from the last spot, and which games left have a playoff place riding on them.",
   "link": "/playoff-picture"

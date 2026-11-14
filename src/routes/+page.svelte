@@ -7,6 +7,8 @@
 	import PowerBoard from '$lib/Charts/PowerBoard.svelte';
 	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
 	import WhatsNew from '$lib/Charts/WhatsNew.svelte';
+	import LatestNewsletters from '$lib/Charts/LatestNewsletters.svelte';
+	import Podcast from '$lib/Charts/Podcast.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 	import { games } from '$lib/utils/flpHistory';
 	import Who from '$lib/Charts/Who.svelte';
@@ -165,10 +167,12 @@
                 {/if}
             </div>
         {/if}
+        <WhatsNew />
+        <LatestNewsletters />
         <HomeHero />
         <PowerBoard />
         <ThisWeek />
-        <WhatsNew />
+        <Podcast />
         <HelpWanted />
     </div>
     

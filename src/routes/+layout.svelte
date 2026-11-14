@@ -2,6 +2,7 @@
 <script>
 	import { Nav, Footer } from "$lib/components"
 	import MyTeamBar from "$lib/MyTeam/MyTeamBar.svelte";
+	import JumpTo from "$lib/Charts/JumpTo.svelte";
     import { dev } from '$app/environment';
     import { page } from '$app/stores';
     import { leagueName } from '$lib/utils/leagueInfo';
@@ -30,6 +31,7 @@
 <main>
     <Nav /> <!-- adds the nav (small and large) -->
     <MyTeamBar />
+    <JumpTo />
   
     <slot />
 

@@ -1,4 +1,5 @@
 <script>
+    import WhatsNew from '$lib/Charts/WhatsNew.svelte';
     import TimelineChart from '$lib/Timeline/TimelineChart.svelte';
     import { recapBySlug, videoEmbed } from '$lib/utils/recaps';
     import { onMount } from 'svelte';
@@ -182,6 +183,9 @@
         <p class="stamp">Built {r.generated.slice(0, 10)} from Sleeper. Timeline windows use NFL kickoff times.</p>
     {/if}
 </div>
+
+<!-- for readers who only open the site from the newsletter link -->
+<WhatsNew />
 
 <style>
     .holder { max-width: 820px; margin: 0 auto; padding: 1.5em 1em; }
