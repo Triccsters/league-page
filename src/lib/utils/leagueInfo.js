@@ -66,3 +66,7 @@ export const managers = managersData;
     
 
 export const mockDraft = true; // the /mock-draft page and its tab; needs static/data/mock_draft.json
+
+// Spotify player on the home page: Austin and Colt's show
+export const spotifyShow = '6XvByTAOJTJojwWbcDaByE';
+export const podcastTitle = 'A Rock and a Hard Place, with Austin and Colt';
