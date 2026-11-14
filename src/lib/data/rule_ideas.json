@@ -1,0 +1,12 @@
+{
+ "_how": "Add an idea by copying one block. status is one of: idea, researching, vote, passed, dropped, hidden.",
+ "ideas": [
+  {
+   "title": "Promotion and relegation between divisions",
+   "status": "researching",
+   "what": "Divisions are ranked. Finish at the top of a lower division and you move up next season; finish at the bottom of a higher one and you move down. Your division sets your schedule.",
+   "why": "Keeps the bottom of the standings playing for something late in the year.",
+   "catch": "Seen in another league that started it this season, so there is no track record yet."
+  }
+ ]
+}

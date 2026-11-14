@@ -2,6 +2,13 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "Rule Ideas page",
+  "text": "A list of things other leagues do that we could try. Nothing on it is a rule, and nothing changes without a league vote.",
+  "link": "/rule-ideas"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Challenges page",
   "text": "Side games for next season: survivor, king of the hill, weekly high score and more. Nothing is running yet. Have a look and say which ones you would play.",
   "link": "/challenges"

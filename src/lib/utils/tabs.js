@@ -208,6 +208,11 @@ export const tabs = [
                 dest: '/challenges',
             },
             {
+                icon: 'how_to_vote',
+                label: 'Rule Ideas',
+                dest: '/rule-ideas',
+            },
+            {
                 icon: 'history_edu',
                 label: 'League Rules',
                 dest: '/rules',
