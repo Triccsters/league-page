@@ -70,3 +70,6 @@ export const mockDraft = true; // the /mock-draft page and its tab; needs static
 // Spotify player on the home page: Austin and Colt's show
 export const spotifyShow = '6XvByTAOJTJojwWbcDaByE';
 export const podcastTitle = 'A Rock and a Hard Place, with Austin and Colt';
+
+// Google Form embedded on /challenges (made 2026-11-13)
+export const challengeForm = 'https://docs.google.com/forms/d/e/1FAIpQLSc6TrWlfn1BIeUvDnuzBP2sbMazx9WwVTT_aqAEbVOqsr84Hw/viewform';
