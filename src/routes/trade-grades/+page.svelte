@@ -11,7 +11,7 @@
     $: pickValue = (() => {
         if (!drafts?.picks) return [];
         const m = {};
-        for (const p of drafts.picks) { if (p[7]) continue; (m[p[1]] ||= []).push(p[6] || 0); }
+        for (const p of drafts.picks) { if (p[7]) continue; if (drafts.dynasty && /startup/i.test(String(p[8] || ''))) continue; (m[p[1]] ||= []).push(p[6] || 0); }
         return Object.entries(m).map(([r, v]) => ({ r: +r, n: v.length, avg: Math.round(v.reduce((a, b) => a + b, 0) / v.length) })).filter((x) => x.n >= 3).sort((a, b) => a.r - b.r).slice(0, 18);
     })();
     onMount(async () => {
@@ -140,7 +140,7 @@
 
         {#if pickValue.length}
             <h2>What a pick is worth</h2>
-            <p class="note">Average points a pick in each round has returned in its manager's starting lineup, across every finished draft in this league. Use it to judge a trade for picks.</p>
+            <p class="note">Average points a pick in each round has returned in its manager's starting lineup, across every finished {drafts?.dynasty ? 'rookie draft' : 'draft'} in this league{drafts?.dynasty ? '. The startup draft is left out' : ''}. Use it to judge a trade for picks.</p>
             <div class="pv">{#each pickValue as v}<div class:early={v.r <= 2}><small>Rd {v.r}</small><b>{v.avg}</b><small>{v.n} picks</small></div>{/each}</div>
         {/if}
 
