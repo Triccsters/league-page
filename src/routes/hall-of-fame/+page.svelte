@@ -4,6 +4,7 @@
     import { nameOf, managerLink, teamName, site } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import Champions from '$lib/Charts/Champions.svelte';
+    import CareerLeaders from '$lib/Charts/CareerLeaders.svelte';
 
     let data = null;
     let failed = false;
@@ -51,6 +52,7 @@
     </p>
 
     <Champions />
+    <CareerLeaders />
 
     {#if data}
         <div class="filters">

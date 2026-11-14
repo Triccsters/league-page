@@ -2,6 +2,13 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "Career Leaders",
+  "text": "All-time leader cards on the Hall of Fame page: titles, title games, playoff trips, playoff wins, wins, winning percentage and points.",
+  "link": "/hall-of-fame"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Lineup Heat Map",
   "text": "Every starting lineup in the league on one grid. Green is a top starter at that spot, red is a weak one.",
   "link": "/lineup-heat"
