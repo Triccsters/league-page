@@ -45,11 +45,13 @@
         .sort((a, b) => b.net - a.net) : [];
     $: netBars = table.map(r => ({ label: nameOf(r.h), value: r.net, note: `${r.w}-${r.l}${r.t ? '-' + r.t : ''}`, highlight: ready && r.h === $myTeam }));
     // Letter grade: this side's share of all the points in the trade. Withheld while the trade is still being scored.
+    // a used pick reads '2026 round 1: Player POS (1.06), pts'; one still to be made has no colon
+    const openPick = (t) => Object.values(t.sides).some((x) => (x.picks || []).some((pk) => !String(pk).includes(':')));
     const letterOf = (t, h) => {
-        if (t.live) return null;
+        if (t.live || openPick(t)) return null;
         const vals = Object.values(t.sides).map((x) => x.value || 0);
         const tot = vals.reduce((a, b) => a + b, 0);
-        if (tot <= 0) return null;
+        if (tot <= 0) return 'C';   // finished and nobody started anyone: even
         const share = Math.min(1, ((t.sides[h].value || 0) / tot) * (vals.length / 2));
         return share >= 0.68 ? 'A+' : share >= 0.6 ? 'A' : share >= 0.55 ? 'B' : share > 0.45 ? 'C' : share > 0.4 ? 'D' : 'F';
     };
@@ -128,7 +130,7 @@
         {/each}
 
         <h2 id="every-trade">Every trade</h2>
-        <p class="key">Letter = that side's share of the points in the trade. A+ 68% or more · A 60% · B 55% · C about even · D 45% or less · F 40% or less. ⏳ means the trade is still being scored.</p>
+        <p class="key">Letter = that side's share of the points in the trade. A+ 68% or more · A 60% · B 55% · C about even · D 45% or less · F 40% or less. ⏳ means the grade is pending: the trade is still being scored, or it includes a draft pick that has not been used yet.</p>
         {#if pair}
             <p class="pairbar">Showing trades between <b>{nameOf(pair[0])}</b> and <b>{nameOf(pair[1])}</b>
                 <button on:click={() => (pair = null)}>Show all</button></p>
@@ -150,7 +152,7 @@
                 {#each Object.entries(t.sides) as [h, s]}
                     {@const L = letterOf(t, h)}
                     <div class="side" class:winner={h === t.winner && !t.live}>
-                        <span class="ltr {L ? 'g' + L[0] : 'gp'}" title={L ? 'Share of the points in this trade' : 'Grade pending: still being scored'}>{L || '⏳'}</span>
+                        <span class="ltr {L ? 'g' + L[0] : 'gp'}" title={L ? 'Share of the points in this trade' : openPick(t) ? 'Grade pending: a pick in this trade has not been used yet' : 'Grade pending: still being scored'}>{L || '⏳'}</span>
                         <b>{nameOf(h)}</b> got
                         {#each s.got as g, i}{i ? ', ' : ' '}<span title="{g.st} starts">{g.n}{g.p ? ` (${g.p})` : ''} <small>{g.pts}</small></span>{/each}
                         {#each s.picks as pk}<span class="pick">{pk}</span>{/each}
