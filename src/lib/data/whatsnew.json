@@ -2,6 +2,13 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "One Standings page",
+  "text": "Power rankings, all-play, luck and lineup efficiency now sit on the Standings page as sections, with a jump-to row at the top. Three menu items are gone; nothing was removed.",
+  "link": "/standings"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Head-to-head grid on Rivalries",
   "text": "Every manager's record against every other manager on one grid. Green means the row leads the series, red means it trails. Tap a square for the full rivalry.",
   "link": "/rivalries"

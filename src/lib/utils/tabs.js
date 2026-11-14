@@ -116,24 +116,9 @@ export const tabs = [
                 dest: '/insights',
             },
             {
-                icon: 'casino',
-                label: 'Luck Meter',
-                dest: '/luck',
-            },
-            {
                 icon: 'stacked_line_chart',
                 label: 'Season Ladder',
                 dest: '/ladder',
-            },
-            {
-                icon: 'shuffle',
-                label: 'All-Play',
-                dest: '/all-play',
-            },
-            {
-                icon: 'tune',
-                label: 'Lineup Efficiency',
-                dest: '/efficiency',
             },
             {
                 icon: 'shopping_cart',
