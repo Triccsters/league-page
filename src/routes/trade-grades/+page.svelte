@@ -44,6 +44,15 @@
     $: table = data ? Object.entries(data.managers).map(([h, m]) => ({ h, ...m, net: Math.round((m.in - m.out) * 10) / 10 }))
         .sort((a, b) => b.net - a.net) : [];
     $: netBars = table.map(r => ({ label: nameOf(r.h), value: r.net, note: `${r.w}-${r.l}${r.t ? '-' + r.t : ''}`, highlight: ready && r.h === $myTeam }));
+    // Letter grade: this side's share of all the points in the trade. Withheld while the trade is still being scored.
+    const letterOf = (t, h) => {
+        if (t.live) return null;
+        const vals = Object.values(t.sides).map((x) => x.value || 0);
+        const tot = vals.reduce((a, b) => a + b, 0);
+        if (tot <= 0) return null;
+        const share = Math.min(1, ((t.sides[h].value || 0) / tot) * (vals.length / 2));
+        return share >= 0.68 ? 'A+' : share >= 0.6 ? 'A' : share >= 0.55 ? 'B' : share > 0.45 ? 'C' : share > 0.4 ? 'D' : 'F';
+    };
     const sideLine = (s) => [...s.got.map(g => `${g.n}${g.p ? ' ' + g.p : ''}`), ...s.picks].join(', ') || 'nothing listed';
 </script>
 
@@ -119,6 +128,7 @@
         {/each}
 
         <h2 id="every-trade">Every trade</h2>
+        <p class="key">Letter = that side's share of the points in the trade. A+ 68% or more · A 60% · B 55% · C about even · D 45% or less · F 40% or less. ⏳ means the trade is still being scored.</p>
         {#if pair}
             <p class="pairbar">Showing trades between <b>{nameOf(pair[0])}</b> and <b>{nameOf(pair[1])}</b>
                 <button on:click={() => (pair = null)}>Show all</button></p>
@@ -138,7 +148,9 @@
                     {:else}<span class="even">even</span>{/if}
                 </div>
                 {#each Object.entries(t.sides) as [h, s]}
+                    {@const L = letterOf(t, h)}
                     <div class="side" class:winner={h === t.winner && !t.live}>
+                        <span class="ltr {L ? 'g' + L[0] : 'gp'}" title={L ? 'Share of the points in this trade' : 'Grade pending: still being scored'}>{L || '⏳'}</span>
                         <b>{nameOf(h)}</b> got
                         {#each s.got as g, i}{i ? ', ' : ' '}<span title="{g.st} starts">{g.n}{g.p ? ` (${g.p})` : ''} <small>{g.pts}</small></span>{/each}
                         {#each s.picks as pk}<span class="pick">{pk}</span>{/each}
@@ -156,6 +168,9 @@
 
 <style>
     .holder { max-width: 900px; margin: 0 auto; padding: 1.5em 1em; }
+    .ltr { display: inline-block; min-width: 2em; text-align: center; font-weight: 800; font-size: 0.85em; border-radius: 6px; padding: 0.1em 0.3em; margin-right: 0.4em; color: #fff; background: #555; }
+    .ltr.gA { background: #1e8449; } .ltr.gB { background: #2471a3; } .ltr.gC { background: #7d6608; } .ltr.gD { background: #af601a; } .ltr.gF { background: #a93226; } .ltr.gp { background: #444; }
+    .key { text-align: center; font-size: 0.85em; opacity: 0.8; margin: 0.3em 0 0.8em; }
     h1 { text-align: center; margin-bottom: 0.2em; }
     h2 { margin-top: 1.6em; font-size: 1.15em; border-bottom: 1px solid rgba(127,127,127,0.35); padding-bottom: 0.2em; }
     .sub, .note { text-align: center; opacity: 0.78; font-size: 0.92em; line-height: 1.5; }
