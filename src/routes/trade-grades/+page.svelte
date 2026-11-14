@@ -10,8 +10,12 @@
     let drafts = null;
     $: pickValue = (() => {
         if (!drafts?.picks) return [];
+        // a season where round 1 holds more picks than two per manager has lost its round numbers: leave it out
+        const r1 = {}, mg = {};
+        for (const p of drafts.picks) { (mg[p[0]] ||= new Set()).add(p[3]); if (p[1] === 1) r1[p[0]] = (r1[p[0]] || 0) + 1; }
+        const bad = new Set(Object.keys(r1).filter((y) => r1[y] > 2 * mg[y].size).map(Number));
         const m = {};
-        for (const p of drafts.picks) { if (p[7]) continue; if (drafts.dynasty && /startup/i.test(String(p[8] || ''))) continue; (m[p[1]] ||= []).push(p[6] || 0); }
+        for (const p of drafts.picks) { if (p[7] || bad.has(p[0])) continue; if (drafts.dynasty && /startup/i.test(String(p[8] || ''))) continue; (m[p[1]] ||= []).push(p[6] || 0); }
         return Object.entries(m).map(([r, v]) => ({ r: +r, n: v.length, avg: Math.round(v.reduce((a, b) => a + b, 0) / v.length) })).filter((x) => x.n >= 3).sort((a, b) => a.r - b.r).slice(0, 18);
     })();
     onMount(async () => {
