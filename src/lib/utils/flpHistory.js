@@ -13,11 +13,23 @@ export const games = history.games.map(([season, week, era, a, pa, b, pb, playof
 
 export const nameOf = (handle) => managers[handle]?.name || handle;
 
+// A manager who changed the spelling of their name: issues and recaps written before
+// the change keep the old one (history.json managers[handle].was, set by the build).
+export const nameAsOf = (handle, slug) => {
+    const was = managers[handle]?.was;
+    return was && slug && slug <= was.through ? was.name : nameOf(handle);
+};
+
 // Preview flags carry {handle} placeholders; swap in display names.
 export const fillNames = (text) => String(text).replace(/\{([^}]+)\}/g, (_, h) => nameOf(h));
 
 // Team name a manager used in a given season (all eras), when known.
-export const teamName = (season, handle) => history.team_names?.[String(season)]?.[handle] || null;
+// A team with no name of its own is stored under the manager's key. When that key is only
+// the shown name in another case (triccster / Triccster) there is nothing worth printing.
+export const teamName = (season, handle) => {
+    const t = history.team_names?.[String(season)]?.[handle] || null;
+    return t && t === handle && t !== nameOf(handle) && t.toLowerCase() === nameOf(handle).toLowerCase() ? null : t;
+};
 
 // Manager page link for anyone still in the league (the Managers pages only cover current managers).
 import managersList from '$lib/data/managers.json';

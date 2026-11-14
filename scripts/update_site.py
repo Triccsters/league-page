@@ -49,7 +49,15 @@ VAULT_MANUAL = os.environ.get(
 PLAYER_CACHE = os.path.join(os.path.expanduser("~"), ".cache", "league_page_players.json")
 
 # Display-name renames that the vault data already folded together (FL Players).
-CANON = {"Austin7Rock": "RockMNwild", "Tongueohvaeloa": "TuanonStan"}
+# "Triccster": T.J. capitalised his Sleeper name on 2026-11-14. Every stored file, page
+# address and vault script knows him by the old key, so the key stays and SHOWN carries
+# the new spelling onto the pages.
+CANON = {"Austin7Rock": "RockMNwild", "Tongueohvaeloa": "TuanonStan", "Triccster": "triccster"}
+
+# Sites that show Sleeper usernames (site_config "names": "handles"): the name to print
+# when it differs from the stored key, and the last issue written under the old spelling.
+# Issues and recaps up to that slug keep showing the old one.
+SHOWN = {"triccster": ("Triccster", "2026-w09")}
 
 # Real names, confirmed by T.J. 2026-09-08; John, Buckley, Nase per T.J. 2026-10-14. Second value is the Yahoo name.
 # Anyone not listed shows under their Sleeper display name.
@@ -112,7 +120,7 @@ def real_name(handle):
     # site_config "names": "handles" shows everyone by Sleeper username
     # (FL Evolution, T.J.'s call 2026-09-30); default is the real-name map
     if CONFIG.get("names") == "handles":
-        return handle
+        return SHOWN.get(handle, (handle,))[0]
     return MANAGERS.get(handle, (handle,))[0]
 
 
@@ -314,6 +322,10 @@ def build_history(cur, state):
                     "yahoo": MANAGERS[h][1] if h in MANAGERS and HISTORY_SOURCE == "vault" else None,
                     "hidden": h.startswith("?")}
                 for h in people}
+    if CONFIG.get("names") == "handles":
+        for h, (_now, through) in SHOWN.items():
+            if h in managers:
+                managers[h]["was"] = {"name": h, "through": through}
     eras = sorted({g[2] for g in games})
     out = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -758,7 +770,10 @@ def main():
            "dynasty": (cur.league.get("settings") or {}).get("type") == 2,
            "odds_prior": CONFIG.get("odds_prior"),   # "current" (redraft default) or "last_season"
            "data": DATA, "static": STATIC, "vault_manual": VAULT_MANUAL,
-           "write_json": write_json, "read_json": read_json, "sleeper": sleeper}
+           "write_json": write_json, "read_json": read_json, "sleeper": sleeper,
+           # the name to print where a line of built text names a manager
+           "shown": ((lambda h: SHOWN.get(h, (h,))[0]) if CONFIG.get("names") == "handles"
+                     else (lambda h: h))}
     print("extras:", extras.build_all(ctx))
     # Across the Leagues (2026-10-14): reads the other Sleeper repos' history.json
     try:

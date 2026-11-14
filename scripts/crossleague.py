@@ -55,6 +55,13 @@ def build(repo, data_dir, write_json):
             if not m.get("hidden") and m.get("name") and m["name"] != hd:
                 names.setdefault(person(hd), m["name"])
 
+    # a Sleeper name whose spelling changed: the stored key stays, this is what to print
+    shown = {}
+    for i, h in hist.items():
+        for hd, m in h["managers"].items():
+            if m.get("was") and m.get("name"):
+                shown[person(hd)] = m["name"]
+
     where = defaultdict(set)
     for i, h in hist.items():
         for g in h["games"]:
@@ -85,7 +92,7 @@ def build(repo, data_dir, write_json):
         pair_rows.append({"x": x, "y": y, "leagues": in_leagues, "games": gl})
     pair_rows.sort(key=lambda r: (-len(r["leagues"]), -len(r["games"]), r["x"], r["y"]))
 
-    people = [{"h": p, "name": names.get(p), "leagues": sorted(where[p]),
+    people = [{"h": p, "name": names.get(p), "shown": shown.get(p), "leagues": sorted(where[p]),
                "record": {str(i): v for i, v in sorted(records[p].items())}} for p in multi]
     out = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
            "leagues": leagues, "people": people, "pairs": pair_rows,

@@ -1,9 +1,12 @@
 <script>
     // The week read as a short list of titles. Built in update_site.py.
-    import { nameOf, managerLink } from '$lib/utils/flpHistory';
+    import { nameAsOf, managerLink } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
 
     export let awards = [];
+    // on a past week's recap, names as they were spelled that week
+    export let slug = null;
+    const nameOf = (h) => nameAsOf(h, slug);
 </script>
 
 {#if awards && awards.length}

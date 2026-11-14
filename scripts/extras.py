@@ -289,7 +289,7 @@ def build_trades(ctx, rows):
                             if res["slot"]:
                                 label += f" ({res['slot']})"
                             if res["by"] and res["by"] != h:
-                                label += f", used by {res['by']}"
+                                label += ", used by %s" % ctx.get("shown", str)(res["by"])
                             elif res["by"] == h and res["rookie"]:
                                 # He made the pick himself, so it counts like an acquired
                                 # player: what the drafted player scored in his lineup from

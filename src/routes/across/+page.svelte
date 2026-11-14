@@ -149,7 +149,7 @@
                 <tbody>
                     {#each people as p (p.h)}
                         <tr class:mine={me === p.h}>
-                            <td>{nm(p.h)}{#if p.name}<small class="h">{p.h}</small>{/if}</td>
+                            <td>{nm(p.h)}{#if p.name}<small class="h">{p.shown || p.h}</small>{/if}</td>
                             <td class="num">{p.w}-{p.l}{p.t ? `-${p.t}` : ''}</td>
                             <td class="num">{pctStr(p.pct)}</td>
                             {#each leagues as l}

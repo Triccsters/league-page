@@ -3,7 +3,7 @@
     import TimelineChart from '$lib/Timeline/TimelineChart.svelte';
     import { recapBySlug, videoEmbed } from '$lib/utils/recaps';
     import { onMount } from 'svelte';
-    import { nameOf, slugFor, site } from '$lib/utils/flpHistory';
+    import { nameAsOf, slugFor, site } from '$lib/utils/flpHistory';
     import { avatarOf, playerImg, hideBroken } from '$lib/utils/avatars';
     import odds from '$lib/data/odds.json';
     const divOf = odds?.divisions || {};
@@ -17,6 +17,8 @@
     let ready = false;
     onMount(() => { ready = true; });
     export let data;
+    // names as they were spelled the week of this recap
+    const nameOf = (h) => nameAsOf(h, data?.slug);
 
     // The message to paste in the league chat: the week's headline awards and
     // a link back to this issue. Built from the data, so it exists every week
@@ -111,7 +113,7 @@
         {/if}
 
         {#if nl}<h2>The numbers</h2>{/if}
-        <WeekAwards awards={r.awards} />
+        <WeekAwards awards={r.awards} slug={r.slug} />
 
         {#if r.scores?.length}
             <h2>Every score this week</h2>

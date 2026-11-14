@@ -40,7 +40,7 @@ def _bucket(age):
     return None
 
 
-def _acquisition(h, key, season, drafts, trades, waivers, pkey):
+def _acquisition(h, key, season, drafts, trades, waivers, pkey, shown=str):
     """The most recent way this manager got this player, or None.
 
     Later events win, so a player drafted in 2019 and re-acquired in a 2023
@@ -71,7 +71,7 @@ def _acquisition(h, key, season, drafts, trades, waivers, pkey):
                for g in (side.get("got") or ())):
             others = [o for o in (t.get("sides") or {}) if o != h]
             offer(2, t["season"], t.get("week") or 0, "trade",
-                  "from %s" % others[0] if others else "trade")
+                  ("from %s" % shown(others[0])) if others else "trade")
 
     for p in waivers.get("pickups", ()):
         if p["h"] == h and pkey(p["n"]) == key and p["season"] <= season:
@@ -232,7 +232,7 @@ def build_rosters(ctx, rows, drafts, trades, waivers):
                 "slot": smap.get(pid),
                 "pts": round(career.get((h, key), 0.0), 1),
                 "now": round(this_season.get((h, key), 0.0), 1),
-                "src": _acquisition(h, key, season, drafts, trades, waivers, pkey),
+                "src": _acquisition(h, key, season, drafts, trades, waivers, pkey, ctx.get("shown", str)),
                 "startup": bool(first_draft and (h, key) in startup_picks),
                 "rate": (round(league_pts[key] / league_n[key], 1)
                          if league_n[key] >= 3 else None),

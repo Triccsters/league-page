@@ -4,7 +4,7 @@
     // rest-of-season outlooks, trends, history and links around the site.
     // Prose lives in src/lib/data/newsletter/<slug>.json, one file per issue,
     // never touched by the build. A week without a file shows nothing here.
-    import { nameOf, managerLink, slugFor, teamName, site } from '$lib/utils/flpHistory';
+    import { nameAsOf, managerLink, slugFor, teamName, site } from '$lib/utils/flpHistory';
     // the team's current name, when it says something the manager's name doesn't
     const tname = (h) => { const t = (teamName(site?.season, h) || '').trim(); return t && t !== h && t !== nameOf(h) ? t : null; };
     import { avatarOf, hideBroken } from '$lib/utils/avatars';
@@ -13,6 +13,8 @@
     import { newsletters } from '$lib/utils/newsletters';
 
     export let nl;      // this issue's newsletter JSON
+    // names as they were spelled when this issue was written
+    const nameOf = (h) => nameAsOf(h, nl?.slug);
     export let recap;   // the recap for the same week (standings, scores)
     // which piece to draw: 'all' (whole issue), 'top' (masthead to power rankings),
     // 'story' (one manager's card, see handle), 'bottom' (moves to the end)
