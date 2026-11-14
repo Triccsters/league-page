@@ -6,10 +6,19 @@
 
     let data = null, error = '', ready = false;
     let season = 'all', who = '';
+    // Pick value by round: what a pick in each round has returned on average in this league (picks: [season, round, pick, manager, player, pos, value, live, ...])
+    let drafts = null;
+    $: pickValue = (() => {
+        if (!drafts?.picks) return [];
+        const m = {};
+        for (const p of drafts.picks) { if (p[7]) continue; (m[p[1]] ||= []).push(p[6] || 0); }
+        return Object.entries(m).map(([r, v]) => ({ r: +r, n: v.length, avg: Math.round(v.reduce((a, b) => a + b, 0) / v.length) })).filter((x) => x.n >= 3).sort((a, b) => a.r - b.r).slice(0, 18);
+    })();
     onMount(async () => {
         ready = true;
         try { data = await fetch('/data/trades.json').then(r => r.json()); }
         catch (e) { error = 'Could not load the trade history.'; }
+        try { drafts = await fetch('/data/drafts.json').then(r => r.json()); } catch (e) { drafts = null; }
         const w = new URLSearchParams(location.search).get('who');
         if (w) who = w;
     });
@@ -129,6 +138,12 @@
             </div>
         {/each}
 
+        {#if pickValue.length}
+            <h2>What a pick is worth</h2>
+            <p class="note">Average points a pick in each round has returned in its manager's starting lineup, across every finished draft in this league. Use it to judge a trade for picks.</p>
+            <div class="pv">{#each pickValue as v}<div class:early={v.r <= 2}><small>Rd {v.r}</small><b>{v.avg}</b><small>{v.n} picks</small></div>{/each}</div>
+        {/if}
+
         <h2 id="every-trade">Every trade</h2>
         <p class="key">Letter = that side's share of the points in the trade. A+ 68% or more · A 60% · B 55% · C about even · D 45% or less · F 40% or less. ⏳ means the grade is pending: the trade is still being scored, or it includes a draft pick that has not been used yet.</p>
         {#if pair}
@@ -172,6 +187,10 @@
     .holder { max-width: 900px; margin: 0 auto; padding: 1.5em 1em; }
     .ltr { display: inline-block; min-width: 2em; text-align: center; font-weight: 800; font-size: 0.85em; border-radius: 6px; padding: 0.1em 0.3em; margin-right: 0.4em; color: #fff; background: #555; }
     .ltr.gA { background: #1e8449; } .ltr.gB { background: #2471a3; } .ltr.gC { background: #7d6608; } .ltr.gD { background: #af601a; } .ltr.gF { background: #a93226; } .ltr.gp { background: #444; }
+    .pv { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 0.4em; }
+    .pv div { text-align: center; border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 0.4em 0.2em; background: rgba(127,127,127,0.06); }
+    .pv div.early { border-color: #d4af37; }
+    .pv b { display: block; font-size: 1.25em; } .pv small { display: block; opacity: 0.7; font-size: 0.75em; }
     .key { text-align: center; font-size: 0.85em; opacity: 0.8; margin: 0.3em 0 0.8em; }
     h1 { text-align: center; margin-bottom: 0.2em; }
     h2 { margin-top: 1.6em; font-size: 1.15em; border-bottom: 1px solid rgba(127,127,127,0.35); padding-bottom: 0.2em; }

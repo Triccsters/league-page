@@ -102,6 +102,11 @@ export const tabs = [
                 label: 'Rosters',
                 dest: '/rosters',
             },
+            {
+                icon: 'grid_on',
+                label: 'Lineup Heat Map',
+                dest: '/lineup-heat',
+            },
         ]
     },
     {

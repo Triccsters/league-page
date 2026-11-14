@@ -2,6 +2,27 @@
  {
   "d": "2026-11-13",
   "kind": "new",
+  "title": "Lineup Heat Map",
+  "text": "Every starting lineup in the league on one grid. Green is a top starter at that spot, red is a weak one.",
+  "link": "/lineup-heat"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
+  "title": "A letter on every draft pick",
+  "text": "Draft Grades now shows each team's picks in a card, every pick graded against what that round usually returns.",
+  "link": "/draft-grades"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
+  "title": "What a pick is worth",
+  "text": "Trade Grades now shows the average return of a pick in each round, and holds the grade on any trade with a pick that has not been used yet.",
+  "link": "/trade-grades"
+ },
+ {
+  "d": "2026-11-13",
+  "kind": "new",
   "title": "Power Lines",
   "text": "Every team's place in the standings, week by week, as crossing lines. Tap a name to trace one team, or drag the slider to rewind the season.",
   "link": "/standings"

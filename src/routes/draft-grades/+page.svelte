@@ -31,6 +31,16 @@
         .sort((a, b) => b.value - a.value) : [];
     const gradeColor = (g) => g.startsWith('A') ? '#27ae60' : g.startsWith('B') ? '#2980b9' : g.startsWith('C') ? '#7f8c8d' : g.startsWith('D') ? '#e67e22' : '#c0392b';
     const who = (h) => managerLink(h);
+    // Letter per pick: points returned against the average pick in the same round (cutoffs as on great8.org)
+    const pickLetter = (p) => {
+        if (p.live) return '⏳';
+        const exp = p.val - p.over;
+        if (exp <= 0) return p.val > 0 ? 'A' : 'C';
+        const r = p.val / exp;
+        return r >= 1.6 ? 'A+' : r >= 1.3 ? 'A' : r >= 1.1 ? 'B' : r >= 0.9 ? 'C' : r >= 0.6 ? 'D' : 'F';
+    };
+    const letterColor = (l) => l === '⏳' ? '#555' : gradeColor(l);
+    $: byTeam = gradeRows.map((g) => ({ ...g, picks: inDraft.filter((p) => p.h === g.h).sort((a, b) => a.rnd - b.rnd || a.no - b.no) }));
 </script>
 
 <div class="holder">
@@ -63,6 +73,20 @@
             </section>
         </div>
 
+        <h2>Every pick, by team</h2>
+        <p class="note">A+ 160% or more of what that round usually returns · A 130% · B 110% · C about even · D 60% · F under 60%. ⏳ means the season is still being played.</p>
+        <div class="teamcards">
+            {#each byTeam as g}
+                <section class="tcard" class:mine={ready && g.h === $myTeam}>
+                    <h3><span class="letter" style="background:{gradeColor(g.grade)}">{g.grade}</span>{nameOf(g.h)}</h3>
+                    {#each g.picks as p}
+                        {@const L = pickLetter(p)}
+                        <div class="tp"><span class="rd">R{p.rnd}.{p.no}</span><span class="nm"><b>{p.n}</b> <small>{p.pos}</small></span><small class="vs">{p.val} / {Math.round((p.val - p.over) * 10) / 10} exp</small><span class="pl" style="background:{letterColor(L)}">{L}</span></div>
+                    {/each}
+                </section>
+            {/each}
+        </div>
+
         <h2>Best drafters, all time</h2>
         <p class="note">Average points each pick returned above or below its round. Finished seasons only.</p>
         <HBarChart items={drafterBars} format={(v) => (v > 0 ? `+${v}` : `${v}`)} ariaLabel="Average value over round by manager" />
@@ -86,6 +110,15 @@
 
 <style>
     .holder { max-width: 960px; margin: 0 auto; padding: 1.5em 1em; }
+    .teamcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 0.8em; }
+    .tcard { border: 1px solid rgba(127,127,127,0.3); border-radius: 12px; padding: 0.7em 0.8em; background: rgba(127,127,127,0.06); }
+    .tcard.mine { border-color: #27ae60; }
+    .tcard h3 { display: flex; align-items: center; gap: 0.5em; margin: 0 0 0.5em; }
+    .tcard h3 .letter { color: #fff; border-radius: 6px; padding: 0.1em 0.5em; font-weight: 800; }
+    .tp { display: grid; grid-template-columns: 3.2em 1fr auto 2.2em; gap: 0.4em; align-items: center; padding: 0.22em 0; border-top: 1px solid rgba(127,127,127,0.15); font-size: 0.88em; }
+    .tp .rd { opacity: 0.65; font-variant-numeric: tabular-nums; } .tp .vs { opacity: 0.65; white-space: nowrap; }
+    .tp .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .tp .pl { color: #fff; font-weight: 800; text-align: center; border-radius: 5px; font-size: 0.85em; padding: 0.05em 0; }
     h1 { text-align: center; margin-bottom: 0.2em; }
     h2 { margin-top: 1.6em; font-size: 1.15em; border-bottom: 1px solid rgba(127,127,127,0.35); padding-bottom: 0.2em; }
     h3 { font-size: 1em; margin: 1em 0 0.3em; }

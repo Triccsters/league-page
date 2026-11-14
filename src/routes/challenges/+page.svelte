@@ -12,6 +12,8 @@
         { e: '🗺️', n: 'Conquest', r: 'Everyone starts with one territory on a map. Beat someone and you take a new one plus everything they hold. Most territory at the end wins.' },
         { e: '🤝', n: 'Partners', r: 'Managers are paired up after the draft. A win by either partner counts for the pair. Best pair splits the prize.' },
         { e: '🥇', n: 'Top seeds bonus', r: 'A prize for the top two seeds when the regular season ends, so the regular season pays too.' },
+        { e: '🎖️', n: 'Position medals', r: 'A medal for whoever ends the season owning the top scoring quarterback, running back, receiver and tight end.' },
+        { e: '🎯', n: 'Most points against', r: 'A consolation prize for the team that had the most points scored on it all season.' },
         { e: '📈', n: 'Points title', r: 'A prize for the most points scored in the regular season, whatever the record says.' },
     ];
     const WEEKLY = [
@@ -26,6 +28,10 @@
         { e: '🧤', n: 'Catch them all', r: 'Most receptions by your starters.' },
         { e: '🏃', n: 'Workhorse', r: 'Most rushing attempts by your starters.' },
         { e: '🧊', n: 'Ice cold', r: 'Most starters under 10 points. The prize nobody wants to win.' },
+        { e: '🦆', n: 'Lucky duck', r: 'The lowest score that still won.' },
+        { e: '💲', n: 'The price is right', r: 'Closest to your projected score without going over.' },
+        { e: '💪', n: 'The flex', r: 'Most points from the player in your flex spot.' },
+        { e: '🥊', n: 'One-two punch', r: 'Highest combined score from your top two running backs.' },
         { e: '🛒', n: 'Best pickup', r: 'The highest scoring player added off waivers that week and started.' },
     ];
 </script>
