@@ -7,6 +7,7 @@
     import { myTeam } from '$lib/utils/myTeam';
     import managers from '$lib/data/managers.json';
     import * as leagueInfo from '$lib/utils/leagueInfo';
+    import odds from '$lib/data/odds.json';
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -43,7 +44,7 @@
     const n = teams.length;
     const W = 900, L = 46, R = 58, T = 34, ROW = 44;
     const H = T + n * ROW + 10;
-    const spots = +leagueInfo.playoffTeams || 0;
+    const spots = +leagueInfo.playoffTeams || +odds?.playoff_teams || 0;
     let upto = weeks.length;      // slider
     let sel = null;               // traced team
     $: shownWeeks = weeks.slice(0, upto);

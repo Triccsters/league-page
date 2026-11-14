@@ -1,4 +1,5 @@
 <script>
+    import PlayoffRace from '$lib/Charts/PlayoffRace.svelte';
     import { onMount } from 'svelte';
     import odds from '$lib/data/odds.json';
     import { nameOf, teamName, site } from '$lib/utils/flpHistory';
@@ -80,6 +81,8 @@
 <div class="holder">
     <h1>Playoff Picture</h1>
     <p class="sub">After week {odds.through_week} of {odds.season}. Top {N} make the playoffs{BYES ? `, top ${BYES} get a bye` : ''}{hasDiv ? ', division winners seeded first' : ''}. Playoffs start in week {odds.playoff_start}.</p>
+
+    <PlayoffRace />
 
     <h2>If the season ended today</h2>
     <div class="today">

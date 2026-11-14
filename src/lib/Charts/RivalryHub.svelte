@@ -63,7 +63,7 @@
         <h2>The league's biggest rivalry</h2>
         {#each [list[0], ...list.slice(1, showAll ? list.length : 7)] as p, i (p.x + p.y)}
             {#if i === 1}<p class="eyebrow gap">Calculated ranking</p><h2>Top rivalries <small>{list.length} ranked series</small></h2>{/if}
-            <div class="slot" class:first={i === 0}>
+            <div class="rhslot" class:first={i === 0}>
                 <article class="card" class:mine={ready && (p.x === $myTeam || p.y === $myTeam)}>
                     <header><span>#{p.rank}</span><b>{p.score.toFixed(1)}<small>/100</small></b></header>
                     <div class="vs">
@@ -102,14 +102,15 @@
 {/if}
 
 <style>
-    .rh { text-align: left; margin: 1em 0 2em; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 0.9em; }
+    .rh { text-align: left; margin: 1em auto 2em; width: 100%; max-width: 1100px; box-sizing: border-box; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 0.9em; }
     .rh > * { grid-column: 1 / -1; }
-    .rh > .slot:not(.first) { grid-column: auto; }
+    .rh > .rhslot { min-width: 0; width: auto; }
+    .rh > .rhslot:not(.first) { grid-column: auto; }
     .eyebrow { color: #ff7a2f; font-size: 0.72em; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; margin: 0; }
     .eyebrow.gap { margin-top: 1.2em; }
-    h2 { margin: -0.6em 0 0; text-transform: uppercase; font-style: italic; font-weight: 900; border: 0; }
+    h2 { margin: 0.1em 0 0.2em; font-size: 1.5em; line-height: 1.15; text-transform: uppercase; font-style: italic; font-weight: 900; border: 0; text-align: left; }
     h2 small { float: right; font-size: 0.5em; font-style: normal; font-weight: 400; opacity: 0.7; text-transform: none; margin-top: 0.8em; }
-    .card { background: #131a2a; color: #e8edf5; border: 1px solid #25304a; border-radius: 14px; padding: 0.9em 1em; height: 100%; box-sizing: border-box; }
+    .card { width: auto; min-width: 0; background: #131a2a; color: #e8edf5; border: 1px solid #25304a; border-radius: 14px; padding: 0.9em 1em; height: 100%; box-sizing: border-box; }
     .first .card { border: 2px solid #ff7a2f; }
     .card.mine { box-shadow: inset 0 0 0 1px #2ecc71; }
     header { display: flex; justify-content: space-between; align-items: baseline; opacity: 0.9; }
