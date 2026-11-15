@@ -3,6 +3,7 @@
     import { onMount } from 'svelte';
     import { games, nameOf, site, hasYahoo, teamName, managerLink, managers, currentManagers } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
+    import RecordWatch from '$lib/Charts/RecordWatch.svelte';
 
     // Trades and pickups load like the Trade Grades and Waivers pages do (T.J., 2026-11-12:
     // the old Sleeper-only Records page now redirects here, so what it had that can be
@@ -149,6 +150,7 @@
 <div class="holder">
     <h1>📜 Record Book</h1>
     <p class="sub">Every record is computed from all {games.length.toLocaleString()} games since {site.first_season}. Consolation games don't count. Season records use the regular season only and leave out {site.season} until it's over. Names link to manager pages.</p>
+    <RecordWatch mode="book" />
     {#if hasYahoo}
         <div class="filter">
             {#each [['all', 'All seasons'], ['yahoo', `Yahoo (${site.yahoo_years[0]}–${site.yahoo_years[1]})`], ['sleeper', `Sleeper (${site.sleeper_from}–now)`]] as [k, l]}

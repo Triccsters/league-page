@@ -4,6 +4,8 @@
 	import LinearProgress from '@smui/linear-progress';
 	import Overview from '$lib/Charts/Overview.svelte';
 	import overviews from '$lib/data/overviews_extra.json';
+	// one Trophy Room (T.J., 2026-11-15): the awards page that was /hall-of-fame, then the seasons
+	import TrophyCase from '../hall-of-fame/+page.svelte';
 
     export let data;
     const {awardsData, teamManagersData} = data;
@@ -27,6 +29,11 @@
 		margin: 80px auto;
 	}
 
+	.byseason {
+		text-align: center;
+		margin: 0.5em 0 0;
+	}
+
 	.nothingYet {
 		display: block;
 		width: 85%;
@@ -36,7 +43,10 @@
 	}
 </style>
 
+<TrophyCase />
+
 <div class="awards">
+	<h2 class="byseason">Season by season</h2>
 	{#await waitForAll(awardsData, teamManagersData) }
 		<div class="loading">
 			<p>Retrieving awards data...</p>

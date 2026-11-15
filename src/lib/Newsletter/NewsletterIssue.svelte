@@ -4,13 +4,15 @@
     // rest-of-season outlooks, trends, history and links around the site.
     // Prose lives in src/lib/data/newsletter/<slug>.json, one file per issue,
     // never touched by the build. A week without a file shows nothing here.
-    import { nameAsOf, managerLink, slugFor, teamName, site } from '$lib/utils/flpHistory';
+    import { nameAsOf, managerLink, slugFor, teamName, site, games as allGames } from '$lib/utils/flpHistory';
+    import odds from '$lib/data/odds.json';
     // the team's current name, when it says something the manager's name doesn't
     const tname = (h) => { const t = (teamName(site?.season, h) || '').trim(); return t && t !== h && t !== nameOf(h) ? t : null; };
     import { avatarOf, hideBroken } from '$lib/utils/avatars';
     import { myTeam } from '$lib/utils/myTeam';
     import { onMount } from 'svelte';
     import { newsletters } from '$lib/utils/newsletters';
+    import RecordWatch from '$lib/Charts/RecordWatch.svelte';
 
     export let nl;      // this issue's newsletter JSON
     // names as they were spelled when this issue was written
@@ -20,6 +22,48 @@
     // 'story' (one manager's card, see handle), 'bottom' (moves to the end)
     export let part = 'all';
     export let handle = null;
+
+    // ---- newspaper front page (approved 2026-11-13) ----
+    // issue number within its season, and the volume (one a season)
+    const sameSeason = newsletters.filter((x) => x.slug.slice(0, 4) === String(nl?.slug || '').slice(0, 4)).map((x) => x.slug).sort();
+    const issueNo = sameSeason.indexOf(nl?.slug) + 1;
+    const volume = Number(String(nl?.slug || '').slice(0, 4)) - Math.min(...newsletters.map((x) => Number(x.slug.slice(0, 4)))) + 1;
+    const cut = odds?.playoff_teams || 6;
+    const insideList = (nl?.features || []).filter((f) => f.place !== 'before-lead');
+    // two tables in a row (each with the paragraph under it) sit side by side
+    const gridded = (blocks) => {
+        const out = []; let run = [];
+        const flush = () => { if (run.length >= 2) out.push({ type: 'grid', units: run }); else for (const u of run) out.push(...u); run = []; };
+        const list = blocks || [];
+        for (let i = 0; i < list.length; i++) {
+            if (list[i].type === 'table') { const u = [list[i]]; if (list[i + 1]?.type === 'p') u.push(list[++i]); run.push(u); }
+            else { flush(); out.push(list[i]); }
+        }
+        flush();
+        return out;
+    };
+    // the week in numbers, worked out from the recap
+    const r2 = (x) => Math.round(x * 100) / 100;
+    const numbers = (() => {
+        const out = [], gs = recap?.games || [];
+        const top = [...(recap?.scores || [])].sort((a, b) => b.points - a.points)[0];
+        if (top) out.push({ v: top.points, t: `high score, ${nameOf(top.manager)}` });
+        const byM = [...gs].sort((a, b) => (a.winner.points - a.loser.points) - (b.winner.points - b.loser.points));
+        if (byM.length) {
+            const c = byM[0], b = byM[byM.length - 1];
+            out.push({ v: r2(c.winner.points - c.loser.points), t: `closest game, ${nameOf(c.winner.manager)} over ${nameOf(c.loser.manager)}` });
+            if (b !== c) out.push({ v: r2(b.winner.points - b.loser.points), t: `biggest win, ${nameOf(b.winner.manager)}` });
+        }
+        // longest winning run still alive after this week (regular season)
+        const run = {};
+        for (const g of allGames.filter((g) => !g.playoff && (g.season < recap?.season || (g.season === recap?.season && g.week <= recap?.week))).sort((a, b) => a.season - b.season || a.week - b.week)) {
+            for (const [me, mp, op] of [[g.a, g.pa, g.pb], [g.b, g.pb, g.pa]]) run[me] = mp > op ? (run[me] || 0) + 1 : 0;
+        }
+        const live = (recap?.standings || []).map((s) => [s.manager, run[s.manager] || 0]).sort((a, b) => b[1] - a[1])[0];
+        if (live && live[1] >= 3) out.push({ v: live[1], t: `straight wins for ${nameOf(live[0])}` });
+        else if (recap?.median) out.push({ v: recap.median, t: 'the median score this week' });
+        return out;
+    })();
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -75,11 +119,17 @@
 <article class="nl" class:story={part === 'story'} class:cont={part === 'bottom'}>
     {#if part === 'all' || part === 'top'}
     <header class="mast">
+        <div class="dateline"><span>Vol. {volume} · No. {issueNo}</span><span>{recap?.season} season · week {recap?.week}</span><span>Est. {site.first_season}</span></div>
         <div class="name">{nl.masthead}</div>
         {#if nl.tagline}<div class="tag">{nl.tagline}</div>{/if}
-        <div class="issue">{recap?.season} season · Week {recap?.week}</div>
+        {#if recap?.standings?.length}
+            <div class="ticker">{#each recap.standings as st, i}<span class:out={i >= cut}>{nameOf(st.manager)} {st.w}-{st.l}{st.t ? `-${st.t}` : ''}</span>{/each}</div>
+        {/if}
     </header>
 
+    <div class="front">
+    <div class="main">
+    <div class="kicker">The lead</div>
     <h2 class="headline">{nl.headline}</h2>
     {#if nl.dek}<p class="dek">{nl.dek}</p>{/if}
     {#each (nl.features || []).filter((f) => f.place === 'before-lead') as f (f.id)}
@@ -112,14 +162,30 @@
             {/each}
         </section>
     {/each}
-    {#each paras(nl.lead) as p}<p class="lead">{p}</p>{/each}
+    <div class="leadcols">{#each paras(nl.lead) as p}<p class="lead">{p}</p>{/each}</div>
+    </div>
+    <aside class="side">
+        <div class="inside">
+            <div class="it">Inside this issue</div>
+            {#each insideList as f, i (f.id)}<a href="#f-{f.id}"><span>{f.title}</span><span>A{i + 2}</span></a>{/each}
+            <a href="#games"><span>Every matchup, every manager's story</span><span>B1</span></a>
+        </div>
+        {#if numbers.length}
+            <div class="nums">
+                <div class="kicker dim">The week in numbers</div>
+                {#each numbers as x}<div class="n"><b>{x.v}</b><span>{x.t}</span></div>{/each}
+            </div>
+        {/if}
+    </aside>
+    </div>
     {#each (nl.features || []).filter((f) => f.place === 'after-lead') as f (f.id)}
         <section class="feature {f.style}" id="f-{f.id}">
             {#if f.label}<div class="flabel">{f.label}</div>{/if}
             <h3 class="sec ftitle">{f.title}</h3>
             {#if f.dek}<p class="fdek">{f.dek}</p>{/if}
-            {#each f.blocks as b}
-                {#if b.type === 'fold'}
+            {#each gridded(f.blocks) as b}
+                {#if b.type === 'grid'}<div class="fgrid">{#each b.units as u}<div>{#each u as c}{#if c.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each c.cols as h}<th>{h}</th>{/each}</tr></thead><tbody>{#each c.rows as row}<tr>{#each row as cell, ci}<td class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>{:else}<p>{c.text}</p>{/if}{/each}</div>{/each}</div>
+                {:else if b.type === 'fold'}
                     <details class="fold"><summary>{b.summary}</summary>
                         {#each b.blocks as b}
                     {#if b.type === 'p'}<p>{b.text}</p>
@@ -180,8 +246,10 @@
                 </div>
             {/each}
             <p class="more"><a href="/">How they are ranked, on the home page →</a></p>
+            <p class="more nl-sitelinks">More on these teams: <a href="/standings">Power Lines</a> · <a href="/playoff-picture">Playoff Picture</a> · <a href="/lineup-heat">Lineup Heat Map</a> · <a href="/rivalries">Rivalry Hub</a></p>
         </section>
     {/if}
+        <RecordWatch mode="news" slug={nl.slug} />
 
     {/if}
 
@@ -566,4 +634,34 @@
     .av.big { width: 2.1em; height: 2.1em; }
     .nmt { display: inline-block; vertical-align: middle; min-width: 0; }
     .tn { display: block; font-size: 0.72em; font-weight: 400; opacity: 0.75; line-height: 1.2; }
+
+    /* newspaper front page (T.J. approved 2026-11-13) */
+    .mast { border: 0; padding: 0.4em 0 0; margin-bottom: 1.2em; }
+    .dateline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5em; font-size: 0.72em; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.75; border-bottom: 1px solid rgba(127,127,127,0.5); padding-bottom: 0.5em; }
+    .mast .name { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: clamp(2.3em, 10vw, 4.6em); line-height: 1; letter-spacing: -0.01em; margin-top: 0.25em; }
+    .mast .tag { font-family: 'Source Serif 4', Georgia, serif; }
+    .ticker { border-top: 3px double currentColor; border-bottom: 1px solid currentColor; padding: 0.5em 0; margin-top: 0.6em; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.35em 1.3em; font-size: 0.8em; font-weight: 500; }
+    .ticker .out { opacity: 0.6; }
+    .front { display: flex; flex-wrap: wrap; gap: 2em; align-items: flex-start; }
+    .front .main { flex: 2 1 460px; min-width: 0; }
+    .front .side { flex: 1 1 250px; min-width: 0; display: flex; flex-direction: column; gap: 1em; }
+    .kicker { font-size: 0.75em; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #3498db; }
+    .kicker.dim { color: inherit; opacity: 0.7; }
+    .headline { font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: clamp(1.7em, 6vw, 2.8em); line-height: 1.12; text-align: left; margin: 0.2em 0 0.3em; }
+    .dek { font-family: 'Source Serif 4', Georgia, serif; font-style: italic; text-align: left; margin: 0 0 0.9em; max-width: none; font-size: 1.1em; }
+    .leadcols { columns: 2 260px; column-gap: 1.8em; }
+    .lead { font-family: 'Source Serif 4', Georgia, serif; margin: 0 0 0.75em; }
+    .lead:first-of-type::first-letter { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: 3.6em; color: #3498db; }
+    .inside { border: 1px solid rgba(127,127,127,0.45); border-top: 4px solid #3498db; padding: 1em; }
+    .inside .it { font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: 1.35em; margin-bottom: 0.2em; }
+    .inside a { display: flex; justify-content: space-between; gap: 0.8em; padding: 0.6em 0; border-top: 1px solid rgba(127,127,127,0.3); text-decoration: none; color: inherit; font-size: 0.95em; }
+    .inside a span:last-child { opacity: 0.6; }
+    .inside a:hover span:first-child { color: #3498db; }
+    .nums { border: 1px solid rgba(127,127,127,0.45); padding: 1em; display: flex; flex-direction: column; gap: 0.55em; }
+    .nums .n { display: flex; align-items: baseline; gap: 0.7em; }
+    .nums .n b { font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: 2em; color: #3498db; white-space: nowrap; }
+    .nums .n span { font-size: 0.88em; opacity: 0.85; }
+    .feature.article { border: 0; border-top: 3px double currentColor; border-radius: 0; padding: 1.1em 0 0; scroll-margin-top: 4em; }
+    .feature.article .ftitle { font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: 1.8em; border: 0; }
+    .fgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1.5em; }
 </style>

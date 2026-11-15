@@ -727,6 +727,59 @@ def build_managers(cur, history):
 
 
 # ---------------------------------------------------------------- main
+ROLLED = False      # set when this run moved the site to a new season
+
+
+def find_renewed(league_id, new_season):
+    """The league Sleeper renewed this one into for new_season, or None."""
+    for u in get(f"https://api.sleeper.app/v1/league/{league_id}/users") or []:
+        for lg in get(f"https://api.sleeper.app/v1/user/{u['user_id']}/leagues/nfl/{new_season}") or []:
+            if str(lg.get("previous_league_id")) == str(league_id):
+                return lg
+    return None
+
+
+def rollover(state):
+    """Season rollover without a hand edit (2026-11-15).
+
+    site_config.json carries the league id and season, and they used to be typed
+    in every August. Now: once Sleeper's regular season is a later year than the
+    one in the config, look for the league this one was renewed into. When it has
+    drafted and is in season, write the new id and season into site_config.json
+    and src/lib/utils/leagueInfo.js (the pages read the id from there) and carry
+    on with them. A vault site (FL Players) is only told, because the season
+    that just ended has to be in the vault first or it would drop out of history.
+    Any failure leaves the config alone."""
+    global LEAGUE_ID, SEASON, ROLLED
+    try:
+        if CONFIG.get("shim") or state.get("season_type") != "regular":
+            return
+        while int(state.get("season") or 0) > SEASON:
+            nxt = find_renewed(LEAGUE_ID, SEASON + 1)
+            if not nxt:
+                print(f"ROLLOVER: Sleeper is on {state.get('season')} but no league was renewed from {LEAGUE_ID}; staying on {SEASON}")
+                return
+            if nxt.get("status") != "in_season":
+                print(f"ROLLOVER: the {SEASON + 1} league exists ({nxt.get('status')}) but is not in season yet; staying on {SEASON}")
+                return
+            if HISTORY_SOURCE == "vault":
+                print(f"ROLLOVER NEEDED: the {SEASON + 1} league is {nxt['league_id']}. Put {SEASON} in the vault, then set "
+                      f"league_id and season in scripts/site_config.json and leagueID in src/lib/utils/leagueInfo.js")
+                return
+            old = str(LEAGUE_ID)
+            CONFIG["league_id"] = str(nxt["league_id"]); CONFIG["season"] = SEASON + 1
+            write_json(os.path.join(REPO, "scripts", "site_config.json"), CONFIG)
+            li = os.path.join(REPO, "src", "lib", "utils", "leagueInfo.js")
+            txt = open(li, encoding="utf-8").read()
+            if old in txt:
+                with open(li, "w", encoding="utf-8", newline="") as f:
+                    f.write(txt.replace(old, str(nxt["league_id"])))
+            LEAGUE_ID = CONFIG["league_id"]; SEASON = int(CONFIG["season"]); ROLLED = True
+            print(f"ROLLOVER: now on {SEASON}, league {LEAGUE_ID}")
+    except Exception as e:
+        print("rollover check failed, config left alone:", e)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", type=int, help="rebuild just this week's recap")
@@ -739,6 +792,7 @@ def main():
         espn_shim.main()
 
     state = sleeper("/state/nfl")
+    rollover(state)
     cur = Season(LEAGUE_ID)
     history = build_history(cur, state)
     print(f"history.json: {len(history['games'])} games "
@@ -768,7 +822,7 @@ def main():
     ctx = {"mode": HISTORY_SOURCE, "cur": cur, "state": state, "history": history, "season": SEASON,
            "live_seasons": sorted(OLD_SEASONS, key=lambda x: x.season) + [cur],
            "dynasty": (cur.league.get("settings") or {}).get("type") == 2,
-           "odds_prior": CONFIG.get("odds_prior"),   # "current" (redraft default) or "last_season"
+           "odds_prior": CONFIG.get("odds_prior"), "hof": CONFIG.get("hof"),   # "current" (redraft default) or "last_season"
            "data": DATA, "static": STATIC, "vault_manual": VAULT_MANUAL,
            "write_json": write_json, "read_json": read_json, "sleeper": sleeper,
            # the name to print where a line of built text names a manager
@@ -790,6 +844,8 @@ def main():
 
     if args.push:
         paths = ["src/lib/data", "static/data"]
+        if ROLLED:                    # the new league id has to reach the live pages too
+            paths += ["scripts/site_config.json", "src/lib/utils/leagueInfo.js"]
         if CONFIG.get("shim"):        # the ESPN copies the pages read in the browser
             paths.append("static/shim")
         subprocess.run(["git", "-C", REPO, "add", *paths], check=True)

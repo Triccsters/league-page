@@ -126,6 +126,24 @@ export const tabs = [
                 dest: '/ladder',
             },
             {
+                icon: 'person_search',
+                label: 'Player Hall of Fame',
+                dest: '/players',
+            },
+            {
+                icon: 'sports_football',
+                label: 'Football Stats',
+                dest: '/football',
+            },
+        ]
+    },
+    {
+        icon: 'grading',
+        label: 'Grades',
+        nest: true,
+        key: 'grades',
+        children: [
+            {
                 icon: 'shopping_cart',
                 label: 'Waiver Returns',
                 dest: '/waivers',
@@ -139,11 +157,6 @@ export const tabs = [
                 icon: 'grading',
                 label: 'Draft Grades',
                 dest: '/draft-grades',
-            },
-            {
-                icon: 'person_search',
-                label: 'Player History',
-                dest: '/players',
             },
         ]
     },
@@ -164,19 +177,9 @@ export const tabs = [
                 dest: '/record-book',
             },
             {
-                icon: 'military_tech',
-                label: 'Hall of Fame',
-                dest: '/hall-of-fame',
-            },
-            {
                 icon: 'emoji_events',
                 label: 'Trophy Room',
                 dest: '/awards',
-            },
-            {
-                icon: 'military_tech',
-                label: 'Records',
-                dest: '/records',
             },
             {
                 icon: 'local_fire_department',

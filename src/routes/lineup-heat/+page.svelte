@@ -5,6 +5,9 @@
     import { nameOf, managerLink } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import * as leagueInfo from '$lib/utils/leagueInfo';
+    // tight end premium (Lets go Brandon): say so, because it changes what a tight end is worth here
+    import rules from '$lib/data/rules.json';
+    const tePrem = (rules.scoring || []).find((x) => /TE reception bonus/i.test(x?.name || ''));
 
     let data = null, error = '', ready = false;
     onMount(async () => {
@@ -44,6 +47,7 @@
     <h1>Lineup Heat Map</h1>
     {#if data && rows.length}
         <p class="sub">Every manager's starting lineup right now. Green is one of the best starters in the league at that spot by points per game this season, red is one of the weakest. Teams are in order of total lineup strength.</p>
+        {#if tePrem}<p class="sub"><b>Tight end premium league:</b> a tight end gets {tePrem.points} extra for every catch, so tight ends score and rank higher here than they would elsewhere.</p>{/if}
         <div class="scroll">
             <table>
                 <thead><tr><th>Manager</th>{#each cols as c}<th>{c.label}</th>{/each}</tr></thead>

@@ -1,4 +1,7 @@
 <script>
+    import managers from '$lib/data/managers.json';
+    const shown = Object.fromEntries((managers || []).map((m) => [String(m.handle).toLowerCase(), m.name]));
+    const shownName = (n) => shown[String(n).toLowerCase()] || n;
     export let data;
     const { allPlayData } = data;
 </script>
@@ -93,7 +96,7 @@
                     <tr class:top1={row.rank === 1} class:top2={row.rank === 2} class:top3={row.rank === 3}>
                         <td class="rank">{row.rank}</td>
                         <td>{row.team}</td>
-                        <td>{row.manager}</td>
+                        <td>{shownName(row.manager)}</td>
                         <td class="num">{row.all_play_w}-{row.all_play_l}{row.all_play_t ? `-${row.all_play_t}` : ''}</td>
                         <td class="num pct">{(row.all_play_pct * 100).toFixed(1)}%</td>
                         <td class="num">{row.points_for.toFixed(2)}</td>

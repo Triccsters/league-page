@@ -1,5 +1,68 @@
 [
  {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "Record Watch",
+  "text": "Which records can still fall this season and what each team needs, records already broken, and career milestones coming up. It sits at the top of the Record Book, on the home page, in the newsletter and on every manager page, and rebuilds itself from every game at each update.",
+  "link": "/record-book"
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "The newsletter looks like a newspaper",
+  "text": "A front page with a masthead, a standings ticker, the lead story in columns, an Inside this issue list and the week in numbers. Each matchup card now shows lead changes, the turning points, the playoff odds swing and who won each position.",
+  "link": "/recaps"
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "fix",
+  "title": "This week's notes never go stale",
+  "text": "The notes list on the Insights page now fills itself from the week's scores and ESPN headlines in any week the hand-written notes are missing.",
+  "link": "/insights"
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "Rivalry outlooks",
+  "text": "Every rivalry page now opens with the story so far and where it stands this season: who leads, whether the series has changed hands, the next meeting and what a win would mean. It rewrites itself after every game.",
+  "link": "/rivalries"
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "fix",
+  "title": "Trade grade letters",
+  "link": "/trade-grades",
+  "text": "Trade letters are now graded on a curve against every finished trade in the league, so the middle grades get used. Close trades are marked as fair, and a trade that cannot be judged yet says so."
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "Trophy Room and a Grades menu",
+  "link": "/awards",
+  "text": "Hall of Fame and Trophy Room are one page now, called Trophy Room. Trade Grades, Draft Grades and Waiver Returns have their own Grades group in the menu."
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "Player Hall of Fame",
+  "link": "/players",
+  "text": "The Players page now has a Hall of Fame with written rules for getting in, a card for every player who made it, and a section for great players whose prime years were wasted here. The full player list can be sorted by any column and has headshots."
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "Football stats",
+  "link": "/football",
+  "text": "Real yards, catches and touchdowns from the players each manager started, by season or all time, plus the biggest single games and longest plays ever put in a lineup."
+ },
+ {
+  "d": "2026-11-15",
+  "kind": "new",
+  "title": "Best-ever lineup and game log",
+  "link": "/managers",
+  "text": "Every manager page now shows that team's all-time starting lineup, its football totals with league rank, and a log of every game it has played."
+ },
+ {
   "d": "2026-11-13",
   "kind": "new",
   "title": "Playoff race cards",

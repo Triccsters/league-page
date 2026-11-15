@@ -95,6 +95,7 @@ def collect_slots(ctx):
                 pp = m.get("players_points") or {}
                 for pid in m.get("players") or []:
                     info = S.pinfo(pid)
+                    ctx.setdefault("pid_of", {})[pkey(info["name"])] = pid
                     rows.append((S.season, w, h, pkey(info["name"]), info["name"], info["pos"],
                                  pid in starters, round(pp.get(pid, 0) or 0, 2)))
     return rows
@@ -122,16 +123,61 @@ def value_after(idx, h, k, season, week, dynasty, until=None):
 
 
 # ---------------------------------------------------------------- players
+def _unit_name(name, pos):
+    """One name per defence: 'Pittsburgh Steelers' and 'Steelers' are the same unit."""
+    if pos == "DEF":
+        parts = re.sub(r"\s*-?\s*DEF$", "", (name or "").strip(), flags=re.I).split()
+        if len(parts) > 1:
+            return parts[-1]
+    return name
+
+
+def _sleeper_ids(ctx, per):
+    """key -> Sleeper id (a team code for a defence), for headshots and logos."""
+    ids = dict(ctx.get("pid_of") or {})
+    try:
+        allp = ctx["cur"].players
+    except Exception:
+        allp = {}
+    by_name, by_def = defaultdict(list), {}
+    for pid, p in allp.items():
+        if (p.get("position") == "DEF") or not str(pid).isdigit():
+            if p.get("last_name"):
+                by_def[pkey(p["last_name"])] = pid
+            continue
+        nm = p.get("full_name") or ("%s %s" % (p.get("first_name", ""), p.get("last_name", ""))).strip()
+        if nm:
+            by_name[pkey(nm)].append((pid, p.get("position") or "", p.get("years_exp") or 0))
+    out = {}
+    for k, p in per.items():
+        if p["p"] == "DEF":
+            if k in by_def:
+                out[k] = by_def[k]
+            continue
+        if k in ids and str(ids[k]).isdigit():
+            out[k] = ids[k]
+            continue
+        cands = [c for c in by_name.get(k, ()) if c[1] == p["p"]]
+        if len(cands) == 1:
+            out[k] = cands[0][0]
+        elif len(cands) > 1:      # two players, one name: the longer career is the one with history here
+            out[k] = max(cands, key=lambda c: c[2])[0]
+    return out
+
+
 def build_players(ctx, rows):
     per = {}
     tops = []
     for season, week, h, k, name, pos, st, pts in rows:
-        p = per.setdefault(k, {"n": name, "p": pos, "pts": 0.0, "st": 0, "wk": 0, "s": {}})
+        if pos == "DEF":
+            name = _unit_name(name, pos)
+            k = pkey(name)
+        p = per.setdefault(k, {"n": name, "p": pos, "pts": 0.0, "st": 0, "wk": 0, "b": 0.0, "s": {}})
         if pos and not p["p"]:
             p["p"] = pos
         if season >= p.get("last", 0):
             p["n"], p["last"] = name, season
-        e = p["s"].setdefault((season, h), [0.0, 0, 0])
+        e = p["s"].setdefault((season, h), [0.0, 0, 0, 0.0])
         e[2] += 1
         p["wk"] += 1
         if st:
@@ -140,18 +186,23 @@ def build_players(ctx, rows):
             p["pts"] += pts
             p["st"] += 1
             tops.append((pts, season, week, h, name, pos))
+        else:
+            e[3] += pts
+            p["b"] += pts
     ye = yahoo_era(ctx)
     if ye:
         ylines, _ydrafts, _ycov, ytops = ye
         ypos = {}
         for season, h, name, pos, pts, starts, weeks in ylines:
+            if pos == "DEF":
+                name = _unit_name(name, pos)
             k = pkey(name)
             if pos:
                 ypos.setdefault(k, pos)
-            p = per.setdefault(k, {"n": name, "p": pos, "pts": 0.0, "st": 0, "wk": 0, "s": {}})
+            p = per.setdefault(k, {"n": name, "p": pos, "pts": 0.0, "st": 0, "wk": 0, "b": 0.0, "s": {}})
             if pos and not p["p"]:
                 p["p"] = pos
-            e = p["s"].setdefault((season, h), [0.0, 0, 0])
+            e = p["s"].setdefault((season, h), [0.0, 0, 0, 0.0])
             e[0] += pts
             e[1] += starts
             e[2] += weeks
@@ -160,14 +211,19 @@ def build_players(ctx, rows):
             p["wk"] += weeks
         for season, week, h, name, pts in ytops:
             tops.append((pts, season, week, h, name, ypos.get(pkey(name), "")))
+    ids = _sleeper_ids(ctx, per)
     out = []
     for k, p in per.items():
         if p["pts"] < 25 and p["st"] < 3:
             continue
-        seasons = sorted(([s, h, round(v[0], 2), v[1], v[2]] for (s, h), v in p["s"].items()),
+        # season rows: [season, manager, points started, starts, weeks rostered, points on the bench]
+        seasons = sorted(([s, h, round(v[0], 2), v[1], v[2], round(v[3], 2)] for (s, h), v in p["s"].items()),
                          key=lambda x: (x[0], -x[2]))
-        out.append({"k": k, "n": p["n"], "p": p["p"], "pts": round(p["pts"], 2), "st": p["st"],
-                    "wk": p["wk"], "s": seasons})
+        row = {"k": k, "n": p["n"], "p": p["p"], "pts": round(p["pts"], 2), "st": p["st"],
+               "wk": p["wk"], "b": round(p["b"], 2), "s": seasons}
+        if k in ids:
+            row["id"] = ids[k]
+        out.append(row)
     out.sort(key=lambda x: -x["pts"])
     tops.sort(key=lambda x: -x[0])
     first = min((r[0] for r in rows), default=ctx["season"])
@@ -177,6 +233,8 @@ def build_players(ctx, rows):
         "generated": now(),
         "first_season": first,
         "pre2014_standard_scoring": bool(ye),
+        # bench points exist from the first season with week-by-week lineups
+        "bench_from": min((r[0] for r in rows), default=ctx["season"]),
         "players": out,
         "top_games": [{"pts": t[0], "season": t[1], "week": t[2], "h": t[3], "n": t[4], "p": t[5]} for t in tops[:40]],
     }
@@ -413,6 +471,15 @@ def build_drafts(ctx, rows):
     base = {k: sum(v) / len(v) for k, v in base.items() if v}
     for p in picks:
         p.append(round(p[6] - base.get((p[0], p[8], p[1]), 0), 2))      # index 9: over round average
+    # index 10: starts in the drafting manager's lineup behind that value; index 11: seasons it covers
+    ystarts = {(season, h, pkey(name)): starts for season, h, name, _pos, _pts, starts, _w in ye[0]} if ye else {}
+    for p in picks:
+        k = pkey(p[4])
+        st = ystarts.get((p[0], p[3], k))
+        if st is None:
+            st = value_after(idx, p[3], k, p[0], 0, dyn)[1]
+        p.append(st)
+        p.append(max(1, ctx["season"] - p[0] + 1) if dyn else 1)
     # grade each manager's draft within its season
     grades = defaultdict(dict)
     by = defaultdict(lambda: defaultdict(float))
@@ -436,7 +503,7 @@ def build_drafts(ctx, rows):
     managers = {h: {"n": e["n"], "hit": round(100 * e["hits"] / max(1, e["n"])), "avg": round(e["over"] / max(1, e["n"]), 1)}
                 for h, e in per.items()}
     data = {"generated": now(), "dynasty": dyn,
-            "fields": ["season", "round", "pick", "manager", "player", "pos", "value", "live", "draft", "over"],
+            "fields": ["season", "round", "pick", "manager", "player", "pos", "value", "live", "draft", "over", "starts", "seasons"],
             "picks": picks, "grades": grades, "managers": managers}
     ctx["write_json"](os.path.join(ctx["static"], "drafts.json"), data, compact=True)
     return data
@@ -924,6 +991,264 @@ def build_odds_and_previews(ctx):
     return odds, pv
 
 
+# ---------------------------------------------------------------- player hall of fame
+# Rules T.J. approved 2026-11-15. An All-League season is a top finish at the
+# position in points scored while in a lineup in THIS league. The cut-offs per
+# league live in site_config.json ("hof"), so a league growing older never
+# throws anyone out of the Hall.
+HOF_TOP = {"QB": 3, "RB": 6, "WR": 6, "TE": 3, "K": 1, "DEF": 1}
+HOF_MIN_STARTS = 8        # starts in a season before it can be All-League
+HOF_RING_STARTS = 6       # starts for the champion before the ring counts
+WASTE_POS = ("QB", "RB", "WR", "TE")
+WASTE_BENCH_WEEKS = 4     # weeks on a bench in a difference-making season
+WASTE_BENCH_SHARE = 0.25  # and at least this share of his points scored there
+WASTE_MIN_SEASONS = 2     # prime years, plural: one bad landing spot is not a wasted prime
+
+
+def _hof_cutoffs(ctx, n):
+    d = {"peak": 3 if n <= 5 else 4 if n <= 9 else 5, "rings": 2,
+         "champ_al": 2 if n <= 5 else 3, "best": 2 if n <= 5 else 3}
+    d.update(ctx.get("hof") or {})
+    return d
+
+
+def build_player_hof(ctx, pdata):
+    cur = ctx["season"]
+    champs, playoff, rec = {}, defaultdict(set), defaultdict(lambda: [0, 0])
+    for s, _w, _era, a, pa, b, pb, _po, label in ctx["history"]["games"]:
+        if label in REAL:
+            playoff[s].add(a)
+            playoff[s].add(b)
+            if label == "Championship" and pa != pb:
+                champs[s] = a if pa > pb else b
+        elif not label and pa is not None and pb is not None and (pa or pb):
+            if pa > pb:
+                rec[(s, a)][0] += 1; rec[(s, b)][1] += 1
+            elif pb > pa:
+                rec[(s, b)][0] += 1; rec[(s, a)][1] += 1
+    players = pdata["players"]
+    st_pts, st_n, all_pts, wk_n, bench_pts = (defaultdict(float), defaultdict(int), defaultdict(float),
+                                              defaultdict(int), defaultdict(float))
+    for p in players:
+        for s, _h, pts, st, wk, bn in p["s"]:
+            key = (s, p["k"])
+            st_pts[key] += pts; st_n[key] += st; wk_n[key] += wk
+            bench_pts[key] += bn; all_pts[key] += pts + bn
+    pos = {p["k"]: p["p"] for p in players}
+
+    def ranks(table):
+        by, out = defaultdict(list), {}
+        for (s, k), v in table.items():
+            by[(s, pos.get(k, ""))].append((v, k))
+        for (s, _po), lst in by.items():
+            lst.sort(reverse=True)
+            for i, (_v, k) in enumerate(lst):
+                out[(s, k)] = i + 1
+        return out
+    r_st, r_all = ranks(st_pts), ranks(all_pts)
+    seasons = sorted({s for s, _ in st_pts if s < cur})
+    cut = _hof_cutoffs(ctx, len(seasons))
+    bench_from = pdata.get("bench_from") or cur
+
+    inductees, near, wasted = [], [], []
+    for p in players:
+        k, po = p["k"], p["p"]
+        if po not in HOF_TOP:
+            continue
+        yrs = sorted({r[0] for r in p["s"]})
+        al = [s for s in yrs if s < cur and r_st.get((s, k), 99) <= HOF_TOP[po] and st_n[(s, k)] >= HOF_MIN_STARTS]
+        no1 = [s for s in al if r_st[(s, k)] == 1]
+        rings = sorted({s for s, h, _pts, st, _wk, _bn in p["s"] if champs.get(s) == h and st >= HOF_RING_STARTS})
+        via = []
+        if len(al) >= cut["peak"]:
+            via.append("peak")
+        if len(rings) >= cut["rings"] and len(al) >= cut["champ_al"]:
+            via.append("champion")
+        if len(no1) >= cut["best"]:
+            via.append("best")
+        by_mgr = defaultdict(float)
+        for _s, h, pts, _st, _wk, _bn in p["s"]:
+            by_mgr[h] += pts
+        card = {"k": k, "n": p["n"], "p": po, "id": p.get("id"), "al": al, "no1": no1, "rings": rings,
+                "st": p["st"], "pts": p["pts"], "first": yrs[0], "last": yrs[-1],
+                "mgrs": len(by_mgr), "top": max(by_mgr, key=by_mgr.get)}
+        if via:
+            card["via"] = via
+            inductees.append(card)
+        elif len(al) == cut["peak"] - 1 and len(al) >= 2:
+            near.append(card)
+        if po not in WASTE_POS:
+            continue
+        # prime years wasted: finished seasons where he was a difference maker
+        # (top of his position on all points, bench included) for a losing team
+        # that missed the playoffs, or while sitting on a bench
+        prime, lost = 0, []
+        for s in yrs:
+            key = (s, k)
+            if s >= cur or r_all.get(key, 99) > HOF_TOP[po] or wk_n[key] < HOF_MIN_STARTS:
+                continue
+            prime += 1
+            rows = [r for r in p["s"] if r[0] == s]
+            main = max(rows, key=lambda r: r[4])[1]
+            w, l = rec.get((s, main), [0, 0])
+            bw = wk_n[key] - st_n[key]
+            on_bench = (s >= bench_from and bw >= WASTE_BENCH_WEEKS
+                        and bench_pts[key] >= WASTE_BENCH_SHARE * all_pts[key])
+            on_loser = w < l and main not in playoff.get(s, ())
+            if on_bench or on_loser:
+                lost.append({"season": s, "h": main, "rank": r_all[key], "total": round(all_pts[key], 1),
+                             "w": w, "l": l, "loser": on_loser, "benched": on_bench,
+                             "bench": round(bench_pts[key], 1), "bw": bw})
+        # at least two such seasons, and at least half of his prime
+        # ... and not a player who won two titles here anyway
+        if len(lost) >= WASTE_MIN_SEASONS and 2 * len(lost) >= prime and len(rings) < 2:
+            wasted.append({"k": k, "n": p["n"], "p": po, "id": p.get("id"), "prime": prime,
+                           "rings": len(rings), "seasons": lost})
+    inductees.sort(key=lambda c: (-len(c["al"]), -len(c["rings"]), -c["pts"]))
+    near.sort(key=lambda c: (-len(c["al"]), -c["pts"]))
+    wasted.sort(key=lambda x: (-len(x["seasons"]), x["rings"], sum(y["rank"] for y in x["seasons"])))
+    data = {
+        "generated": now(), "season": cur, "seasons": len(seasons),
+        "first_season": seasons[0] if seasons else cur,
+        "missing": (ctx["history"].get("site") or {}).get("missing_seasons") or [],
+        "bench_from": bench_from,
+        "rules": dict(cut, top=HOF_TOP, min_starts=HOF_MIN_STARTS, ring_starts=HOF_RING_STARTS,
+                      bench_weeks=WASTE_BENCH_WEEKS, bench_share=WASTE_BENCH_SHARE,
+                      waste_seasons=WASTE_MIN_SEASONS),
+        "inductees": inductees, "near": near, "wasted": wasted,
+    }
+    ctx["write_json"](os.path.join(ctx["static"], "player_hof.json"), data, compact=True)
+    return data
+
+
+# ---------------------------------------------------------------- football stats
+# Real football numbers from each manager's starters (T.J., 2026-11-13). Sleeper's
+# weekly stat lines only reach back as far as the league has been on Sleeper.
+FB_URL = "https://api.sleeper.app/stats/nfl/{season}/{week}?season_type=regular"
+FB_CACHE = os.path.join(os.path.expanduser("~"), ".cache", "league_page_stats")
+FB_KEYS = ("pass_yd", "pass_td", "pass_int", "rush_yd", "rush_td", "rec", "rec_yd", "rec_td", "fum_lost", "fgm")
+FB_LONG = ("pass_lng", "rush_lng", "rec_lng", "fgm_lng")
+FB_GAMES = ("pass_yd", "rush_yd", "rec_yd", "rec", "td")
+
+
+def _fb_week(season, week, fresh):
+    """pid -> the stat keys we keep, for one NFL week. Finished weeks are cached on disk."""
+    fp = os.path.join(FB_CACHE, "%d-%02d.json" % (season, week))
+    if not fresh and os.path.exists(fp):
+        with open(fp, encoding="utf-8") as f:
+            return json.load(f)
+    import urllib.request
+    req = urllib.request.Request(FB_URL.format(season=season, week=week), headers={"User-Agent": "league-page-updater"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        raw = json.loads(r.read().decode("utf-8"))
+    out = {}
+    for row in raw if isinstance(raw, list) else []:
+        st = row.get("stats") or {}
+        keep = {k: st[k] for k in FB_KEYS + FB_LONG if st.get(k)}
+        if keep:
+            out[str(row.get("player_id"))] = keep
+    os.makedirs(FB_CACHE, exist_ok=True)
+    with open(fp, "w", encoding="utf-8") as f:
+        json.dump(out, f)
+    return out
+
+
+def _fb_season(S, weeks, live):
+    """One season's totals per manager, plus its biggest games and longest plays."""
+    rows = defaultdict(lambda: {k: 0 for k in FB_KEYS})
+    games, plays = {k: [] for k in FB_GAMES}, {k: [] for k in FB_LONG}
+    through, missing = None, 0
+    for w in weeks:
+        try:
+            st = _fb_week(S.season, w, live and w >= weeks[-1] - 1)   # stat corrections land late
+        except Exception as e:
+            print("football: no stats for %s week %s: %s" % (S.season, w, e))
+            missing += 1
+            continue
+        through = [S.season, w]
+        for m in S.matchups(w):
+            h = S.handle.get(m.get("roster_id"))
+            if not h:
+                continue
+            for pid in m.get("starters") or []:
+                line = st.get(str(pid))
+                if not line:
+                    continue
+                for k in FB_KEYS:
+                    if line.get(k):
+                        rows[h][k] += line[k]
+                info = S.pinfo(str(pid))
+                tag = [info["name"], info["pos"], str(pid), h, S.season, w]
+                td = (line.get("pass_td") or 0) + (line.get("rush_td") or 0) + (line.get("rec_td") or 0)
+                for k in FB_GAMES:
+                    v = td if k == "td" else (line.get(k) or 0)
+                    if v:
+                        games[k].append([v] + tag)
+                for k in FB_LONG:
+                    if line.get(k):
+                        plays[k].append([line[k]] + tag)
+    top = lambda lst, n: sorted(lst, key=lambda x: (-x[0], x[5], x[6]))[:n]
+    return {"season": S.season, "rows": {h: dict(v) for h, v in rows.items()}, "through": through, "missing": missing,
+            "games": {k: top(v, 10) for k, v in games.items()}, "plays": {k: top(v, 8) for k, v in plays.items()}}
+
+
+def _fb_past_vault(ctx):
+    """In vault mode the build reads only the current season live, so walk back through
+    Sleeper here. A finished season never changes: it is read once and kept on disk."""
+    cur, out = ctx["cur"], []
+    by_user = {cur.owner[rid]: h for rid, h in cur.handle.items() if rid in cur.owner}
+    prev = cur.league.get("previous_league_id")
+    while prev and prev != "0":
+        fp = os.path.join(FB_CACHE, "season-%s.json" % prev)
+        if os.path.exists(fp):
+            with open(fp, encoding="utf-8") as f:
+                agg = json.load(f)
+        else:
+            S = type(cur)(prev, by_user)
+            agg = _fb_season(S, S.completed_weeks(ctx["state"]), False)
+            agg["prev"] = S.league.get("previous_league_id")
+            if not agg["missing"]:
+                os.makedirs(FB_CACHE, exist_ok=True)
+                with open(fp, "w", encoding="utf-8") as f:
+                    json.dump(agg, f)
+            print("  football: %s read from Sleeper" % agg["season"])
+        out.append(agg)
+        prev = agg.get("prev")
+    return out
+
+
+def build_football(ctx):
+    cur, state = ctx["season"], ctx["state"]
+    parts = _fb_past_vault(ctx) if ctx["mode"] == "vault" else []
+    for S in ctx["live_seasons"]:
+        weeks = S.completed_weeks(state)
+        if weeks:
+            parts.append(_fb_season(S, weeks, S.season == cur))
+    parts.sort(key=lambda a: a["season"])
+    mgr = defaultdict(lambda: {"tot": {k: 0 for k in FB_KEYS}, "seasons": {}})
+    games, plays = {k: [] for k in FB_GAMES}, {k: [] for k in FB_LONG}
+    for a in parts:
+        for h, row in a["rows"].items():
+            mgr[h]["seasons"][str(a["season"])] = row
+            for k in FB_KEYS:
+                mgr[h]["tot"][k] += row.get(k, 0)
+        for k in FB_GAMES:
+            games[k] += a["games"][k]
+        for k in FB_LONG:
+            plays[k] += a["plays"][k]
+    top = lambda lst, n: sorted(lst, key=lambda x: (-x[0], x[5], x[6]))[:n]
+    r0 = lambda d: {k: int(round(v)) for k, v in d.items()}
+    data = {
+        "generated": now(), "seasons": [a["season"] for a in parts],
+        "through": parts[-1]["through"] if parts else None, "weeks_missing": sum(a["missing"] for a in parts),
+        "managers": {h: {"tot": r0(v["tot"]), "seasons": {s: r0(x) for s, x in v["seasons"].items()}} for h, v in mgr.items()},
+        "games": {k: top(v, 10) for k, v in games.items()},
+        "plays": {k: top(v, 8) for k, v in plays.items()},
+    }
+    ctx["write_json"](os.path.join(ctx["static"], "football.json"), data, compact=True)
+    return data
+
+
 def build_all(ctx):
     out = {}
     if ctx["mode"] == "vault":
@@ -932,7 +1257,21 @@ def build_all(ctx):
         ctx["flp_slots"] = list(flp.slots())
     os.makedirs(ctx["static"], exist_ok=True)
     rows = collect_slots(ctx)
-    out["players"] = len(build_players(ctx, rows)["players"])
+    pdata = build_players(ctx, rows)
+    out["players"] = len(pdata["players"])
+    try:
+        out["hof"] = len(build_player_hof(ctx, pdata)["inductees"])
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print("player hall of fame failed:", e)
+    try:
+        fb = build_football(ctx)
+        out["football_through"] = fb["through"]
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print("football stats failed:", e)
     costly = build_costly(ctx, rows)
     trades = build_trades(ctx, rows)
     out["trades"] = len(trades["trades"])
@@ -988,4 +1327,12 @@ def build_all(ctx):
         import traceback
         traceback.print_exc()
         print("trackers failed:", e)
+    # records within reach, records broken, career milestones (record_watch.py)
+    try:
+        import record_watch as RW
+        out["record_lines"] = len(RW.build_record_watch(ctx)["lines"])
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print("record watch failed:", e)
     return out

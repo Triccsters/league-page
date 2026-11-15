@@ -76,7 +76,7 @@
     }));
 </script>
 
-<svelte:head><title>Playoff Picture</title></svelte:head>
+<svelte:head><title>Playoff Picture | {site.league_name}</title></svelte:head>
 
 <div class="holder">
     <h1>Playoff Picture</h1>

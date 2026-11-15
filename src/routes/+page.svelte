@@ -8,6 +8,7 @@
 	import PowerLines from '$lib/Charts/PowerLines.svelte';
 	import HelpWanted from '$lib/Charts/HelpWanted.svelte';
 	import WhatsNew from '$lib/Charts/WhatsNew.svelte';
+	import RecordWatch from '$lib/Charts/RecordWatch.svelte';
 	import LatestNewsletters from '$lib/Charts/LatestNewsletters.svelte';
 	import Podcast from '$lib/Charts/Podcast.svelte';
 	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
@@ -169,6 +170,7 @@
             </div>
         {/if}
         <WhatsNew />
+        <RecordWatch mode="home" />
         <LatestNewsletters />
         <HomeHero />
         <PowerBoard />

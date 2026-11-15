@@ -3,6 +3,9 @@
     import { nameOf, managerLink, site } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
+    // tight end premium (Lets go Brandon): say so, because it changes what a tight end is worth here
+    import rules from '$lib/data/rules.json';
+    const tePrem = (rules.scoring || []).find((x) => /TE reception bonus/i.test(x?.name || ''));
 
     let data = null, error = '', ready = false, pick = null;
     onMount(async () => {
@@ -47,6 +50,7 @@
     <h1>Draft Grades</h1>
     {#if data}
         <p class="sub">Each pick is judged by what it returned: the points that player scored <b>in the drafting manager's starting lineup</b>{data.dynasty ? ' in every season he stayed on that roster' : ' that season'}, compared with the average pick in the same round. Positive means the pick beat its round.</p>
+        {#if tePrem}<p class="sub"><b>Tight end premium league:</b> a tight end gets {tePrem.points} extra for every catch, so tight ends score and rank higher here than they would elsewhere.</p>{/if}
 
         <h2>Grade a draft</h2>
         <div class="filters">

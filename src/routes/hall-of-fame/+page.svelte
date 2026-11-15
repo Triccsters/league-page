@@ -44,7 +44,7 @@
 </script>
 
 <div class="holder">
-    <h1>Hall of Fame</h1>
+    <h1>Trophy Room</h1>
     <p class="sub">
         Every award here is worked out from the league's own record: game scores, trades, waiver claims and draft
         picks, across all {site.first_season ? `seasons since ${site.first_season}` : 'seasons on record'}. Nothing is

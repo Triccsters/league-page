@@ -220,7 +220,7 @@
       ],
       [
        "@@butterygoop",
-       13,
+       14,
        138.9,
        "-"
       ],
@@ -232,7 +232,7 @@
       ],
       [
        "@@Jbird531",
-       6,
+       8,
        93.2,
        "$1"
       ],
@@ -882,7 +882,7 @@
        "@@Colt45Johnson",
        "QB",
        "RB, WR",
-       "QB 7 RB 11 WR 10 TE 5"
+       "QB 7 RB 9 WR 10 TE 5"
       ],
       [
        "@@Jbird531",
@@ -894,13 +894,13 @@
        "@@PapaMidnight",
        "RB",
        "QB, TE",
-       "QB 12 RB 7 WR 6 TE 12"
+       "QB 12 RB 7 WR 6 TE 11"
       ],
       [
        "@@RockMNwild",
        "-",
        "TE",
-       "QB 2 RB 5 WR 4 TE 11"
+       "QB 2 RB 5 WR 4 TE 12"
       ],
       [
        "@@Wallner",
@@ -912,13 +912,13 @@
        "@@YoungBuck04",
        "-",
        "QB, WR",
-       "QB 11 RB 2 WR 11 TE 6"
+       "QB 11 RB 2 WR 12 TE 6"
       ],
       [
        "@@brettmn13",
        "WR",
        "RB",
-       "QB 3 RB 10 WR 1 TE 8"
+       "QB 3 RB 11 WR 1 TE 8"
       ],
       [
        "@@butterygoop",
@@ -930,13 +930,13 @@
        "@@snelson91",
        "TE",
        "WR",
-       "QB 6 RB 1 WR 12 TE 4"
+       "QB 6 RB 1 WR 11 TE 4"
       ],
       [
        "@@thecreamer",
        "-",
        "RB, TE",
-       "QB 8 RB 9 WR 7 TE 9"
+       "QB 8 RB 10 WR 7 TE 9"
       ],
       [
        "@@triccster",
@@ -1034,13 +1034,13 @@
        "@@Colt45Johnson",
        "Tyler Shough",
        "QB NO",
-       16.1
+       16.0
       ],
       [
        "@@butterygoop",
        "Bhayshul Tuten",
        "RB JAX",
-       14.1
+       14.0
       ],
       [
        "@@butterygoop",
@@ -1070,7 +1070,7 @@
        "@@PapaMidnight",
        "Jordan Mason",
        "RB MIN",
-       10.1
+       10.2
       ],
       [
        "@@butterygoop",
@@ -1124,15 +1124,15 @@
       ],
       [
        3,
-       "@@Colt45Johnson",
+       "@@Wallner",
        30.5,
-       "Tyler Shough, Deebo Samuel Sr., T.J. Hockenson"
+       "Drake Maye, Tyler Allgeier, Emeka Egbuka"
       ],
       [
        4,
-       "@@Wallner",
-       30.4,
-       "Drake Maye, Tyler Allgeier, Emeka Egbuka"
+       "@@Colt45Johnson",
+       28.8,
+       "Tyler Shough, T.J. Hockenson, Jordan Addison"
       ],
       [
        5,
@@ -1148,27 +1148,27 @@
       ],
       [
        7,
-       "@@PapaMidnight",
-       25.0,
-       "Jordan Mason, Malik Washington, Keon Coleman"
+       "@@Jbird531",
+       26.9,
+       "Geno Smith, Denzel Boston, Josh Downs"
       ],
       [
        8,
-       "@@brettmn13",
-       25.0,
-       "Travis Etienne Jr., Aaron Jones Sr., Germie Bernard"
+       "@@PapaMidnight",
+       25.1,
+       "Jordan Mason, Malik Washington, Keon Coleman"
       ],
       [
        9,
-       "@@YoungBuck04",
-       21.8,
-       "Davante Adams, Blake Corum, Antonio Williams"
+       "@@brettmn13",
+       25.1,
+       "Zach Charbonnet, Aaron Jones Sr., Germie Bernard"
       ],
       [
        10,
-       "@@Jbird531",
-       21.4,
-       "Denzel Boston, Dallas Goedert, Josh Downs"
+       "@@YoungBuck04",
+       21.8,
+       "Davante Adams, Blake Corum, Antonio Williams"
       ],
       [
        11,
@@ -1400,15 +1400,15 @@
        10,
        "@@brettmn13",
        2,
-       18.2,
-       "Colston Loveland, Jonah Coleman"
+       18.1,
+       "Jonah Coleman, Colston Loveland"
       ],
       [
        11,
        "@@snelson91",
        3,
        27.5,
-       "Kyren Williams, Matthew Golden, Seattle Seahawks"
+       "Kyren Williams, Seattle Seahawks, Matthew Golden"
       ],
       [
        11,
@@ -1421,28 +1421,28 @@
        11,
        "@@YoungBuck04",
        2,
-       23.5,
+       22.7,
        "A.J. Brown, Jordan Love"
+      ],
+      [
+       11,
+       "@@Jbird531",
+       2,
+       22.7,
+       "Andre Szmyt, Jaxon Smith-Njigba"
       ],
       [
        11,
        "@@thecreamer",
        3,
        19.9,
-       "Cleveland Browns, Quinshon Judkins, Harold Fannin Jr."
-      ],
-      [
-       11,
-       "@@brettmn13",
-       2,
-       14.1,
-       "Los Angeles Rams, Zach Charbonnet"
+       "Quinshon Judkins, Harold Fannin Jr., Cleveland Browns"
       ],
       [
        11,
        "@@Colt45Johnson",
        2,
-       12.0,
+       13.8,
        "Green Bay Packers, Rhamondre Stevenson"
       ],
       [
@@ -1457,7 +1457,7 @@
        "@@Jbird531",
        2,
        15.9,
-       "Tyler Warren, Breece Hall"
+       "Breece Hall, Tyler Warren"
       ]
      ]
     }

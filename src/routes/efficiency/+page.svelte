@@ -1,4 +1,7 @@
 <script>
+    import managers from '$lib/data/managers.json';
+    const shown = Object.fromEntries((managers || []).map((m) => [String(m.handle).toLowerCase(), m.name]));
+    const shownName = (n) => shown[String(n).toLowerCase()] || n;
     export let data;
     const { efficiencyData } = data;
 </script>
@@ -97,7 +100,7 @@
                     <tr class:top1={row.rank === 1} class:bottom={i === d.rows.length - 1}>
                         <td class="rank">{row.rank}</td>
                         <td>{row.team}</td>
-                        <td>{row.manager}</td>
+                        <td>{shownName(row.manager)}</td>
                         <td class="num">{row.actual_points.toFixed(2)}</td>
                         <td class="num">{row.optimal_points.toFixed(2)}</td>
                         <td class="num pct">{row.efficiency_pct.toFixed(1)}%</td>

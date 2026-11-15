@@ -6,6 +6,9 @@
 
     let data = null, error = '', ready = false;
     let season = 'all', who = '';
+    // every trade is a long list: show 20, then more on request; any filter change starts over
+    let tradeLimit = 20;
+    $: season, who, pair, (tradeLimit = 20);
     // Pick value by round: what a pick in each round has returned on average in this league (picks: [season, round, pick, manager, player, pos, value, live, ...])
     let drafts = null;
     $: pickValue = (() => {
@@ -14,9 +17,28 @@
         const r1 = {}, mg = {};
         for (const p of drafts.picks) { (mg[p[0]] ||= new Set()).add(p[3]); if (p[1] === 1) r1[p[0]] = (r1[p[0]] || 0) + 1; }
         const bad = new Set(Object.keys(r1).filter((y) => r1[y] > 2 * mg[y].size).map(Number));
+        // one group per draft round, in pick order, so each pick knows whether it was early, mid or late in its round
+        const groups = {};
+        for (const p of drafts.picks) {
+            if (p[7] || bad.has(p[0])) continue;
+            if (drafts.dynasty && /startup/i.test(String(p[8] || ''))) continue;
+            (groups[`${p[0]}|${p[8]}|${p[1]}`] ||= []).push(p);
+        }
         const m = {};
-        for (const p of drafts.picks) { if (p[7] || bad.has(p[0])) continue; if (drafts.dynasty && /startup/i.test(String(p[8] || ''))) continue; (m[p[1]] ||= []).push(p[6] || 0); }
-        return Object.entries(m).map(([r, v]) => ({ r: +r, n: v.length, avg: Math.round(v.reduce((a, b) => a + b, 0) / v.length) })).filter((x) => x.n >= 3).sort((a, b) => a.r - b.r).slice(0, 18);
+        for (const g of Object.values(groups)) {
+            g.sort((x, y) => x[2] - y[2]);
+            g.forEach((p, i) => {
+                const blank = () => ({ n: 0, v: 0, st: 0, yrs: 0 });
+                const e = (m[p[1]] ||= { ...blank(), thirds: [blank(), blank(), blank()] });
+                const t = g.length >= 3 ? Math.min(2, Math.floor((3 * i) / g.length)) : 1;
+                for (const b of [e, e.thirds[t]]) { b.n++; b.v += p[6] || 0; b.st += p[10] || 0; b.yrs += p[11] || 1; }
+            });
+        }
+        const r1d = (x) => Math.round(x * 10) / 10;
+        const shape = (e) => (e.n ? { n: e.n, avg: Math.round(e.v / e.n), perSeason: Math.round(e.v / e.yrs),
+            perGame: e.st ? r1d(e.v / e.st) : null, starts: Math.round(e.st / e.n) } : null);
+        return Object.entries(m).map(([r, e]) => ({ r: +r, ...shape(e), thirds: e.thirds.map(shape) }))
+            .filter((x) => x.n >= 3).sort((a, b) => a.r - b.r).slice(0, 18);
     })();
     onMount(async () => {
         ready = true;
@@ -57,17 +79,51 @@
     $: table = data ? Object.entries(data.managers).map(([h, m]) => ({ h, ...m, net: Math.round((m.in - m.out) * 10) / 10 }))
         .sort((a, b) => b.net - a.net) : [];
     $: netBars = table.map(r => ({ label: nameOf(r.h), value: r.net, note: `${r.w}-${r.l}${r.t ? '-' + r.t : ''}`, highlight: ready && r.h === $myTeam }));
-    // Letter grade: this side's share of all the points in the trade. Withheld while the trade is still being scored.
-    // a used pick reads '2026 round 1: Player POS (1.06), pts'; one still to be made has no colon
-    const openPick = (t) => Object.values(t.sides).some((x) => (x.picks || []).some((pk) => !String(pk).includes(':')));
-    const letterOf = (t, h) => {
-        if (t.live || openPick(t)) return null;
-        const vals = Object.values(t.sides).map((x) => x.value || 0);
-        const tot = vals.reduce((a, b) => a + b, 0);
-        if (tot <= 0) return 'C';   // finished and nobody started anyone: even
-        const share = Math.min(1, ((t.sides[h].value || 0) / tot) * (vals.length / 2));
-        return share >= 0.68 ? 'A+' : share >= 0.6 ? 'A' : share >= 0.55 ? 'B' : share > 0.45 ? 'C' : share > 0.4 ? 'D' : 'F';
+    // Letter grades on a curve (T.J., 2026-11-15). Each side's net is its points minus the other
+    // side's. Nets inside 10% of the trade are a fair trade, C for both. The rest are ranked against
+    // every finished trade in this league: winners A+ to B, the other side the mirror, F to C-.
+    // a used pick reads '2026 round 1: Player POS (1.06), pts'; one still to be made is '2027 round 1'
+    const openPick = (t) => Object.values(t.sides).some((x) => (x.picks || []).some((pk) => /^\d{4} round \d+$/.test(String(pk).trim())));
+    // a side that got only picks or FAAB that are never scored cannot be compared with the other
+    // (a rookie pick that IS scored ends in 'pts', even when its player has scored nothing yet)
+    const unscored = (t) => Object.values(t.sides).some((x) => !(x.value > 0) && !(x.got || []).length && !(x.picks || []).some((pk) => /pts$/.test(String(pk).trim())));
+    const totOf = (t) => Object.values(t.sides).reduce((a, x) => a + (x.value || 0), 0);
+    const netOf = (t, h) => {
+        const others = Object.keys(t.sides).filter((x) => x !== h);
+        return (t.sides[h].value || 0) - others.reduce((a, x) => a + (t.sides[x].value || 0), 0) / Math.max(1, others.length);
     };
+    const FAIR = 0.10;
+    const graded = (t) => !t.live && !openPick(t) && !unscored(t) && totOf(t) > 0;
+    const isFair = (t) => graded(t) && Object.keys(t.sides).every((h) => Math.abs(netOf(t, h)) <= FAIR * totOf(t));
+    $: curve = (() => {
+        const up = [], down = [];
+        for (const t of data?.trades || []) {
+            if (!graded(t)) continue;
+            for (const h of Object.keys(t.sides)) {
+                const n = netOf(t, h);
+                if (Math.abs(n) > FAIR * totOf(t)) (n > 0 ? up : down).push(Math.abs(n));
+            }
+        }
+        return { up: up.sort((x, y) => y - x), down: down.sort((x, y) => y - x) };
+    })();
+    const WIN = [[0.10, 'A+'], [0.30, 'A'], [0.60, 'B+'], [1.01, 'B']];
+    const LOSE = [[0.10, 'F'], [0.30, 'D'], [0.60, 'D+'], [1.01, 'C-']];
+    $: letterOf = (t, h) => {
+        if (t.live || openPick(t)) return null;          // too early
+        if (unscored(t)) return 'n/a';
+        const tot = totOf(t);
+        if (tot <= 0) return 'C';                        // finished and nobody started anyone: even
+        const n = netOf(t, h);
+        if (Math.abs(n) <= FAIR * tot) return 'C';
+        const list = n > 0 ? curve.up : curve.down;
+        const place = list.length ? Math.max(0, list.findIndex((x) => x <= Math.abs(n))) / list.length : 0;
+        return (n > 0 ? WIN : LOSE).find(([cut]) => place < cut)[1];
+    };
+    const ltrClass = (L) => (!L || L === 'n/a' ? 'gp' : 'g' + L[0]);
+    const ltrTitle = (t, L) => !L ? (openPick(t) ? 'Too early: a pick in this trade has not been used yet' : 'Too early: still being scored')
+        : L === 'n/a' ? 'Not graded: one side got only picks or FAAB, which are never scored'
+        : L === 'C' ? 'Fair trade: the two sides finished within 10% of the points in it'
+        : 'Ranked against every finished trade in this league';
     const sideLine = (s) => [...s.got.map(g => `${g.n}${g.p ? ' ' + g.p : ''}`), ...s.picks].join(', ') || 'nothing listed';
 </script>
 
@@ -144,12 +200,36 @@
 
         {#if pickValue.length}
             <h2>What a pick is worth</h2>
-            <p class="note">Average points a pick in each round has returned in its manager's starting lineup, across every finished {drafts?.dynasty ? 'rookie draft' : 'draft'} in this league{drafts?.dynasty ? '. The startup draft is left out. Use it to judge a trade for picks.' : '. It shows what each round of the draft has been worth.'}</p>
-            <div class="pv">{#each pickValue as v}<div class:early={v.r <= 2}><small>Rd {v.r}</small><b>{v.avg}</b><small>{v.n} picks</small></div>{/each}</div>
+            <p class="note">What a pick in each round has returned in its manager's starting lineup, across every finished {drafts?.dynasty ? 'rookie draft' : 'draft'} in this league{drafts?.dynasty ? '. The startup draft is left out. Use it to judge a trade for picks.' : '. It shows what each round of the draft has been worth.'}
+                The big number is the average total per pick. Per game is points for each week the player was in the lineup.{drafts?.dynasty ? ' Per season spreads the total over every season since that draft.' : ''} Each round is split into thirds by pick: early, mid and late.</p>
+            {#each pickValue as v}
+                <div class="pvr" class:early={v.r <= 2}>
+                    <div class="pvh"><b>Round {v.r}</b><span>{v.avg} a pick{drafts?.dynasty ? `, ${v.perSeason} a season` : ''}, {v.perGame ?? 'n/a'} a game, across {v.n} picks</span></div>
+                    <div class="pv">
+                        {#each ['Early', 'Mid', 'Late'] as lab, i}
+                            {@const t = v.thirds[i]}
+                            <div class="pvc">
+                                <small class="lab">{lab}</small>
+                                {#if t}
+                                    <b>{t.avg}</b>
+                                    <small>per pick</small>
+                                    <div class="rate">
+                                        {#if drafts?.dynasty}<span><b>{t.perSeason}</b> per season</span>{/if}
+                                        <span><b>{t.perGame ?? 'n/a'}</b> per game</span>
+                                    </div>
+                                    <small>{t.n} picks, {t.starts} starts each</small>
+                                {:else}
+                                    <small>no picks</small>
+                                {/if}
+                            </div>
+                        {/each}
+                    </div>
+                </div>
+            {/each}
         {/if}
 
         <h2 id="every-trade">Every trade</h2>
-        <p class="key">Letter = that side's share of the points in the trade. A+ 68% or more · A 60% · B 55% · C about even · D 45% or less · F 40% or less. ⏳ means the grade is pending: the trade is still being scored, or it includes a draft pick that has not been used yet.</p>
+        <p class="key">Letters are graded on a curve against every finished trade in this league. For the side that came out ahead: A+ is the top tenth by points gained, A the next fifth, then B+ and B. The other side gets the mirror: F, D, D+ and C-. C is a fair trade, where the two sides finished within 10% of the points in it. ⏳ is too early: the trade is still being scored, or it includes a draft pick that has not been used. n/a means one side got only picks or FAAB, which are never scored.</p>
         {#if pair}
             <p class="pairbar">Showing trades between <b>{nameOf(pair[0])}</b> and <b>{nameOf(pair[1])}</b>
                 <button on:click={() => (pair = null)}>Show all</button></p>
@@ -160,18 +240,19 @@
             {#if ready && $myTeam && who !== $myTeam}<button on:click={() => (who = $myTeam)}>Mine</button>{/if}
             <span class="count">{shown.length} trades</span>
         </div>
-        {#each shown as t}
+        {#each shown.slice(0, tradeLimit) as t}
             <div class="trade" class:mine={ready && $myTeam in t.sides}>
                 <div class="head">
                     <b>{t.season}{t.week ? `, week ${t.week}` : ''}</b>
                     {#if t.live}<span class="live">still being scored</span>
+                    {:else if isFair(t)}<span class="even">fair trade{t.winner ? `, ${nameOf(t.winner)} ahead by ${t.margin}` : ''}</span>
                     {:else if t.winner}<span class="win">{nameOf(t.winner)} won by {t.margin}</span>
                     {:else}<span class="even">even</span>{/if}
                 </div>
                 {#each Object.entries(t.sides) as [h, s]}
                     {@const L = letterOf(t, h)}
                     <div class="side" class:winner={h === t.winner && !t.live}>
-                        <span class="ltr {L ? 'g' + L[0] : 'gp'}" title={L ? 'Share of the points in this trade' : openPick(t) ? 'Grade pending: a pick in this trade has not been used yet' : 'Grade pending: still being scored'}>{L || '⏳'}</span>
+                        <span class="ltr {ltrClass(L)}" title={ltrTitle(t, L)}>{L || '⏳'}</span>
                         <b>{nameOf(h)}</b> got
                         {#each s.got as g, i}{i ? ', ' : ' '}<span title="{g.st} starts">{g.n}{g.p ? ` (${g.p})` : ''} <small>{g.pts}</small></span>{/each}
                         {#each s.picks as pk}<span class="pick">{pk}</span>{/each}
@@ -180,6 +261,7 @@
                 {/each}
             </div>
         {/each}
+        {#if shown.length > tradeLimit}<p class="moretrades"><button on:click={() => (tradeLimit += 20)}>Show 20 more</button> <button on:click={() => (tradeLimit = shown.length)}>Show all {shown.length}</button></p>{/if}
     {:else if error}
         <p class="sub">{error}</p>
     {:else}
@@ -191,10 +273,18 @@
     .holder { max-width: 900px; margin: 0 auto; padding: 1.5em 1em; }
     .ltr { display: inline-block; min-width: 2em; text-align: center; font-weight: 800; font-size: 0.85em; border-radius: 6px; padding: 0.1em 0.3em; margin-right: 0.4em; color: #fff; background: #555; }
     .ltr.gA { background: #1e8449; } .ltr.gB { background: #2471a3; } .ltr.gC { background: #7d6608; } .ltr.gD { background: #af601a; } .ltr.gF { background: #a93226; } .ltr.gp { background: #444; }
-    .pv { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 0.4em; }
-    .pv div { text-align: center; border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 0.4em 0.2em; background: rgba(127,127,127,0.06); }
-    .pv div.early { border-color: #d4af37; }
-    .pv b { display: block; font-size: 1.25em; } .pv small { display: block; opacity: 0.7; font-size: 0.75em; }
+    .pvr { margin: 0.7em 0; padding: 0.5em 0.6em 0.6em; border: 1px solid rgba(127,127,127,0.3); border-radius: 10px; }
+    .pvr.early { border-color: #d4af37; }
+    .pvh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3em 0.8em; margin-bottom: 0.4em; }
+    .pvh b { font-size: 1.05em; }
+    .pvh span { font-size: 0.82em; opacity: 0.75; }
+    .pv { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5em; }
+    .pv .pvc { text-align: center; border: 1px solid rgba(127,127,127,0.3); border-radius: 8px; padding: 0.4em 0.2em; background: rgba(127,127,127,0.06); min-width: 0; }
+    .pv .pvc > b { display: block; font-size: 1.6em; line-height: 1.15; }
+    .pv small { display: block; opacity: 0.7; font-size: 0.75em; }
+    .pv small.lab { opacity: 1; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #ff9a5c; }
+    .pv .rate { display: flex; flex-direction: column; gap: 0.1em; margin: 0.3em 0; font-size: 0.85em; }
+    .pv .rate span { white-space: nowrap; }
     .key { text-align: center; font-size: 0.85em; opacity: 0.8; margin: 0.3em 0 0.8em; }
     h1 { text-align: center; margin-bottom: 0.2em; }
     h2 { margin-top: 1.6em; font-size: 1.15em; border-bottom: 1px solid rgba(127,127,127,0.35); padding-bottom: 0.2em; }
@@ -230,4 +320,6 @@
     .mx.on { border-color: #ffffff; outline: 2px solid #27ae60; }
     .pairbar { margin: 0.6em 0 0; padding: 0.45em 0.7em; border-radius: 6px; background: #1e8449; color: #ffffff; font-size: 0.92em; }
     .pairbar button { margin-left: 0.6em; padding: 0.15em 0.6em; font-size: 0.95em; }
+    .moretrades { text-align: center; margin: 0.8em 0; }
+    .moretrades button { padding: 0.35em 0.8em; font-size: 0.95em; margin: 0 0.2em; }
 </style>

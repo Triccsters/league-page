@@ -94,7 +94,7 @@ export const getAuthor = (leagueTeamManagers, author) => {
 export const getAvatar = (leagueTeamManagers, author) => {
     for(const uID in leagueTeamManagers.users) {
         if(leagueTeamManagers.users[uID].user_name.toLowerCase() == author.toLowerCase()) {
-            return `https://sleepercdn.com/avatars/thumbs/${leagueTeamManagers.users[uID].avatar}`;
+            return leagueTeamManagers.users[uID].avatar ? `https://sleepercdn.com/avatars/thumbs/${leagueTeamManagers.users[uID].avatar}` : '/managers/question.jpg';
         }
     }
     return QUESTION;
@@ -194,7 +194,7 @@ export const getTeamData = (users, ownerID) => {
 	const user = users[ownerID];
 	if(user) {
 		return {
-			avatar: user.metadata?.avatar ? user.metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`,
+			avatar: user.metadata?.avatar ? user.metadata.avatar : (user.avatar ? `https://sleepercdn.com/avatars/thumbs/${user.avatar}` : '/managers/question.jpg'),
 			name: user.metadata.team_name ? user.metadata.team_name : user.display_name,
 		}
 	}

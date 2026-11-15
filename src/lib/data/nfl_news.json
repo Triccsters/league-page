@@ -1,7 +1,7 @@
 {
- "read_at": "2026-11-15T13:49+00:00",
+ "read_at": "2026-11-15T16:58+00:00",
  "days": 7,
- "count": 120,
+ "count": 118,
  "items": [
   {
    "headline": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
@@ -709,59 +709,6 @@
    "score": 12.5
   },
   {
-   "headline": "Sources: Giants called Falcons to ask about Bijan Robinson before trade deadline",
-   "url": "https://www.espn.com/nfl/story/_/id/50453373/sources-giants-eyed-bijan-robinson-trade-deadline",
-   "date": "2026-11-11",
-   "kind": "news",
-   "teams": [
-    "ATL",
-    "NYG"
-   ],
-   "named": [
-    {
-     "n": "Bijan Robinson",
-     "p": "RB",
-     "t": "ATL",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Cam Skattebo",
-     "p": "RB",
-     "t": "NYG",
-     "h": "PapaMidnight"
-    }
-   ],
-   "lead": [
-    "Bijan Robinson"
-   ],
-   "ripple": [
-    {
-     "n": "Drake London",
-     "p": "WR",
-     "t": "ATL",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Brian Robinson Jr.",
-     "p": "RB",
-     "t": "ATL",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kyle Pitts Sr.",
-     "p": "TE",
-     "t": "ATL",
-     "h": "RockMNwild"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "RockMNwild",
-    "TuanonStan"
-   ],
-   "score": 12.5
-  },
-  {
    "headline": "Commanders QB Jayden Daniels finds redemption with game-winning drive",
    "url": "https://www.espn.com/nfl/story/_/id/50469451/commanders-jayden-daniels-redemption-game-winning-drive",
    "date": "2026-11-13",
@@ -884,6 +831,73 @@
     "brettmn13",
     "snelson91",
     "triccster"
+   ],
+   "score": 12.0
+  },
+  {
+   "headline": "Caleb Williams unfazed by 4 interceptions as Bears pull out win vs. Bucs",
+   "url": "https://www.espn.com/nfl/story/_/id/50430415/caleb-williams-4-interceptions-bears-win-buccaneers",
+   "date": "2026-11-09",
+   "kind": "news",
+   "teams": [
+    "CHI"
+   ],
+   "named": [
+    {
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Caleb Williams"
+   ],
+   "ripple": [
+    {
+     "n": "D'Andre Swift",
+     "p": "RB",
+     "t": "CHI",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Kyle Monangai",
+     "p": "RB",
+     "t": "CHI",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Luther Burden III",
+     "p": "WR",
+     "t": "CHI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "thecreamer"
    ],
    "score": 12.0
   }

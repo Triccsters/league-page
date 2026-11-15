@@ -2,6 +2,7 @@
     import { rivalry, nameOf, pairFromSlug, site, hasYahoo } from '$lib/utils/flpHistory';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
+    import RivalryOutlook from '$lib/Charts/RivalryOutlook.svelte';
     export let data;
 
     $: [x, y] = pairFromSlug(data.slug);
@@ -66,6 +67,8 @@
             <p class="line"><b>Met in {r.finals.length === 1 ? 'a final' : `${r.finals.length} finals`}:</b>
                 {#each r.finals as f, i}{i ? ', ' : ''}{f.season} ({nameOf(f.winner)} won {Math.max(f.xp, f.yp)}–{Math.min(f.xp, f.yp)}){/each}.</p>
         {/if}
+
+        <RivalryOutlook {x} {y} />
 
         <table class="split">
             <thead><tr><th></th><th>{X}–{Y}</th><th>Points</th></tr></thead>

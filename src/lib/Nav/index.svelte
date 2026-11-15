@@ -73,7 +73,7 @@
 		color: var(--g555)
 	}
 
-	@media (max-width: 950px) { /* width of the large navBar */
+	@media (max-width: 1180px) { /* width of the large navBar, seven groups */
 		.large {
 			display: none;
 		}

@@ -3,13 +3,32 @@
     // Data: src/lib/data/insights.json, written by scripts/insights.py every Tuesday.
     import { onMount } from 'svelte';
     import data from '$lib/data/insights.json';
-    import notes from '$lib/data/sweep_notes.json';
+    import sweep from '$lib/data/sweep_notes.json';
+    import news from '$lib/data/nfl_news.json';
     import { nameOf, managerLink } from '$lib/utils/flpHistory';
     import { myTeam } from '$lib/utils/myTeam';
     import HBarChart from '$lib/Charts/HBarChart.svelte';
     import StripChart from '$lib/Charts/StripChart.svelte';
     import EspnExtras from '$lib/Charts/EspnExtras.svelte';
     import BoomBust from '$lib/Charts/BoomBust.svelte';
+
+    // This week's notes. The weekly sweep writes them by hand (sweep_notes.json). In a week
+    // it has not run, the list is filled from what the build already knows, so it is never
+    // empty or weeks old: position groups that broke out or collapsed, and ESPN headlines
+    // about players on someone's roster.
+    const autoNotes = (() => {
+        const out = [], per = {};
+        const push = (n) => { per[n.h] = (per[n.h] || 0) + 1; if (per[n.h] <= 3 && out.length < 30) out.push(n); };
+        for (const s of (data.surprises || []).filter((s) => s.w === data.through_week))
+            push({ h: s.h, kind: s.kind, text: `${s.pos} ${s.kind === 'breakout' ? 'broke out' : 'collapsed'} in week ${s.w}: ${s.pts} points against a season average of ${s.avg}.`, source: 'From the week\'s scores' });
+        for (const it of news?.items || []) {
+            const lead = (it.named || []).filter((x) => x.h && (it.lead || []).includes(x.n));
+            for (const x of lead.slice(0, 2)) push({ h: x.h, kind: it.kind || 'news', text: `${x.n} (${x.p}, ${x.t}): ${it.headline}`, source: `ESPN, ${it.date}` });
+        }
+        return out;
+    })();
+    const sweepFresh = sweep?.notes?.length && sweep.week >= data.through_week;
+    const notes = sweepFresh ? sweep : { week: data.through_week, written: null, auto: true, notes: autoNotes };
 
     let ready = false;
     onMount(() => { ready = true; });
@@ -41,7 +60,7 @@
 
     {#if notes && notes.notes && notes.notes.length}
         <h2>This week's notes, week {notes.week}</h2>
-        <p class="note">News, injuries, byes and trends that touch someone's roster, written by the weekly sweep{notes.written ? ` on ${notes.written}` : ''}. Yours are marked once you pick your name.</p>
+        <p class="note">News, injuries, byes and trends that touch someone's roster, {notes.auto ? 'put together automatically from the week\'s scores and ESPN headlines' : `written by the weekly sweep${notes.written ? ` on ${notes.written}` : ''}`}. Yours are marked once you pick your name.</p>
         <ul class="notes">
             {#each [...notes.notes].sort((a, b) => (ready && b.h === $myTeam) - (ready && a.h === $myTeam)) as n}
                 <li class:mine={ready && n.h && n.h === $myTeam}>

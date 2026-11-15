@@ -1,4 +1,5 @@
 <script>
+    import { leagueName } from '$lib/utils/leagueInfo';
     import { onMount, onDestroy } from 'svelte';
     import { myTeam, handleForUser } from '$lib/utils/myTeam';
     import { nameOf, managerLink } from '$lib/utils/flpHistory';
@@ -167,7 +168,7 @@
     const gradeColor = (g) => g.startsWith('A') ? '#27ae60' : g.startsWith('B') ? '#2980b9' : g.startsWith('C') ? '#7f8c8d' : g.startsWith('D') ? '#e67e22' : '#c0392b';
 </script>
 
-<svelte:head><title>Mock Draft</title></svelte:head>
+<svelte:head><title>Mock Draft | {leagueName}</title></svelte:head>
 
 <div class="holder">
     <h1>Mock Draft</h1>

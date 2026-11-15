@@ -9,6 +9,10 @@
     import ManagerAwards from './ManagerAwards.svelte';
     import ManagerHistory from '$lib/Charts/ManagerHistory.svelte';
     import ManagerPlayers from '$lib/Charts/ManagerPlayers.svelte';
+    import ManagerBestLineup from '$lib/Charts/ManagerBestLineup.svelte';
+    import ManagerFootball from '$lib/Charts/ManagerFootball.svelte';
+    import ManagerGameLog from '$lib/Charts/ManagerGameLog.svelte';
+    import RecordWatch from '$lib/Charts/RecordWatch.svelte';
     import CostlyGames from '$lib/Charts/CostlyGames.svelte';
     import ManagerBadges from '$lib/Charts/ManagerBadges.svelte';
     import RosterProfile from '$lib/Charts/RosterProfile.svelte';
@@ -322,8 +326,12 @@
         <ManagerHistory handle={viewManager.handle} />
         <RosterProfile handle={viewManager.handle} />
         <ManagerBadges handle={viewManager.handle} />
+        <RecordWatch mode="manager" handle={viewManager.handle} />
         <ManagerPlayers handle={viewManager.handle} />
+        <ManagerBestLineup handle={viewManager.handle} />
+        <ManagerFootball handle={viewManager.handle} />
         <CostlyGames handle={viewManager.handle} />
+        <ManagerGameLog handle={viewManager.handle} />
     {/if}
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />

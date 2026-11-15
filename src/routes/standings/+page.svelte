@@ -18,6 +18,12 @@
 		z-index: 1;
 		text-align: center;
 	}
+	details.fold > summary { cursor: pointer; list-style: none; text-align: center; }
+	details.fold > summary::-webkit-details-marker { display: none; }
+	details.fold > summary h2 { margin: 0.6em 0 0; }
+	details.fold > summary h2::after { content: ' \25BE'; opacity: 0.6; }
+	details.fold[open] > summary h2::after { content: ' \25B4'; }
+	details.fold > summary p { opacity: 0.7; font-size: 0.9em; margin: 0.2em 0 0.6em; }
 	.fold { margin-top: 2.5em; border-top: 1px solid rgba(127,127,127,0.3); padding-top: 0.5em; }
 	.fold > h2 { text-align: center; margin: 0.6em 0 0; }
 	.fold > p { text-align: center; opacity: 0.7; font-size: 0.9em; margin: 0.2em 1em 0; }
@@ -38,20 +44,17 @@
 	<PowerLines />
 </section>
 
-<section class="fold">
-	<h2>All-play standings</h2>
-	<p>Your record if you played every other team every week. It takes the schedule out of it.</p>
+<details class="fold">
+	<summary><h2>All-play standings</h2><p>Your record if you played every other team every week. It takes the schedule out of it. Tap to open.</p></summary>
 	<AllPlay {data} />
-</section>
+</details>
 
-<section class="fold">
-	<h2>Luck</h2>
-	<p>Actual wins against the wins your scores deserved.</p>
+<details class="fold">
+	<summary><h2>Luck</h2><p>Actual wins against the wins your scores deserved. Tap to open.</p></summary>
 	<Luck />
-</section>
+</details>
 
-<section class="fold">
-	<h2>Lineup efficiency</h2>
-	<p>Points scored against the best lineup you could have set.</p>
+<details class="fold">
+	<summary><h2>Lineup efficiency</h2><p>Points scored against the best lineup you could have set. Tap to open.</p></summary>
 	<Efficiency {data} />
-</section>
+</details>

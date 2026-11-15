@@ -98,7 +98,7 @@
         Two ways of asking whether a record was earned. The <b>median game</b> is a second, imaginary matchup each
         week against the middle of the league: score above the median and it is a win. It rewards scoring and takes
         the luck of the draw out. <b>Schedule strength</b> is the average points per week scored by the teams you
-        actually had to play. Neither changes the real standings — this league does not use a median game.
+        actually had to play. Neither changes the real standings. This league does not use a median game.
     </p>
 
     <div class="filters">
