@@ -24,8 +24,6 @@ myTeam.subscribe((v) => {
 
 export const myManagers = managersData;
 
-// Managers-page index for a handle, for links like /manager?manager=N
-export const managerIndex = (handle) => managersData.findIndex(m => m.handle === handle);
 
 
 // Manager-page link for a handle, addressed by that manager's permanent managerID.
