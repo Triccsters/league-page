@@ -11,7 +11,8 @@
    "name": "Austin",
    "link": 1,
    "image": "https://sleepercdn.com/avatars/77c49ef8c22602ed5bc79dc244e2df0c"
-  }
+  },
+  "firstSeason": 2018
  },
  {
   "managerID": "451580865261072384",
@@ -61,8 +62,8 @@
   "name": "Colt",
   "photo": "https://sleepercdn.com/avatars/4504012f02d0e04aced33e35bac84c9f",
   "avatar": "https://sleepercdn.com/uploads/7da89a3e2717a39a95702f8f5dc84177.jpg",
-  "fantasyStart": 2013,
-  "bio": "Regular season since 2013: 93-90. Champion: 2014. Toughest opponent: Anthony (5-9). <a href=\"/rivalries/Colt45Johnson--butterygoop\">That rivalry</a> · <a href=\"/rivalries?who=Colt45Johnson\">All of Colt's rivalries</a>",
+  "fantasyStart": 2012,
+  "bio": "Regular season since 2012: 98-98. Champion: 2014. Toughest opponent: Anthony (5-9). <a href=\"/rivalries/Colt45Johnson--butterygoop\">That rivalry</a> · <a href=\"/rivalries?who=Colt45Johnson\">All of Colt's rivalries</a>",
   "rival": {
    "name": "Anthony",
    "link": 0,
@@ -123,7 +124,8 @@
    "name": "Buckley",
    "link": 3,
    "image": "https://sleepercdn.com/avatars/08dcdee4f12437e1a3df0870ff73bacb"
-  }
+  },
+  "firstSeason": 2017
  },
  {
   "managerID": "467429974119280640",
@@ -137,7 +139,8 @@
    "name": "Austin",
    "link": 1,
    "image": "https://sleepercdn.com/avatars/77c49ef8c22602ed5bc79dc244e2df0c"
-  }
+  },
+  "firstSeason": 2013
  },
  {
   "managerID": "725740637026074624",
@@ -231,6 +234,26 @@
   ],
   "rival": {
    "name": "Austin",
+   "link": null,
+   "image": "/managers/everyone.png"
+  }
+ },
+ {
+  "managerID": "past-tom",
+  "handle": "Tom",
+  "name": "Tom",
+  "photo": "/managers/question.jpg",
+  "avatar": "/managers/question.jpg",
+  "fantasyStart": 2012,
+  "bio": "Played in 2012. Regular season: 6-5. Toughest opponent: Tyler (0-2). No longer in the league.",
+  "past": true,
+  "lastSeason": 2012,
+  "lastTeamName": "Murphadelic",
+  "seasonsPlayed": [
+   2012
+  ],
+  "rival": {
+   "name": "Tyler",
    "link": null,
    "image": "/managers/everyone.png"
   }

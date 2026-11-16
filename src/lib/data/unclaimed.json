@@ -28,8 +28,8 @@
   },
   "worstWeek": {
    "week": 3,
-   "opponent": "?Murphadelic",
-   "opponentName": "Murphadelic",
+   "opponent": "Tom",
+   "opponentName": "Tom",
    "score": 71,
    "opponentScore": 71,
    "result": "T",
@@ -275,8 +275,8 @@
     "l": 1
    },
    {
-    "opponent": "?Murphadelic",
-    "name": "Murphadelic",
+    "opponent": "Tom",
+    "name": "Tom",
     "w": 0,
     "l": 2
    },
@@ -287,8 +287,8 @@
     "l": 2
    },
    {
-    "opponent": "?bELIeve No More",
-    "name": "bELIeve No More",
+    "opponent": "Colt45Johnson",
+    "name": "Colt",
     "w": 0,
     "l": 1
    },
@@ -349,8 +349,8 @@
      },
      {
       "week": 3,
-      "opponent": "?Murphadelic",
-      "opponentName": "Murphadelic",
+      "opponent": "Tom",
+      "opponentName": "Tom",
       "score": 71,
       "opponentScore": 71,
       "result": "T",
@@ -359,8 +359,8 @@
      },
      {
       "week": 4,
-      "opponent": "?bELIeve No More",
-      "opponentName": "bELIeve No More",
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
       "score": 84,
       "opponentScore": 101,
       "result": "L",
@@ -439,8 +439,8 @@
      },
      {
       "week": 12,
-      "opponent": "?Murphadelic",
-      "opponentName": "Murphadelic",
+      "opponent": "Tom",
+      "opponentName": "Tom",
       "score": 101,
       "opponentScore": 101,
       "result": "T",
@@ -479,8 +479,8 @@
      },
      {
       "week": 16,
-      "opponent": "?bELIeve No More",
-      "opponentName": "bELIeve No More",
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
       "score": 105,
       "opponentScore": 60,
       "result": "W",
@@ -500,15 +500,15 @@
      "Austin",
      "Brett",
      "Buckley",
+     "Colt",
      "J Rock",
      "James",
      "T.J.",
+     "Tom",
      "Tyler"
     ],
     "otherUnidentified": [
      "2012 champ",
-     "bELIeve No More",
-     "Murphadelic",
      "PackNation"
     ],
     "inLeagueUnaccounted": [
@@ -516,28 +516,12 @@
     ],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
-      "name": "Colt",
-      "from": 2013
-     },
-     {
       "name": "Joey",
       "from": 2014
      },
      {
       "name": "John",
       "from": 2013
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
      },
      {
       "name": "Scott",
@@ -550,27 +534,23 @@
    "Austin",
    "Brett",
    "Buckley",
+   "Colt",
    "J Rock",
    "James",
    "T.J.",
+   "Tom",
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
-   "Colt",
    "DJ",
    "Joey",
    "John",
-   "Mikey",
    "Mitchell",
-   "Nase",
    "Scott"
   ],
   "certainlyNot": [
    "2012 champ",
-   "Murphadelic",
-   "PackNation",
-   "bELIeve No More"
+   "PackNation"
   ],
   "maybeSameManager": [
    {
@@ -1026,16 +1006,16 @@
     "l": 2
    },
    {
-    "opponent": "YoungBuck04",
-    "name": "Buckley",
+    "opponent": "Colt45Johnson",
+    "name": "Colt",
     "w": 1,
     "l": 2
    },
    {
-    "opponent": "?bELIeve No More",
-    "name": "bELIeve No More",
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
     "w": 1,
-    "l": 1
+    "l": 2
    },
    {
     "opponent": "J Rock",
@@ -1079,8 +1059,8 @@
     "games": [
      {
       "week": 1,
-      "opponent": "?bELIeve No More",
-      "opponentName": "bELIeve No More",
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
       "score": 63,
       "opponentScore": 105,
       "result": "L",
@@ -1109,8 +1089,8 @@
      },
      {
       "week": 4,
-      "opponent": "?Murphadelic",
-      "opponentName": "Murphadelic",
+      "opponent": "Tom",
+      "opponentName": "Tom",
       "score": 131,
       "opponentScore": 105,
       "result": "W",
@@ -1149,8 +1129,8 @@
      },
      {
       "week": 8,
-      "opponent": "?bELIeve No More",
-      "opponentName": "bELIeve No More",
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
       "score": 76,
       "opponentScore": 50,
       "result": "W",
@@ -1219,8 +1199,8 @@
      },
      {
       "week": 15,
-      "opponent": "?Murphadelic",
-      "opponentName": "Murphadelic",
+      "opponent": "Tom",
+      "opponentName": "Tom",
       "score": 114,
       "opponentScore": 103,
       "result": "W",
@@ -1404,15 +1384,15 @@
      "Austin",
      "Brett",
      "Buckley",
+     "Colt",
      "J Rock",
      "James",
      "T.J.",
+     "Tom",
      "Tyler"
     ],
     "otherUnidentified": [
      "0 Breaks Given",
-     "bELIeve No More",
-     "Murphadelic",
      "PackNation"
     ],
     "inLeagueUnaccounted": [
@@ -1420,28 +1400,12 @@
     ],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
-      "name": "Colt",
-      "from": 2013
-     },
-     {
       "name": "Joey",
       "from": 2014
      },
      {
       "name": "John",
       "from": 2013
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
      },
      {
       "name": "Scott",
@@ -1469,16 +1433,8 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Joey",
       "from": 2014
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
      },
      {
       "name": "Nase",
@@ -1501,21 +1457,17 @@
    "James",
    "John",
    "T.J.",
+   "Tom",
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Joey",
-   "Mikey",
    "Mitchell",
-   "Nase",
    "Scott"
   ],
   "certainlyNot": [
    "0 Breaks Given",
-   "Murphadelic",
    "PackNation",
-   "bELIeve No More",
    "suit and a TIE"
   ],
   "maybeSameManager": [
@@ -2359,16 +2311,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -2383,20 +2331,16 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
       "name": "Mitchell",
       "from": 2010
      },
      {
-      "name": "Nase",
+      "name": "Scott",
       "from": 2014
      },
      {
-      "name": "Scott",
-      "from": 2014
+      "name": "Tom",
+      "from": 2012
      },
      {
       "name": "Tyler",
@@ -2424,16 +2368,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -2448,16 +2388,12 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
       "name": "Scott",
       "from": 2014
+     },
+     {
+      "name": "Tom",
+      "from": 2012
      }
     ]
    }
@@ -2472,15 +2408,13 @@
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
-   "Nase",
-   "Scott"
+   "Scott",
+   "Tom"
   ],
   "certainlyNot": [
    "Minnesota 69ers",
@@ -2514,16 +2448,6 @@
     ]
    },
    {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Steve Breaston"
-    ]
-   },
-   {
     "slug": "suit-and-a-tie",
     "name": "suit and a TIE",
     "seasons": [
@@ -2539,14 +2463,6 @@
     "seasons": [
      2012,
      2013
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
     ],
     "sharedDraftPicks": []
    }
@@ -3059,16 +2975,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -3083,16 +2995,12 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
       "name": "Scott",
       "from": 2014
+     },
+     {
+      "name": "Tom",
+      "from": 2012
      }
     ]
    }
@@ -3107,15 +3015,13 @@
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
-   "Nase",
-   "Scott"
+   "Scott",
+   "Tom"
   ],
   "certainlyNot": [
    "Broncos",
@@ -3174,667 +3080,8 @@
     "sharedDraftPicks": []
    },
    {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
-   },
-   {
     "slug": "kicked-out-next-year",
     "name": "kicked out next year",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": []
-   }
-  ]
- },
- {
-  "slug": "murphadelic",
-  "handle": "?Murphadelic",
-  "name": "Murphadelic",
-  "seasons": [
-   2012
-  ],
-  "record": "6-5-2",
-  "gamesPlayed": 15,
-  "pointsFor": 1349.0,
-  "pointsAgainst": 1289.0,
-  "titles": [],
-  "finalsLost": [],
-  "playoffSeasons": [
-   2012
-  ],
-  "teamNames": [
-   "Murphadelic"
-  ],
-  "bestWeek": {
-   "week": 13,
-   "opponent": "YoungBuck04",
-   "opponentName": "Buckley",
-   "score": 123,
-   "opponentScore": 51,
-   "result": "W",
-   "playoff": false,
-   "label": null
-  },
-  "worstWeek": {
-   "week": 2,
-   "opponent": "Tyler",
-   "opponentName": "Tyler",
-   "score": 64,
-   "opponentScore": 96,
-   "result": "L",
-   "playoff": false,
-   "label": null
-  },
-  "topPlayers": [
-   {
-    "name": "Tom Brady",
-    "pos": "QB",
-    "points": 302.0,
-    "starts": 14,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Texans",
-    "pos": "DEF",
-    "points": 152.0,
-    "starts": 14,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Victor Cruz",
-    "pos": "WR",
-    "points": 149.0,
-    "starts": 14,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Dez Bryant",
-    "pos": "WR",
-    "points": 140.0,
-    "starts": 13,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Ahmad Bradshaw",
-    "pos": "RB",
-    "points": 123.0,
-    "starts": 13,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "James Jones",
-    "pos": "WR",
-    "points": 94.0,
-    "starts": 11,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "DeMarco Murray",
-    "pos": "RB",
-    "points": 90.0,
-    "starts": 8,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Owen Daniels",
-    "pos": "TE",
-    "points": 62.0,
-    "starts": 11,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Phil Dawson",
-    "pos": "K",
-    "points": 35.0,
-    "starts": 5,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Jason Hanson",
-    "pos": "K",
-    "points": 32.0,
-    "starts": 3,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Jonathan Stewart",
-    "pos": "RB",
-    "points": 29.0,
-    "starts": 5,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Greg Olsen",
-    "pos": "TE",
-    "points": 28.0,
-    "starts": 3,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Andrew Hawkins",
-    "pos": "WR",
-    "points": 23.0,
-    "starts": 4,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Billy Cundiff",
-    "pos": "K",
-    "points": 23.0,
-    "starts": 4,
-    "seasons": [
-     2012
-    ]
-   }
-  ],
-  "draft": [
-   {
-    "season": 2012,
-    "picks": [
-     {
-      "round": 1,
-      "pick": 3,
-      "player": "Tom Brady",
-      "pos": "QB"
-     },
-     {
-      "round": 2,
-      "pick": 10,
-      "player": "DeMarco Murray",
-      "pos": "RB"
-     },
-     {
-      "round": 3,
-      "pick": 3,
-      "player": "Victor Cruz",
-      "pos": "WR"
-     },
-     {
-      "round": 4,
-      "pick": 10,
-      "player": "Dez Bryant",
-      "pos": "WR"
-     },
-     {
-      "round": 5,
-      "pick": 3,
-      "player": "Ahmad Bradshaw",
-      "pos": "RB"
-     },
-     {
-      "round": 6,
-      "pick": 10,
-      "player": "Fred Davis",
-      "pos": "TE"
-     },
-     {
-      "round": 7,
-      "pick": 3,
-      "player": "Jonathan Stewart",
-      "pos": "RB"
-     },
-     {
-      "round": 8,
-      "pick": 10,
-      "player": "Texans",
-      "pos": "DEF"
-     },
-     {
-      "round": 9,
-      "pick": 3,
-      "player": "Owen Daniels",
-      "pos": "TE"
-     },
-     {
-      "round": 10,
-      "pick": 10,
-      "player": "Rob Bironas",
-      "pos": "K"
-     },
-     {
-      "round": 11,
-      "pick": 3,
-      "player": "Toby Gerhart",
-      "pos": "W/R/T"
-     },
-     {
-      "round": 12,
-      "pick": 10,
-      "player": "Joe Flacco",
-      "pos": "QB"
-     },
-     {
-      "round": 13,
-      "pick": 3,
-      "player": "Felix Jones",
-      "pos": "RB"
-     },
-     {
-      "round": 14,
-      "pick": 10,
-      "player": "James Jones",
-      "pos": "WR"
-     },
-     {
-      "round": 15,
-      "pick": 3,
-      "player": "Steve Breaston",
-      "pos": "WR"
-     }
-    ]
-   }
-  ],
-  "playedMost": [
-   {
-    "opponent": "triccster",
-    "name": "T.J.",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "Tyler",
-    "name": "Tyler",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "?0 Breaks Given",
-    "name": "0 Breaks Given",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "YoungBuck04",
-    "name": "Buckley",
-    "w": 2,
-    "l": 0
-   },
-   {
-    "opponent": "?2012 champ",
-    "name": "2012 champ",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "J Rock",
-    "name": "J Rock",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "brettmn13",
-    "name": "Brett",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "RockMNwild",
-    "name": "Austin",
-    "w": 0,
-    "l": 1
-   }
-  ],
-  "bySeason": [
-   {
-    "season": 2012,
-    "teamName": "Murphadelic",
-    "record": "6-5-2",
-    "pointsFor": 1349.0,
-    "pointsAgainst": 1289.0,
-    "madePlayoffs": true,
-    "playoffResults": [
-     "Quarterfinal",
-     "5th place"
-    ],
-    "wonTitle": false,
-    "lostFinal": false,
-    "games": [
-     {
-      "week": 1,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 83,
-      "opponentScore": 95,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 2,
-      "opponent": "Tyler",
-      "opponentName": "Tyler",
-      "score": 64,
-      "opponentScore": 96,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 3,
-      "opponent": "?0 Breaks Given",
-      "opponentName": "0 Breaks Given",
-      "score": 71,
-      "opponentScore": 71,
-      "result": "T",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 4,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 105,
-      "opponentScore": 131,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 5,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 105,
-      "opponentScore": 67,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 6,
-      "opponent": "YoungBuck04",
-      "opponentName": "Buckley",
-      "score": 93,
-      "opponentScore": 88,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 7,
-      "opponent": "brettmn13",
-      "opponentName": "Brett",
-      "score": 101,
-      "opponentScore": 67,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 8,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 79,
-      "opponentScore": 76,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 9,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 78,
-      "opponentScore": 84,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 10,
-      "opponent": "?PackNation",
-      "opponentName": "PackNation",
-      "score": 80,
-      "opponentScore": 69,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 11,
-      "opponent": "Tyler",
-      "opponentName": "Tyler",
-      "score": 80,
-      "opponentScore": 88,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 12,
-      "opponent": "?0 Breaks Given",
-      "opponentName": "0 Breaks Given",
-      "score": 101,
-      "opponentScore": 101,
-      "result": "T",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 13,
-      "opponent": "YoungBuck04",
-      "opponentName": "Buckley",
-      "score": 123,
-      "opponentScore": 51,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 14,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 83,
-      "opponentScore": 91,
-      "result": "L",
-      "playoff": true,
-      "label": "Quarterfinal"
-     },
-     {
-      "week": 15,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 103,
-      "opponentScore": 114,
-      "result": "L",
-      "playoff": true,
-      "label": "5th place"
-     }
-    ]
-   }
-  ],
-  "strongCandidates": [
-   "DJ"
-  ],
-  "bySeasonSuspects": [
-   {
-    "season": 2012,
-    "ruledOut": [
-     "Austin",
-     "Brett",
-     "Buckley",
-     "J Rock",
-     "James",
-     "T.J.",
-     "Tyler"
-    ],
-    "otherUnidentified": [
-     "0 Breaks Given",
-     "2012 champ",
-     "bELIeve No More",
-     "PackNation"
-    ],
-    "inLeagueUnaccounted": [
-     "DJ"
-    ],
-    "firstSeenLater": [
-     {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
-      "name": "Colt",
-      "from": 2013
-     },
-     {
-      "name": "Joey",
-      "from": 2014
-     },
-     {
-      "name": "John",
-      "from": 2013
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
-      "name": "Scott",
-      "from": 2014
-     }
-    ]
-   }
-  ],
-  "ruledOut": [
-   "Austin",
-   "Brett",
-   "Buckley",
-   "J Rock",
-   "James",
-   "T.J.",
-   "Tyler"
-  ],
-  "couldBe": [
-   "Anthony",
-   "Colt",
-   "DJ",
-   "Joey",
-   "John",
-   "Mikey",
-   "Mitchell",
-   "Nase",
-   "Scott"
-  ],
-  "certainlyNot": [
-   "0 Breaks Given",
-   "2012 champ",
-   "PackNation",
-   "bELIeve No More"
-  ],
-  "maybeSameManager": [
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
-    ],
-    "sharedDraftPicks": [
-     "James Jones",
-     "Joe Flacco"
-    ]
-   },
-   {
-    "slug": "broncos",
-    "name": "Broncos",
-    "seasons": [
-     2008,
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Steve Breaston"
-    ]
-   },
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Rob Bironas"
-    ]
-   },
-   {
-    "slug": "da-best",
-    "name": "da best",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Toby Gerhart"
-    ]
-   },
-   {
-    "slug": "kicked-out-next-year",
-    "name": "kicked out next year",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": [
-     "Jonathan Stewart"
-    ]
-   },
-   {
-    "slug": "minnesota-69ers",
-    "name": "Minnesota 69ers",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "the-guru-s",
-    "name": "The Guru's",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "vikes",
-    "name": "vikes",
     "seasons": [
      2008
     ],
@@ -3861,8 +3108,8 @@
   ],
   "bestWeek": {
    "week": 7,
-   "opponent": "?bELIeve No More",
-   "opponentName": "bELIeve No More",
+   "opponent": "Colt45Johnson",
+   "opponentName": "Colt",
    "score": 97,
    "opponentScore": 101,
    "result": "L",
@@ -4142,8 +3389,8 @@
     "l": 1
    },
    {
-    "opponent": "?bELIeve No More",
-    "name": "bELIeve No More",
+    "opponent": "Colt45Johnson",
+    "name": "Colt",
     "w": 0,
     "l": 1
    },
@@ -4231,8 +3478,8 @@
      },
      {
       "week": 7,
-      "opponent": "?bELIeve No More",
-      "opponentName": "bELIeve No More",
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
       "score": 97,
       "opponentScore": 101,
       "result": "L",
@@ -4261,8 +3508,8 @@
      },
      {
       "week": 10,
-      "opponent": "?Murphadelic",
-      "opponentName": "Murphadelic",
+      "opponent": "Tom",
+      "opponentName": "Tom",
       "score": 69,
       "opponentScore": 80,
       "result": "L",
@@ -4332,29 +3579,21 @@
      "Austin",
      "Brett",
      "Buckley",
+     "Colt",
      "J Rock",
      "James",
      "T.J.",
+     "Tom",
      "Tyler"
     ],
     "otherUnidentified": [
      "0 Breaks Given",
-     "2012 champ",
-     "bELIeve No More",
-     "Murphadelic"
+     "2012 champ"
     ],
     "inLeagueUnaccounted": [
      "DJ"
     ],
     "firstSeenLater": [
-     {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
-      "name": "Colt",
-      "from": 2013
-     },
      {
       "name": "Joey",
       "from": 2014
@@ -4362,14 +3601,6 @@
      {
       "name": "John",
       "from": 2013
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
      },
      {
       "name": "Scott",
@@ -4382,27 +3613,23 @@
    "Austin",
    "Brett",
    "Buckley",
+   "Colt",
    "J Rock",
    "James",
    "T.J.",
+   "Tom",
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
-   "Colt",
    "DJ",
    "Joey",
    "John",
-   "Mikey",
    "Mitchell",
-   "Nase",
    "Scott"
   ],
   "certainlyNot": [
    "0 Breaks Given",
-   "2012 champ",
-   "Murphadelic",
-   "bELIeve No More"
+   "2012 champ"
   ],
   "maybeSameManager": [
    {
@@ -4996,16 +4223,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -5020,16 +4243,12 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
       "name": "Scott",
       "from": 2014
+     },
+     {
+      "name": "Tom",
+      "from": 2012
      }
     ]
    }
@@ -5044,15 +4263,13 @@
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
-   "Nase",
-   "Scott"
+   "Scott",
+   "Tom"
   ],
   "certainlyNot": [
    "Broncos",
@@ -5106,16 +4323,6 @@
     ]
    },
    {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Rob Bironas"
-    ]
-   },
-   {
     "slug": "packnation",
     "name": "PackNation",
     "seasons": [
@@ -5124,14 +4331,6 @@
     "sharedDraftPicks": [
      "Ben Roethlisberger"
     ]
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
    },
    {
     "slug": "suit-and-a-tie",
@@ -5639,16 +4838,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -5663,16 +4858,12 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
       "name": "Scott",
       "from": 2014
+     },
+     {
+      "name": "Tom",
+      "from": 2012
      }
     ]
    }
@@ -5687,15 +4878,13 @@
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
-   "Nase",
-   "Scott"
+   "Scott",
+   "Tom"
   ],
   "certainlyNot": [
    "Broncos",
@@ -5704,17 +4893,6 @@
    "da best"
   ],
   "maybeSameManager": [
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Jets",
-     "Ronnie Brown"
-    ]
-   },
    {
     "slug": "packnation",
     "name": "PackNation",
@@ -5763,669 +4941,10 @@
     "sharedDraftPicks": []
    },
    {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
-   },
-   {
     "slug": "suit-and-a-tie",
     "name": "suit and a TIE",
     "seasons": [
      2013
-    ],
-    "sharedDraftPicks": []
-   }
-  ]
- },
- {
-  "slug": "believe-no-more",
-  "handle": "?bELIeve No More",
-  "name": "bELIeve No More",
-  "seasons": [
-   2012
-  ],
-  "record": "5-8",
-  "gamesPlayed": 16,
-  "pointsFor": 1360.0,
-  "pointsAgainst": 1465.0,
-  "titles": [],
-  "finalsLost": [],
-  "playoffSeasons": [],
-  "teamNames": [
-   "bELIeve No More"
-  ],
-  "bestWeek": {
-   "week": 1,
-   "opponent": "?2012 champ",
-   "opponentName": "2012 champ",
-   "score": 105,
-   "opponentScore": 63,
-   "result": "W",
-   "playoff": false,
-   "label": null
-  },
-  "worstWeek": {
-   "week": 8,
-   "opponent": "?2012 champ",
-   "opponentName": "2012 champ",
-   "score": 50,
-   "opponentScore": 76,
-   "result": "L",
-   "playoff": false,
-   "label": null
-  },
-  "topPlayers": [
-   {
-    "name": "Stephen Gostkowski",
-    "pos": "K",
-    "points": 162.0,
-    "starts": 15,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Vincent Jackson",
-    "pos": "WR",
-    "points": 134.0,
-    "starts": 11,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Wes Welker",
-    "pos": "WR",
-    "points": 124.0,
-    "starts": 12,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Eli Manning",
-    "pos": "QB",
-    "points": 108.0,
-    "starts": 9,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Matt Forte",
-    "pos": "RB",
-    "points": 89.0,
-    "starts": 8,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Andy Dalton",
-    "pos": "QB",
-    "points": 83.0,
-    "starts": 4,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Jordy Nelson",
-    "pos": "WR",
-    "points": 82.0,
-    "starts": 8,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Trent Richardson",
-    "pos": "RB",
-    "points": 80.0,
-    "starts": 6,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "BenJarvus Green-Ellis",
-    "pos": "RB",
-    "points": 65.0,
-    "starts": 8,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Jermaine Gresham",
-    "pos": "TE",
-    "points": 55.0,
-    "starts": 9,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Cam Newton",
-    "pos": "QB",
-    "points": 52.0,
-    "starts": 3,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Vick Ballard",
-    "pos": "RB",
-    "points": 42.0,
-    "starts": 5,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Cardinals",
-    "pos": "DEF",
-    "points": 35.0,
-    "starts": 5,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Jets",
-    "pos": "DEF",
-    "points": 33.0,
-    "starts": 3,
-    "seasons": [
-     2012
-    ]
-   }
-  ],
-  "draft": [
-   {
-    "season": 2012,
-    "picks": [
-     {
-      "round": 1,
-      "pick": 6,
-      "player": "Cam Newton",
-      "pos": "QB"
-     },
-     {
-      "round": 2,
-      "pick": 7,
-      "player": "Matt Forte",
-      "pos": "RB"
-     },
-     {
-      "round": 3,
-      "pick": 6,
-      "player": "Frank Gore",
-      "pos": "RB"
-     },
-     {
-      "round": 4,
-      "pick": 7,
-      "player": "Marques Colston",
-      "pos": "WR"
-     },
-     {
-      "round": 5,
-      "pick": 6,
-      "player": "Jermichael Finley",
-      "pos": "TE"
-     },
-     {
-      "round": 6,
-      "pick": 7,
-      "player": "Santonio Holmes",
-      "pos": "WR"
-     },
-     {
-      "round": 7,
-      "pick": 6,
-      "player": "Shonn Greene",
-      "pos": "RB"
-     },
-     {
-      "round": 8,
-      "pick": 7,
-      "player": "Jets",
-      "pos": "DEF"
-     },
-     {
-      "round": 9,
-      "pick": 6,
-      "player": "LeGarrette Blount",
-      "pos": "RB"
-     },
-     {
-      "round": 10,
-      "pick": 7,
-      "player": "Stephen Gostkowski",
-      "pos": "K"
-     },
-     {
-      "round": 11,
-      "pick": 6,
-      "player": "Justin Blackmon",
-      "pos": "WR"
-     },
-     {
-      "round": 12,
-      "pick": 7,
-      "player": "Andy Dalton",
-      "pos": "QB"
-     },
-     {
-      "round": 13,
-      "pick": 6,
-      "player": "Michael Floyd",
-      "pos": ""
-     },
-     {
-      "round": 14,
-      "pick": 7,
-      "player": "Greg Olsen",
-      "pos": "TE"
-     },
-     {
-      "round": 15,
-      "pick": 6,
-      "player": "Ronnie Brown",
-      "pos": "RB"
-     }
-    ]
-   }
-  ],
-  "playedMost": [
-   {
-    "opponent": "?2012 champ",
-    "name": "2012 champ",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "RockMNwild",
-    "name": "Austin",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "J Rock",
-    "name": "J Rock",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "TuanonStan",
-    "name": "James",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "?0 Breaks Given",
-    "name": "0 Breaks Given",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "YoungBuck04",
-    "name": "Buckley",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "?PackNation",
-    "name": "PackNation",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "brettmn13",
-    "name": "Brett",
-    "w": 0,
-    "l": 1
-   }
-  ],
-  "bySeason": [
-   {
-    "season": 2012,
-    "teamName": "bELIeve No More",
-    "record": "5-8",
-    "pointsFor": 1360.0,
-    "pointsAgainst": 1465.0,
-    "madePlayoffs": false,
-    "playoffResults": [
-     "Consolation",
-     "Consolation",
-     "Consolation"
-    ],
-    "wonTitle": false,
-    "lostFinal": false,
-    "games": [
-     {
-      "week": 1,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 105,
-      "opponentScore": 63,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 2,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 77,
-      "opponentScore": 68,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 3,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 67,
-      "opponentScore": 93,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 4,
-      "opponent": "?0 Breaks Given",
-      "opponentName": "0 Breaks Given",
-      "score": 101,
-      "opponentScore": 84,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 5,
-      "opponent": "YoungBuck04",
-      "opponentName": "Buckley",
-      "score": 67,
-      "opponentScore": 79,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 6,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 104,
-      "opponentScore": 87,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 7,
-      "opponent": "?PackNation",
-      "opponentName": "PackNation",
-      "score": 101,
-      "opponentScore": 97,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 8,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 50,
-      "opponentScore": 76,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 9,
-      "opponent": "brettmn13",
-      "opponentName": "Brett",
-      "score": 80,
-      "opponentScore": 84,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 10,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 91,
-      "opponentScore": 104,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 11,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 94,
-      "opponentScore": 95,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 12,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 100,
-      "opponentScore": 130,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 13,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 98,
-      "opponentScore": 111,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 14,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 96,
-      "opponentScore": 95,
-      "result": "W",
-      "playoff": true,
-      "label": "Consolation"
-     },
-     {
-      "week": 15,
-      "opponent": "YoungBuck04",
-      "opponentName": "Buckley",
-      "score": 69,
-      "opponentScore": 94,
-      "result": "L",
-      "playoff": true,
-      "label": "Consolation"
-     },
-     {
-      "week": 16,
-      "opponent": "?0 Breaks Given",
-      "opponentName": "0 Breaks Given",
-      "score": 60,
-      "opponentScore": 105,
-      "result": "L",
-      "playoff": true,
-      "label": "Consolation"
-     }
-    ]
-   }
-  ],
-  "strongCandidates": [
-   "DJ"
-  ],
-  "bySeasonSuspects": [
-   {
-    "season": 2012,
-    "ruledOut": [
-     "Austin",
-     "Brett",
-     "Buckley",
-     "J Rock",
-     "James",
-     "T.J.",
-     "Tyler"
-    ],
-    "otherUnidentified": [
-     "0 Breaks Given",
-     "2012 champ",
-     "Murphadelic",
-     "PackNation"
-    ],
-    "inLeagueUnaccounted": [
-     "DJ"
-    ],
-    "firstSeenLater": [
-     {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
-      "name": "Colt",
-      "from": 2013
-     },
-     {
-      "name": "Joey",
-      "from": 2014
-     },
-     {
-      "name": "John",
-      "from": 2013
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
-      "name": "Scott",
-      "from": 2014
-     }
-    ]
-   }
-  ],
-  "ruledOut": [
-   "Austin",
-   "Brett",
-   "Buckley",
-   "J Rock",
-   "James",
-   "T.J.",
-   "Tyler"
-  ],
-  "couldBe": [
-   "Anthony",
-   "Colt",
-   "DJ",
-   "Joey",
-   "John",
-   "Mikey",
-   "Mitchell",
-   "Nase",
-   "Scott"
-  ],
-  "certainlyNot": [
-   "0 Breaks Given",
-   "2012 champ",
-   "Murphadelic",
-   "PackNation"
-  ],
-  "maybeSameManager": [
-   {
-    "slug": "the-guru-s",
-    "name": "The Guru's",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Jets",
-     "Ronnie Brown"
-    ]
-   },
-   {
-    "slug": "vikes",
-    "name": "vikes",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": [
-     "Marques Colston",
-     "Ronnie Brown"
-    ]
-   },
-   {
-    "slug": "kicked-out-next-year",
-    "name": "kicked out next year",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": [
-     "Stephen Gostkowski"
-    ]
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
-    ],
-    "sharedDraftPicks": [
-     "Greg Olsen"
-    ]
-   },
-   {
-    "slug": "broncos",
-    "name": "Broncos",
-    "seasons": [
-     2008,
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "minnesota-69ers",
-    "name": "Minnesota 69ers",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "da-best",
-    "name": "da best",
-    "seasons": [
-     2010
     ],
     "sharedDraftPicks": []
    }
@@ -6927,16 +5446,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -6951,16 +5466,12 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
       "name": "Scott",
       "from": 2014
+     },
+     {
+      "name": "Tom",
+      "from": 2012
      }
     ]
    }
@@ -6975,15 +5486,13 @@
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
-   "Nase",
-   "Scott"
+   "Scott",
+   "Tom"
   ],
   "certainlyNot": [
    "Broncos",
@@ -7000,16 +5509,6 @@
     ],
     "sharedDraftPicks": [
      "Robert Meachem"
-    ]
-   },
-   {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Toby Gerhart"
     ]
    },
    {
@@ -7038,14 +5537,6 @@
     "seasons": [
      2012,
      2013
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
     ],
     "sharedDraftPicks": []
    },
@@ -7569,16 +6060,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -7593,20 +6080,16 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
       "name": "Mitchell",
       "from": 2010
      },
      {
-      "name": "Nase",
+      "name": "Scott",
       "from": 2014
      },
      {
-      "name": "Scott",
-      "from": 2014
+      "name": "Tom",
+      "from": 2012
      },
      {
       "name": "Tyler",
@@ -7623,16 +6106,14 @@
    "T.J."
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
    "Mitchell",
-   "Nase",
    "Scott",
+   "Tom",
    "Tyler"
   ],
   "certainlyNot": [
@@ -7673,16 +6154,6 @@
     ]
    },
    {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Jonathan Stewart"
-    ]
-   },
-   {
     "slug": "the-guru-s",
     "name": "The Guru's",
     "seasons": [
@@ -7690,16 +6161,6 @@
     ],
     "sharedDraftPicks": [
      "Tony Gonzalez"
-    ]
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Stephen Gostkowski"
     ]
    },
    {
@@ -8240,16 +6701,8 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Joey",
       "from": 2014
-     },
-     {
-      "name": "Mikey",
-      "from": 2017
      },
      {
       "name": "Nase",
@@ -8275,28 +6728,16 @@
    "Tyler"
   ],
   "couldBe": [
-   "Anthony",
    "Joey",
-   "Mikey",
    "Mitchell",
    "Nase",
-   "Scott"
+   "Scott",
+   "Tom"
   ],
   "certainlyNot": [
    "2012 champ"
   ],
   "maybeSameManager": [
-   {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "James Jones",
-     "Joe Flacco"
-    ]
-   },
    {
     "slug": "packnation",
     "name": "PackNation",
@@ -8327,16 +6768,6 @@
     ],
     "sharedDraftPicks": [
      "Matt Ryan"
-    ]
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Greg Olsen"
     ]
    },
    {
@@ -8891,16 +7322,12 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
-      "name": "Anthony",
-      "from": 2018
-     },
-     {
       "name": "Buckley",
       "from": 2012
      },
      {
       "name": "Colt",
-      "from": 2013
+      "from": 2012
      },
      {
       "name": "James",
@@ -8915,20 +7342,16 @@
       "from": 2013
      },
      {
-      "name": "Mikey",
-      "from": 2017
-     },
-     {
       "name": "Mitchell",
       "from": 2010
      },
      {
-      "name": "Nase",
+      "name": "Scott",
       "from": 2014
      },
      {
-      "name": "Scott",
-      "from": 2014
+      "name": "Tom",
+      "from": 2012
      },
      {
       "name": "Tyler",
@@ -8945,16 +7368,14 @@
    "T.J."
   ],
   "couldBe": [
-   "Anthony",
    "Buckley",
    "Colt",
    "James",
    "Joey",
    "John",
-   "Mikey",
    "Mitchell",
-   "Nase",
    "Scott",
+   "Tom",
    "Tyler"
   ],
   "certainlyNot": [
@@ -8972,17 +7393,6 @@
      "Ben Roethlisberger",
      "Jason Witten",
      "Marion Barber"
-    ]
-   },
-   {
-    "slug": "believe-no-more",
-    "name": "bELIeve No More",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Marques Colston",
-     "Ronnie Brown"
     ]
    },
    {
@@ -9029,14 +7439,6 @@
    {
     "slug": "0-breaks-given",
     "name": "0 Breaks Given",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "murphadelic",
-    "name": "Murphadelic",
     "seasons": [
      2012
     ],

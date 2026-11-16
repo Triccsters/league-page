@@ -833,6 +833,14 @@ def build_unclaimed(history):
 
     hidden_all = {h for h, m in mgrs.items() if m.get("hidden")}
     known = {h for h in mgrs if h not in hidden_all}        # people we can name
+
+    # A manager who joined later cannot be an earlier team. Nothing in the data says so -
+    # a hidden team is a privacy setting, not an absence - so this is hand-set in
+    # manager_overrides.json, e.g. {"PapaMidnight": {"firstSeason": 2017}}.
+    joined = {h: cfg["firstSeason"]
+              for h, cfg in (read_json(os.path.join(DATA, "manager_overrides.json"), {}) or {}).items()
+              if isinstance(cfg, dict) and isinstance(cfg.get("firstSeason"), int)}
+    eligible = lambda h, season: joined.get(h, 0) <= season
     played_in = defaultdict(set)                            # season -> handles that season
     for g in history["games"]:
         played_in[g[0]].add(g[3]); played_in[g[0]].add(g[5])
@@ -954,9 +962,10 @@ def build_unclaimed(history):
         out_by_season, same_season = [], []
         for s in t["seasons"]:
             ident = sorted(played_in[s] & known, key=lambda x: real_name(x).lower())
+            pool = {k for k in known if eligible(k, s)}
             others = sorted((played_in[s] & hidden_all) - {h}, key=lambda x: shown(x).lower())
-            gap = unaccounted(s)
-            later = sorted((k for k in known if first_seen.get(k, 9999) > s),
+            gap = [k for k in unaccounted(s) if eligible(k, s)]
+            later = sorted((k for k in pool if first_seen.get(k, 9999) > s),
                            key=lambda x: real_name(x).lower())
             out_by_season.append({"season": s,
                                   "ruledOut": [real_name(x) for x in ident],
@@ -968,8 +977,10 @@ def build_unclaimed(history):
         ruled = set()
         for s in t["seasons"]:
             ruled |= (played_in[s] & known)
-        # known members with no team of their own in any of this team's seasons
-        could = sorted(known - ruled, key=lambda x: real_name(x).lower())
+        # known members with no team of their own in any of this team's seasons, who had
+        # joined the league by then
+        could = sorted({k for k in known - ruled if all(eligible(k, s) for s in t["seasons"])},
+                       key=lambda x: real_name(x).lower())
 
         # Could another unidentified team be the same manager? Only one in a season this
         # team did not play, since two in the same season cannot be one person.
@@ -985,7 +996,8 @@ def build_unclaimed(history):
         maybe.sort(key=lambda m: (-len(m["sharedDraftPicks"]), m["name"]))
 
         # someone unaccounted for in every one of this team's seasons is the best lead
-        strong = set.intersection(*[set(unaccounted(s)) for s in t["seasons"]]) if t["seasons"] else set()
+        strong = (set.intersection(*[{k for k in unaccounted(s) if eligible(k, s)}
+                                     for s in t["seasons"]]) if t["seasons"] else set())
         t["strongCandidates"] = [real_name(x) for x in
                                  sorted(strong, key=lambda x: real_name(x).lower())]
         t["bySeasonSuspects"] = out_by_season

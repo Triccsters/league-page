@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T21:56:35+00:00",
+ "generated": "2026-11-16T22:26:18+00:00",
  "season": 2026,
  "week": 10,
  "playoff": false,
@@ -152,9 +152,9 @@
     "Colt45Johnson": 104.98
    },
    "h2h": {
-    "triccster": 8,
-    "Colt45Johnson": 12,
-    "games": 20
+    "triccster": 9,
+    "Colt45Johnson": 13,
+    "games": 22
    },
    "streak": [
     "triccster",

@@ -1,3 +1,12 @@
 {
- "_how_to": "Key by Sleeper handle. Any field set here replaces the generated one, e.g. \"triccster\": {\"bio\": \"...\", \"photo\": \"/managers/tj.jpg\", \"favoriteTeam\": \"min\", \"location\": \"Maplewood\"}"
+ "_how_to": "Key by Sleeper handle. Any field set here replaces the generated one, e.g. \"triccster\": {\"bio\": \"...\", \"photo\": \"/managers/tj.jpg\", \"favoriteTeam\": \"min\", \"location\": \"Maplewood\"}. The special field \"firstSeason\" is not shown anywhere; /unclaimed uses it to stop offering a manager as a candidate for a team-season before he joined the league.",
+ "PapaMidnight": {
+  "firstSeason": 2017
+ },
+ "butterygoop": {
+  "firstSeason": 2018
+ },
+ "thecreamer": {
+  "firstSeason": 2013
+ }
 }

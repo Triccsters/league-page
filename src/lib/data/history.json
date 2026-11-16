@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T21:56:27+00:00",
+ "generated": "2026-11-16T22:26:08+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -48,13 +48,13 @@
    "RockMNwild": "One dimension",
    "?PackNation": "PackNation",
    "YoungBuck04": "The Bucktactic",
-   "?bELIeve No More": "bELIeve No More",
+   "Colt45Johnson": "bELIeve No More",
    "?0 Breaks Given": "0 Breaks Given",
    "triccster": "TJ Rizzle Fresh",
    "Tyler": "R. Corn on the Cobbs",
    "TuanonStan": "Lets Hug It Out",
    "?2012 champ": "2012 champ",
-   "?Murphadelic": "Murphadelic",
+   "Tom": "Murphadelic",
    "J Rock": "J Rocks Dawgs"
   },
   "2013": {
@@ -286,11 +286,6 @@
    "yahoo": null,
    "hidden": true
   },
-  "?Murphadelic": {
-   "name": "Murphadelic",
-   "yahoo": null,
-   "hidden": true
-  },
   "?PackNation": {
    "name": "PackNation",
    "yahoo": null,
@@ -303,11 +298,6 @@
   },
   "?The Guru's": {
    "name": "The Guru's",
-   "yahoo": null,
-   "hidden": true
-  },
-  "?bELIeve No More": {
-   "name": "bELIeve No More",
    "yahoo": null,
    "hidden": true
   },
@@ -364,6 +354,11 @@
   "RockMNwild": {
    "name": "Austin",
    "yahoo": "Austin",
+   "hidden": false
+  },
+  "Tom": {
+   "name": "Tom",
+   "yahoo": null,
    "hidden": false
   },
   "TuanonStan": {
@@ -2149,7 +2144,7 @@
    "yahoo",
    "triccster",
    95,
-   "?Murphadelic",
+   "Tom",
    83,
    false,
    null
@@ -2180,7 +2175,7 @@
    2012,
    1,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    105,
    "?2012 champ",
    63,
@@ -2237,7 +2232,7 @@
    "yahoo",
    "RockMNwild",
    68,
-   "?bELIeve No More",
+   "Colt45Johnson",
    77,
    false,
    null
@@ -2259,7 +2254,7 @@
    "yahoo",
    "Tyler",
    96,
-   "?Murphadelic",
+   "Tom",
    64,
    false,
    null
@@ -2323,7 +2318,7 @@
    2012,
    3,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    67,
    "J Rock",
    93,
@@ -2336,7 +2331,7 @@
    "yahoo",
    "?0 Breaks Given",
    71,
-   "?Murphadelic",
+   "Tom",
    71,
    false,
    null
@@ -2378,7 +2373,7 @@
    2012,
    4,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    101,
    "?0 Breaks Given",
    84,
@@ -2402,7 +2397,7 @@
    "yahoo",
    "?2012 champ",
    131,
-   "?Murphadelic",
+   "Tom",
    105,
    false,
    null
@@ -2435,7 +2430,7 @@
    "yahoo",
    "YoungBuck04",
    79,
-   "?bELIeve No More",
+   "Colt45Johnson",
    67,
    false,
    null
@@ -2466,7 +2461,7 @@
    2012,
    5,
    "yahoo",
-   "?Murphadelic",
+   "Tom",
    105,
    "J Rock",
    67,
@@ -2523,7 +2518,7 @@
    "yahoo",
    "YoungBuck04",
    88,
-   "?Murphadelic",
+   "Tom",
    93,
    false,
    null
@@ -2532,7 +2527,7 @@
    2012,
    6,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    104,
    "TuanonStan",
    87,
@@ -2556,7 +2551,7 @@
    "yahoo",
    "brettmn13",
    67,
-   "?Murphadelic",
+   "Tom",
    101,
    false,
    null
@@ -2578,7 +2573,7 @@
    "yahoo",
    "?PackNation",
    97,
-   "?bELIeve No More",
+   "Colt45Johnson",
    101,
    false,
    null
@@ -2611,7 +2606,7 @@
    "yahoo",
    "triccster",
    76,
-   "?Murphadelic",
+   "Tom",
    79,
    false,
    null
@@ -2642,7 +2637,7 @@
    2012,
    8,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    50,
    "?2012 champ",
    76,
@@ -2688,7 +2683,7 @@
    "yahoo",
    "brettmn13",
    84,
-   "?bELIeve No More",
+   "Colt45Johnson",
    80,
    false,
    null
@@ -2699,7 +2694,7 @@
    "yahoo",
    "RockMNwild",
    84,
-   "?Murphadelic",
+   "Tom",
    78,
    false,
    null
@@ -2743,7 +2738,7 @@
    "yahoo",
    "triccster",
    104,
-   "?bELIeve No More",
+   "Colt45Johnson",
    91,
    false,
    null
@@ -2776,7 +2771,7 @@
    "yahoo",
    "?PackNation",
    69,
-   "?Murphadelic",
+   "Tom",
    80,
    false,
    null
@@ -2831,7 +2826,7 @@
    "yahoo",
    "RockMNwild",
    95,
-   "?bELIeve No More",
+   "Colt45Johnson",
    94,
    false,
    null
@@ -2853,7 +2848,7 @@
    "yahoo",
    "Tyler",
    88,
-   "?Murphadelic",
+   "Tom",
    80,
    false,
    null
@@ -2917,7 +2912,7 @@
    2012,
    12,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    100,
    "J Rock",
    130,
@@ -2930,7 +2925,7 @@
    "yahoo",
    "?0 Breaks Given",
    101,
-   "?Murphadelic",
+   "Tom",
    101,
    false,
    null
@@ -2985,7 +2980,7 @@
    "yahoo",
    "YoungBuck04",
    51,
-   "?Murphadelic",
+   "Tom",
    123,
    false,
    null
@@ -2994,7 +2989,7 @@
    2012,
    13,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    98,
    "TuanonStan",
    111,
@@ -3018,7 +3013,7 @@
    "yahoo",
    "TuanonStan",
    91,
-   "?Murphadelic",
+   "Tom",
    83,
    true,
    "Quarterfinal"
@@ -3029,7 +3024,7 @@
    "yahoo",
    "triccster",
    95,
-   "?bELIeve No More",
+   "Colt45Johnson",
    96,
    true,
    "Consolation"
@@ -3084,7 +3079,7 @@
    "yahoo",
    "YoungBuck04",
    94,
-   "?bELIeve No More",
+   "Colt45Johnson",
    69,
    true,
    "Consolation"
@@ -3106,7 +3101,7 @@
    "yahoo",
    "?2012 champ",
    114,
-   "?Murphadelic",
+   "Tom",
    103,
    true,
    "5th place"
@@ -3148,7 +3143,7 @@
    2012,
    16,
    "yahoo",
-   "?bELIeve No More",
+   "Colt45Johnson",
    60,
    "?0 Breaks Given",
    105,
