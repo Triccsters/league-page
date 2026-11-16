@@ -1,7 +1,7 @@
 {
- "read_at": "2026-11-15T16:58+00:00",
+ "read_at": "2026-11-16T14:19+00:00",
  "days": 7,
- "count": 118,
+ "count": 121,
  "items": [
   {
    "headline": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
@@ -142,6 +142,207 @@
    "score": 20.0
   },
   {
+   "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+   "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "KC"
+   ],
+   "named": [
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
+    },
+    {
+     "n": "Josh Downs",
+     "p": "WR",
+     "t": "KC",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Patrick Mahomes",
+    "Josh Downs"
+   ],
+   "ripple": [
+    {
+     "n": "Kenneth Walker III",
+     "p": "RB",
+     "t": "KC",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 16.0
+  },
+  {
+   "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
+   "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "GB"
+   ],
+   "named": [
+    {
+     "n": "Jordan Love",
+     "p": "QB",
+     "t": "GB",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "Jordan Love"
+   ],
+   "ripple": [
+    {
+     "n": "Christian Watson",
+     "p": "WR",
+     "t": "GB",
+     "h": "triccster"
+    },
+    {
+     "n": "Jayden Reed",
+     "p": "WR",
+     "t": "GB",
+     "h": "Jbird531"
+    },
+    {
+     "n": "MarShawn Lloyd",
+     "p": "RB",
+     "t": "GB",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Tucker Kraft",
+     "p": "TE",
+     "t": "GB",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Josh Jacobs",
+     "p": "RB",
+     "t": "GB",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Matthew Golden",
+     "p": "WR",
+     "t": "GB",
+     "h": "snelson91"
+    },
+    {
+     "n": "Kaleb Johnson",
+     "p": "RB",
+     "t": "GB",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "PapaMidnight",
+    "YoungBuck04",
+    "brettmn13",
+    "snelson91",
+    "triccster"
+   ],
+   "score": 15.5
+  },
+  {
+   "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
+   "date": "2026-11-15",
+   "kind": "news",
+   "teams": [
+    "NE"
+   ],
+   "named": [
+    {
+     "n": "Drake Maye",
+     "p": "QB",
+     "t": "NE",
+     "h": "Wallner"
+    },
+    {
+     "n": "A.J. Brown",
+     "p": "WR",
+     "t": "NE",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "Drake Maye"
+   ],
+   "ripple": [
+    {
+     "n": "Corey Kiner",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "TreVeyon Henderson",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rhamondre Stevenson",
+     "p": "RB",
+     "t": "NE",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Hunter Henry",
+     "p": "TE",
+     "t": "NE",
+     "h": "brettmn13"
+    },
+    {
+     "n": "DeMario Douglas",
+     "p": "WR",
+     "t": "NE",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Wallner",
+    "YoungBuck04",
+    "brettmn13",
+    "thecreamer"
+   ],
+   "score": 15.5
+  },
+  {
    "headline": "Patriots place RB TreVeyon Henderson on IR with still unexplained illness",
    "url": "https://www.espn.com/nfl/story/_/id/50483113/patriots-place-rb-henderson-ir-unexplained-illness",
    "date": "2026-11-15",
@@ -208,9 +409,9 @@
    "score": 15.0
   },
   {
-   "headline": "Sources: Vikings want to keep Kirk Cousins, talked to QB about staying in 2027",
-   "url": "https://www.espn.com/nfl/story/_/id/50484865/sources-vikings-want-keep-kirk-cousins-2027-season",
-   "date": "2026-11-15",
+   "headline": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
+   "url": "https://www.espn.com/nfl/story/_/id/50495965/kirk-cousins-emotional-getting-win-return-vikings",
+   "date": "2026-11-16",
    "kind": "news",
    "teams": [
     "MIN"
@@ -328,266 +529,156 @@
    "score": 14.5
   },
   {
-   "headline": "49ers OT Williams, LB Greenlaw questionable, WR Evans out vs. Cowboys",
-   "url": "https://www.espn.com/nfl/story/_/id/50475033/49ers-williams-greenlaw-questionable-evans-vs-cowboys",
-   "date": "2026-11-13",
+   "headline": "Jets QB Geno Smith suffers ankle injury, replaced by rookie Cade Klubnik",
+   "url": "https://www.espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
+   "date": "2026-11-16",
    "kind": "news",
    "teams": [
-    "SF"
+    "NYJ"
    ],
    "named": [
     {
-     "n": "Mike Evans",
-     "p": "WR",
-     "t": "SF",
-     "h": "Wallner"
+     "n": "Geno Smith",
+     "p": "QB",
+     "t": "NYJ",
+     "h": "Jbird531"
     }
    ],
    "lead": [
-    "Mike Evans"
+    "Geno Smith"
    ],
    "ripple": [
     {
-     "n": "Brock Purdy",
-     "p": "QB",
-     "t": "SF",
+     "n": "Omar Cooper Jr.",
+     "p": "WR",
+     "t": "NYJ",
      "h": "Wallner"
     },
     {
-     "n": "George Kittle",
-     "p": "TE",
-     "t": "SF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kaelon Black",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Christian McCaffrey",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Deebo Samuel Sr.",
+     "n": "Garrett Wilson",
      "p": "WR",
-     "t": "SF",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "TuanonStan",
-    "Wallner",
-    "YoungBuck04"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "Bengals' Burrow, Chase, Higgins add Spanish flair to TD celebrations in Madrid",
-   "url": "https://www.espn.com/nfl/story/_/id/50421721/cincinnati-bengals-real-madrid-spain-touchdown-celebrations",
-   "date": "2026-11-08",
-   "kind": "story",
-   "teams": [
-    "CIN"
-   ],
-   "named": [
-    {
-     "n": "Joe Burrow",
-     "p": "QB",
-     "t": "CIN",
+     "t": "NYJ",
      "h": "RockMNwild"
     },
     {
-     "n": "Ja'Marr Chase",
-     "p": "WR",
-     "t": "CIN",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Tee Higgins",
-     "p": "WR",
-     "t": "CIN",
-     "h": "TuanonStan"
-    }
-   ],
-   "lead": [
-    "Joe Burrow",
-    "Ja'Marr Chase",
-    "Tee Higgins"
-   ],
-   "ripple": [
-    {
-     "n": "Mike Gesicki",
-     "p": "TE",
-     "t": "CIN",
-     "h": "Wallner"
-    },
-    {
-     "n": "Samaje Perine",
+     "n": "Braelon Allen",
      "p": "RB",
-     "t": "CIN",
-     "h": "triccster"
+     "t": "NYJ",
+     "h": "Jbird531"
     },
     {
-     "n": "Chase Brown",
+     "n": "Breece Hall",
      "p": "RB",
-     "t": "CIN",
+     "t": "NYJ",
      "h": "Jbird531"
     }
    ],
    "managers": [
     "Jbird531",
     "RockMNwild",
+    "Wallner"
+   ],
+   "score": 14.0
+  },
+  {
+   "headline": "Texans lose RB Woody Marks to concussion in loss to Browns",
+   "url": "https://www.espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
+   "date": "2026-11-15",
+   "kind": "news",
+   "teams": [
+    "HOU"
+   ],
+   "named": [
+    {
+     "n": "Woody Marks",
+     "p": "RB",
+     "t": "HOU",
+     "h": "Wallner"
+    }
+   ],
+   "lead": [
+    "Woody Marks"
+   ],
+   "ripple": [
+    {
+     "n": "Tank Dell",
+     "p": "WR",
+     "t": "HOU",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Nico Collins",
+     "p": "WR",
+     "t": "HOU",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "C.J. Stroud",
+     "p": "QB",
+     "t": "HOU",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "David Montgomery",
+     "p": "RB",
+     "t": "HOU",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
     "TuanonStan",
+    "Wallner",
+    "snelson91"
+   ],
+   "score": 14.0
+  },
+  {
+   "headline": "Raiders TE Brock Bowers avoids major ankle injury, source says",
+   "url": "https://www.espn.com/nfl/story/_/id/50501232/raiders-te-brock-bowers-avoids-major-ankle-injury-source-says",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "LV"
+   ],
+   "named": [
+    {
+     "n": "Brock Bowers",
+     "p": "TE",
+     "t": "LV",
+     "h": "triccster"
+    }
+   ],
+   "lead": [
+    "Brock Bowers"
+   ],
+   "ripple": [
+    {
+     "n": "Ashton Jeanty",
+     "p": "RB",
+     "t": "LV",
+     "h": "Wallner"
+    },
+    {
+     "n": "Mike Washington Jr.",
+     "p": "RB",
+     "t": "LV",
+     "h": "Wallner"
+    },
+    {
+     "n": "Tre Tucker",
+     "p": "WR",
+     "t": "LV",
+     "h": "RockMNwild"
+    }
+   ],
+   "managers": [
+    "RockMNwild",
     "Wallner",
     "triccster"
    ],
    "score": 13.5
-  },
-  {
-   "headline": "Minter: Lamar Jackson 'doing everything' to return; QB had surgery, sources say",
-   "url": "https://www.espn.com/nfl/story/_/id/50472222/ravens-lamar-jackson-injury-typical-line-6-10-weeks",
-   "date": "2026-11-14",
-   "kind": "news",
-   "teams": [
-    "BAL",
-    "BUF",
-    "CLE",
-    "LAC"
-   ],
-   "named": [
-    {
-     "n": "Lamar Jackson",
-     "p": "QB",
-     "t": "BAL",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Lamar Jackson"
-   ],
-   "ripple": [
-    {
-     "n": "Zay Flowers",
-     "p": "WR",
-     "t": "BAL",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Derrick Henry",
-     "p": "RB",
-     "t": "BAL",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "YoungBuck04"
-   ],
-   "score": 13.0
-  },
-  {
-   "headline": "Rookie WR Carnell Tate among multiple Titans starters ruled out vs. Jaguars",
-   "url": "https://www.espn.com/nfl/story/_/id/50473143/rookie-wr-carnell-tate-multiple-titans-ruled-out",
-   "date": "2026-11-13",
-   "kind": "news",
-   "teams": [
-    "TEN"
-   ],
-   "named": [
-    {
-     "n": "Carnell Tate",
-     "p": "WR",
-     "t": "TEN",
-     "h": "TuanonStan"
-    }
-   ],
-   "lead": [
-    "Carnell Tate"
-   ],
-   "ripple": [
-    {
-     "n": "Wan'Dale Robinson",
-     "p": "WR",
-     "t": "TEN",
-     "h": "triccster"
-    },
-    {
-     "n": "Tony Pollard",
-     "p": "RB",
-     "t": "TEN",
-     "h": "PapaMidnight"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "TuanonStan",
-    "triccster"
-   ],
-   "score": 13.0
-  },
-  {
-   "headline": "Sean McVay: Rams optimistic WR Davante Adams will return 'sooner than later'",
-   "url": "https://www.espn.com/nfl/story/_/id/50455318/mcvay-rams-optimistic-wr-adams-return-sooner-later",
-   "date": "2026-11-12",
-   "kind": "news",
-   "teams": [
-    "LAR"
-   ],
-   "named": [
-    {
-     "n": "Davante Adams",
-     "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Puka Nacua",
-     "p": "WR",
-     "t": "LAR",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "Davante Adams"
-   ],
-   "ripple": [
-    {
-     "n": "Blake Corum",
-     "p": "RB",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Konata Mumpfield",
-     "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Matthew Stafford",
-     "p": "QB",
-     "t": "LAR",
-     "h": "snelson91"
-    },
-    {
-     "n": "Kyren Williams",
-     "p": "RB",
-     "t": "LAR",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "YoungBuck04",
-    "snelson91"
-   ],
-   "score": 13.0
   },
   {
    "headline": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
@@ -709,195 +800,115 @@
    "score": 12.5
   },
   {
-   "headline": "Commanders QB Jayden Daniels finds redemption with game-winning drive",
-   "url": "https://www.espn.com/nfl/story/_/id/50469451/commanders-jayden-daniels-redemption-game-winning-drive",
+   "headline": "49ers OT Williams, LB Greenlaw questionable, WR Evans out vs. Cowboys",
+   "url": "https://www.espn.com/nfl/story/_/id/50475033/49ers-williams-greenlaw-questionable-evans-vs-cowboys",
    "date": "2026-11-13",
    "kind": "news",
    "teams": [
-    "WAS"
+    "SF"
    ],
    "named": [
     {
-     "n": "Jayden Daniels",
-     "p": "QB",
-     "t": "WAS",
-     "h": "triccster"
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
     }
    ],
    "lead": [
-    "Jayden Daniels"
+    "Mike Evans"
    ],
    "ripple": [
     {
-     "n": "Jacory Croskey-Merritt",
-     "p": "RB",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Stefon Diggs",
-     "p": "WR",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Antonio Williams",
-     "p": "WR",
-     "t": "WAS",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Rachaad White",
-     "p": "RB",
-     "t": "WAS",
-     "h": "Jbird531"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "YoungBuck04",
-    "triccster"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Does Packers' Christian Watson + Matthew Golden = 3,000 yards?",
-   "url": "https://www.espn.com/nfl/story/_/id/50455566/packers-christian-watson-matthew-golden-3000-yards",
-   "date": "2026-11-12",
-   "kind": "story",
-   "teams": [
-    "GB"
-   ],
-   "named": [
-    {
-     "n": "Christian Watson",
-     "p": "WR",
-     "t": "GB",
-     "h": "triccster"
-    },
-    {
-     "n": "Matthew Golden",
-     "p": "WR",
-     "t": "GB",
-     "h": "snelson91"
-    }
-   ],
-   "lead": [
-    "Christian Watson",
-    "Matthew Golden"
-   ],
-   "ripple": [
-    {
-     "n": "Jordan Love",
+     "n": "Brock Purdy",
      "p": "QB",
-     "t": "GB",
-     "h": "YoungBuck04"
+     "t": "SF",
+     "h": "Wallner"
     },
     {
-     "n": "Jayden Reed",
-     "p": "WR",
-     "t": "GB",
-     "h": "Jbird531"
-    },
-    {
-     "n": "MarShawn Lloyd",
-     "p": "RB",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Tucker Kraft",
+     "n": "George Kittle",
      "p": "TE",
-     "t": "GB",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Josh Jacobs",
-     "p": "RB",
-     "t": "GB",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Kaleb Johnson",
-     "p": "RB",
-     "t": "GB",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "PapaMidnight",
-    "YoungBuck04",
-    "brettmn13",
-    "snelson91",
-    "triccster"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Caleb Williams unfazed by 4 interceptions as Bears pull out win vs. Bucs",
-   "url": "https://www.espn.com/nfl/story/_/id/50430415/caleb-williams-4-interceptions-bears-win-buccaneers",
-   "date": "2026-11-09",
-   "kind": "news",
-   "teams": [
-    "CHI"
-   ],
-   "named": [
-    {
-     "n": "Caleb Williams",
-     "p": "QB",
-     "t": "CHI",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Caleb Williams"
-   ],
-   "ripple": [
-    {
-     "n": "D'Andre Swift",
-     "p": "RB",
-     "t": "CHI",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Kyle Monangai",
-     "p": "RB",
-     "t": "CHI",
+     "t": "SF",
      "h": "TuanonStan"
     },
     {
-     "n": "Luther Burden III",
-     "p": "WR",
-     "t": "CHI",
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
      "h": "YoungBuck04"
     },
     {
-     "n": "Colston Loveland",
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "p": "WR",
+     "t": "SF",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "TuanonStan",
+    "Wallner",
+    "YoungBuck04"
+   ],
+   "score": 12.5
+  },
+  {
+   "headline": "Lions' Amon-Ra St. Brown: Germany trip one he'll 'never forget'",
+   "url": "https://www.espn.com/nfl/story/_/id/50492174/never-forget-germany-trip",
+   "date": "2026-11-15",
+   "kind": "news",
+   "teams": [
+    "DET",
+    "NE"
+   ],
+   "named": [
+    {
+     "n": "Amon-Ra St. Brown",
+     "p": "WR",
+     "t": "DET",
+     "h": "butterygoop"
+    }
+   ],
+   "lead": [
+    "Amon-Ra St. Brown"
+   ],
+   "ripple": [
+    {
+     "n": "Jared Goff",
+     "p": "QB",
+     "t": "DET",
+     "h": "triccster"
+    },
+    {
+     "n": "Jameson Williams",
+     "p": "WR",
+     "t": "DET",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Sam LaPorta",
      "p": "TE",
-     "t": "CHI",
-     "h": "brettmn13"
+     "t": "DET",
+     "h": "snelson91"
     },
     {
-     "n": "Rome Odunze",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Kalif Raymond",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
+     "n": "Jahmyr Gibbs",
+     "p": "RB",
+     "t": "DET",
+     "h": "snelson91"
     }
    ],
    "managers": [
     "Jbird531",
-    "TuanonStan",
-    "YoungBuck04",
-    "brettmn13",
     "butterygoop",
-    "thecreamer"
+    "snelson91",
+    "triccster"
    ],
    "score": 12.0
   }

@@ -6,105 +6,105 @@
    "n": "Corey Kiner",
    "p": "RB",
    "t": "NE",
-   "c": 6006582,
+   "c": 5859270,
    "h": "Colt45Johnson"
-  },
-  {
-   "n": "Tank Dell",
-   "p": "WR",
-   "t": "HOU",
-   "c": 4641608,
-   "h": "TuanonStan"
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 4538961,
+   "c": 4570965,
+   "h": "YoungBuck04"
+  },
+  {
+   "n": "Tank Dell",
+   "p": "WR",
+   "t": "HOU",
+   "c": 4255856,
+   "h": "TuanonStan"
+  },
+  {
+   "n": "Emmett Johnson",
+   "p": "RB",
+   "t": "KC",
+   "c": 2796939,
    "h": "YoungBuck04"
   },
   {
    "n": "Darren Waller",
    "p": "TE",
    "t": "CAR",
-   "c": 2749248,
+   "c": 2764287,
    "h": null
-  },
-  {
-   "n": "Emmett Johnson",
-   "p": "RB",
-   "t": "KC",
-   "c": 2637981,
-   "h": "YoungBuck04"
   },
   {
    "n": "Tutu Atwell",
    "p": "WR",
    "t": "LAR",
-   "c": 2283260,
+   "c": 2398067,
    "h": null
-  },
-  {
-   "n": "Audric Estime",
-   "p": "RB",
-   "t": "NO",
-   "c": 1895241,
-   "h": "triccster"
   },
   {
    "n": "Fernando Mendoza",
    "p": "QB",
    "t": "LV",
-   "c": 1736912,
+   "c": 1867488,
    "h": null
   },
   {
    "n": "Justice Hill",
    "p": "RB",
    "t": "BAL",
-   "c": 1452006,
+   "c": 1694808,
    "h": null
   },
   {
-   "n": "Baltimore Ravens",
-   "p": "DEF",
-   "t": "BAL",
-   "c": 1067733,
-   "h": "RockMNwild"
+   "n": "Audric Estime",
+   "p": "RB",
+   "t": "NO",
+   "c": 1680807,
+   "h": "triccster"
   },
   {
-   "n": "Ashton Dulin",
+   "n": "Chimere Dike",
    "p": "WR",
-   "t": "IND",
-   "c": 1061217,
+   "t": "TEN",
+   "c": 1174716,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 1051713,
+   "c": 1138293,
    "h": null
   },
   {
-   "n": "Chimere Dike",
+   "n": "Baltimore Ravens",
+   "p": "DEF",
+   "t": "BAL",
+   "c": 1076892,
+   "h": "RockMNwild"
+  },
+  {
+   "n": "Ashton Dulin",
    "p": "WR",
-   "t": "TEN",
-   "c": 1032399,
+   "t": "IND",
+   "c": 1068588,
    "h": null
   },
   {
    "n": "Kyle McCord",
    "p": "QB",
    "t": "MIA",
-   "c": 972336,
+   "c": 981376,
    "h": null
   },
   {
    "n": "Indianapolis Colts",
    "p": "DEF",
    "t": "IND",
-   "c": 924318,
+   "c": 944118,
    "h": "TuanonStan"
   }
  ],
@@ -113,105 +113,105 @@
    "n": "Michael Wilson",
    "p": "WR",
    "t": "ARI",
-   "c": 3379788,
+   "c": 3445200,
    "h": "Jbird531"
   },
   {
    "n": "Devin Singletary",
    "p": "RB",
    "t": "NYG",
-   "c": 2246238,
+   "c": 2297952,
    "h": null
   },
   {
    "n": "Seth McGowan",
    "p": "RB",
    "t": "IND",
-   "c": 1802520,
+   "c": 1792592,
    "h": "TuanonStan"
   },
   {
    "n": "Chase McLaughlin",
    "p": "K",
    "t": "TB",
-   "c": 1571600,
+   "c": 1602512,
    "h": "butterygoop"
   },
   {
    "n": "Malik Willis",
    "p": "QB",
    "t": "MIA",
-   "c": 1517712,
+   "c": 1472443,
    "h": null
   },
   {
    "n": "Adonai Mitchell",
    "p": "WR",
    "t": "NYJ",
-   "c": 1458272,
+   "c": 1363672,
    "h": null
   },
   {
    "n": "Emanuel Wilson",
    "p": "RB",
    "t": "SEA",
-   "c": 1417896,
+   "c": 1344762,
    "h": "thecreamer"
   },
   {
    "n": "Cairo Santos",
    "p": "K",
    "t": "CHI",
-   "c": 1211469,
+   "c": 1214353,
    "h": null
   },
   {
    "n": "Kyler Murray",
    "p": "QB",
    "t": "MIN",
-   "c": 1197704,
+   "c": 1180232,
    "h": null
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1161171,
+   "c": 1121967,
    "h": null
   },
   {
    "n": "Elijah Mitchell",
    "p": "RB",
    "t": "PHI",
-   "c": 1073025,
+   "c": 1053351,
    "h": null
   },
   {
    "n": "Devaughn Vele",
    "p": "WR",
    "t": "NO",
-   "c": 983857,
+   "c": 959658,
    "h": null
   },
   {
    "n": "Carson Wentz",
    "p": "QB",
    "t": "MIN",
-   "c": 924918,
-   "h": null
-  },
-  {
-   "n": "New England Patriots",
-   "p": "DEF",
-   "t": "NE",
-   "c": 877198,
+   "c": 928542,
    "h": null
   },
   {
    "n": "New Orleans Saints",
    "p": "DEF",
    "t": "NO",
-   "c": 869295,
+   "c": 856925,
+   "h": null
+  },
+  {
+   "n": "New England Patriots",
+   "p": "DEF",
+   "t": "NE",
+   "c": 851935,
    "h": null
   }
  ]
