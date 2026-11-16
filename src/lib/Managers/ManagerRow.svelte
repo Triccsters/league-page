@@ -7,20 +7,31 @@
 
     export let manager, leagueTeamManagers, key;
 
-    let retired = false;
+    // A past manager (past_managers.json) is in history.json but not in the current
+    // league, so there is no roster and no leagueTeamManagers entry to look up. They
+    // are shown as retired, with the last team name the history has for them.
+    const isPast = !!manager.past;
+
+    let retired = isPast;
 
     // manager.roster is deprecated, pages should be using managerID now
     let rosterID = manager.roster;
     let year = null;
 
-    if(manager.managerID) {
+    if(!isPast && manager.managerID) {
         const dates = getDatesActive(leagueTeamManagers, manager.managerID);
         if(dates.end) retired = true;
 
         ({rosterID, year} = getRosterIDFromManagerID(leagueTeamManagers, manager.managerID) || {rosterID, year});
     }
 
-    const commissioner = manager.managerID ? leagueTeamManagers.users[manager.managerID].is_owner : false;
+    const commissioner = (!isPast && manager.managerID)
+        ? !!leagueTeamManagers.users[manager.managerID]?.is_owner
+        : false;
+
+    const teamName = isPast
+        ? (manager.lastTeamName || '')
+        : getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year);
 </script>
 
 <style>
@@ -242,7 +253,7 @@
         {/if}
     </div>
     <div class="name">{manager.name}<YourTeamBadge handle={manager.handle} userId={manager.managerID} size="small" /></div>
-    <div class="team">{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</div>
+    <div class="team">{teamName}</div>
     <div class="spacer" />
     <div class="info">
         <!-- Favorite team (optional) -->

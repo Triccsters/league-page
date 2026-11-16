@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T14:19:23+00:00",
+ "generated": "2026-11-16T21:47:02+00:00",
  "leagues": [
   {
    "i": 0,
@@ -61,27 +61,6 @@
     "YoungBuck04",
     "brettmn13",
     "butterygoop",
-    "triccster"
-   ]
-  },
-  {
-   "i": 3,
-   "name": "Megalabowl",
-   "site": "https://league-megalabowl.vercel.app",
-   "first": 2026,
-   "last": 2026,
-   "current": [
-    "Asparagarrigus",
-    "DrunkoByoKickoff",
-    "DuskeyRhodes",
-    "LordJason",
-    "MickLovin",
-    "RipCitizen",
-    "Roster 1",
-    "Tsjoyner2",
-    "crowderne",
-    "donnieorobinson",
-    "orangecrush30758",
     "triccster"
    ]
   }
@@ -346,8 +325,7 @@
    "leagues": [
     0,
     1,
-    2,
-    3
+    2
    ],
    "record": {
     "0": [
@@ -363,11 +341,6 @@
     "2": [
      7,
      16,
-     0
-    ],
-    "3": [
-     6,
-     3,
      0
     ]
    }

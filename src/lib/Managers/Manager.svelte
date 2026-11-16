@@ -29,21 +29,35 @@
 
     $: viewManager = managers[manager];
 
-    $: datesActive = getDatesActive(leagueTeamManagers, viewManager.managerID);
+    // A past manager - in past_managers.json, so in history.json but not in the current
+    // league - has no roster, no entry in leagueTeamManagers and no transactions. Only
+    // the roster-shaped parts of this page need to know; everything keyed on the handle
+    // (the history, badges, game log, record watch) works for them unchanged.
+    $: isPast = !!viewManager.past;
+
+    $: datesActive = getDatesActive(leagueTeamManagers, isPast ? null : viewManager.managerID);
     $: rank = viewManager.handle ? allTimeRank(viewManager.handle) : null;
 
     const  startersAndReserve = rostersData.startersAndReserve;
     let rosters = rostersData.rosters;
 
-    $: ({rosterID, year} = viewManager.managerID ? getRosterIDFromManagerID(leagueTeamManagers, viewManager.managerID) : {rosterID: viewManager.roster, year: null});
+    // getRosterIDFromManagerID returns null when the id is on no roster, which cannot be
+    // destructured, so it is read in two steps rather than one
+    $: rosterSpot = (!isPast && viewManager.managerID)
+        ? getRosterIDFromManagerID(leagueTeamManagers, viewManager.managerID)
+        : null;
+    $: rosterID = rosterSpot ? rosterSpot.rosterID : (isPast ? null : viewManager.roster);
+    $: year = rosterSpot ? rosterSpot.year : null;
 
-    $: teamTransactions = transactions.filter(t => t.rosters.includes(parseInt(rosterID)));
+    $: teamTransactions = rosterID == null ? [] : transactions.filter(t => t.rosters.includes(parseInt(rosterID)));
 
-    $: roster = rosters[rosterID];
+    $: roster = rosterID == null ? null : rosters[rosterID];
 
-    $: coOwners = year && rosterID ? leagueTeamManagers.teamManagersMap[year][rosterID].managers.length > 1 : roster.co_owners;
+    $: coOwners = year && rosterID ? leagueTeamManagers.teamManagersMap[year][rosterID].managers.length > 1 : !!roster?.co_owners;
 
-    $: commissioner = viewManager.managerID ? leagueTeamManagers.users[viewManager.managerID].is_owner : false;
+    $: commissioner = (!isPast && viewManager.managerID)
+        ? !!leagueTeamManagers.users[viewManager.managerID]?.is_owner
+        : false;
 
     let players, playersInfo;
     let loading = true;
@@ -241,7 +255,11 @@
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}<YourTeamBadge handle={viewManager.handle} userId={viewManager.managerID} />
-            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
+            {#if isPast}
+                <div class="teamSub">Last played in {viewManager.lastSeason}{#if viewManager.lastTeamName}, as <i>{viewManager.lastTeamName}</i>{/if}</div>
+            {:else}
+                <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
+            {/if}
         </h2>
         
         <div class="basicInfo">
@@ -250,7 +268,7 @@
             {:else if viewManager.location}
                 <span class="infoChild">{viewManager.location}</span>
             {/if}
-            {#if viewManager.managerID && datesActive.start}
+            {#if !isPast && viewManager.managerID && datesActive?.start}
                 <span class="seperator">|</span>
                 {#if datesActive.end}
                     <span class="infoChild">In the league from '{datesActive.start.toString().substr(2)} to '{datesActive.end.toString().substr(2)}</span>
@@ -326,7 +344,10 @@
         <ManagerHistory handle={viewManager.handle} />
         <RosterProfile handle={viewManager.handle} />
         <ManagerBadges handle={viewManager.handle} />
-        <RecordWatch mode="manager" handle={viewManager.handle} />
+        <!-- records "in play" cannot apply to a manager who has left the league -->
+        {#if !isPast}
+            <RecordWatch mode="manager" handle={viewManager.handle} />
+        {/if}
         <ManagerPlayers handle={viewManager.handle} />
         <ManagerBestLineup handle={viewManager.handle} />
         <ManagerFootball handle={viewManager.handle} />
@@ -350,18 +371,21 @@
         {/if}
     {/if}
 
-    <h3>Team Transactions</h3>
-    <div class="managerConstrained">
-        {#if loading}
-            <!-- promise is pending -->
-            <div class="loading">
-                <p>Retrieving players...</p>
-                <LinearProgress indeterminate />
-            </div>
-        {:else}
-            <TransactionsPage {playersInfo} transactions={teamTransactions} {leagueTeamManagers} show='both' query='' page={0} perPage={5} />
-        {/if}
-    </div>
+    <!-- a past manager has no roster in the current league, so no transactions to show -->
+    {#if !isPast}
+        <h3>Team Transactions</h3>
+        <div class="managerConstrained">
+            {#if loading}
+                <!-- promise is pending -->
+                <div class="loading">
+                    <p>Retrieving players...</p>
+                    <LinearProgress indeterminate />
+                </div>
+            {:else}
+                <TransactionsPage {playersInfo} transactions={teamTransactions} {leagueTeamManagers} show='both' query='' page={0} perPage={5} />
+            {/if}
+        </div>
+    {/if}
 
     <div class="managerNav">
         <Group variant="outlined">

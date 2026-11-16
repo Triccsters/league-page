@@ -1,5 +1,5 @@
 {
- "read_at": "2026-11-16T14:19+00:00",
+ "read_at": "2026-11-16T21:47+00:00",
  "days": 7,
  "count": 121,
  "items": [
@@ -409,6 +409,65 @@
    "score": 15.0
   },
   {
+   "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
+   "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "MIN"
+   ],
+   "named": [
+    {
+     "n": "Jordan Addison",
+     "p": "WR",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Jordan Addison"
+   ],
+   "ripple": [
+    {
+     "n": "Kirk Cousins",
+     "p": "QB",
+     "t": "MIN",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Jordan Mason",
+     "p": "RB",
+     "t": "MIN",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "T.J. Hockenson",
+     "p": "TE",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Aaron Jones Sr.",
+     "p": "RB",
+     "t": "MIN",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "brettmn13",
+    "butterygoop"
+   ],
+   "score": 14.5
+  },
+  {
    "headline": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
    "url": "https://www.espn.com/nfl/story/_/id/50495965/kirk-cousins-emotional-getting-win-return-vikings",
    "date": "2026-11-16",
@@ -468,69 +527,8 @@
    "score": 14.5
   },
   {
-   "headline": "Chiefs' Kenneth Walker III (groin) to sit out vs. Falcons",
-   "url": "https://www.espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
-   "date": "2026-11-14",
-   "kind": "news",
-   "teams": [
-    "KC"
-   ],
-   "named": [
-    {
-     "n": "Kenneth Walker III",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "Kenneth Walker III"
-   ],
-   "ripple": [
-    {
-     "n": "Emmett Johnson",
-     "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Josh Downs",
-     "p": "WR",
-     "t": "KC",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Rashee Rice",
-     "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "snelson91"
-   ],
-   "score": 14.5
-  },
-  {
-   "headline": "Jets QB Geno Smith suffers ankle injury, replaced by rookie Cade Klubnik",
-   "url": "https://www.espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
+   "headline": "Geno Smith remains Jets' QB1 despite ankle injury, coach Aaron Glenn says",
+   "url": "https://www.espn.com/nfl/story/_/id/50502082/geno-smith-remains-jets-qb1-injury-aaron-glenn-says",
    "date": "2026-11-16",
    "kind": "news",
    "teams": [
@@ -633,6 +631,51 @@
     "snelson91"
    ],
    "score": 14.0
+  },
+  {
+   "headline": "Falcons WR Drake London cleared after being checked for concussion",
+   "url": "https://www.espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "ATL"
+   ],
+   "named": [
+    {
+     "n": "Drake London",
+     "p": "WR",
+     "t": "ATL",
+     "h": "TuanonStan"
+    }
+   ],
+   "lead": [
+    "Drake London"
+   ],
+   "ripple": [
+    {
+     "n": "Brian Robinson Jr.",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Bijan Robinson",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kyle Pitts Sr.",
+     "p": "TE",
+     "t": "ATL",
+     "h": "RockMNwild"
+    }
+   ],
+   "managers": [
+    "RockMNwild",
+    "TuanonStan"
+   ],
+   "score": 13.5
   },
   {
    "headline": "Raiders TE Brock Bowers avoids major ankle injury, source says",
@@ -742,6 +785,67 @@
    "score": 12.5
   },
   {
+   "headline": "Chiefs' Kenneth Walker III (groin) to sit out vs. Falcons",
+   "url": "https://www.espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
+   "date": "2026-11-14",
+   "kind": "news",
+   "teams": [
+    "KC"
+   ],
+   "named": [
+    {
+     "n": "Kenneth Walker III",
+     "p": "RB",
+     "t": "KC",
+     "h": "butterygoop"
+    }
+   ],
+   "lead": [
+    "Kenneth Walker III"
+   ],
+   "ripple": [
+    {
+     "n": "Emmett Johnson",
+     "p": "RB",
+     "t": "KC",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Josh Downs",
+     "p": "WR",
+     "t": "KC",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Travis Kelce",
+     "p": "TE",
+     "t": "KC",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Rashee Rice",
+     "p": "WR",
+     "t": "KC",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "YoungBuck04",
+    "brettmn13",
+    "butterygoop",
+    "snelson91"
+   ],
+   "score": 12.5
+  },
+  {
    "headline": "Rams put WR Puka Nacua on IR with knee, toe injuries",
    "url": "https://www.espn.com/nfl/story/_/id/50466270/rams-wide-receiver-puka-nacua-ir-knee-toe-injuries",
    "date": "2026-11-13",
@@ -798,119 +902,6 @@
     "snelson91"
    ],
    "score": 12.5
-  },
-  {
-   "headline": "49ers OT Williams, LB Greenlaw questionable, WR Evans out vs. Cowboys",
-   "url": "https://www.espn.com/nfl/story/_/id/50475033/49ers-williams-greenlaw-questionable-evans-vs-cowboys",
-   "date": "2026-11-13",
-   "kind": "news",
-   "teams": [
-    "SF"
-   ],
-   "named": [
-    {
-     "n": "Mike Evans",
-     "p": "WR",
-     "t": "SF",
-     "h": "Wallner"
-    }
-   ],
-   "lead": [
-    "Mike Evans"
-   ],
-   "ripple": [
-    {
-     "n": "Brock Purdy",
-     "p": "QB",
-     "t": "SF",
-     "h": "Wallner"
-    },
-    {
-     "n": "George Kittle",
-     "p": "TE",
-     "t": "SF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kaelon Black",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Christian McCaffrey",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Deebo Samuel Sr.",
-     "p": "WR",
-     "t": "SF",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "TuanonStan",
-    "Wallner",
-    "YoungBuck04"
-   ],
-   "score": 12.5
-  },
-  {
-   "headline": "Lions' Amon-Ra St. Brown: Germany trip one he'll 'never forget'",
-   "url": "https://www.espn.com/nfl/story/_/id/50492174/never-forget-germany-trip",
-   "date": "2026-11-15",
-   "kind": "news",
-   "teams": [
-    "DET",
-    "NE"
-   ],
-   "named": [
-    {
-     "n": "Amon-Ra St. Brown",
-     "p": "WR",
-     "t": "DET",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "Amon-Ra St. Brown"
-   ],
-   "ripple": [
-    {
-     "n": "Jared Goff",
-     "p": "QB",
-     "t": "DET",
-     "h": "triccster"
-    },
-    {
-     "n": "Jameson Williams",
-     "p": "WR",
-     "t": "DET",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Sam LaPorta",
-     "p": "TE",
-     "t": "DET",
-     "h": "snelson91"
-    },
-    {
-     "n": "Jahmyr Gibbs",
-     "p": "RB",
-     "t": "DET",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "butterygoop",
-    "snelson91",
-    "triccster"
-   ],
-   "score": 12.0
   }
  ],
  "source": "ESPN NFL news, headlines and links only",

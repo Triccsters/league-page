@@ -881,30 +881,30 @@
       [
        "@@Colt45Johnson",
        "-",
-       "WR",
-       "QB 7 RB 8 WR 10 TE 5"
+       "RB, WR",
+       "QB 7 RB 9 WR 10 TE 5"
       ],
       [
        "@@Jbird531",
        "-",
-       "QB, RB, TE",
-       "QB 10 RB 9 WR 3 TE 10"
+       "QB, TE",
+       "QB 10 RB 8 WR 2 TE 12"
       ],
       [
        "@@PapaMidnight",
        "RB",
        "QB, TE",
-       "QB 12 RB 7 WR 6 TE 11"
+       "QB 11 RB 7 WR 7 TE 11"
       ],
       [
        "@@RockMNwild",
        "-",
        "TE",
-       "QB 2 RB 5 WR 4 TE 12"
+       "QB 2 RB 5 WR 4 TE 10"
       ],
       [
        "@@Wallner",
-       "QB",
+       "-",
        "WR",
        "QB 5 RB 6 WR 9 TE 7"
       ],
@@ -912,7 +912,7 @@
        "@@YoungBuck04",
        "-",
        "QB, WR",
-       "QB 11 RB 2 WR 11 TE 6"
+       "QB 12 RB 2 WR 11 TE 6"
       ],
       [
        "@@brettmn13",
@@ -924,7 +924,7 @@
        "@@butterygoop",
        "RB, WR",
        "QB",
-       "QB 9 RB 3 WR 2 TE 3"
+       "QB 9 RB 3 WR 3 TE 2"
       ],
       [
        "@@snelson91",
@@ -942,7 +942,7 @@
        "@@triccster",
        "QB, WR",
        "RB",
-       "QB 4 RB 12 WR 7 TE 2"
+       "QB 4 RB 12 WR 6 TE 3"
       ],
       [
        "@@TuanonStan",
@@ -970,12 +970,6 @@
        "QB"
       ],
       [
-       "@@Wallner",
-       "QB",
-       "@@butterygoop",
-       "WR"
-      ],
-      [
        "@@butterygoop",
        "RB",
        "@@triccster",
@@ -998,19 +992,13 @@
        "@@triccster",
        "Jared Goff",
        "QB DET",
-       18.5
-      ],
-      [
-       "@@Wallner",
-       "Drake Maye",
-       "QB NE",
-       16.6
+       18.6
       ],
       [
        "@@butterygoop",
        "Bhayshul Tuten",
        "RB JAX",
-       14.1
+       14.0
       ],
       [
        "@@butterygoop",
@@ -1028,19 +1016,19 @@
        "@@PapaMidnight",
        "Tony Pollard",
        "RB TEN",
-       11.1
+       11.3
       ],
       [
        "@@triccster",
        "Stefon Diggs",
        "WR WAS",
-       10.2
+       10.4
       ],
       [
        "@@PapaMidnight",
        "Jordan Mason",
        "RB MIN",
-       10.2
+       9.6
       ],
       [
        "@@butterygoop",
@@ -1088,62 +1076,62 @@
       ],
       [
        3,
-       "@@Wallner",
-       30.2,
-       "Drake Maye, Emeka Egbuka, Woody Marks"
-      ],
-      [
-       4,
-       "@@Colt45Johnson",
-       28.7,
-       "Tyler Shough, T.J. Hockenson, Jordan Addison"
-      ],
-      [
-       5,
        "@@thecreamer",
-       28.5,
+       28.6,
        "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
       ],
       [
-       6,
+       4,
        "@@snelson91",
        27.3,
-       "Matthew Stafford, David Montgomery, Dalton Kincaid"
+       "Matthew Stafford, Dalton Kincaid, David Montgomery"
       ],
       [
-       7,
+       5,
+       "@@Colt45Johnson",
+       27.1,
+       "Tyler Shough, T.J. Hockenson, Corey Kiner"
+      ],
+      [
+       6,
        "@@Jbird531",
        26.6,
        "Geno Smith, Denzel Boston, Josh Downs"
       ],
       [
+       7,
+       "@@Wallner",
+       25.6,
+       "Drake Maye, Emeka Egbuka, Woody Marks"
+      ],
+      [
        8,
        "@@PapaMidnight",
-       25.1,
+       24.6,
        "Jordan Mason, Malik Washington, Keon Coleman"
       ],
       [
        9,
        "@@brettmn13",
-       24.8,
-       "Travis Etienne Jr., Aaron Jones Sr., Germie Bernard"
+       24.5,
+       "Aaron Jones Sr., Zach Charbonnet, Germie Bernard"
       ],
       [
        10,
        "@@YoungBuck04",
-       21.8,
+       22.2,
        "Davante Adams, Blake Corum, Antonio Williams"
       ],
       [
        11,
        "@@RockMNwild",
-       21.0,
+       21.1,
        "Jaylen Waddle, Rico Dowdle, Kyle Pitts Sr."
       ],
       [
        12,
        "@@TuanonStan",
-       19.2,
+       19.4,
        "Caleb Douglas, Kyle Monangai, Tank Dell"
       ]
      ]
@@ -1364,28 +1352,28 @@
        10,
        "@@brettmn13",
        2,
-       18.2,
+       18.4,
        "Jonah Coleman, Colston Loveland"
       ],
       [
        11,
        "@@snelson91",
        3,
-       27.5,
-       "Kyren Williams, Matthew Golden, Seattle Seahawks"
+       27.2,
+       "Seattle Seahawks, Matthew Golden, Kyren Williams"
       ],
       [
        11,
        "@@TuanonStan",
        2,
-       26.0,
+       25.7,
        "Bijan Robinson, Drake London"
       ],
       [
        11,
        "@@YoungBuck04",
        2,
-       23.5,
+       23.2,
        "A.J. Brown, Jordan Love"
       ],
       [
@@ -1399,35 +1387,28 @@
        11,
        "@@thecreamer",
        3,
-       20.0,
+       20.2,
        "Cleveland Browns, Harold Fannin Jr., Quinshon Judkins"
       ],
       [
        11,
        "@@Colt45Johnson",
        2,
-       14.2,
+       14.0,
        "Green Bay Packers, Rhamondre Stevenson"
-      ],
-      [
-       11,
-       "@@brettmn13",
-       2,
-       14.1,
-       "Zach Charbonnet, Los Angeles Rams"
       ],
       [
        13,
        "@@Wallner",
        2,
-       15.9,
-       "Ashton Jeanty, Spencer Shrader"
+       15.8,
+       "Spencer Shrader, Ashton Jeanty"
       ],
       [
        13,
        "@@Jbird531",
        2,
-       15.8,
+       15.6,
        "Breece Hall, Tyler Warren"
       ]
      ]
@@ -1701,16 +1682,16 @@
        "Typical white boy name (2026 (wk 8)) / Still a buster (2026 (wk 7)) / NEVER NARC'D ON NOBODY! (2026 (wk 6)) / Injecto Seato Cuz!! (2026 (wk 5)) / I Got Family (2026)"
       ],
       [
+       "@@Colt45Johnson",
+       15,
+       "Grim Reaper’s Side Piece",
+       "Those Darts Shough Me Up (2026 (wk 5)) / Grim Reaper’s Side Piece (2026) / Rome Wasnt Built n Odunze (2025) / Injured Reserves (2024) / Austin n the Eks Factors (2023)"
+      ],
+      [
        "@@YoungBuck04",
        15,
        "My Bench Needs a Hospital",
        "Christian MaCalf-Hurts (2026 (wk 5)) / My Bench Needs a Hospital (2026) / Christian MaCalf-Hurts (2025) / Aggravated Assault (2024) / 2 Girls 1 Kupp (2023)"
-      ],
-      [
-       "@@Colt45Johnson",
-       14,
-       "Those Darts Shough Me Up",
-       "Rome Wasnt Built n Odunze (2025) / Injured Reserves (2024) / Austin n the Eks Factors (2023) / Racial Undertones (2022) / Bigots (2021)"
       ],
       [
        "@@TuanonStan",

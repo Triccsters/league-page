@@ -1,0 +1,19 @@
+{
+ "_how_to": "Managers who appear in history.json but are not in the current league, so the weekly build cannot find them on a roster. Key by the handle history uses. 'id' becomes the manager page's permanent address (?manager=<id>) and must never change once a link has been shared, so do not rename these. 'name' is optional, and so is 'photo' (a file under static/managers/). Everything else - record, titles, seasons, last team, the bio - is recomputed from history.json on every build, so there is nothing here to keep up to date. A team whose manager was never identified does NOT go here: those carry a leading '?' in the vault data, history.json marks them hidden, and they get their page from unclaimed.json instead.",
+ "J Rock": {
+  "id": "past-j-rock",
+  "name": "J Rock"
+ },
+ "Tyler": {
+  "id": "past-tyler",
+  "name": "Tyler"
+ },
+ "DJ": {
+  "id": "past-dj",
+  "name": "DJ"
+ },
+ "Mitchell": {
+  "id": "past-mitchell",
+  "name": "Mitchell"
+ }
+}

@@ -1,0 +1,6828 @@
+[
+ {
+  "slug": "0-breaks-given",
+  "handle": "?0 Breaks Given",
+  "name": "0 Breaks Given",
+  "seasons": [
+   2012
+  ],
+  "record": "5-6-2",
+  "gamesPlayed": 16,
+  "pointsFor": 1592.0,
+  "pointsAgainst": 1454.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "0 Breaks Given"
+  ],
+  "bestWeek": {
+   "week": 9,
+   "opponent": "?2012 champ",
+   "opponentName": "2012 champ",
+   "score": 154,
+   "opponentScore": 90,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 3,
+   "opponent": "?Murphadelic",
+   "opponentName": "Murphadelic",
+   "score": 71,
+   "opponentScore": 71,
+   "result": "T",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Doug Martin",
+    "pos": "RB",
+    "points": 205.0,
+    "starts": 13,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Seahawks",
+    "pos": "DEF",
+    "points": 151.0,
+    "starts": 13,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Marques Colston",
+    "pos": "WR",
+    "points": 151.0,
+    "starts": 15,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Michael Vick",
+    "pos": "QB",
+    "points": 143.0,
+    "starts": 9,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Steven Jackson",
+    "pos": "RB",
+    "points": 133.0,
+    "starts": 13,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Rob Gronkowski",
+    "pos": "TE",
+    "points": 130.0,
+    "starts": 10,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Matt Bryant",
+    "pos": "K",
+    "points": 104.0,
+    "starts": 10,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "points": 84.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Percy Harvin",
+    "pos": "WR",
+    "points": 79.0,
+    "starts": 7,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Mike Wallace",
+    "pos": "WR",
+    "points": 65.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Robbie Gould",
+    "pos": "K",
+    "points": 51.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Shonn Greene",
+    "pos": "RB",
+    "points": 48.0,
+    "starts": 4,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "T.Y. Hilton",
+    "pos": "WR",
+    "points": 46.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Michael Bush",
+    "pos": "RB",
+    "points": 35.0,
+    "starts": 4,
+    "seasons": [
+     2012
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2012,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 9,
+      "player": "Maurice Jones-Drew",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 4,
+      "player": "Rob Gronkowski",
+      "pos": "TE"
+     },
+     {
+      "round": 3,
+      "pick": 9,
+      "player": "Michael Vick",
+      "pos": "QB"
+     },
+     {
+      "round": 4,
+      "pick": 4,
+      "player": "Steven Jackson",
+      "pos": "RB"
+     },
+     {
+      "round": 5,
+      "pick": 9,
+      "player": "Dwayne Bowe",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 4,
+      "player": "Percy Harvin",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 9,
+      "player": "Nate Washington",
+      "pos": "WR"
+     },
+     {
+      "round": 8,
+      "pick": 4,
+      "player": "Ben Tate",
+      "pos": "W/R/T"
+     },
+     {
+      "round": 9,
+      "pick": 9,
+      "player": "Robert Meachem",
+      "pos": "WR"
+     },
+     {
+      "round": 10,
+      "pick": 4,
+      "player": "Michael Bush",
+      "pos": "RB"
+     },
+     {
+      "round": 11,
+      "pick": 9,
+      "player": "Lance Moore",
+      "pos": "WR"
+     },
+     {
+      "round": 12,
+      "pick": 4,
+      "player": "Mike Williams",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 9,
+      "player": "Ryan Williams",
+      "pos": "RB"
+     },
+     {
+      "round": 14,
+      "pick": 4,
+      "player": "Seahawks",
+      "pos": "DEF"
+     },
+     {
+      "round": 15,
+      "pick": 9,
+      "player": "Robbie Gould",
+      "pos": "K"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "Tyler",
+    "name": "Tyler",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?Murphadelic",
+    "name": "Murphadelic",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "?bELIeve No More",
+    "name": "bELIeve No More",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "TuanonStan",
+    "name": "James",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "?2012 champ",
+    "name": "2012 champ",
+    "w": 1,
+    "l": 0
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2012,
+    "teamName": "0 Breaks Given",
+    "record": "5-6-2",
+    "pointsFor": 1592.0,
+    "pointsAgainst": 1454.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 85,
+      "opponentScore": 97,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 87,
+      "opponentScore": 99,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?Murphadelic",
+      "opponentName": "Murphadelic",
+      "score": 71,
+      "opponentScore": 71,
+      "result": "T",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "?bELIeve No More",
+      "opponentName": "bELIeve No More",
+      "score": 84,
+      "opponentScore": 101,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 105,
+      "opponentScore": 126,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 103,
+      "opponentScore": 108,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 97,
+      "opponentScore": 88,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 120,
+      "opponentScore": 92,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 154,
+      "opponentScore": 90,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 93,
+      "opponentScore": 71,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 107,
+      "opponentScore": 95,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?Murphadelic",
+      "opponentName": "Murphadelic",
+      "score": 101,
+      "opponentScore": 101,
+      "result": "T",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 88,
+      "opponentScore": 105,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "?PackNation",
+      "opponentName": "PackNation",
+      "score": 115,
+      "opponentScore": 71,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 77,
+      "opponentScore": 79,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "?bELIeve No More",
+      "opponentName": "bELIeve No More",
+      "score": 105,
+      "opponentScore": 60,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "2012-champ",
+  "handle": "?2012 champ",
+  "name": "2012 champ",
+  "seasons": [
+   2012,
+   2013
+  ],
+  "record": "15-11",
+  "gamesPlayed": 30,
+  "pointsFor": 2828.42,
+  "pointsAgainst": 2765.22,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [
+   2012,
+   2013
+  ],
+  "teamNames": [
+   "2012 champ"
+  ],
+  "bestWeek": {
+   "week": 15,
+   "opponent": "Wallner",
+   "opponentName": "John",
+   "score": 132.78,
+   "opponentScore": 84.9,
+   "result": "W",
+   "playoff": true,
+   "label": "5th place"
+  },
+  "worstWeek": {
+   "week": 10,
+   "opponent": "YoungBuck04",
+   "opponentName": "Buckley",
+   "score": 59,
+   "opponentScore": 81,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Aaron Rodgers",
+    "pos": "QB",
+    "points": 217.46,
+    "starts": 12,
+    "seasons": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "name": "Antonio Brown",
+    "pos": "WR",
+    "points": 173.0,
+    "starts": 19,
+    "seasons": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "name": "Arian Foster",
+    "pos": "RB",
+    "points": 144.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "49ers",
+    "pos": "DEF",
+    "points": 121.0,
+    "starts": 12,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Trent Richardson",
+    "pos": "RB",
+    "points": 108.0,
+    "starts": 9,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Cam Newton",
+    "pos": "QB",
+    "points": 104.0,
+    "starts": 6,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Andre Johnson",
+    "pos": "WR",
+    "points": 89.0,
+    "starts": 6,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Eddie Lacy",
+    "pos": "RB",
+    "points": 76.9,
+    "starts": 6,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Ryan Mathews",
+    "pos": "RB",
+    "points": 67.0,
+    "starts": 8,
+    "seasons": [
+     2012,
+     2013
+    ]
+   },
+   {
+    "name": "BenJarvus Green-Ellis",
+    "pos": "RB",
+    "points": 60.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Ray Rice",
+    "pos": "RB",
+    "points": 59.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Eli Manning",
+    "pos": "QB",
+    "points": 56.0,
+    "starts": 3,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Robbie Gould",
+    "pos": "K",
+    "points": 56.0,
+    "starts": 9,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Mason Crosby",
+    "pos": "K",
+    "points": 53.0,
+    "starts": 5,
+    "seasons": [
+     2013
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2012,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 2,
+      "player": "Arian Foster",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 11,
+      "player": "Wes Welker",
+      "pos": "WR"
+     },
+     {
+      "round": 3,
+      "pick": 2,
+      "player": "Eli Manning",
+      "pos": "QB"
+     },
+     {
+      "round": 4,
+      "pick": 11,
+      "player": "Trent Richardson",
+      "pos": "RB"
+     },
+     {
+      "round": 5,
+      "pick": 2,
+      "player": "Vincent Jackson",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 11,
+      "player": "49ers",
+      "pos": "DEF"
+     },
+     {
+      "round": 7,
+      "pick": 2,
+      "player": "Antonio Brown",
+      "pos": "WR"
+     },
+     {
+      "round": 8,
+      "pick": 11,
+      "player": "Brandon Pettigrew",
+      "pos": "TE"
+     },
+     {
+      "round": 9,
+      "pick": 2,
+      "player": "Jacob Tamme",
+      "pos": "TE"
+     },
+     {
+      "round": 10,
+      "pick": 11,
+      "player": "Matt Prater",
+      "pos": "K"
+     },
+     {
+      "round": 11,
+      "pick": 2,
+      "player": "Malcom Floyd",
+      "pos": "WR"
+     },
+     {
+      "round": 12,
+      "pick": 11,
+      "player": "Matt Flynn",
+      "pos": ""
+     },
+     {
+      "round": 13,
+      "pick": 2,
+      "player": "James Starks",
+      "pos": "RB"
+     },
+     {
+      "round": 14,
+      "pick": 11,
+      "player": "Brandon LaFell",
+      "pos": "WR"
+     },
+     {
+      "round": 15,
+      "pick": 2,
+      "player": "Jacoby Ford",
+      "pos": "WR"
+     }
+    ]
+   },
+   {
+    "season": 2013,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 12,
+      "player": "Aaron Rodgers",
+      "pos": "QB"
+     },
+     {
+      "round": 2,
+      "pick": 1,
+      "player": "Stevan Ridley",
+      "pos": "RB"
+     },
+     {
+      "round": 3,
+      "pick": 12,
+      "player": "Wes Welker",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 1,
+      "player": "Danny Amendola",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 12,
+      "player": "Eddie Lacy",
+      "pos": "RB"
+     },
+     {
+      "round": 6,
+      "pick": 1,
+      "player": "Antonio Brown",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 12,
+      "player": "Owen Daniels",
+      "pos": "TE"
+     },
+     {
+      "round": 8,
+      "pick": 1,
+      "player": "Daryl Richardson",
+      "pos": "RB"
+     },
+     {
+      "round": 9,
+      "pick": 12,
+      "player": "Denarius Moore",
+      "pos": "WR"
+     },
+     {
+      "round": 10,
+      "pick": 1,
+      "player": "Andy Dalton",
+      "pos": "QB"
+     },
+     {
+      "round": 11,
+      "pick": 12,
+      "player": "Jermaine Gresham",
+      "pos": "TE"
+     },
+     {
+      "round": 12,
+      "pick": 1,
+      "player": "Phil Dawson",
+      "pos": "K"
+     },
+     {
+      "round": 13,
+      "pick": 12,
+      "player": "Ravens",
+      "pos": "DEF"
+     },
+     {
+      "round": 14,
+      "pick": 1,
+      "player": "Julian Edelman",
+      "pos": "W/R/T"
+     },
+     {
+      "round": 15,
+      "pick": 12,
+      "player": "Jonathan Dwyer",
+      "pos": "RB"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "Tyler",
+    "name": "Tyler",
+    "w": 1,
+    "l": 3
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 2,
+    "l": 2
+   },
+   {
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
+    "w": 1,
+    "l": 2
+   },
+   {
+    "opponent": "?bELIeve No More",
+    "name": "bELIeve No More",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?PackNation",
+    "name": "PackNation",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "TuanonStan",
+    "name": "James",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "Wallner",
+    "name": "John",
+    "w": 2,
+    "l": 0
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2012,
+    "teamName": "2012 champ",
+    "record": "7-6",
+    "pointsFor": 1350.0,
+    "pointsAgainst": 1334.0,
+    "madePlayoffs": true,
+    "playoffResults": [
+     "Quarterfinal",
+     "5th place"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "?bELIeve No More",
+      "opponentName": "bELIeve No More",
+      "score": 63,
+      "opponentScore": 105,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 123,
+      "opponentScore": 88,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?PackNation",
+      "opponentName": "PackNation",
+      "score": 92,
+      "opponentScore": 58,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "?Murphadelic",
+      "opponentName": "Murphadelic",
+      "score": 131,
+      "opponentScore": 105,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 105,
+      "opponentScore": 72,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 68,
+      "opponentScore": 74,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 85,
+      "opponentScore": 80,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "?bELIeve No More",
+      "opponentName": "bELIeve No More",
+      "score": 76,
+      "opponentScore": 50,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?0 Breaks Given",
+      "opponentName": "0 Breaks Given",
+      "score": 90,
+      "opponentScore": 154,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 59,
+      "opponentScore": 81,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 92,
+      "opponentScore": 99,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?PackNation",
+      "opponentName": "PackNation",
+      "score": 103,
+      "opponentScore": 51,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 69,
+      "opponentScore": 130,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 80,
+      "opponentScore": 84,
+      "result": "L",
+      "playoff": true,
+      "label": "Quarterfinal"
+     },
+     {
+      "week": 15,
+      "opponent": "?Murphadelic",
+      "opponentName": "Murphadelic",
+      "score": 114,
+      "opponentScore": 103,
+      "result": "W",
+      "playoff": true,
+      "label": "5th place"
+     }
+    ]
+   },
+   {
+    "season": 2013,
+    "teamName": "2012 champ",
+    "record": "8-5",
+    "pointsFor": 1478.42,
+    "pointsAgainst": 1431.22,
+    "madePlayoffs": true,
+    "playoffResults": [
+     "Quarterfinal",
+     "5th place"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "Wallner",
+      "opponentName": "John",
+      "score": 91.42,
+      "opponentScore": 76.38,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 87.1,
+      "opponentScore": 113.26,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 67.66,
+      "opponentScore": 77.22,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
+      "score": 76.84,
+      "opponentScore": 153.22,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "?suit and a TIE",
+      "opponentName": "suit and a TIE",
+      "score": 90.66,
+      "opponentScore": 78.76,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 76.5,
+      "opponentScore": 68.1,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 109.9,
+      "opponentScore": 100.1,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "Wallner",
+      "opponentName": "John",
+      "score": 122.4,
+      "opponentScore": 105.32,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 112.98,
+      "opponentScore": 142.74,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 79.5,
+      "opponentScore": 47.22,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 112.8,
+      "opponentScore": 83.36,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 99.96,
+      "opponentScore": 100.72,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 93.9,
+      "opponentScore": 57.4,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 124.02,
+      "opponentScore": 142.52,
+      "result": "L",
+      "playoff": true,
+      "label": "Quarterfinal"
+     },
+     {
+      "week": 15,
+      "opponent": "Wallner",
+      "opponentName": "John",
+      "score": 132.78,
+      "opponentScore": 84.9,
+      "result": "W",
+      "playoff": true,
+      "label": "5th place"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "broncos",
+  "handle": "?Broncos",
+  "name": "Broncos",
+  "seasons": [
+   2008,
+   2010
+  ],
+  "record": "16-11",
+  "gamesPlayed": 31,
+  "pointsFor": 2703.0,
+  "pointsAgainst": 2543.0,
+  "titles": [
+   2010
+  ],
+  "finalsLost": [
+   2008
+  ],
+  "playoffSeasons": [
+   2008,
+   2010
+  ],
+  "teamNames": [
+   "Broncos"
+  ],
+  "bestWeek": {
+   "week": 6,
+   "opponent": "RockMNwild",
+   "opponentName": "Austin",
+   "score": 134,
+   "opponentScore": 70,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 7,
+   "opponent": "RockMNwild",
+   "opponentName": "Austin",
+   "score": 53,
+   "opponentScore": 125,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Packers",
+    "pos": "DEF",
+    "points": 238.0,
+    "starts": 23,
+    "seasons": [
+     2008,
+     2010
+    ]
+   },
+   {
+    "name": "Aaron Rodgers",
+    "pos": "QB",
+    "points": 192.0,
+    "starts": 12,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Calvin Johnson",
+    "pos": "WR",
+    "points": 177.0,
+    "starts": 14,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Andre Johnson",
+    "pos": "WR",
+    "points": 171.0,
+    "starts": 16,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Greg Jennings",
+    "pos": "WR",
+    "points": 167.0,
+    "starts": 15,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Matt Forte",
+    "pos": "RB",
+    "points": 164.0,
+    "starts": 12,
+    "seasons": [
+     2008,
+     2010
+    ]
+   },
+   {
+    "name": "Peyton Hillis",
+    "pos": "RB",
+    "points": 164.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Clinton Portis",
+    "pos": "RB",
+    "points": 163.0,
+    "starts": 11,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Reggie Wayne",
+    "pos": "WR",
+    "points": 128.0,
+    "starts": 14,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Peyton Manning",
+    "pos": "QB",
+    "points": 120.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "LaDainian Tomlinson",
+    "pos": "RB",
+    "points": 116.0,
+    "starts": 10,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Lawrence Tynes",
+    "pos": "K",
+    "points": 75.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Zach Miller",
+    "pos": "TE",
+    "points": 66.0,
+    "starts": 9,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Giants",
+    "pos": "DEF",
+    "points": 62.0,
+    "starts": 6,
+    "seasons": [
+     2008
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2008,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 1,
+      "player": "LaDainian Tomlinson",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 8,
+      "player": "Clinton Portis",
+      "pos": "RB"
+     },
+     {
+      "round": 3,
+      "pick": 1,
+      "player": "Reggie Wayne",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 8,
+      "player": "Carson Palmer",
+      "pos": "QB"
+     },
+     {
+      "round": 5,
+      "pick": 1,
+      "player": "Greg Jennings",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 8,
+      "player": "Roddy White",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 1,
+      "player": "Dallas Clark",
+      "pos": "TE"
+     },
+     {
+      "round": 8,
+      "pick": 8,
+      "player": "Cowboys",
+      "pos": "DEF"
+     },
+     {
+      "round": 9,
+      "pick": 1,
+      "player": "Shayne Graham",
+      "pos": "K"
+     },
+     {
+      "round": 10,
+      "pick": 8,
+      "player": "Earnest Graham",
+      "pos": ""
+     },
+     {
+      "round": 11,
+      "pick": 1,
+      "player": "Chris Chambers",
+      "pos": "WR"
+     },
+     {
+      "round": 12,
+      "pick": 8,
+      "player": "Bernard Berrian",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 1,
+      "player": "Todd Heap",
+      "pos": "TE"
+     },
+     {
+      "round": 14,
+      "pick": 8,
+      "player": "Matt Schaub",
+      "pos": "QB"
+     },
+     {
+      "round": 15,
+      "pick": 1,
+      "player": "Packers",
+      "pos": "DEF"
+     }
+    ]
+   },
+   {
+    "season": 2010,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 12,
+      "player": "Maurice Jones-Drew",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 1,
+      "player": "Calvin Johnson",
+      "pos": "WR"
+     },
+     {
+      "round": 3,
+      "pick": 12,
+      "player": "Knowshon Moreno",
+      "pos": "RB"
+     },
+     {
+      "round": 4,
+      "pick": 1,
+      "player": "Brett Favre",
+      "pos": "QB"
+     },
+     {
+      "round": 5,
+      "pick": 12,
+      "player": "Mike Sims-Walker",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 1,
+      "player": "Ricky Williams",
+      "pos": "RB"
+     },
+     {
+      "round": 7,
+      "pick": 12,
+      "player": "Matthew Stafford",
+      "pos": "QB"
+     },
+     {
+      "round": 8,
+      "pick": 1,
+      "player": "Steve Breaston",
+      "pos": "WR"
+     },
+     {
+      "round": 9,
+      "pick": 12,
+      "player": "Zach Miller",
+      "pos": "TE"
+     },
+     {
+      "round": 10,
+      "pick": 1,
+      "player": "Packers",
+      "pos": "DEF"
+     },
+     {
+      "round": 11,
+      "pick": 12,
+      "player": "Kenny Britt",
+      "pos": "WR"
+     },
+     {
+      "round": 12,
+      "pick": 1,
+      "player": "Demaryius Thomas",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 12,
+      "player": "Chester Taylor",
+      "pos": "RB"
+     },
+     {
+      "round": 14,
+      "pick": 1,
+      "player": "Lawrence Tynes",
+      "pos": "K"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 2,
+    "l": 4
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 2,
+    "l": 3
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 2
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 3,
+    "l": 0
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 1,
+    "l": 2
+   },
+   {
+    "opponent": "?vikes",
+    "name": "vikes",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "?kicked out next year",
+    "name": "kicked out next year",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "Mitchell",
+    "name": "Mitchell",
+    "w": 2,
+    "l": 0
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2008,
+    "teamName": "Broncos",
+    "record": "8-6",
+    "pointsFor": 1469.0,
+    "pointsAgainst": 1433.0,
+    "madePlayoffs": true,
+    "playoffResults": [
+     "Semifinal",
+     "Championship"
+    ],
+    "wonTitle": false,
+    "lostFinal": true,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 63,
+      "opponentScore": 93,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "?vikes",
+      "opponentName": "vikes",
+      "score": 80,
+      "opponentScore": 73,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 86,
+      "opponentScore": 115,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 86,
+      "opponentScore": 113,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 120,
+      "opponentScore": 79,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 134,
+      "opponentScore": 70,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "?kicked out next year",
+      "opponentName": "kicked out next year",
+      "score": 90,
+      "opponentScore": 88,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 100,
+      "opponentScore": 107,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?vikes",
+      "opponentName": "vikes",
+      "score": 77,
+      "opponentScore": 65,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 83,
+      "opponentScore": 102,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 96,
+      "opponentScore": 80,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 97,
+      "opponentScore": 74,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 102,
+      "opponentScore": 121,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "?kicked out next year",
+      "opponentName": "kicked out next year",
+      "score": 81,
+      "opponentScore": 79,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 15,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 97,
+      "opponentScore": 74,
+      "result": "W",
+      "playoff": true,
+      "label": "Semifinal"
+     },
+     {
+      "week": 16,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 77,
+      "opponentScore": 100,
+      "result": "L",
+      "playoff": true,
+      "label": "Championship"
+     }
+    ]
+   },
+   {
+    "season": 2010,
+    "teamName": "Broncos",
+    "record": "8-5",
+    "pointsFor": 1234.0,
+    "pointsAgainst": 1110.0,
+    "madePlayoffs": true,
+    "playoffResults": [
+     "Semifinal",
+     "Championship"
+    ],
+    "wonTitle": true,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 61,
+      "opponentScore": 66,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 87,
+      "opponentScore": 71,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 78,
+      "opponentScore": 84,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "?Quool",
+      "opponentName": "Quool",
+      "score": 99,
+      "opponentScore": 44,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 85,
+      "opponentScore": 82,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 88,
+      "opponentScore": 79,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 53,
+      "opponentScore": 125,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 80,
+      "opponentScore": 67,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?The Guru's",
+      "opponentName": "The Guru's",
+      "score": 91,
+      "opponentScore": 43,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 73,
+      "opponentScore": 91,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 94,
+      "opponentScore": 92,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 97,
+      "opponentScore": 34,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 85,
+      "opponentScore": 99,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 15,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 76,
+      "opponentScore": 65,
+      "result": "W",
+      "playoff": true,
+      "label": "Semifinal"
+     },
+     {
+      "week": 16,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 87,
+      "opponentScore": 68,
+      "result": "W",
+      "playoff": true,
+      "label": "Championship"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "minnesota-69ers",
+  "handle": "?Minnesota 69ers",
+  "name": "Minnesota 69ers",
+  "seasons": [
+   2010
+  ],
+  "record": "2-11",
+  "gamesPlayed": 16,
+  "pointsFor": 1115.0,
+  "pointsAgainst": 1529.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "Minnesota 69ers"
+  ],
+  "bestWeek": {
+   "week": 15,
+   "opponent": "?The Guru's",
+   "opponentName": "The Guru's",
+   "score": 101,
+   "opponentScore": 91,
+   "result": "W",
+   "playoff": true,
+   "label": "Consolation"
+  },
+  "worstWeek": {
+   "week": 12,
+   "opponent": "?Broncos",
+   "opponentName": "Broncos",
+   "score": 34,
+   "opponentScore": 97,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Philip Rivers",
+    "pos": "QB",
+    "points": 208.0,
+    "starts": 12,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Hakeem Nicks",
+    "pos": "WR",
+    "points": 165.0,
+    "starts": 16,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "David Akers",
+    "pos": "K",
+    "points": 146.0,
+    "starts": 16,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Larry Fitzgerald",
+    "pos": "WR",
+    "points": 96.0,
+    "starts": 12,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Giants",
+    "pos": "DEF",
+    "points": 78.0,
+    "starts": 9,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Malcom Floyd",
+    "pos": "WR",
+    "points": 71.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Chris Cooley",
+    "pos": "TE",
+    "points": 51.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Dallas Clark",
+    "pos": "TE",
+    "points": 46.0,
+    "starts": 5,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Jonathan Stewart",
+    "pos": "RB",
+    "points": 44.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Darren Sproles",
+    "pos": "RB",
+    "points": 40.0,
+    "starts": 7,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "DeAngelo Williams",
+    "pos": "RB",
+    "points": 39.0,
+    "starts": 5,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Bengals",
+    "pos": "DEF",
+    "points": 38.0,
+    "starts": 5,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "C.J. Spiller",
+    "pos": "RB",
+    "points": 19.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Felix Jones",
+    "pos": "RB",
+    "points": 19.0,
+    "starts": 2,
+    "seasons": [
+     2010
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2010,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 6,
+      "player": "DeAngelo Williams",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 7,
+      "player": "Larry Fitzgerald",
+      "pos": "WR"
+     },
+     {
+      "round": 3,
+      "pick": 6,
+      "player": "Philip Rivers",
+      "pos": "QB"
+     },
+     {
+      "round": 4,
+      "pick": 7,
+      "player": "Dallas Clark",
+      "pos": "TE"
+     },
+     {
+      "round": 5,
+      "pick": 6,
+      "player": "Hakeem Nicks",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 7,
+      "player": "C.J. Spiller",
+      "pos": "RB"
+     },
+     {
+      "round": 7,
+      "pick": 6,
+      "player": "Matt Ryan",
+      "pos": "QB"
+     },
+     {
+      "round": 8,
+      "pick": 7,
+      "player": "Lee Evans",
+      "pos": "WR"
+     },
+     {
+      "round": 9,
+      "pick": 6,
+      "player": "Bengals",
+      "pos": "DEF"
+     },
+     {
+      "round": 10,
+      "pick": 7,
+      "player": "Chris Cooley",
+      "pos": "TE"
+     },
+     {
+      "round": 11,
+      "pick": 6,
+      "player": "David Akers",
+      "pos": "K"
+     },
+     {
+      "round": 12,
+      "pick": 7,
+      "player": "Darren Sproles",
+      "pos": "RB"
+     },
+     {
+      "round": 13,
+      "pick": 6,
+      "player": "Malcom Floyd",
+      "pos": "WR"
+     },
+     {
+      "round": 14,
+      "pick": 7,
+      "player": "Kevin Smith",
+      "pos": "RB"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "Mitchell",
+    "name": "Mitchell",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "?Broncos",
+    "name": "Broncos",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "?da best",
+    "name": "da best",
+    "w": 0,
+    "l": 1
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2010,
+    "teamName": "Minnesota 69ers",
+    "record": "2-11",
+    "pointsFor": 1115.0,
+    "pointsAgainst": 1529.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 86,
+      "opponentScore": 50,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 92,
+      "opponentScore": 137,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 84,
+      "opponentScore": 78,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 71,
+      "opponentScore": 129,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 100,
+      "opponentScore": 121,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 36,
+      "opponentScore": 108,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 68,
+      "opponentScore": 76,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 42,
+      "opponentScore": 47,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?da best",
+      "opponentName": "da best",
+      "score": 79,
+      "opponentScore": 118,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "?Quool",
+      "opponentName": "Quool",
+      "score": 43,
+      "opponentScore": 92,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 65,
+      "opponentScore": 122,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 34,
+      "opponentScore": 97,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 75,
+      "opponentScore": 88,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "?da best",
+      "opponentName": "da best",
+      "score": 86,
+      "opponentScore": 79,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "?The Guru's",
+      "opponentName": "The Guru's",
+      "score": 101,
+      "opponentScore": 91,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "?Quool",
+      "opponentName": "Quool",
+      "score": 53,
+      "opponentScore": 96,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "murphadelic",
+  "handle": "?Murphadelic",
+  "name": "Murphadelic",
+  "seasons": [
+   2012
+  ],
+  "record": "6-5-2",
+  "gamesPlayed": 15,
+  "pointsFor": 1349.0,
+  "pointsAgainst": 1289.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [
+   2012
+  ],
+  "teamNames": [
+   "Murphadelic"
+  ],
+  "bestWeek": {
+   "week": 13,
+   "opponent": "YoungBuck04",
+   "opponentName": "Buckley",
+   "score": 123,
+   "opponentScore": 51,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 2,
+   "opponent": "Tyler",
+   "opponentName": "Tyler",
+   "score": 64,
+   "opponentScore": 96,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Tom Brady",
+    "pos": "QB",
+    "points": 302.0,
+    "starts": 14,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Texans",
+    "pos": "DEF",
+    "points": 152.0,
+    "starts": 14,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Victor Cruz",
+    "pos": "WR",
+    "points": 149.0,
+    "starts": 14,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Dez Bryant",
+    "pos": "WR",
+    "points": 140.0,
+    "starts": 13,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Ahmad Bradshaw",
+    "pos": "RB",
+    "points": 123.0,
+    "starts": 13,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "James Jones",
+    "pos": "WR",
+    "points": 94.0,
+    "starts": 11,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "DeMarco Murray",
+    "pos": "RB",
+    "points": 90.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Owen Daniels",
+    "pos": "TE",
+    "points": 62.0,
+    "starts": 11,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Phil Dawson",
+    "pos": "K",
+    "points": 35.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Jason Hanson",
+    "pos": "K",
+    "points": 32.0,
+    "starts": 3,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Jonathan Stewart",
+    "pos": "RB",
+    "points": 29.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Greg Olsen",
+    "pos": "TE",
+    "points": 28.0,
+    "starts": 3,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Andrew Hawkins",
+    "pos": "WR",
+    "points": 23.0,
+    "starts": 4,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Billy Cundiff",
+    "pos": "K",
+    "points": 23.0,
+    "starts": 4,
+    "seasons": [
+     2012
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2012,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 3,
+      "player": "Tom Brady",
+      "pos": "QB"
+     },
+     {
+      "round": 2,
+      "pick": 10,
+      "player": "DeMarco Murray",
+      "pos": "RB"
+     },
+     {
+      "round": 3,
+      "pick": 3,
+      "player": "Victor Cruz",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 10,
+      "player": "Dez Bryant",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 3,
+      "player": "Ahmad Bradshaw",
+      "pos": "RB"
+     },
+     {
+      "round": 6,
+      "pick": 10,
+      "player": "Fred Davis",
+      "pos": "TE"
+     },
+     {
+      "round": 7,
+      "pick": 3,
+      "player": "Jonathan Stewart",
+      "pos": "RB"
+     },
+     {
+      "round": 8,
+      "pick": 10,
+      "player": "Texans",
+      "pos": "DEF"
+     },
+     {
+      "round": 9,
+      "pick": 3,
+      "player": "Owen Daniels",
+      "pos": "TE"
+     },
+     {
+      "round": 10,
+      "pick": 10,
+      "player": "Rob Bironas",
+      "pos": "K"
+     },
+     {
+      "round": 11,
+      "pick": 3,
+      "player": "Toby Gerhart",
+      "pos": "W/R/T"
+     },
+     {
+      "round": 12,
+      "pick": 10,
+      "player": "Joe Flacco",
+      "pos": "QB"
+     },
+     {
+      "round": 13,
+      "pick": 3,
+      "player": "Felix Jones",
+      "pos": "RB"
+     },
+     {
+      "round": 14,
+      "pick": 10,
+      "player": "James Jones",
+      "pos": "WR"
+     },
+     {
+      "round": 15,
+      "pick": 3,
+      "player": "Steve Breaston",
+      "pos": "WR"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "Tyler",
+    "name": "Tyler",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "?0 Breaks Given",
+    "name": "0 Breaks Given",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "?2012 champ",
+    "name": "2012 champ",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 0,
+    "l": 1
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2012,
+    "teamName": "Murphadelic",
+    "record": "6-5-2",
+    "pointsFor": 1349.0,
+    "pointsAgainst": 1289.0,
+    "madePlayoffs": true,
+    "playoffResults": [
+     "Quarterfinal",
+     "5th place"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 83,
+      "opponentScore": 95,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 64,
+      "opponentScore": 96,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?0 Breaks Given",
+      "opponentName": "0 Breaks Given",
+      "score": 71,
+      "opponentScore": 71,
+      "result": "T",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 105,
+      "opponentScore": 131,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 105,
+      "opponentScore": 67,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 93,
+      "opponentScore": 88,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 101,
+      "opponentScore": 67,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 79,
+      "opponentScore": 76,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 78,
+      "opponentScore": 84,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "?PackNation",
+      "opponentName": "PackNation",
+      "score": 80,
+      "opponentScore": 69,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 80,
+      "opponentScore": 88,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?0 Breaks Given",
+      "opponentName": "0 Breaks Given",
+      "score": 101,
+      "opponentScore": 101,
+      "result": "T",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 123,
+      "opponentScore": 51,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 83,
+      "opponentScore": 91,
+      "result": "L",
+      "playoff": true,
+      "label": "Quarterfinal"
+     },
+     {
+      "week": 15,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 103,
+      "opponentScore": 114,
+      "result": "L",
+      "playoff": true,
+      "label": "5th place"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "packnation",
+  "handle": "?PackNation",
+  "name": "PackNation",
+  "seasons": [
+   2012
+  ],
+  "record": "2-11",
+  "gamesPlayed": 15,
+  "pointsFor": 1035.0,
+  "pointsAgainst": 1410.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "PackNation"
+  ],
+  "bestWeek": {
+   "week": 7,
+   "opponent": "?bELIeve No More",
+   "opponentName": "bELIeve No More",
+   "score": 97,
+   "opponentScore": 101,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 13,
+   "opponent": "J Rock",
+   "opponentName": "J Rock",
+   "score": 45,
+   "opponentScore": 90,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Matt Ryan",
+    "pos": "QB",
+    "points": 233.0,
+    "starts": 13,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Packers",
+    "pos": "DEF",
+    "points": 116.0,
+    "starts": 15,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Chris Johnson",
+    "pos": "RB",
+    "points": 105.0,
+    "starts": 7,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Mason Crosby",
+    "pos": "K",
+    "points": 99.0,
+    "starts": 15,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Shonn Greene",
+    "pos": "RB",
+    "points": 95.0,
+    "starts": 11,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Dwayne Bowe",
+    "pos": "WR",
+    "points": 48.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Davone Bess",
+    "pos": "WR",
+    "points": 40.0,
+    "starts": 7,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Steve Smith",
+    "pos": "WR",
+    "points": 39.0,
+    "starts": 6,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Frank Gore",
+    "pos": "RB",
+    "points": 37.0,
+    "starts": 3,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "points": 30.0,
+    "starts": 2,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Scott Chandler",
+    "pos": "TE",
+    "points": 25.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Greg Jennings",
+    "pos": "WR",
+    "points": 23.0,
+    "starts": 7,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Percy Harvin",
+    "pos": "WR",
+    "points": 21.0,
+    "starts": 2,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Pierre Garcon",
+    "pos": "WR",
+    "points": 20.0,
+    "starts": 2,
+    "seasons": [
+     2012
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2012,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 8,
+      "player": "Matthew Stafford",
+      "pos": "QB"
+     },
+     {
+      "round": 2,
+      "pick": 5,
+      "player": "Greg Jennings",
+      "pos": "WR"
+     },
+     {
+      "round": 3,
+      "pick": 8,
+      "player": "Ryan Mathews",
+      "pos": "RB"
+     },
+     {
+      "round": 4,
+      "pick": 5,
+      "player": "Jordy Nelson",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 8,
+      "player": "BenJarvus Green-Ellis",
+      "pos": "RB"
+     },
+     {
+      "round": 6,
+      "pick": 5,
+      "player": "Matt Ryan",
+      "pos": "QB"
+     },
+     {
+      "round": 7,
+      "pick": 8,
+      "player": "Ben Roethlisberger",
+      "pos": "QB"
+     },
+     {
+      "round": 8,
+      "pick": 5,
+      "player": "Packers",
+      "pos": "DEF"
+     },
+     {
+      "round": 9,
+      "pick": 8,
+      "player": "Mason Crosby",
+      "pos": "K"
+     },
+     {
+      "round": 10,
+      "pick": 5,
+      "player": "Coby Fleener",
+      "pos": "TE"
+     },
+     {
+      "round": 11,
+      "pick": 8,
+      "player": "Peyton Hillis",
+      "pos": "RB"
+     },
+     {
+      "round": 12,
+      "pick": 5,
+      "player": "Darrius Heyward-Bey",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 8,
+      "player": "Dustin Keller",
+      "pos": "TE"
+     },
+     {
+      "round": 14,
+      "pick": 5,
+      "player": "Bernard Scott",
+      "pos": ""
+     },
+     {
+      "round": 15,
+      "pick": 8,
+      "player": "Rueben Randle",
+      "pos": "WR"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "TuanonStan",
+    "name": "James",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?2012 champ",
+    "name": "2012 champ",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "?bELIeve No More",
+    "name": "bELIeve No More",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 0,
+    "l": 1
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2012,
+    "teamName": "PackNation",
+    "record": "2-11",
+    "pointsFor": 1035.0,
+    "pointsAgainst": 1410.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 83,
+      "opponentScore": 91,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 86,
+      "opponentScore": 77,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 58,
+      "opponentScore": 92,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 94,
+      "opponentScore": 91,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 48,
+      "opponentScore": 99,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 79,
+      "opponentScore": 94,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "?bELIeve No More",
+      "opponentName": "bELIeve No More",
+      "score": 97,
+      "opponentScore": 101,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 84,
+      "opponentScore": 110,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 67,
+      "opponentScore": 121,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "?Murphadelic",
+      "opponentName": "Murphadelic",
+      "score": 69,
+      "opponentScore": 80,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 53,
+      "opponentScore": 63,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 51,
+      "opponentScore": 103,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 45,
+      "opponentScore": 90,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "?0 Breaks Given",
+      "opponentName": "0 Breaks Given",
+      "score": 71,
+      "opponentScore": 115,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 50,
+      "opponentScore": 83,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "quool",
+  "handle": "?Quool",
+  "name": "Quool",
+  "seasons": [
+   2010
+  ],
+  "record": "5-8",
+  "gamesPlayed": 16,
+  "pointsFor": 1304.0,
+  "pointsAgainst": 1258.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "Quool"
+  ],
+  "bestWeek": {
+   "week": 7,
+   "opponent": "?The Guru's",
+   "opponentName": "The Guru's",
+   "score": 125,
+   "opponentScore": 50,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 4,
+   "opponent": "?Broncos",
+   "opponentName": "Broncos",
+   "score": 44,
+   "opponentScore": 99,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Roddy White",
+    "pos": "WR",
+    "points": 181.0,
+    "starts": 15,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Ben Roethlisberger",
+    "pos": "QB",
+    "points": 180.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Steven Jackson",
+    "pos": "RB",
+    "points": 175.0,
+    "starts": 15,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Jason Witten",
+    "pos": "TE",
+    "points": 136.0,
+    "starts": 15,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Ravens",
+    "pos": "DEF",
+    "points": 121.0,
+    "starts": 15,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Brandon Marshall",
+    "pos": "WR",
+    "points": 103.0,
+    "starts": 15,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Hines Ward",
+    "pos": "WR",
+    "points": 86.0,
+    "starts": 15,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Rob Bironas",
+    "pos": "K",
+    "points": 77.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Adam Vinatieri",
+    "pos": "K",
+    "points": 59.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Pierre Thomas",
+    "pos": "RB",
+    "points": 54.0,
+    "starts": 7,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Jay Cutler",
+    "pos": "QB",
+    "points": 53.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Marion Barber",
+    "pos": "RB",
+    "points": 28.0,
+    "starts": 9,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Robert Meachem",
+    "pos": "WR",
+    "points": 18.0,
+    "starts": 2,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "David Garrard",
+    "pos": "QB",
+    "points": 15.0,
+    "starts": 1,
+    "seasons": [
+     2010
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2010,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 7,
+      "player": "Steven Jackson",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 6,
+      "player": "Brandon Marshall",
+      "pos": "WR"
+     },
+     {
+      "round": 3,
+      "pick": 7,
+      "player": "Roddy White",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 6,
+      "player": "Pierre Thomas",
+      "pos": "RB"
+     },
+     {
+      "round": 5,
+      "pick": 7,
+      "player": "Hines Ward",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 6,
+      "player": "Jason Witten",
+      "pos": "TE"
+     },
+     {
+      "round": 7,
+      "pick": 7,
+      "player": "Jay Cutler",
+      "pos": "QB"
+     },
+     {
+      "round": 8,
+      "pick": 6,
+      "player": "Marion Barber",
+      "pos": "RB"
+     },
+     {
+      "round": 9,
+      "pick": 7,
+      "player": "Ravens",
+      "pos": "DEF"
+     },
+     {
+      "round": 10,
+      "pick": 6,
+      "player": "Rob Bironas",
+      "pos": "K"
+     },
+     {
+      "round": 11,
+      "pick": 7,
+      "player": "Ben Roethlisberger",
+      "pos": "QB"
+     },
+     {
+      "round": 12,
+      "pick": 6,
+      "player": "Early Doucet",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 7,
+      "player": "Donald Brown",
+      "pos": "RB"
+     },
+     {
+      "round": 14,
+      "pick": 6,
+      "player": "Joey Galloway",
+      "pos": "WR"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "Tyler",
+    "name": "Tyler",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?da best",
+    "name": "da best",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?Broncos",
+    "name": "Broncos",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "?The Guru's",
+    "name": "The Guru's",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 0,
+    "l": 1
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2010,
+    "teamName": "Quool",
+    "record": "5-8",
+    "pointsFor": 1304.0,
+    "pointsAgainst": 1258.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 87,
+      "opponentScore": 98,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 74,
+      "opponentScore": 68,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?da best",
+      "opponentName": "da best",
+      "score": 94,
+      "opponentScore": 115,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 44,
+      "opponentScore": 99,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 87,
+      "opponentScore": 85,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 95,
+      "opponentScore": 81,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "?The Guru's",
+      "opponentName": "The Guru's",
+      "score": 125,
+      "opponentScore": 50,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 65,
+      "opponentScore": 78,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 44,
+      "opponentScore": 110,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 92,
+      "opponentScore": 43,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 90,
+      "opponentScore": 111,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?da best",
+      "opponentName": "da best",
+      "score": 53,
+      "opponentScore": 66,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 61,
+      "opponentScore": 83,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 100,
+      "opponentScore": 36,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 97,
+      "opponentScore": 82,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 96,
+      "opponentScore": 53,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-guru-s",
+  "handle": "?The Guru's",
+  "name": "The Guru's",
+  "seasons": [
+   2010
+  ],
+  "record": "6-7",
+  "gamesPlayed": 15,
+  "pointsFor": 1170.0,
+  "pointsAgainst": 1331.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "The Guru's"
+  ],
+  "bestWeek": {
+   "week": 3,
+   "opponent": "brettmn13",
+   "opponentName": "Brett",
+   "score": 120,
+   "opponentScore": 78,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 9,
+   "opponent": "?Broncos",
+   "opponentName": "Broncos",
+   "score": 43,
+   "opponentScore": 91,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Chris Johnson",
+    "pos": "RB",
+    "points": 179.0,
+    "starts": 14,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Matt Schaub",
+    "pos": "QB",
+    "points": 165.0,
+    "starts": 12,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Jeremy Maclin",
+    "pos": "WR",
+    "points": 148.0,
+    "starts": 14,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Mason Crosby",
+    "pos": "K",
+    "points": 116.0,
+    "starts": 14,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Miles Austin",
+    "pos": "WR",
+    "points": 98.0,
+    "starts": 10,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Austin Collie",
+    "pos": "WR",
+    "points": 87.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Jets",
+    "pos": "DEF",
+    "points": 85.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Ronnie Brown",
+    "pos": "RB",
+    "points": 64.0,
+    "starts": 9,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Dustin Keller",
+    "pos": "TE",
+    "points": 54.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Vernon Davis",
+    "pos": "TE",
+    "points": 28.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Nate Washington",
+    "pos": "WR",
+    "points": 25.0,
+    "starts": 3,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Jahvid Best",
+    "pos": "RB",
+    "points": 23.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Patriots",
+    "pos": "DEF",
+    "points": 22.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Ryan Fitzpatrick",
+    "pos": "QB",
+    "points": 16.0,
+    "starts": 2,
+    "seasons": [
+     2010
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2010,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 9,
+      "player": "Chris Johnson",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 4,
+      "player": "Matt Schaub",
+      "pos": "QB"
+     },
+     {
+      "round": 3,
+      "pick": 9,
+      "player": "Miles Austin",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 4,
+      "player": "Ronnie Brown",
+      "pos": "RB"
+     },
+     {
+      "round": 5,
+      "pick": 9,
+      "player": "Tony Gonzalez",
+      "pos": "TE"
+     },
+     {
+      "round": 6,
+      "pick": 4,
+      "player": "Santana Moss",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 9,
+      "player": "Jeremy Maclin",
+      "pos": "WR"
+     },
+     {
+      "round": 8,
+      "pick": 4,
+      "player": "Mark Sanchez",
+      "pos": "QB"
+     },
+     {
+      "round": 9,
+      "pick": 9,
+      "player": "Jets",
+      "pos": "DEF"
+     },
+     {
+      "round": 10,
+      "pick": 4,
+      "player": "Mason Crosby",
+      "pos": "K"
+     },
+     {
+      "round": 11,
+      "pick": 9,
+      "player": "Steve Slaton",
+      "pos": "RB"
+     },
+     {
+      "round": 12,
+      "pick": 4,
+      "player": "Austin Collie",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 9,
+      "player": "Tim Hightower",
+      "pos": "RB"
+     },
+     {
+      "round": 14,
+      "pick": 4,
+      "player": "Heath Miller",
+      "pos": "TE"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "Tyler",
+    "name": "Tyler",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?da best",
+    "name": "da best",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "Mitchell",
+    "name": "Mitchell",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "?Quool",
+    "name": "Quool",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "?Broncos",
+    "name": "Broncos",
+    "w": 0,
+    "l": 1
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2010,
+    "teamName": "The Guru's",
+    "record": "6-7",
+    "pointsFor": 1170.0,
+    "pointsAgainst": 1331.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 117,
+      "opponentScore": 79,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 88,
+      "opponentScore": 92,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 120,
+      "opponentScore": 78,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 59,
+      "opponentScore": 46,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 90,
+      "opponentScore": 60,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "?da best",
+      "opponentName": "da best",
+      "score": 107,
+      "opponentScore": 96,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "?Quool",
+      "opponentName": "Quool",
+      "score": 50,
+      "opponentScore": 125,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 74,
+      "opponentScore": 89,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 43,
+      "opponentScore": 91,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 93,
+      "opponentScore": 64,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 70,
+      "opponentScore": 93,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 52,
+      "opponentScore": 104,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "?da best",
+      "opponentName": "da best",
+      "score": 66,
+      "opponentScore": 90,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 15,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 91,
+      "opponentScore": 101,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 50,
+      "opponentScore": 123,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "believe-no-more",
+  "handle": "?bELIeve No More",
+  "name": "bELIeve No More",
+  "seasons": [
+   2012
+  ],
+  "record": "5-8",
+  "gamesPlayed": 16,
+  "pointsFor": 1360.0,
+  "pointsAgainst": 1465.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "bELIeve No More"
+  ],
+  "bestWeek": {
+   "week": 1,
+   "opponent": "?2012 champ",
+   "opponentName": "2012 champ",
+   "score": 105,
+   "opponentScore": 63,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 8,
+   "opponent": "?2012 champ",
+   "opponentName": "2012 champ",
+   "score": 50,
+   "opponentScore": 76,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Stephen Gostkowski",
+    "pos": "K",
+    "points": 162.0,
+    "starts": 15,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Vincent Jackson",
+    "pos": "WR",
+    "points": 134.0,
+    "starts": 11,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Wes Welker",
+    "pos": "WR",
+    "points": 124.0,
+    "starts": 12,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Eli Manning",
+    "pos": "QB",
+    "points": 108.0,
+    "starts": 9,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Matt Forte",
+    "pos": "RB",
+    "points": 89.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Andy Dalton",
+    "pos": "QB",
+    "points": 83.0,
+    "starts": 4,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Jordy Nelson",
+    "pos": "WR",
+    "points": 82.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Trent Richardson",
+    "pos": "RB",
+    "points": 80.0,
+    "starts": 6,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "BenJarvus Green-Ellis",
+    "pos": "RB",
+    "points": 65.0,
+    "starts": 8,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Jermaine Gresham",
+    "pos": "TE",
+    "points": 55.0,
+    "starts": 9,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Cam Newton",
+    "pos": "QB",
+    "points": 52.0,
+    "starts": 3,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Vick Ballard",
+    "pos": "RB",
+    "points": 42.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Cardinals",
+    "pos": "DEF",
+    "points": 35.0,
+    "starts": 5,
+    "seasons": [
+     2012
+    ]
+   },
+   {
+    "name": "Jets",
+    "pos": "DEF",
+    "points": 33.0,
+    "starts": 3,
+    "seasons": [
+     2012
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2012,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 6,
+      "player": "Cam Newton",
+      "pos": "QB"
+     },
+     {
+      "round": 2,
+      "pick": 7,
+      "player": "Matt Forte",
+      "pos": "RB"
+     },
+     {
+      "round": 3,
+      "pick": 6,
+      "player": "Frank Gore",
+      "pos": "RB"
+     },
+     {
+      "round": 4,
+      "pick": 7,
+      "player": "Marques Colston",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 6,
+      "player": "Jermichael Finley",
+      "pos": "TE"
+     },
+     {
+      "round": 6,
+      "pick": 7,
+      "player": "Santonio Holmes",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 6,
+      "player": "Shonn Greene",
+      "pos": "RB"
+     },
+     {
+      "round": 8,
+      "pick": 7,
+      "player": "Jets",
+      "pos": "DEF"
+     },
+     {
+      "round": 9,
+      "pick": 6,
+      "player": "LeGarrette Blount",
+      "pos": "RB"
+     },
+     {
+      "round": 10,
+      "pick": 7,
+      "player": "Stephen Gostkowski",
+      "pos": "K"
+     },
+     {
+      "round": 11,
+      "pick": 6,
+      "player": "Justin Blackmon",
+      "pos": "WR"
+     },
+     {
+      "round": 12,
+      "pick": 7,
+      "player": "Andy Dalton",
+      "pos": "QB"
+     },
+     {
+      "round": 13,
+      "pick": 6,
+      "player": "Michael Floyd",
+      "pos": ""
+     },
+     {
+      "round": 14,
+      "pick": 7,
+      "player": "Greg Olsen",
+      "pos": "TE"
+     },
+     {
+      "round": 15,
+      "pick": 6,
+      "player": "Ronnie Brown",
+      "pos": "RB"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "?2012 champ",
+    "name": "2012 champ",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "TuanonStan",
+    "name": "James",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?0 Breaks Given",
+    "name": "0 Breaks Given",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "?PackNation",
+    "name": "PackNation",
+    "w": 1,
+    "l": 0
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 0,
+    "l": 1
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2012,
+    "teamName": "bELIeve No More",
+    "record": "5-8",
+    "pointsFor": 1360.0,
+    "pointsAgainst": 1465.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 105,
+      "opponentScore": 63,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 77,
+      "opponentScore": 68,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 67,
+      "opponentScore": 93,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "?0 Breaks Given",
+      "opponentName": "0 Breaks Given",
+      "score": 101,
+      "opponentScore": 84,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 67,
+      "opponentScore": 79,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 104,
+      "opponentScore": 87,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "?PackNation",
+      "opponentName": "PackNation",
+      "score": 101,
+      "opponentScore": 97,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 50,
+      "opponentScore": 76,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 80,
+      "opponentScore": 84,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 91,
+      "opponentScore": 104,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 94,
+      "opponentScore": 95,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 100,
+      "opponentScore": 130,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 98,
+      "opponentScore": 111,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 96,
+      "opponentScore": 95,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 69,
+      "opponentScore": 94,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "?0 Breaks Given",
+      "opponentName": "0 Breaks Given",
+      "score": 60,
+      "opponentScore": 105,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "da-best",
+  "handle": "?da best",
+  "name": "da best",
+  "seasons": [
+   2010
+  ],
+  "record": "6-7",
+  "gamesPlayed": 15,
+  "pointsFor": 1168.0,
+  "pointsAgainst": 1282.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "da best"
+  ],
+  "bestWeek": {
+   "week": 9,
+   "opponent": "?Minnesota 69ers",
+   "opponentName": "Minnesota 69ers",
+   "score": 118,
+   "opponentScore": 79,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 1,
+   "opponent": "brettmn13",
+   "opponentName": "Brett",
+   "score": 48,
+   "opponentScore": 69,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Adrian Peterson",
+    "pos": "RB",
+    "points": 213.0,
+    "starts": 14,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "DeSean Jackson",
+    "pos": "WR",
+    "points": 149.0,
+    "starts": 13,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Mike Wallace",
+    "pos": "WR",
+    "points": 124.0,
+    "starts": 11,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Josh Freeman",
+    "pos": "QB",
+    "points": 114.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Tony Romo",
+    "pos": "QB",
+    "points": 95.0,
+    "starts": 6,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Vikings",
+    "pos": "DEF",
+    "points": 84.0,
+    "starts": 14,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Nick Folk",
+    "pos": "K",
+    "points": 63.0,
+    "starts": 9,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Mike Tolbert",
+    "pos": "FB",
+    "points": 51.0,
+    "starts": 5,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Aaron Hernandez",
+    "pos": "TE",
+    "points": 48.0,
+    "starts": 7,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Ryan Mathews",
+    "pos": "RB",
+    "points": 46.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Brent Celek",
+    "pos": "TE",
+    "points": 31.0,
+    "starts": 8,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "BenJarvus Green-Ellis",
+    "pos": "RB",
+    "points": 26.0,
+    "starts": 2,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Garrett Hartley",
+    "pos": "K",
+    "points": 20.0,
+    "starts": 3,
+    "seasons": [
+     2010
+    ]
+   },
+   {
+    "name": "Nate Burleson",
+    "pos": "WR",
+    "points": 16.0,
+    "starts": 4,
+    "seasons": [
+     2010
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2010,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 1,
+      "player": "Adrian Peterson",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 12,
+      "player": "Ryan Mathews",
+      "pos": "RB"
+     },
+     {
+      "round": 3,
+      "pick": 1,
+      "player": "DeSean Jackson",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 12,
+      "player": "Brent Celek",
+      "pos": "TE"
+     },
+     {
+      "round": 5,
+      "pick": 1,
+      "player": "Tony Romo",
+      "pos": "QB"
+     },
+     {
+      "round": 6,
+      "pick": 12,
+      "player": "Mike Wallace",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 1,
+      "player": "Robert Meachem",
+      "pos": "WR"
+     },
+     {
+      "round": 8,
+      "pick": 12,
+      "player": "Laurence Maroney",
+      "pos": "RB"
+     },
+     {
+      "round": 9,
+      "pick": 1,
+      "player": "Vikings",
+      "pos": "DEF"
+     },
+     {
+      "round": 10,
+      "pick": 12,
+      "player": "Mohamed Massaquoi",
+      "pos": ""
+     },
+     {
+      "round": 11,
+      "pick": 1,
+      "player": "Garrett Hartley",
+      "pos": "K"
+     },
+     {
+      "round": 12,
+      "pick": 12,
+      "player": "Toby Gerhart",
+      "pos": "W/R/T"
+     },
+     {
+      "round": 13,
+      "pick": 1,
+      "player": "Kevin Walter",
+      "pos": "WR"
+     },
+     {
+      "round": 14,
+      "pick": 12,
+      "player": "Jason Campbell",
+      "pos": "QB"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?Quool",
+    "name": "Quool",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "?The Guru's",
+    "name": "The Guru's",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "Tyler",
+    "name": "Tyler",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "?Minnesota 69ers",
+    "name": "Minnesota 69ers",
+    "w": 1,
+    "l": 0
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2010,
+    "teamName": "da best",
+    "record": "6-7",
+    "pointsFor": 1168.0,
+    "pointsAgainst": 1282.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 48,
+      "opponentScore": 69,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 83,
+      "opponentScore": 81,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "?Quool",
+      "opponentName": "Quool",
+      "score": 115,
+      "opponentScore": 94,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 48,
+      "opponentScore": 76,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 60,
+      "opponentScore": 81,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "?The Guru's",
+      "opponentName": "The Guru's",
+      "score": 96,
+      "opponentScore": 107,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 56,
+      "opponentScore": 117,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 67,
+      "opponentScore": 109,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 118,
+      "opponentScore": 79,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 90,
+      "opponentScore": 62,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 74,
+      "opponentScore": 121,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "?Quool",
+      "opponentName": "Quool",
+      "score": 66,
+      "opponentScore": 53,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "?The Guru's",
+      "opponentName": "The Guru's",
+      "score": 90,
+      "opponentScore": 66,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "?Minnesota 69ers",
+      "opponentName": "Minnesota 69ers",
+      "score": 79,
+      "opponentScore": 86,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "Mitchell",
+      "opponentName": "Mitchell",
+      "score": 78,
+      "opponentScore": 81,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "kicked-out-next-year",
+  "handle": "?kicked out next year",
+  "name": "kicked out next year",
+  "seasons": [
+   2008
+  ],
+  "record": "3-11",
+  "gamesPlayed": 16,
+  "pointsFor": 1311.0,
+  "pointsAgainst": 1396.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "kicked out next year"
+  ],
+  "bestWeek": {
+   "week": 12,
+   "opponent": "DJ",
+   "opponentName": "DJ",
+   "score": 150,
+   "opponentScore": 93,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 1,
+   "opponent": "J Rock",
+   "opponentName": "J Rock",
+   "score": 53,
+   "opponentScore": 71,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "DeAngelo Williams",
+    "pos": "RB",
+    "points": 202.0,
+    "starts": 10,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Tony Gonzalez",
+    "pos": "TE",
+    "points": 147.0,
+    "starts": 16,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Vikings",
+    "pos": "DEF",
+    "points": 139.0,
+    "starts": 16,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Randy Moss",
+    "pos": "WR",
+    "points": 135.0,
+    "starts": 13,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Eli Manning",
+    "pos": "QB",
+    "points": 125.0,
+    "starts": 11,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Stephen Gostkowski",
+    "pos": "K",
+    "points": 124.0,
+    "starts": 13,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Hines Ward",
+    "pos": "WR",
+    "points": 101.0,
+    "starts": 14,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Torry Holt",
+    "pos": "WR",
+    "points": 79.0,
+    "starts": 15,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Maurice Jones-Drew",
+    "pos": "RB",
+    "points": 72.0,
+    "starts": 6,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Darren McFadden",
+    "pos": "RB",
+    "points": 64.0,
+    "starts": 14,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "DeSean Jackson",
+    "pos": "WR",
+    "points": 34.0,
+    "starts": 4,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Jason Campbell",
+    "pos": "QB",
+    "points": 33.0,
+    "starts": 3,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Peyton Manning",
+    "pos": "QB",
+    "points": 26.0,
+    "starts": 2,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "John Kasay",
+    "pos": "K",
+    "points": 20.0,
+    "starts": 3,
+    "seasons": [
+     2008
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2008,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 8,
+      "player": "Peyton Manning",
+      "pos": "QB"
+     },
+     {
+      "round": 2,
+      "pick": 1,
+      "player": "Randy Moss",
+      "pos": "WR"
+     },
+     {
+      "round": 3,
+      "pick": 8,
+      "player": "Vikings",
+      "pos": "DEF"
+     },
+     {
+      "round": 4,
+      "pick": 1,
+      "player": "Torry Holt",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 8,
+      "player": "Tony Gonzalez",
+      "pos": "TE"
+     },
+     {
+      "round": 6,
+      "pick": 1,
+      "player": "Maurice Jones-Drew",
+      "pos": "RB"
+     },
+     {
+      "round": 7,
+      "pick": 8,
+      "player": "Stephen Gostkowski",
+      "pos": "K"
+     },
+     {
+      "round": 8,
+      "pick": 1,
+      "player": "Darren McFadden",
+      "pos": "RB"
+     },
+     {
+      "round": 9,
+      "pick": 8,
+      "player": "Hines Ward",
+      "pos": "WR"
+     },
+     {
+      "round": 10,
+      "pick": 1,
+      "player": "Eli Manning",
+      "pos": "QB"
+     },
+     {
+      "round": 11,
+      "pick": 8,
+      "player": "Jonathan Stewart",
+      "pos": "RB"
+     },
+     {
+      "round": 12,
+      "pick": 1,
+      "player": "Joey Galloway",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 8,
+      "player": "Patrick Crayton",
+      "pos": "WR"
+     },
+     {
+      "round": 14,
+      "pick": 1,
+      "player": "Ben Watson",
+      "pos": "TE"
+     },
+     {
+      "round": 15,
+      "pick": 8,
+      "player": "Colts",
+      "pos": "DEF"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "?vikes",
+    "name": "vikes",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "?Broncos",
+    "name": "Broncos",
+    "w": 0,
+    "l": 2
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2008,
+    "teamName": "kicked out next year",
+    "record": "3-11",
+    "pointsFor": 1311.0,
+    "pointsAgainst": 1396.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 53,
+      "opponentScore": 71,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 64,
+      "opponentScore": 84,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 79,
+      "opponentScore": 44,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 67,
+      "opponentScore": 81,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 67,
+      "opponentScore": 56,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "?vikes",
+      "opponentName": "vikes",
+      "score": 64,
+      "opponentScore": 86,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 88,
+      "opponentScore": 90,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 67,
+      "opponentScore": 73,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 54,
+      "opponentScore": 94,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 88,
+      "opponentScore": 118,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 79,
+      "opponentScore": 121,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 150,
+      "opponentScore": 93,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "?vikes",
+      "opponentName": "vikes",
+      "score": 91,
+      "opponentScore": 93,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 79,
+      "opponentScore": 81,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 15,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 102,
+      "opponentScore": 113,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 119,
+      "opponentScore": 98,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "suit-and-a-tie",
+  "handle": "?suit and a TIE",
+  "name": "suit and a TIE",
+  "seasons": [
+   2013
+  ],
+  "record": "4-9",
+  "gamesPlayed": 15,
+  "pointsFor": 1180.56,
+  "pointsAgainst": 1330.8,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "suit and a TIE"
+  ],
+  "bestWeek": {
+   "week": 2,
+   "opponent": "Colt45Johnson",
+   "opponentName": "Colt",
+   "score": 109.16,
+   "opponentScore": 95.08,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 11,
+   "opponent": "Colt45Johnson",
+   "opponentName": "Colt",
+   "score": 57.56,
+   "opponentScore": 78.7,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Matt Ryan",
+    "pos": "QB",
+    "points": 130.8,
+    "starts": 8,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Andre Johnson",
+    "pos": "WR",
+    "points": 111.1,
+    "starts": 8,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Bears",
+    "pos": "DEF",
+    "points": 69.0,
+    "starts": 6,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Alfred Morris",
+    "pos": "RB",
+    "points": 65.4,
+    "starts": 6,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Justin Tucker",
+    "pos": "K",
+    "points": 49.0,
+    "starts": 6,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Greg Olsen",
+    "pos": "TE",
+    "points": 48.5,
+    "starts": 7,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Pierre Garcon",
+    "pos": "WR",
+    "points": 46.9,
+    "starts": 4,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Le'Veon Bell",
+    "pos": "RB",
+    "points": 40.6,
+    "starts": 3,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Greg Jennings",
+    "pos": "WR",
+    "points": 37.0,
+    "starts": 6,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Maurice Jones-Drew",
+    "pos": "RB",
+    "points": 31.2,
+    "starts": 3,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Nick Folk",
+    "pos": "K",
+    "points": 29.0,
+    "starts": 3,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "James Jones",
+    "pos": "WR",
+    "points": 26.2,
+    "starts": 4,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Joe Flacco",
+    "pos": "QB",
+    "points": 20.28,
+    "starts": 1,
+    "seasons": [
+     2013
+    ]
+   },
+   {
+    "name": "Steelers",
+    "pos": "DEF",
+    "points": 18.0,
+    "starts": 3,
+    "seasons": [
+     2013
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2013,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 11,
+      "player": "Alfred Morris",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 2,
+      "player": "Matt Ryan",
+      "pos": "QB"
+     },
+     {
+      "round": 3,
+      "pick": 11,
+      "player": "Andre Johnson",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 2,
+      "player": "James Jones",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 11,
+      "player": "Greg Jennings",
+      "pos": "WR"
+     },
+     {
+      "round": 6,
+      "pick": 2,
+      "player": "Pierre Garcon",
+      "pos": "WR"
+     },
+     {
+      "round": 7,
+      "pick": 11,
+      "player": "Andre Brown",
+      "pos": "RB"
+     },
+     {
+      "round": 8,
+      "pick": 2,
+      "player": "Greg Olsen",
+      "pos": "TE"
+     },
+     {
+      "round": 9,
+      "pick": 11,
+      "player": "Bears",
+      "pos": "DEF"
+     },
+     {
+      "round": 10,
+      "pick": 2,
+      "player": "Joe Flacco",
+      "pos": "QB"
+     },
+     {
+      "round": 11,
+      "pick": 11,
+      "player": "Bernard Pierce",
+      "pos": "RB"
+     },
+     {
+      "round": 12,
+      "pick": 2,
+      "player": "Justin Tucker",
+      "pos": "K"
+     },
+     {
+      "round": 13,
+      "pick": 11,
+      "player": "Brandon Pettigrew",
+      "pos": "TE"
+     },
+     {
+      "round": 14,
+      "pick": 2,
+      "player": "Steelers",
+      "pos": "DEF"
+     },
+     {
+      "round": 15,
+      "pick": 11,
+      "player": "Isaac Redman",
+      "pos": "RB"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "Colt45Johnson",
+    "name": "Colt",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "TuanonStan",
+    "name": "James",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "Wallner",
+    "name": "John",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "?2012 champ",
+    "name": "2012 champ",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 0,
+    "l": 1
+   },
+   {
+    "opponent": "YoungBuck04",
+    "name": "Buckley",
+    "w": 1,
+    "l": 0
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2013,
+    "teamName": "suit and a TIE",
+    "record": "4-9",
+    "pointsFor": 1180.56,
+    "pointsAgainst": 1330.8,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 63.96,
+      "opponentScore": 73.82,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
+      "score": 109.16,
+      "opponentScore": 95.08,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 94.74,
+      "opponentScore": 110.54,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "Wallner",
+      "opponentName": "John",
+      "score": 94.34,
+      "opponentScore": 124.28,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "?2012 champ",
+      "opponentName": "2012 champ",
+      "score": 78.76,
+      "opponentScore": 90.66,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 80.88,
+      "opponentScore": 65.58,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 71.42,
+      "opponentScore": 103.84,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 71.24,
+      "opponentScore": 53.84,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "YoungBuck04",
+      "opponentName": "Buckley",
+      "score": 98.86,
+      "opponentScore": 96.96,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "Tyler",
+      "opponentName": "Tyler",
+      "score": 61.08,
+      "opponentScore": 65.82,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "Colt45Johnson",
+      "opponentName": "Colt",
+      "score": 57.56,
+      "opponentScore": 78.7,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 67.38,
+      "opponentScore": 84.2,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 79.04,
+      "opponentScore": 102.58,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 72.14,
+      "opponentScore": 87.26,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 15,
+      "opponent": "TuanonStan",
+      "opponentName": "James",
+      "score": 80,
+      "opponentScore": 97.64,
+      "result": "L",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "vikes",
+  "handle": "?vikes",
+  "name": "vikes",
+  "seasons": [
+   2008
+  ],
+  "record": "5-9",
+  "gamesPlayed": 16,
+  "pointsFor": 1206.0,
+  "pointsAgainst": 1325.0,
+  "titles": [],
+  "finalsLost": [],
+  "playoffSeasons": [],
+  "teamNames": [
+   "vikes"
+  ],
+  "bestWeek": {
+   "week": 5,
+   "opponent": "RockMNwild",
+   "opponentName": "Austin",
+   "score": 102,
+   "opponentScore": 93,
+   "result": "W",
+   "playoff": false,
+   "label": null
+  },
+  "worstWeek": {
+   "week": 14,
+   "opponent": "DJ",
+   "opponentName": "DJ",
+   "score": 48,
+   "opponentScore": 91,
+   "result": "L",
+   "playoff": false,
+   "label": null
+  },
+  "topPlayers": [
+   {
+    "name": "Ben Roethlisberger",
+    "pos": "QB",
+    "points": 155.0,
+    "starts": 14,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Marion Barber",
+    "pos": "RB",
+    "points": 142.0,
+    "starts": 11,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Lee Evans",
+    "pos": "WR",
+    "points": 109.0,
+    "starts": 15,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Jason Witten",
+    "pos": "TE",
+    "points": 108.0,
+    "starts": 14,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Jets",
+    "pos": "DEF",
+    "points": 89.0,
+    "starts": 8,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Joseph Addai",
+    "pos": "RB",
+    "points": 85.0,
+    "starts": 7,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Ronnie Brown",
+    "pos": "RB",
+    "points": 84.0,
+    "starts": 10,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Marques Colston",
+    "pos": "WR",
+    "points": 83.0,
+    "starts": 10,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Jerricho Cotchery",
+    "pos": "WR",
+    "points": 64.0,
+    "starts": 9,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Chargers",
+    "pos": "DEF",
+    "points": 44.0,
+    "starts": 8,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Donald Driver",
+    "pos": "WR",
+    "points": 37.0,
+    "starts": 5,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Neil Rackers",
+    "pos": "K",
+    "points": 34.0,
+    "starts": 5,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Mason Crosby",
+    "pos": "K",
+    "points": 28.0,
+    "starts": 5,
+    "seasons": [
+     2008
+    ]
+   },
+   {
+    "name": "Jonathan Stewart",
+    "pos": "RB",
+    "points": 26.0,
+    "starts": 3,
+    "seasons": [
+     2008
+    ]
+   }
+  ],
+  "draft": [
+   {
+    "season": 2008,
+    "picks": [
+     {
+      "round": 1,
+      "pick": 7,
+      "player": "Joseph Addai",
+      "pos": "RB"
+     },
+     {
+      "round": 2,
+      "pick": 2,
+      "player": "Marion Barber",
+      "pos": "RB"
+     },
+     {
+      "round": 3,
+      "pick": 7,
+      "player": "T.J. Houshmandzadeh",
+      "pos": "WR"
+     },
+     {
+      "round": 4,
+      "pick": 2,
+      "player": "Marques Colston",
+      "pos": "WR"
+     },
+     {
+      "round": 5,
+      "pick": 7,
+      "player": "Jason Witten",
+      "pos": "TE"
+     },
+     {
+      "round": 6,
+      "pick": 2,
+      "player": "Ben Roethlisberger",
+      "pos": "QB"
+     },
+     {
+      "round": 7,
+      "pick": 7,
+      "player": "Lee Evans",
+      "pos": "WR"
+     },
+     {
+      "round": 8,
+      "pick": 2,
+      "player": "Chargers",
+      "pos": "DEF"
+     },
+     {
+      "round": 9,
+      "pick": 7,
+      "player": "Phil Dawson",
+      "pos": "K"
+     },
+     {
+      "round": 10,
+      "pick": 2,
+      "player": "Ronnie Brown",
+      "pos": "RB"
+     },
+     {
+      "round": 11,
+      "pick": 7,
+      "player": "Donald Driver",
+      "pos": "WR"
+     },
+     {
+      "round": 12,
+      "pick": 2,
+      "player": "Jerricho Cotchery",
+      "pos": "WR"
+     },
+     {
+      "round": 13,
+      "pick": 7,
+      "player": "Jake Delhomme",
+      "pos": "QB"
+     },
+     {
+      "round": 14,
+      "pick": 2,
+      "player": "Tony Scheffler",
+      "pos": "TE"
+     },
+     {
+      "round": 15,
+      "pick": 7,
+      "player": "Neil Rackers",
+      "pos": "K"
+     }
+    ]
+   }
+  ],
+  "playedMost": [
+   {
+    "opponent": "triccster",
+    "name": "T.J.",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "?Broncos",
+    "name": "Broncos",
+    "w": 0,
+    "l": 2
+   },
+   {
+    "opponent": "J Rock",
+    "name": "J Rock",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "brettmn13",
+    "name": "Brett",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "RockMNwild",
+    "name": "Austin",
+    "w": 1,
+    "l": 1
+   },
+   {
+    "opponent": "?kicked out next year",
+    "name": "kicked out next year",
+    "w": 2,
+    "l": 0
+   },
+   {
+    "opponent": "DJ",
+    "name": "DJ",
+    "w": 0,
+    "l": 2
+   }
+  ],
+  "bySeason": [
+   {
+    "season": 2008,
+    "teamName": "vikes",
+    "record": "5-9",
+    "pointsFor": 1206.0,
+    "pointsAgainst": 1325.0,
+    "madePlayoffs": false,
+    "playoffResults": [
+     "Consolation",
+     "Consolation"
+    ],
+    "wonTitle": false,
+    "lostFinal": false,
+    "games": [
+     {
+      "week": 1,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 68,
+      "opponentScore": 78,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 2,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 73,
+      "opponentScore": 80,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 3,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 77,
+      "opponentScore": 86,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 4,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 93,
+      "opponentScore": 102,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 5,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 102,
+      "opponentScore": 93,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 6,
+      "opponent": "?kicked out next year",
+      "opponentName": "kicked out next year",
+      "score": 86,
+      "opponentScore": 64,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 7,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 52,
+      "opponentScore": 105,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 8,
+      "opponent": "triccster",
+      "opponentName": "T.J.",
+      "score": 54,
+      "opponentScore": 80,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 9,
+      "opponent": "?Broncos",
+      "opponentName": "Broncos",
+      "score": 65,
+      "opponentScore": 77,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 10,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 91,
+      "opponentScore": 88,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 11,
+      "opponent": "brettmn13",
+      "opponentName": "Brett",
+      "score": 69,
+      "opponentScore": 58,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 12,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 79,
+      "opponentScore": 101,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 13,
+      "opponent": "?kicked out next year",
+      "opponentName": "kicked out next year",
+      "score": 93,
+      "opponentScore": 91,
+      "result": "W",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 14,
+      "opponent": "DJ",
+      "opponentName": "DJ",
+      "score": 48,
+      "opponentScore": 91,
+      "result": "L",
+      "playoff": false,
+      "label": null
+     },
+     {
+      "week": 15,
+      "opponent": "RockMNwild",
+      "opponentName": "Austin",
+      "score": 81,
+      "opponentScore": 62,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     },
+     {
+      "week": 16,
+      "opponent": "J Rock",
+      "opponentName": "J Rock",
+      "score": 75,
+      "opponentScore": 69,
+      "result": "W",
+      "playoff": true,
+      "label": "Consolation"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -649,9 +649,35 @@ def _img(a):
     return a if str(a).startswith("http") else f"https://sleepercdn.com/avatars/{a}"
 
 
+def _career(h, games):
+    """One handle's career from history["games"]: regular-season record, titles, finals
+    reached, seasons played, and the head-to-head table. Used for the current managers
+    and for the past managers appended after them, so the two cannot drift apart."""
+    w = l = 0
+    titles, finals, seasons = [], 0, set()
+    vs = defaultdict(lambda: [0, 0])
+    for s, _wk, _e, a, pa, b, pb, playoff, label in games:
+        if h not in (a, b):
+            continue
+        me, opp = (pa, pb) if a == h else (pb, pa)
+        other = b if a == h else a
+        seasons.add(s)
+        if not playoff:
+            w += me > opp
+            l += me < opp
+        if label == "Championship":
+            finals += 1
+            if me > opp:
+                titles.append(s)
+        if not playoff or label in REAL_ROUNDS:
+            vs[other][0 if me > opp else 1] += 1
+    return w, l, titles, finals, seasons, vs
+
+
 def build_managers(cur, history):
     """managers.json for the Managers pages. Anything in manager_overrides.json
-    (keyed by Sleeper handle) replaces the generated value."""
+    (keyed by Sleeper handle) replaces the generated value. Managers listed in
+    past_managers.json are appended: they are in history but not in the league."""
     overrides = read_json(os.path.join(DATA, "manager_overrides.json"), {}) or {}
     handle_of = {cur.owner[r]: h for r, h in cur.handle.items() if r in cur.owner}
     users = [u for uid, u in cur.users.items() if uid in handle_of]
@@ -662,24 +688,7 @@ def build_managers(cur, history):
     for u in order:
         h = handle_of[u["user_id"]]
         name = real_name(h)
-        w = l = 0
-        titles, finals, seasons = [], 0, set()
-        vs = defaultdict(lambda: [0, 0])
-        for s, _wk, _e, a, pa, b, pb, playoff, label in history["games"]:
-            if h not in (a, b):
-                continue
-            me, opp = (pa, pb) if a == h else (pb, pa)
-            other = b if a == h else a
-            seasons.add(s)
-            if not playoff:
-                w += me > opp
-                l += me < opp
-            if label == "Championship":
-                finals += 1
-                if me > opp:
-                    titles.append(s)
-            if not playoff or label in REAL_ROUNDS:
-                vs[other][0 if me > opp else 1] += 1
+        w, l, titles, finals, seasons, vs = _career(h, history["games"])
         foes = [o for o in vs if o in index and o != h]
         nemesis = max(foes, key=lambda o: (vs[o][1] - vs[o][0], vs[o][1]), default=None)
         bits = [f"Regular season since {min(seasons)}: {w}-{l}." if seasons else "No games yet."]
@@ -717,6 +726,7 @@ def build_managers(cur, history):
     for e in out:   # rival photo follows the rival's (possibly overridden) photo
         if e["rival"]["link"] is not None:
             e["rival"]["image"] = out[e["rival"]["link"]]["photo"]
+    out += _past_managers(history, index)
     write_json(os.path.join(DATA, "managers.json"), out)
     if not os.path.exists(os.path.join(DATA, "manager_overrides.json")):
         write_json(os.path.join(DATA, "manager_overrides.json"), {
@@ -724,6 +734,197 @@ def build_managers(cur, history):
                        "e.g. \"triccster\": {\"bio\": \"...\", \"photo\": \"/managers/tj.jpg\", "
                        "\"favoriteTeam\": \"min\", \"location\": \"Maplewood\"}"})
     return out
+
+
+def _slug(s):
+    out = "".join(c.lower() if c.isalnum() else "-" for c in str(s))
+    while "--" in out:
+        out = out.replace("--", "-")
+    return out.strip("-")
+
+
+def _team_name(history, season, h):
+    tn = history.get("team_names") or {}
+    return (tn.get(season) or tn.get(str(season)) or {}).get(h)
+
+
+def _past_managers(history, index):
+    """Manager pages for people in history who are not in the current league.
+
+    past_managers.json is keyed by the handle history uses, and carries only what cannot
+    be computed: {"id": "past-j-rock", "name": "J Rock"} plus any field to override.
+    `id` becomes the manager page's permanent address (?manager=<id>), so it must never
+    change once a link has been shared. Everything else - record, titles, seasons, last
+    team - is recomputed from history.json on every build.
+
+    Appended after the current managers so their rival links, which are indices into
+    managers.json, keep pointing at the same people. Hidden handles (the teams whose
+    manager was never identified) are refused here; they belong in unclaimed.json.
+    """
+    cfgs = read_json(os.path.join(DATA, "past_managers.json"), {}) or {}
+    hidden = {h for h, m in (history.get("managers") or {}).items() if m.get("hidden")}
+    played = {g[3] for g in history["games"]} | {g[5] for g in history["games"]}
+    out = []
+    # drop "_how_to" and anything malformed BEFORE sorting: the sort key reads the
+    # config, and a string value there has no .get
+    real = [(h, c) for h, c in cfgs.items() if not h.startswith("_") and isinstance(c, dict)]
+    for h, cfg in sorted(real, key=lambda kv: str(kv[1].get("name") or kv[0]).lower()):
+        if not cfg.get("id"):
+            print(f"  past_managers.json: {h} has no id, skipped")
+            continue
+        if h in index:
+            print(f"  past_managers.json: {h} is in the current league, skipped")
+            continue
+        if h in hidden:
+            print(f"  past_managers.json: {h} is an unidentified team, belongs in unclaimed.json, skipped")
+            continue
+        if h not in played:
+            print(f"  past_managers.json: {h} has no games in history, skipped")
+            continue
+        w, l, titles, finals, seasons, vs = _career(h, history["games"])
+        name = cfg.get("name") or real_name(h)
+        last = max(seasons)
+        foes = [o for o in vs if o not in hidden and o != h]
+        nemesis = max(foes, key=lambda o: (vs[o][1] - vs[o][0], vs[o][1]), default=None)
+        span = f"in {last}" if min(seasons) == last else f"from {min(seasons)} to {last}"
+        bits = [f"Played {span}. Regular season: {w}-{l}."]
+        if titles:
+            bits.append(f"Champion: {', '.join(map(str, titles))}.")
+        elif finals:
+            bits.append(f"{finals} final{'s' if finals > 1 else ''}, never won one.")
+        if nemesis:
+            nw, nl = vs[nemesis]
+            bits.append(f"Toughest opponent: {real_name(nemesis)} ({nw}-{nl}).")
+        bits.append("No longer in the league.")
+        entry = {
+            "managerID": str(cfg["id"]),
+            "handle": h,
+            "name": name,
+            "photo": cfg.get("photo") or "/managers/question.jpg",
+            "avatar": cfg.get("photo") or "/managers/question.jpg",
+            "fantasyStart": min(seasons),
+            "bio": " ".join(bits),
+            # read by Manager.svelte: a past manager has no roster, no entry in
+            # leagueTeamManagers and no transactions, so those sections are skipped
+            "past": True,
+            "lastSeason": last,
+            "lastTeamName": _team_name(history, last, h),
+            "seasonsPlayed": sorted(seasons),
+            "rival": {"name": real_name(nemesis) if nemesis else "Everyone",
+                      "link": None, "image": "/managers/everyone.png"},
+        }
+        entry.update({k: v for k, v in cfg.items() if k != "id"})
+        out.append(entry)
+    return out
+
+
+def build_unclaimed(history):
+    """unclaimed.json: the team-seasons whose manager was never identified.
+
+    These are the handles history.json marks hidden - a leading '?' in the vault data.
+    They are deliberately kept out of managers.json, because awards.py, record_watch.py
+    and flpHistory.js all exclude hidden handles from awards, records and the all-time
+    rank, and putting a team-season in the managers list would undo that.
+
+    Written for every repo, empty where there are none, so the page can import it.
+    """
+    mgrs = history.get("managers") or {}
+    shown = lambda x: (mgrs.get(x) or {}).get("name") or x
+
+    # Who played for these teams. Both files cover the Yahoo era and these handles, and
+    # both are written by extras.build_all, which is why the call to this function sits
+    # after extras in main(). Missing files just mean the sections are left out.
+    pdata = read_json(os.path.join(STATIC, "players.json"), {}) or {}
+    picks = (read_json(os.path.join(STATIC, "drafts.json"), {}) or {}).get("picks") or []
+
+    teams = []
+    for h in sorted(h for h, m in mgrs.items() if m.get("hidden")):
+        w, l, titles, finals, seasons, vs = _career(h, history["games"])
+        by_season, ties = [], 0
+        for season in sorted(seasons):
+            sw = sl = st = 0
+            pf = pa = 0.0
+            games = []
+            for s, wk, _e, a, points_a, b, points_b, playoff, label in history["games"]:
+                if s != season or h not in (a, b):
+                    continue
+                me, opp = (points_a, points_b) if a == h else (points_b, points_a)
+                other = b if a == h else a
+                pf += me; pa += opp
+                if not playoff:
+                    if me > opp: sw += 1
+                    elif me < opp: sl += 1
+                    else: st += 1
+                games.append({"week": wk, "opponent": other, "opponentName": shown(other),
+                              "score": round(me, 2), "opponentScore": round(opp, 2),
+                              "result": "W" if me > opp else ("L" if me < opp else "T"),
+                              "playoff": bool(playoff), "label": label})
+            ties += st
+            by_season.append({
+                "season": season,
+                "teamName": _team_name(history, season, h),
+                "record": f"{sw}-{sl}" + (f"-{st}" if st else ""),
+                "pointsFor": round(pf, 2), "pointsAgainst": round(pa, 2),
+                # the consolation bracket carries playoff=True as well, so a real
+                # playoff appearance means a game in one of the actual rounds
+                "madePlayoffs": any(g["playoff"] and g["label"] in REAL_ROUNDS for g in games),
+                "playoffResults": [g["label"] for g in games if g["playoff"] and g["label"]],
+                "wonTitle": any(g["label"] == "Championship" and g["result"] == "W" for g in games),
+                "lostFinal": any(g["label"] == "Championship" and g["result"] == "L" for g in games),
+                "games": sorted(games, key=lambda g: g["week"]),
+            })
+        allg = [g for s in by_season for g in s["games"]]
+        if not allg:
+            continue
+
+        # players.json rows are [season, handle, points, starts, weeks, bench]
+        tally = {}
+        for pl in (pdata.get("players") or []):
+            got = [r for r in (pl.get("s") or []) if len(r) > 3 and r[1] == h]
+            if not got:
+                continue
+            tally[pl["n"]] = {"name": pl["n"], "pos": pl.get("p"),
+                              "points": round(sum(r[2] for r in got), 2),
+                              "starts": sum(r[3] for r in got),
+                              "seasons": sorted({r[0] for r in got})}
+        top_players = sorted(tally.values(), key=lambda x: -x["points"])[:14]
+
+        # drafts.json picks are [season, round, pick, manager, player, pos, ...]
+        drafted = defaultdict(list)
+        for r in picks:
+            if len(r) > 5 and r[3] == h:
+                drafted[r[0]].append({"round": r[1], "pick": r[2], "player": r[4], "pos": r[5]})
+        draft = [{"season": s, "picks": sorted(v, key=lambda x: (x["round"], x["pick"]))}
+                 for s, v in sorted(drafted.items())]
+        best = max(allg, key=lambda g: g["score"])
+        worst = min(allg, key=lambda g: g["score"])
+        teams.append({
+            "slug": _slug(h),
+            "handle": h,
+            "name": shown(h),
+            "seasons": sorted(seasons),
+            "record": f"{w}-{l}" + (f"-{ties}" if ties else ""),
+            "gamesPlayed": len(allg),
+            "pointsFor": round(sum(s["pointsFor"] for s in by_season), 2),
+            "pointsAgainst": round(sum(s["pointsAgainst"] for s in by_season), 2),
+            "titles": titles,
+            "finalsLost": [s["season"] for s in by_season if s["lostFinal"]],
+            "playoffSeasons": [s["season"] for s in by_season if s["madePlayoffs"]],
+            "teamNames": sorted({s["teamName"] for s in by_season if s["teamName"]}),
+            "bestWeek": best, "worstWeek": worst,
+            "topPlayers": top_players,
+            "draft": draft,
+            "playedMost": [{"opponent": o, "name": shown(o), "w": wl[0], "l": wl[1]}
+                           for o, wl in sorted(vs.items(), key=lambda kv: -(kv[1][0] + kv[1][1]))
+                           if o != h][:8],
+            "bySeason": by_season,
+        })
+    slugs = [t["slug"] for t in teams]
+    for t in teams:                      # a duplicate slug would make two pages collide
+        if slugs.count(t["slug"]) > 1:
+            t["slug"] = _slug(t["handle"] + "-" + str(t["seasons"][0]))
+    write_json(os.path.join(DATA, "unclaimed.json"), teams)
+    return teams
 
 
 # ---------------------------------------------------------------- main
@@ -829,6 +1030,8 @@ def main():
            "shown": ((lambda h: SHOWN.get(h, (h,))[0]) if CONFIG.get("names") == "handles"
                      else (lambda h: h))}
     print("extras:", extras.build_all(ctx))
+    # after extras, which writes the players and draft files unclaimed.json quotes
+    print(f"unclaimed.json: {len(build_unclaimed(history))} unidentified teams")
     # Across the Leagues (2026-10-14): reads the other Sleeper repos' history.json
     try:
         import crossleague
