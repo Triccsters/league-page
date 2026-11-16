@@ -542,6 +542,7 @@
    "Tyler"
   ],
   "couldBe": [
+   "Brandon",
    "DJ",
    "Joey",
    "John",
@@ -562,16 +563,6 @@
     ],
     "sharedDraftPicks": [
      "Maurice Jones-Drew"
-    ]
-   },
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Steven Jackson"
     ]
    },
    {
@@ -607,14 +598,6 @@
     "name": "The Guru's",
     "seasons": [
      2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
     ],
     "sharedDraftPicks": []
    },
@@ -1030,14 +1013,14 @@
     "l": 0
    },
    {
-    "opponent": "TuanonStan",
-    "name": "James",
+    "opponent": "Tom",
+    "name": "Tom",
     "w": 2,
     "l": 0
    },
    {
-    "opponent": "Wallner",
-    "name": "John",
+    "opponent": "TuanonStan",
+    "name": "James",
     "w": 2,
     "l": 0
    }
@@ -1265,8 +1248,8 @@
      },
      {
       "week": 5,
-      "opponent": "?suit and a TIE",
-      "opponentName": "suit and a TIE",
+      "opponent": "Tom",
+      "opponentName": "Tom",
       "score": 90.66,
       "opponentScore": 78.76,
       "result": "W",
@@ -1425,11 +1408,10 @@
      "James",
      "John",
      "T.J.",
+     "Tom",
      "Tyler"
     ],
-    "otherUnidentified": [
-     "suit and a TIE"
-    ],
+    "otherUnidentified": [],
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
@@ -1461,14 +1443,14 @@
    "Tyler"
   ],
   "couldBe": [
+   "Brandon",
    "Joey",
    "Mitchell",
    "Scott"
   ],
   "certainlyNot": [
    "0 Breaks Given",
-   "PackNation",
-   "suit and a TIE"
+   "PackNation"
   ],
   "maybeSameManager": [
    {
@@ -1479,16 +1461,6 @@
     ],
     "sharedDraftPicks": [
      "Malcom Floyd"
-    ]
-   },
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Ravens"
     ]
    },
    {
@@ -2172,8 +2144,8 @@
      },
      {
       "week": 4,
-      "opponent": "?Quool",
-      "opponentName": "Quool",
+      "opponent": "Brandon",
+      "opponentName": "Brandon",
       "score": 99,
       "opponentScore": 44,
       "result": "W",
@@ -2311,6 +2283,10 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
+      "name": "Brandon",
+      "from": 2010
+     },
+     {
       "name": "Buckley",
       "from": 2012
      },
@@ -2352,6 +2328,7 @@
     "season": 2010,
     "ruledOut": [
      "Austin",
+     "Brandon",
      "Brett",
      "DJ",
      "J Rock",
@@ -2362,7 +2339,6 @@
     "otherUnidentified": [
      "da best",
      "Minnesota 69ers",
-     "Quool",
      "The Guru's"
     ],
     "inLeagueUnaccounted": [],
@@ -2400,6 +2376,7 @@
   ],
   "ruledOut": [
    "Austin",
+   "Brandon",
    "Brett",
    "DJ",
    "J Rock",
@@ -2418,7 +2395,6 @@
   ],
   "certainlyNot": [
    "Minnesota 69ers",
-   "Quool",
    "The Guru's",
    "da best",
    "kicked out next year",
@@ -2445,16 +2421,6 @@
     ],
     "sharedDraftPicks": [
      "Maurice Jones-Drew"
-    ]
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
-    ],
-    "sharedDraftPicks": [
-     "Greg Jennings"
     ]
    },
    {
@@ -2882,8 +2848,8 @@
      },
      {
       "week": 10,
-      "opponent": "?Quool",
-      "opponentName": "Quool",
+      "opponent": "Brandon",
+      "opponentName": "Brandon",
       "score": 43,
       "opponentScore": 92,
       "result": "L",
@@ -2942,8 +2908,8 @@
      },
      {
       "week": 16,
-      "opponent": "?Quool",
-      "opponentName": "Quool",
+      "opponent": "Brandon",
+      "opponentName": "Brandon",
       "score": 53,
       "opponentScore": 96,
       "result": "L",
@@ -2959,6 +2925,7 @@
     "season": 2010,
     "ruledOut": [
      "Austin",
+     "Brandon",
      "Brett",
      "DJ",
      "J Rock",
@@ -2969,7 +2936,6 @@
     "otherUnidentified": [
      "Broncos",
      "da best",
-     "Quool",
      "The Guru's"
     ],
     "inLeagueUnaccounted": [],
@@ -3007,6 +2973,7 @@
   ],
   "ruledOut": [
    "Austin",
+   "Brandon",
    "Brett",
    "DJ",
    "J Rock",
@@ -3025,7 +2992,6 @@
   ],
   "certainlyNot": [
    "Broncos",
-   "Quool",
    "The Guru's",
    "da best"
   ],
@@ -3046,16 +3012,6 @@
     "name": "PackNation",
     "seasons": [
      2012
-    ],
-    "sharedDraftPicks": [
-     "Matt Ryan"
-    ]
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
     ],
     "sharedDraftPicks": [
      "Matt Ryan"
@@ -3621,6 +3577,7 @@
    "Tyler"
   ],
   "couldBe": [
+   "Brandon",
    "DJ",
    "Joey",
    "John",
@@ -3646,17 +3603,6 @@
     ]
    },
    {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
-    ],
-    "sharedDraftPicks": [
-     "Greg Jennings",
-     "Matt Ryan"
-    ]
-   },
-   {
     "slug": "minnesota-69ers",
     "name": "Minnesota 69ers",
     "seasons": [
@@ -3664,16 +3610,6 @@
     ],
     "sharedDraftPicks": [
      "Matt Ryan"
-    ]
-   },
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Ben Roethlisberger"
     ]
    },
    {
@@ -3711,632 +3647,6 @@
     "name": "kicked out next year",
     "seasons": [
      2008
-    ],
-    "sharedDraftPicks": []
-   }
-  ]
- },
- {
-  "slug": "quool",
-  "handle": "?Quool",
-  "name": "Quool",
-  "seasons": [
-   2010
-  ],
-  "record": "5-8",
-  "gamesPlayed": 16,
-  "pointsFor": 1304.0,
-  "pointsAgainst": 1258.0,
-  "titles": [],
-  "finalsLost": [],
-  "playoffSeasons": [],
-  "teamNames": [
-   "Quool"
-  ],
-  "bestWeek": {
-   "week": 7,
-   "opponent": "?The Guru's",
-   "opponentName": "The Guru's",
-   "score": 125,
-   "opponentScore": 50,
-   "result": "W",
-   "playoff": false,
-   "label": null
-  },
-  "worstWeek": {
-   "week": 4,
-   "opponent": "?Broncos",
-   "opponentName": "Broncos",
-   "score": 44,
-   "opponentScore": 99,
-   "result": "L",
-   "playoff": false,
-   "label": null
-  },
-  "topPlayers": [
-   {
-    "name": "Roddy White",
-    "pos": "WR",
-    "points": 181.0,
-    "starts": 15,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Ben Roethlisberger",
-    "pos": "QB",
-    "points": 180.0,
-    "starts": 11,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Steven Jackson",
-    "pos": "RB",
-    "points": 175.0,
-    "starts": 15,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Jason Witten",
-    "pos": "TE",
-    "points": 136.0,
-    "starts": 15,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Ravens",
-    "pos": "DEF",
-    "points": 121.0,
-    "starts": 15,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Brandon Marshall",
-    "pos": "WR",
-    "points": 103.0,
-    "starts": 15,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Hines Ward",
-    "pos": "WR",
-    "points": 86.0,
-    "starts": 15,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Rob Bironas",
-    "pos": "K",
-    "points": 77.0,
-    "starts": 8,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Adam Vinatieri",
-    "pos": "K",
-    "points": 59.0,
-    "starts": 8,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Pierre Thomas",
-    "pos": "RB",
-    "points": 54.0,
-    "starts": 7,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Jay Cutler",
-    "pos": "QB",
-    "points": 53.0,
-    "starts": 4,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Marion Barber",
-    "pos": "RB",
-    "points": 28.0,
-    "starts": 9,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "Robert Meachem",
-    "pos": "WR",
-    "points": 18.0,
-    "starts": 2,
-    "seasons": [
-     2010
-    ]
-   },
-   {
-    "name": "David Garrard",
-    "pos": "QB",
-    "points": 15.0,
-    "starts": 1,
-    "seasons": [
-     2010
-    ]
-   }
-  ],
-  "draft": [
-   {
-    "season": 2010,
-    "picks": [
-     {
-      "round": 1,
-      "pick": 7,
-      "player": "Steven Jackson",
-      "pos": "RB"
-     },
-     {
-      "round": 2,
-      "pick": 6,
-      "player": "Brandon Marshall",
-      "pos": "WR"
-     },
-     {
-      "round": 3,
-      "pick": 7,
-      "player": "Roddy White",
-      "pos": "WR"
-     },
-     {
-      "round": 4,
-      "pick": 6,
-      "player": "Pierre Thomas",
-      "pos": "RB"
-     },
-     {
-      "round": 5,
-      "pick": 7,
-      "player": "Hines Ward",
-      "pos": "WR"
-     },
-     {
-      "round": 6,
-      "pick": 6,
-      "player": "Jason Witten",
-      "pos": "TE"
-     },
-     {
-      "round": 7,
-      "pick": 7,
-      "player": "Jay Cutler",
-      "pos": "QB"
-     },
-     {
-      "round": 8,
-      "pick": 6,
-      "player": "Marion Barber",
-      "pos": "RB"
-     },
-     {
-      "round": 9,
-      "pick": 7,
-      "player": "Ravens",
-      "pos": "DEF"
-     },
-     {
-      "round": 10,
-      "pick": 6,
-      "player": "Rob Bironas",
-      "pos": "K"
-     },
-     {
-      "round": 11,
-      "pick": 7,
-      "player": "Ben Roethlisberger",
-      "pos": "QB"
-     },
-     {
-      "round": 12,
-      "pick": 6,
-      "player": "Early Doucet",
-      "pos": "WR"
-     },
-     {
-      "round": 13,
-      "pick": 7,
-      "player": "Donald Brown",
-      "pos": "RB"
-     },
-     {
-      "round": 14,
-      "pick": 6,
-      "player": "Joey Galloway",
-      "pos": "WR"
-     }
-    ]
-   }
-  ],
-  "playedMost": [
-   {
-    "opponent": "Tyler",
-    "name": "Tyler",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "brettmn13",
-    "name": "Brett",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "?da best",
-    "name": "da best",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "J Rock",
-    "name": "J Rock",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "?Broncos",
-    "name": "Broncos",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "RockMNwild",
-    "name": "Austin",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "?The Guru's",
-    "name": "The Guru's",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "DJ",
-    "name": "DJ",
-    "w": 0,
-    "l": 1
-   }
-  ],
-  "bySeason": [
-   {
-    "season": 2010,
-    "teamName": "Quool",
-    "record": "5-8",
-    "pointsFor": 1304.0,
-    "pointsAgainst": 1258.0,
-    "madePlayoffs": false,
-    "playoffResults": [
-     "Consolation",
-     "Consolation",
-     "Consolation"
-    ],
-    "wonTitle": false,
-    "lostFinal": false,
-    "games": [
-     {
-      "week": 1,
-      "opponent": "Tyler",
-      "opponentName": "Tyler",
-      "score": 87,
-      "opponentScore": 98,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 2,
-      "opponent": "brettmn13",
-      "opponentName": "Brett",
-      "score": 74,
-      "opponentScore": 68,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 3,
-      "opponent": "?da best",
-      "opponentName": "da best",
-      "score": 94,
-      "opponentScore": 115,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 4,
-      "opponent": "?Broncos",
-      "opponentName": "Broncos",
-      "score": 44,
-      "opponentScore": 99,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 5,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 87,
-      "opponentScore": 85,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 6,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 95,
-      "opponentScore": 81,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 7,
-      "opponent": "?The Guru's",
-      "opponentName": "The Guru's",
-      "score": 125,
-      "opponentScore": 50,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 8,
-      "opponent": "Tyler",
-      "opponentName": "Tyler",
-      "score": 65,
-      "opponentScore": 78,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 9,
-      "opponent": "DJ",
-      "opponentName": "DJ",
-      "score": 44,
-      "opponentScore": 110,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 10,
-      "opponent": "?Minnesota 69ers",
-      "opponentName": "Minnesota 69ers",
-      "score": 92,
-      "opponentScore": 43,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 11,
-      "opponent": "brettmn13",
-      "opponentName": "Brett",
-      "score": 90,
-      "opponentScore": 111,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 12,
-      "opponent": "?da best",
-      "opponentName": "da best",
-      "score": 53,
-      "opponentScore": 66,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 13,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 61,
-      "opponentScore": 83,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 14,
-      "opponent": "Mitchell",
-      "opponentName": "Mitchell",
-      "score": 100,
-      "opponentScore": 36,
-      "result": "W",
-      "playoff": true,
-      "label": "Consolation"
-     },
-     {
-      "week": 15,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 97,
-      "opponentScore": 82,
-      "result": "W",
-      "playoff": true,
-      "label": "Consolation"
-     },
-     {
-      "week": 16,
-      "opponent": "?Minnesota 69ers",
-      "opponentName": "Minnesota 69ers",
-      "score": 96,
-      "opponentScore": 53,
-      "result": "W",
-      "playoff": true,
-      "label": "Consolation"
-     }
-    ]
-   }
-  ],
-  "strongCandidates": [],
-  "bySeasonSuspects": [
-   {
-    "season": 2010,
-    "ruledOut": [
-     "Austin",
-     "Brett",
-     "DJ",
-     "J Rock",
-     "Mitchell",
-     "T.J.",
-     "Tyler"
-    ],
-    "otherUnidentified": [
-     "Broncos",
-     "da best",
-     "Minnesota 69ers",
-     "The Guru's"
-    ],
-    "inLeagueUnaccounted": [],
-    "firstSeenLater": [
-     {
-      "name": "Buckley",
-      "from": 2012
-     },
-     {
-      "name": "Colt",
-      "from": 2012
-     },
-     {
-      "name": "James",
-      "from": 2012
-     },
-     {
-      "name": "Joey",
-      "from": 2014
-     },
-     {
-      "name": "John",
-      "from": 2013
-     },
-     {
-      "name": "Scott",
-      "from": 2014
-     },
-     {
-      "name": "Tom",
-      "from": 2012
-     }
-    ]
-   }
-  ],
-  "ruledOut": [
-   "Austin",
-   "Brett",
-   "DJ",
-   "J Rock",
-   "Mitchell",
-   "T.J.",
-   "Tyler"
-  ],
-  "couldBe": [
-   "Buckley",
-   "Colt",
-   "James",
-   "Joey",
-   "John",
-   "Scott",
-   "Tom"
-  ],
-  "certainlyNot": [
-   "Broncos",
-   "Minnesota 69ers",
-   "The Guru's",
-   "da best"
-  ],
-  "maybeSameManager": [
-   {
-    "slug": "vikes",
-    "name": "vikes",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": [
-     "Ben Roethlisberger",
-     "Jason Witten",
-     "Marion Barber"
-    ]
-   },
-   {
-    "slug": "kicked-out-next-year",
-    "name": "kicked out next year",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": [
-     "Hines Ward",
-     "Joey Galloway"
-    ]
-   },
-   {
-    "slug": "0-breaks-given",
-    "name": "0 Breaks Given",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Steven Jackson"
-    ]
-   },
-   {
-    "slug": "2012-champ",
-    "name": "2012 champ",
-    "seasons": [
-     2012,
-     2013
-    ],
-    "sharedDraftPicks": [
-     "Ravens"
-    ]
-   },
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Ben Roethlisberger"
-    ]
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
     ],
     "sharedDraftPicks": []
    }
@@ -4636,8 +3946,8 @@
     "l": 0
    },
    {
-    "opponent": "?Quool",
-    "name": "Quool",
+    "opponent": "Brandon",
+    "name": "Brandon",
     "w": 0,
     "l": 1
    },
@@ -4725,8 +4035,8 @@
      },
      {
       "week": 7,
-      "opponent": "?Quool",
-      "opponentName": "Quool",
+      "opponent": "Brandon",
+      "opponentName": "Brandon",
       "score": 50,
       "opponentScore": 125,
       "result": "L",
@@ -4822,6 +4132,7 @@
     "season": 2010,
     "ruledOut": [
      "Austin",
+     "Brandon",
      "Brett",
      "DJ",
      "J Rock",
@@ -4832,8 +4143,7 @@
     "otherUnidentified": [
      "Broncos",
      "da best",
-     "Minnesota 69ers",
-     "Quool"
+     "Minnesota 69ers"
     ],
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
@@ -4870,6 +4180,7 @@
   ],
   "ruledOut": [
    "Austin",
+   "Brandon",
    "Brett",
    "DJ",
    "J Rock",
@@ -4889,7 +4200,6 @@
   "certainlyNot": [
    "Broncos",
    "Minnesota 69ers",
-   "Quool",
    "da best"
   ],
   "maybeSameManager": [
@@ -4936,14 +4246,6 @@
     "name": "2012 champ",
     "seasons": [
      2012,
-     2013
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
      2013
     ],
     "sharedDraftPicks": []
@@ -5220,8 +4522,8 @@
     "l": 1
    },
    {
-    "opponent": "?Quool",
-    "name": "Quool",
+    "opponent": "Brandon",
+    "name": "Brandon",
     "w": 2,
     "l": 0
    },
@@ -5293,8 +4595,8 @@
      },
      {
       "week": 3,
-      "opponent": "?Quool",
-      "opponentName": "Quool",
+      "opponent": "Brandon",
+      "opponentName": "Brandon",
       "score": 115,
       "opponentScore": 94,
       "result": "W",
@@ -5383,8 +4685,8 @@
      },
      {
       "week": 12,
-      "opponent": "?Quool",
-      "opponentName": "Quool",
+      "opponent": "Brandon",
+      "opponentName": "Brandon",
       "score": 66,
       "opponentScore": 53,
       "result": "W",
@@ -5430,6 +4732,7 @@
     "season": 2010,
     "ruledOut": [
      "Austin",
+     "Brandon",
      "Brett",
      "DJ",
      "J Rock",
@@ -5440,7 +4743,6 @@
     "otherUnidentified": [
      "Broncos",
      "Minnesota 69ers",
-     "Quool",
      "The Guru's"
     ],
     "inLeagueUnaccounted": [],
@@ -5478,6 +4780,7 @@
   ],
   "ruledOut": [
    "Austin",
+   "Brandon",
    "Brett",
    "DJ",
    "J Rock",
@@ -5497,7 +4800,6 @@
   "certainlyNot": [
    "Broncos",
    "Minnesota 69ers",
-   "Quool",
    "The Guru's"
   ],
   "maybeSameManager": [
@@ -5536,14 +4838,6 @@
     "name": "2012 champ",
     "seasons": [
      2012,
-     2013
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
      2013
     ],
     "sharedDraftPicks": []
@@ -6060,6 +5354,10 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
+      "name": "Brandon",
+      "from": 2010
+     },
+     {
       "name": "Buckley",
       "from": 2012
      },
@@ -6106,6 +5404,7 @@
    "T.J."
   ],
   "couldBe": [
+   "Brandon",
    "Buckley",
    "Colt",
    "James",
@@ -6121,17 +5420,6 @@
    "vikes"
   ],
   "maybeSameManager": [
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Hines Ward",
-     "Joey Galloway"
-    ]
-   },
    {
     "slug": "0-breaks-given",
     "name": "0 Breaks Given",
@@ -6186,635 +5474,6 @@
     "name": "PackNation",
     "seasons": [
      2012
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
-    ],
-    "sharedDraftPicks": []
-   }
-  ]
- },
- {
-  "slug": "suit-and-a-tie",
-  "handle": "?suit and a TIE",
-  "name": "suit and a TIE",
-  "seasons": [
-   2013
-  ],
-  "record": "4-9",
-  "gamesPlayed": 15,
-  "pointsFor": 1180.56,
-  "pointsAgainst": 1330.8,
-  "titles": [],
-  "finalsLost": [],
-  "playoffSeasons": [],
-  "teamNames": [
-   "suit and a TIE"
-  ],
-  "bestWeek": {
-   "week": 2,
-   "opponent": "Colt45Johnson",
-   "opponentName": "Colt",
-   "score": 109.16,
-   "opponentScore": 95.08,
-   "result": "W",
-   "playoff": false,
-   "label": null
-  },
-  "worstWeek": {
-   "week": 11,
-   "opponent": "Colt45Johnson",
-   "opponentName": "Colt",
-   "score": 57.56,
-   "opponentScore": 78.7,
-   "result": "L",
-   "playoff": false,
-   "label": null
-  },
-  "topPlayers": [
-   {
-    "name": "Matt Ryan",
-    "pos": "QB",
-    "points": 130.8,
-    "starts": 8,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Andre Johnson",
-    "pos": "WR",
-    "points": 111.1,
-    "starts": 8,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Bears",
-    "pos": "DEF",
-    "points": 69.0,
-    "starts": 6,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Alfred Morris",
-    "pos": "RB",
-    "points": 65.4,
-    "starts": 6,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Justin Tucker",
-    "pos": "K",
-    "points": 49.0,
-    "starts": 6,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Greg Olsen",
-    "pos": "TE",
-    "points": 48.5,
-    "starts": 7,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Pierre Garcon",
-    "pos": "WR",
-    "points": 46.9,
-    "starts": 4,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Le'Veon Bell",
-    "pos": "RB",
-    "points": 40.6,
-    "starts": 3,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Greg Jennings",
-    "pos": "WR",
-    "points": 37.0,
-    "starts": 6,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Maurice Jones-Drew",
-    "pos": "RB",
-    "points": 31.2,
-    "starts": 3,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Nick Folk",
-    "pos": "K",
-    "points": 29.0,
-    "starts": 3,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "James Jones",
-    "pos": "WR",
-    "points": 26.2,
-    "starts": 4,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Joe Flacco",
-    "pos": "QB",
-    "points": 20.28,
-    "starts": 1,
-    "seasons": [
-     2013
-    ]
-   },
-   {
-    "name": "Steelers",
-    "pos": "DEF",
-    "points": 18.0,
-    "starts": 3,
-    "seasons": [
-     2013
-    ]
-   }
-  ],
-  "draft": [
-   {
-    "season": 2013,
-    "picks": [
-     {
-      "round": 1,
-      "pick": 11,
-      "player": "Alfred Morris",
-      "pos": "RB"
-     },
-     {
-      "round": 2,
-      "pick": 2,
-      "player": "Matt Ryan",
-      "pos": "QB"
-     },
-     {
-      "round": 3,
-      "pick": 11,
-      "player": "Andre Johnson",
-      "pos": "WR"
-     },
-     {
-      "round": 4,
-      "pick": 2,
-      "player": "James Jones",
-      "pos": "WR"
-     },
-     {
-      "round": 5,
-      "pick": 11,
-      "player": "Greg Jennings",
-      "pos": "WR"
-     },
-     {
-      "round": 6,
-      "pick": 2,
-      "player": "Pierre Garcon",
-      "pos": "WR"
-     },
-     {
-      "round": 7,
-      "pick": 11,
-      "player": "Andre Brown",
-      "pos": "RB"
-     },
-     {
-      "round": 8,
-      "pick": 2,
-      "player": "Greg Olsen",
-      "pos": "TE"
-     },
-     {
-      "round": 9,
-      "pick": 11,
-      "player": "Bears",
-      "pos": "DEF"
-     },
-     {
-      "round": 10,
-      "pick": 2,
-      "player": "Joe Flacco",
-      "pos": "QB"
-     },
-     {
-      "round": 11,
-      "pick": 11,
-      "player": "Bernard Pierce",
-      "pos": "RB"
-     },
-     {
-      "round": 12,
-      "pick": 2,
-      "player": "Justin Tucker",
-      "pos": "K"
-     },
-     {
-      "round": 13,
-      "pick": 11,
-      "player": "Brandon Pettigrew",
-      "pos": "TE"
-     },
-     {
-      "round": 14,
-      "pick": 2,
-      "player": "Steelers",
-      "pos": "DEF"
-     },
-     {
-      "round": 15,
-      "pick": 11,
-      "player": "Isaac Redman",
-      "pos": "RB"
-     }
-    ]
-   }
-  ],
-  "playedMost": [
-   {
-    "opponent": "DJ",
-    "name": "DJ",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "Colt45Johnson",
-    "name": "Colt",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "J Rock",
-    "name": "J Rock",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "TuanonStan",
-    "name": "James",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "Wallner",
-    "name": "John",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "?2012 champ",
-    "name": "2012 champ",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "triccster",
-    "name": "T.J.",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "YoungBuck04",
-    "name": "Buckley",
-    "w": 1,
-    "l": 0
-   }
-  ],
-  "bySeason": [
-   {
-    "season": 2013,
-    "teamName": "suit and a TIE",
-    "record": "4-9",
-    "pointsFor": 1180.56,
-    "pointsAgainst": 1330.8,
-    "madePlayoffs": false,
-    "playoffResults": [
-     "Consolation",
-     "Consolation"
-    ],
-    "wonTitle": false,
-    "lostFinal": false,
-    "games": [
-     {
-      "week": 1,
-      "opponent": "DJ",
-      "opponentName": "DJ",
-      "score": 63.96,
-      "opponentScore": 73.82,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 2,
-      "opponent": "Colt45Johnson",
-      "opponentName": "Colt",
-      "score": 109.16,
-      "opponentScore": 95.08,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 3,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 94.74,
-      "opponentScore": 110.54,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 4,
-      "opponent": "Wallner",
-      "opponentName": "John",
-      "score": 94.34,
-      "opponentScore": 124.28,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 5,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 78.76,
-      "opponentScore": 90.66,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 6,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 80.88,
-      "opponentScore": 65.58,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 7,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 71.42,
-      "opponentScore": 103.84,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 8,
-      "opponent": "DJ",
-      "opponentName": "DJ",
-      "score": 71.24,
-      "opponentScore": 53.84,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 9,
-      "opponent": "YoungBuck04",
-      "opponentName": "Buckley",
-      "score": 98.86,
-      "opponentScore": 96.96,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 10,
-      "opponent": "Tyler",
-      "opponentName": "Tyler",
-      "score": 61.08,
-      "opponentScore": 65.82,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 11,
-      "opponent": "Colt45Johnson",
-      "opponentName": "Colt",
-      "score": 57.56,
-      "opponentScore": 78.7,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 12,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 67.38,
-      "opponentScore": 84.2,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 13,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 79.04,
-      "opponentScore": 102.58,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 14,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 72.14,
-      "opponentScore": 87.26,
-      "result": "L",
-      "playoff": true,
-      "label": "Consolation"
-     },
-     {
-      "week": 15,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 80,
-      "opponentScore": 97.64,
-      "result": "L",
-      "playoff": true,
-      "label": "Consolation"
-     }
-    ]
-   }
-  ],
-  "strongCandidates": [],
-  "bySeasonSuspects": [
-   {
-    "season": 2013,
-    "ruledOut": [
-     "Austin",
-     "Brett",
-     "Buckley",
-     "Colt",
-     "DJ",
-     "J Rock",
-     "James",
-     "John",
-     "T.J.",
-     "Tyler"
-    ],
-    "otherUnidentified": [
-     "2012 champ"
-    ],
-    "inLeagueUnaccounted": [],
-    "firstSeenLater": [
-     {
-      "name": "Joey",
-      "from": 2014
-     },
-     {
-      "name": "Nase",
-      "from": 2014
-     },
-     {
-      "name": "Scott",
-      "from": 2014
-     }
-    ]
-   }
-  ],
-  "ruledOut": [
-   "Austin",
-   "Brett",
-   "Buckley",
-   "Colt",
-   "DJ",
-   "J Rock",
-   "James",
-   "John",
-   "T.J.",
-   "Tyler"
-  ],
-  "couldBe": [
-   "Joey",
-   "Mitchell",
-   "Nase",
-   "Scott",
-   "Tom"
-  ],
-  "certainlyNot": [
-   "2012 champ"
-  ],
-  "maybeSameManager": [
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Greg Jennings",
-     "Matt Ryan"
-    ]
-   },
-   {
-    "slug": "broncos",
-    "name": "Broncos",
-    "seasons": [
-     2008,
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Greg Jennings"
-    ]
-   },
-   {
-    "slug": "minnesota-69ers",
-    "name": "Minnesota 69ers",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Matt Ryan"
-    ]
-   },
-   {
-    "slug": "0-breaks-given",
-    "name": "0 Breaks Given",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "the-guru-s",
-    "name": "The Guru's",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "da-best",
-    "name": "da best",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "kicked-out-next-year",
-    "name": "kicked out next year",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "vikes",
-    "name": "vikes",
-    "seasons": [
-     2008
     ],
     "sharedDraftPicks": []
    }
@@ -7322,6 +5981,10 @@
     "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
+      "name": "Brandon",
+      "from": 2010
+     },
+     {
       "name": "Buckley",
       "from": 2012
      },
@@ -7368,6 +6031,7 @@
    "T.J."
   ],
   "couldBe": [
+   "Brandon",
    "Buckley",
    "Colt",
    "James",
@@ -7383,18 +6047,6 @@
    "kicked out next year"
   ],
   "maybeSameManager": [
-   {
-    "slug": "quool",
-    "name": "Quool",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Ben Roethlisberger",
-     "Jason Witten",
-     "Marion Barber"
-    ]
-   },
    {
     "slug": "2012-champ",
     "name": "2012 champ",
@@ -7449,14 +6101,6 @@
     "name": "da best",
     "seasons": [
      2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "suit-and-a-tie",
-    "name": "suit and a TIE",
-    "seasons": [
-     2013
     ],
     "sharedDraftPicks": []
    }

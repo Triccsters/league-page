@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:26:08+00:00",
+ "generated": "2026-11-16T22:36:40+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -36,7 +36,7 @@
    "brettmn13": "Dragon",
    "J Rock": "J Rocks Dawgs",
    "?Minnesota 69ers": "Minnesota 69ers",
-   "?Quool": "Quool",
+   "Brandon": "Quool",
    "triccster": "RazzleDazzle",
    "?The Guru's": "The Guru's",
    "Mitchell": "Mitches bitches",
@@ -68,7 +68,7 @@
    "Wallner": "Top 3 Score Weekly's",
    "Colt45Johnson": "The Conciliate",
    "YoungBuck04": "All Banged Up",
-   "?suit and a TIE": "suit and a TIE",
+   "Tom": "suit and a TIE",
    "?2012 champ": "2012 champ"
   },
   "2014": {
@@ -291,11 +291,6 @@
    "yahoo": null,
    "hidden": true
   },
-  "?Quool": {
-   "name": "Quool",
-   "yahoo": null,
-   "hidden": true
-  },
   "?The Guru's": {
    "name": "The Guru's",
    "yahoo": null,
@@ -311,15 +306,15 @@
    "yahoo": null,
    "hidden": true
   },
-  "?suit and a TIE": {
-   "name": "suit and a TIE",
-   "yahoo": null,
-   "hidden": true
-  },
   "?vikes": {
    "name": "vikes",
    "yahoo": null,
    "hidden": true
+  },
+  "Brandon": {
+   "name": "Brandon",
+   "yahoo": null,
+   "hidden": false
   },
   "Colt45Johnson": {
    "name": "Colt",
@@ -1185,7 +1180,7 @@
    2010,
    1,
    "yahoo",
-   "?Quool",
+   "Brandon",
    87,
    "Tyler",
    98,
@@ -1231,7 +1226,7 @@
    "yahoo",
    "brettmn13",
    68,
-   "?Quool",
+   "Brandon",
    74,
    false,
    null
@@ -1275,7 +1270,7 @@
    "yahoo",
    "?da best",
    115,
-   "?Quool",
+   "Brandon",
    94,
    false,
    null
@@ -1372,7 +1367,7 @@
    2010,
    4,
    "yahoo",
-   "?Quool",
+   "Brandon",
    44,
    "?Broncos",
    99,
@@ -1418,7 +1413,7 @@
    "yahoo",
    "RockMNwild",
    85,
-   "?Quool",
+   "Brandon",
    87,
    false,
    null
@@ -1517,7 +1512,7 @@
    "yahoo",
    "J Rock",
    81,
-   "?Quool",
+   "Brandon",
    95,
    false,
    null
@@ -1581,7 +1576,7 @@
    2010,
    7,
    "yahoo",
-   "?Quool",
+   "Brandon",
    125,
    "?The Guru's",
    50,
@@ -1647,7 +1642,7 @@
    2010,
    8,
    "yahoo",
-   "?Quool",
+   "Brandon",
    65,
    "Tyler",
    78,
@@ -1693,7 +1688,7 @@
    "yahoo",
    "DJ",
    110,
-   "?Quool",
+   "Brandon",
    44,
    false,
    null
@@ -1781,7 +1776,7 @@
    "yahoo",
    "?Minnesota 69ers",
    43,
-   "?Quool",
+   "Brandon",
    92,
    false,
    null
@@ -1825,7 +1820,7 @@
    "yahoo",
    "brettmn13",
    111,
-   "?Quool",
+   "Brandon",
    90,
    false,
    null
@@ -1869,7 +1864,7 @@
    "yahoo",
    "?da best",
    66,
-   "?Quool",
+   "Brandon",
    53,
    false,
    null
@@ -1979,7 +1974,7 @@
    "yahoo",
    "J Rock",
    83,
-   "?Quool",
+   "Brandon",
    61,
    false,
    null
@@ -2021,7 +2016,7 @@
    2010,
    14,
    "yahoo",
-   "?Quool",
+   "Brandon",
    100,
    "Mitchell",
    36,
@@ -2078,7 +2073,7 @@
    "yahoo",
    "J Rock",
    82,
-   "?Quool",
+   "Brandon",
    97,
    true,
    "Consolation"
@@ -2133,7 +2128,7 @@
    "yahoo",
    "?Minnesota 69ers",
    53,
-   "?Quool",
+   "Brandon",
    96,
    true,
    "Consolation"
@@ -3200,7 +3195,7 @@
    "yahoo",
    "DJ",
    73.82,
-   "?suit and a TIE",
+   "Tom",
    63.96,
    false,
    null
@@ -3266,7 +3261,7 @@
    "yahoo",
    "Colt45Johnson",
    95.08,
-   "?suit and a TIE",
+   "Tom",
    109.16,
    false,
    null
@@ -3343,7 +3338,7 @@
    "yahoo",
    "J Rock",
    110.54,
-   "?suit and a TIE",
+   "Tom",
    94.74,
    false,
    null
@@ -3398,7 +3393,7 @@
    "yahoo",
    "Wallner",
    124.28,
-   "?suit and a TIE",
+   "Tom",
    94.34,
    false,
    null
@@ -3473,7 +3468,7 @@
    2013,
    5,
    "yahoo",
-   "?suit and a TIE",
+   "Tom",
    78.76,
    "?2012 champ",
    90.66,
@@ -3519,7 +3514,7 @@
    "yahoo",
    "TuanonStan",
    65.58,
-   "?suit and a TIE",
+   "Tom",
    80.88,
    false,
    null
@@ -3552,7 +3547,7 @@
    "yahoo",
    "triccster",
    103.84,
-   "?suit and a TIE",
+   "Tom",
    71.42,
    false,
    null
@@ -3662,7 +3657,7 @@
    "yahoo",
    "DJ",
    53.84,
-   "?suit and a TIE",
+   "Tom",
    71.24,
    false,
    null
@@ -3739,7 +3734,7 @@
    "yahoo",
    "YoungBuck04",
    96.96,
-   "?suit and a TIE",
+   "Tom",
    98.86,
    false,
    null
@@ -3794,7 +3789,7 @@
    "yahoo",
    "Tyler",
    65.82,
-   "?suit and a TIE",
+   "Tom",
    61.08,
    false,
    null
@@ -3860,7 +3855,7 @@
    "yahoo",
    "Colt45Johnson",
    78.7,
-   "?suit and a TIE",
+   "Tom",
    57.56,
    false,
    null
@@ -3937,7 +3932,7 @@
    "yahoo",
    "J Rock",
    84.2,
-   "?suit and a TIE",
+   "Tom",
    67.38,
    false,
    null
@@ -3981,7 +3976,7 @@
    "yahoo",
    "TuanonStan",
    102.58,
-   "?suit and a TIE",
+   "Tom",
    79.04,
    false,
    null
@@ -4036,7 +4031,7 @@
    "yahoo",
    "RockMNwild",
    87.26,
-   "?suit and a TIE",
+   "Tom",
    72.14,
    true,
    "Consolation"
@@ -4091,7 +4086,7 @@
    "yahoo",
    "TuanonStan",
    97.64,
-   "?suit and a TIE",
+   "Tom",
    80,
    true,
    "Consolation"

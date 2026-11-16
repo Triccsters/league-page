@@ -171,6 +171,26 @@
   }
  },
  {
+  "managerID": "past-brandon",
+  "handle": "Brandon",
+  "name": "Brandon",
+  "photo": "/managers/question.jpg",
+  "avatar": "/managers/question.jpg",
+  "fantasyStart": 2010,
+  "bio": "Played in 2010. Regular season: 5-8. Toughest opponent: Tyler (0-2). No longer in the league.",
+  "past": true,
+  "lastSeason": 2010,
+  "lastTeamName": "Quool",
+  "seasonsPlayed": [
+   2010
+  ],
+  "rival": {
+   "name": "Tyler",
+   "link": null,
+   "image": "/managers/everyone.png"
+  }
+ },
+ {
   "managerID": "past-dj",
   "handle": "DJ",
   "name": "DJ",
@@ -245,12 +265,13 @@
   "photo": "/managers/question.jpg",
   "avatar": "/managers/question.jpg",
   "fantasyStart": 2012,
-  "bio": "Played in 2012. Regular season: 6-5. Toughest opponent: Tyler (0-2). No longer in the league.",
+  "bio": "Played from 2012 to 2013. Regular season: 10-14. Toughest opponent: Tyler (0-3). No longer in the league.",
   "past": true,
-  "lastSeason": 2012,
-  "lastTeamName": "Murphadelic",
+  "lastSeason": 2013,
+  "lastTeamName": "suit and a TIE",
   "seasonsPlayed": [
-   2012
+   2012,
+   2013
   ],
   "rival": {
    "name": "Tyler",
