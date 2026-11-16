@@ -288,7 +288,7 @@ def build_history(cur, state):
             except OSError:
                 continue
             for u in blob["users"]:
-                h = flp.CANON_SLEEPER.get(u["display_name"], u["display_name"])
+                h = flp.handle_for(u)
                 team_names[season][h] = (u.get("metadata") or {}).get("team_name") or u["display_name"]
         for g in flp.games():
             if g.season >= SEASON:
