@@ -136,6 +136,11 @@
         font-size: 0.95em;
     }
 
+    .faint {
+        color: var(--g999, #999);
+        font-size: 0.9em;
+    }
+
     .cardWarn {
         margin-top: 0.4em;
         font-size: 0.85em;
@@ -317,6 +322,81 @@
         </div>
     </div>
 
+    <h3>Who it is not</h3>
+    <p class="intro">
+        A manager holds exactly one team in a season, so everyone whose own team that
+        year is known is out. That part is certain.
+    </p>
+
+    {#each team.bySeasonSuspects as s}
+        <div class="seasonBlock">
+            <div class="seasonHead">
+                <span class="teamName">{s.season}</span>
+                <span class="spacer"></span>
+                <span class="record">{s.ruledOut.length} ruled out</span>
+            </div>
+            <div class="cardLines">
+                <b>Cannot be:</b> {s.ruledOut.join(', ')} — each had his own team in {s.season}.
+                {#if s.otherUnidentified.length}
+                    <br /><b>Also not:</b> {s.otherUnidentified.join(', ')} — other unidentified
+                    teams from {s.season}, so they are other people, whoever they are.
+                {/if}
+                {#if s.inLeagueUnaccounted.length}
+                    <br /><b>Worth asking:</b> {s.inLeagueUnaccounted.join(', ')} —
+                    in the league before and after {s.season}, with no team of
+                    {s.inLeagueUnaccounted.length > 1 ? 'their' : 'his'} own in it. Not proof;
+                    a manager can sit a season out.
+                {/if}
+                {#if s.firstSeenLater.length}
+                    <br /><span class="faint">
+                        First turn up later, so less likely but not impossible:
+                        {s.firstSeenLater.map(x => `${x.name} (${x.from})`).join(', ')}
+                    </span>
+                {/if}
+            </div>
+        </div>
+    {/each}
+
+    {#if team.strongCandidates.length}
+        <p class="caveat">
+            <b>Best lead: {team.strongCandidates.join(', ')}.</b>
+            {team.strongCandidates.length > 1 ? 'Each was' : 'He was'} playing either side of
+            {team.seasons.length > 1 ? 'these seasons' : 'this season'} with no team of
+            {team.strongCandidates.length > 1 ? 'their' : 'his'} own in
+            {team.seasons.length > 1 ? 'any of them' : 'it'}. Worth one question.
+        </p>
+    {:else if team.couldBe.length}
+        <p class="intro">
+            Still open, of the managers we can name: <b>{team.couldBe.join(', ')}</b>.
+            Anyone who joined the league after {team.seasons[team.seasons.length - 1]} is
+            out too, and it may simply be someone who played these years and never
+            appeared under his own name.
+        </p>
+    {/if}
+
+    {#if team.maybeSameManager.some(m => m.sharedDraftPicks.length)}
+        <h3>Could this be another of these teams?</h3>
+        <p class="intro">
+            Only a team from a season this one did not play could be the same manager.
+            Shared draft picks are a hint and nothing more — good players get drafted
+            every year by everyone.
+        </p>
+        <table>
+            <thead>
+                <tr><th>Team</th><th>Seasons</th><th>Players both drafted</th></tr>
+            </thead>
+            <tbody>
+                {#each team.maybeSameManager.filter(m => m.sharedDraftPicks.length) as m}
+                    <tr>
+                        <td><a href="/unclaimed?team={m.slug}">{m.name}</a></td>
+                        <td>{m.seasons.join(', ')}</td>
+                        <td>{m.sharedDraftPicks.join(', ')}</td>
+                    </tr>
+                {/each}
+            </tbody>
+        </table>
+    {/if}
+
     {#if team.topPlayers.length}
         <h3>Who played for this team</h3>
         <p class="intro">Points scored while in this team's starting lineup.</p>
@@ -478,6 +558,12 @@
                 {/if}
                 {#if t.playedMost.length}
                     <br />Played most against {t.playedMost.slice(0, 3).map(f => f.name).join(', ')}
+                {/if}
+                <br /><b>{t.ruledOut.length} managers ruled out.</b>
+                {#if t.strongCandidates.length}
+                    Best lead: {t.strongCandidates.join(', ')}.
+                {:else if t.couldBe.length}
+                    Still open: {t.couldBe.join(', ')}.
                 {/if}
             </div>
         </a>

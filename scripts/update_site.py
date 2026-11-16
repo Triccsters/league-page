@@ -831,6 +831,31 @@ def build_unclaimed(history):
     mgrs = history.get("managers") or {}
     shown = lambda x: (mgrs.get(x) or {}).get("name") or x
 
+    hidden_all = {h for h, m in mgrs.items() if m.get("hidden")}
+    known = {h for h in mgrs if h not in hidden_all}        # people we can name
+    played_in = defaultdict(set)                            # season -> handles that season
+    for g in history["games"]:
+        played_in[g[0]].add(g[3]); played_in[g[0]].add(g[5])
+
+    # first and last season each nameable manager is seen under his own name
+    first_seen, last_seen = {}, {}
+    for g in history["games"]:
+        for who in (g[3], g[5]):
+            if who in known:
+                first_seen[who] = min(first_seen.get(who, 9999), g[0])
+                last_seen[who] = max(last_seen.get(who, 0), g[0])
+
+    def unaccounted(season):
+        """Managers identified in an EARLIER and a LATER season who have no team of their
+        own in this one. The best lead the data offers, but NOT proof: a manager can sit
+        a season out and come back. Treat it as "worth asking him", not as a conclusion.
+        The airtight part is the ruled-out list, which rests on one team per person per
+        season."""
+        return sorted((k for k in known
+                       if k not in played_in[season]
+                       and first_seen.get(k, 9999) < season < last_seen.get(k, 0)),
+                      key=lambda x: real_name(x).lower())
+
     # Who played for these teams. Both files cover the Yahoo era and these handles, and
     # both are written by extras.build_all, which is why the call to this function sits
     # after extras in main(). Missing files just mean the sections are left out.
@@ -919,6 +944,56 @@ def build_unclaimed(history):
                            if o != h][:8],
             "bySeason": by_season,
         })
+    # --- who each team cannot be, and who is left ------------------------------------
+    # A person holds one team per season, so anyone identified in a season is ruled out
+    # for every unidentified team in it, and the other unidentified teams in that season
+    # are certainly other people. A team listed in two seasons has to clear both.
+    by_slug = {t["slug"]: t for t in teams}
+    for t in teams:
+        h, mine = t["handle"], set(t["seasons"])
+        out_by_season, same_season = [], []
+        for s in t["seasons"]:
+            ident = sorted(played_in[s] & known, key=lambda x: real_name(x).lower())
+            others = sorted((played_in[s] & hidden_all) - {h}, key=lambda x: shown(x).lower())
+            gap = unaccounted(s)
+            later = sorted((k for k in known if first_seen.get(k, 9999) > s),
+                           key=lambda x: real_name(x).lower())
+            out_by_season.append({"season": s,
+                                  "ruledOut": [real_name(x) for x in ident],
+                                  "otherUnidentified": [shown(x) for x in others],
+                                  "inLeagueUnaccounted": [real_name(x) for x in gap],
+                                  "firstSeenLater": [{"name": real_name(x), "from": first_seen[x]}
+                                                     for x in later]})
+            same_season += others
+        ruled = set()
+        for s in t["seasons"]:
+            ruled |= (played_in[s] & known)
+        # known members with no team of their own in any of this team's seasons
+        could = sorted(known - ruled, key=lambda x: real_name(x).lower())
+
+        # Could another unidentified team be the same manager? Only one in a season this
+        # team did not play, since two in the same season cannot be one person.
+        maybe = []
+        for other in teams:
+            if other["handle"] == h or (set(other["seasons"]) & mine):
+                continue
+            mine_picks = {p["player"] for d in t["draft"] for p in d["picks"]}
+            their_picks = {p["player"] for d in other["draft"] for p in d["picks"]}
+            maybe.append({"slug": other["slug"], "name": other["name"],
+                          "seasons": other["seasons"],
+                          "sharedDraftPicks": sorted(mine_picks & their_picks)})
+        maybe.sort(key=lambda m: (-len(m["sharedDraftPicks"]), m["name"]))
+
+        # someone unaccounted for in every one of this team's seasons is the best lead
+        strong = set.intersection(*[set(unaccounted(s)) for s in t["seasons"]]) if t["seasons"] else set()
+        t["strongCandidates"] = [real_name(x) for x in
+                                 sorted(strong, key=lambda x: real_name(x).lower())]
+        t["bySeasonSuspects"] = out_by_season
+        t["ruledOut"] = [real_name(x) for x in sorted(ruled, key=lambda x: real_name(x).lower())]
+        t["couldBe"] = [real_name(x) for x in could]
+        t["certainlyNot"] = sorted({shown(x) for x in same_season})
+        t["maybeSameManager"] = maybe
+
     slugs = [t["slug"] for t in teams]
     for t in teams:                      # a duplicate slug would make two pages collide
         if slugs.count(t["slug"]) > 1:

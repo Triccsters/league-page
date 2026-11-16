@@ -489,6 +489,163 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [
+   "DJ"
+  ],
+  "bySeasonSuspects": [
+   {
+    "season": 2012,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "J Rock",
+     "James",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "2012 champ",
+     "bELIeve No More",
+     "Murphadelic",
+     "PackNation"
+    ],
+    "inLeagueUnaccounted": [
+     "DJ"
+    ],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "Buckley",
+   "J Rock",
+   "James",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Colt",
+   "DJ",
+   "Joey",
+   "John",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "2012 champ",
+   "Murphadelic",
+   "PackNation",
+   "bELIeve No More"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "broncos",
+    "name": "Broncos",
+    "seasons": [
+     2008,
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Maurice Jones-Drew"
+    ]
+   },
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Steven Jackson"
+    ]
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Robert Meachem"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Maurice Jones-Drew"
+    ]
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -1237,6 +1394,195 @@
       "label": "5th place"
      }
     ]
+   }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2012,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "J Rock",
+     "James",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "0 Breaks Given",
+     "bELIeve No More",
+     "Murphadelic",
+     "PackNation"
+    ],
+    "inLeagueUnaccounted": [
+     "DJ"
+    ],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   },
+   {
+    "season": 2013,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "Colt",
+     "DJ",
+     "J Rock",
+     "James",
+     "John",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "suit and a TIE"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "Buckley",
+   "Colt",
+   "DJ",
+   "J Rock",
+   "James",
+   "John",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Joey",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "0 Breaks Given",
+   "Murphadelic",
+   "PackNation",
+   "bELIeve No More",
+   "suit and a TIE"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Malcom Floyd"
+    ]
+   },
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Ravens"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Eli Manning"
+    ]
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Phil Dawson"
+    ]
+   },
+   {
+    "slug": "broncos",
+    "name": "Broncos",
+    "seasons": [
+     2008,
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
    }
   ]
  },
@@ -1994,6 +2340,216 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2008,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "T.J."
+    ],
+    "otherUnidentified": [
+     "kicked out next year",
+     "vikes"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Mitchell",
+      "from": 2010
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     },
+     {
+      "name": "Tyler",
+      "from": 2010
+     }
+    ]
+   },
+   {
+    "season": 2010,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "Mitchell",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "da best",
+     "Minnesota 69ers",
+     "Quool",
+     "The Guru's"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "Mitchell",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "Minnesota 69ers",
+   "Quool",
+   "The Guru's",
+   "da best",
+   "kicked out next year",
+   "vikes"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Greg Jennings",
+     "Matthew Stafford",
+     "Packers"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Maurice Jones-Drew"
+    ]
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Steve Breaston"
+    ]
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Greg Jennings"
+    ]
+   },
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -2480,6 +3036,167 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2010,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "Mitchell",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "Broncos",
+     "da best",
+     "Quool",
+     "The Guru's"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "Mitchell",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "Broncos",
+   "Quool",
+   "The Guru's",
+   "da best"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Malcom Floyd"
+    ]
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Matt Ryan"
+    ]
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Matt Ryan"
+    ]
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Lee Evans"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -2963,6 +3680,166 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [
+   "DJ"
+  ],
+  "bySeasonSuspects": [
+   {
+    "season": 2012,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "J Rock",
+     "James",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "0 Breaks Given",
+     "2012 champ",
+     "bELIeve No More",
+     "PackNation"
+    ],
+    "inLeagueUnaccounted": [
+     "DJ"
+    ],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "Buckley",
+   "J Rock",
+   "James",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Colt",
+   "DJ",
+   "Joey",
+   "John",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "0 Breaks Given",
+   "2012 champ",
+   "PackNation",
+   "bELIeve No More"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": [
+     "James Jones",
+     "Joe Flacco"
+    ]
+   },
+   {
+    "slug": "broncos",
+    "name": "Broncos",
+    "seasons": [
+     2008,
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Steve Breaston"
+    ]
+   },
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Rob Bironas"
+    ]
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Toby Gerhart"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Jonathan Stewart"
+    ]
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -3443,6 +4320,172 @@
       "label": "Consolation"
      }
     ]
+   }
+  ],
+  "strongCandidates": [
+   "DJ"
+  ],
+  "bySeasonSuspects": [
+   {
+    "season": 2012,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "J Rock",
+     "James",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "0 Breaks Given",
+     "2012 champ",
+     "bELIeve No More",
+     "Murphadelic"
+    ],
+    "inLeagueUnaccounted": [
+     "DJ"
+    ],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "Buckley",
+   "J Rock",
+   "James",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Colt",
+   "DJ",
+   "Joey",
+   "John",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "0 Breaks Given",
+   "2012 champ",
+   "Murphadelic",
+   "bELIeve No More"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "broncos",
+    "name": "Broncos",
+    "seasons": [
+     2008,
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Greg Jennings",
+     "Matthew Stafford",
+     "Packers"
+    ]
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Greg Jennings",
+     "Matt Ryan"
+    ]
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Matt Ryan"
+    ]
+   },
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Ben Roethlisberger"
+    ]
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Mason Crosby"
+    ]
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Ryan Mathews"
+    ]
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Ben Roethlisberger"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
    }
   ]
  },
@@ -3930,6 +4973,174 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2010,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "Mitchell",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "Broncos",
+     "da best",
+     "Minnesota 69ers",
+     "The Guru's"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "Mitchell",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "Broncos",
+   "Minnesota 69ers",
+   "The Guru's",
+   "da best"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Ben Roethlisberger",
+     "Jason Witten",
+     "Marion Barber"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Hines Ward",
+     "Joey Galloway"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Steven Jackson"
+    ]
+   },
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Ravens"
+    ]
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Rob Bironas"
+    ]
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Ben Roethlisberger"
+    ]
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -4404,6 +5615,168 @@
       "label": "Consolation"
      }
     ]
+   }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2010,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "Mitchell",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "Broncos",
+     "da best",
+     "Minnesota 69ers",
+     "Quool"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "Mitchell",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "Broncos",
+   "Minnesota 69ers",
+   "Quool",
+   "da best"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Jets",
+     "Ronnie Brown"
+    ]
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Mason Crosby"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Tony Gonzalez"
+    ]
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Ronnie Brown"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": []
    }
   ]
  },
@@ -4897,6 +6270,165 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [
+   "DJ"
+  ],
+  "bySeasonSuspects": [
+   {
+    "season": 2012,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "J Rock",
+     "James",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "0 Breaks Given",
+     "2012 champ",
+     "Murphadelic",
+     "PackNation"
+    ],
+    "inLeagueUnaccounted": [
+     "DJ"
+    ],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "Buckley",
+   "J Rock",
+   "James",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Colt",
+   "DJ",
+   "Joey",
+   "John",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "0 Breaks Given",
+   "2012 champ",
+   "Murphadelic",
+   "PackNation"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Jets",
+     "Ronnie Brown"
+    ]
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Marques Colston",
+     "Ronnie Brown"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Stephen Gostkowski"
+    ]
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Greg Olsen"
+    ]
+   },
+   {
+    "slug": "broncos",
+    "name": "Broncos",
+    "seasons": [
+     2008,
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -5371,6 +6903,167 @@
       "label": "Consolation"
      }
     ]
+   }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2010,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "Mitchell",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "Broncos",
+     "Minnesota 69ers",
+     "Quool",
+     "The Guru's"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "Mitchell",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "Broncos",
+   "Minnesota 69ers",
+   "Quool",
+   "The Guru's"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Robert Meachem"
+    ]
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Toby Gerhart"
+    ]
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Ryan Mathews"
+    ]
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": [
+     "Vikings"
+    ]
+   },
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
    }
   ]
  },
@@ -5857,6 +7550,192 @@
      }
     ]
    }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2008,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "T.J."
+    ],
+    "otherUnidentified": [
+     "Broncos",
+     "vikes"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Mitchell",
+      "from": 2010
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     },
+     {
+      "name": "Tyler",
+      "from": 2010
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "T.J."
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott",
+   "Tyler"
+  ],
+  "certainlyNot": [
+   "Broncos",
+   "vikes"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Hines Ward",
+     "Joey Galloway"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Maurice Jones-Drew"
+    ]
+   },
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Eli Manning"
+    ]
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Jonathan Stewart"
+    ]
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Tony Gonzalez"
+    ]
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Stephen Gostkowski"
+    ]
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Vikings"
+    ]
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": []
+   }
   ]
  },
  {
@@ -6337,6 +8216,176 @@
       "label": "Consolation"
      }
     ]
+   }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2013,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "Buckley",
+     "Colt",
+     "DJ",
+     "J Rock",
+     "James",
+     "John",
+     "T.J.",
+     "Tyler"
+    ],
+    "otherUnidentified": [
+     "2012 champ"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "Buckley",
+   "Colt",
+   "DJ",
+   "J Rock",
+   "James",
+   "John",
+   "T.J.",
+   "Tyler"
+  ],
+  "couldBe": [
+   "Anthony",
+   "Joey",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott"
+  ],
+  "certainlyNot": [
+   "2012 champ"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "James Jones",
+     "Joe Flacco"
+    ]
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Greg Jennings",
+     "Matt Ryan"
+    ]
+   },
+   {
+    "slug": "broncos",
+    "name": "Broncos",
+    "seasons": [
+     2008,
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Greg Jennings"
+    ]
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Matt Ryan"
+    ]
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Greg Olsen"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "kicked-out-next-year",
+    "name": "kicked out next year",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "vikes",
+    "name": "vikes",
+    "seasons": [
+     2008
+    ],
+    "sharedDraftPicks": []
    }
   ]
  },
@@ -6822,6 +8871,192 @@
       "label": "Consolation"
      }
     ]
+   }
+  ],
+  "strongCandidates": [],
+  "bySeasonSuspects": [
+   {
+    "season": 2008,
+    "ruledOut": [
+     "Austin",
+     "Brett",
+     "DJ",
+     "J Rock",
+     "T.J."
+    ],
+    "otherUnidentified": [
+     "Broncos",
+     "kicked out next year"
+    ],
+    "inLeagueUnaccounted": [],
+    "firstSeenLater": [
+     {
+      "name": "Anthony",
+      "from": 2018
+     },
+     {
+      "name": "Buckley",
+      "from": 2012
+     },
+     {
+      "name": "Colt",
+      "from": 2013
+     },
+     {
+      "name": "James",
+      "from": 2012
+     },
+     {
+      "name": "Joey",
+      "from": 2014
+     },
+     {
+      "name": "John",
+      "from": 2013
+     },
+     {
+      "name": "Mikey",
+      "from": 2017
+     },
+     {
+      "name": "Mitchell",
+      "from": 2010
+     },
+     {
+      "name": "Nase",
+      "from": 2014
+     },
+     {
+      "name": "Scott",
+      "from": 2014
+     },
+     {
+      "name": "Tyler",
+      "from": 2010
+     }
+    ]
+   }
+  ],
+  "ruledOut": [
+   "Austin",
+   "Brett",
+   "DJ",
+   "J Rock",
+   "T.J."
+  ],
+  "couldBe": [
+   "Anthony",
+   "Buckley",
+   "Colt",
+   "James",
+   "Joey",
+   "John",
+   "Mikey",
+   "Mitchell",
+   "Nase",
+   "Scott",
+   "Tyler"
+  ],
+  "certainlyNot": [
+   "Broncos",
+   "kicked out next year"
+  ],
+  "maybeSameManager": [
+   {
+    "slug": "quool",
+    "name": "Quool",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Ben Roethlisberger",
+     "Jason Witten",
+     "Marion Barber"
+    ]
+   },
+   {
+    "slug": "believe-no-more",
+    "name": "bELIeve No More",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Marques Colston",
+     "Ronnie Brown"
+    ]
+   },
+   {
+    "slug": "2012-champ",
+    "name": "2012 champ",
+    "seasons": [
+     2012,
+     2013
+    ],
+    "sharedDraftPicks": [
+     "Phil Dawson"
+    ]
+   },
+   {
+    "slug": "minnesota-69ers",
+    "name": "Minnesota 69ers",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Lee Evans"
+    ]
+   },
+   {
+    "slug": "packnation",
+    "name": "PackNation",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": [
+     "Ben Roethlisberger"
+    ]
+   },
+   {
+    "slug": "the-guru-s",
+    "name": "The Guru's",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": [
+     "Ronnie Brown"
+    ]
+   },
+   {
+    "slug": "0-breaks-given",
+    "name": "0 Breaks Given",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "murphadelic",
+    "name": "Murphadelic",
+    "seasons": [
+     2012
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "da-best",
+    "name": "da best",
+    "seasons": [
+     2010
+    ],
+    "sharedDraftPicks": []
+   },
+   {
+    "slug": "suit-and-a-tie",
+    "name": "suit and a TIE",
+    "seasons": [
+     2013
+    ],
+    "sharedDraftPicks": []
    }
   ]
  }
