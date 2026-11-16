@@ -818,6 +818,66 @@ def _past_managers(history, index):
     return out
 
 
+def build_vetoed(history, vault_manual):
+    """vetoed_trades.json: trades the league killed, from the Yahoo years.
+
+    Source is the vault's _yahoo_vetoed_trades.json, read 2026-11-16 from Yahoo's
+    transaction log (Trades filter) for 2008/2010/2012/2013 and from the archived
+    2016_transactions.csv. Ten exist in all - nine in 2012, one in 2016 - and that
+    is the complete set for every Yahoo season the league ran.
+
+    Only the vault has the source file, so a build without it LEAVES THE COMMITTED
+    FILE ALONE rather than writing an empty one. That is why there is no `or {}`
+    fallback here: an absent vault must not look like "no vetoed trades".
+
+    Team names resolve to handles through history's team_names, which covers every
+    season, so the 2016 entry works the same way as the pre-2014 ones.
+    """
+    src = read_json(os.path.join(vault_manual, "_yahoo_vetoed_trades.json"), None)
+    if not src:
+        return "no vault file, kept what is committed"
+
+    names = history.get("team_names") or {}
+
+    def handle_for(season, team):
+        for key in (season, str(season)):
+            for h, v in (names.get(key) or {}).items():
+                if v == team:
+                    return h
+        return None
+
+    trades, by_mgr, by_season = [], defaultdict(int), defaultdict(int)
+    unresolved = []
+    for t in src.get("vetoed") or []:
+        season, sides = t["season"], []
+        for s in t["sides"]:
+            h = handle_for(season, s["team"])
+            if h is None:
+                unresolved.append(f'{t["id"]} {s["team"]}')
+            else:
+                by_mgr[h] += 1
+            sides.append({"handle": h, "name": real_name(h) if h else None,
+                          "team": s["team"], "got": s["got"]})
+        by_season[season] += 1
+        row = {"id": t["id"], "season": season, "when": t["when"], "sides": sides}
+        for extra in ("resubmitted", "lore"):
+            if t.get(extra):
+                row[extra] = t[extra]
+        trades.append(row)
+
+    write_json(os.path.join(DATA, "vetoed_trades.json"), {
+        "count": len(trades),
+        "bySeason": {str(k): v for k, v in sorted(by_season.items())},
+        "byManager": dict(sorted(by_mgr.items(), key=lambda kv: -kv[1])),
+        "trades": trades,
+        "note": src.get("coverage", ""),
+    })
+    msg = f"{len(trades)} vetoed trades"
+    if unresolved:
+        msg += f" - UNRESOLVED TEAM NAMES: {', '.join(unresolved)}"
+    return msg
+
+
 def build_unclaimed(history):
     """unclaimed.json: the team-seasons whose manager was never identified.
 
@@ -1119,6 +1179,11 @@ def main():
     print("extras:", extras.build_all(ctx))
     # after extras, which writes the players and draft files unclaimed.json quotes
     print(f"unclaimed.json: {len(build_unclaimed(history))} unidentified teams")
+    # FL Players only: the vetoed trades are that league's Yahoo history, and the other
+    # repos share this vault path without sharing the team names, so an ungated run
+    # would write a file of nulls for them.
+    if HISTORY_SOURCE == "vault":
+        print("vetoed_trades.json:", build_vetoed(history, VAULT_MANUAL))
     # Across the Leagues (2026-10-14): reads the other Sleeper repos' history.json
     try:
         import crossleague

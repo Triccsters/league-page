@@ -990,10 +990,39 @@ def trade_drama(C):
                  ["Team", "Trades", "Vetoed", "Offers turned down", "Claims missed"], rows)]
 
 
+def yahoo_vetoes(C):
+    """Trades the league voted down, from the Yahoo years.
+
+    Reads vetoed_trades.json, which update_site.build_vetoed writes from the vault's
+    _yahoo_vetoed_trades.json. That file is committed, so this card still renders on a
+    machine that has no vault.
+
+    Ten exist in the whole Yahoo history - nine in 2012, one in 2016 - and the trade
+    page only ever showed deals that went through, so these appear nowhere else on the
+    site. Three of the 2012 nine were resubmitted and passed; that is the "Then what"
+    column, left blank where nothing came of it.
+    """
+    path = os.path.join(C.repo, "src", "lib", "data", "vetoed_trades.json")
+    v = C.read_json(path, None) or {}
+    rows = []
+    for t in v.get("trades") or []:
+        sides = t.get("sides") or []
+        if len(sides) != 2:
+            continue
+        who = " and ".join(T(s["handle"]) if s.get("handle") else s["team"] for s in sides)
+        blocked = " for ".join(", ".join(s.get("got") or []) for s in sides)
+        rows.append([str(t["season"]), who, blocked, t.get("resubmitted", "")])
+    return [card("vetoes", "Trades the league killed",
+                 "Every vetoed trade in the league's Yahoo years. Nine came in 2012, seven of "
+                 "them DJ's. The tenth is from 2016: T.J. and Austin had a deal blocked in week 5, "
+                 "and Austin went on to win the title that season.",
+                 ["Season", "Between", "What was blocked", "Then what"], rows)]
+
+
 # ------------------------------------------------------------ build
 # names_log on in every league (T.J., 2026-10-14: crude names are fine)
 LEAGUE_SPECIALS = {
-    "league-page": ["kicker_file", "board_duty", "draft_report", "names_log"],
+    "league-page": ["kicker_file", "board_duty", "draft_report", "names_log", "yahoo_vetoes"],
     "league-fl-evolution": ["names_log"],
     "league-lets-go-brandon": ["names_log"],
     "league-megalabowl": ["median_misery", "qb_race", "firsts", "names_log"],
@@ -1018,7 +1047,8 @@ def build_trackers(ctx, drafts=None, waivers=None):
     C.drafts = drafts
     repo_name = os.path.basename(C.repo)
     fns = {f.__name__: f for f in (kicker_file, board_duty, draft_report, names_log,
-                                     median_misery, qb_race, firsts, trade_drama)}
+                                     median_misery, qb_race, firsts, trade_drama,
+                                     yahoo_vetoes)}
     groups = []
 
     def group(gid, title, intro, make):

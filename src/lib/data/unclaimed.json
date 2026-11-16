@@ -401,8 +401,8 @@
     "l": 1
    },
    {
-    "opponent": "?PackNation",
-    "name": "PackNation",
+    "opponent": "DJ",
+    "name": "DJ",
     "w": 2,
     "l": 0
    },
@@ -450,8 +450,8 @@
      },
      {
       "week": 3,
-      "opponent": "?PackNation",
-      "opponentName": "PackNation",
+      "opponent": "DJ",
+      "opponentName": "DJ",
       "score": 92,
       "opponentScore": 58,
       "result": "W",
@@ -540,8 +540,8 @@
      },
      {
       "week": 12,
-      "opponent": "?PackNation",
-      "opponentName": "PackNation",
+      "opponent": "DJ",
+      "opponentName": "DJ",
       "score": 103,
       "opponentScore": 51,
       "result": "W",
@@ -756,6 +756,7 @@
      "Brett",
      "Buckley",
      "Colt",
+     "DJ",
      "J Rock",
      "James",
      "John",
@@ -763,12 +764,8 @@
      "Tom",
      "Tyler"
     ],
-    "otherUnidentified": [
-     "PackNation"
-    ],
-    "inLeagueUnaccounted": [
-     "DJ"
-    ],
+    "otherUnidentified": [],
+    "inLeagueUnaccounted": [],
     "firstSeenLater": [
      {
       "name": "Joey",
@@ -827,9 +824,7 @@
    "Joey",
    "Scott"
   ],
-  "certainlyNot": [
-   "PackNation"
-  ],
+  "certainlyNot": [],
   "maybeSameManager": [
    {
     "slug": "minnesota-69ers",
@@ -1458,16 +1453,6 @@
     ]
    },
    {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Matt Ryan"
-    ]
-   },
-   {
     "slug": "vikes",
     "name": "vikes",
     "seasons": [
@@ -2063,610 +2048,6 @@
     "sharedDraftPicks": [
      "Jerricho Cotchery"
     ]
-   },
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
-   }
-  ]
- },
- {
-  "slug": "packnation",
-  "handle": "?PackNation",
-  "name": "PackNation",
-  "seasons": [
-   2012
-  ],
-  "record": "2-11",
-  "gamesPlayed": 15,
-  "pointsFor": 1035.0,
-  "pointsAgainst": 1410.0,
-  "titles": [],
-  "finalsLost": [],
-  "playoffSeasons": [],
-  "teamNames": [
-   "PackNation"
-  ],
-  "bestWeek": {
-   "week": 7,
-   "opponent": "Colt45Johnson",
-   "opponentName": "Colt",
-   "score": 97,
-   "opponentScore": 101,
-   "result": "L",
-   "playoff": false,
-   "label": null
-  },
-  "worstWeek": {
-   "week": 13,
-   "opponent": "J Rock",
-   "opponentName": "J Rock",
-   "score": 45,
-   "opponentScore": 90,
-   "result": "L",
-   "playoff": false,
-   "label": null
-  },
-  "topPlayers": [
-   {
-    "name": "Matt Ryan",
-    "pos": "QB",
-    "points": 233.0,
-    "starts": 13,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Packers",
-    "pos": "DEF",
-    "points": 116.0,
-    "starts": 15,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Chris Johnson",
-    "pos": "RB",
-    "points": 105.0,
-    "starts": 7,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Mason Crosby",
-    "pos": "K",
-    "points": 99.0,
-    "starts": 15,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Shonn Greene",
-    "pos": "RB",
-    "points": 95.0,
-    "starts": 11,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Dwayne Bowe",
-    "pos": "WR",
-    "points": 48.0,
-    "starts": 8,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Davone Bess",
-    "pos": "WR",
-    "points": 40.0,
-    "starts": 7,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Steve Smith",
-    "pos": "WR",
-    "points": 39.0,
-    "starts": 6,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Frank Gore",
-    "pos": "RB",
-    "points": 37.0,
-    "starts": 3,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Matthew Stafford",
-    "pos": "QB",
-    "points": 30.0,
-    "starts": 2,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Scott Chandler",
-    "pos": "TE",
-    "points": 25.0,
-    "starts": 5,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Greg Jennings",
-    "pos": "WR",
-    "points": 23.0,
-    "starts": 7,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Percy Harvin",
-    "pos": "WR",
-    "points": 21.0,
-    "starts": 2,
-    "seasons": [
-     2012
-    ]
-   },
-   {
-    "name": "Pierre Garcon",
-    "pos": "WR",
-    "points": 20.0,
-    "starts": 2,
-    "seasons": [
-     2012
-    ]
-   }
-  ],
-  "draft": [
-   {
-    "season": 2012,
-    "picks": [
-     {
-      "round": 1,
-      "pick": 8,
-      "player": "Matthew Stafford",
-      "pos": "QB"
-     },
-     {
-      "round": 2,
-      "pick": 5,
-      "player": "Greg Jennings",
-      "pos": "WR"
-     },
-     {
-      "round": 3,
-      "pick": 8,
-      "player": "Ryan Mathews",
-      "pos": "RB"
-     },
-     {
-      "round": 4,
-      "pick": 5,
-      "player": "Jordy Nelson",
-      "pos": "WR"
-     },
-     {
-      "round": 5,
-      "pick": 8,
-      "player": "BenJarvus Green-Ellis",
-      "pos": "RB"
-     },
-     {
-      "round": 6,
-      "pick": 5,
-      "player": "Matt Ryan",
-      "pos": "QB"
-     },
-     {
-      "round": 7,
-      "pick": 8,
-      "player": "Ben Roethlisberger",
-      "pos": "QB"
-     },
-     {
-      "round": 8,
-      "pick": 5,
-      "player": "Packers",
-      "pos": "DEF"
-     },
-     {
-      "round": 9,
-      "pick": 8,
-      "player": "Mason Crosby",
-      "pos": "K"
-     },
-     {
-      "round": 10,
-      "pick": 5,
-      "player": "Coby Fleener",
-      "pos": "TE"
-     },
-     {
-      "round": 11,
-      "pick": 8,
-      "player": "Peyton Hillis",
-      "pos": "RB"
-     },
-     {
-      "round": 12,
-      "pick": 5,
-      "player": "Darrius Heyward-Bey",
-      "pos": "WR"
-     },
-     {
-      "round": 13,
-      "pick": 8,
-      "player": "Dustin Keller",
-      "pos": "TE"
-     },
-     {
-      "round": 14,
-      "pick": 5,
-      "player": "Bernard Scott",
-      "pos": ""
-     },
-     {
-      "round": 15,
-      "pick": 8,
-      "player": "Rueben Randle",
-      "pos": "WR"
-     }
-    ]
-   }
-  ],
-  "playedMost": [
-   {
-    "opponent": "RockMNwild",
-    "name": "Austin",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "TuanonStan",
-    "name": "James",
-    "w": 1,
-    "l": 1
-   },
-   {
-    "opponent": "?2012 champ",
-    "name": "2012 champ",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "J Rock",
-    "name": "J Rock",
-    "w": 0,
-    "l": 2
-   },
-   {
-    "opponent": "YoungBuck04",
-    "name": "Buckley",
-    "w": 1,
-    "l": 0
-   },
-   {
-    "opponent": "brettmn13",
-    "name": "Brett",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "Colt45Johnson",
-    "name": "Colt",
-    "w": 0,
-    "l": 1
-   },
-   {
-    "opponent": "triccster",
-    "name": "T.J.",
-    "w": 0,
-    "l": 1
-   }
-  ],
-  "bySeason": [
-   {
-    "season": 2012,
-    "teamName": "PackNation",
-    "record": "2-11",
-    "pointsFor": 1035.0,
-    "pointsAgainst": 1410.0,
-    "madePlayoffs": false,
-    "playoffResults": [
-     "Consolation",
-     "Consolation"
-    ],
-    "wonTitle": false,
-    "lostFinal": false,
-    "games": [
-     {
-      "week": 1,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 83,
-      "opponentScore": 91,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 2,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 86,
-      "opponentScore": 77,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 3,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 58,
-      "opponentScore": 92,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 4,
-      "opponent": "YoungBuck04",
-      "opponentName": "Buckley",
-      "score": 94,
-      "opponentScore": 91,
-      "result": "W",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 5,
-      "opponent": "brettmn13",
-      "opponentName": "Brett",
-      "score": 48,
-      "opponentScore": 99,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 6,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 79,
-      "opponentScore": 94,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 7,
-      "opponent": "Colt45Johnson",
-      "opponentName": "Colt",
-      "score": 97,
-      "opponentScore": 101,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 8,
-      "opponent": "RockMNwild",
-      "opponentName": "Austin",
-      "score": 84,
-      "opponentScore": 110,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 9,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 67,
-      "opponentScore": 121,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 10,
-      "opponent": "Tom",
-      "opponentName": "Tom",
-      "score": 69,
-      "opponentScore": 80,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 11,
-      "opponent": "TuanonStan",
-      "opponentName": "James",
-      "score": 53,
-      "opponentScore": 63,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 12,
-      "opponent": "?2012 champ",
-      "opponentName": "2012 champ",
-      "score": 51,
-      "opponentScore": 103,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 13,
-      "opponent": "J Rock",
-      "opponentName": "J Rock",
-      "score": 45,
-      "opponentScore": 90,
-      "result": "L",
-      "playoff": false,
-      "label": null
-     },
-     {
-      "week": 14,
-      "opponent": "Wallner",
-      "opponentName": "John",
-      "score": 71,
-      "opponentScore": 115,
-      "result": "L",
-      "playoff": true,
-      "label": "Consolation"
-     },
-     {
-      "week": 15,
-      "opponent": "triccster",
-      "opponentName": "T.J.",
-      "score": 50,
-      "opponentScore": 83,
-      "result": "L",
-      "playoff": true,
-      "label": "Consolation"
-     }
-    ]
-   }
-  ],
-  "strongCandidates": [
-   "DJ"
-  ],
-  "bySeasonSuspects": [
-   {
-    "season": 2012,
-    "ruledOut": [
-     "Austin",
-     "Brett",
-     "Buckley",
-     "Colt",
-     "J Rock",
-     "James",
-     "John",
-     "T.J.",
-     "Tom",
-     "Tyler"
-    ],
-    "otherUnidentified": [
-     "2012 champ"
-    ],
-    "inLeagueUnaccounted": [
-     "DJ"
-    ],
-    "firstSeenLater": [
-     {
-      "name": "Joey",
-      "from": 2014
-     },
-     {
-      "name": "Scott",
-      "from": 2014
-     }
-    ]
-   }
-  ],
-  "ruledOut": [
-   "Austin",
-   "Brett",
-   "Buckley",
-   "Colt",
-   "J Rock",
-   "James",
-   "John",
-   "T.J.",
-   "Tom",
-   "Tyler"
-  ],
-  "couldBe": [
-   "Brandon",
-   "DJ",
-   "Joey",
-   "Scott"
-  ],
-  "certainlyNot": [
-   "2012 champ"
-  ],
-  "maybeSameManager": [
-   {
-    "slug": "minnesota-69ers",
-    "name": "Minnesota 69ers",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Matt Ryan"
-    ]
-   },
-   {
-    "slug": "the-guru-s",
-    "name": "The Guru's",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Mason Crosby"
-    ]
-   },
-   {
-    "slug": "da-best",
-    "name": "da best",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": [
-     "Ryan Mathews"
-    ]
-   },
-   {
-    "slug": "vikes",
-    "name": "vikes",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": [
-     "Ben Roethlisberger"
-    ]
-   },
-   {
-    "slug": "mitches-bitches",
-    "name": "Mitches bitches",
-    "seasons": [
-     2010
-    ],
-    "sharedDraftPicks": []
-   },
-   {
-    "slug": "kicked-out-next-year",
-    "name": "kicked out next year",
-    "seasons": [
-     2008
-    ],
-    "sharedDraftPicks": []
    }
   ]
  },
@@ -3216,16 +2597,6 @@
    "da best"
   ],
   "maybeSameManager": [
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Mason Crosby"
-    ]
-   },
    {
     "slug": "kicked-out-next-year",
     "name": "kicked out next year",
@@ -3803,16 +3174,6 @@
    "The Guru's"
   ],
   "maybeSameManager": [
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Ryan Mathews"
-    ]
-   },
    {
     "slug": "kicked-out-next-year",
     "name": "kicked out next year",
@@ -4448,14 +3809,6 @@
      2010
     ],
     "sharedDraftPicks": []
-   },
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": []
    }
   ]
  },
@@ -5046,16 +4399,6 @@
     ],
     "sharedDraftPicks": [
      "Jerricho Cotchery"
-    ]
-   },
-   {
-    "slug": "packnation",
-    "name": "PackNation",
-    "seasons": [
-     2012
-    ],
-    "sharedDraftPicks": [
-     "Ben Roethlisberger"
     ]
    },
    {

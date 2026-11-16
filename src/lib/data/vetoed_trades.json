@@ -1,0 +1,280 @@
+{
+ "count": 10,
+ "bySeason": {
+  "2012": 9,
+  "2016": 1
+ },
+ "byManager": {
+  "DJ": 7,
+  "Colt45Johnson": 3,
+  "YoungBuck04": 3,
+  "RockMNwild": 3,
+  "Tyler": 1,
+  "Wallner": 1,
+  "TuanonStan": 1,
+  "triccster": 1
+ },
+ "trades": [
+  {
+   "id": "2012-v1",
+   "season": 2012,
+   "when": "Nov 14, 11:41 pm",
+   "sides": [
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Rashad Jennings",
+      "Maurice Jones-Drew",
+      "Torrey Smith"
+     ]
+    },
+    {
+     "handle": "Tyler",
+     "name": "Tyler",
+     "team": "R. Corn on the Cobbs",
+     "got": [
+      "Titus Young",
+      "Chris Johnson"
+     ]
+    }
+   ],
+   "resubmitted": "Passed on Nov 17 as the same three-for-two."
+  },
+  {
+   "id": "2012-v2",
+   "season": 2012,
+   "when": "Nov 14, 11:41 pm",
+   "sides": [
+    {
+     "handle": "Wallner",
+     "name": "John",
+     "team": "0 Breaks Given",
+     "got": [
+      "Shonn Greene"
+     ]
+    },
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Marcel Reece",
+      "Donald Brown"
+     ]
+    }
+   ],
+   "resubmitted": "Passed on Nov 19, enlarged to include Philip Rivers, Mike Wallace and Matthew Stafford."
+  },
+  {
+   "id": "2012-v3",
+   "season": 2012,
+   "when": "Nov 14, 11:32 pm",
+   "sides": [
+    {
+     "handle": "TuanonStan",
+     "name": "James",
+     "team": "Lets Hug It Out",
+     "got": [
+      "Matt Forte",
+      "Andre Roberts",
+      "Danny Woodhead"
+     ]
+    },
+    {
+     "handle": "Colt45Johnson",
+     "name": "Colt",
+     "team": "bELIeve No More",
+     "got": [
+      "Willis McGahee",
+      "Brandon Lloyd"
+     ]
+    }
+   ],
+   "resubmitted": "Passed on Nov 18, trimmed to Forte and Jermichael Finley."
+  },
+  {
+   "id": "2012-v4",
+   "season": 2012,
+   "when": "Nov 14, 11:32 pm",
+   "sides": [
+    {
+     "handle": "YoungBuck04",
+     "name": "Buckley",
+     "team": "The Bucktactic",
+     "got": [
+      "Greg Jennings"
+     ]
+    },
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Darrius Heyward-Bey"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2012-v5",
+   "season": 2012,
+   "when": "Nov 14, 11:18 pm",
+   "sides": [
+    {
+     "handle": "Colt45Johnson",
+     "name": "Colt",
+     "team": "bELIeve No More",
+     "got": [
+      "Dwayne Bowe"
+     ]
+    },
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Jermichael Finley",
+      "Brandon LaFell"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2012-v6",
+   "season": 2012,
+   "when": "Nov 14, 9:49 pm",
+   "sides": [
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Felix Jones",
+      "Domenik Hixon"
+     ]
+    },
+    {
+     "handle": "RockMNwild",
+     "name": "Austin",
+     "team": "One dimension",
+     "got": [
+      "Steve Smith"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2012-v7",
+   "season": 2012,
+   "when": "Nov 12, 1:08 am",
+   "sides": [
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Jacquizz Rodgers",
+      "Kyle Rudolph",
+      "Mario Manningham",
+      "Darrius Heyward-Bey"
+     ]
+    },
+    {
+     "handle": "YoungBuck04",
+     "name": "Buckley",
+     "team": "The Bucktactic",
+     "got": [
+      "Dwayne Bowe",
+      "Chris Johnson",
+      "Michael Crabtree"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2012-v8",
+   "season": 2012,
+   "when": "Nov 11, 6:35 pm",
+   "sides": [
+    {
+     "handle": "YoungBuck04",
+     "name": "Buckley",
+     "team": "The Bucktactic",
+     "got": [
+      "Dwayne Bowe",
+      "Shonn Greene",
+      "Chris Johnson",
+      "Greg Jennings"
+     ]
+    },
+    {
+     "handle": "DJ",
+     "name": "DJ",
+     "team": "PackNation",
+     "got": [
+      "Jacquizz Rodgers",
+      "Mario Manningham",
+      "Darrius Heyward-Bey",
+      "Taiwan Jones"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2012-v9",
+   "season": 2012,
+   "when": "Oct 3, 11:22 am",
+   "sides": [
+    {
+     "handle": "Colt45Johnson",
+     "name": "Colt",
+     "team": "bELIeve No More",
+     "got": [
+      "Demaryius Thomas",
+      "Leonard Hankerson",
+      "Rashard Mendenhall"
+     ]
+    },
+    {
+     "handle": "RockMNwild",
+     "name": "Austin",
+     "team": "One dimension",
+     "got": [
+      "Wes Welker",
+      "Vincent Jackson",
+      "Santana Moss"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2016-v1",
+   "season": 2016,
+   "when": "Oct 5, 6:31 pm",
+   "sides": [
+    {
+     "handle": "triccster",
+     "name": "T.J.",
+     "team": "The Absolute Madman",
+     "got": [
+      "Latavius Murray",
+      "Derek Carr"
+     ]
+    },
+    {
+     "handle": "RockMNwild",
+     "name": "Austin",
+     "team": "Cooking with Julian",
+     "got": [
+      "Devonta Freeman",
+      "Doug Baldwin"
+     ]
+    }
+   ],
+   "lore": "T.J. (The Absolute Madman) and Austin (Cooking with Julian). Austin went on to win the 2016 title, so the league vetoed a deal that would have sent Devonta Freeman and Doug Baldwin to the eventual champion. T.J. remembered this trade before it was found in the record."
+  }
+ ],
+ "note": "Complete for every Yahoo season FL Players ran: 2008, 2010, 2012, 2013 (transaction log read in full) and 2014-2020 (all seven *_transactions.csv searched). Ten vetoed trades exist in total - nine in 2012, one in 2016. 2009 and 2011 are not gaps: T.J. was not in the league those years."
+}
