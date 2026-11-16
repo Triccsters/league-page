@@ -104,8 +104,8 @@
   "name": "John",
   "photo": "https://sleepercdn.com/avatars/3b55a73b1ca6ca0e0b5dfaec192d78a0",
   "avatar": "https://sleepercdn.com/uploads/2b0dd48d8eea83850fffa76c7d456032.jpg",
-  "fantasyStart": 2013,
-  "bio": "Regular season since 2013: 87-96. Still chasing a first title. Toughest opponent: James (8-12). <a href=\"/rivalries/TuanonStan--Wallner\">That rivalry</a> · <a href=\"/rivalries?who=Wallner\">All of John's rivalries</a>",
+  "fantasyStart": 2008,
+  "bio": "Regular season since 2008: 108-113. Champion: 2010. Toughest opponent: James (8-13). <a href=\"/rivalries/TuanonStan--Wallner\">That rivalry</a> · <a href=\"/rivalries?who=Wallner\">All of John's rivalries</a>",
   "rival": {
    "name": "James",
    "link": 5,
@@ -140,7 +140,7 @@
    "link": 1,
    "image": "https://sleepercdn.com/avatars/77c49ef8c22602ed5bc79dc244e2df0c"
   },
-  "firstSeason": 2013
+  "firstSeason": 2014
  },
  {
   "managerID": "725740637026074624",
@@ -239,13 +239,13 @@
   }
  },
  {
-  "managerID": "past-mitchell",
-  "handle": "Mitchell",
-  "name": "Mitchell",
+  "managerID": "past-mitch",
+  "handle": "Mitch",
+  "name": "Mitch",
   "photo": "/managers/question.jpg",
   "avatar": "/managers/question.jpg",
   "fantasyStart": 2010,
-  "bio": "Played in 2010. Regular season: 4-9. Toughest opponent: Austin (0-2). No longer in the league.",
+  "bio": "Played in 2010. Regular season: 4-9. Toughest opponent: John (0-2). No longer in the league.",
   "past": true,
   "lastSeason": 2010,
   "lastTeamName": "Mitches bitches",
@@ -253,7 +253,7 @@
    2010
   ],
   "rival": {
-   "name": "Austin",
+   "name": "John",
    "link": null,
    "image": "/managers/everyone.png"
   }

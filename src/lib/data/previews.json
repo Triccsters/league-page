@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:36:48+00:00",
+ "generated": "2026-11-16T22:43:59+00:00",
  "season": 2026,
  "week": 10,
  "playoff": false,
@@ -96,9 +96,9 @@
     "RockMNwild": 104.85
    },
    "h2h": {
-    "Wallner": 7,
-    "RockMNwild": 9,
-    "games": 16
+    "Wallner": 8,
+    "RockMNwild": 11,
+    "games": 19
    },
    "streak": [
     "RockMNwild",

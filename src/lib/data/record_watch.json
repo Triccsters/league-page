@@ -231,9 +231,9 @@
    "id": "streak_L",
    "group": "streak",
    "title": "Longest losing streak",
-   "record": "10 straight, {?Minnesota 69ers}, 2010 week 4 to 2010 week 13",
-   "holder": "?Minnesota 69ers",
-   "holder_season": 2010,
+   "record": "10 straight, {Wallner}, 2014 week 3 to 2014 week 12",
+   "holder": "Wallner",
+   "holder_season": 2014,
    "value": 10,
    "note": null,
    "status": "live",
@@ -369,7 +369,7 @@
    "stat": "losses",
    "label": "career losses",
    "value": 104,
-   "rank": 3,
+   "rank": 4,
    "of": 18,
    "mark": 100,
    "reached": true,
@@ -380,14 +380,14 @@
     "pts": 79.16,
     "opts": 117.2
    },
-   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 3rd on the all-time list."
+   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 4th on the all-time list."
   },
   {
    "h": "TuanonStan",
    "stat": "points",
    "label": "career points",
    "value": 20823.44,
-   "rank": 4,
+   "rank": 5,
    "of": 18,
    "mark": 20000,
    "reached": true,
@@ -398,14 +398,14 @@
     "pts": 156.08,
     "opts": 88.88
    },
-   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 4th on the all-time list."
+   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 5th on the all-time list."
   },
   {
    "h": "YoungBuck04",
    "stat": "points",
    "label": "career points",
    "value": 20303.58,
-   "rank": 5,
+   "rank": 6,
    "of": 18,
    "mark": 20000,
    "reached": true,
@@ -416,14 +416,14 @@
     "pts": 135.46,
     "opts": 81.18
    },
-   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 5th on the all-time list."
+   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 6th on the all-time list."
   },
   {
    "h": "Colt45Johnson",
    "stat": "points",
    "label": "career points",
    "value": 19956.12,
-   "rank": 6,
+   "rank": 7,
    "of": 18,
    "mark": 20000,
    "reached": false,
@@ -435,7 +435,7 @@
    "stat": "wins",
    "label": "career wins",
    "value": 98,
-   "rank": 7,
+   "rank": 8,
    "of": 18,
    "mark": 100,
    "reached": false,
@@ -641,7 +641,7 @@
    "stat": "losses",
    "label": "career losses",
    "value": 98,
-   "rank": 4,
+   "rank": 5,
    "of": 18,
    "mark": 100,
    "reached": false,
@@ -653,7 +653,7 @@
    "stat": "losses",
    "label": "career losses",
    "value": 97,
-   "rank": 5,
+   "rank": 6,
    "of": 18,
    "mark": 100,
    "reached": false,
@@ -661,23 +661,11 @@
    "text": "{thecreamer} is 3 away from 100 career losses, with 5 weeks left."
   },
   {
-   "h": "Wallner",
-   "stat": "losses",
-   "label": "career losses",
-   "value": 96,
-   "rank": 6,
-   "of": 18,
-   "mark": 100,
-   "reached": false,
-   "away": 4,
-   "text": "{Wallner} is 4 away from 100 career losses, with 5 weeks left."
-  },
-  {
    "h": "YoungBuck04",
    "stat": "games",
    "label": "games played",
    "value": 196,
-   "rank": 4,
+   "rank": 5,
    "of": 18,
    "mark": 200,
    "reached": false,
@@ -689,7 +677,7 @@
    "stat": "games",
    "label": "games played",
    "value": 196,
-   "rank": 5,
+   "rank": 6,
    "of": 18,
    "mark": 200,
    "reached": false,
@@ -701,7 +689,7 @@
    "stat": "games",
    "label": "games played",
    "value": 196,
-   "rank": 6,
+   "rank": 7,
    "of": 18,
    "mark": 200,
    "reached": false,
@@ -741,13 +729,22 @@
    "text": "{TuanonStan} (112) is 2 behind {triccster} for 3rd in career wins. Both are still playing."
   },
   {
-   "h": "YoungBuck04",
-   "over": "Jbird531",
+   "h": "Jbird531",
+   "over": "Wallner",
    "stat": "wins",
    "rank": 5,
    "done": false,
+   "gap": 2,
+   "text": "{Jbird531} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
+  },
+  {
+   "h": "YoungBuck04",
+   "over": "Jbird531",
+   "stat": "wins",
+   "rank": 6,
+   "done": false,
    "gap": 1,
-   "text": "{YoungBuck04} (105) is 1 behind {Jbird531} for 5th in career wins. Both are still playing."
+   "text": "{YoungBuck04} (105) is 1 behind {Jbird531} for 6th in career wins. Both are still playing."
   },
   {
    "h": "thecreamer",
@@ -762,9 +759,9 @@
    "h": "triccster",
    "over": "brettmn13",
    "stat": "losses",
-   "rank": 1,
+   "rank": 2,
    "done": true,
-   "text": "{triccster} passed {brettmn13} this season and is 1st in career losses (108)."
+   "text": "{triccster} passed {brettmn13} this season and is 2nd in career losses (108)."
   },
   {
    "h": "PapaMidnight",
@@ -804,9 +801,9 @@
   {
    "k": "streak",
    "h": "snelson91",
-   "holder": "?Minnesota 69ers",
+   "holder": "Wallner",
    "title": "Longest losing streak",
-   "text": "{snelson91}: 5 straight. Can only tie it this season. The record is 10 straight, {?Minnesota 69ers}, 2010 week 4 to 2010 week 13."
+   "text": "{snelson91}: 5 straight. Can only tie it this season. The record is 10 straight, {Wallner}, 2014 week 3 to 2014 week 12."
   },
   {
    "k": "pass",
@@ -822,9 +819,9 @@
   },
   {
    "k": "pass",
-   "h": "YoungBuck04",
+   "h": "Jbird531",
    "title": "Career wins",
-   "text": "{YoungBuck04} (105) is 1 behind {Jbird531} for 5th in career wins. Both are still playing."
+   "text": "{Jbird531} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
   },
   {
    "k": "chase",
@@ -913,19 +910,19 @@
    "k": "milestone",
    "h": "RockMNwild",
    "title": "100 career losses",
-   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 3rd on the all-time list."
+   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 4th on the all-time list."
   },
   {
    "k": "milestone",
    "h": "TuanonStan",
    "title": "20,000 career points",
-   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 4th on the all-time list."
+   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 5th on the all-time list."
   },
   {
    "k": "milestone",
    "h": "YoungBuck04",
    "title": "20,000 career points",
-   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 5th on the all-time list."
+   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 6th on the all-time list."
   },
   {
    "k": "fresh",
@@ -938,7 +935,7 @@
    "k": "pass",
    "h": "triccster",
    "title": "Career losses",
-   "text": "{triccster} passed {brettmn13} this season and is 1st in career losses (108)."
+   "text": "{triccster} passed {brettmn13} this season and is 2nd in career losses (108)."
   },
   {
    "k": "pass",
@@ -977,9 +974,9 @@
    {
     "k": "streak",
     "h": "snelson91",
-    "holder": "?Minnesota 69ers",
+    "holder": "Wallner",
     "title": "Longest losing streak",
-    "text": "{snelson91}: 5 straight. Can only tie it this season. The record is 10 straight, {?Minnesota 69ers}, 2010 week 4 to 2010 week 13."
+    "text": "{snelson91}: 5 straight. Can only tie it this season. The record is 10 straight, {Wallner}, 2014 week 3 to 2014 week 12."
    },
    {
     "k": "pass",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:36:40+00:00",
+ "generated": "2026-11-16T22:43:52+00:00",
  "site": {
   "league_name": "FL Players",
   "season": 2026,
@@ -25,7 +25,7 @@
    "?kicked out next year": "kicked out next year",
    "DJ": "HERE WE GO!!!!!",
    "?vikes": "vikes",
-   "?Broncos": "Broncos",
+   "Wallner": "Broncos",
    "J Rock": "Barbarians",
    "triccster": "tricksters"
   },
@@ -39,9 +39,9 @@
    "Brandon": "Quool",
    "triccster": "RazzleDazzle",
    "?The Guru's": "The Guru's",
-   "Mitchell": "Mitches bitches",
+   "Mitch": "Mitches bitches",
    "Tyler": "SENSATIONS",
-   "?Broncos": "Broncos"
+   "Wallner": "Broncos"
   },
   "2012": {
    "brettmn13": "Pappas Crew",
@@ -49,7 +49,7 @@
    "?PackNation": "PackNation",
    "YoungBuck04": "The Bucktactic",
    "Colt45Johnson": "bELIeve No More",
-   "?0 Breaks Given": "0 Breaks Given",
+   "Wallner": "0 Breaks Given",
    "triccster": "TJ Rizzle Fresh",
    "Tyler": "R. Corn on the Cobbs",
    "TuanonStan": "Lets Hug It Out",
@@ -266,18 +266,8 @@
   "label"
  ],
  "managers": {
-  "?0 Breaks Given": {
-   "name": "0 Breaks Given",
-   "yahoo": null,
-   "hidden": true
-  },
   "?2012 champ": {
    "name": "2012 champ",
-   "yahoo": null,
-   "hidden": true
-  },
-  "?Broncos": {
-   "name": "Broncos",
    "yahoo": null,
    "hidden": true
   },
@@ -336,9 +326,9 @@
    "yahoo": "Joey",
    "hidden": false
   },
-  "Mitchell": {
-   "name": "Mitchell",
-   "yahoo": "Mitchell",
+  "Mitch": {
+   "name": "Mitch",
+   "yahoo": null,
    "hidden": false
   },
   "PapaMidnight": {
@@ -456,7 +446,7 @@
    "yahoo",
    "DJ",
    93,
-   "?Broncos",
+   "Wallner",
    63,
    false,
    null
@@ -500,7 +490,7 @@
    "yahoo",
    "?vikes",
    73,
-   "?Broncos",
+   "Wallner",
    80,
    false,
    null
@@ -511,7 +501,7 @@
    "yahoo",
    "triccster",
    115,
-   "?Broncos",
+   "Wallner",
    86,
    false,
    null
@@ -586,7 +576,7 @@
    2008,
    4,
    "yahoo",
-   "?Broncos",
+   "Wallner",
    86,
    "J Rock",
    113,
@@ -610,7 +600,7 @@
    "yahoo",
    "brettmn13",
    79,
-   "?Broncos",
+   "Wallner",
    120,
    false,
    null
@@ -665,7 +655,7 @@
    "yahoo",
    "RockMNwild",
    70,
-   "?Broncos",
+   "Wallner",
    134,
    false,
    null
@@ -709,7 +699,7 @@
    "yahoo",
    "?kicked out next year",
    88,
-   "?Broncos",
+   "Wallner",
    90,
    false,
    null
@@ -764,7 +754,7 @@
    "yahoo",
    "DJ",
    107,
-   "?Broncos",
+   "Wallner",
    100,
    false,
    null
@@ -808,7 +798,7 @@
    "yahoo",
    "?vikes",
    65,
-   "?Broncos",
+   "Wallner",
    77,
    false,
    null
@@ -819,7 +809,7 @@
    "yahoo",
    "triccster",
    102,
-   "?Broncos",
+   "Wallner",
    83,
    false,
    null
@@ -894,7 +884,7 @@
    2008,
    11,
    "yahoo",
-   "?Broncos",
+   "Wallner",
    96,
    "J Rock",
    80,
@@ -918,7 +908,7 @@
    "yahoo",
    "brettmn13",
    74,
-   "?Broncos",
+   "Wallner",
    97,
    false,
    null
@@ -973,7 +963,7 @@
    "yahoo",
    "RockMNwild",
    121,
-   "?Broncos",
+   "Wallner",
    102,
    false,
    null
@@ -1017,7 +1007,7 @@
    "yahoo",
    "?kicked out next year",
    79,
-   "?Broncos",
+   "Wallner",
    81,
    false,
    null
@@ -1050,7 +1040,7 @@
    "yahoo",
    "brettmn13",
    74,
-   "?Broncos",
+   "Wallner",
    97,
    true,
    "Semifinal"
@@ -1094,7 +1084,7 @@
    "yahoo",
    "DJ",
    100,
-   "?Broncos",
+   "Wallner",
    77,
    true,
    "Championship"
@@ -1127,7 +1117,7 @@
    "yahoo",
    "triccster",
    66,
-   "?Broncos",
+   "Wallner",
    61,
    false,
    null
@@ -1171,7 +1161,7 @@
    "yahoo",
    "?Minnesota 69ers",
    86,
-   "Mitchell",
+   "Mitch",
    50,
    false,
    null
@@ -1246,9 +1236,9 @@
    2010,
    2,
    "yahoo",
-   "Mitchell",
+   "Mitch",
    71,
-   "?Broncos",
+   "Wallner",
    87,
    false,
    null
@@ -1281,7 +1271,7 @@
    "yahoo",
    "DJ",
    71,
-   "Mitchell",
+   "Mitch",
    100,
    false,
    null
@@ -1314,7 +1304,7 @@
    "yahoo",
    "?Minnesota 69ers",
    84,
-   "?Broncos",
+   "Wallner",
    78,
    false,
    null
@@ -1369,7 +1359,7 @@
    "yahoo",
    "Brandon",
    44,
-   "?Broncos",
+   "Wallner",
    99,
    false,
    null
@@ -1378,7 +1368,7 @@
    2010,
    4,
    "yahoo",
-   "Mitchell",
+   "Mitch",
    47,
    "Tyler",
    53,
@@ -1435,7 +1425,7 @@
    "yahoo",
    "?The Guru's",
    90,
-   "Mitchell",
+   "Mitch",
    60,
    false,
    null
@@ -1446,7 +1436,7 @@
    "yahoo",
    "Tyler",
    82,
-   "?Broncos",
+   "Wallner",
    85,
    false,
    null
@@ -1479,7 +1469,7 @@
    "yahoo",
    "RockMNwild",
    82,
-   "Mitchell",
+   "Mitch",
    80,
    false,
    null
@@ -1490,7 +1480,7 @@
    "yahoo",
    "DJ",
    79,
-   "?Broncos",
+   "Wallner",
    88,
    false,
    null
@@ -1523,7 +1513,7 @@
    "yahoo",
    "triccster",
    100,
-   "Mitchell",
+   "Mitch",
    86,
    false,
    null
@@ -1545,7 +1535,7 @@
    "yahoo",
    "RockMNwild",
    125,
-   "?Broncos",
+   "Wallner",
    53,
    false,
    null
@@ -1589,7 +1579,7 @@
    "yahoo",
    "triccster",
    67,
-   "?Broncos",
+   "Wallner",
    80,
    false,
    null
@@ -1633,7 +1623,7 @@
    "yahoo",
    "?Minnesota 69ers",
    42,
-   "Mitchell",
+   "Mitch",
    47,
    false,
    null
@@ -1699,7 +1689,7 @@
    "yahoo",
    "J Rock",
    99,
-   "Mitchell",
+   "Mitch",
    100,
    false,
    null
@@ -1710,7 +1700,7 @@
    "yahoo",
    "?The Guru's",
    43,
-   "?Broncos",
+   "Wallner",
    91,
    false,
    null
@@ -1754,7 +1744,7 @@
    "yahoo",
    "brettmn13",
    101,
-   "Mitchell",
+   "Mitch",
    77,
    false,
    null
@@ -1765,7 +1755,7 @@
    "yahoo",
    "J Rock",
    91,
-   "?Broncos",
+   "Wallner",
    73,
    false,
    null
@@ -1840,9 +1830,9 @@
    2010,
    11,
    "yahoo",
-   "Mitchell",
+   "Mitch",
    92,
-   "?Broncos",
+   "Wallner",
    94,
    false,
    null
@@ -1875,7 +1865,7 @@
    "yahoo",
    "DJ",
    68,
-   "Mitchell",
+   "Mitch",
    104,
    false,
    null
@@ -1908,7 +1898,7 @@
    "yahoo",
    "?Minnesota 69ers",
    34,
-   "?Broncos",
+   "Wallner",
    97,
    false,
    null
@@ -1941,7 +1931,7 @@
    "yahoo",
    "RockMNwild",
    77,
-   "Mitchell",
+   "Mitch",
    45,
    false,
    null
@@ -1952,7 +1942,7 @@
    "yahoo",
    "DJ",
    99,
-   "?Broncos",
+   "Wallner",
    85,
    false,
    null
@@ -2018,7 +2008,7 @@
    "yahoo",
    "Brandon",
    100,
-   "Mitchell",
+   "Mitch",
    36,
    true,
    "Consolation"
@@ -2029,7 +2019,7 @@
    "yahoo",
    "triccster",
    65,
-   "?Broncos",
+   "Wallner",
    76,
    true,
    "Semifinal"
@@ -2062,7 +2052,7 @@
    "yahoo",
    "?da best",
    78,
-   "Mitchell",
+   "Mitch",
    81,
    true,
    "Consolation"
@@ -2106,7 +2096,7 @@
    "yahoo",
    "DJ",
    68,
-   "?Broncos",
+   "Wallner",
    87,
    true,
    "Championship"
@@ -2181,7 +2171,7 @@
    2012,
    1,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    85,
    "Tyler",
    97,
@@ -2216,7 +2206,7 @@
    "yahoo",
    "brettmn13",
    99,
-   "?0 Breaks Given",
+   "Wallner",
    87,
    false,
    null
@@ -2324,7 +2314,7 @@
    2012,
    3,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    71,
    "Tom",
    71,
@@ -2370,7 +2360,7 @@
    "yahoo",
    "Colt45Johnson",
    101,
-   "?0 Breaks Given",
+   "Wallner",
    84,
    false,
    null
@@ -2434,7 +2424,7 @@
    2012,
    5,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    105,
    "TuanonStan",
    126,
@@ -2469,7 +2459,7 @@
    "yahoo",
    "triccster",
    108,
-   "?0 Breaks Given",
+   "Wallner",
    103,
    false,
    null
@@ -2579,7 +2569,7 @@
    "yahoo",
    "YoungBuck04",
    88,
-   "?0 Breaks Given",
+   "Wallner",
    97,
    false,
    null
@@ -2643,7 +2633,7 @@
    2012,
    8,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    120,
    "Tyler",
    92,
@@ -2709,7 +2699,7 @@
    2012,
    9,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    154,
    "?2012 champ",
    90,
@@ -2786,7 +2776,7 @@
    2012,
    10,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    93,
    "J Rock",
    71,
@@ -2810,7 +2800,7 @@
    "yahoo",
    "brettmn13",
    95,
-   "?0 Breaks Given",
+   "Wallner",
    107,
    false,
    null
@@ -2918,7 +2908,7 @@
    2012,
    12,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    101,
    "Tom",
    101,
@@ -2931,7 +2921,7 @@
    "yahoo",
    "triccster",
    105,
-   "?0 Breaks Given",
+   "Wallner",
    88,
    false,
    null
@@ -3030,7 +3020,7 @@
    "yahoo",
    "?PackNation",
    71,
-   "?0 Breaks Given",
+   "Wallner",
    115,
    true,
    "Consolation"
@@ -3083,7 +3073,7 @@
    2012,
    15,
    "yahoo",
-   "?0 Breaks Given",
+   "Wallner",
    77,
    "J Rock",
    79,
@@ -3140,7 +3130,7 @@
    "yahoo",
    "Colt45Johnson",
    60,
-   "?0 Breaks Given",
+   "Wallner",
    105,
    true,
    "Consolation"
