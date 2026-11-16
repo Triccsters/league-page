@@ -239,26 +239,6 @@
   }
  },
  {
-  "managerID": "past-mitch",
-  "handle": "Mitch",
-  "name": "Mitch",
-  "photo": "/managers/question.jpg",
-  "avatar": "/managers/question.jpg",
-  "fantasyStart": 2010,
-  "bio": "Played in 2010. Regular season: 4-9. Toughest opponent: John (0-2). No longer in the league.",
-  "past": true,
-  "lastSeason": 2010,
-  "lastTeamName": "Mitches bitches",
-  "seasonsPlayed": [
-   2010
-  ],
-  "rival": {
-   "name": "John",
-   "link": null,
-   "image": "/managers/everyone.png"
-  }
- },
- {
   "managerID": "past-tom",
   "handle": "Tom",
   "name": "Tom",

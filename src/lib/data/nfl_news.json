@@ -1,7 +1,7 @@
 {
- "read_at": "2026-11-16T22:44+00:00",
+ "read_at": "2026-11-16T23:00+00:00",
  "days": 7,
- "count": 120,
+ "count": 119,
  "items": [
   {
    "headline": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
@@ -303,6 +303,12 @@
    ],
    "ripple": [
     {
+     "n": "Rhamondre Stevenson",
+     "p": "RB",
+     "t": "NE",
+     "h": "RockMNwild"
+    },
+    {
      "n": "Corey Kiner",
      "p": "RB",
      "t": "NE",
@@ -310,12 +316,6 @@
     },
     {
      "n": "TreVeyon Henderson",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Rhamondre Stevenson",
      "p": "RB",
      "t": "NE",
      "h": "Colt45Johnson"
@@ -335,6 +335,7 @@
    ],
    "managers": [
     "Colt45Johnson",
+    "RockMNwild",
     "Wallner",
     "YoungBuck04",
     "brettmn13",
@@ -375,13 +376,13 @@
      "h": "YoungBuck04"
     },
     {
-     "n": "Corey Kiner",
+     "n": "Rhamondre Stevenson",
      "p": "RB",
      "t": "NE",
-     "h": "Colt45Johnson"
+     "h": "RockMNwild"
     },
     {
-     "n": "Rhamondre Stevenson",
+     "n": "Corey Kiner",
      "p": "RB",
      "t": "NE",
      "h": "Colt45Johnson"
@@ -401,6 +402,7 @@
    ],
    "managers": [
     "Colt45Johnson",
+    "RockMNwild",
     "Wallner",
     "YoungBuck04",
     "brettmn13",

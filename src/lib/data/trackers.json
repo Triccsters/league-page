@@ -912,7 +912,7 @@
        "@@YoungBuck04",
        "-",
        "QB, WR",
-       "QB 12 RB 2 WR 10 TE 6"
+       "QB 12 RB 2 WR 11 TE 6"
       ],
       [
        "@@brettmn13",
@@ -930,7 +930,7 @@
        "@@snelson91",
        "TE",
        "WR",
-       "QB 6 RB 1 WR 11 TE 4"
+       "QB 6 RB 1 WR 10 TE 4"
       ],
       [
        "@@thecreamer",
@@ -1065,7 +1065,7 @@
       [
        1,
        "@@triccster",
-       35.1,
+       35.2,
        "Jared Goff, DK Metcalf, Wan'Dale Robinson"
       ],
       [
@@ -1125,8 +1125,8 @@
       [
        11,
        "@@RockMNwild",
-       21.1,
-       "Jaylen Waddle, Rico Dowdle, Kyle Pitts Sr."
+       22.0,
+       "Jordyn Tyson, Rico Dowdle, Kyle Pitts Sr."
       ],
       [
        12,
@@ -1350,10 +1350,17 @@
      "rows": [
       [
        10,
+       "@@Colt45Johnson",
+       2,
+       20.6,
+       "Jaylen Waddle, D'Andre Swift"
+      ],
+      [
+       10,
        "@@brettmn13",
        2,
        18.4,
-       "Jonah Coleman, Colston Loveland"
+       "Colston Loveland, Jonah Coleman"
       ],
       [
        11,
@@ -1381,35 +1388,28 @@
        "@@Jbird531",
        2,
        22.7,
-       "Andre Szmyt, Jaxon Smith-Njigba"
+       "Jaxon Smith-Njigba, Andre Szmyt"
       ],
       [
        11,
        "@@thecreamer",
        3,
        20.2,
-       "Harold Fannin Jr., Quinshon Judkins, Cleveland Browns"
-      ],
-      [
-       11,
-       "@@Colt45Johnson",
-       2,
-       14.0,
-       "Green Bay Packers, Rhamondre Stevenson"
+       "Cleveland Browns, Harold Fannin Jr., Quinshon Judkins"
       ],
       [
        13,
        "@@Wallner",
        2,
        15.8,
-       "Spencer Shrader, Ashton Jeanty"
+       "Ashton Jeanty, Spencer Shrader"
       ],
       [
        13,
        "@@Jbird531",
        2,
        15.6,
-       "Breece Hall, Tyler Warren"
+       "Tyler Warren, Breece Hall"
       ]
      ]
     }
@@ -1570,7 +1570,7 @@
        "@@Jbird531",
        "Braelon Allen",
        "RB",
-       45
+       44
       ],
       [
        "10.01",
@@ -1584,7 +1584,7 @@
        "@@Colt45Johnson",
        "Kyler Murray",
        "QB",
-       71
+       69
       ],
       [
        "11.01",
@@ -1619,42 +1619,42 @@
        "@@triccster",
        "De'Von Achane",
        "RB",
-       82
+       80
       ],
       [
        "2.09",
        "@@YoungBuck04",
        "A.J. Brown",
        "WR",
-       87
+       85
       ],
       [
        "1.12",
        "@@PapaMidnight",
        "Saquon Barkley",
        "RB",
-       58
+       57
       ],
       [
        "5.01",
        "@@snelson91",
        "Terry McLaurin",
        "WR",
-       90
+       88
       ],
       [
        "3.07",
        "@@Jbird531",
        "Breece Hall",
        "RB",
-       69
+       67
       ],
       [
        "2.08",
        "@@thecreamer",
        "Omarion Hampton",
        "RB",
-       55
+       54
       ]
      ]
     },
