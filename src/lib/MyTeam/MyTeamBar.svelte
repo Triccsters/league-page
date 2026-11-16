@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    import { myTeam, myManagers, managerIndex } from '$lib/utils/myTeam';
+    import { myTeam, myManagers, managerPath } from '$lib/utils/myTeam';
 
     let ready = false;      // localStorage is only readable in the browser
     let picking = false;
@@ -18,7 +18,7 @@
         {#if me && !picking}
             <img src={me.photo} alt="" />
             <span>Viewing as <b>{me.name}</b></span>
-            <a href="/manager?manager={managerIndex(me.handle)}">Your page</a>
+            <a href={managerPath(me.handle)}>Your page</a>
             <a href="/rivalries?who={me.handle}">Your rivalries</a>
             <button on:click={() => (picking = true)}>Change</button>
         {:else}

@@ -27,4 +27,11 @@ export const myManagers = managersData;
 // Managers-page index for a handle, for links like /manager?manager=N
 export const managerIndex = (handle) => managersData.findIndex(m => m.handle === handle);
 
+
+// Manager-page link for a handle, addressed by that manager's permanent managerID.
+export const managerPath = (handle) => {
+    const m = managersData.find(x => x.handle === handle);
+    return m && m.managerID ? `/manager?manager=${encodeURIComponent(m.managerID)}` : '/managers';
+};
+
 export const handleForUser = (userId) => managersData.find(m => m.managerID === userId)?.handle || null;

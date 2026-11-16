@@ -1,6 +1,6 @@
 <script>
     import { goto } from "$app/navigation";
-	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
+	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers, managerHref } from "$lib/utils/helperFunctions/universalFunctions";
     import {dynasty} from "$lib/utils/leagueInfo"
     import YourTeamBadge from "$lib/MyTeam/YourTeamBadge.svelte";
     import ManagerQuickStats from "$lib/Charts/ManagerQuickStats.svelte";
@@ -232,7 +232,7 @@
     }
 </style>
 
-<div class="manager" style="{retired ? "background-image: url(/retired.png); background-color: var(--ddd)": ""}" onclick={() => goto(`/manager?manager=${key}`)}>
+<div class="manager" style="{retired ? "background-image: url(/retired.png); background-color: var(--ddd)": ""}" onclick={() => goto(managerHref(key))}>
     <div class="avatarHolder">
         <img class="photo" src="{manager.photo}" alt="{manager.name}" />
         {#if commissioner}

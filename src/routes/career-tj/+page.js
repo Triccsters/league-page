@@ -3,6 +3,6 @@ import managers from '$lib/data/managers.json';
 
 // T.J.'s career now lives on his manager page, built from the full game history.
 export function load() {
-    const i = managers.findIndex(m => m.handle === 'triccster');
-    throw redirect(307, i >= 0 ? `/manager?manager=${i}` : '/managers');
+    const me = managers.find(m => m.handle === 'triccster');
+    throw redirect(307, me && me.managerID ? `/manager?manager=${encodeURIComponent(me.managerID)}` : '/managers');
 }

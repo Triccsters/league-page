@@ -37,6 +37,29 @@ const max = (stats, roundOverride) => {
     return Math.ceil(num / roundOverride) * roundOverride;
 }
 
+// Manager pages are addressed by the manager's own permanent managerID (the Sleeper
+// user_id, or the ESPN GUID on League Bound), never by position in managers.json.
+// That file is rebuilt and reordered by the site build, so a positional link would
+// quietly start pointing at a different manager after someone is renamed.
+export const managerHref = (managersIndex) => {
+    const id = managersObj[managersIndex]?.managerID;
+    return `/manager?manager=${id ? encodeURIComponent(id) : managersIndex}`;
+}
+
+// Turns the ?manager= value into an index into managersObj, or -1 for the
+// managers page. Takes a managerID, and still takes a bare position so every
+// link shared before 2026-11-16 keeps landing on the right page.
+export const resolveManagerParam = (value) => {
+    if(value === null || value === undefined || value === '') return -1;
+    const byID = managersObj.findIndex(m => String(m.managerID) === String(value));
+    if(byID > -1) return byID;
+    if(/^\d+$/.test(String(value))) {
+        const i = Number(value);
+        if(i < managersObj.length) return i;
+    }
+    return -1;
+}
+
 export const gotoManager = ({leagueTeamManagers, managerID, rosterID, year}) => {
     if(!managersObj.length) return;
     let managersIndex = -1;
@@ -56,7 +79,7 @@ export const gotoManager = ({leagueTeamManagers, managerID, rosterID, year}) => 
                 for(const mID of leagueTeamManagers.teamManagersMap[year][rID].managers) {
                     if(mID == managerID) {
                         managersIndex =  managersObj.findIndex(m => m.roster == rID);
-                        goto(`/manager?manager=${managersIndex}`);
+                        goto(managerHref(managersIndex));
                         return;
                     }
                 }
@@ -68,7 +91,7 @@ export const gotoManager = ({leagueTeamManagers, managerID, rosterID, year}) => 
             for(const mID of leagueTeamManagers.teamManagersMap[year][rosterID].managers) {
                 managersIndex = managersObj.findIndex(m => m.managerID == mID);
                 if(managersIndex > -1) {
-                    goto(`/manager?manager=${managersIndex}`);
+                    goto(managerHref(managersIndex));
                     return;
                 }
             }
@@ -79,13 +102,13 @@ export const gotoManager = ({leagueTeamManagers, managerID, rosterID, year}) => 
     }
 
     // if no manager exists for that roster, -1 will take you to the main managers page
-    goto(`/manager?manager=${managersIndex}`);
+    goto(managerHref(managersIndex));
 }
 
 export const getAuthor = (leagueTeamManagers, author) => {
     for(const userID in leagueTeamManagers.users) {
         if(leagueTeamManagers.users[userID].user_name.toLowerCase() == author.toLowerCase()) {
-            return [`<a href="/manager?manager=${managersObj.findIndex(m => m.managerID == String(userID))}">${leagueTeamManagers.users[userID].display_name}</a>`, ]
+            return [`<a href="${managerHref(managersObj.findIndex(m => m.managerID == String(userID)))}">${leagueTeamManagers.users[userID].display_name}</a>`, ]
         }
     }
     return author;

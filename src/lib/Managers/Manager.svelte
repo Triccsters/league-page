@@ -21,7 +21,7 @@
     import { allTimeRank } from '$lib/utils/flpHistory';
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import { onMount } from 'svelte';
-	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
+	import { getDatesActive, getRosterIDFromManagerID, getTeamNameFromTeamManagers, managerHref } from '$lib/utils/helperFunctions/universalFunctions';
 
     export let manager, managers, rostersData, leagueTeamManagers, rosterPositions, transactionsData, awards, records;
 
@@ -74,7 +74,7 @@
             goto(`/managers`);
         }
         manager = newManager;
-        goto(`/manager?manager=${newManager}`, {noscroll});
+        goto(managerHref(newManager), {noscroll});
     }
 </script>
 

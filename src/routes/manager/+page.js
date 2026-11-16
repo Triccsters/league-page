@@ -6,7 +6,8 @@ import {
     getLeagueTransactions,
     getAwards,
     getLeagueRecords,
-    managers as managersObj
+    managers as managersObj,
+    resolveManagerParam
 } from '$lib/utils/helper';
 export async function load({ url }) {
     if(!managersObj.length) return false;
@@ -22,7 +23,7 @@ export async function load({ url }) {
     const manager = url?.searchParams?.get('manager');
 
     const props = {
-        manager: manager && manager < managersObj.length ? manager : -1,
+        manager: resolveManagerParam(manager),
         managers: managersObj,
         managersInfo
     }
