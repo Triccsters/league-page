@@ -834,31 +834,33 @@ def names_log(C):
         print("trackers: team names unavailable", e)
     C.write_json(path, {"history": hist})
     by_season = (C.ctx["history"].get("team_names") or {})
-    current = set(C.teams)
-    rows = []
-    for h in sorted(current):
+    # Everyone who ever had a name here, not just the current twelve: a manager
+    # page exists for people who left, and theirs is the list most worth reading.
+    everyone = set(hist)
+    for season in by_season:
+        everyone |= set(by_season.get(season) or {})
+    out = {}
+    for h in sorted(everyone):
         names = []   # (label, name), oldest first, consecutive repeats dropped
 
-        def add(label, nm):
+        def add(label, nm, _names=names, _h=h):
             nm = (nm or "").strip()
-            if nm and nm != h and (not names or names[-1][1] != nm):
-                names.append((label, nm))
+            if nm and nm != _h and (not _names or _names[-1][1] != nm):
+                _names.append((label, nm))
         for season in sorted(by_season, key=int):
             add(season, (by_season.get(season) or {}).get(h))
         for e in hist.get(h, []):
             add(e["since"].split(" week ")[0] + " (wk " + e["since"].split(" week ")[-1] + ")", e["name"])
-        if not names:
-            continue
-        is_now = names[-1][0].startswith(str(C.season))
-        now = names[-1][1] if is_now else "no team name set"
-        older = names[:-1] if is_now else names
-        before = " / ".join(f"{nm} ({lab})" for lab, nm in reversed(older[-5:])) or "-"
-        rows.append([T(h), len({nm for _l, nm in names}), now, before])
-    rows.sort(key=lambda r: -r[1])
-    return [card("names", "Team name history",
-                 "Every name a team has gone by: its name at the end of each season on record, "
-                 "plus renames caught by the daily update from October 2026 on. Before shows the last five, newest first.",
-                 ["Team", "Names", "Now", "Before"], rows)]
+        if names:
+            out[h] = [{"when": lab, "name": nm} for lab, nm in names]
+    C.write_json(os.path.join(C.data, "team_name_history.json"),
+                 {"season": C.season, "managers": out})
+    # No card. T.J., 2026-11-16: the league does not need a table of everyone's
+    # names at once; each manager's own list belongs on his page, which is where
+    # ManagerHistory.svelte now renders it from the file written above. This
+    # function still runs because it is also what catches in-season renames and
+    # keeps team_names.json up to date.
+    return []
 
 
 def median_misery(C):

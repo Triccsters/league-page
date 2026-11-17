@@ -1,0 +1,781 @@
+{
+ "season": 2026,
+ "managers": {
+  "?2012 champ": [
+   {
+    "when": "2012",
+    "name": "2012 champ"
+   }
+  ],
+  "?Minnesota 69ers": [
+   {
+    "when": "2010",
+    "name": "Minnesota 69ers"
+   }
+  ],
+  "?Mitches bitches": [
+   {
+    "when": "2010",
+    "name": "Mitches bitches"
+   }
+  ],
+  "?The Guru's": [
+   {
+    "when": "2010",
+    "name": "The Guru's"
+   }
+  ],
+  "?da best": [
+   {
+    "when": "2010",
+    "name": "da best"
+   }
+  ],
+  "?kicked out next year": [
+   {
+    "when": "2008",
+    "name": "kicked out next year"
+   }
+  ],
+  "?vikes": [
+   {
+    "when": "2008",
+    "name": "vikes"
+   }
+  ],
+  "Brandon": [
+   {
+    "when": "2010",
+    "name": "Quool"
+   }
+  ],
+  "Colt45Johnson": [
+   {
+    "when": "2012",
+    "name": "bELIeve No More"
+   },
+   {
+    "when": "2013",
+    "name": "The Conciliate"
+   },
+   {
+    "when": "2014",
+    "name": "The Patriot Act"
+   },
+   {
+    "when": "2015",
+    "name": "Soul Power"
+   },
+   {
+    "when": "2016",
+    "name": "Insert Carrappy pun"
+   },
+   {
+    "when": "2017",
+    "name": "The Replacements"
+   },
+   {
+    "when": "2018",
+    "name": "The Disappointments"
+   },
+   {
+    "when": "2019",
+    "name": "Just Sad"
+   },
+   {
+    "when": "2020",
+    "name": "Hurst Don't It"
+   },
+   {
+    "when": "2021",
+    "name": "Bigots"
+   },
+   {
+    "when": "2022",
+    "name": "Racial Undertones"
+   },
+   {
+    "when": "2023",
+    "name": "Austin n the Eks Factors"
+   },
+   {
+    "when": "2024",
+    "name": "Injured Reserves"
+   },
+   {
+    "when": "2025",
+    "name": "Rome Wasnt Built n Odunze"
+   },
+   {
+    "when": "2026",
+    "name": "Grim Reaper’s Side Piece"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "Those Darts Shough Me Up"
+   },
+   {
+    "when": "2026 (wk 9)",
+    "name": "Grim Reaper’s Side Piece"
+   }
+  ],
+  "DJ": [
+   {
+    "when": "2008",
+    "name": "HERE WE GO!!!!!"
+   },
+   {
+    "when": "2010",
+    "name": "Vikings=SUPER BOWL"
+   },
+   {
+    "when": "2012",
+    "name": "PackNation"
+   },
+   {
+    "when": "2013",
+    "name": "I Shot the Sharrif"
+   }
+  ],
+  "J Rock": [
+   {
+    "when": "2008",
+    "name": "Barbarians"
+   },
+   {
+    "when": "2010",
+    "name": "J Rocks Dawgs"
+   },
+   {
+    "when": "2014",
+    "name": "J Rock's Dawgs"
+   },
+   {
+    "when": "2015",
+    "name": "Dead Dawgs"
+   },
+   {
+    "when": "2016",
+    "name": "My team Sux ass"
+   }
+  ],
+  "Jbird531": [
+   {
+    "when": "2014",
+    "name": "Gram city"
+   },
+   {
+    "when": "2015",
+    "name": "Light it up"
+   },
+   {
+    "when": "2018",
+    "name": "Fresh Cakes"
+   },
+   {
+    "when": "2020",
+    "name": "Waller Walkers"
+   },
+   {
+    "when": "2021",
+    "name": "Smoking Kamarijuana"
+   },
+   {
+    "when": "2022",
+    "name": "Wally"
+   },
+   {
+    "when": "2023",
+    "name": "The Gender Mob"
+   },
+   {
+    "when": "2024",
+    "name": "The redskins"
+   },
+   {
+    "when": "2025",
+    "name": "Pink OD Floyd"
+   },
+   {
+    "when": "2026",
+    "name": "The retarded somalian"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "Pink OD Floyd"
+   },
+   {
+    "when": "2026 (wk 6)",
+    "name": "Too soon, Junior"
+   },
+   {
+    "when": "2026 (wk 8)",
+    "name": "The retarded somalian"
+   }
+  ],
+  "PapaMidnight": [
+   {
+    "when": "2017",
+    "name": "Call Me Brady"
+   },
+   {
+    "when": "2018",
+    "name": "OBJYN"
+   },
+   {
+    "when": "2019",
+    "name": "Baby Got Dak"
+   },
+   {
+    "when": "2020",
+    "name": "NotLast"
+   },
+   {
+    "when": "2022",
+    "name": "Brady and the Champ"
+   },
+   {
+    "when": "2023",
+    "name": "Najee by Nature"
+   },
+   {
+    "when": "2024",
+    "name": "Get Swifty"
+   },
+   {
+    "when": "2025",
+    "name": "Puka & Rally"
+   },
+   {
+    "when": "2026",
+    "name": "Saquon Ds Nutz"
+   }
+  ],
+  "RockMNwild": [
+   {
+    "when": "2008",
+    "name": "spoiler"
+   },
+   {
+    "when": "2010",
+    "name": "Machties"
+   },
+   {
+    "when": "2012",
+    "name": "One dimension"
+   },
+   {
+    "when": "2013",
+    "name": "the steven ridleys"
+   },
+   {
+    "when": "2014",
+    "name": "Rocket Power"
+   },
+   {
+    "when": "2015",
+    "name": "Iowa super troopers"
+   },
+   {
+    "when": "2016",
+    "name": "Cooking with Julian"
+   },
+   {
+    "when": "2017",
+    "name": "Cool Runnings"
+   },
+   {
+    "when": "2018",
+    "name": "Mean Machine"
+   },
+   {
+    "when": "2019",
+    "name": "Dead bloomers"
+   },
+   {
+    "when": "2020",
+    "name": "Not Blankenships"
+   },
+   {
+    "when": "2021",
+    "name": "The Bubble Kuppies"
+   },
+   {
+    "when": "2022",
+    "name": "10-Ply Qbs"
+   },
+   {
+    "when": "2023",
+    "name": "Da Pierced Christians"
+   },
+   {
+    "when": "2024",
+    "name": "Bo-lieve it"
+   },
+   {
+    "when": "2025",
+    "name": "Swift Beer Pounders"
+   },
+   {
+    "when": "2026",
+    "name": "Trader Joes"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "Thirty Seconds to Jamarrs"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "3 dogs and a pile of shit"
+   },
+   {
+    "when": "2026 (wk 7)",
+    "name": "Tummy Blasters"
+   },
+   {
+    "when": "2026 (wk 7)",
+    "name": "Trader Joes"
+   }
+  ],
+  "Tom": [
+   {
+    "when": "2012",
+    "name": "Murphadelic"
+   },
+   {
+    "when": "2013",
+    "name": "suit and a TIE"
+   }
+  ],
+  "TuanonStan": [
+   {
+    "when": "2012",
+    "name": "Lets Hug It Out"
+   },
+   {
+    "when": "2013",
+    "name": "A Lifeless Corpse"
+   },
+   {
+    "when": "2014",
+    "name": "Injuries Imminent"
+   },
+   {
+    "when": "2015",
+    "name": "Gronk-087"
+   },
+   {
+    "when": "2016",
+    "name": "$100 and done"
+   },
+   {
+    "when": "2017",
+    "name": "Jaywatch"
+   },
+   {
+    "when": "2018",
+    "name": "Chum Bucket"
+   },
+   {
+    "when": "2019",
+    "name": "Quadfather"
+   },
+   {
+    "when": "2020",
+    "name": "Christian Mingle"
+   },
+   {
+    "when": "2021",
+    "name": "Carole Gaskins"
+   },
+   {
+    "when": "2022",
+    "name": "Dank Brandon"
+   },
+   {
+    "when": "2024",
+    "name": "Hindenburg"
+   },
+   {
+    "when": "2026",
+    "name": "“Winnings winning”"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "Hindenburg"
+   },
+   {
+    "when": "2026 (wk 6)",
+    "name": "“Winnings winning”"
+   }
+  ],
+  "Tyler": [
+   {
+    "when": "2010",
+    "name": "SENSATIONS"
+   },
+   {
+    "when": "2012",
+    "name": "R. Corn on the Cobbs"
+   },
+   {
+    "when": "2013",
+    "name": "CJ SPILLERS"
+   },
+   {
+    "when": "2014",
+    "name": "White Lighting"
+   },
+   {
+    "when": "2015",
+    "name": "The James Starks's"
+   },
+   {
+    "when": "2016",
+    "name": "The Buzz Aldrin's"
+   },
+   {
+    "when": "2017",
+    "name": "Younghoe Kick Squad"
+   }
+  ],
+  "Wallner": [
+   {
+    "when": "2008",
+    "name": "Broncos"
+   },
+   {
+    "when": "2012",
+    "name": "0 Breaks Given"
+   },
+   {
+    "when": "2013",
+    "name": "Top 3 Score Weekly's"
+   },
+   {
+    "when": "2014",
+    "name": "Macho Men"
+   },
+   {
+    "when": "2015",
+    "name": "My Time Is Now!"
+   },
+   {
+    "when": "2016",
+    "name": "Willy Gronka"
+   },
+   {
+    "when": "2017",
+    "name": "Savage AF"
+   },
+   {
+    "when": "2018",
+    "name": "Rock the boat"
+   },
+   {
+    "when": "2019",
+    "name": "Macho Men"
+   },
+   {
+    "when": "2020",
+    "name": "FL Spoilers"
+   },
+   {
+    "when": "2021",
+    "name": "Dos Gesickis"
+   },
+   {
+    "when": "2022",
+    "name": "Dark roast"
+   },
+   {
+    "when": "2023",
+    "name": "Dahn and aht"
+   },
+   {
+    "when": "2024",
+    "name": "The Sweetner"
+   },
+   {
+    "when": "2025",
+    "name": "I’m on the Outside"
+   },
+   {
+    "when": "2026",
+    "name": "Still PA Sponge"
+   }
+  ],
+  "YoungBuck04": [
+   {
+    "when": "2012",
+    "name": "The Bucktactic"
+   },
+   {
+    "when": "2013",
+    "name": "All Banged Up"
+   },
+   {
+    "when": "2014",
+    "name": "12th Man"
+   },
+   {
+    "when": "2015",
+    "name": "JohnsTimeIsNotNow"
+   },
+   {
+    "when": "2016",
+    "name": "InstaGraham"
+   },
+   {
+    "when": "2017",
+    "name": "White-Balled"
+   },
+   {
+    "when": "2018",
+    "name": "Trust Issues"
+   },
+   {
+    "when": "2019",
+    "name": "Lizard King"
+   },
+   {
+    "when": "2020",
+    "name": "We Ain't Dem Boys"
+   },
+   {
+    "when": "2021",
+    "name": "Fake IDs"
+   },
+   {
+    "when": "2022",
+    "name": "All About that Bass"
+   },
+   {
+    "when": "2023",
+    "name": "2 Girls 1 Kupp"
+   },
+   {
+    "when": "2024",
+    "name": "Aggravated Assault"
+   },
+   {
+    "when": "2025",
+    "name": "Christian MaCalf-Hurts"
+   },
+   {
+    "when": "2026",
+    "name": "My Bench Needs a Hospital"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "Christian MaCalf-Hurts"
+   },
+   {
+    "when": "2026 (wk 8)",
+    "name": "My Bench Needs a Hospital"
+   }
+  ],
+  "brettmn13": [
+   {
+    "when": "2008",
+    "name": "Indestructible"
+   },
+   {
+    "when": "2010",
+    "name": "Dragon"
+   },
+   {
+    "when": "2012",
+    "name": "Pappas Crew"
+   },
+   {
+    "when": "2013",
+    "name": "Poppa pump"
+   },
+   {
+    "when": "2014",
+    "name": "Luckness monsters"
+   },
+   {
+    "when": "2015",
+    "name": "Jimmy was Jimmy"
+   },
+   {
+    "when": "2016",
+    "name": "The Buster"
+   },
+   {
+    "when": "2017",
+    "name": "La Cabra"
+   },
+   {
+    "when": "2018",
+    "name": "Dutch Van Der Linde"
+   },
+   {
+    "when": "2019",
+    "name": "Ramen noodles"
+   },
+   {
+    "when": "2020",
+    "name": "Blazing Cow's"
+   },
+   {
+    "when": "2021",
+    "name": "Creme Fraiche"
+   },
+   {
+    "when": "2022",
+    "name": "The 0RB's"
+   },
+   {
+    "when": "2023",
+    "name": "Bijan piss mustard"
+   },
+   {
+    "when": "2024",
+    "name": "Bowser"
+   },
+   {
+    "when": "2025",
+    "name": "The Buster"
+   },
+   {
+    "when": "2026",
+    "name": "I Got Family"
+   },
+   {
+    "when": "2026 (wk 5)",
+    "name": "Injecto Seato Cuz!!"
+   },
+   {
+    "when": "2026 (wk 6)",
+    "name": "NEVER NARC'D ON NOBODY!"
+   },
+   {
+    "when": "2026 (wk 7)",
+    "name": "Still a buster"
+   },
+   {
+    "when": "2026 (wk 8)",
+    "name": "Typical white boy name"
+   },
+   {
+    "when": "2026 (wk 9)",
+    "name": "I Got Family"
+   }
+  ],
+  "butterygoop": [
+   {
+    "when": "2018",
+    "name": "Coo Coo Kachooo!!!!"
+   },
+   {
+    "when": "2019",
+    "name": "I Fart Dutch RUDDER"
+   },
+   {
+    "when": "2020",
+    "name": "Fuck chowbox"
+   },
+   {
+    "when": "2021",
+    "name": "Xfire copycat"
+   },
+   {
+    "when": "2022",
+    "name": "Amon piss rim king 🤴"
+   },
+   {
+    "when": "2023",
+    "name": "Off on kelcknee mustard"
+   },
+   {
+    "when": "2024",
+    "name": "Jerry Slave Owner Jones"
+   },
+   {
+    "when": "2025",
+    "name": "Gabe Utsext"
+   },
+   {
+    "when": "2026",
+    "name": "SmithHurtsBrownDickTutes"
+   }
+  ],
+  "snelson91": [
+   {
+    "when": "2014",
+    "name": "Scott's Team"
+   },
+   {
+    "when": "2018",
+    "name": "What The Buck"
+   },
+   {
+    "when": "2024",
+    "name": "Saquon My Wiener"
+   },
+   {
+    "when": "2026",
+    "name": "LaPorta Potty"
+   }
+  ],
+  "thecreamer": [
+   {
+    "when": "2014",
+    "name": "Team white"
+   },
+   {
+    "when": "2015",
+    "name": "P.C. Players"
+   },
+   {
+    "when": "2016",
+    "name": "Blame the hamms"
+   },
+   {
+    "when": "2017",
+    "name": "The Chowbox"
+   }
+  ],
+  "triccster": [
+   {
+    "when": "2008",
+    "name": "tricksters"
+   },
+   {
+    "when": "2010",
+    "name": "RazzleDazzle"
+   },
+   {
+    "when": "2012",
+    "name": "TJ Rizzle Fresh"
+   },
+   {
+    "when": "2013",
+    "name": "Aaron Hernancuffs"
+   },
+   {
+    "when": "2014",
+    "name": "T.J.R's Team"
+   },
+   {
+    "when": "2015",
+    "name": "can I geta witteness"
+   },
+   {
+    "when": "2016",
+    "name": "The Absolute Madman"
+   },
+   {
+    "when": "2017",
+    "name": "Mr. Brightside"
+   },
+   {
+    "when": "2018",
+    "name": "Kareem Punt"
+   }
+  ]
+ }
+}

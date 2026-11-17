@@ -2,7 +2,19 @@
     // Season-by-season record and head-to-head for one manager, both eras where the league has them.
     import HBarChart from '$lib/Charts/HBarChart.svelte';
     import { games, nameOf, currentManagers, slugFor, site } from '$lib/utils/flpHistory';
+    import nameHistory from '$lib/data/team_name_history.json';
     export let handle;
+
+    // Every name this manager's team has gone by, oldest first. Written by
+    // trackers.py from each season's end-of-year name plus any in-season rename
+    // the daily build catches. The newest one is current only if it is from this
+    // season; otherwise he has not set a name this year.
+    $: names = (nameHistory?.managers || {})[handle] || [];
+    // "no team name set this season" only makes sense for someone still playing.
+    // For a manager who left, the last name on record is simply his last name.
+    $: stillHere = currentManagers.includes(handle);
+    $: nowName = names.length && String(names[names.length - 1].when).startsWith(String(site.season))
+        ? names[names.length - 1].name : null;
 
     const REAL = new Set(['Quarterfinal', 'Semifinal', 'Championship']);
 
@@ -62,6 +74,28 @@
         {#if site.eras.length > 1}<span>Y = Yahoo, S = Sleeper</span>{/if}
     </p>
 
+    {#if names.length}
+        <h3>Every team name</h3>
+        <p class="sub">
+            {#if nowName}Going by <b>{nowName}</b> this season.
+            {:else if stillHere}No team name set this season.
+            {:else}Last went by <b>{names[names.length - 1].name}</b>.{/if}
+            Oldest first. A season shows the name he ended that year with; a week shows a rename
+            caught mid-season.
+            <!-- Deliberately no count here. The Overview paragraph above counts one name per
+                 season and so says seventeen for Austin, while this list runs to 21 because it
+                 also carries mid-season renames. Two numbers an inch apart that disagree read
+                 as a bug even when both are defensible, and the list is right there to count. -->
+        </p>
+        <ol class="names">
+            {#each names as n}
+                <li class:now={nowName && n.name === nowName && n === names[names.length - 1]}>
+                    <span class="when">{n.when}</span><span class="nm">{n.name}</span>
+                </li>
+            {/each}
+        </ol>
+    {/if}
+
     {#if h2h.length}
         <h3>Against everyone in the league now</h3>
         <p class="sub">Wins minus losses, regular season and real playoff games since {site.first_season}. Tap a name for the full rivalry.</p>
@@ -73,6 +107,14 @@
 <style>
     .mh { max-width: 700px; margin: 1em auto 2em; padding: 0 1em; text-align: left; }
     h3 { margin: 1.4em 0 0.3em; }
+    .names { list-style: none; margin: 0.4em 0 0; padding: 0; }
+    .names li { display: flex; gap: 0.8em; align-items: baseline; padding: 0.35em 0.6em;
+        border-left: 3px solid rgba(127, 127, 127, 0.45); border-radius: 0 4px 4px 0; }
+    .names li + li { margin-top: 0.25em; }
+    .names .when { flex: 0 0 7.5em; font-size: 0.82em; opacity: 0.7; font-variant-numeric: tabular-nums; }
+    .names .nm { font-weight: 600; }
+    .names li.now { background: rgb(39, 174, 96); border-left-color: rgb(39, 174, 96); }
+    .names li.now .nm, .names li.now .when { color: #ffffff; opacity: 1; }
     svg { width: 100%; height: auto; }
     .axis { stroke: currentColor; opacity: 0.3; }
     .tick, .lbl, .era { fill: currentColor; font-size: 11px; }

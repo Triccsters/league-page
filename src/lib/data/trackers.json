@@ -1367,7 +1367,7 @@
        "@@snelson91",
        3,
        27.2,
-       "Seattle Seahawks, Matthew Golden, Kyren Williams"
+       "Kyren Williams, Seattle Seahawks, Matthew Golden"
       ],
       [
        11,
@@ -1381,28 +1381,28 @@
        "@@YoungBuck04",
        2,
        23.2,
-       "A.J. Brown, Jordan Love"
+       "Jordan Love, A.J. Brown"
       ],
       [
        11,
        "@@Jbird531",
        2,
        22.7,
-       "Andre Szmyt, Jaxon Smith-Njigba"
+       "Jaxon Smith-Njigba, Andre Szmyt"
       ],
       [
        11,
        "@@thecreamer",
        3,
        20.2,
-       "Harold Fannin Jr., Cleveland Browns, Quinshon Judkins"
+       "Cleveland Browns, Harold Fannin Jr., Quinshon Judkins"
       ],
       [
        13,
        "@@Wallner",
        2,
        15.8,
-       "Spencer Shrader, Ashton Jeanty"
+       "Ashton Jeanty, Spencer Shrader"
       ],
       [
        13,
@@ -1655,91 +1655,6 @@
        "Omarion Hampton",
        "RB",
        54
-      ]
-     ]
-    },
-    {
-     "id": "names",
-     "title": "Team name history",
-     "note": "Every name a team has gone by: its name at the end of each season on record, plus renames caught by the daily update from October 2026 on. Before shows the last five, newest first.",
-     "cols": [
-      "Team",
-      "Names",
-      "Now",
-      "Before"
-     ],
-     "rows": [
-      [
-       "@@RockMNwild",
-       20,
-       "Trader Joes",
-       "Tummy Blasters (2026 (wk 7)) / 3 dogs and a pile of shit (2026 (wk 5)) / Thirty Seconds to Jamarrs (2026 (wk 5)) / Trader Joes (2026) / Swift Beer Pounders (2025)"
-      ],
-      [
-       "@@brettmn13",
-       20,
-       "I Got Family",
-       "Typical white boy name (2026 (wk 8)) / Still a buster (2026 (wk 7)) / NEVER NARC'D ON NOBODY! (2026 (wk 6)) / Injecto Seato Cuz!! (2026 (wk 5)) / I Got Family (2026)"
-      ],
-      [
-       "@@Colt45Johnson",
-       16,
-       "Grim Reaper’s Side Piece",
-       "Those Darts Shough Me Up (2026 (wk 5)) / Grim Reaper’s Side Piece (2026) / Rome Wasnt Built n Odunze (2025) / Injured Reserves (2024) / Austin n the Eks Factors (2023)"
-      ],
-      [
-       "@@Wallner",
-       15,
-       "Still PA Sponge",
-       "I’m on the Outside (2025) / The Sweetner (2024) / Dahn and aht (2023) / Dark roast (2022) / Dos Gesickis (2021)"
-      ],
-      [
-       "@@YoungBuck04",
-       15,
-       "My Bench Needs a Hospital",
-       "Christian MaCalf-Hurts (2026 (wk 5)) / My Bench Needs a Hospital (2026) / Christian MaCalf-Hurts (2025) / Aggravated Assault (2024) / 2 Girls 1 Kupp (2023)"
-      ],
-      [
-       "@@TuanonStan",
-       13,
-       "“Winnings winning”",
-       "Hindenburg (2026 (wk 5)) / “Winnings winning” (2026) / Hindenburg (2024) / Dank Brandon (2022) / Carole Gaskins (2021)"
-      ],
-      [
-       "@@Jbird531",
-       11,
-       "The retarded somalian",
-       "Too soon, Junior (2026 (wk 6)) / Pink OD Floyd (2026 (wk 5)) / The retarded somalian (2026) / Pink OD Floyd (2025) / The redskins (2024)"
-      ],
-      [
-       "@@PapaMidnight",
-       9,
-       "Saquon Ds Nutz",
-       "Puka & Rally (2025) / Get Swifty (2024) / Najee by Nature (2023) / Brady and the Champ (2022) / NotLast (2020)"
-      ],
-      [
-       "@@butterygoop",
-       9,
-       "SmithHurtsBrownDickTutes",
-       "Gabe Utsext (2025) / Jerry Slave Owner Jones (2024) / Off on kelcknee mustard (2023) / Amon piss rim king 🤴 (2022) / Xfire copycat (2021)"
-      ],
-      [
-       "@@triccster",
-       9,
-       "no team name set",
-       "Kareem Punt (2018) / Mr. Brightside (2017) / The Absolute Madman (2016) / can I geta witteness (2015) / T.J.R's Team (2014)"
-      ],
-      [
-       "@@snelson91",
-       4,
-       "LaPorta Potty",
-       "Saquon My Wiener (2024) / What The Buck (2018) / Scott's Team (2014)"
-      ],
-      [
-       "@@thecreamer",
-       4,
-       "no team name set",
-       "The Chowbox (2017) / Blame the hamms (2016) / P.C. Players (2015) / Team white (2014)"
       ]
      ]
     },
