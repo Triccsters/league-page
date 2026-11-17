@@ -447,9 +447,9 @@
       ],
       [
        "@@Jbird531",
-       "77.2%",
+       "77.0%",
        "Likely",
-       "+15.2"
+       "+15.0"
       ],
       [
        "@@RockMNwild",
@@ -459,21 +459,21 @@
       ],
       [
        "@@snelson91",
-       "45.7%",
+       "45.5%",
        "Bubble",
-       -17.3
+       -17.5
       ],
       [
        "@@brettmn13",
-       "45.0%",
+       "45.1%",
        "Bubble",
-       -16.4
+       -16.3
       ],
       [
        "@@Colt45Johnson",
-       "42.1%",
+       "42.4%",
        "Bubble",
-       -27.1
+       -26.8
       ],
       [
        "@@Wallner",
@@ -483,9 +483,9 @@
       ],
       [
        "@@triccster",
-       "12.9%",
+       "13.1%",
        "Fading",
-       -23.2
+       -23.0
       ],
       [
        "@@thecreamer",
@@ -902,7 +902,7 @@
        "@@PapaMidnight",
        "RB",
        "QB, TE",
-       "QB 12 RB 5 WR 8 TE 11"
+       "QB 11 RB 5 WR 8 TE 11"
       ],
       [
        "@@RockMNwild",
@@ -914,7 +914,7 @@
        "@@YoungBuck04",
        "-",
        "QB, WR",
-       "QB 11 RB 3 WR 9 TE 6"
+       "QB 12 RB 3 WR 9 TE 6"
       ],
       [
        "@@brettmn13",
@@ -1036,7 +1036,7 @@
        "@@triccster",
        "Jared Goff",
        "QB DET",
-       18.6
+       18.5
       ],
       [
        "@@butterygoop",
@@ -1048,7 +1048,7 @@
        "@@brettmn13",
        "Rashee Rice",
        "WR KC",
-       12.2
+       12.1
       ],
       [
        "@@butterygoop",
@@ -1072,7 +1072,7 @@
        "@@TuanonStan",
        "Carnell Tate",
        "WR TEN",
-       10.2
+       10.3
       ],
       [
        "@@thecreamer",
@@ -1096,7 +1096,7 @@
        "@@RockMNwild",
        "Jordyn Tyson",
        "WR NO",
-       9.1
+       9.0
       ],
       [
        "@@RockMNwild",
@@ -1152,7 +1152,7 @@
        3,
        "@@thecreamer",
        29.6,
-       "Aaron Rodgers, Omarion Hampton, Courtland Sutton"
+       "Aaron Rodgers, Quinshon Judkins, Courtland Sutton"
       ],
       [
        4,
@@ -1427,14 +1427,14 @@
        "@@YoungBuck04",
        3,
        31.9,
-       "Jordan Love, A.J. Brown, Davante Adams"
+       "A.J. Brown, Jordan Love, Davante Adams"
       ],
       [
        11,
        "@@snelson91",
        3,
        24.9,
-       "Kyren Williams, Matthew Golden, Seattle Seahawks"
+       "Seattle Seahawks, Matthew Golden, Kyren Williams"
       ],
       [
        11,
@@ -1448,14 +1448,14 @@
        "@@Jbird531",
        2,
        21.7,
-       "Jaxon Smith-Njigba, Andre Szmyt"
+       "Andre Szmyt, Jaxon Smith-Njigba"
       ],
       [
        11,
        "@@thecreamer",
-       3,
-       19.5,
-       "Cleveland Browns, Harold Fannin Jr., Quinshon Judkins"
+       2,
+       11.3,
+       "Cleveland Browns, Harold Fannin Jr."
       ],
       [
        13,
@@ -1529,15 +1529,15 @@
      "rows": [
       [
        "@@thecreamer",
-       "25.7%",
-       "17.2%",
+       "25.8%",
+       "17.3%",
        "4.8%",
        "4-6"
       ],
       [
        "@@PapaMidnight",
        "22.3%",
-       "67.8%",
+       "67.7%",
        "0.1%",
        "2-8"
       ],
@@ -1545,7 +1545,7 @@
        "@@triccster",
        "15.3%",
        "7.9%",
-       "12.9%",
+       "13.1%",
        "4-6"
       ],
       [
@@ -1559,28 +1559,28 @@
        "@@Colt45Johnson",
        "9.1%",
        "0.8%",
-       "42.1%",
+       "42.4%",
        "5-5"
       ],
       [
        "@@brettmn13",
-       "5.3%",
-       "0.9%",
-       "45.0%",
+       "5.2%",
+       "1.0%",
+       "45.1%",
        "5-5"
       ],
       [
        "@@snelson91",
        "3.6%",
        "1.4%",
-       "45.7%",
+       "45.5%",
        "4-6"
       ],
       [
        "@@Jbird531",
        "3.4%",
        "0.0%",
-       "77.2%",
+       "77.0%",
        "6-4"
       ],
       [
@@ -1725,7 +1725,7 @@
      "rows": [
       [
        "2012",
-       "@@DJ",
+       "PackNation",
        "@@Tyler",
        "Rashad Jennings, Maurice Jones-Drew, Torrey Smith for Titus Young, Chris Johnson",
        "Passed on Nov 17 as the same three-for-two."
@@ -1733,7 +1733,7 @@
       [
        "2012",
        "@@Wallner",
-       "@@DJ",
+       "PackNation",
        "Shonn Greene for Marcel Reece, Donald Brown",
        "Passed on Nov 19, enlarged to include Philip Rivers, Mike Wallace and Matthew Stafford."
       ],
@@ -1747,27 +1747,27 @@
       [
        "2012",
        "@@YoungBuck04",
-       "@@DJ",
+       "PackNation",
        "Greg Jennings for Darrius Heyward-Bey",
        ""
       ],
       [
        "2012",
        "@@Colt45Johnson",
-       "@@DJ",
+       "PackNation",
        "Dwayne Bowe for Jermichael Finley, Brandon LaFell",
        ""
       ],
       [
        "2012",
-       "@@DJ",
+       "PackNation",
        "@@RockMNwild",
        "Felix Jones, Domenik Hixon for Steve Smith",
        ""
       ],
       [
        "2012",
-       "@@DJ",
+       "PackNation",
        "@@YoungBuck04",
        "Jacquizz Rodgers, Kyle Rudolph, Mario Manningham, Darrius Heyward-Bey for Dwayne Bowe, Chris Johnson, Michael Crabtree",
        ""
@@ -1775,7 +1775,7 @@
       [
        "2012",
        "@@YoungBuck04",
-       "@@DJ",
+       "PackNation",
        "Dwayne Bowe, Shonn Greene, Chris Johnson, Greg Jennings for Jacquizz Rodgers, Mario Manningham, Darrius Heyward-Bey, Taiwan Jones",
        ""
       ],
@@ -1892,18 +1892,18 @@
        "35 in 2018"
       ],
       [
-       "@@DJ",
-       4,
-       72,
-       10,
-       "24 in 2008"
-      ],
-      [
        "@@snelson91",
        7,
        70,
        0,
        "16 in 2018"
+      ],
+      [
+       "@@DJ",
+       3,
+       56,
+       5,
+       "24 in 2008"
       ],
       [
        "@@PapaMidnight",
