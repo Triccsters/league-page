@@ -1367,7 +1367,7 @@
        "@@snelson91",
        3,
        27.2,
-       "Kyren Williams, Matthew Golden, Seattle Seahawks"
+       "Seattle Seahawks, Matthew Golden, Kyren Williams"
       ],
       [
        11,
@@ -1402,7 +1402,7 @@
        "@@Wallner",
        2,
        15.8,
-       "Spencer Shrader, Ashton Jeanty"
+       "Ashton Jeanty, Spencer Shrader"
       ],
       [
        13,
@@ -1813,6 +1813,463 @@
        "@@triccster and @@RockMNwild",
        "Latavius Murray, Derek Carr for Devonta Freeman, Doug Baldwin",
        ""
+      ]
+     ]
+    },
+    {
+     "id": "yahoomoves",
+     "title": "Who worked the wire on Yahoo",
+     "note": "Adds and drops, and completed trades, across the eleven Yahoo seasons from 2008 to 2020, taken from the league's own Managers pages. Teams whose manager Yahoo kept hidden are left out.",
+     "cols": [
+      "Team",
+      "Yahoo seasons",
+      "Moves",
+      "Trades",
+      "Busiest season"
+     ],
+     "rows": [
+      [
+       "@@RockMNwild",
+       11,
+       456,
+       24,
+       "70 in 2020"
+      ],
+      [
+       "@@brettmn13",
+       11,
+       342,
+       39,
+       "56 in 2017"
+      ],
+      [
+       "@@TuanonStan",
+       9,
+       341,
+       30,
+       "60 in 2017"
+      ],
+      [
+       "@@Wallner",
+       11,
+       338,
+       33,
+       "57 in 2017"
+      ],
+      [
+       "@@Colt45Johnson",
+       9,
+       288,
+       29,
+       "47 in 2017"
+      ],
+      [
+       "@@Tyler",
+       7,
+       251,
+       15,
+       "45 in 2013"
+      ],
+      [
+       "@@YoungBuck04",
+       9,
+       244,
+       13,
+       "46 in 2019"
+      ],
+      [
+       "@@J Rock",
+       7,
+       227,
+       4,
+       "41 in 2013"
+      ],
+      [
+       "@@Jbird531",
+       7,
+       177,
+       6,
+       "33 in 2014"
+      ],
+      [
+       "@@triccster",
+       11,
+       147,
+       15,
+       "29 in 2019"
+      ],
+      [
+       "@@thecreamer",
+       7,
+       109,
+       9,
+       "23 in 2016"
+      ],
+      [
+       "@@butterygoop",
+       3,
+       89,
+       7,
+       "35 in 2018"
+      ],
+      [
+       "@@DJ",
+       4,
+       72,
+       10,
+       "24 in 2008"
+      ],
+      [
+       "@@snelson91",
+       7,
+       70,
+       0,
+       "16 in 2018"
+      ],
+      [
+       "@@PapaMidnight",
+       4,
+       36,
+       2,
+       "10 in 2018"
+      ],
+      [
+       "@@Tom",
+       2,
+       13,
+       2,
+       "10 in 2012"
+      ],
+      [
+       "@@Brandon",
+       1,
+       7,
+       0,
+       "7 in 2010"
+      ]
+     ]
+    },
+    {
+     "id": "yahoorules",
+     "title": "How the rules changed on Yahoo",
+     "note": "Every change the commissioner made that altered how the league plays, 2008 to 2020, with the date Yahoo recorded it. The rules page starts at 2021, so none of this appeared on the site before.",
+     "cols": [
+      "Season",
+      "When",
+      "What changed"
+     ],
+     "rows": [
+      [
+       "2020",
+       "Jul 24",
+       "An IR slot added to the roster"
+      ],
+      [
+       "2020",
+       "Jul 15",
+       "Draft moved from offline to live, and time per pick doubled to 2 minutes"
+      ],
+      [
+       "2018",
+       "Aug 31",
+       "Trade review moved from a league vote to the commissioner"
+      ],
+      [
+       "2018",
+       "Jul 30",
+       "Defensive yards allowed started scoring, from 5 points for under 100 down to -3 for 500 or more"
+      ],
+      [
+       "2018",
+       "Jul 29",
+       "Waivers moved to a continual rolling list, from reverse order of standings"
+      ],
+      [
+       "2018",
+       "Jul 25",
+       "Receptions started counting half a point each, having been worth nothing in every season before this"
+      ],
+      [
+       "2018",
+       "Jul 25",
+       "Field goals flattened: 40-49 and 50+ both cut to 3 points"
+      ],
+      [
+       "2013",
+       "Aug 19",
+       "Interceptions and fumbles lost both doubled, -1 to -2"
+      ],
+      [
+       "2013",
+       "Jul 15",
+       "Fractional points switched on. Every score before 2013 is a whole number"
+      ],
+      [
+       "2012",
+       "Aug 13",
+       "Playoff seeding changed: division winners now take the top seeds, instead of every team being seeded by overall record"
+      ],
+      [
+       "2010",
+       "Sep 24",
+       "Waivers turned off entirely, from a one-day wait"
+      ],
+      [
+       "2010",
+       "Aug 24",
+       "Missed field goals inside 20 yards set to -1"
+      ],
+      [
+       "2010",
+       "Aug 23",
+       "League grew from 10 teams to 12"
+      ],
+      [
+       "2008",
+       "Jul 3",
+       "Passing touchdowns cut from 6 points to 4"
+      ],
+      [
+       "2008",
+       "Jul 3",
+       "Rushing yards moved to 0.1 a yard, 10 yards per point"
+      ],
+      [
+       "2008",
+       "Jul 3",
+       "Receiving yards moved to 0.1 a yard, 10 yards per point"
+      ]
+     ]
+    },
+    {
+     "id": "yahooldtrades",
+     "title": "Every trade before 2014",
+     "note": "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, because the archive has no lineups before that - so these are listed without a winner rather than graded on points nobody has.",
+     "cols": [
+      "Season",
+      "Between",
+      "What moved"
+     ],
+     "rows": [
+      [
+       "2008",
+       "@@brettmn13 and @@DJ",
+       "Vincent Jackson, Thomas Jones for Laveranues Coles"
+      ],
+      [
+       "2008",
+       "@@brettmn13 and @@DJ",
+       "Calvin Johnson, Roy Williams for Vincent Jackson"
+      ],
+      [
+       "2008",
+       "@@brettmn13 and @@Wallner",
+       "Owen Daniels, Roddy White for Chris Cooley, Marvin Harrison"
+      ],
+      [
+       "2008",
+       "vikes and @@DJ",
+       "Chad Johnson, Anthony Gonzalez for T.J. Houshmandzadeh"
+      ],
+      [
+       "2008",
+       "@@DJ and @@brettmn13",
+       "Dallas Clark, Thomas Jones for Chris Cooley, Edgerrin James"
+      ],
+      [
+       "2008",
+       "@@brettmn13 and @@Wallner",
+       "Dallas Clark, Bernard Berrian for Andre Johnson, Alge Crumpler"
+      ],
+      [
+       "2008",
+       "@@RockMNwild and @@DJ",
+       "Willie Parker, Javon Walker for Roy Williams, Brandon Jacobs"
+      ],
+      [
+       "2008",
+       "@@RockMNwild and @@brettmn13",
+       "Reggie Bush, Bobby Engram for Wes Welker, Thomas Jones"
+      ],
+      [
+       "2010",
+       "The Guru's and @@RockMNwild",
+       "Jahvid Best, Vernon Davis, Ryan Fitzpatrick for Miles Austin, Ronnie Brown, Nate Washington"
+      ],
+      [
+       "2010",
+       "@@Wallner and @@brettmn13",
+       "Pierre Garcon, Darren McFadden for Roy Williams, Matt Forte"
+      ],
+      [
+       "2010",
+       "@@Tyler and @@Wallner",
+       "Kevin Kolb, Maurice Jones-Drew, Michael Vick, Kenny Britt for Deion Branch, Matt Forte, Peyton Manning"
+      ],
+      [
+       "2010",
+       "Mitches bitches and @@Tyler",
+       "Braylon Edwards, Brandon Jackson for Steve Smith"
+      ],
+      [
+       "2010",
+       "@@triccster and The Guru's",
+       "Santana Moss, Tony Gonzalez, Mark Sanchez for Vincent Jackson, Owen Daniels"
+      ],
+      [
+       "2012",
+       "@@DJ and @@Wallner",
+       "Philip Rivers, Mike Wallace, Marcel Reece, Donald Brown for Shonn Greene, Matthew Stafford"
+      ],
+      [
+       "2012",
+       "@@Colt45Johnson and @@TuanonStan",
+       "Willis McGahee, Brandon Lloyd for Matt Forte, Jermichael Finley"
+      ],
+      [
+       "2012",
+       "@@DJ and @@Tyler",
+       "Rashad Jennings, Maurice Jones-Drew, Torrey Smith for Titus Young, Chris Johnson"
+      ],
+      [
+       "2012",
+       "@@brettmn13 and 2012 champ",
+       "Cam Newton, Reggie Bush for Ray Rice, Matt Schaub"
+      ],
+      [
+       "2012",
+       "@@YoungBuck04 and @@TuanonStan",
+       "Mikel Leshoure for Andrew Luck"
+      ],
+      [
+       "2012",
+       "2012 champ and @@TuanonStan",
+       "Reggie Bush, Aaron Rodgers, Andre Johnson for Mike Williams, Arian Foster"
+      ],
+      [
+       "2012",
+       "@@Colt45Johnson and 2012 champ",
+       "Malcom Floyd, Trent Richardson, Brandon LaFell for Jordy Nelson, BenJarvus Green-Ellis, Danny Amendola"
+      ],
+      [
+       "2012",
+       "@@Wallner and @@Tyler",
+       "Donald Brown for Alex Green"
+      ],
+      [
+       "2012",
+       "@@triccster and @@TuanonStan",
+       "DeAngelo Williams for Brent Celek"
+      ],
+      [
+       "2012",
+       "@@J Rock and @@TuanonStan",
+       "Julio Jones, Stevan Ridley for Andre Johnson, Marshawn Lynch"
+      ],
+      [
+       "2012",
+       "@@Colt45Johnson and 2012 champ",
+       "Eli Manning, Wes Welker, Vincent Jackson for Cam Newton, Darrius Heyward-Bey, Ryan Mathews, Mike Williams"
+      ],
+      [
+       "2012",
+       "@@DJ and @@RockMNwild",
+       "Chris Johnson, Steve Smith, Michael Crabtree for Frank Gore, Ben Roethlisberger"
+      ],
+      [
+       "2012",
+       "@@brettmn13 and @@TuanonStan",
+       "Jamaal Charles for Reggie Wayne"
+      ],
+      [
+       "2012",
+       "@@Tyler and @@Wallner",
+       "Maurice Jones-Drew, Lance Moore for Mike Wallace, Doug Martin"
+      ],
+      [
+       "2012",
+       "@@Wallner and @@DJ",
+       "Percy Harvin for Dwayne Bowe"
+      ],
+      [
+       "2012",
+       "@@Colt45Johnson and @@DJ",
+       "Jordy Nelson, Ryan Mathews, BenJarvus Green-Ellis, Darrius Heyward-Bey for Justin Blackmon, Percy Harvin, Frank Gore, Shonn Greene, Robert Meachem"
+      ],
+      [
+       "2012",
+       "@@Wallner and @@Colt45Johnson",
+       "Marques Colston, Santonio Holmes for Percy Harvin, Robert Meachem"
+      ],
+      [
+       "2013",
+       "@@triccster and @@Colt45Johnson",
+       "Anquan Boldin for Keenan Allen"
+      ],
+      [
+       "2013",
+       "@@J Rock and @@RockMNwild",
+       "Colin Kaepernick for Trent Richardson"
+      ],
+      [
+       "2013",
+       "2012 champ and @@RockMNwild",
+       "Victor Cruz for Stevan Ridley, Martellus Bennett"
+      ],
+      [
+       "2013",
+       "@@TuanonStan and @@Tyler",
+       "Terrelle Pryor Sr., Chris Johnson, Ben Tate for C.J. Spiller, Andrew Luck"
+      ],
+      [
+       "2013",
+       "@@Colt45Johnson and @@Wallner",
+       "Cecil Shorts, Knowshon Moreno for Demaryius Thomas, Jacquizz Rodgers"
+      ],
+      [
+       "2013",
+       "@@Tom and @@RockMNwild",
+       "Le'Veon Bell, Hakeem Nicks for Alfred Morris"
+      ],
+      [
+       "2013",
+       "@@triccster and 2012 champ",
+       "Ryan Mathews, Andre Ellington, Denarius Moore for Frank Gore, Michael Floyd, Santana Moss"
+      ],
+      [
+       "2013",
+       "@@Tyler and @@Wallner",
+       "Josh Gordon, Ben Tate for Darren McFadden, Mike Williams"
+      ],
+      [
+       "2013",
+       "@@brettmn13 and @@RockMNwild",
+       "Darren Sproles for Tony Romo"
+      ],
+      [
+       "2013",
+       "@@RockMNwild and @@Colt45Johnson",
+       "Dez Bryant, Darren Sproles for Brandon Marshall, Giovani Bernard"
+      ],
+      [
+       "2013",
+       "@@Tom and @@Wallner",
+       "Maurice Jones-Drew for Pierre Garcon"
+      ],
+      [
+       "2013",
+       "@@brettmn13 and 2012 champ",
+       "Julian Edelman for Ryan Mathews"
+      ],
+      [
+       "2013",
+       "2012 champ and @@triccster",
+       "Torrey Smith, Rob Gronkowski for Wes Welker, Owen Daniels"
+      ],
+      [
+       "2013",
+       "@@Wallner and @@TuanonStan",
+       "Lamar Miller, Ben Tate, Cecil Shorts for David Wilson, DeAndre Hopkins"
       ]
      ]
     }

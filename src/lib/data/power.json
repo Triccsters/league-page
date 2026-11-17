@@ -29,8 +29,8 @@
   {
    "h": "butterygoop",
    "rank": 1,
-   "score": 1.818,
-   "ros": 119.4,
+   "score": 1.82,
+   "ros": 119.44,
    "ppg": 119.93,
    "allplay": 0.687,
    "ros_rank": 1,
@@ -53,7 +53,7 @@
   {
    "h": "snelson91",
    "rank": 3,
-   "score": 0.842,
+   "score": 0.841,
    "ros": 112.66,
    "ppg": 109.61,
    "allplay": 0.596,
@@ -101,8 +101,8 @@
   {
    "h": "brettmn13",
    "rank": 7,
-   "score": -0.308,
-   "ros": 106.08,
+   "score": -0.309,
+   "ros": 106.07,
    "ppg": 97.74,
    "allplay": 0.434,
    "ros_rank": 5,
@@ -149,8 +149,8 @@
   {
    "h": "PapaMidnight",
    "rank": 11,
-   "score": -0.983,
-   "ros": 101.74,
+   "score": -0.982,
+   "ros": 101.76,
    "ppg": 94.08,
    "allplay": 0.283,
    "ros_rank": 8,
@@ -177,7 +177,7 @@
   "9": {
    "butterygoop": {
     "rank": 1,
-    "score": 1.818
+    "score": 1.82
    },
    "TuanonStan": {
     "rank": 2,
@@ -185,7 +185,7 @@
    },
    "snelson91": {
     "rank": 3,
-    "score": 0.842
+    "score": 0.841
    },
    "RockMNwild": {
     "rank": 4,
@@ -201,7 +201,7 @@
    },
    "brettmn13": {
     "rank": 7,
-    "score": -0.308
+    "score": -0.309
    },
    "Jbird531": {
     "rank": 8,
@@ -217,7 +217,7 @@
    },
    "PapaMidnight": {
     "rank": 11,
-    "score": -0.983
+    "score": -0.982
    },
    "thecreamer": {
     "rank": 12,

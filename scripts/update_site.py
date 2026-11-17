@@ -818,6 +818,15 @@ def _past_managers(history, index):
     return out
 
 
+def _team_key(s):
+    """Team names for matching. Yahoo's pages use curly apostrophes and history.json
+    straight ones, so "Hurst Don't It" and "Hurst Don’t It" are the same team.
+    Fold the quote characters and the spacing rather than hard-coding either form."""
+    s = (s or "").replace("’", "'").replace("‘", "'")
+    s = s.replace("“", '"').replace("”", '"')
+    return " ".join(s.split()).casefold()
+
+
 def build_vetoed(history, vault_manual):
     """vetoed_trades.json: trades the league killed, from the Yahoo years.
 
@@ -840,9 +849,10 @@ def build_vetoed(history, vault_manual):
     names = history.get("team_names") or {}
 
     def handle_for(season, team):
+        want = _team_key(team)
         for key in (season, str(season)):
             for h, v in (names.get(key) or {}).items():
-                if v == team:
+                if _team_key(v) == want:
                     return h
         return None
 
@@ -875,6 +885,89 @@ def build_vetoed(history, vault_manual):
     msg = f"{len(trades)} vetoed trades"
     if unresolved:
         msg += f" - UNRESOLVED TEAM NAMES: {', '.join(unresolved)}"
+    return msg
+
+
+def build_yahoo_history(history, vault_manual):
+    """yahoo_history.json: the Yahoo-era league history that was on no page here.
+
+    Three things, all from the vault's _yahoo_league_history.json, which was read off
+    Yahoo's own Managers pages and Commish Updates logs on 2026-11-16:
+
+      activity   waiver priority, moves, trades and FAAB left, per team per season,
+                 for all eleven Yahoo seasons. Nothing on the site carried pre-2014
+                 activity at all.
+      settings   the dated commissioner changes - half PPR arriving in 2018, trade
+                 review moving from a league vote to the commissioner, division
+                 winners taking the top playoff seeds from 2012, fractional points
+                 from 2013. rules.json only ever covered 2021 onward.
+      trades     the 44 trades from 2008-2013. trades.json starts at 2014 because the
+                 vault has no pre-2014 lineups, so these carry no value or winner -
+                 who got whom, and when, and nothing invented on top.
+
+    Same contract as build_vetoed: no vault file means the committed file is LEFT
+    ALONE, so a build elsewhere cannot blank it.
+    """
+    src = read_json(os.path.join(vault_manual, "_yahoo_league_history.json"), None)
+    if not src:
+        return "no vault file, kept what is committed"
+
+    names = history.get("team_names") or {}
+
+    def handle_for(season, team):
+        want = _team_key(team)
+        for key in (season, str(season)):
+            for h, v in (names.get(key) or {}).items():
+                if _team_key(v) == want:
+                    return h
+        return None
+
+    unresolved = []
+    activity = {}
+    for season, teams in sorted((src.get("activity") or {}).items()):
+        rows = []
+        for team, a in teams.items():
+            h = handle_for(int(season), team)
+            if h is None:
+                unresolved.append(f"activity {season} {team}")
+            rows.append({"handle": h, "name": real_name(h) if h else None,
+                         "team": team, **a})
+        rows.sort(key=lambda r: -r["moves"])
+        activity[season] = rows
+
+    # 88 rows, two per trade. Pair on (season, timestamp) and shout if that is ever
+    # ambiguous - the same collision that merged three Sleeper-era-adjacent trades.
+    pairs, collisions = defaultdict(list), []
+    for season, when, team, players in (src.get("pre2014Trades") or []):
+        pairs[(season, when)].append((team, players))
+    pre = []
+    for (season, when), sides in sorted(pairs.items(), key=lambda kv: kv[0][0]):
+        if len(sides) != 2:
+            collisions.append(f"{season} {when} has {len(sides)} sides")
+            continue
+        out_sides = []
+        for team, players in sides:
+            h = handle_for(season, team)
+            if h is None:
+                unresolved.append(f"trade {season} {team}")
+            out_sides.append({"handle": h, "name": real_name(h) if h else None,
+                              "team": team, "got": players})
+        pre.append({"season": season, "when": when, "sides": out_sides})
+
+    write_json(os.path.join(DATA, "yahoo_history.json"), {
+        "activity": activity,
+        "settings": src.get("settings") or {},
+        "buyIn": src.get("buyIn") or {},
+        "pre2014Trades": pre,
+        "note": src.get("source", ""),
+    })
+    msg = (f"{sum(len(v) for v in activity.values())} team-seasons of activity, "
+           f"{sum(len(v) for v in (src.get('settings') or {}).values())} settings changes, "
+           f"{len(pre)} pre-2014 trades")
+    if collisions:
+        msg += " - PAIRING PROBLEM: " + "; ".join(collisions)
+    if unresolved:
+        msg += " - UNRESOLVED: " + ", ".join(unresolved[:6])
     return msg
 
 
@@ -1176,14 +1269,18 @@ def main():
            # the name to print where a line of built text names a manager
            "shown": ((lambda h: SHOWN.get(h, (h,))[0]) if CONFIG.get("names") == "handles"
                      else (lambda h: h))}
+    # BEFORE extras, because the tracker cards are built inside extras.build_all and
+    # read these two files. Written after it, a fresh clone's first build would produce
+    # empty Yahoo cards and only the second build would fill them.
+    # FL Players only: this is that league's Yahoo history, and the other repos share
+    # the vault path without sharing the team names, so an ungated run would write a
+    # file of nulls for them.
+    if HISTORY_SOURCE == "vault":
+        print("vetoed_trades.json:", build_vetoed(history, VAULT_MANUAL))
+        print("yahoo_history.json:", build_yahoo_history(history, VAULT_MANUAL))
     print("extras:", extras.build_all(ctx))
     # after extras, which writes the players and draft files unclaimed.json quotes
     print(f"unclaimed.json: {len(build_unclaimed(history))} unidentified teams")
-    # FL Players only: the vetoed trades are that league's Yahoo history, and the other
-    # repos share this vault path without sharing the team names, so an ungated run
-    # would write a file of nulls for them.
-    if HISTORY_SOURCE == "vault":
-        print("vetoed_trades.json:", build_vetoed(history, VAULT_MANUAL))
     # Across the Leagues (2026-10-14): reads the other Sleeper repos' history.json
     try:
         import crossleague

@@ -1009,7 +1009,7 @@ def yahoo_vetoes(C):
         sides = t.get("sides") or []
         if len(sides) != 2:
             continue
-        who = " and ".join(T(s["handle"]) if s.get("handle") else s["team"] for s in sides)
+        who = " and ".join(_who(s) for s in sides)
         blocked = " for ".join(", ".join(s.get("got") or []) for s in sides)
         rows.append([str(t["season"]), who, blocked, t.get("resubmitted", "")])
     return [card("vetoes", "Trades the league killed",
@@ -1019,10 +1019,105 @@ def yahoo_vetoes(C):
                  ["Season", "Between", "What was blocked", "Then what"], rows)]
 
 
+def _yahoo_hist(C):
+    return C.read_json(os.path.join(C.repo, "src", "lib", "data", "yahoo_history.json"), None) or {}
+
+
+def _hidden(h):
+    """A '?'-prefixed handle is a team whose manager Yahoo never named. Those are
+    deliberately absent from managers.json, so T() has nothing to resolve them to."""
+    return not h or str(h).startswith("?")
+
+
+def _who(side):
+    """Name a trade side: the manager where there is one, otherwise the team itself,
+    so an unidentified team reads as its team name instead of a raw @@?handle."""
+    h = side.get("handle")
+    return side.get("team") if _hidden(h) else T(h)
+
+
+def yahoo_activity(C):
+    """Who worked the wire across the eleven Yahoo seasons, 2008-2020.
+
+    From the Managers page's own Moves and Trades columns. The site had never carried
+    activity for any season before 2021, and nothing at all for 2008-2013.
+    """
+    h = _yahoo_hist(C)
+    tot = defaultdict(lambda: {"moves": 0, "trades": 0, "seasons": 0, "best": (0, None)})
+    for season, rows in (h.get("activity") or {}).items():
+        for r in rows:
+            k = r.get("handle")
+            if _hidden(k):
+                continue
+            t = tot[k]
+            t["moves"] += r.get("moves") or 0
+            t["trades"] += r.get("trades") or 0
+            t["seasons"] += 1
+            if (r.get("moves") or 0) > t["best"][0]:
+                t["best"] = (r["moves"], season)
+    rows = [[T(k), v["seasons"], v["moves"], v["trades"],
+             f'{v["best"][0]} in {v["best"][1]}' if v["best"][1] else ""]
+            for k, v in tot.items()]
+    rows.sort(key=lambda r: -r[2])
+    return [card("yahoomoves", "Who worked the wire on Yahoo",
+                 "Adds and drops, and completed trades, across the eleven Yahoo seasons from 2008 "
+                 "to 2020, taken from the league's own Managers pages. Teams whose manager Yahoo "
+                 "kept hidden are left out.",
+                 ["Team", "Yahoo seasons", "Moves", "Trades", "Busiest season"], rows)]
+
+
+def yahoo_rules(C):
+    """The dated commissioner changes, Yahoo era.
+
+    rules.json only ever covered 2021 onward, so none of this was anywhere on the site:
+    half PPR arriving in 2018, trade review moving off a league vote, division winners
+    taking the top seeds from 2012, fractional points from 2013.
+
+    Only the changes marked "big" in the vault file are shown - the ones that changed
+    how the league plays, rather than every scoring-category tweak.
+    """
+    h = _yahoo_hist(C)
+    rows = []
+    for season in sorted((h.get("settings") or {}), reverse=True):
+        for c in h["settings"][season]:
+            if c.get("big"):
+                rows.append([season, c.get("date", ""), c.get("what", "")])
+    return [card("yahoorules", "How the rules changed on Yahoo",
+                 "Every change the commissioner made that altered how the league plays, 2008 to "
+                 "2020, with the date Yahoo recorded it. The rules page starts at 2021, so none of "
+                 "this appeared on the site before.",
+                 ["Season", "When", "What changed"], rows)]
+
+
+def yahoo_old_trades(C):
+    """The 44 trades from 2008-2013.
+
+    trades.json starts at 2014 because the vault has no pre-2014 lineups, so these
+    carry no value, winner or margin - who got whom and when, with nothing invented
+    on top of it.
+    """
+    h = _yahoo_hist(C)
+    rows = []
+    for t in h.get("pre2014Trades") or []:
+        sides = t.get("sides") or []
+        if len(sides) != 2:
+            continue
+        who = " and ".join(_who(s) for s in sides)
+        what = " for ".join(", ".join(s.get("got") or []) for s in sides)
+        rows.append([str(t["season"]), who, what])
+    rows.sort(key=lambda r: r[0])
+    return [card("yahooldtrades", "Every trade before 2014",
+                 "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, "
+                 "because the archive has no lineups before that - so these are listed without a "
+                 "winner rather than graded on points nobody has.",
+                 ["Season", "Between", "What moved"], rows)]
+
+
 # ------------------------------------------------------------ build
 # names_log on in every league (T.J., 2026-10-14: crude names are fine)
 LEAGUE_SPECIALS = {
-    "league-page": ["kicker_file", "board_duty", "draft_report", "names_log", "yahoo_vetoes"],
+    "league-page": ["kicker_file", "board_duty", "draft_report", "names_log", "yahoo_vetoes",
+                    "yahoo_activity", "yahoo_rules", "yahoo_old_trades"],
     "league-fl-evolution": ["names_log"],
     "league-lets-go-brandon": ["names_log"],
     "league-megalabowl": ["median_misery", "qb_race", "firsts", "names_log"],
@@ -1048,7 +1143,8 @@ def build_trackers(ctx, drafts=None, waivers=None):
     repo_name = os.path.basename(C.repo)
     fns = {f.__name__: f for f in (kicker_file, board_duty, draft_report, names_log,
                                      median_misery, qb_race, firsts, trade_drama,
-                                     yahoo_vetoes)}
+                                     yahoo_vetoes, yahoo_activity, yahoo_rules,
+                                     yahoo_old_trades)}
     groups = []
 
     def group(gid, title, intro, make):
