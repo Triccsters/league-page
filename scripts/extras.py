@@ -1404,6 +1404,14 @@ def build_all(ctx):
         import traceback
         traceback.print_exc()
         print("record watch failed:", e)
+    # players who bounce between rosters and land in losses (grenades.py)
+    try:
+        import grenades as GR
+        out["grenades"] = len(GR.run(ctx, rows, now())["grenades"])
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print("grenades failed:", e)
     # the per-season yearbook pages at /season/<year> (seasons.py)
     try:
         import seasons as SE
