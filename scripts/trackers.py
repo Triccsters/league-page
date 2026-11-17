@@ -1163,17 +1163,22 @@ def yahoo_old_trades(C):
         what = " for ".join(", ".join(s.get("got") or []) for s in sides)
         rows.append([str(t["season"]), _who(sides[0]), _who(sides[1]), what])
     rows.sort(key=lambda r: r[0])
-    return [card("yahooldtrades", "Every trade before 2014",
-                 "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, so "
-                 "these are listed as a plain record: who got whom and when, without a winner.",
-                 ["Season", "Team", "With", "What moved"], rows)]
+    # Retired 2026-11-16, kept callable so nothing that references it breaks. This
+    # card existed only because trades.json started at 2014 and these 44 had no
+    # value, winner or margin. flp.txns() now reads the pre-2014 transaction logs
+    # and flp_trade_value grades them off the week-by-week lineups, so they sit on
+    # the trade page with the other 124, won and lost like the rest. A second,
+    # worse list of the same trades is not worth a card.
+    return []
 
 
 # ------------------------------------------------------------ build
 # names_log on in every league (T.J., 2026-10-14: crude names are fine)
 LEAGUE_SPECIALS = {
+    # yahoo_old_trades retired 2026-11-16: those 44 trades are on the trade page now,
+    # graded like every other, so a second plain list of them was just a worse copy.
     "league-page": ["kicker_file", "board_duty", "draft_report", "names_log", "yahoo_vetoes",
-                    "yahoo_activity", "yahoo_rules", "yahoo_old_trades", "yahoo_commish", "yahoo_waiver_wars"],
+                    "yahoo_activity", "yahoo_rules", "yahoo_commish", "yahoo_waiver_wars"],
     "league-fl-evolution": ["names_log"],
     "league-lets-go-brandon": ["names_log"],
     "league-megalabowl": ["median_misery", "qb_race", "firsts", "names_log"],
