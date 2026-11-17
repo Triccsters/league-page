@@ -1,272 +1,47 @@
 {
- "generated": "2026-11-17T02:37:15+00:00",
+ "generated": "2026-11-17T13:21:04+00:00",
  "season": 2026,
- "week": 10,
+ "week": 11,
  "playoff": false,
  "games": [
   {
-   "a": "TuanonStan",
-   "b": "snelson91",
-   "a_win": 58.4,
-   "rec": {
-    "TuanonStan": [
-     8,
-     1
-    ],
-    "snelson91": [
-     3,
-     6
-    ]
-   },
-   "avg": {
-    "TuanonStan": 119.05,
-    "snelson91": 109.61
-   },
-   "last3": {
-    "TuanonStan": [
-     123.8,
-     103.66,
-     126.76
-    ],
-    "snelson91": [
-     76.5,
-     113.44,
-     100.68
-    ]
-   },
-   "proj": {
-    "TuanonStan": 114.75,
-    "snelson91": 108.21
-   },
-   "h2h": {
-    "TuanonStan": 10,
-    "snelson91": 2,
-    "games": 12
-   },
-   "streak": [
-    "TuanonStan",
-    4
-   ],
-   "last": {
-    "season": 2025,
-    "week": 10,
-    "label": null,
-    "score": {
-     "TuanonStan": 99.94,
-     "snelson91": 77.34
-    }
-   },
-   "flags": [
-    "{TuanonStan} has won 4 straight in this series",
-    "{TuanonStan} owns this series 10-2"
-   ]
-  },
-  {
-   "a": "Wallner",
-   "b": "RockMNwild",
-   "a_win": 50.7,
-   "rec": {
-    "Wallner": [
-     4,
-     5
-    ],
-    "RockMNwild": [
-     4,
-     5
-    ]
-   },
-   "avg": {
-    "Wallner": 105.51,
-    "RockMNwild": 104.76
-   },
-   "last3": {
-    "Wallner": [
-     87.74,
-     125.36,
-     91.56
-    ],
-    "RockMNwild": [
-     124.18,
-     135.78,
-     113.44
-    ]
-   },
-   "proj": {
-    "Wallner": 105.37,
-    "RockMNwild": 104.85
-   },
-   "h2h": {
-    "Wallner": 8,
-    "RockMNwild": 11,
-    "games": 19
-   },
-   "streak": [
-    "RockMNwild",
-    3
-   ],
-   "last": {
-    "season": 2025,
-    "week": 10,
-    "label": null,
-    "score": {
-     "Wallner": 68.5,
-     "RockMNwild": 140.3
-    }
-   },
-   "flags": [
-    "{RockMNwild} has won 3 straight in this series"
-   ]
-  },
-  {
-   "a": "triccster",
-   "b": "Colt45Johnson",
-   "a_win": 46.8,
-   "rec": {
-    "triccster": [
-     3,
-     6
-    ],
-    "Colt45Johnson": [
-     5,
-     4
-    ]
-   },
-   "avg": {
-    "triccster": 101.33,
-    "Colt45Johnson": 104.94
-   },
-   "last3": {
-    "triccster": [
-     87.62,
-     78.28,
-     111.8
-    ],
-    "Colt45Johnson": [
-     88.4,
-     99.2,
-     106.68
-    ]
-   },
-   "proj": {
-    "triccster": 102.48,
-    "Colt45Johnson": 104.98
-   },
-   "h2h": {
-    "triccster": 9,
-    "Colt45Johnson": 13,
-    "games": 22
-   },
-   "streak": [
-    "triccster",
-    2
-   ],
-   "last": {
-    "season": 2025,
-    "week": 11,
-    "label": null,
-    "score": {
-     "triccster": 105.42,
-     "Colt45Johnson": 53.22
-    }
-   },
-   "flags": [
-    "Rematch of the 2014 final"
-   ]
-  },
-  {
-   "a": "YoungBuck04",
-   "b": "Jbird531",
-   "a_win": 52.9,
-   "rec": {
-    "YoungBuck04": [
-     5,
-     4
-    ],
-    "Jbird531": [
-     6,
-     3
-    ]
-   },
-   "avg": {
-    "YoungBuck04": 105.97,
-    "Jbird531": 102.71
-   },
-   "last3": {
-    "YoungBuck04": [
-     135.46,
-     88.2,
-     128.68
-    ],
-    "Jbird531": [
-     126.62,
-     123.78,
-     67.16
-    ]
-   },
-   "proj": {
-    "YoungBuck04": 105.69,
-    "Jbird531": 103.43
-   },
-   "h2h": {
-    "YoungBuck04": 9,
-    "Jbird531": 8,
-    "games": 17
-   },
-   "streak": [
-    "YoungBuck04",
-    3
-   ],
-   "last": {
-    "season": 2025,
-    "week": 9,
-    "label": null,
-    "score": {
-     "YoungBuck04": 143.3,
-     "Jbird531": 88.2
-    }
-   },
-   "flags": [
-    "{YoungBuck04} has won 3 straight in this series"
-   ]
-  },
-  {
    "a": "butterygoop",
-   "b": "brettmn13",
-   "a_win": 69.2,
+   "b": "RockMNwild",
+   "a_win": 58.5,
    "rec": {
     "butterygoop": [
-     6,
+     7,
      3
     ],
-    "brettmn13": [
+    "RockMNwild": [
      5,
-     4
+     5
     ]
    },
    "avg": {
-    "butterygoop": 119.93,
-    "brettmn13": 97.74
+    "butterygoop": 120.87,
+    "RockMNwild": 105.62
    },
    "last3": {
     "butterygoop": [
-     81.18,
      143.08,
-     112.64
+     112.64,
+     129.38
     ],
-    "brettmn13": [
-     79.42,
-     104.4,
-     83.08
+    "RockMNwild": [
+     135.78,
+     113.44,
+     113.36
     ]
    },
    "proj": {
-    "butterygoop": 115.35,
-    "brettmn13": 99.99
+    "butterygoop": 120.42,
+    "RockMNwild": 113.65
    },
    "h2h": {
-    "butterygoop": 8,
-    "brettmn13": 5,
-    "games": 13
+    "butterygoop": 3,
+    "RockMNwild": 8,
+    "games": 11
    },
    "streak": [
     "butterygoop",
@@ -274,71 +49,811 @@
    ],
    "last": {
     "season": 2025,
-    "week": 6,
-    "label": null,
+    "week": 17,
+    "label": "Championship",
     "score": {
-     "butterygoop": 146.36,
-     "brettmn13": 70.8
+     "butterygoop": 144.14,
+     "RockMNwild": 81.62
     }
    },
-   "flags": []
+   "flags": [
+    "Rematch of the 2025 final",
+    "{RockMNwild} owns this series 8-3"
+   ],
+   "nfl": [
+    {
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 16.0,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "Kenneth Walker III",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
+     "date": "2026-11-15",
+     "both": false,
+     "score": 15.5,
+     "touches": {
+      "RockMNwild": [
+       {
+        "n": "Rhamondre Stevenson",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
+     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 14.5,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "Kirk Cousins",
+        "p": "QB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
+     "url": "https://www.espn.com/nfl/story/_/id/50495965/kirk-cousins-emotional-getting-win-return-vikings",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 14.5,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "Kirk Cousins",
+        "p": "QB",
+        "how": "named"
+       }
+      ]
+     }
+    }
+   ]
   },
   {
-   "a": "PapaMidnight",
+   "a": "TuanonStan",
    "b": "thecreamer",
-   "a_win": 49.1,
+   "a_win": 74.4,
    "rec": {
-    "PapaMidnight": [
-     1,
-     8
+    "TuanonStan": [
+     8,
+     2
     ],
     "thecreamer": [
      4,
-     5
+     6
     ]
    },
    "avg": {
-    "PapaMidnight": 94.08,
-    "thecreamer": 95.06
+    "TuanonStan": 117.27,
+    "thecreamer": 93.15
    },
    "last3": {
-    "PapaMidnight": [
-     134.28,
-     89.1,
-     75.7
+    "TuanonStan": [
+     103.66,
+     126.76,
+     101.24
     ],
     "thecreamer": [
-     105.92,
      79.86,
-     83.84
+     83.84,
+     76.0
     ]
    },
    "proj": {
-    "PapaMidnight": 97.46,
-    "thecreamer": 98.13
+    "TuanonStan": 112.14,
+    "thecreamer": 91.53
    },
    "h2h": {
-    "PapaMidnight": 12,
-    "thecreamer": 6,
-    "games": 18
+    "TuanonStan": 8,
+    "thecreamer": 7,
+    "games": 15
    },
    "streak": [
-    "PapaMidnight",
+    "thecreamer",
     1
    ],
    "last": {
     "season": 2025,
-    "week": 16,
-    "label": "11th place",
+    "week": 15,
+    "label": "Consolation R1",
     "score": {
-     "PapaMidnight": 107.28,
-     "thecreamer": 93.28
+     "TuanonStan": 100.34,
+     "thecreamer": 119.42
     }
    },
-   "flags": []
+   "flags": [
+    "Upset watch: {thecreamer} is the underdog"
+   ],
+   "nfl": [
+    {
+     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Kyle Monangai",
+        "p": "RB",
+        "how": "named"
+       }
+      ],
+      "thecreamer": [
+       {
+        "n": "Rome Odunze",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Kalif Raymond",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
+     "date": "2026-11-15",
+     "both": false,
+     "score": 15.5,
+     "touches": {
+      "thecreamer": [
+       {
+        "n": "DeMario Douglas",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Texans lose RB Woody Marks to concussion in loss to Browns",
+     "url": "https://www.espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
+     "date": "2026-11-15",
+     "both": false,
+     "score": 14.0,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Tank Dell",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Falcons WR Drake London cleared after being checked for concussion",
+     "url": "https://www.espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 13.5,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Drake London",
+        "p": "WR",
+        "how": "named"
+       },
+       {
+        "n": "Brian Robinson Jr.",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Bijan Robinson",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "Jbird531",
+   "b": "Colt45Johnson",
+   "a_win": 42.1,
+   "rec": {
+    "Jbird531": [
+     6,
+     4
+    ],
+    "Colt45Johnson": [
+     5,
+     5
+    ]
+   },
+   "avg": {
+    "Jbird531": 101.19,
+    "Colt45Johnson": 101.97
+   },
+   "last3": {
+    "Jbird531": [
+     123.78,
+     67.16,
+     87.52
+    ],
+    "Colt45Johnson": [
+     99.2,
+     106.68,
+     75.28
+    ]
+   },
+   "proj": {
+    "Jbird531": 96.25,
+    "Colt45Johnson": 102.51
+   },
+   "h2h": {
+    "Jbird531": 7,
+    "Colt45Johnson": 6,
+    "games": 13
+   },
+   "streak": [
+    "Colt45Johnson",
+    4
+   ],
+   "last": {
+    "season": 2025,
+    "week": 17,
+    "label": "9th place",
+    "score": {
+     "Jbird531": 75.08,
+     "Colt45Johnson": 84.4
+    }
+   },
+   "flags": [
+    "{Colt45Johnson} has won 4 straight in this series"
+   ],
+   "nfl": [
+    {
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 16.0,
+     "touches": {
+      "Jbird531": [
+       {
+        "n": "Josh Downs",
+        "p": "WR",
+        "how": "named"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Travis Kelce",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "Jbird531": [
+       {
+        "n": "Caleb Williams",
+        "p": "QB",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "D'Andre Swift",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
+     "url": "https://www.espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
+     "date": "2026-11-15",
+     "both": true,
+     "score": 12.5,
+     "touches": {
+      "Jbird531": [
+       {
+        "n": "Josh Downs",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Travis Kelce",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Chiefs' Kenneth Walker III (groin) to sit out vs. Falcons",
+     "url": "https://www.espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
+     "date": "2026-11-14",
+     "both": true,
+     "score": 12.5,
+     "touches": {
+      "Jbird531": [
+       {
+        "n": "Josh Downs",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Travis Kelce",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "brettmn13",
+   "a_win": 51.7,
+   "rec": {
+    "Wallner": [
+     4,
+     6
+    ],
+    "brettmn13": [
+     5,
+     5
+    ]
+   },
+   "avg": {
+    "Wallner": 103.17,
+    "brettmn13": 100.14
+   },
+   "last3": {
+    "Wallner": [
+     125.36,
+     91.56,
+     82.16
+    ],
+    "brettmn13": [
+     104.4,
+     83.08,
+     121.68
+    ]
+   },
+   "proj": {
+    "Wallner": 104.26,
+    "brettmn13": 102.9
+   },
+   "h2h": {
+    "Wallner": 8,
+    "brettmn13": 5,
+    "games": 13
+   },
+   "streak": [
+    "Wallner",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 12,
+    "label": null,
+    "score": {
+     "Wallner": 93.46,
+     "brettmn13": 86.42
+    }
+   },
+   "flags": [],
+   "nfl": [
+    {
+     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
+     "date": "2026-11-15",
+     "both": true,
+     "score": 15.5,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "Drake Maye",
+        "p": "QB",
+        "how": "named"
+       }
+      ],
+      "brettmn13": [
+       {
+        "n": "Hunter Henry",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patriots place RB TreVeyon Henderson on IR with still unexplained illness",
+     "url": "https://www.espn.com/nfl/story/_/id/50483113/patriots-place-rb-henderson-ir-unexplained-illness",
+     "date": "2026-11-15",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "Drake Maye",
+        "p": "QB",
+        "how": "ripple"
+       }
+      ],
+      "brettmn13": [
+       {
+        "n": "Hunter Henry",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 16.0,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Rashee Rice",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
+     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 15.5,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Josh Jacobs",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "triccster",
+   "b": "YoungBuck04",
+   "a_win": 58.7,
+   "rec": {
+    "triccster": [
+     4,
+     6
+    ],
+    "YoungBuck04": [
+     6,
+     4
+    ]
+   },
+   "avg": {
+    "triccster": 101.1,
+    "YoungBuck04": 109.26
+   },
+   "last3": {
+    "triccster": [
+     78.28,
+     111.8,
+     99.02
+    ],
+    "YoungBuck04": [
+     88.2,
+     128.68,
+     138.8
+    ]
+   },
+   "proj": {
+    "triccster": 105.92,
+    "YoungBuck04": 99.05
+   },
+   "h2h": {
+    "triccster": 5,
+    "YoungBuck04": 9,
+    "games": 14
+   },
+   "streak": [
+    "YoungBuck04",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 12,
+    "label": null,
+    "score": {
+     "triccster": 112.46,
+     "YoungBuck04": 148.26
+    }
+   },
+   "flags": [],
+   "nfl": [
+    {
+     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
+     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 15.5,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Jordan Love",
+        "p": "QB",
+        "how": "named"
+       }
+      ],
+      "triccster": [
+       {
+        "n": "Christian Watson",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving Eve",
+     "url": "https://www.espn.com/nfl/story/_/id/50504228/lafleur-plans-parsons-return-thanksgiving-eve",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 12.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Christian Watson",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "YoungBuck04": [
+       {
+        "n": "Jordan Love",
+        "p": "QB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 16.0,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Emmett Johnson",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
+     "date": "2026-11-15",
+     "both": false,
+     "score": 15.5,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "A.J. Brown",
+        "p": "WR",
+        "how": "named"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "PapaMidnight",
+   "b": "snelson91",
+   "a_win": 44.9,
+   "rec": {
+    "PapaMidnight": [
+     2,
+     8
+    ],
+    "snelson91": [
+     4,
+     6
+    ]
+   },
+   "avg": {
+    "PapaMidnight": 98.45,
+    "snelson91": 114.12
+   },
+   "last3": {
+    "PapaMidnight": [
+     89.1,
+     75.7,
+     137.78
+    ],
+    "snelson91": [
+     113.44,
+     100.68,
+     154.72
+    ]
+   },
+   "proj": {
+    "PapaMidnight": 106.84,
+    "snelson91": 110.85
+   },
+   "h2h": {
+    "PapaMidnight": 6,
+    "snelson91": 9,
+    "games": 15
+   },
+   "streak": [
+    "PapaMidnight",
+    2
+   ],
+   "last": {
+    "season": 2025,
+    "week": 11,
+    "label": null,
+    "score": {
+     "PapaMidnight": 82.5,
+     "snelson91": 72.14
+    }
+   },
+   "flags": [],
+   "nfl": [
+    {
+     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
+     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 15.5,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "MarShawn Lloyd",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Tucker Kraft",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ],
+      "snelson91": [
+       {
+        "n": "Matthew Golden",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Kaleb Johnson",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Texans lose RB Woody Marks to concussion in loss to Browns",
+     "url": "https://www.espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
+     "date": "2026-11-15",
+     "both": true,
+     "score": 14.0,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Nico Collins",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "snelson91": [
+       {
+        "n": "David Montgomery",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving Eve",
+     "url": "https://www.espn.com/nfl/story/_/id/50504228/lafleur-plans-parsons-return-thanksgiving-eve",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 12.0,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "MarShawn Lloyd",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Tucker Kraft",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ],
+      "snelson91": [
+       {
+        "n": "Matthew Golden",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Kaleb Johnson",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 16.0,
+     "touches": {
+      "snelson91": [
+       {
+        "n": "Patrick Mahomes",
+        "p": "QB",
+        "how": "named"
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "league_note": "",
  "byline": "",
- "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small."
+ "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
+ "nfl_read_at": "2026-11-17T13:21+00:00",
+ "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }

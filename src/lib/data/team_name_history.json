@@ -1,10 +1,22 @@
 {
  "season": 2026,
  "managers": {
+  "?0 Breaks Given": [
+   {
+    "when": "2012",
+    "name": "0 Breaks Given"
+   }
+  ],
   "?2012 champ": [
    {
     "when": "2012",
     "name": "2012 champ"
+   }
+  ],
+  "?Broncos": [
+   {
+    "when": "2008",
+    "name": "Broncos"
    }
   ],
   "?Minnesota 69ers": [
@@ -13,16 +25,34 @@
     "name": "Minnesota 69ers"
    }
   ],
-  "?Mitches bitches": [
+  "?Murphadelic": [
+   {
+    "when": "2012",
+    "name": "Murphadelic"
+   }
+  ],
+  "?PackNation": [
+   {
+    "when": "2012",
+    "name": "PackNation"
+   }
+  ],
+  "?Quool": [
    {
     "when": "2010",
-    "name": "Mitches bitches"
+    "name": "Quool"
    }
   ],
   "?The Guru's": [
    {
     "when": "2010",
     "name": "The Guru's"
+   }
+  ],
+  "?bELIeve No More": [
+   {
+    "when": "2012",
+    "name": "bELIeve No More"
    }
   ],
   "?da best": [
@@ -37,23 +67,19 @@
     "name": "kicked out next year"
    }
   ],
+  "?suit and a TIE": [
+   {
+    "when": "2013",
+    "name": "suit and a TIE"
+   }
+  ],
   "?vikes": [
    {
     "when": "2008",
     "name": "vikes"
    }
   ],
-  "Brandon": [
-   {
-    "when": "2010",
-    "name": "Quool"
-   }
-  ],
   "Colt45Johnson": [
-   {
-    "when": "2012",
-    "name": "bELIeve No More"
-   },
    {
     "when": "2013",
     "name": "The Conciliate"
@@ -127,10 +153,6 @@
    {
     "when": "2010",
     "name": "Vikings=SUPER BOWL"
-   },
-   {
-    "when": "2012",
-    "name": "PackNation"
    },
    {
     "when": "2013",
@@ -211,6 +233,12 @@
    {
     "when": "2026 (wk 8)",
     "name": "The retarded somalian"
+   }
+  ],
+  "Mitchell": [
+   {
+    "when": "2010",
+    "name": "Mitches bitches"
    }
   ],
   "PapaMidnight": [
@@ -337,16 +365,6 @@
     "name": "Trader Joes"
    }
   ],
-  "Tom": [
-   {
-    "when": "2012",
-    "name": "Murphadelic"
-   },
-   {
-    "when": "2013",
-    "name": "suit and a TIE"
-   }
-  ],
   "TuanonStan": [
    {
     "when": "2012",
@@ -440,14 +458,6 @@
    }
   ],
   "Wallner": [
-   {
-    "when": "2008",
-    "name": "Broncos"
-   },
-   {
-    "when": "2012",
-    "name": "0 Breaks Given"
-   },
    {
     "when": "2013",
     "name": "Top 3 Score Weekly's"

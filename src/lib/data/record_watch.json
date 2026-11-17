@@ -1,7 +1,7 @@
 {
  "season": 2026,
- "through_week": 9,
- "weeks_left": 5,
+ "through_week": 10,
+ "weeks_left": 4,
  "season_games": 14,
  "records": [
   {
@@ -17,9 +17,9 @@
    "chasers": [
     {
      "h": "TuanonStan",
-     "text": "At 8 with 5 to play. 5 more breaks it, 4 ties it.",
+     "text": "At 8 with 4 to play. Win out to tie it.",
      "now": 8,
-     "heat": 0.167,
+     "heat": 0.05,
      "broke": false
     }
    ]
@@ -37,23 +37,9 @@
    "chasers": [
     {
      "h": "PapaMidnight",
-     "text": "At 8 with 5 to play. 4 more breaks it, 3 ties it.",
+     "text": "At 8 with 4 to play. 4 more breaks it, 3 ties it.",
      "now": 8,
-     "heat": 0.333,
-     "broke": false
-    },
-    {
-     "h": "triccster",
-     "text": "At 6 with 5 to play. Lose out to tie it.",
-     "now": 6,
-     "heat": 0.05,
-     "broke": false
-    },
-    {
-     "h": "snelson91",
-     "text": "At 6 with 5 to play. Lose out to tie it.",
-     "now": 6,
-     "heat": 0.05,
+     "heat": 0.2,
      "broke": false
     }
    ]
@@ -71,9 +57,9 @@
    "chasers": [
     {
      "h": "PapaMidnight",
-     "text": "At 1 with 5 to play. One more only ties it; none sets the record.",
-     "now": 1,
-     "heat": 0.3,
+     "text": "At 2 with 4 to play. Stays there the rest of the way to tie it.",
+     "now": 2,
+     "heat": 0.1,
      "broke": false
     }
    ]
@@ -87,16 +73,8 @@
    "holder_season": 2019,
    "value": 1,
    "note": "Set in a 13-game season; this one has 14.",
-   "status": "live",
-   "chasers": [
-    {
-     "h": "TuanonStan",
-     "text": "At 1 with 5 to play. Stays there the rest of the way to tie it.",
-     "now": 1,
-     "heat": 0.1,
-     "broke": false
-    }
-   ]
+   "status": "safe",
+   "chasers": []
   },
   {
    "id": "points",
@@ -111,16 +89,16 @@
    "chasers": [
     {
      "h": "butterygoop",
-     "text": "1,079.34 so far, 119.9 a game. Needs 125.8 a game over the last 5.",
-     "now": 1079.34,
-     "heat": 0.953,
+     "text": "1,208.72 so far, 120.9 a game. Needs 124.9 a game over the last 4.",
+     "now": 1208.72,
+     "heat": 0.967,
      "broke": false
     },
     {
      "h": "TuanonStan",
-     "text": "1,071.46 so far, 119.1 a game. Needs 127.4 a game over the last 5.",
-     "now": 1071.46,
-     "heat": 0.934,
+     "text": "1,172.7 so far, 117.3 a game. Needs 134 a game over the last 4.",
+     "now": 1172.7,
+     "heat": 0.875,
      "broke": false
     }
    ]
@@ -186,23 +164,23 @@
    "chasers": [
     {
      "h": "butterygoop",
-     "text": "At 3 with 5 to play. 3 more breaks it, 2 ties it.",
+     "text": "At 3 with 4 to play. 3 more breaks it, 2 ties it.",
      "now": 3,
-     "heat": 0.5,
+     "heat": 0.4,
      "broke": false
     },
     {
      "h": "TuanonStan",
-     "text": "At 2 with 5 to play. 4 more breaks it, 3 ties it.",
+     "text": "At 2 with 4 to play. 4 more breaks it, 3 ties it.",
      "now": 2,
-     "heat": 0.333,
+     "heat": 0.2,
      "broke": false
     },
     {
      "h": "YoungBuck04",
-     "text": "At 2 with 5 to play. 4 more breaks it, 3 ties it.",
+     "text": "At 2 with 4 to play. 4 more breaks it, 3 ties it.",
      "now": 2,
-     "heat": 0.333,
+     "heat": 0.2,
      "broke": false
     }
    ]
@@ -216,36 +194,20 @@
    "holder_season": 2021,
    "value": 12,
    "note": null,
-   "status": "live",
-   "chasers": [
-    {
-     "h": "TuanonStan",
-     "text": "7 straight. Can only tie it this season.",
-     "now": 7,
-     "heat": 0.05,
-     "broke": false
-    }
-   ]
+   "status": "safe",
+   "chasers": []
   },
   {
    "id": "streak_L",
    "group": "streak",
    "title": "Longest losing streak",
-   "record": "10 straight, {Wallner}, 2014 week 3 to 2014 week 12",
-   "holder": "Wallner",
-   "holder_season": 2014,
+   "record": "10 straight, {?Minnesota 69ers}, 2010 week 4 to 2010 week 13",
+   "holder": "?Minnesota 69ers",
+   "holder_season": 2010,
    "value": 10,
    "note": null,
-   "status": "live",
-   "chasers": [
-    {
-     "h": "snelson91",
-     "text": "5 straight. Can only tie it this season.",
-     "now": 5,
-     "heat": 0.05,
-     "broke": false
-    }
-   ]
+   "status": "safe",
+   "chasers": []
   }
  ],
  "fresh": [
@@ -263,9 +225,9 @@
    "h": "snelson91",
    "stat": "wins",
    "label": "career wins",
-   "value": 75,
+   "value": 76,
    "rank": 9,
-   "of": 17,
+   "of": 16,
    "mark": 75,
    "reached": true,
    "game": {
@@ -328,7 +290,7 @@
      ],
      [
       2026,
-      3
+      4
      ]
     ],
     "beaten_most": [
@@ -369,8 +331,8 @@
    "stat": "losses",
    "label": "career losses",
    "value": 104,
-   "rank": 4,
-   "of": 17,
+   "rank": 3,
+   "of": 16,
    "mark": 100,
    "reached": true,
    "game": {
@@ -380,15 +342,15 @@
     "pts": 79.16,
     "opts": 117.2
    },
-   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 4th on the all-time list."
+   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 3rd on the all-time list."
   },
   {
    "h": "TuanonStan",
    "stat": "points",
    "label": "career points",
-   "value": 20823.44,
-   "rank": 5,
-   "of": 17,
+   "value": 20924.68,
+   "rank": 4,
+   "of": 16,
    "mark": 20000,
    "reached": true,
    "game": {
@@ -398,15 +360,15 @@
     "pts": 156.08,
     "opts": 88.88
    },
-   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 5th on the all-time list."
+   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 4th on the all-time list."
   },
   {
    "h": "YoungBuck04",
    "stat": "points",
    "label": "career points",
-   "value": 20303.58,
-   "rank": 6,
-   "of": 17,
+   "value": 20442.38,
+   "rank": 5,
+   "of": 16,
    "mark": 20000,
    "reached": true,
    "game": {
@@ -416,126 +378,7 @@
     "pts": 135.46,
     "opts": 81.18
    },
-   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 6th on the all-time list."
-  },
-  {
-   "h": "Colt45Johnson",
-   "stat": "points",
-   "label": "career points",
-   "value": 19956.12,
-   "rank": 7,
-   "of": 17,
-   "mark": 20000,
-   "reached": false,
-   "away": 43.88,
-   "text": "{Colt45Johnson} is 43.9 away from 20,000 career points, with 5 weeks left."
-  },
-  {
-   "h": "Colt45Johnson",
-   "stat": "wins",
-   "label": "career wins",
-   "value": 98,
-   "rank": 8,
-   "of": 17,
-   "mark": 100,
-   "reached": false,
-   "away": 2,
-   "text": "{Colt45Johnson} is 2 away from 100 career wins, with 5 weeks left.",
-   "detail": {
-    "by_season": [
-     [
-      2012,
-      5
-     ],
-     [
-      2013,
-      7
-     ],
-     [
-      2014,
-      10
-     ],
-     [
-      2015,
-      7
-     ],
-     [
-      2016,
-      4
-     ],
-     [
-      2017,
-      9
-     ],
-     [
-      2018,
-      11
-     ],
-     [
-      2019,
-      3
-     ],
-     [
-      2020,
-      7
-     ],
-     [
-      2021,
-      9
-     ],
-     [
-      2022,
-      8
-     ],
-     [
-      2023,
-      3
-     ],
-     [
-      2024,
-      7
-     ],
-     [
-      2025,
-      3
-     ],
-     [
-      2026,
-      5
-     ]
-    ],
-    "beaten_most": [
-     [
-      "RockMNwild",
-      12
-     ],
-     [
-      "triccster",
-      11
-     ],
-     [
-      "snelson91",
-      10
-     ]
-    ],
-    "biggest": {
-     "season": 2020,
-     "week": 3,
-     "opp": "snelson91",
-     "pts": 201.0,
-     "opts": 97.98,
-     "margin": 103.02
-    },
-    "closest": {
-     "season": 2026,
-     "week": 7,
-     "opp": "Wallner",
-     "pts": 88.4,
-     "opts": 87.74,
-     "margin": 0.66
-    },
-    "longest_streak": 9
-   }
+   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 5th on the all-time list."
   },
   {
    "h": "thecreamer",
@@ -543,11 +386,11 @@
    "label": "career wins",
    "value": 73,
    "rank": 10,
-   "of": 17,
+   "of": 16,
    "mark": 75,
    "reached": false,
    "away": 2,
-   "text": "{thecreamer} is 2 away from 75 career wins, with 5 weeks left.",
+   "text": "{thecreamer} is 2 away from 75 career wins, with 4 weeks left.",
    "detail": {
     "by_season": [
      [
@@ -637,76 +480,52 @@
    }
   },
   {
-   "h": "Colt45Johnson",
-   "stat": "losses",
-   "label": "career losses",
-   "value": 98,
-   "rank": 5,
-   "of": 17,
-   "mark": 100,
-   "reached": false,
-   "away": 2,
-   "text": "{Colt45Johnson} is 2 away from 100 career losses, with 5 weeks left."
-  },
-  {
    "h": "thecreamer",
    "stat": "losses",
    "label": "career losses",
+   "value": 98,
+   "rank": 4,
+   "of": 16,
+   "mark": 100,
+   "reached": false,
+   "away": 2,
+   "text": "{thecreamer} is 2 away from 100 career losses, with 4 weeks left."
+  },
+  {
+   "h": "Wallner",
+   "stat": "losses",
+   "label": "career losses",
    "value": 97,
-   "rank": 6,
-   "of": 17,
+   "rank": 5,
+   "of": 16,
    "mark": 100,
    "reached": false,
    "away": 3,
-   "text": "{thecreamer} is 3 away from 100 career losses, with 5 weeks left."
+   "text": "{Wallner} is 3 away from 100 career losses, with 4 weeks left."
   },
   {
    "h": "YoungBuck04",
    "stat": "games",
    "label": "games played",
-   "value": 196,
-   "rank": 5,
-   "of": 17,
+   "value": 197,
+   "rank": 4,
+   "of": 16,
    "mark": 200,
    "reached": false,
-   "away": 4,
-   "text": "{YoungBuck04} is 4 away from 200 games played, with 5 weeks left."
-  },
-  {
-   "h": "Colt45Johnson",
-   "stat": "games",
-   "label": "games played",
-   "value": 196,
-   "rank": 6,
-   "of": 17,
-   "mark": 200,
-   "reached": false,
-   "away": 4,
-   "text": "{Colt45Johnson} is 4 away from 200 games played, with 5 weeks left."
+   "away": 3,
+   "text": "{YoungBuck04} is 3 away from 200 games played, with 4 weeks left."
   },
   {
    "h": "TuanonStan",
    "stat": "games",
    "label": "games played",
-   "value": 196,
-   "rank": 7,
-   "of": 17,
+   "value": 197,
+   "rank": 5,
+   "of": 16,
    "mark": 200,
    "reached": false,
-   "away": 4,
-   "text": "{TuanonStan} is 4 away from 200 games played, with 5 weeks left."
-  },
-  {
-   "h": "snelson91",
-   "stat": "losses",
-   "label": "career losses",
-   "value": 95,
-   "rank": 7,
-   "of": 17,
-   "mark": 100,
-   "reached": false,
-   "away": 5,
-   "text": "{snelson91} is 5 away from 100 career losses, with 5 weeks left."
+   "away": 3,
+   "text": "{TuanonStan} is 3 away from 200 games played, with 4 weeks left."
   }
  ],
  "passing": [
@@ -716,52 +535,17 @@
    "stat": "wins",
    "rank": 2,
    "done": false,
-   "gap": 2,
-   "text": "{triccster} (114) is 2 behind {brettmn13} for 2nd in career wins. Both are still playing."
-  },
-  {
-   "h": "TuanonStan",
-   "over": "triccster",
-   "stat": "wins",
-   "rank": 3,
-   "done": false,
-   "gap": 2,
-   "text": "{TuanonStan} (112) is 2 behind {triccster} for 3rd in career wins. Both are still playing."
+   "gap": 1,
+   "text": "{triccster} (115) is 1 behind {brettmn13} for 2nd in career wins. Both are still playing."
   },
   {
    "h": "Jbird531",
-   "over": "Wallner",
+   "over": "YoungBuck04",
    "stat": "wins",
    "rank": 5,
    "done": false,
-   "gap": 2,
-   "text": "{Jbird531} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
-  },
-  {
-   "h": "YoungBuck04",
-   "over": "Jbird531",
-   "stat": "wins",
-   "rank": 6,
-   "done": false,
-   "gap": 1,
-   "text": "{YoungBuck04} (105) is 1 behind {Jbird531} for 6th in career wins. Both are still playing."
-  },
-  {
-   "h": "thecreamer",
-   "over": "snelson91",
-   "stat": "wins",
-   "rank": 9,
-   "done": false,
-   "gap": 2,
-   "text": "{thecreamer} (73) is 2 behind {snelson91} for 9th in career wins. Both are still playing."
-  },
-  {
-   "h": "triccster",
-   "over": "brettmn13",
-   "stat": "losses",
-   "rank": 2,
-   "done": true,
-   "text": "{triccster} passed {brettmn13} this season and is 2nd in career losses (108)."
+   "gap": 0,
+   "text": "{Jbird531} (106) is tied with {YoungBuck04} for 5th in career wins. Both are still playing."
   },
   {
    "h": "PapaMidnight",
@@ -775,130 +559,77 @@
  "lines": [
   {
    "k": "milestone",
-   "h": "Colt45Johnson",
-   "title": "20,000 career points",
-   "text": "{Colt45Johnson} is 43.9 away from 20,000 career points, with 5 weeks left."
-  },
-  {
-   "k": "milestone",
-   "h": "Colt45Johnson",
-   "title": "100 career wins",
-   "text": "{Colt45Johnson} is 2 away from 100 career wins, with 5 weeks left."
-  },
-  {
-   "k": "milestone",
    "h": "thecreamer",
    "title": "75 career wins",
-   "text": "{thecreamer} is 2 away from 75 career wins, with 5 weeks left."
-  },
-  {
-   "k": "streak",
-   "h": "TuanonStan",
-   "holder": "Wallner",
-   "title": "Longest winning streak",
-   "text": "{TuanonStan}: 7 straight. Can only tie it this season. The record is 12 straight, {Wallner}, 2020 week 10 to 2021 week 8."
-  },
-  {
-   "k": "streak",
-   "h": "snelson91",
-   "holder": "Wallner",
-   "title": "Longest losing streak",
-   "text": "{snelson91}: 5 straight. Can only tie it this season. The record is 10 straight, {Wallner}, 2014 week 3 to 2014 week 12."
+   "text": "{thecreamer} is 2 away from 75 career wins, with 4 weeks left."
   },
   {
    "k": "pass",
    "h": "triccster",
    "title": "Career wins",
-   "text": "{triccster} (114) is 2 behind {brettmn13} for 2nd in career wins. Both are still playing."
-  },
-  {
-   "k": "pass",
-   "h": "TuanonStan",
-   "title": "Career wins",
-   "text": "{TuanonStan} (112) is 2 behind {triccster} for 3rd in career wins. Both are still playing."
+   "text": "{triccster} (115) is 1 behind {brettmn13} for 2nd in career wins. Both are still playing."
   },
   {
    "k": "pass",
    "h": "Jbird531",
    "title": "Career wins",
-   "text": "{Jbird531} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
+   "text": "{Jbird531} (106) is tied with {YoungBuck04} for 5th in career wins. Both are still playing."
   },
   {
    "k": "chase",
    "h": "butterygoop",
    "holder": "YoungBuck04",
    "title": "Most points in a season",
-   "text": "{butterygoop}: 1,079.34 so far, 119.9 a game. Needs 125.8 a game over the last 5. The record is 1,708.52 points, {YoungBuck04} in 2024."
+   "text": "{butterygoop}: 1,208.72 so far, 120.9 a game. Needs 124.9 a game over the last 4. The record is 1,708.52 points, {YoungBuck04} in 2024."
   },
   {
    "k": "chase",
    "h": "TuanonStan",
    "holder": "YoungBuck04",
    "title": "Most points in a season",
-   "text": "{TuanonStan}: 1,071.46 so far, 119.1 a game. Needs 127.4 a game over the last 5. The record is 1,708.52 points, {YoungBuck04} in 2024."
+   "text": "{TuanonStan}: 1,172.7 so far, 117.3 a game. Needs 134 a game over the last 4. The record is 1,708.52 points, {YoungBuck04} in 2024."
   },
   {
    "k": "chase",
    "h": "butterygoop",
    "holder": "Tyler",
    "title": "Most weekly high scores in a season",
-   "text": "{butterygoop}: At 3 with 5 to play. 3 more breaks it, 2 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
+   "text": "{butterygoop}: At 3 with 4 to play. 3 more breaks it, 2 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
   },
   {
    "k": "chase",
    "h": "PapaMidnight",
    "holder": "?kicked out next year",
    "title": "Most losses in a season",
-   "text": "{PapaMidnight}: At 8 with 5 to play. 4 more breaks it, 3 ties it. The record is 11 losses, {?kicked out next year} in 2008 (and 9 more)."
+   "text": "{PapaMidnight}: At 8 with 4 to play. 4 more breaks it, 3 ties it. The record is 11 losses, {?kicked out next year} in 2008 (and 9 more)."
   },
   {
    "k": "chase",
    "h": "TuanonStan",
    "holder": "Tyler",
    "title": "Most weekly high scores in a season",
-   "text": "{TuanonStan}: At 2 with 5 to play. 4 more breaks it, 3 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
+   "text": "{TuanonStan}: At 2 with 4 to play. 4 more breaks it, 3 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
   },
   {
    "k": "chase",
    "h": "YoungBuck04",
    "holder": "Tyler",
    "title": "Most weekly high scores in a season",
-   "text": "{YoungBuck04}: At 2 with 5 to play. 4 more breaks it, 3 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
+   "text": "{YoungBuck04}: At 2 with 4 to play. 4 more breaks it, 3 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
   },
   {
    "k": "chase",
    "h": "PapaMidnight",
    "holder": "?Minnesota 69ers",
    "title": "Fewest wins in a season",
-   "text": "{PapaMidnight}: At 1 with 5 to play. One more only ties it; none sets the record. The record is 2 wins, {?Minnesota 69ers} in 2010 (and 3 more)."
+   "text": "{PapaMidnight}: At 2 with 4 to play. Stays there the rest of the way to tie it. The record is 2 wins, {?Minnesota 69ers} in 2010 (and 3 more)."
   },
   {
    "k": "chase",
    "h": "TuanonStan",
    "holder": "Jbird531",
    "title": "Most wins in a season",
-   "text": "{TuanonStan}: At 8 with 5 to play. 5 more breaks it, 4 ties it. The record is 12 wins, {Jbird531} in 2019 (and 1 more)."
-  },
-  {
-   "k": "chase",
-   "h": "TuanonStan",
-   "holder": "Jbird531",
-   "title": "Fewest losses in a season",
-   "text": "{TuanonStan}: At 1 with 5 to play. Stays there the rest of the way to tie it. The record is 1 losses, {Jbird531} in 2019."
-  },
-  {
-   "k": "chase",
-   "h": "triccster",
-   "holder": "?kicked out next year",
-   "title": "Most losses in a season",
-   "text": "{triccster}: At 6 with 5 to play. Lose out to tie it. The record is 11 losses, {?kicked out next year} in 2008 (and 9 more)."
-  },
-  {
-   "k": "chase",
-   "h": "snelson91",
-   "holder": "?kicked out next year",
-   "title": "Most losses in a season",
-   "text": "{snelson91}: At 6 with 5 to play. Lose out to tie it. The record is 11 losses, {?kicked out next year} in 2008 (and 9 more)."
+   "text": "{TuanonStan}: At 8 with 4 to play. Win out to tie it. The record is 12 wins, {Jbird531} in 2019 (and 1 more)."
   },
   {
    "k": "milestone",
@@ -910,19 +641,19 @@
    "k": "milestone",
    "h": "RockMNwild",
    "title": "100 career losses",
-   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 4th on the all-time list."
+   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 3rd on the all-time list."
   },
   {
    "k": "milestone",
    "h": "TuanonStan",
    "title": "20,000 career points",
-   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 5th on the all-time list."
+   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 4th on the all-time list."
   },
   {
    "k": "milestone",
    "h": "YoungBuck04",
    "title": "20,000 career points",
-   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 6th on the all-time list."
+   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 5th on the all-time list."
   },
   {
    "k": "fresh",
@@ -930,12 +661,6 @@
    "title": "Most points in a loss",
    "text": "{snelson91} scored 138.24 and lost to {Colt45Johnson} in week 5, 4th on the all-time list.",
    "week": 5
-  },
-  {
-   "k": "pass",
-   "h": "triccster",
-   "title": "Career losses",
-   "text": "{triccster} passed {brettmn13} this season and is 2nd in career losses (108)."
   },
   {
    "k": "pass",
@@ -983,6 +708,47 @@
     "h": "triccster",
     "title": "Career wins",
     "text": "{triccster} (114) is 2 behind {brettmn13} for 2nd in career wins. Both are still playing."
+   }
+  ],
+  "2026-w10": [
+   {
+    "k": "milestone",
+    "h": "thecreamer",
+    "title": "75 career wins",
+    "text": "{thecreamer} is 2 away from 75 career wins, with 4 weeks left."
+   },
+   {
+    "k": "pass",
+    "h": "triccster",
+    "title": "Career wins",
+    "text": "{triccster} (115) is 1 behind {brettmn13} for 2nd in career wins. Both are still playing."
+   },
+   {
+    "k": "pass",
+    "h": "Jbird531",
+    "title": "Career wins",
+    "text": "{Jbird531} (106) is tied with {YoungBuck04} for 5th in career wins. Both are still playing."
+   },
+   {
+    "k": "chase",
+    "h": "butterygoop",
+    "holder": "YoungBuck04",
+    "title": "Most points in a season",
+    "text": "{butterygoop}: 1,208.72 so far, 120.9 a game. Needs 124.9 a game over the last 4. The record is 1,708.52 points, {YoungBuck04} in 2024."
+   },
+   {
+    "k": "chase",
+    "h": "TuanonStan",
+    "holder": "YoungBuck04",
+    "title": "Most points in a season",
+    "text": "{TuanonStan}: 1,172.7 so far, 117.3 a game. Needs 134 a game over the last 4. The record is 1,708.52 points, {YoungBuck04} in 2024."
+   },
+   {
+    "k": "chase",
+    "h": "butterygoop",
+    "holder": "Tyler",
+    "title": "Most weekly high scores in a season",
+    "text": "{butterygoop}: At 3 with 4 to play. 3 more breaks it, 2 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
    }
   ]
  }
