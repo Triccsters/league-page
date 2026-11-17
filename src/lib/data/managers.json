@@ -197,14 +197,13 @@
   "photo": "/managers/question.jpg",
   "avatar": "/managers/question.jpg",
   "fantasyStart": 2008,
-  "bio": "Played from 2008 to 2013. Regular season: 23-30. Champion: 2008. Toughest opponent: Brett (0-5). No longer in the league.",
+  "bio": "Played from 2008 to 2013. Regular season: 21-19. Champion: 2008. Toughest opponent: Brett (0-4). No longer in the league.",
   "past": true,
   "lastSeason": 2013,
   "lastTeamName": "I Shot the Sharrif",
   "seasonsPlayed": [
    2008,
    2010,
-   2012,
    2013
   ],
   "rival": {
