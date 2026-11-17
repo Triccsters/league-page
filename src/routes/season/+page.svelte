@@ -1,11 +1,21 @@
 <script>
     import { nameOf, site } from '$lib/utils/flpHistory';
     import all from '$lib/data/seasons.json';
+    import partialSeasons from '$lib/data/seasons_partial.json';
     import unclaimed from '$lib/data/unclaimed.json';
 
     // newest first - people look up the recent ones more often
     const years = Object.keys(all.seasons).map(Number).sort((a, b) => b - a);
     const S = (y) => all.seasons[String(y)];
+
+    // Seasons the league played that history.json has no games for (2009, 2011).
+    // They get a card of their own so the grid has no gap - a year missing from
+    // "Every season" reads as a year that never happened.
+    const P = (y) => (partialSeasons?.years || {})[String(y)] || null;
+    const allYears = [...new Set([
+        ...years,
+        ...Object.keys(partialSeasons?.years || {}).map(Number)
+    ])].sort((a, b) => b - a);
     const champs = {};
     for (const y of years) {
         const c = S(y).champion;
@@ -20,18 +30,33 @@
 <div class="holder">
     <h1>Every season</h1>
     <p class="note">
-        {years.length} seasons on record, {Math.min(...years)} to {Math.max(...years)}.
+        {allYears.length} seasons, {Math.min(...allYears)} to {Math.max(...allYears)}.
         {#if site.missing_seasons?.length}
-            The league played {site.missing_seasons.join(' and ')} without T.J., so no game data for
-            those years is on his account. Both have since been part-reconstructed from the managers'
-            own public Yahoo profiles &mdash;
-            {#each site.missing_seasons as m, i}<a href="/season/{m}">{m}</a>{#if i < site.missing_seasons.length - 2}, {:else if i === site.missing_seasons.length - 2}&nbsp;and {/if}{/each}.
+            {site.missing_seasons.length} of them &mdash;
+            {#each site.missing_seasons as m, i}{#if i > 0}{i === site.missing_seasons.length - 1 ? ' and ' : ', '}{/if}<a href="/season/{m}">{m}</a>{/each}
+            {' '}&mdash; the league played without T.J., so no game data for them is on his account.
+            Those two are part-reconstructed from the managers' own public Yahoo profiles:
+            placements only, no scores.
         {/if}
         {titleCount} different managers have won it.
     </p>
 
     <div class="grid">
-        {#each years as y}
+        {#each allYears as y}
+        {#if P(y) && !all.seasons[String(y)]}
+            {@const p = P(y)}
+            <a class="card partial" href="/season/{y}">
+                <div class="yr">{y}</div>
+                {#if p.champion}
+                    <div class="ch"><span>🏆</span>{nameOf(p.champion)}</div>
+                    <small>from his own Yahoo profile</small>
+                {:else}
+                    <div class="ch unknown">champion unknown</div>
+                    <small>nobody readable finished 1st</small>
+                {/if}
+                <div class="meta">{p.teams} teams · reconstructed · Yahoo</div>
+            </a>
+        {:else}
             {@const s = S(y)}
             {@const top = s.standings[0]}
             <a class="card" href="/season/{y}" class:live={s.current}>
@@ -51,6 +76,7 @@
                     {#if s.format.era === 'yahoo'}· Yahoo{/if}
                 </div>
             </a>
+        {/if}
         {/each}
     </div>
 
@@ -73,6 +99,12 @@
         padding: 0.7em 0.8em; color: inherit; text-decoration: none; transition: border-color 140ms; }
     .card:hover { border-color: #3498db; }
     .card.live { border-color: #27ae60; background: rgba(39, 174, 96, 0.1); }
+    /* 2009 and 2011: played, but reconstructed from profiles rather than imported.
+       Dashed so the grid has no gap and the difference is still obvious. */
+    .card.partial { border-style: dashed; border-color: rgba(41, 128, 185, 0.75);
+        background: rgba(41, 128, 185, 0.10); }
+    .card.partial:hover { border-color: #3498db; }
+    .unknown { color: #5dade2; }
     .yr { font-size: 1.5em; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1.1; }
     .ch { display: flex; align-items: center; gap: 0.35em; font-weight: 700; margin-top: 0.15em; }
     .ch span { font-size: 0.95em; }
