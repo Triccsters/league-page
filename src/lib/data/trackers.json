@@ -1353,21 +1353,21 @@
        "@@Colt45Johnson",
        2,
        20.6,
-       "D'Andre Swift, Jaylen Waddle"
+       "Jaylen Waddle, D'Andre Swift"
       ],
       [
        10,
        "@@brettmn13",
        2,
        18.4,
-       "Jonah Coleman, Colston Loveland"
+       "Colston Loveland, Jonah Coleman"
       ],
       [
        11,
        "@@snelson91",
        3,
        27.2,
-       "Seattle Seahawks, Kyren Williams, Matthew Golden"
+       "Seattle Seahawks, Matthew Golden, Kyren Williams"
       ],
       [
        11,
@@ -1388,14 +1388,14 @@
        "@@Jbird531",
        2,
        22.7,
-       "Jaxon Smith-Njigba, Andre Szmyt"
+       "Andre Szmyt, Jaxon Smith-Njigba"
       ],
       [
        11,
        "@@thecreamer",
        3,
        20.2,
-       "Cleveland Browns, Harold Fannin Jr., Quinshon Judkins"
+       "Harold Fannin Jr., Cleveland Browns, Quinshon Judkins"
       ],
       [
        13,
@@ -1409,7 +1409,7 @@
        "@@Jbird531",
        2,
        15.6,
-       "Tyler Warren, Breece Hall"
+       "Breece Hall, Tyler Warren"
       ]
      ]
     }
@@ -1749,68 +1749,79 @@
      "note": "Every vetoed trade in the league's Yahoo years. Nine came in 2012, seven of them DJ's. The tenth is from 2016: T.J. and Austin had a deal blocked in week 5, and Austin went on to win the title that season.",
      "cols": [
       "Season",
-      "Between",
+      "Team",
+      "With",
       "What was blocked",
       "Then what"
      ],
      "rows": [
       [
        "2012",
-       "@@DJ and @@Tyler",
+       "@@DJ",
+       "@@Tyler",
        "Rashad Jennings, Maurice Jones-Drew, Torrey Smith for Titus Young, Chris Johnson",
        "Passed on Nov 17 as the same three-for-two."
       ],
       [
        "2012",
-       "@@Wallner and @@DJ",
+       "@@Wallner",
+       "@@DJ",
        "Shonn Greene for Marcel Reece, Donald Brown",
        "Passed on Nov 19, enlarged to include Philip Rivers, Mike Wallace and Matthew Stafford."
       ],
       [
        "2012",
-       "@@TuanonStan and @@Colt45Johnson",
+       "@@TuanonStan",
+       "@@Colt45Johnson",
        "Matt Forte, Andre Roberts, Danny Woodhead for Willis McGahee, Brandon Lloyd",
        "Passed on Nov 18, trimmed to Forte and Jermichael Finley."
       ],
       [
        "2012",
-       "@@YoungBuck04 and @@DJ",
+       "@@YoungBuck04",
+       "@@DJ",
        "Greg Jennings for Darrius Heyward-Bey",
        ""
       ],
       [
        "2012",
-       "@@Colt45Johnson and @@DJ",
+       "@@Colt45Johnson",
+       "@@DJ",
        "Dwayne Bowe for Jermichael Finley, Brandon LaFell",
        ""
       ],
       [
        "2012",
-       "@@DJ and @@RockMNwild",
+       "@@DJ",
+       "@@RockMNwild",
        "Felix Jones, Domenik Hixon for Steve Smith",
        ""
       ],
       [
        "2012",
-       "@@DJ and @@YoungBuck04",
+       "@@DJ",
+       "@@YoungBuck04",
        "Jacquizz Rodgers, Kyle Rudolph, Mario Manningham, Darrius Heyward-Bey for Dwayne Bowe, Chris Johnson, Michael Crabtree",
        ""
       ],
       [
        "2012",
-       "@@YoungBuck04 and @@DJ",
+       "@@YoungBuck04",
+       "@@DJ",
        "Dwayne Bowe, Shonn Greene, Chris Johnson, Greg Jennings for Jacquizz Rodgers, Mario Manningham, Darrius Heyward-Bey, Taiwan Jones",
        ""
       ],
       [
        "2012",
-       "@@Colt45Johnson and @@RockMNwild",
+       "@@Colt45Johnson",
+       "@@RockMNwild",
        "Demaryius Thomas, Leonard Hankerson, Rashard Mendenhall for Wes Welker, Vincent Jackson, Santana Moss",
        ""
       ],
       [
        "2016",
-       "@@triccster and @@RockMNwild",
+       "@@triccster",
+       "@@RockMNwild",
        "Latavius Murray, Derek Carr for Devonta Freeman, Doug Baldwin",
        ""
       ]
@@ -2044,231 +2055,276 @@
     {
      "id": "yahooldtrades",
      "title": "Every trade before 2014",
-     "note": "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, because the archive has no lineups before that - so these are listed without a winner rather than graded on points nobody has.",
+     "note": "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, so these are listed as a plain record: who got whom and when, without a winner.",
      "cols": [
       "Season",
-      "Between",
+      "Team",
+      "With",
       "What moved"
      ],
      "rows": [
       [
        "2008",
-       "@@brettmn13 and @@DJ",
+       "@@brettmn13",
+       "@@DJ",
        "Vincent Jackson, Thomas Jones for Laveranues Coles"
       ],
       [
        "2008",
-       "@@brettmn13 and @@DJ",
+       "@@brettmn13",
+       "@@DJ",
        "Calvin Johnson, Roy Williams for Vincent Jackson"
       ],
       [
        "2008",
-       "@@brettmn13 and @@Wallner",
+       "@@brettmn13",
+       "@@Wallner",
        "Owen Daniels, Roddy White for Chris Cooley, Marvin Harrison"
       ],
       [
        "2008",
-       "vikes and @@DJ",
+       "vikes",
+       "@@DJ",
        "Chad Johnson, Anthony Gonzalez for T.J. Houshmandzadeh"
       ],
       [
        "2008",
-       "@@DJ and @@brettmn13",
+       "@@DJ",
+       "@@brettmn13",
        "Dallas Clark, Thomas Jones for Chris Cooley, Edgerrin James"
       ],
       [
        "2008",
-       "@@brettmn13 and @@Wallner",
+       "@@brettmn13",
+       "@@Wallner",
        "Dallas Clark, Bernard Berrian for Andre Johnson, Alge Crumpler"
       ],
       [
        "2008",
-       "@@RockMNwild and @@DJ",
+       "@@RockMNwild",
+       "@@DJ",
        "Willie Parker, Javon Walker for Roy Williams, Brandon Jacobs"
       ],
       [
        "2008",
-       "@@RockMNwild and @@brettmn13",
+       "@@RockMNwild",
+       "@@brettmn13",
        "Reggie Bush, Bobby Engram for Wes Welker, Thomas Jones"
       ],
       [
        "2010",
-       "The Guru's and @@RockMNwild",
+       "The Guru's",
+       "@@RockMNwild",
        "Jahvid Best, Vernon Davis, Ryan Fitzpatrick for Miles Austin, Ronnie Brown, Nate Washington"
       ],
       [
        "2010",
-       "@@Wallner and @@brettmn13",
+       "@@Wallner",
+       "@@brettmn13",
        "Pierre Garcon, Darren McFadden for Roy Williams, Matt Forte"
       ],
       [
        "2010",
-       "@@Tyler and @@Wallner",
+       "@@Tyler",
+       "@@Wallner",
        "Kevin Kolb, Maurice Jones-Drew, Michael Vick, Kenny Britt for Deion Branch, Matt Forte, Peyton Manning"
       ],
       [
        "2010",
-       "Mitches bitches and @@Tyler",
+       "Mitches bitches",
+       "@@Tyler",
        "Braylon Edwards, Brandon Jackson for Steve Smith"
       ],
       [
        "2010",
-       "@@triccster and The Guru's",
+       "@@triccster",
+       "The Guru's",
        "Santana Moss, Tony Gonzalez, Mark Sanchez for Vincent Jackson, Owen Daniels"
       ],
       [
        "2012",
-       "@@DJ and @@Wallner",
+       "@@DJ",
+       "@@Wallner",
        "Philip Rivers, Mike Wallace, Marcel Reece, Donald Brown for Shonn Greene, Matthew Stafford"
       ],
       [
        "2012",
-       "@@Colt45Johnson and @@TuanonStan",
+       "@@Colt45Johnson",
+       "@@TuanonStan",
        "Willis McGahee, Brandon Lloyd for Matt Forte, Jermichael Finley"
       ],
       [
        "2012",
-       "@@DJ and @@Tyler",
+       "@@DJ",
+       "@@Tyler",
        "Rashad Jennings, Maurice Jones-Drew, Torrey Smith for Titus Young, Chris Johnson"
       ],
       [
        "2012",
-       "@@brettmn13 and 2012 champ",
+       "@@brettmn13",
+       "2012 champ",
        "Cam Newton, Reggie Bush for Ray Rice, Matt Schaub"
       ],
       [
        "2012",
-       "@@YoungBuck04 and @@TuanonStan",
+       "@@YoungBuck04",
+       "@@TuanonStan",
        "Mikel Leshoure for Andrew Luck"
       ],
       [
        "2012",
-       "2012 champ and @@TuanonStan",
+       "2012 champ",
+       "@@TuanonStan",
        "Reggie Bush, Aaron Rodgers, Andre Johnson for Mike Williams, Arian Foster"
       ],
       [
        "2012",
-       "@@Colt45Johnson and 2012 champ",
+       "@@Colt45Johnson",
+       "2012 champ",
        "Malcom Floyd, Trent Richardson, Brandon LaFell for Jordy Nelson, BenJarvus Green-Ellis, Danny Amendola"
       ],
       [
        "2012",
-       "@@Wallner and @@Tyler",
+       "@@Wallner",
+       "@@Tyler",
        "Donald Brown for Alex Green"
       ],
       [
        "2012",
-       "@@triccster and @@TuanonStan",
+       "@@triccster",
+       "@@TuanonStan",
        "DeAngelo Williams for Brent Celek"
       ],
       [
        "2012",
-       "@@J Rock and @@TuanonStan",
+       "@@J Rock",
+       "@@TuanonStan",
        "Julio Jones, Stevan Ridley for Andre Johnson, Marshawn Lynch"
       ],
       [
        "2012",
-       "@@Colt45Johnson and 2012 champ",
+       "@@Colt45Johnson",
+       "2012 champ",
        "Eli Manning, Wes Welker, Vincent Jackson for Cam Newton, Darrius Heyward-Bey, Ryan Mathews, Mike Williams"
       ],
       [
        "2012",
-       "@@DJ and @@RockMNwild",
+       "@@DJ",
+       "@@RockMNwild",
        "Chris Johnson, Steve Smith, Michael Crabtree for Frank Gore, Ben Roethlisberger"
       ],
       [
        "2012",
-       "@@brettmn13 and @@TuanonStan",
+       "@@brettmn13",
+       "@@TuanonStan",
        "Jamaal Charles for Reggie Wayne"
       ],
       [
        "2012",
-       "@@Tyler and @@Wallner",
+       "@@Tyler",
+       "@@Wallner",
        "Maurice Jones-Drew, Lance Moore for Mike Wallace, Doug Martin"
       ],
       [
        "2012",
-       "@@Wallner and @@DJ",
+       "@@Wallner",
+       "@@DJ",
        "Percy Harvin for Dwayne Bowe"
       ],
       [
        "2012",
-       "@@Colt45Johnson and @@DJ",
+       "@@Colt45Johnson",
+       "@@DJ",
        "Jordy Nelson, Ryan Mathews, BenJarvus Green-Ellis, Darrius Heyward-Bey for Justin Blackmon, Percy Harvin, Frank Gore, Shonn Greene, Robert Meachem"
       ],
       [
        "2012",
-       "@@Wallner and @@Colt45Johnson",
+       "@@Wallner",
+       "@@Colt45Johnson",
        "Marques Colston, Santonio Holmes for Percy Harvin, Robert Meachem"
       ],
       [
        "2013",
-       "@@triccster and @@Colt45Johnson",
+       "@@triccster",
+       "@@Colt45Johnson",
        "Anquan Boldin for Keenan Allen"
       ],
       [
        "2013",
-       "@@J Rock and @@RockMNwild",
+       "@@J Rock",
+       "@@RockMNwild",
        "Colin Kaepernick for Trent Richardson"
       ],
       [
        "2013",
-       "2012 champ and @@RockMNwild",
+       "2012 champ",
+       "@@RockMNwild",
        "Victor Cruz for Stevan Ridley, Martellus Bennett"
       ],
       [
        "2013",
-       "@@TuanonStan and @@Tyler",
+       "@@TuanonStan",
+       "@@Tyler",
        "Terrelle Pryor Sr., Chris Johnson, Ben Tate for C.J. Spiller, Andrew Luck"
       ],
       [
        "2013",
-       "@@Colt45Johnson and @@Wallner",
+       "@@Colt45Johnson",
+       "@@Wallner",
        "Cecil Shorts, Knowshon Moreno for Demaryius Thomas, Jacquizz Rodgers"
       ],
       [
        "2013",
-       "@@Tom and @@RockMNwild",
+       "@@Tom",
+       "@@RockMNwild",
        "Le'Veon Bell, Hakeem Nicks for Alfred Morris"
       ],
       [
        "2013",
-       "@@triccster and 2012 champ",
+       "@@triccster",
+       "2012 champ",
        "Ryan Mathews, Andre Ellington, Denarius Moore for Frank Gore, Michael Floyd, Santana Moss"
       ],
       [
        "2013",
-       "@@Tyler and @@Wallner",
+       "@@Tyler",
+       "@@Wallner",
        "Josh Gordon, Ben Tate for Darren McFadden, Mike Williams"
       ],
       [
        "2013",
-       "@@brettmn13 and @@RockMNwild",
+       "@@brettmn13",
+       "@@RockMNwild",
        "Darren Sproles for Tony Romo"
       ],
       [
        "2013",
-       "@@RockMNwild and @@Colt45Johnson",
+       "@@RockMNwild",
+       "@@Colt45Johnson",
        "Dez Bryant, Darren Sproles for Brandon Marshall, Giovani Bernard"
       ],
       [
        "2013",
-       "@@Tom and @@Wallner",
+       "@@Tom",
+       "@@Wallner",
        "Maurice Jones-Drew for Pierre Garcon"
       ],
       [
        "2013",
-       "@@brettmn13 and 2012 champ",
+       "@@brettmn13",
+       "2012 champ",
        "Julian Edelman for Ryan Mathews"
       ],
       [
        "2013",
-       "2012 champ and @@triccster",
+       "2012 champ",
+       "@@triccster",
        "Torrey Smith, Rob Gronkowski for Wes Welker, Owen Daniels"
       ],
       [
        "2013",
-       "@@Wallner and @@TuanonStan",
+       "@@Wallner",
+       "@@TuanonStan",
        "Lamar Miller, Ben Tate, Cecil Shorts for David Wilson, DeAndre Hopkins"
       ]
      ]

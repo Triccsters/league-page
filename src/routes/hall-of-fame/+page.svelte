@@ -88,8 +88,8 @@
             Rebuilt every time the site data is refreshed, so these move during the season.
             Career awards need three seasons before a manager qualifies.
             {#if site.first_season && site.first_season < 2014}
-                Seasons before 2014 were played on Yahoo under standard scoring, so counting awards
-                include them while the points ran lower than they do now.
+                Scoring was standard until 2018 and half PPR since, so seasons before 2018 score
+                lower across the board. Counting awards include them anyway.
             {/if}
         </p>
     {:else if failed}

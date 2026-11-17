@@ -169,7 +169,7 @@
         </select>
     </div>
     <p class="note">The game buttons change the single-game lists. Season and streak records always use the regular season.
-        {#if missing.length}No games from {missing.join(' or ')} are in the archive yet, so those seasons are missing from every list.{/if}</p>
+        {#if missing.length}The league did not include T.J. in {missing.join(' or ')}, so there is no archive for those seasons and they are missing from every list. That is a gap in the league's history, not in the records.{/if}</p>
 
     <div class="grid">
         <section>
@@ -290,7 +290,7 @@
             </tbody>
         </table>
     </div>
-    <p class="note">Lineup efficiency (points left on the bench) needs Sleeper's lineup data, so it lives on <a href="/efficiency">Efficiency</a> for the Sleeper years. The full all-time table with titles and finals is on <a href="/all-time">All-Time Stats</a>.</p>
+    <p class="note">Week-by-week lineups, and so points left on the bench, now reach back to 2008 and feed the player pages. <a href="/efficiency">Efficiency</a> still covers the Sleeper years only, because it is built on Sleeper's live data. The full all-time table with titles and finals is on <a href="/all-time">All-Time Stats</a>.</p>
 </div>
 
 <style>

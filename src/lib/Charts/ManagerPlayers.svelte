@@ -82,7 +82,7 @@
             </div>
         </div>
         {#if oldEra}
-            <p class="note">Seasons before 2014 were played on Yahoo under standard scoring, so those point totals run lower than the PPR years.</p>
+            <p class="note">Scoring was standard until 2018 and half PPR since, so seasons before 2018 run lower across the board.</p>
         {/if}
         <p class="more"><a href="/players?who={handle}">All players</a> · <a href="/draft-grades">Draft grades</a></p>
     </section>

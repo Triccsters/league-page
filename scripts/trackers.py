@@ -1009,14 +1009,18 @@ def yahoo_vetoes(C):
         sides = t.get("sides") or []
         if len(sides) != 2:
             continue
-        who = " and ".join(_who(s) for s in sides)
+        # One side per column. Trackers.svelte resolves a cell to a manager only
+        # when the WHOLE cell is "@@handle", so joining two of them into "@@A and
+        # @@B" left every name in this card rendering as a raw handle, the second
+        # one still carrying a literal @@. Found 2026-11-16 by looking at the page.
         blocked = " for ".join(", ".join(s.get("got") or []) for s in sides)
-        rows.append([str(t["season"]), who, blocked, t.get("resubmitted", "")])
+        rows.append([str(t["season"]), _who(sides[0]), _who(sides[1]),
+                     blocked, t.get("resubmitted", "")])
     return [card("vetoes", "Trades the league killed",
                  "Every vetoed trade in the league's Yahoo years. Nine came in 2012, seven of "
                  "them DJ's. The tenth is from 2016: T.J. and Austin had a deal blocked in week 5, "
                  "and Austin went on to win the title that season.",
-                 ["Season", "Between", "What was blocked", "Then what"], rows)]
+                 ["Season", "Team", "With", "What was blocked", "Then what"], rows)]
 
 
 def _yahoo_hist(C):
@@ -1138,9 +1142,14 @@ def yahoo_rules(C):
 def yahoo_old_trades(C):
     """The 44 trades from 2008-2013.
 
-    trades.json starts at 2014 because the vault has no pre-2014 lineups, so these
-    carry no value, winner or margin - who got whom and when, with nothing invented
-    on top of it.
+    trades.json still starts at 2014, so these carry no value, winner or margin -
+    who got whom and when, with nothing invented on top of it.
+
+    The old reason for that was "the vault has no pre-2014 lineups". That stopped
+    being true on 2026-11-16: slots() now covers 2008, 2010, 2012 and 2013 week by
+    week, so rest-of-season points for these 44 trades are computable and this card
+    could become graded like the rest. That work is not done, so the card stays as
+    a plain record rather than claiming a winner it has not worked out.
     """
     h = _yahoo_hist(C)
     rows = []
@@ -1148,15 +1157,14 @@ def yahoo_old_trades(C):
         sides = t.get("sides") or []
         if len(sides) != 2:
             continue
-        who = " and ".join(_who(s) for s in sides)
+        # One side per column, for the reason given in yahoo_vetoes above.
         what = " for ".join(", ".join(s.get("got") or []) for s in sides)
-        rows.append([str(t["season"]), who, what])
+        rows.append([str(t["season"]), _who(sides[0]), _who(sides[1]), what])
     rows.sort(key=lambda r: r[0])
     return [card("yahooldtrades", "Every trade before 2014",
-                 "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, "
-                 "because the archive has no lineups before that - so these are listed without a "
-                 "winner rather than graded on points nobody has.",
-                 ["Season", "Between", "What moved"], rows)]
+                 "The 44 trades from 2008, 2010, 2012 and 2013. The trade page starts at 2014, so "
+                 "these are listed as a plain record: who got whom and when, without a winner.",
+                 ["Season", "Team", "With", "What moved"], rows)]
 
 
 # ------------------------------------------------------------ build
