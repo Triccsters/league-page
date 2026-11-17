@@ -109,11 +109,8 @@
             {#if nfl}
                 <div class="nfl">
                     <span class="nt">In the actual NFL that year</span>
+                    {#if nfl.note}<p class="nnote">{nfl.note}</p>{/if}
                     <div class="nrow">
-                        {#if nfl.sb}
-                            <div><b>Super Bowl {nfl.sb.no}</b> {nfl.sb.won}
-                                <small>beat {nfl.sb.lost} {nfl.sb.score}</small></div>
-                        {/if}
                         {#if nfl.mvp}
                             <div><b>MVP</b> {nfl.mvp.n} <small>{nfl.mvp.pos} · {nfl.mvp.team}</small></div>
                         {/if}
@@ -355,6 +352,7 @@
     .nt { display: block; font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.07em;
         opacity: 0.75; margin-bottom: 0.3em; }
     .nrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.5em; }
+    .nnote { margin: 0 0 0.5em; line-height: 1.55; font-size: 0.93em; }
     .nrow b { display: block; font-size: 0.8em; opacity: 0.8; font-weight: 700; }
     .nrow small { display: block; opacity: 0.7; font-size: 0.82em; }
 

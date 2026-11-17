@@ -1,5 +1,5 @@
 {
-  "_readme": "Real-life NFL awards, for the season pages. Looked up 2026-11-16, not recalled. AP MVP from Wikipedia's List of NFL Most Valuable Player awards; AP Offensive Rookie of the Year from the AP wire list carried by the San Mateo Daily Journal and WTOP. Positions follow the sourced note that no non-quarterback has won MVP since Adrian Peterson in 2012. This is static history: it does not change and the build never overwrites it.",
+  "_readme": "Real-life NFL context for the season pages: what happened in the NFL that actually moved fantasy lineups. Looked up, never recalled. Static history, so the build never overwrites it.",
   "sources": [
     "https://en.wikipedia.org/wiki/List_of_NFL_Most_Valuable_Player_awards",
     "https://www.smdailyjournal.com/sports/ap-nfl-offensive-rookie-of-the-year/article_5408db6f-6689-5683-bbeb-5aae49f7a1af.html",
@@ -133,7 +133,14 @@
         "won": "New England Patriots",
         "lost": "Seattle Seahawks",
         "score": "28-24"
-      }
+      },
+      "note": "Week 2 gutted rosters across the league. Adrian Peterson was deactivated over a child-abuse charge and Jamaal Charles went down on his second carry with an ankle injury. Ray Rice had already been released and then suspended for the whole season once the TMZ video came out, leaving anyone who drafted him with nothing. Josh Gordon's second failed drug test cost him most of the year, and Sam Bradford tore an ACL before the season even started.",
+      "src": [
+        "https://www.si.com/nfl/2014/09/17/ap-fbn-fantasy-football",
+        "https://thewoodword.org/sports/2014/09/21/scandals-plague-nfl-shake-up-fantasy-leagues",
+        "https://www.footballguys.com/article/Suspended_Players_In_Dynasty_Leagues",
+        "https://fftoolbox.fulltimefantasy.com/football/article.cfm?article_id=1949"
+      ]
     },
     "2015": {
       "mvp": {
@@ -334,5 +341,6 @@
       }
     }
   },
-  "_season_convention": "Keyed by SEASON, not by the year the Super Bowl was played. The 2008 season ends in Super Bowl XLIII, played February 2009. Every entry here has already been shifted, so do not shift it again. Cross-checked against the MVP list: Peyton Manning's 2013 MVP season ends in XLVIII, the 43-8 Seattle win over his Broncos, and Cam Newton's 2015 MVP season ends in Super Bowl L, the Denver win over his Panthers."
+  "_season_convention": "Keyed by SEASON, not by the year the Super Bowl was played. The 2008 season ends in Super Bowl XLIII, played February 2009. Every entry here has already been shifted, so do not shift it again. Cross-checked against the MVP list: Peyton Manning's 2013 MVP season ends in XLVIII, the 43-8 Seattle win over his Broncos, and Cam Newton's 2015 MVP season ends in Super Bowl L, the Denver win over his Panthers.",
+  "_note_scope": "Notes cover season-ending injuries, suspensions, holdouts, records and rule changes - things that changed what a manager could start. The Super Bowl and the NFL playoffs are deliberately NOT here: fantasy seasons end in week 16 or 17, so the postseason never affected this league. The `sb` field is kept for trivia but is not shown on the page, for the same reason."
 }
