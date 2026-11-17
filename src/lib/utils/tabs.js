@@ -167,6 +167,11 @@ export const tabs = [
         key: 'history',
         children: [
             {
+                icon: 'calendar_month',
+                label: 'Seasons',
+                dest: '/season',
+            },
+            {
                 icon: 'auto_stories',
                 label: 'All-Time Stats',
                 dest: '/all-time',

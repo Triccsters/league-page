@@ -1404,4 +1404,12 @@ def build_all(ctx):
         import traceback
         traceback.print_exc()
         print("record watch failed:", e)
+    # the per-season yearbook pages at /season/<year> (seasons.py)
+    try:
+        import seasons as SE
+        out["seasons"] = len(SE.build_seasons(ctx)["seasons"])
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print("seasons failed:", e)
     return out
