@@ -170,6 +170,33 @@
             </div>
         </section>
 
+        <!-- ── the title game, player by player ────────────────────── -->
+        {#if s.title_lineups && s.title_game}
+            <section>
+                <h2>The title game, player by player</h2>
+                <p class="note">Both starting lineups from the final. Championship week is when NFL
+                    teams with a playoff seed already locked start resting people, so a star with
+                    almost nothing next to his name is often a real story rather than a bad day.</p>
+                <div class="lineups">
+                    {#each [s.champion, s.runner_up] as h}
+                        {@const L = s.title_lineups[h]}
+                        {#if L}
+                            <div class="lu" class:won={h === s.champion}>
+                                <h3>{nameOf(h)} <em>{n1(L.total)}</em>
+                                    {#if h === s.champion}<span class="tag">won</span>{/if}</h3>
+                                {#each L.starters as p}
+                                    <div class="st" class:zero={p.pts <= 2}>
+                                        <span class="sp {p.pos}">{p.pos || '—'}</span>
+                                        <b>{p.n}</b><em>{n1(p.pts)}</em>
+                                    </div>
+                                {/each}
+                            </div>
+                        {/if}
+                    {/each}
+                </div>
+            </section>
+        {/if}
+
         <!-- ── bracket ─────────────────────────────────────────────── -->
         {#if realRounds.length}
             <section>
@@ -378,6 +405,22 @@
     .good { color: #27ae60; } .bad { color: #e74c3c; }
     .tag { font-size: 0.68em; text-transform: uppercase; letter-spacing: 0.06em;
         background: rgba(241,196,15,0.25); padding: 0.1em 0.4em; border-radius: 4px; margin-left: 0.3em; }
+
+    .lineups { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 0.8em; }
+    .lu { border: 1px solid rgba(127,127,127,0.28); border-radius: 11px; padding: 0.6em 0.75em; }
+    .lu.won { border-color: rgba(241,196,15,0.55); background: rgba(241,196,15,0.08); }
+    .lu h3 { display: flex; align-items: baseline; gap: 0.4em; font-size: 1em; margin-bottom: 0.45em; opacity: 1; }
+    .lu h3 em { margin-left: auto; font-style: normal; font-weight: 800; font-variant-numeric: tabular-nums; }
+    .st { display: grid; grid-template-columns: 2.9em 1fr auto; gap: 0.45em; align-items: baseline;
+        padding: 0.2em 0; border-bottom: 1px solid rgba(127,127,127,0.15); }
+    .st b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+    .st em { font-style: normal; font-variant-numeric: tabular-nums; }
+    .st.zero b, .st.zero em { color: #e74c3c; }
+    .sp { font-size: 0.66em; font-weight: 800; letter-spacing: 0.04em; text-align: center;
+        border-radius: 3px; padding: 0.15em 0; background: rgba(127,127,127,0.2); }
+    .sp.QB { background: #c0392b; color: #fff; } .sp.RB { background: #1e8449; color: #fff; }
+    .sp.WR { background: #2471a3; color: #fff; } .sp.TE { background: #ca6f1e; color: #fff; }
+    .sp.K { background: #7d3c98; color: #fff; } .sp.DEF { background: #566573; color: #fff; }
 
     .rounds { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.7em; }
     .rnd { min-width: 0; }

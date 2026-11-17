@@ -99,7 +99,43 @@ def mvp_awards(season, table, players, tn):
     return out
 
 
-def build(history, players=None):
+SLOT_ORDER = {"QB": 0, "RB": 1, "WR": 2, "TE": 3, "W/R/T": 4, "FLEX": 4, "K": 5, "DEF": 6}
+
+
+def title_lineups(final, rows, tn):
+    """Both starting lineups from the championship game, player by player.
+
+    The title game is the one week everyone wants to re-litigate, and the data
+    for it already exists - history.json labels the game, and the slot rows have
+    week-level starters. Championship week is also when NFL teams with a locked
+    playoff seed rest their starters, so a star scoring nothing in a final is
+    often a real story rather than a bad week.
+    """
+    if not final or not rows:
+        return None
+    season, week = final["season"], final["week"]
+    by_mgr = {}
+    for r in rows:
+        if len(r) < 8:
+            continue
+        s, w, h, _k, name, pos, started, pts = r[:8]
+        if s != season or w != week or not started or h not in (final["a"], final["b"]):
+            continue
+        by_mgr.setdefault(h, []).append(dict(pos=pos or "", n=name, pts=round(pts or 0, 2)))
+    if not by_mgr:
+        return None
+    for h in by_mgr:
+        by_mgr[h].sort(key=lambda p: (SLOT_ORDER.get(p["pos"], 9), -p["pts"]))
+    out = {}
+    for h, lst in by_mgr.items():
+        out[h] = dict(name=tn.get(h) or h, starters=lst,
+                      total=round(sum(p["pts"] for p in lst), 2),
+                      best=max(lst, key=lambda p: p["pts"]) if lst else None,
+                      worst=min(lst, key=lambda p: p["pts"]) if lst else None)
+    return out
+
+
+def build(history, players=None, slot_rows=None):
     F = {k: i for i, k in enumerate(history["fields"])}
     S, W, E, A, PA, B, PB, PO, LB = (F["season"], F["week"], F["era"], F["a"],
                                      F["pa"], F["b"], F["pb"], F["playoff"], F["label"])
@@ -327,6 +363,9 @@ def build(history, players=None):
                         era=(rs[0]["era"] if rs else None),
                         games=len(rs) // 2),
             champion=champ, runner_up=runner, third=third, title_game=title,
+            title_lineups=title_lineups(
+                dict(season=season, week=title["week"], a=title["a"], b=title["b"])
+                if title else None, slot_rows, tn),
             standings=table,
             bracket={k: v for k, v in bracket.items()},
             awards=aw,
@@ -334,7 +373,7 @@ def build(history, players=None):
     return out
 
 
-def build_seasons(ctx):
+def build_seasons(ctx, slot_rows=None):
     data = ctx["data"]
     h = ctx.get("history")
     if not (isinstance(h, dict) and "games" in h and "fields" in h):
@@ -352,7 +391,7 @@ def build_seasons(ctx):
             break
     # src/lib/data, not static/data: the page imports it so the season renders
     # server-side, which a shared link preview and a search engine both need.
-    doc = dict(generated=ctx.get("now"), seasons=build(h, pl))
+    doc = dict(generated=ctx.get("now"), seasons=build(h, pl, slot_rows))
     ctx["write_json"](os.path.join(data, "seasons.json"), doc)
     return doc
 
@@ -365,7 +404,22 @@ if __name__ == "__main__":
     pp = os.path.join(repo, "static", "data", "players.json")
     pl = (json.load(io.open(pp, encoding="utf-8")).get("players")
           if os.path.exists(pp) else None)
-    seasons = build(h, pl)
+    # Standalone run: pull the vault's week-level slots so the title-game
+    # lineups are built too. The real build passes rows in from extras instead.
+    sr = None
+    vault = os.environ.get("FLP_MANUAL") or \
+        r"C:\Users\trick\Documents\Fantasy Football Vault\_manual"
+    if os.path.isdir(vault):
+        try:
+            sys.path.insert(0, vault)
+            import flp
+            sr = [(x.season, x.week, x.manager, None, flp.norm_player(x.player),
+                   x.pos or "", bool(x.started), round(x.points or 0, 2))
+                  for x in flp.slots()]
+            print(f"  vault slots: {len(sr)} player-weeks")
+        except Exception as e:
+            print("  no vault slots (%s) - title lineups will be empty" % e)
+    seasons = build(h, pl, sr)
     outp = os.path.join(repo, "src", "lib", "data", "seasons.json")
     with io.open(outp, "w", encoding="utf-8") as f:
         json.dump(dict(seasons=seasons), f, separators=(",", ":"))
