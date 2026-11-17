@@ -59,8 +59,13 @@
     {#if data.stale}<p class="note warn">The projections did not answer at the last update, so this page is from the update before.</p>{/if}
 
     {#if notes && notes.notes && notes.notes.length}
-        <h2>This week's notes, week {notes.week}</h2>
-        <p class="note">News, injuries, byes and trends that touch someone's roster, {notes.auto ? 'put together automatically from the week\'s scores and ESPN headlines' : `written by the weekly sweep${notes.written ? ` on ${notes.written}` : ''}`}. Yours are marked once you pick your name.</p>
+        <!-- The week number belongs on a hand-written sweep, which really is about that
+             week. The automatic list is two different things: scoring notes from the last
+             completed week, and ESPN headlines from the last few days, which usually fall
+             in the week now being played. Labelling the whole block with one week put a
+             fresh injury report under a heading a week or two older than the news. -->
+        <h2>This week's notes{notes.auto ? '' : `, week ${notes.week}`}</h2>
+        <p class="note">News, injuries, byes and trends that touch someone's roster, {notes.auto ? `put together automatically: the scoring notes are from week ${notes.week}, the last week with final scores, and the headlines are the most recent from ESPN` : `written by the weekly sweep${notes.written ? ` on ${notes.written}` : ''}`}. Yours are marked once you pick your name.</p>
         <ul class="notes">
             {#each [...notes.notes].sort((a, b) => (ready && b.h === $myTeam) - (ready && a.h === $myTeam)) as n}
                 <li class:mine={ready && n.h && n.h === $myTeam}>
