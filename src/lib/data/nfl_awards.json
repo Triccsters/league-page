@@ -4,81 +4,335 @@
     "https://en.wikipedia.org/wiki/List_of_NFL_Most_Valuable_Player_awards",
     "https://www.smdailyjournal.com/sports/ap-nfl-offensive-rookie-of-the-year/article_5408db6f-6689-5683-bbeb-5aae49f7a1af.html",
     "https://wtop.com/nfl/2026/02/ap-nfl-offensive-rookie-of-the-year/",
-    "https://www.foxsports.com/stories/nfl/nfl-most-valuable-player-complete-list-winners-year"
+    "https://www.foxsports.com/stories/nfl/nfl-most-valuable-player-complete-list-winners-year",
+    "https://topendsports.com/events/super-bowl/winners-list.htm"
   ],
   "checked": "2026-11-16",
   "seasons": {
     "2008": {
-      "mvp": { "n": "Peyton Manning", "pos": "QB", "team": "Indianapolis Colts" },
-      "oroy": { "n": "Matt Ryan", "pos": "QB", "team": "Atlanta Falcons" }
+      "mvp": {
+        "n": "Peyton Manning",
+        "pos": "QB",
+        "team": "Indianapolis Colts"
+      },
+      "oroy": {
+        "n": "Matt Ryan",
+        "pos": "QB",
+        "team": "Atlanta Falcons"
+      },
+      "sb": {
+        "no": "XLIII",
+        "won": "Pittsburgh Steelers",
+        "lost": "Arizona Cardinals",
+        "score": "27-23"
+      }
     },
     "2009": {
-      "mvp": { "n": "Peyton Manning", "pos": "QB", "team": "Indianapolis Colts" },
-      "oroy": { "n": "Percy Harvin", "pos": "WR", "team": "Minnesota Vikings" }
+      "mvp": {
+        "n": "Peyton Manning",
+        "pos": "QB",
+        "team": "Indianapolis Colts"
+      },
+      "oroy": {
+        "n": "Percy Harvin",
+        "pos": "WR",
+        "team": "Minnesota Vikings"
+      },
+      "sb": {
+        "no": "XLIV",
+        "won": "New Orleans Saints",
+        "lost": "Indianapolis Colts",
+        "score": "31-17"
+      }
     },
     "2010": {
-      "mvp": { "n": "Tom Brady", "pos": "QB", "team": "New England Patriots" },
-      "oroy": { "n": "Sam Bradford", "pos": "QB", "team": "St. Louis Rams" }
+      "mvp": {
+        "n": "Tom Brady",
+        "pos": "QB",
+        "team": "New England Patriots"
+      },
+      "oroy": {
+        "n": "Sam Bradford",
+        "pos": "QB",
+        "team": "St. Louis Rams"
+      },
+      "sb": {
+        "no": "XLV",
+        "won": "Green Bay Packers",
+        "lost": "Pittsburgh Steelers",
+        "score": "31-25"
+      }
     },
     "2011": {
-      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
-      "oroy": { "n": "Cam Newton", "pos": "QB", "team": "Carolina Panthers" }
+      "mvp": {
+        "n": "Aaron Rodgers",
+        "pos": "QB",
+        "team": "Green Bay Packers"
+      },
+      "oroy": {
+        "n": "Cam Newton",
+        "pos": "QB",
+        "team": "Carolina Panthers"
+      },
+      "sb": {
+        "no": "XLVI",
+        "won": "New York Giants",
+        "lost": "New England Patriots",
+        "score": "21-17"
+      }
     },
     "2012": {
-      "mvp": { "n": "Adrian Peterson", "pos": "RB", "team": "Minnesota Vikings" },
-      "oroy": { "n": "Robert Griffin III", "pos": "QB", "team": "Washington" }
+      "mvp": {
+        "n": "Adrian Peterson",
+        "pos": "RB",
+        "team": "Minnesota Vikings"
+      },
+      "oroy": {
+        "n": "Robert Griffin III",
+        "pos": "QB",
+        "team": "Washington"
+      },
+      "sb": {
+        "no": "XLVII",
+        "won": "Baltimore Ravens",
+        "lost": "San Francisco 49ers",
+        "score": "34-31"
+      }
     },
     "2013": {
-      "mvp": { "n": "Peyton Manning", "pos": "QB", "team": "Denver Broncos" },
-      "oroy": { "n": "Eddie Lacy", "pos": "RB", "team": "Green Bay Packers" }
+      "mvp": {
+        "n": "Peyton Manning",
+        "pos": "QB",
+        "team": "Denver Broncos"
+      },
+      "oroy": {
+        "n": "Eddie Lacy",
+        "pos": "RB",
+        "team": "Green Bay Packers"
+      },
+      "sb": {
+        "no": "XLVIII",
+        "won": "Seattle Seahawks",
+        "lost": "Denver Broncos",
+        "score": "43-8"
+      }
     },
     "2014": {
-      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
-      "oroy": { "n": "Odell Beckham Jr.", "pos": "WR", "team": "New York Giants" }
+      "mvp": {
+        "n": "Aaron Rodgers",
+        "pos": "QB",
+        "team": "Green Bay Packers"
+      },
+      "oroy": {
+        "n": "Odell Beckham Jr.",
+        "pos": "WR",
+        "team": "New York Giants"
+      },
+      "sb": {
+        "no": "XLIX",
+        "won": "New England Patriots",
+        "lost": "Seattle Seahawks",
+        "score": "28-24"
+      }
     },
     "2015": {
-      "mvp": { "n": "Cam Newton", "pos": "QB", "team": "Carolina Panthers" },
-      "oroy": { "n": "Todd Gurley", "pos": "RB", "team": "St. Louis Rams" }
+      "mvp": {
+        "n": "Cam Newton",
+        "pos": "QB",
+        "team": "Carolina Panthers"
+      },
+      "oroy": {
+        "n": "Todd Gurley",
+        "pos": "RB",
+        "team": "St. Louis Rams"
+      },
+      "sb": {
+        "no": "L",
+        "won": "Denver Broncos",
+        "lost": "Carolina Panthers",
+        "score": "24-10"
+      }
     },
     "2016": {
-      "mvp": { "n": "Matt Ryan", "pos": "QB", "team": "Atlanta Falcons" },
-      "oroy": { "n": "Dak Prescott", "pos": "QB", "team": "Dallas Cowboys" }
+      "mvp": {
+        "n": "Matt Ryan",
+        "pos": "QB",
+        "team": "Atlanta Falcons"
+      },
+      "oroy": {
+        "n": "Dak Prescott",
+        "pos": "QB",
+        "team": "Dallas Cowboys"
+      },
+      "sb": {
+        "no": "LI",
+        "won": "New England Patriots",
+        "lost": "Atlanta Falcons",
+        "score": "34-28"
+      }
     },
     "2017": {
-      "mvp": { "n": "Tom Brady", "pos": "QB", "team": "New England Patriots" },
-      "oroy": { "n": "Alvin Kamara", "pos": "RB", "team": "New Orleans Saints" }
+      "mvp": {
+        "n": "Tom Brady",
+        "pos": "QB",
+        "team": "New England Patriots"
+      },
+      "oroy": {
+        "n": "Alvin Kamara",
+        "pos": "RB",
+        "team": "New Orleans Saints"
+      },
+      "sb": {
+        "no": "LII",
+        "won": "Philadelphia Eagles",
+        "lost": "New England Patriots",
+        "score": "41-33"
+      }
     },
     "2018": {
-      "mvp": { "n": "Patrick Mahomes", "pos": "QB", "team": "Kansas City Chiefs" },
-      "oroy": { "n": "Saquon Barkley", "pos": "RB", "team": "New York Giants" }
+      "mvp": {
+        "n": "Patrick Mahomes",
+        "pos": "QB",
+        "team": "Kansas City Chiefs"
+      },
+      "oroy": {
+        "n": "Saquon Barkley",
+        "pos": "RB",
+        "team": "New York Giants"
+      },
+      "sb": {
+        "no": "LIII",
+        "won": "New England Patriots",
+        "lost": "Los Angeles Rams",
+        "score": "13-3"
+      }
     },
     "2019": {
-      "mvp": { "n": "Lamar Jackson", "pos": "QB", "team": "Baltimore Ravens" },
-      "oroy": { "n": "Kyler Murray", "pos": "QB", "team": "Arizona Cardinals" }
+      "mvp": {
+        "n": "Lamar Jackson",
+        "pos": "QB",
+        "team": "Baltimore Ravens"
+      },
+      "oroy": {
+        "n": "Kyler Murray",
+        "pos": "QB",
+        "team": "Arizona Cardinals"
+      },
+      "sb": {
+        "no": "LIV",
+        "won": "Kansas City Chiefs",
+        "lost": "San Francisco 49ers",
+        "score": "31-20"
+      }
     },
     "2020": {
-      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
-      "oroy": { "n": "Justin Herbert", "pos": "QB", "team": "Los Angeles Chargers" }
+      "mvp": {
+        "n": "Aaron Rodgers",
+        "pos": "QB",
+        "team": "Green Bay Packers"
+      },
+      "oroy": {
+        "n": "Justin Herbert",
+        "pos": "QB",
+        "team": "Los Angeles Chargers"
+      },
+      "sb": {
+        "no": "LV",
+        "won": "Tampa Bay Buccaneers",
+        "lost": "Kansas City Chiefs",
+        "score": "31-9"
+      }
     },
     "2021": {
-      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
-      "oroy": { "n": "Ja'Marr Chase", "pos": "WR", "team": "Cincinnati Bengals" }
+      "mvp": {
+        "n": "Aaron Rodgers",
+        "pos": "QB",
+        "team": "Green Bay Packers"
+      },
+      "oroy": {
+        "n": "Ja'Marr Chase",
+        "pos": "WR",
+        "team": "Cincinnati Bengals"
+      },
+      "sb": {
+        "no": "LVI",
+        "won": "Los Angeles Rams",
+        "lost": "Cincinnati Bengals",
+        "score": "23-20"
+      }
     },
     "2022": {
-      "mvp": { "n": "Patrick Mahomes", "pos": "QB", "team": "Kansas City Chiefs" },
-      "oroy": { "n": "Garrett Wilson", "pos": "WR", "team": "New York Jets" }
+      "mvp": {
+        "n": "Patrick Mahomes",
+        "pos": "QB",
+        "team": "Kansas City Chiefs"
+      },
+      "oroy": {
+        "n": "Garrett Wilson",
+        "pos": "WR",
+        "team": "New York Jets"
+      },
+      "sb": {
+        "no": "LVII",
+        "won": "Kansas City Chiefs",
+        "lost": "Philadelphia Eagles",
+        "score": "38-35"
+      }
     },
     "2023": {
-      "mvp": { "n": "Lamar Jackson", "pos": "QB", "team": "Baltimore Ravens" },
-      "oroy": { "n": "C.J. Stroud", "pos": "QB", "team": "Houston Texans" }
+      "mvp": {
+        "n": "Lamar Jackson",
+        "pos": "QB",
+        "team": "Baltimore Ravens"
+      },
+      "oroy": {
+        "n": "C.J. Stroud",
+        "pos": "QB",
+        "team": "Houston Texans"
+      },
+      "sb": {
+        "no": "LVIII",
+        "won": "Kansas City Chiefs",
+        "lost": "San Francisco 49ers",
+        "score": "25-22"
+      }
     },
     "2024": {
-      "mvp": { "n": "Josh Allen", "pos": "QB", "team": "Buffalo Bills" },
-      "oroy": { "n": "Jayden Daniels", "pos": "QB", "team": "Washington Commanders" }
+      "mvp": {
+        "n": "Josh Allen",
+        "pos": "QB",
+        "team": "Buffalo Bills"
+      },
+      "oroy": {
+        "n": "Jayden Daniels",
+        "pos": "QB",
+        "team": "Washington Commanders"
+      },
+      "sb": {
+        "no": "LIX",
+        "won": "Philadelphia Eagles",
+        "lost": "Kansas City Chiefs",
+        "score": "40-22"
+      }
     },
     "2025": {
-      "mvp": { "n": "Matthew Stafford", "pos": "QB", "team": "Los Angeles Rams" },
-      "oroy": { "n": "Tetairoa McMillan", "pos": "WR", "team": "Carolina Panthers" }
+      "mvp": {
+        "n": "Matthew Stafford",
+        "pos": "QB",
+        "team": "Los Angeles Rams"
+      },
+      "oroy": {
+        "n": "Tetairoa McMillan",
+        "pos": "WR",
+        "team": "Carolina Panthers"
+      },
+      "sb": {
+        "no": "LX",
+        "won": "Seattle Seahawks",
+        "lost": "New England Patriots",
+        "score": "29-13"
+      }
     }
-  }
+  },
+  "_season_convention": "Keyed by SEASON, not by the year the Super Bowl was played. The 2008 season ends in Super Bowl XLIII, played February 2009. Every entry here has already been shifted, so do not shift it again. Cross-checked against the MVP list: Peyton Manning's 2013 MVP season ends in XLVIII, the 43-8 Seattle win over his Broncos, and Cam Newton's 2015 MVP season ends in Super Bowl L, the Denver win over his Panthers."
 }

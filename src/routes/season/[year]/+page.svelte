@@ -110,6 +110,10 @@
                 <div class="nfl">
                     <span class="nt">In the actual NFL that year</span>
                     <div class="nrow">
+                        {#if nfl.sb}
+                            <div><b>Super Bowl {nfl.sb.no}</b> {nfl.sb.won}
+                                <small>beat {nfl.sb.lost} {nfl.sb.score}</small></div>
+                        {/if}
                         {#if nfl.mvp}
                             <div><b>MVP</b> {nfl.mvp.n} <small>{nfl.mvp.pos} · {nfl.mvp.team}</small></div>
                         {/if}
