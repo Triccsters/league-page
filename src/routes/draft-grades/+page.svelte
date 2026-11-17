@@ -30,7 +30,17 @@
     $: busts = [...inDraft].filter(p => p.rnd <= 6).sort((a, b) => a.over - b.over).slice(0, 8);
     $: bestEver = [...done].sort((a, b) => b.over - a.over).slice(0, 10);
     $: worstEver = [...done].filter(p => p.rnd <= 4).sort((a, b) => a.over - b.over).slice(0, 10);
-    $: drafterBars = data ? Object.entries(data.managers).map(([h, m]) => ({ label: nameOf(h), value: m.avg, note: `${m.hit}% hits, ${m.n} picks`, highlight: ready && h === $myTeam }))
+    // Sorted and drawn on the adjusted figure, not the raw average. One pick swings
+    // about 65 points, so a single season is mostly luck: on the raw number a
+    // fourteen-pick manager led everyone with 239. The raw average is still shown
+    // in the note, so nothing is hidden.
+    $: drafterBars = data ? Object.entries(data.managers).map(([h, m]) => ({
+            label: nameOf(h),
+            value: m.adj ?? m.avg,
+            note: m.adj === undefined || m.adj === m.avg
+                ? `${m.hit}% hits, ${m.n} picks`
+                : `${m.avg > 0 ? '+' : ''}${m.avg} raw · ${m.hit}% hits, ${m.n} picks`,
+            highlight: ready && h === $myTeam }))
         .sort((a, b) => b.value - a.value) : [];
     const gradeColor = (g) => g.startsWith('A') ? '#27ae60' : g.startsWith('B') ? '#2980b9' : g.startsWith('C') ? '#7f8c8d' : g.startsWith('D') ? '#e67e22' : '#c0392b';
     const who = (h) => managerLink(h);
@@ -92,7 +102,15 @@
         </div>
 
         <h2>Best drafters, all time</h2>
-        <p class="note">Average points each pick returned above or below its round. Finished seasons only.</p>
+        <p class="note">Average points each pick returned above or below its round. Finished seasons only.
+            {#if data?.shrink?.k}
+                A single pick swings about {Math.round(Math.sqrt(data.shrink.within))} points either
+                way, so a manager with one season can top this list on luck alone. Each average is
+                pulled toward the league mean by how little evidence stands behind it: a record is
+                worth as much as the league average at about {data.shrink.k} picks, roughly
+                {(data.shrink.k / 15).toFixed(1)} seasons. Nobody is left out, and the raw average
+                is beside each bar.
+            {/if}</p>
         <HBarChart items={drafterBars} format={(v) => (v > 0 ? `+${v}` : `${v}`)} ariaLabel="Average value over round by manager" />
 
         <div class="two">
