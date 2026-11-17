@@ -746,6 +746,11 @@
     ]
    }
   ],
+  "account": {
+   "since": null,
+   "badge": null,
+   "note": "The team page shows no join year, no rank badge and no name attached, in either 2012 or 2013. Most likely a closed Yahoo account. Nothing on Yahoo identifies it."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {
@@ -1373,6 +1378,11 @@
     ]
    }
   ],
+  "account": {
+   "since": 2010,
+   "badge": "Bronze 530",
+   "note": "Account created the same year this team appears, and it still exists. A different account from Mitches bitches the same season."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {
@@ -1960,6 +1970,11 @@
     ]
    }
   ],
+  "account": {
+   "since": 2010,
+   "badge": "Bronze 571",
+   "note": "Account created the same year this team appears, and it still exists. A different account from Minnesota 69ers the same season."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {
@@ -2553,9 +2568,18 @@
     ]
    }
   ],
-  "strongCandidates": [
-   "DJ"
+  "excluded": [
+   {
+    "name": "DJ",
+    "why": "DJ's public Yahoo profile lists every league that account ever played. In 2012 it holds exactly two, both 10 teams - 'Skol Vikes' 4th and a Yahoo Public league 8th. No FL Players. 'FL Players' appears five times in his whole history (2008, 2009, 2010, 2011, 2013) and 2012 is not one of them. PackNation's owner account is also (Since '12) Bronze 544, while DJ's is (Since '07) Bronze 552 - different accounts. He was assigned this team on 2026-11-16 by elimination and the assignment was reversed on 2026-11-17 (commit 9af531b). Elimination will keep re-proposing him because removing his 2012 team is what makes him 'unaccounted for' in 2012. It assumed he played every season between his first and last; he sat 2012 out."
+   }
   ],
+  "account": {
+   "since": 2012,
+   "badge": "Bronze 544",
+   "note": "Account created the same year this team appears, and it still exists."
+  },
+  "strongCandidates": [],
   "bySeasonSuspects": [
    {
     "season": 2012,
@@ -2594,6 +2618,7 @@
    "Brett",
    "Buckley",
    "Colt",
+   "DJ",
    "J Rock",
    "James",
    "John",
@@ -2603,7 +2628,6 @@
   ],
   "couldBe": [
    "Brandon",
-   "DJ",
    "Joey",
    "Scott"
   ],
@@ -3143,6 +3167,11 @@
     ]
    }
   ],
+  "account": {
+   "since": null,
+   "badge": null,
+   "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {
@@ -3730,6 +3759,11 @@
     ]
    }
   ],
+  "account": {
+   "since": null,
+   "badge": null,
+   "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {
@@ -4325,6 +4359,11 @@
     ]
    }
   ],
+  "account": {
+   "since": null,
+   "badge": null,
+   "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {
@@ -4942,6 +4981,11 @@
     ]
    }
   ],
+  "account": {
+   "since": null,
+   "badge": null,
+   "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account."
+  },
   "strongCandidates": [],
   "bySeasonSuspects": [
    {

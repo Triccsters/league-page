@@ -988,6 +988,25 @@ def build_yahoo_history(history, vault_manual):
     return msg
 
 
+_UNCLAIMED_EXTRA = None
+
+
+def _unclaimed_extra():
+    """Hand-written exclusions and account fingerprints for /unclaimed.
+
+    Never generated. Read once per run; missing file is not an error.
+    """
+    global _UNCLAIMED_EXTRA
+    if _UNCLAIMED_EXTRA is None:
+        p = os.path.join(DATA, "unclaimed_extra.json")
+        try:
+            with open(p, encoding="utf-8") as f:
+                _UNCLAIMED_EXTRA = json.load(f)
+        except Exception:
+            _UNCLAIMED_EXTRA = {}
+    return _UNCLAIMED_EXTRA
+
+
 def build_unclaimed(history):
     """unclaimed.json: the team-seasons whose manager was never identified.
 
@@ -1176,6 +1195,24 @@ def build_unclaimed(history):
         # someone unaccounted for in every one of this team's seasons is the best lead
         strong = (set.intersection(*[{k for k in unaccounted(s) if eligible(k, s)}
                                      for s in t["seasons"]]) if t["seasons"] else set())
+        # Hand-set exclusions: people the evidence rules OUT, who elimination would
+        # otherwise keep re-proposing. PackNation/DJ is the case this exists for -
+        # removing his 2012 team is exactly what makes him "unaccounted for" in 2012,
+        # so the generated candidate lists re-derived the identification that was
+        # reversed on 2026-11-17. Reasons live in unclaimed_extra.json.
+        excl_all = (_unclaimed_extra().get("excludeCandidates") or {})
+        excl = set((excl_all.get(t["slug"]) or {}).keys())
+        if excl:
+            strong = {x for x in strong if real_name(x) not in excl and x not in excl}
+            could = [x for x in could if real_name(x) not in excl and x not in excl]
+            ruled |= {x for x in known if real_name(x) in excl or x in excl}
+            t["excluded"] = [{"name": n, "why": w}
+                             for n, w in sorted((excl_all.get(t["slug"]) or {}).items())]
+
+        acct = (_unclaimed_extra().get("account") or {}).get(t["slug"])
+        if acct:
+            t["account"] = acct
+
         t["strongCandidates"] = [real_name(x) for x in
                                  sorted(strong, key=lambda x: real_name(x).lower())]
         t["bySeasonSuspects"] = out_by_season

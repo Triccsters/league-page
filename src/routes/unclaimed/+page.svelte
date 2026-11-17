@@ -374,6 +374,25 @@
         </p>
     {/if}
 
+    <!-- what Yahoo's own team page shows about the account behind this team -->
+    {#if team.account}
+        <p class="intro">
+            <b>The Yahoo account:</b>
+            {#if team.account.since}
+                created in {team.account.since}, rank badge {team.account.badge}.
+            {:else}
+                no join year and no rank badge on Yahoo's team page.
+            {/if}
+            {team.account.note}
+        </p>
+    {/if}
+
+    {#if team.excluded && team.excluded.length}
+        {#each team.excluded as x}
+            <p class="caveat"><b>Not {x.name}.</b> {x.why}</p>
+        {/each}
+    {/if}
+
     {#if team.maybeSameManager.some(m => m.sharedDraftPicks.length)}
         <h3>Could this be another of these teams?</h3>
         <p class="intro">

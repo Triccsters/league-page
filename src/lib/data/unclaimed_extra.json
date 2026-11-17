@@ -1,0 +1,30 @@
+{
+  "_comment": "Hand-written, never generated. Two jobs. (1) excludeCandidates: people that evidence rules OUT of a team, which elimination alone would otherwise re-derive. build_unclaimed removes these from strongCandidates and couldBe and adds them to ruledOut. (2) account: what Yahoo's TEAM page (/{year}/f1/{id}/{tid}) shows for that team's owner - the join year and rank badge. The badge is the account's current rank, so it is identical on every team that account ever owned, which makes it a cross-season fingerprint. Working and the full fingerprint table: _shared/yahoo_league_record.md.",
+
+  "excludeCandidates": {
+    "packnation": {
+      "DJ": "DJ's public Yahoo profile lists every league that account ever played. In 2012 it holds exactly two, both 10 teams - 'Skol Vikes' 4th and a Yahoo Public league 8th. No FL Players. 'FL Players' appears five times in his whole history (2008, 2009, 2010, 2011, 2013) and 2012 is not one of them. PackNation's owner account is also (Since '12) Bronze 544, while DJ's is (Since '07) Bronze 552 - different accounts. He was assigned this team on 2026-11-16 by elimination and the assignment was reversed on 2026-11-17 (commit 9af531b). Elimination will keep re-proposing him because removing his 2012 team is what makes him 'unaccounted for' in 2012. It assumed he played every season between his first and last; he sat 2012 out."
+    }
+  },
+
+  "account": {
+    "packnation": { "since": 2012, "badge": "Bronze 544",
+      "note": "Account created the same year this team appears, and it still exists." },
+    "minnesota-69ers": { "since": 2010, "badge": "Bronze 530",
+      "note": "Account created the same year this team appears, and it still exists. A different account from Mitches bitches the same season." },
+    "mitches-bitches": { "since": 2010, "badge": "Bronze 571",
+      "note": "Account created the same year this team appears, and it still exists. A different account from Minnesota 69ers the same season." },
+    "2012-champ": { "since": null, "badge": null,
+      "note": "The team page shows no join year, no rank badge and no name attached, in either 2012 or 2013. Most likely a closed Yahoo account. Nothing on Yahoo identifies it." },
+    "kicked-out-next-year": { "since": null, "badge": null,
+      "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account." },
+    "vikes": { "since": null, "badge": null,
+      "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account." },
+    "da-best": { "since": null, "badge": null,
+      "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account." },
+    "the-guru-s": { "since": null, "badge": null,
+      "note": "No join year and no rank badge on the team page. Most likely a closed Yahoo account." }
+  },
+
+  "_notRuledOutDeliberately": "Fingerprint mismatch alone does NOT rule a person out, and must not be used that way. A manager can hold more than one Yahoo account: John has two (Since '06 and Since '13) and Tom has two (his own Since '05 and the Since '12 account that owns Murphadelic 2012 and suit and a TIE 2013). So 'this team's account is not the account we know for X' leaves X possible. Only DJ is excluded above, and not on the fingerprint - on his own profile showing he played no FL Players season in 2012 at all."
+}
