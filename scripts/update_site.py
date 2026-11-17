@@ -958,6 +958,8 @@ def build_yahoo_history(history, vault_manual):
         "activity": activity,
         "settings": src.get("settings") or {},
         "buyIn": src.get("buyIn") or {},
+        "commissioners": [dict(c, name=real_name(c.get("handle")))
+                          for c in (src.get("commissioners") or [])],
         "pre2014Trades": pre,
         "note": src.get("source", ""),
     })

@@ -1066,6 +1066,25 @@ def yahoo_activity(C):
                  ["Team", "Yahoo seasons", "Moves", "Trades", "Busiest season"], rows)]
 
 
+def yahoo_commish(C):
+    """Who ran the league, by season.
+
+    Yahoo prints the commissioner into the Manager column, so Brett's and John's years
+    were read off the page rather than inferred. The Sleeper era is not listed: the site
+    already reads Sleeper's own owner flag at render time, so the current commissioner
+    is right on the page without a second copy here that could go stale.
+    """
+    h = _yahoo_hist(C)
+    rows = [[T(c["handle"]), "%s to %s" % (min(c["seasons"]), max(c["seasons"])),
+             len(c["seasons"]), c.get("note", "")]
+            for c in (h.get("commissioners") or []) if c.get("seasons")]
+    rows.sort(key=lambda r: r[1])
+    return [card("yahoocommish", "Who ran the league",
+                 "The commissioners of the Yahoo years. Brett ran it from the first season on "
+                 "record through 2013, John from 2014 until the move to Sleeper.",
+                 ["Commissioner", "Years", "Seasons", "Which"], rows)]
+
+
 def yahoo_rules(C):
     """The dated commissioner changes, Yahoo era.
 
@@ -1117,7 +1136,7 @@ def yahoo_old_trades(C):
 # names_log on in every league (T.J., 2026-10-14: crude names are fine)
 LEAGUE_SPECIALS = {
     "league-page": ["kicker_file", "board_duty", "draft_report", "names_log", "yahoo_vetoes",
-                    "yahoo_activity", "yahoo_rules", "yahoo_old_trades"],
+                    "yahoo_activity", "yahoo_rules", "yahoo_old_trades", "yahoo_commish"],
     "league-fl-evolution": ["names_log"],
     "league-lets-go-brandon": ["names_log"],
     "league-megalabowl": ["median_misery", "qb_race", "firsts", "names_log"],
@@ -1144,7 +1163,7 @@ def build_trackers(ctx, drafts=None, waivers=None):
     fns = {f.__name__: f for f in (kicker_file, board_duty, draft_report, names_log,
                                      median_misery, qb_race, firsts, trade_drama,
                                      yahoo_vetoes, yahoo_activity, yahoo_rules,
-                                     yahoo_old_trades)}
+                                     yahoo_old_trades, yahoo_commish)}
     groups = []
 
     def group(gid, title, intro, make):

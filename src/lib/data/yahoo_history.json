@@ -1313,6 +1313,33 @@
  "buyIn": {
   "2014": 50
  },
+ "commissioners": [
+  {
+   "handle": "brettmn13",
+   "seasons": [
+    2008,
+    2010,
+    2012,
+    2013
+   ],
+   "note": "every Yahoo season up to 2013",
+   "name": "Brett"
+  },
+  {
+   "handle": "Wallner",
+   "seasons": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+   ],
+   "note": "every Yahoo season from 2014",
+   "name": "John"
+  }
+ ],
  "pre2014Trades": [
   {
    "season": 2008,
