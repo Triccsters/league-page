@@ -37,7 +37,11 @@ STATUS = re.compile(r"questionable|doubtful|ruled out|will play|to play (sunday|
                     r"expect\w* .*to play|game-time|unlikely vs|"
                     r"\bout (vs|against)\b|\bout;|to start (snf|mnf|tnf|sunday|monday|thursday)|inactive", re.I)
 # fantasy advice columns are not NFL storylines; the league makes its own calls
+# 2026-11-16: a "Sportsbook liability Burrow overtakes Allen as MVP favorite" item
+# reached five of six matchups, because naming seven QBs touches nearly every
+# roster. It is a betting column, so it joins ADVICE.
 ADVICE = re.compile(r"fantasy|rankings|pickups|waiver|start 'em|sit 'em|knockout|sleepers|busts|dfs|betting|odds|"
+                    r"sportsbook|liability|mvp favorite|award race|futures?\b|"
                     r"mock draft|draft order|power rankings|arrivals|xfp|quotes|overreactions|takeaways|"
                     r"things (we|i) (learned|think)|winners and losers|grades", re.I)
 # off-field stories: not what moves a lineup
@@ -189,3 +193,52 @@ def build_nfl_news(ctx, limit=14):
            "note": "Headlines as ESPN reported them on the date shown. Injury and depth-chart news can change before kickoff."}
     ctx["write_json"](os.path.join(ctx["data"], "nfl_news.json"), doc)
     return doc
+
+
+# --- tie the week's NFL news to the matchups it actually touches ----------
+# previews.json is written before the news is fetched, so this runs after both
+# exist and adds to each game rather than reordering the build.
+#
+# A headline reaches a matchup through a player one of the two managers owns.
+# "named" means the headline is about him; "ripple" means he is on that NFL
+# offence and the story moves his value too - a QB benching is news for his
+# receivers' owners. The ripple is why this is worth doing automatically: it
+# catches the second-order stories a person writing the newsletter would miss.
+PER_GAME = 4
+
+
+def attach_to_previews(ctx, news):
+    """Add an `nfl` list to every game in previews.json. Returns how many it set."""
+    path = os.path.join(ctx["data"], "previews.json")
+    pv = ctx["read_json"](path, None)
+    if not pv or not pv.get("games"):
+        return 0
+    items = news.get("items") or []
+    touched = 0
+    for g in pv["games"]:
+        sides = (g.get("a"), g.get("b"))
+        hits = []
+        for it in items:
+            who = {}
+            for p in (it.get("named") or []):
+                if p.get("h") in sides:
+                    who.setdefault(p["h"], []).append(dict(n=p["n"], p=p.get("p"), how="named"))
+            for p in (it.get("ripple") or []):
+                if p.get("h") in sides:
+                    who.setdefault(p["h"], []).append(dict(n=p["n"], p=p.get("p"), how="ripple"))
+            if not who:
+                continue
+            # a story that hits both teams is the most interesting kind
+            hits.append(dict(headline=it.get("headline"), url=it.get("url"),
+                             date=it.get("date"), both=len(who) > 1,
+                             score=it.get("score"), touches=who))
+        hits.sort(key=lambda x: (not x["both"], -(x.get("score") or 0)))
+        g["nfl"] = hits[:PER_GAME]
+        if g["nfl"]:
+            touched += 1
+    pv["nfl_read_at"] = news.get("read_at")
+    pv["nfl_note"] = ("NFL headlines from ESPN that touch a player on either roster. "
+                      "A 'ripple' player was not in the headline; he plays on that NFL "
+                      "offence, so the story moves his value too.")
+    ctx["write_json"](path, pv)
+    return touched

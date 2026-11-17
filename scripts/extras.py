@@ -1384,7 +1384,11 @@ def build_all(ctx):
     # the week's NFL headlines tied to this league (nfl_news.py), for the newsletter
     try:
         import nfl_news as NN
-        out["nfl_news"] = len(NN.build_nfl_news(ctx)["items"])
+        news = NN.build_nfl_news(ctx)
+        out["nfl_news"] = len(news["items"])
+        # and tie those headlines to the matchups they touch, for the preview
+        # page and the newsletter. previews.json is already written by here.
+        out["nfl_previews"] = NN.attach_to_previews(ctx, news)
     except Exception as e:
         print("nfl_news failed:", e)
     # season storylines and trackers (trackers.py), for the /trackers page
