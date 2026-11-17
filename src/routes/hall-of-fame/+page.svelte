@@ -87,7 +87,7 @@
         <p class="foot">
             Rebuilt every time the site data is refreshed, so these move during the season.
             Career awards need three seasons before a manager qualifies.
-            {#if site.first_season && site.first_season < 2014}
+            {#if site.first_season && site.first_season < 2018}
                 Scoring was standard until 2018 and half PPR since, so seasons before 2018 score
                 lower across the board. Counting awards include them anyway.
             {/if}

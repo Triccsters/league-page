@@ -992,9 +992,17 @@ def build_unclaimed(history):
     """unclaimed.json: the team-seasons whose manager was never identified.
 
     These are the handles history.json marks hidden - a leading '?' in the vault data.
-    They are deliberately kept out of managers.json, because awards.py, record_watch.py
-    and flpHistory.js all exclude hidden handles from awards, records and the all-time
-    rank, and putting a team-season in the managers list would undo that.
+    They are deliberately kept out of managers.json, because awards.py, record_watch.py,
+    flpHistory.js and CombinedStandings.svelte all exclude hidden handles from awards,
+    CAREER totals and the all-time rank, and putting a team-season in the managers list
+    would undo that.
+
+    Career only, on purpose. An unidentified team's games may belong to a manager who is
+    already on those lists, so ranking it as a separate career invents a competitor and
+    understates whoever really played those weeks. A SEASON record is different: one
+    team-season stands on its own whoever held the remote, so hidden handles do compete
+    for season records and currently hold three of them. Do not "fix" that to match the
+    career rule - it is the intended split.
 
     Written for every repo, empty where there are none, so the page can import it.
     """

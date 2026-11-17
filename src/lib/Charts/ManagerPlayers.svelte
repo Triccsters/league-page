@@ -55,8 +55,10 @@
         .map(p => ({ n: p[4], pos: p[5], times: 1, seasons: [p[0]], pts: r1(p[6]), best: p[1] }));
     $: draftList = drafted.length ? drafted : mostDraftedFallback;
 
-    // pre-2014 seasons came off Yahoo under standard scoring
-    $: oldEra = [...scorers, ...draftList].some(p => p.seasons.some(s => s < 2014));
+    // 2018, not 2014: half PPR started on 2018-07-25 and every season before it,
+    // Yahoo or not, scored standard. A manager whose years are all 2014-2017 has
+    // lower totals for exactly this reason and needs the note as much as anyone.
+    $: oldEra = [...scorers, ...draftList].some(p => p.seasons.some(s => s < 2018));
 </script>
 
 {#if players || drafts}

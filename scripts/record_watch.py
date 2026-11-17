@@ -18,6 +18,8 @@ left). Nothing is typed in by hand, so it cannot drift.
 Text carries {handle} placeholders; the page swaps in the shown name.
 Season totals are regular season only. A record set in a 13-game season is
 flagged when this season has 14, and the per-game records sit beside the totals.
+A points or per-game record set before the 2018 move to half PPR is flagged too,
+since standard scoring, not the team, is why some of those marks sit where they do.
 """
 import os
 from collections import defaultdict
@@ -25,6 +27,15 @@ from collections import defaultdict
 REAL = {"Quarterfinal", "Semifinal", "Championship"}
 TOP_FRESH = 5
 SNAP_LINES = 6
+
+# The league moved to half PPR on 2018-07-25. Every season before that scored
+# standard, so a points total or a per-game average from 2017 or earlier is not
+# on the same footing as one since, and the records that depend on scoring say so.
+# This matters most at the bottom of the table: with 2008-2013 in the pool the
+# lowest-scoring records would otherwise all be held by standard-scoring seasons
+# and read as unreachable, when the cause is the scoring rules, not the team.
+HALF_PPR_FROM = 2018
+SCORING_KINDS = ("sum", "avg", "lowavg")
 
 
 def _n(x, d=2):
@@ -104,9 +115,13 @@ def compute(h, odds, prev=None):
         s0, m0 = ks[0]
         g0 = P[ks[0]]["g"]
         rtxt = f"{_n(rec, d)} {unit}, {{{m0}}} in {s0}" + (f" (and {len(ks) - 1} more)" if len(ks) > 1 else "")
-        note = None
+        notes = []
         if kind in ("count", "lowcount", "sum") and g0 != total:
-            note = f"Set in a {g0}-game season; this one has {total}."
+            notes.append(f"Set in a {g0}-game season; this one has {total}.")
+        if kind in SCORING_KINDS and s0 < HALF_PPR_FROM:
+            notes.append(f"Set under standard scoring, before the {HALF_PPR_FROM} move to half PPR, "
+                         f"so it is not on the same footing as a season since.")
+        note = " ".join(notes) or None
         ch, status = [], "safe"
         for m, t in C.items():
             v = f(t); g = t["g"]; txt = None; heat = 0; broke = False

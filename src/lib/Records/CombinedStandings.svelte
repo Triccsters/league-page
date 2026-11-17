@@ -44,8 +44,16 @@
         }
     }
 
-    const list = Object.values(rows)
-        .map(r => ({ ...r, last: Math.max(...r.seasons), hidden: !!managers[r.h]?.hidden, former: !current.has(r.h), pct: r.g ? (r.w + r.t / 2) / r.g : 0, avg: r.g ? r.pf / r.g : 0 }))
+    const ranked = Object.values(rows)
+        .map(r => ({ ...r, last: Math.max(...r.seasons), hidden: !!managers[r.h]?.hidden, former: !current.has(r.h), pct: r.g ? (r.w + r.t / 2) / r.g : 0, avg: r.g ? r.pf / r.g : 0 }));
+    const hiddenCount = ranked.filter(r => r.hidden).length;
+    const list = ranked
+        // An unidentified Yahoo team is not a person. Its games may well belong to a
+        // manager already in this table, so ranking it as a separate career both
+        // invents a competitor and understates whoever actually played those weeks.
+        // Season records still credit these teams - a single team-season stands on its
+        // own whoever held the remote - and /unclaimed carries their full record.
+        .filter(r => !r.hidden)
         .sort((a, b) => b.titles.length - a.titles.length || b.pct - a.pct);
     const formerCount = list.filter(r => r.former).length;
     const pct = (x) => (x * 100).toFixed(1) + '%';
@@ -69,7 +77,7 @@
 <p class="note">One row per person{hasYahoo ? ' across Yahoo and Sleeper' : ''}. W-L is regular season only; the playoff record counts real playoff rounds, not consolation games.
     Records include the {site.season} season so far (shown in green under the record).
     {#if site.missing_seasons?.length}No games are on record for {site.missing_seasons.join(' or ')}.{/if}
-    {#if list.some(r => r.hidden)}Teams marked "Manager hidden" are Yahoo teams whose owner Yahoo no longer shows; they are listed by team name.{/if}
+    {#if hiddenCount}{hiddenCount} team{hiddenCount > 1 ? 's' : ''} whose owner was never identified {hiddenCount > 1 ? 'are' : 'is'} left out of this table, because those games may belong to someone already in it. They are on the <a href="/unclaimed">unclaimed teams</a> page, and they still hold season records.{/if}
     {#if formerCount}Faded rows marked <span class="ftag">Left league in …</span> are managers no longer in the league.{/if}</p>
 {#if formerCount}
     <label class="toggle"><input type="checkbox" bind:checked={showFormer} /> Show {formerCount} former manager{formerCount > 1 ? 's' : ''}</label>
@@ -85,7 +93,7 @@
         {#each shown as r, i}
             <tr class:mine={ready && r.h === $myTeam} class:former={r.former}>
                 <td>{i + 1}</td>
-                <td>{#if managerLink(r.h)}<a class="mlink" href={managerLink(r.h)}><b>{nameOf(r.h)}</b></a>{:else}<b>{nameOf(r.h)}</b>{/if}{#if r.hidden}<span class="ftag">Manager hidden on Yahoo</span>{:else if r.former}<span class="ftag">Left league in {r.last + 1}</span>{/if}{#if managers[r.h]?.yahoo && managers[r.h].yahoo !== nameOf(r.h)} <small>({managers[r.h].yahoo} on Yahoo)</small>{/if}<YourTeamBadge handle={r.h} size="small" /></td>
+                <td>{#if managerLink(r.h)}<a class="mlink" href={managerLink(r.h)}><b>{nameOf(r.h)}</b></a>{:else}<b>{nameOf(r.h)}</b>{/if}{#if r.former}<span class="ftag">Left league in {r.last + 1}</span>{/if}{#if managers[r.h]?.yahoo && managers[r.h].yahoo !== nameOf(r.h)} <small>({managers[r.h].yahoo} on Yahoo)</small>{/if}<YourTeamBadge handle={r.h} size="small" /></td>
                 <td>{r.seasons.size}</td>
                 <td>{r.w}-{r.l}{r.t ? `-${r.t}` : ''}{#if r.live[0] + r.live[1]}<span class="live">{r.live[0]}-{r.live[1]} in {site.season}</span>{/if}</td>
                 <td>{pct(r.pct)}</td>
