@@ -16,19 +16,142 @@
     "games": 64
    },
    "champion": "DJ",
-   "runner_up": "?Broncos",
+   "runner_up": "Wallner",
    "third": "brettmn13",
    "title_game": {
     "week": 16,
     "a": "DJ",
     "pa": 100.0,
-    "b": "?Broncos",
+    "b": "Wallner",
     "pb": 77.0,
     "winner": "DJ",
     "aname": "HERE WE GO!!!!!",
     "bname": "Broncos"
    },
-   "title_lineups": null,
+   "title_lineups": {
+    "DJ": {
+     "name": "HERE WE GO!!!!!",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Drew Brees",
+       "pts": 22.0
+      },
+      {
+       "pos": "RB",
+       "n": "Brandon Jacobs",
+       "pts": 26.0
+      },
+      {
+       "pos": "RB",
+       "n": "Adrian Peterson",
+       "pts": 5.0
+      },
+      {
+       "pos": "WR",
+       "n": "Antonio Bryant",
+       "pts": 16.0
+      },
+      {
+       "pos": "WR",
+       "n": "Steve Smith",
+       "pts": 6.0
+      },
+      {
+       "pos": "WR",
+       "n": "Laveranues Coles",
+       "pts": 6.0
+      },
+      {
+       "pos": "TE",
+       "n": "Dallas Clark",
+       "pts": 16.0
+      },
+      {
+       "pos": "K",
+       "n": "David Akers",
+       "pts": 2.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Steelers",
+       "pts": 1.0
+      }
+     ],
+     "total": 100.0,
+     "best": {
+      "pos": "RB",
+      "n": "Brandon Jacobs",
+      "pts": 26.0
+     },
+     "worst": {
+      "pos": "DEF",
+      "n": "Steelers",
+      "pts": 1.0
+     }
+    },
+    "Wallner": {
+     "name": "Broncos",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Aaron Rodgers",
+       "pts": 16.0
+      },
+      {
+       "pos": "RB",
+       "n": "Matt Forte",
+       "pts": 15.0
+      },
+      {
+       "pos": "RB",
+       "n": "Clinton Portis",
+       "pts": 14.0
+      },
+      {
+       "pos": "WR",
+       "n": "Reggie Wayne",
+       "pts": 16.0
+      },
+      {
+       "pos": "WR",
+       "n": "Greg Jennings",
+       "pts": 9.0
+      },
+      {
+       "pos": "WR",
+       "n": "Andre Johnson",
+       "pts": 1.0
+      },
+      {
+       "pos": "TE",
+       "n": "Chris Cooley",
+       "pts": 2.0
+      },
+      {
+       "pos": "K",
+       "n": "Jason Elam",
+       "pts": 5.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Giants",
+       "pts": -1.0
+      }
+     ],
+     "total": 77.0,
+     "best": {
+      "pos": "QB",
+      "n": "Aaron Rodgers",
+      "pts": 16.0
+     },
+     "worst": {
+      "pos": "DEF",
+      "n": "Giants",
+      "pts": -1.0
+     }
+    }
+   },
    "standings": [
     {
      "h": "brettmn13",
@@ -110,7 +233,7 @@
      ]
     },
     {
-     "h": "?Broncos",
+     "h": "Wallner",
      "w": 8,
      "l": 6,
      "t": 0,
@@ -252,9 +375,9 @@
       "week": 15,
       "a": "brettmn13",
       "pa": 74.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 97.0,
-      "winner": "?Broncos",
+      "winner": "Wallner",
       "aname": "Indestructible",
       "bname": "Broncos"
      }
@@ -318,7 +441,7 @@
       "week": 16,
       "a": "DJ",
       "pa": 100.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 77.0,
       "winner": "DJ",
       "aname": "HERE WE GO!!!!!",
@@ -358,7 +481,7 @@
     {
      "key": "points",
      "title": "Most points",
-     "h": "?Broncos",
+     "h": "Wallner",
      "name": "Broncos",
      "detail": "1295.0 points, 92.5 a game",
      "value": 1295.0
@@ -438,7 +561,7 @@
     {
      "key": "blowout",
      "title": "Biggest blowout",
-     "h": "?Broncos",
+     "h": "Wallner",
      "name": "Broncos",
      "detail": "beat spoiler by 64.0 in week 6",
      "value": 64.0
@@ -454,7 +577,7 @@
     {
      "key": "hard_luck",
      "title": "Most points in a loss",
-     "h": "?Broncos",
+     "h": "Wallner",
      "name": "Broncos",
      "detail": "102.0 and still lost to spoiler in week 13",
      "value": 102.0
@@ -484,20 +607,143 @@
     "era": "yahoo",
     "games": 92
    },
-   "champion": "?Broncos",
+   "champion": "Wallner",
    "runner_up": "DJ",
    "third": "Tyler",
    "title_game": {
     "week": 16,
     "a": "DJ",
     "pa": 68.0,
-    "b": "?Broncos",
+    "b": "Wallner",
     "pb": 87.0,
-    "winner": "?Broncos",
+    "winner": "Wallner",
     "aname": "Vikings=SUPER BOWL",
     "bname": "Broncos"
    },
-   "title_lineups": null,
+   "title_lineups": {
+    "DJ": {
+     "name": "Vikings=SUPER BOWL",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Tom Brady",
+       "pts": 18.0
+      },
+      {
+       "pos": "RB",
+       "n": "Ryan Torain",
+       "pts": 12.0
+      },
+      {
+       "pos": "RB",
+       "n": "Tashard Choice",
+       "pts": 2.0
+      },
+      {
+       "pos": "WR",
+       "n": "Blair White",
+       "pts": 8.0
+      },
+      {
+       "pos": "WR",
+       "n": "Jacoby Ford",
+       "pts": 8.0
+      },
+      {
+       "pos": "WR",
+       "n": "Kevin Walter",
+       "pts": 1.0
+      },
+      {
+       "pos": "TE",
+       "n": "Brent Celek",
+       "pts": 9.0
+      },
+      {
+       "pos": "K",
+       "n": "Garrett Hartley",
+       "pts": 7.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Bears",
+       "pts": 3.0
+      }
+     ],
+     "total": 68.0,
+     "best": {
+      "pos": "QB",
+      "n": "Tom Brady",
+      "pts": 18.0
+     },
+     "worst": {
+      "pos": "WR",
+      "n": "Kevin Walter",
+      "pts": 1.0
+     }
+    },
+    "Wallner": {
+     "name": "Broncos",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Peyton Manning",
+       "pts": 17.0
+      },
+      {
+       "pos": "RB",
+       "n": "Darren McFadden",
+       "pts": 7.0
+      },
+      {
+       "pos": "RB",
+       "n": "Peyton Hillis",
+       "pts": 3.0
+      },
+      {
+       "pos": "WR",
+       "n": "Kenny Britt",
+       "pts": 14.0
+      },
+      {
+       "pos": "WR",
+       "n": "Pierre Garcon",
+       "pts": 9.0
+      },
+      {
+       "pos": "WR",
+       "n": "Calvin Johnson",
+       "pts": 5.0
+      },
+      {
+       "pos": "TE",
+       "n": "Brandon Pettigrew",
+       "pts": 13.0
+      },
+      {
+       "pos": "K",
+       "n": "Lawrence Tynes",
+       "pts": 5.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Packers",
+       "pts": 14.0
+      }
+     ],
+     "total": 87.0,
+     "best": {
+      "pos": "QB",
+      "n": "Peyton Manning",
+      "pts": 17.0
+     },
+     "worst": {
+      "pos": "RB",
+      "n": "Peyton Hillis",
+      "pts": 3.0
+     }
+    }
+   },
    "standings": [
     {
      "h": "brettmn13",
@@ -552,7 +798,7 @@
      ]
     },
     {
-     "h": "?Broncos",
+     "h": "Wallner",
      "w": 8,
      "l": 5,
      "t": 0,
@@ -734,7 +980,7 @@
      ]
     },
     {
-     "h": "?Quool",
+     "h": "Brandon",
      "w": 5,
      "l": 8,
      "t": 0,
@@ -759,7 +1005,7 @@
      ]
     },
     {
-     "h": "Mitchell",
+     "h": "?Mitches bitches",
      "w": 4,
      "l": 9,
      "t": 0,
@@ -845,11 +1091,11 @@
      },
      {
       "week": 14,
-      "a": "?Quool",
+      "a": "Brandon",
       "pa": 100.0,
-      "b": "Mitchell",
+      "b": "?Mitches bitches",
       "pb": 36.0,
-      "winner": "?Quool",
+      "winner": "Brandon",
       "aname": "Quool",
       "bname": "Mitches bitches"
      },
@@ -857,9 +1103,9 @@
       "week": 15,
       "a": "?da best",
       "pa": 78.0,
-      "b": "Mitchell",
+      "b": "?Mitches bitches",
       "pb": 81.0,
-      "winner": "Mitchell",
+      "winner": "?Mitches bitches",
       "aname": "da best",
       "bname": "Mitches bitches"
      },
@@ -867,9 +1113,9 @@
       "week": 15,
       "a": "J Rock",
       "pa": 82.0,
-      "b": "?Quool",
+      "b": "Brandon",
       "pb": 97.0,
-      "winner": "?Quool",
+      "winner": "Brandon",
       "aname": "J Rocks Dawgs",
       "bname": "Quool"
      },
@@ -897,9 +1143,9 @@
       "week": 16,
       "a": "?Minnesota 69ers",
       "pa": 53.0,
-      "b": "?Quool",
+      "b": "Brandon",
       "pb": 96.0,
-      "winner": "?Quool",
+      "winner": "Brandon",
       "aname": "Minnesota 69ers",
       "bname": "Quool"
      }
@@ -909,9 +1155,9 @@
       "week": 15,
       "a": "triccster",
       "pa": 65.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 76.0,
-      "winner": "?Broncos",
+      "winner": "Wallner",
       "aname": "RazzleDazzle",
       "bname": "Broncos"
      },
@@ -955,9 +1201,9 @@
       "week": 16,
       "a": "DJ",
       "pa": 68.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 87.0,
-      "winner": "?Broncos",
+      "winner": "Wallner",
       "aname": "Vikings=SUPER BOWL",
       "bname": "Broncos"
      }
@@ -1083,7 +1329,7 @@
     {
      "key": "closest",
      "title": "Closest game",
-     "h": "Mitchell",
+     "h": "?Mitches bitches",
      "name": "Mitches bitches",
      "detail": "beat J Rocks Dawgs by 1.0 in week 9",
      "value": 1.0
@@ -1099,7 +1345,7 @@
     {
      "key": "cheap_win",
      "title": "Fewest points in a win",
-     "h": "Mitchell",
+     "h": "?Mitches bitches",
      "name": "Mitches bitches",
      "detail": "won with 47.0 over Minnesota 69ers in week 8",
      "value": 47.0
@@ -1134,7 +1380,130 @@
     "aname": "One dimension",
     "bname": "R. Corn on the Cobbs"
    },
-   "title_lineups": null,
+   "title_lineups": {
+    "RockMNwild": {
+     "name": "One dimension",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Tony Romo",
+       "pts": 32.0
+      },
+      {
+       "pos": "RB",
+       "n": "Knowshon Moreno",
+       "pts": 11.0
+      },
+      {
+       "pos": "RB",
+       "n": "Frank Gore",
+       "pts": 2.0
+      },
+      {
+       "pos": "WR",
+       "n": "Calvin Johnson",
+       "pts": 21.0
+      },
+      {
+       "pos": "WR",
+       "n": "Demaryius Thomas",
+       "pts": 16.0
+      },
+      {
+       "pos": "WR",
+       "n": "Cecil Shorts",
+       "pts": 5.0
+      },
+      {
+       "pos": "TE",
+       "n": "Jason Witten",
+       "pts": 6.0
+      },
+      {
+       "pos": "K",
+       "n": "Lawrence Tynes",
+       "pts": 2.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Broncos",
+       "pts": 12.0
+      }
+     ],
+     "total": 107.0,
+     "best": {
+      "pos": "QB",
+      "n": "Tony Romo",
+      "pts": 32.0
+     },
+     "worst": {
+      "pos": "RB",
+      "n": "Frank Gore",
+      "pts": 2.0
+     }
+    },
+    "Tyler": {
+     "name": "R. Corn on the Cobbs",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Colin Kaepernick",
+       "pts": 15.0
+      },
+      {
+       "pos": "RB",
+       "n": "C.J. Spiller",
+       "pts": 16.0
+      },
+      {
+       "pos": "RB",
+       "n": "Chris Johnson",
+       "pts": 3.0
+      },
+      {
+       "pos": "WR",
+       "n": "Randall Cobb",
+       "pts": 12.0
+      },
+      {
+       "pos": "WR",
+       "n": "Brandon Marshall",
+       "pts": 12.0
+      },
+      {
+       "pos": "WR",
+       "n": "Miles Austin",
+       "pts": 10.0
+      },
+      {
+       "pos": "TE",
+       "n": "Jimmy Graham",
+       "pts": 8.0
+      },
+      {
+       "pos": "K",
+       "n": "Dan Bailey",
+       "pts": 8.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Jets",
+       "pts": 4.0
+      }
+     ],
+     "total": 88.0,
+     "best": {
+      "pos": "RB",
+      "n": "C.J. Spiller",
+      "pts": 16.0
+     },
+     "worst": {
+      "pos": "RB",
+      "n": "Chris Johnson",
+      "pts": 3.0
+     }
+    }
+   },
    "standings": [
     {
      "h": "RockMNwild",
@@ -1244,7 +1613,7 @@
      ]
     },
     {
-     "h": "?Murphadelic",
+     "h": "Tom",
      "w": 6,
      "l": 5,
      "t": 2,
@@ -1346,7 +1715,7 @@
      ]
     },
     {
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "w": 5,
      "l": 6,
      "t": 2,
@@ -1396,7 +1765,7 @@
      ]
     },
     {
-     "h": "?bELIeve No More",
+     "h": "Colt45Johnson",
      "w": 5,
      "l": 8,
      "t": 0,
@@ -1421,7 +1790,7 @@
      ]
     },
     {
-     "h": "?PackNation",
+     "h": "DJ",
      "w": 2,
      "l": 11,
      "t": 0,
@@ -1462,7 +1831,7 @@
       "week": 14,
       "a": "TuanonStan",
       "pa": 91.0,
-      "b": "?Murphadelic",
+      "b": "Tom",
       "pb": 83.0,
       "winner": "TuanonStan",
       "aname": "Lets Hug It Out",
@@ -1474,19 +1843,19 @@
       "week": 14,
       "a": "triccster",
       "pa": 95.0,
-      "b": "?bELIeve No More",
+      "b": "Colt45Johnson",
       "pb": 96.0,
-      "winner": "?bELIeve No More",
+      "winner": "Colt45Johnson",
       "aname": "TJ Rizzle Fresh",
       "bname": "bELIeve No More"
      },
      {
       "week": 14,
-      "a": "?PackNation",
+      "a": "DJ",
       "pa": 71.0,
-      "b": "?0 Breaks Given",
+      "b": "Wallner",
       "pb": 115.0,
-      "winner": "?0 Breaks Given",
+      "winner": "Wallner",
       "aname": "PackNation",
       "bname": "0 Breaks Given"
      },
@@ -1494,7 +1863,7 @@
       "week": 15,
       "a": "triccster",
       "pa": 83.0,
-      "b": "?PackNation",
+      "b": "DJ",
       "pb": 50.0,
       "winner": "triccster",
       "aname": "TJ Rizzle Fresh",
@@ -1504,7 +1873,7 @@
       "week": 15,
       "a": "YoungBuck04",
       "pa": 94.0,
-      "b": "?bELIeve No More",
+      "b": "Colt45Johnson",
       "pb": 69.0,
       "winner": "YoungBuck04",
       "aname": "The Bucktactic",
@@ -1512,7 +1881,7 @@
      },
      {
       "week": 15,
-      "a": "?0 Breaks Given",
+      "a": "Wallner",
       "pa": 77.0,
       "b": "J Rock",
       "pb": 79.0,
@@ -1532,11 +1901,11 @@
      },
      {
       "week": 16,
-      "a": "?bELIeve No More",
+      "a": "Colt45Johnson",
       "pa": 60.0,
-      "b": "?0 Breaks Given",
+      "b": "Wallner",
       "pb": 105.0,
-      "winner": "?0 Breaks Given",
+      "winner": "Wallner",
       "aname": "bELIeve No More",
       "bname": "0 Breaks Given"
      }
@@ -1568,7 +1937,7 @@
       "week": 15,
       "a": "?2012 champ",
       "pa": 114.0,
-      "b": "?Murphadelic",
+      "b": "Tom",
       "pb": 103.0,
       "winner": "?2012 champ",
       "aname": "2012 champ",
@@ -1632,7 +2001,7 @@
     {
      "key": "points",
      "title": "Most points",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "1295.0 points, 99.62 a game",
      "value": 1295.0
@@ -1640,7 +2009,7 @@
     {
      "key": "fewest_points",
      "title": "Fewest points",
-     "h": "?PackNation",
+     "h": "DJ",
      "name": "PackNation",
      "detail": "914.0 points, 70.31 a game",
      "value": 914.0
@@ -1648,7 +2017,7 @@
     {
      "key": "toughest",
      "title": "Toughest schedule",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "1244.0 points against",
      "value": 1244.0
@@ -1672,7 +2041,7 @@
     {
      "key": "unlucky",
      "title": "Unluckiest schedule",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "5-6 with an all-play record of 88-50",
      "value": -0.1762
@@ -1696,7 +2065,7 @@
     {
      "key": "high",
      "title": "Highest single week",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "154.0 in week 9 against 2012 champ",
      "value": 154.0
@@ -1704,7 +2073,7 @@
     {
      "key": "low",
      "title": "Lowest single week",
-     "h": "?PackNation",
+     "h": "DJ",
      "name": "PackNation",
      "detail": "45.0 in week 13 against J Rocks Dawgs",
      "value": 45.0
@@ -1712,7 +2081,7 @@
     {
      "key": "blowout",
      "title": "Biggest blowout",
-     "h": "?Murphadelic",
+     "h": "Tom",
      "name": "Murphadelic",
      "detail": "beat The Bucktactic by 72.0 in week 13",
      "value": 72.0
@@ -1771,7 +2140,130 @@
     "aname": "Poppa pump",
     "bname": "CJ SPILLERS"
    },
-   "title_lineups": null,
+   "title_lineups": {
+    "brettmn13": {
+     "name": "Poppa pump",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Drew Brees",
+       "pts": 12.14
+      },
+      {
+       "pos": "RB",
+       "n": "LeSean McCoy",
+       "pts": 28.2
+      },
+      {
+       "pos": "RB",
+       "n": "DeMarco Murray",
+       "pts": 23.1
+      },
+      {
+       "pos": "WR",
+       "n": "Vincent Jackson",
+       "pts": 9.8
+      },
+      {
+       "pos": "WR",
+       "n": "Julian Edelman",
+       "pts": 7.7
+      },
+      {
+       "pos": "WR",
+       "n": "Kendall Wright",
+       "pts": 2.2
+      },
+      {
+       "pos": "TE",
+       "n": "Tony Gonzalez",
+       "pts": 12.3
+      },
+      {
+       "pos": "K",
+       "n": "Phil Dawson",
+       "pts": 11.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Chiefs",
+       "pts": 1.0
+      }
+     ],
+     "total": 107.44,
+     "best": {
+      "pos": "RB",
+      "n": "LeSean McCoy",
+      "pts": 28.2
+     },
+     "worst": {
+      "pos": "DEF",
+      "n": "Chiefs",
+      "pts": 1.0
+     }
+    },
+    "Tyler": {
+     "name": "CJ SPILLERS",
+     "starters": [
+      {
+       "pos": "QB",
+       "n": "Andrew Luck",
+       "pts": 14.14
+      },
+      {
+       "pos": "RB",
+       "n": "Jamaal Charles",
+       "pts": 20.4
+      },
+      {
+       "pos": "RB",
+       "n": "Bobby Rainey",
+       "pts": 8.1
+      },
+      {
+       "pos": "RB",
+       "n": "Rashad Jennings",
+       "pts": 7.2
+      },
+      {
+       "pos": "WR",
+       "n": "Josh Gordon",
+       "pts": 11.9
+      },
+      {
+       "pos": "WR",
+       "n": "DeSean Jackson",
+       "pts": 4.1
+      },
+      {
+       "pos": "TE",
+       "n": "Vernon Davis",
+       "pts": 0
+      },
+      {
+       "pos": "K",
+       "n": "Robbie Gould",
+       "pts": 5.0
+      },
+      {
+       "pos": "DEF",
+       "n": "Browns",
+       "pts": 0
+      }
+     ],
+     "total": 70.84,
+     "best": {
+      "pos": "RB",
+      "n": "Jamaal Charles",
+      "pts": 20.4
+     },
+     "worst": {
+      "pos": "TE",
+      "n": "Vernon Davis",
+      "pts": 0
+     }
+    }
+   },
    "standings": [
     {
      "h": "Tyler",
@@ -2033,7 +2525,7 @@
      ]
     },
     {
-     "h": "?suit and a TIE",
+     "h": "Tom",
      "w": 4,
      "l": 9,
      "t": 0,
@@ -2111,7 +2603,7 @@
       "week": 14,
       "a": "RockMNwild",
       "pa": 87.26,
-      "b": "?suit and a TIE",
+      "b": "Tom",
       "pb": 72.14,
       "winner": "RockMNwild",
       "aname": "the steven ridleys",
@@ -2141,7 +2633,7 @@
       "week": 15,
       "a": "TuanonStan",
       "pa": 97.64,
-      "b": "?suit and a TIE",
+      "b": "Tom",
       "pb": 80.0,
       "winner": "TuanonStan",
       "aname": "A Lifeless Corpse",
@@ -2245,8 +2737,8 @@
      "name": "Aaron Hernancuffs",
      "player": "Peyton Manning",
      "pos": "QB",
-     "detail": "Peyton Manning (QB) scored 243.26 in 9 starts for Aaron Hernancuffs",
-     "value": 243.26
+     "detail": "Peyton Manning (QB) scored 351.56 in 14 starts for Aaron Hernancuffs",
+     "value": 351.56
     },
     {
      "key": "most_valuable",
@@ -2255,8 +2747,8 @@
      "name": "Aaron Hernancuffs",
      "player": "Peyton Manning",
      "pos": "QB",
-     "detail": "Peyton Manning (QB) was 17.6% of Aaron Hernancuffs's starting points, 243.26 in 9 starts",
-     "value": 0.1764
+     "detail": "Peyton Manning (QB) was 25.5% of Aaron Hernancuffs's starting points, 351.56 in 14 starts",
+     "value": 0.2549
     },
     {
      "key": "record",
@@ -2277,7 +2769,7 @@
     {
      "key": "fewest_points",
      "title": "Fewest points",
-     "h": "?suit and a TIE",
+     "h": "Tom",
      "name": "suit and a TIE",
      "detail": "1028.42 points, 79.11 a game",
      "value": 1028.42
