@@ -192,6 +192,18 @@ def build_players(ctx, rows):
     ye = yahoo_era(ctx)
     if ye:
         ylines, _ydrafts, _ycov, ytops = ye
+        # yahoo_era serves season TOTALS from yahoo_lineups_api, which covers
+        # 2008-2013. Since 2026-11-16 flp.slots() covers those same four seasons
+        # week by week, so `rows` already holds them and merging both counted
+        # every pre-2014 player-season twice: doubled career points, a duplicate
+        # season row per player, and each pre-2014 top game listed twice. The
+        # totals source now contributes only what the week-level data lacks,
+        # which keeps it working for any season that is ever scraped at season
+        # level only.
+        covered = {season for season, *_ in rows}
+        if covered:
+            ylines = [r for r in ylines if r[0] not in covered]
+            ytops = [t for t in ytops if t[0] not in covered]
         ypos = {}
         for season, h, name, pos, pts, starts, weeks in ylines:
             if pos == "DEF":
