@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T21:11:17+00:00",
+ "generated": "2026-11-17T21:26:51+00:00",
  "season": 2026,
  "week": 11,
  "playoff": false,
@@ -845,6 +845,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-17T21:11+00:00",
+ "nfl_read_at": "2026-11-17T21:26+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
