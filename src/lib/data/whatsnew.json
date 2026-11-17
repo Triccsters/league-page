@@ -1,5 +1,47 @@
 [
  {
+  "d": "2026-11-16",
+  "kind": "new",
+  "title": "A page for every season",
+  "text": "Every season the league has played, 2008 to now, has its own page: final standings with seed, points rank, all-play record and luck, the playoff bracket, every matchup, that year's draft board, that year's trades, and 15 to 18 awards decided by the numbers. Reach them from History, or from any year on the Trophy Room page.",
+  "link": "/season"
+ },
+ {
+  "d": "2026-11-16",
+  "kind": "new",
+  "title": "The title game, player by player",
+  "text": "Each season page now shows both starting lineups from that year's championship side by side, every starter's points, and the duds flagged. Sixteen finals on record. Worth opening for 2013 alone, where a tight end who scored 13 touchdowns that season caught nothing at all in the final.",
+  "link": "/season/2013"
+ },
+ {
+  "d": "2026-11-16",
+  "kind": "new",
+  "title": "What the NFL was doing that year",
+  "text": "Season pages now carry the real MVP and Offensive Rookie of the Year, plus the injuries, broken records and controversies that actually moved fantasy lineups that year. The NFL playoffs are left out on purpose: this league is finished before they start, so they never cost anybody a title.",
+  "link": "/season"
+ },
+ {
+  "d": "2026-11-16",
+  "kind": "new",
+  "title": "The Yahoo years join everything",
+  "text": "Trades, draft boards and season records now reach back to 2008 instead of stopping at 2014, and the 44 pre-2014 trades are graded like the rest. Teams whose manager was never identified win season awards like anyone else, but stay out of the all-time career lists, because any one of them could still turn out to belong to a manager who is still here.",
+  "link": "/trade-grades"
+ },
+ {
+  "d": "2026-11-16",
+  "kind": "new",
+  "title": "Every team name you have ever used",
+  "text": "Each manager page now lists every name that manager's team has gone by, oldest first, instead of hiding them in one league-wide table.",
+  "link": "/managers"
+ },
+ {
+  "d": "2026-11-16",
+  "kind": "new",
+  "title": "Real NFL headlines in the matchup write-ups",
+  "text": "The weekly write-up for each matchup now pulls in the actual NFL news touching the players in those two lineups, so it can talk about what happened on Sunday instead of only the scores.",
+  "link": "/recaps"
+ },
+ {
   "d": "2026-11-15",
   "kind": "new",
   "title": "Record Watch",
