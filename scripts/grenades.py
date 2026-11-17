@@ -149,5 +149,6 @@ def run(ctx, rows, stamp=None):
     data = build_grenades(ctx, rows)
     if stamp:
         data["generated"] = stamp
-    ctx["write_json"](os.path.join(ctx["static"], "grenades.json"), data, compact=True)
+    # src/lib/data, not static/: the page imports this so it renders server-side
+    ctx["write_json"](os.path.join(ctx["data"], "grenades.json"), data, compact=True)
     return data

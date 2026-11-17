@@ -131,6 +131,11 @@ export const tabs = [
                 dest: '/players',
             },
             {
+                icon: 'local_fire_department',
+                label: 'Grenades',
+                dest: '/grenades',
+            },
+            {
                 icon: 'sports_football',
                 label: 'Football Stats',
                 dest: '/football',

@@ -20,6 +20,8 @@ Unidentified ('?') teams DO win season awards. A team-season stands on its own
 whoever held the remote (T.J., 2026-11-16). They are excluded from CAREER lists
 only - see build_unclaimed in update_site.py.
 """
+import io
+import json
 import os
 from collections import defaultdict
 
@@ -32,7 +34,44 @@ def _r(x, d=2):
     return round(x + 0.0, d)
 
 
-def scoring_era(season):
+def league_scoring():
+    """The scoring this league actually uses, read from its own rules.json.
+
+    rules.json is built from the league's live settings, so this is the league
+    as configured NOW. It is applied to the Sleeper era only. A league that
+    changed scoring part-way through its Sleeper years would be mislabelled for
+    the earlier ones - history.json carries no per-season scoring to fix that.
+    Returns None when rules.json cannot be read, and the year table takes over.
+    """
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                     "..", "src", "lib", "data", "rules.json")
+    try:
+        with io.open(p, encoding="utf-8") as f:
+            rules = json.load(f)
+    except Exception:
+        return None
+    pts = {r.get("name"): r.get("points") for r in (rules.get("scoring") or [])}
+    rec = pts.get("Reception")
+    if rec is None:
+        return None
+    if rec >= 1:
+        label = "full PPR"
+    elif rec > 0:
+        label = "half PPR" if rec == 0.5 else "%g PPR" % rec
+    else:
+        label = "standard"
+    te = pts.get("TE reception bonus")
+    if te:
+        label += ", %g TE premium" % te
+    return label
+
+
+def scoring_era(season, era=None, live=None):
+    # Sleeper seasons take the league's own settings; the Yahoo years predate
+    # them and keep the year table, which is FL Players' history and nobody
+    # else's (T.J., 2026-11-17).
+    if era == "sleeper" and live:
+        return live
     if season >= HALF_PPR_FROM:
         return "half PPR"
     if season >= FRACTIONAL_FROM:
@@ -136,6 +175,7 @@ def title_lineups(final, rows, tn):
 
 
 def build(history, players=None, slot_rows=None):
+    _live_scoring = league_scoring()
     F = {k: i for i, k in enumerate(history["fields"])}
     S, W, E, A, PA, B, PB, PO, LB = (F["season"], F["week"], F["era"], F["a"],
                                      F["pa"], F["b"], F["pb"], F["playoff"], F["label"])
@@ -359,7 +399,8 @@ def build(history, players=None, slot_rows=None):
             format=dict(teams=len(teams),
                         reg_weeks=max((r["w"] for r in reg), default=0),
                         playoff_weeks=sorted({r["w"] for r in po}),
-                        scoring=scoring_era(season),
+                        scoring=scoring_era(
+                            season, rs[0]["era"] if rs else None, _live_scoring),
                         era=(rs[0]["era"] if rs else None),
                         games=len(rs) // 2),
             champion=champ, runner_up=runner, third=third, title_game=title,

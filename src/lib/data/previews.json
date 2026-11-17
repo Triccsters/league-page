@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T13:21:04+00:00",
+ "generated": "2026-11-17T21:11:17+00:00",
  "season": 2026,
  "week": 11,
  "playoff": false,
@@ -7,7 +7,7 @@
   {
    "a": "butterygoop",
    "b": "RockMNwild",
-   "a_win": 58.5,
+   "a_win": 58.2,
    "rec": {
     "butterygoop": [
      7,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "butterygoop": 120.42,
-    "RockMNwild": 113.65
+    "butterygoop": 120.29,
+    "RockMNwild": 113.76
    },
    "h2h": {
     "butterygoop": 3,
@@ -78,22 +78,6 @@
      }
     },
     {
-     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
-     "date": "2026-11-15",
-     "both": false,
-     "score": 15.5,
-     "touches": {
-      "RockMNwild": [
-       {
-        "n": "Rhamondre Stevenson",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
      "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
      "date": "2026-11-16",
@@ -124,13 +108,29 @@
        }
       ]
      }
+    },
+    {
+     "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
+     "url": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
+     "date": "2026-11-17",
+     "both": false,
+     "score": 14.0,
+     "touches": {
+      "RockMNwild": [
+       {
+        "n": "Garrett Wilson",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
     }
    ]
   },
   {
    "a": "TuanonStan",
    "b": "thecreamer",
-   "a_win": 74.4,
+   "a_win": 74.8,
    "rec": {
     "TuanonStan": [
      8,
@@ -158,8 +158,8 @@
     ]
    },
    "proj": {
-    "TuanonStan": 112.14,
-    "thecreamer": 91.53
+    "TuanonStan": 112.46,
+    "thecreamer": 91.44
    },
    "h2h": {
     "TuanonStan": 8,
@@ -212,22 +212,6 @@
      }
     },
     {
-     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
-     "date": "2026-11-15",
-     "both": false,
-     "score": 15.5,
-     "touches": {
-      "thecreamer": [
-       {
-        "n": "DeMario Douglas",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Texans lose RB Woody Marks to concussion in loss to Browns",
      "url": "https://www.espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
      "date": "2026-11-15",
@@ -237,6 +221,22 @@
       "TuanonStan": [
        {
         "n": "Tank Dell",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Sources: Patriots fear Drake Maye has broken ankle, could miss rest of season",
+     "url": "https://www.espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
+     "date": "2026-11-17",
+     "both": false,
+     "score": 13.5,
+     "touches": {
+      "thecreamer": [
+       {
+        "n": "DeMario Douglas",
         "p": "WR",
         "how": "ripple"
        }
@@ -274,7 +274,7 @@
   {
    "a": "Jbird531",
    "b": "Colt45Johnson",
-   "a_win": 42.1,
+   "a_win": 41.6,
    "rec": {
     "Jbird531": [
      6,
@@ -302,8 +302,8 @@
     ]
    },
    "proj": {
-    "Jbird531": 96.25,
-    "Colt45Johnson": 102.51
+    "Jbird531": 96.13,
+    "Colt45Johnson": 102.77
    },
    "h2h": {
     "Jbird531": 7,
@@ -374,45 +374,36 @@
      }
     },
     {
-     "headline": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
-     "url": "https://www.espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
-     "date": "2026-11-15",
-     "both": true,
-     "score": 12.5,
+     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
+     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 15.5,
      "touches": {
       "Jbird531": [
        {
-        "n": "Josh Downs",
+        "n": "Jayden Reed",
         "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "Travis Kelce",
-        "p": "TE",
         "how": "ripple"
        }
       ]
      }
     },
     {
-     "headline": "Chiefs' Kenneth Walker III (groin) to sit out vs. Falcons",
-     "url": "https://www.espn.com/nfl/story/_/id/50480529/chiefs-kenneth-walker-iii-groin-sit-sources-say",
-     "date": "2026-11-14",
-     "both": true,
-     "score": 12.5,
+     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
+     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 14.5,
      "touches": {
-      "Jbird531": [
-       {
-        "n": "Josh Downs",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
       "Colt45Johnson": [
        {
-        "n": "Travis Kelce",
+        "n": "Jordan Addison",
+        "p": "WR",
+        "how": "named"
+       },
+       {
+        "n": "T.J. Hockenson",
         "p": "TE",
         "how": "ripple"
        }
@@ -424,7 +415,7 @@
   {
    "a": "Wallner",
    "b": "brettmn13",
-   "a_win": 51.7,
+   "a_win": 50.9,
    "rec": {
     "Wallner": [
      4,
@@ -452,13 +443,13 @@
     ]
    },
    "proj": {
-    "Wallner": 104.26,
-    "brettmn13": 102.9
+    "Wallner": 103.48,
+    "brettmn13": 102.74
    },
    "h2h": {
-    "Wallner": 8,
-    "brettmn13": 5,
-    "games": 13
+    "Wallner": 12,
+    "brettmn13": 6,
+    "games": 18
    },
    "streak": [
     "Wallner",
@@ -476,11 +467,11 @@
    "flags": [],
    "nfl": [
     {
-     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
-     "date": "2026-11-15",
+     "headline": "Sources: Patriots fear Drake Maye has broken ankle, could miss rest of season",
+     "url": "https://www.espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
+     "date": "2026-11-17",
      "both": true,
-     "score": 15.5,
+     "score": 13.5,
      "touches": {
       "Wallner": [
        {
@@ -558,7 +549,7 @@
   {
    "a": "triccster",
    "b": "YoungBuck04",
-   "a_win": 58.7,
+   "a_win": 59.3,
    "rec": {
     "triccster": [
      4,
@@ -586,8 +577,8 @@
     ]
    },
    "proj": {
-    "triccster": 105.92,
-    "YoungBuck04": 99.05
+    "triccster": 106.16,
+    "YoungBuck04": 98.75
    },
    "h2h": {
     "triccster": 5,
@@ -672,17 +663,17 @@
      }
     },
     {
-     "headline": "Patriots QB Drake Maye knocked out of blowout loss to Lions with ankle injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50492387/patriots-qb-drake-maye-testing-ankle-injury",
-     "date": "2026-11-15",
+     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+     "date": "2026-11-16",
      "both": false,
-     "score": 15.5,
+     "score": 15.0,
      "touches": {
       "YoungBuck04": [
        {
-        "n": "A.J. Brown",
+        "n": "Luther Burden III",
         "p": "WR",
-        "how": "named"
+        "how": "ripple"
        }
       ]
      }
@@ -692,7 +683,7 @@
   {
    "a": "PapaMidnight",
    "b": "snelson91",
-   "a_win": 44.9,
+   "a_win": 45.6,
    "rec": {
     "PapaMidnight": [
      2,
@@ -720,8 +711,8 @@
     ]
    },
    "proj": {
-    "PapaMidnight": 106.84,
-    "snelson91": 110.85
+    "PapaMidnight": 107.42,
+    "snelson91": 110.89
    },
    "h2h": {
     "PapaMidnight": 6,
@@ -854,6 +845,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-17T13:21+00:00",
+ "nfl_read_at": "2026-11-17T21:11+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
