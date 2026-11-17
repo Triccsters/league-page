@@ -5,6 +5,7 @@
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import overviews from '$lib/data/overviews_extra.json';
     import all from '$lib/data/seasons.json';
+    import partialSeasons from '$lib/data/seasons_partial.json';
     import nflAwards from '$lib/data/nfl_awards.json';
 
     export let data;
@@ -26,8 +27,17 @@
     $: prose = (overviews?.seasons || {})[String(year)] || null;
     $: proseParas = !prose ? [] : (Array.isArray(prose) ? prose : String(prose).split(/\n\n+/)).filter(Boolean);
 
-    // every season on record, for the year strip
-    $: years = all ? Object.keys(all.seasons).map(Number).sort((a, b) => b - a) : [];
+    // Seasons the league played that history.json has no games for. They are kept
+    // out of seasons.json on purpose: that file is generated and every section of
+    // this page expects per-game data. These render their own block below instead.
+    $: partial = (partialSeasons?.years || {})[String(year)] || null;
+
+    // every season on record, for the year strip - the partial years are listed
+    // too, or there is no way to reach them
+    $: years = [...new Set([
+        ...(all ? Object.keys(all.seasons) : []),
+        ...Object.keys(partialSeasons?.years || {})
+    ].map(Number))].sort((a, b) => b - a);
 
     // --- matchups, straight from history.json ---------------------------
     $: seasonGames = games.filter((g) => g.season === year && g.pa != null && g.pb != null && (g.pa || g.pb));
@@ -65,7 +75,48 @@
 
     <h1>{year}</h1>
 
-    {#if !s}
+    {#if !s && partial}
+        <p class="sub">{partial.teams} teams, played on Yahoo as <b>{partial.league_name_on_yahoo}</b>
+            {#if partial.champion}&middot; won by {nameOf(partial.champion)}{:else}&middot; champion still unknown{/if}</p>
+
+        <div class="pwarn">
+            <b>This season is reconstructed, not imported.</b> The league played {year}, but no
+            game data for it has ever reached the archive. Everything below was read off the
+            managers' own public Yahoo profiles, each of which lists the leagues that account
+            played and where it finished. Placements only &mdash; there are no scores, no
+            matchups and no draft for {year} yet.
+        </div>
+
+        {#each partial.prose || [] as p}<p>{p}</p>{/each}
+
+        <section>
+            <h2>What is known</h2>
+            <div class="scroll">
+                <table>
+                    <thead><tr><th>#</th><th>Manager</th><th>&nbsp;</th></tr></thead>
+                    <tbody>
+                        {#each partial.placements as t}
+                            <tr class:mine={ready && t.h === $myTeam} class:champ={t.place === 1}>
+                                <td>{t.place}</td>
+                                <td>{#if managerLink(t.h)}<a href={managerLink(t.h)}>{nameOf(t.h)}</a>{:else}{nameOf(t.h)}{/if}
+                                    {#if t.place === 1}<span class="tag">champion</span>{/if}
+                                    <YourTeamBadge handle={t.h} size="small" /></td>
+                                <td class="tn">{t.note || ''}</td>
+                            </tr>
+                        {/each}
+                    </tbody>
+                </table>
+            </div>
+            {#each partial.possible || [] as t}
+                <p class="note"><b>{nameOf(t.h)}</b> &mdash; {t.note}</p>
+            {/each}
+            {#if partial.unaccounted}
+                <p class="note">{partial.unaccounted} of the {partial.teams} places are still
+                    blank{#if !partial.champion}, first among them{/if}. If you were in this
+                    league, or know who was, that is the gap to fill.</p>
+            {/if}
+        </section>
+    {:else if !s}
         <p class="sub">No games are on record for {year}.
             {#if years.length}The league's seasons run {Math.min(...years)} to {Math.max(...years)}.{/if}</p>
     {:else}
@@ -74,16 +125,15 @@
             <div class="crown">
                 <span class="trophy">🏆</span>
                 <div>
-                    <b>{nameOf(s.champion)}</b> won it
-                    {#if s.title_game}
-                        , {n1(Math.max(s.title_game.pa, s.title_game.pb))}–{n1(Math.min(s.title_game.pa, s.title_game.pb))}
+                    <b>{nameOf(s.champion)}</b> won it{#if s.title_game},
+                        {n1(Math.max(s.title_game.pa, s.title_game.pb))}–{n1(Math.min(s.title_game.pa, s.title_game.pb))}
                         over {nameOf(s.runner_up)}
                     {/if}
                     {#if s.third}<small>{nameOf(s.third)} took third.</small>{/if}
                 </div>
             </div>
         {:else if s.current}
-            <p class="sub">This season is still being played — {s.format.reg_weeks} weeks in. Everything below is the season so far.</p>
+            <p class="sub">This season is still being played, {s.format.reg_weeks} weeks in. Everything below is the season so far.</p>
         {/if}
 
         <p class="note">
@@ -176,7 +226,7 @@
                 <h2>The title game, player by player</h2>
                 <p class="note">Both starting lineups from the final. This league ends a week before the
                     NFL's rest week on purpose, so a title was almost never lost to a coach sitting
-                    a healthy star — when a starter below has almost nothing next to his name, it
+                    a healthy star. When a starter below has almost nothing next to his name, it
                     was a blowout, an injury or the weather doing it.</p>
                 {#if nfl?.champ}
                     <div class="nfl">
@@ -365,6 +415,10 @@
     .sub, .note { opacity: 0.78; font-size: 0.9em; line-height: 1.5; margin: 0.2em 0 0.8em; }
     .note { text-align: center; }
     .err { color: #e74c3c; text-align: center; }
+    /* reconstructed seasons (2009, 2011): say so plainly, above the data */
+    .pwarn { background: rgb(41, 128, 185); color: #ffffff;
+        border: 1.5px solid hsl(204, 64%, 34%); border-radius: 8px;
+        padding: 0.8em 1em; margin: 0.6em auto 1em; max-width: 46em; line-height: 1.5; }
     section { margin-bottom: 0.6em; }
 
     .years { display: flex; flex-wrap: wrap; gap: 0.3em; justify-content: center; margin-bottom: 0.6em; }

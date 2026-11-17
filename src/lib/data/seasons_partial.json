@@ -1,0 +1,49 @@
+{
+  "_comment": "Hand-written. Seasons the league played that history.json carries no games for, because T.J.'s Yahoo account was not in them. Everything here was read off PUBLIC Yahoo profiles (profiles.sports.yahoo.com/profile/<handle>/fantasy, History tab) on 2026-11-17 - no logins, no league access. Placements only: no win-loss, points, or matchups exist for these years yet. seasons.py never writes this file. Working: _shared/yahoo_league_record.md.",
+  "years": {
+    "2009": {
+      "season": 2009,
+      "teams": 10,
+      "era": "yahoo",
+      "league_name_on_yahoo": "FL Players",
+      "champion": "brettmn13",
+      "placements": [
+        { "place": 1, "h": "brettmn13", "note": "champion" },
+        { "place": 2, "h": "J Rock" },
+        { "place": 3, "h": "RockMNwild" },
+        { "place": 9, "h": "DJ" }
+      ],
+      "possible": [
+        { "h": "Tyler", "note": "finished 5th or 6th - he played three 10-team leagues in 2009, so which one was FL Players is not pinned down" }
+      ],
+      "unaccounted": 5,
+      "prose": [
+        "The league played 2009, and for years the site could not show it. T.J. was not in it - his only football league that season was an eight-team side league called crazy wacky action bike - so none of 2009 reached the archive through his account.",
+        "It is back in view now, not from league data but from the managers themselves. A Yahoo profile is public, and it lists every league that account ever played with the team count and where they finished. Line those up across the managers and the season reassembles.",
+        "Ten teams. Brett won it. J Rock was second and Austin third, and DJ finished ninth. Five places are still blank, and so is every score, every matchup and the whole draft."
+      ]
+    },
+    "2011": {
+      "season": 2011,
+      "teams": 10,
+      "era": "yahoo",
+      "league_name_on_yahoo": "FL players",
+      "champion": null,
+      "placements": [
+        { "place": 2, "h": "RockMNwild" },
+        { "place": 3, "h": "brettmn13" },
+        { "place": 4, "h": "DJ" },
+        { "place": 6, "h": "J Rock" }
+      ],
+      "possible": [
+        { "h": "Tyler", "note": "finished 7th or 8th - he played two 10-team leagues in 2011" }
+      ],
+      "unaccounted": 5,
+      "prose": [
+        "2011 is the one season nobody on the site can name a champion for. The league played it, ten teams, and T.J. was away - his Yahoo account holds no football league at all that year.",
+        "Four places are known, read off public profiles: Austin second, Brett third, DJ fourth, J Rock sixth. Tyler was seventh or eighth.",
+        "The winner is the gap. Every manager whose profile can be read has been checked, and not one of them finished first - so 2011 was won by an account whose teams are hidden on Yahoo, which is how several teams from that era appear. Someone in the league knows who it was."
+      ]
+    }
+  }
+}

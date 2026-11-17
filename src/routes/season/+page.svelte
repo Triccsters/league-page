@@ -1,6 +1,7 @@
 <script>
     import { nameOf, site } from '$lib/utils/flpHistory';
     import all from '$lib/data/seasons.json';
+    import unclaimed from '$lib/data/unclaimed.json';
 
     // newest first - people look up the recent ones more often
     const years = Object.keys(all.seasons).map(Number).sort((a, b) => b - a);
@@ -21,8 +22,10 @@
     <p class="note">
         {years.length} seasons on record, {Math.min(...years)} to {Math.max(...years)}.
         {#if site.missing_seasons?.length}
-            The league played {site.missing_seasons.join(' and ')} without T.J., so those years are not
-            on his account and are not here.
+            The league played {site.missing_seasons.join(' and ')} without T.J., so no game data for
+            those years is on his account. Both have since been part-reconstructed from the managers'
+            own public Yahoo profiles &mdash;
+            {#each site.missing_seasons as m, i}<a href="/season/{m}">{m}</a>{#if i < site.missing_seasons.length - 2}, {:else if i === site.missing_seasons.length - 2}&nbsp;and {/if}{/each}.
         {/if}
         {titleCount} different managers have won it.
     </p>
@@ -54,8 +57,9 @@
     <p class="foot">
         Each season has its own page: final standings, every matchup, the playoff bracket, the draft
         board, the trades and that year's awards. See also
-        <a href="/all-time">the all-time table</a>, <a href="/record-book">the record book</a>
-        and <a href="/unclaimed">the unclaimed teams</a>.
+        <a href="/all-time">the all-time table</a>
+        and <a href="/record-book">the record book</a>{#if unclaimed?.length},
+        and <a href="/unclaimed">the unclaimed teams</a>{/if}.
     </p>
 </div>
 
