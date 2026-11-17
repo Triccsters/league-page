@@ -1,367 +1,428 @@
 {
-  "_readme": "Real-life NFL context for the season pages: what happened in the NFL that actually moved fantasy lineups. Looked up, never recalled. Static history, so the build never overwrites it.",
-  "sources": [
-    "https://en.wikipedia.org/wiki/List_of_NFL_Most_Valuable_Player_awards",
-    "https://www.smdailyjournal.com/sports/ap-nfl-offensive-rookie-of-the-year/article_5408db6f-6689-5683-bbeb-5aae49f7a1af.html",
-    "https://wtop.com/nfl/2026/02/ap-nfl-offensive-rookie-of-the-year/",
-    "https://www.foxsports.com/stories/nfl/nfl-most-valuable-player-complete-list-winners-year",
-    "https://topendsports.com/events/super-bowl/winners-list.htm"
-  ],
-  "checked": "2026-11-16",
-  "seasons": {
-    "2008": {
-      "mvp": {
-        "n": "Peyton Manning",
-        "pos": "QB",
-        "team": "Indianapolis Colts"
-      },
-      "oroy": {
-        "n": "Matt Ryan",
-        "pos": "QB",
-        "team": "Atlanta Falcons"
-      },
-      "sb": {
-        "no": "XLIII",
-        "won": "Pittsburgh Steelers",
-        "lost": "Arizona Cardinals",
-        "score": "27-23"
-      }
-    },
-    "2009": {
-      "mvp": {
-        "n": "Peyton Manning",
-        "pos": "QB",
-        "team": "Indianapolis Colts"
-      },
-      "oroy": {
-        "n": "Percy Harvin",
-        "pos": "WR",
-        "team": "Minnesota Vikings"
-      },
-      "sb": {
-        "no": "XLIV",
-        "won": "New Orleans Saints",
-        "lost": "Indianapolis Colts",
-        "score": "31-17"
-      }
-    },
-    "2010": {
-      "mvp": {
-        "n": "Tom Brady",
-        "pos": "QB",
-        "team": "New England Patriots"
-      },
-      "oroy": {
-        "n": "Sam Bradford",
-        "pos": "QB",
-        "team": "St. Louis Rams"
-      },
-      "sb": {
-        "no": "XLV",
-        "won": "Green Bay Packers",
-        "lost": "Pittsburgh Steelers",
-        "score": "31-25"
-      }
-    },
-    "2011": {
-      "mvp": {
-        "n": "Aaron Rodgers",
-        "pos": "QB",
-        "team": "Green Bay Packers"
-      },
-      "oroy": {
-        "n": "Cam Newton",
-        "pos": "QB",
-        "team": "Carolina Panthers"
-      },
-      "sb": {
-        "no": "XLVI",
-        "won": "New York Giants",
-        "lost": "New England Patriots",
-        "score": "21-17"
-      }
-    },
-    "2012": {
-      "mvp": {
-        "n": "Adrian Peterson",
-        "pos": "RB",
-        "team": "Minnesota Vikings"
-      },
-      "oroy": {
-        "n": "Robert Griffin III",
-        "pos": "QB",
-        "team": "Washington"
-      },
-      "sb": {
-        "no": "XLVII",
-        "won": "Baltimore Ravens",
-        "lost": "San Francisco 49ers",
-        "score": "34-31"
-      }
-    },
-    "2013": {
-      "mvp": {
-        "n": "Peyton Manning",
-        "pos": "QB",
-        "team": "Denver Broncos"
-      },
-      "oroy": {
-        "n": "Eddie Lacy",
-        "pos": "RB",
-        "team": "Green Bay Packers"
-      },
-      "sb": {
-        "no": "XLVIII",
-        "won": "Seattle Seahawks",
-        "lost": "Denver Broncos",
-        "score": "43-8"
-      }
-    },
-    "2014": {
-      "mvp": {
-        "n": "Aaron Rodgers",
-        "pos": "QB",
-        "team": "Green Bay Packers"
-      },
-      "oroy": {
-        "n": "Odell Beckham Jr.",
-        "pos": "WR",
-        "team": "New York Giants"
-      },
-      "sb": {
-        "no": "XLIX",
-        "won": "New England Patriots",
-        "lost": "Seattle Seahawks",
-        "score": "28-24"
-      },
-      "note": "Week 2 gutted rosters across the league. Adrian Peterson was deactivated over a child-abuse charge and Jamaal Charles went down on his second carry with an ankle injury. Ray Rice had already been released and then suspended for the whole season once the TMZ video came out, leaving anyone who drafted him with nothing. Josh Gordon's second failed drug test cost him most of the year, and Sam Bradford tore an ACL before the season even started.",
-      "src": [
-        "https://www.si.com/nfl/2014/09/17/ap-fbn-fantasy-football",
-        "https://thewoodword.org/sports/2014/09/21/scandals-plague-nfl-shake-up-fantasy-leagues",
-        "https://www.footballguys.com/article/Suspended_Players_In_Dynasty_Leagues",
-        "https://fftoolbox.fulltimefantasy.com/football/article.cfm?article_id=1949"
-      ]
-    },
-    "2015": {
-      "mvp": {
-        "n": "Cam Newton",
-        "pos": "QB",
-        "team": "Carolina Panthers"
-      },
-      "oroy": {
-        "n": "Todd Gurley",
-        "pos": "RB",
-        "team": "St. Louis Rams"
-      },
-      "sb": {
-        "no": "L",
-        "won": "Denver Broncos",
-        "lost": "Carolina Panthers",
-        "score": "24-10"
-      },
-      "note": "A season remembered for how many of the top picks went down. Dez Bryant broke his foot in week 1 and missed six weeks. Jamaal Charles, the second-ranked player in drafts, tore an ACL in October after only five games. Le'Veon Bell had already served a two-game suspension to start the year and then tore his MCL in week 9, ending his season. Andrew Luck missed five weeks and Justin Forsett's season ended in week 11.",
-      "src": [
-        "https://beachwoodreporter.com/?p=12397",
-        "https://www.yardbarker.com/nfl/articles/most_costly_injuries_of_the_2015_nfl_season/s1__20045407",
-        "https://www.fantasyalarm.com/articles/mlb/fantasy-football-injury-report-season-review/24099",
-        "https://www.rotowire.com/football/article/injury-analysis-dropping-like-flies-25668"
-      ]
-    },
-    "2016": {
-      "mvp": {
-        "n": "Matt Ryan",
-        "pos": "QB",
-        "team": "Atlanta Falcons"
-      },
-      "oroy": {
-        "n": "Dak Prescott",
-        "pos": "QB",
-        "team": "Dallas Cowboys"
-      },
-      "sb": {
-        "no": "LI",
-        "won": "New England Patriots",
-        "lost": "Atlanta Falcons",
-        "score": "34-28"
-      }
-    },
-    "2017": {
-      "mvp": {
-        "n": "Tom Brady",
-        "pos": "QB",
-        "team": "New England Patriots"
-      },
-      "oroy": {
-        "n": "Alvin Kamara",
-        "pos": "RB",
-        "team": "New Orleans Saints"
-      },
-      "sb": {
-        "no": "LII",
-        "won": "Philadelphia Eagles",
-        "lost": "New England Patriots",
-        "score": "41-33"
-      }
-    },
-    "2018": {
-      "mvp": {
-        "n": "Patrick Mahomes",
-        "pos": "QB",
-        "team": "Kansas City Chiefs"
-      },
-      "oroy": {
-        "n": "Saquon Barkley",
-        "pos": "RB",
-        "team": "New York Giants"
-      },
-      "sb": {
-        "no": "LIII",
-        "won": "New England Patriots",
-        "lost": "Los Angeles Rams",
-        "score": "13-3"
-      },
-      "note": "Le'Veon Bell sat out the entire season in a contract dispute with Pittsburgh. He was a consensus first-round pick, and when he failed to report by the November deadline he became ineligible for the rest of the year, so everyone who drafted him got zeroes all season. He later apologised to fantasy owners. Andrew Luck's lost 2017 shoulder injury had pushed him down drafts as well.",
-      "src": [
-        "https://www.theringer.com/2018/11/13/nfl/leveon-bell-pittsburgh-steelers-franchise-tag-deadline-faq",
-        "https://bleacherreport.com/articles/2805432-leveon-bell-ineligible-to-return-in-2018-after-failing-to-report-to-steelers",
-        "https://www.yahoo.com/now/le-veon-bell-apologizes-to-fantasy-football-owners-for-sitting-out-last-season-202935383.html",
-        "https://www.nfl.com/photos/2018-fantasy-guru-awards-0ap3000001007485"
-      ]
-    },
-    "2019": {
-      "mvp": {
-        "n": "Lamar Jackson",
-        "pos": "QB",
-        "team": "Baltimore Ravens"
-      },
-      "oroy": {
-        "n": "Kyler Murray",
-        "pos": "QB",
-        "team": "Arizona Cardinals"
-      },
-      "sb": {
-        "no": "LIV",
-        "won": "Kansas City Chiefs",
-        "lost": "San Francisco 49ers",
-        "score": "31-20"
-      }
-    },
-    "2020": {
-      "mvp": {
-        "n": "Aaron Rodgers",
-        "pos": "QB",
-        "team": "Green Bay Packers"
-      },
-      "oroy": {
-        "n": "Justin Herbert",
-        "pos": "QB",
-        "team": "Los Angeles Chargers"
-      },
-      "sb": {
-        "no": "LV",
-        "won": "Tampa Bay Buccaneers",
-        "lost": "Kansas City Chiefs",
-        "score": "31-9"
-      },
-      "note": "The COVID season. The NFL cancelled all four preseason games, more than fifty players opted out entirely, and the first two weeks took out the players most drafts were built around: Saquon Barkley tore an ACL in week 2 and was gone for the year, and Christian McCaffrey, the consensus number one pick, hurt his ankle in the same stretch. Damien Williams opting out moved Clyde Edwards-Helaire from roughly pick 20 to pick 7 in drafts.",
-      "src": [
-        "https://www.npr.org/transcripts/915381524",
-        "https://triblive.com/sports/tim-benz-blaming-rash-of-nfl-injuries-on-canceled-preseason-is-way-off",
-        "https://betiq.teamrankings.com/fantasy-football/strategy/player-opt-outs-fantasy-football/",
-        "https://fchornetmedia.com/?p=20129"
-      ]
-    },
-    "2021": {
-      "mvp": {
-        "n": "Aaron Rodgers",
-        "pos": "QB",
-        "team": "Green Bay Packers"
-      },
-      "oroy": {
-        "n": "Ja'Marr Chase",
-        "pos": "WR",
-        "team": "Cincinnati Bengals"
-      },
-      "sb": {
-        "no": "LVI",
-        "won": "Los Angeles Rams",
-        "lost": "Cincinnati Bengals",
-        "score": "23-20"
-      }
-    },
-    "2022": {
-      "mvp": {
-        "n": "Patrick Mahomes",
-        "pos": "QB",
-        "team": "Kansas City Chiefs"
-      },
-      "oroy": {
-        "n": "Garrett Wilson",
-        "pos": "WR",
-        "team": "New York Jets"
-      },
-      "sb": {
-        "no": "LVII",
-        "won": "Kansas City Chiefs",
-        "lost": "Philadelphia Eagles",
-        "score": "38-35"
-      }
-    },
-    "2023": {
-      "mvp": {
-        "n": "Lamar Jackson",
-        "pos": "QB",
-        "team": "Baltimore Ravens"
-      },
-      "oroy": {
-        "n": "C.J. Stroud",
-        "pos": "QB",
-        "team": "Houston Texans"
-      },
-      "sb": {
-        "no": "LVIII",
-        "won": "Kansas City Chiefs",
-        "lost": "San Francisco 49ers",
-        "score": "25-22"
-      }
-    },
-    "2024": {
-      "mvp": {
-        "n": "Josh Allen",
-        "pos": "QB",
-        "team": "Buffalo Bills"
-      },
-      "oroy": {
-        "n": "Jayden Daniels",
-        "pos": "QB",
-        "team": "Washington Commanders"
-      },
-      "sb": {
-        "no": "LIX",
-        "won": "Philadelphia Eagles",
-        "lost": "Kansas City Chiefs",
-        "score": "40-22"
-      }
-    },
-    "2025": {
-      "mvp": {
-        "n": "Matthew Stafford",
-        "pos": "QB",
-        "team": "Los Angeles Rams"
-      },
-      "oroy": {
-        "n": "Tetairoa McMillan",
-        "pos": "WR",
-        "team": "Carolina Panthers"
-      },
-      "sb": {
-        "no": "LX",
-        "won": "Seattle Seahawks",
-        "lost": "New England Patriots",
-        "score": "29-13"
-      }
-    }
+ "_readme": "Real-life NFL context for the season pages: what happened in the NFL that actually moved fantasy lineups. Looked up, never recalled. Static history, so the build never overwrites it.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/List_of_NFL_Most_Valuable_Player_awards",
+  "https://www.smdailyjournal.com/sports/ap-nfl-offensive-rookie-of-the-year/article_5408db6f-6689-5683-bbeb-5aae49f7a1af.html",
+  "https://wtop.com/nfl/2026/02/ap-nfl-offensive-rookie-of-the-year/",
+  "https://www.foxsports.com/stories/nfl/nfl-most-valuable-player-complete-list-winners-year",
+  "https://topendsports.com/events/super-bowl/winners-list.htm",
+  "https://www.pro-football-reference.com/years/2008/week_16.htm",
+  "https://www.fox9.com/sports/vikings-marking-13-years-since-the-metrodome-roof-collapse",
+  "https://www.espn.com/nfl/recap/_/gameId/331223025",
+  "https://www.foxnews.com/sports/wide-write-fantasy-football-crapshoot"
+ ],
+ "checked": "2026-11-16",
+ "seasons": {
+  "2008": {
+   "mvp": {
+    "n": "Peyton Manning",
+    "pos": "QB",
+    "team": "Indianapolis Colts"
+   },
+   "oroy": {
+    "n": "Matt Ryan",
+    "pos": "QB",
+    "team": "Atlanta Falcons"
+   },
+   "sb": {
+    "no": "XLIII",
+    "won": "Pittsburgh Steelers",
+    "lost": "Arizona Cardinals",
+    "score": "27-23"
+   },
+   "note": "The year a first-round quarterback ruined drafts. Tom Brady tore up his knee in the first quarter of week 1 and was finished for the season; he had been going around sixth overall and was the consensus top quarterback. LaDainian Tomlinson, the usual 1.1 pick, cracked 100 rushing yards twice all year after doing it sixteen times across the previous two seasons, and ended up only twelfth among running backs. Ronnie Brown was the most productive back in fantasy until he tore an ACL in week 7, and a knee cost Marvin Harrison eleven games. Drew Brees finished 15 yards short of Dan Marino's single-season passing record, and Detroit lost all sixteen games.",
+   "src": [
+    "https://bleacherreport.com/articles/869246-fantasy-football-injuries-7-biggest-fantasy-killers-of-all-time",
+    "https://www.nfl.com/news/l-t-disappoints-turner-williams-lead-all-fantasy-backs-in-2008-09000d5d80decbfa",
+    "https://nfl.com/fantasyfootball/story/09000d5d80711888/article/dont-forget-these-15-fantasy-players-in-2008",
+    "https://www.pro-football-reference.com/years/2008/week_16.htm",
+    "https://www.spokesman.com/stories/2012/dec/23/sweet-sound-of-broken-records/"
+   ],
+   "champ": "The final was week 16, December 21st. The losing side started Andre Johnson, who led the entire NFL that season in both catches (115) and receiving yards (1,575), and got a single point out of him: Houston lost 27-16 in Oakland and what passing game they had went to tight end Owen Daniels, who led the team with 111 yards. Chris Cooley chipped in two more from four catches for 28 yards in Washington's 10-3 win over Philadelphia. Two starters, three points, in a game decided by 23.",
+   "champ_src": [
+    "https://www.pro-football-reference.com/years/2008/games.htm",
+    "https://www.pro-football-reference.com/years/2008/week_16.htm",
+    "https://www.pro-football-reference.com/years/2008/receiving.htm",
+    "https://dynatyze.com/football/games/2008-week-16"
+   ]
   },
-  "_season_convention": "Keyed by SEASON, not by the year the Super Bowl was played. The 2008 season ends in Super Bowl XLIII, played February 2009. Every entry here has already been shifted, so do not shift it again. Cross-checked against the MVP list: Peyton Manning's 2013 MVP season ends in XLVIII, the 43-8 Seattle win over his Broncos, and Cam Newton's 2015 MVP season ends in Super Bowl L, the Denver win over his Panthers.",
-  "_note_scope": "Notes cover season-ending injuries, suspensions, holdouts, records and rule changes - things that changed what a manager could start. The Super Bowl and the NFL playoffs are deliberately NOT here: fantasy seasons end in week 16 or 17, so the postseason never affected this league. The `sb` field is kept for trivia but is not shown on the page, for the same reason."
+  "2009": {
+   "mvp": {
+    "n": "Peyton Manning",
+    "pos": "QB",
+    "team": "Indianapolis Colts"
+   },
+   "oroy": {
+    "n": "Percy Harvin",
+    "pos": "WR",
+    "team": "Minnesota Vikings"
+   },
+   "sb": {
+    "no": "XLIV",
+    "won": "New Orleans Saints",
+    "lost": "Indianapolis Colts",
+    "score": "31-17"
+   }
+  },
+  "2010": {
+   "mvp": {
+    "n": "Tom Brady",
+    "pos": "QB",
+    "team": "New England Patriots"
+   },
+   "oroy": {
+    "n": "Sam Bradford",
+    "pos": "QB",
+    "team": "St. Louis Rams"
+   },
+   "sb": {
+    "no": "XLV",
+    "won": "Green Bay Packers",
+    "lost": "Pittsburgh Steelers",
+    "score": "31-25"
+   },
+   "note": "Minnesota's season fell in on itself, literally. Seventeen inches of snow tore open the Metrodome roof before dawn on December 12th; the Vikings-Giants game was pushed to Monday night and played in Detroit, and with the roof still unfixed the next home game was moved outdoors to TCF Bank Stadium in late December. Brett Favre's 297-game starting streak ended a shoulder injury in week 14. Elsewhere, Ben Roethlisberger was suspended to open the season, which is how Charlie Batch ended up starting in September; Kevin Kolb's week 1 concussion handed Philadelphia's offense to Michael Vick, who became a weekly must-start; and Tony Romo broke his collarbone in week 7. The league started fining helmet-to-helmet hits hard after week 6 and the players' union reported injuries up across the board, with 464 men landing on injured reserve against 388 the year before.",
+   "src": [
+    "https://www.fox9.com/sports/vikings-marking-13-years-since-the-metrodome-roof-collapse",
+    "https://fanbuzz.com/nfl/nfc-north/15-years-ago-the-vikings-stadium-roof-collapsed-hubert-humphrey-metrodome-nfl/",
+    "https://www.si.com/nfl/2011/02/04/04defining-moments-of-2010-nfl-season",
+    "https://bleacherreport.com/articles/581250-10-biggest-stories-of-2010-nfl-season-1-concussions-fines-suspensions",
+    "https://www.cbc.ca/sports/football/nfl/nflpa-report-increased-injuries-in-2010-1.1123910"
+   ],
+   "champ": "The final was week 16, December 26th, and the title-winning lineup had Peyton Hillis in it. Hillis had run for a career-high 144 yards against Baltimore earlier that year, so starting him against the Ravens again looked fine. Ed Reed drilled him in the ribs on his second carry, Cleveland substituted him out as the game went on, and he finished with 35 yards on 12 carries in a 20-10 loss that clinched Baltimore's playoff spot. Three points from a Pro Bowl back, and the title still held up.",
+   "champ_src": [
+    "https://russellstreetreport.com/2010/12/27/street-talk/r-lewis-backs-up-words-hillis-shut-down/",
+    "https://www.deseret.com/2010/12/29/20163459/browns-running-back-peyton-hillis-out-with-sore-ribs",
+    "https://www.baltimoreravens.com/news/game-recap-ravens-at-browns-7748338",
+    "https://www.nfl.com/players/peyton-hillis/stats/logs/2010/"
+   ]
+  },
+  "2011": {
+   "mvp": {
+    "n": "Aaron Rodgers",
+    "pos": "QB",
+    "team": "Green Bay Packers"
+   },
+   "oroy": {
+    "n": "Cam Newton",
+    "pos": "QB",
+    "team": "Carolina Panthers"
+   },
+   "sb": {
+    "no": "XLVI",
+    "won": "New York Giants",
+    "lost": "New England Patriots",
+    "score": "21-17"
+   }
+  },
+  "2012": {
+   "mvp": {
+    "n": "Adrian Peterson",
+    "pos": "RB",
+    "team": "Minnesota Vikings"
+   },
+   "oroy": {
+    "n": "Robert Griffin III",
+    "pos": "QB",
+    "team": "Washington"
+   },
+   "sb": {
+    "no": "XLVII",
+    "won": "Baltimore Ravens",
+    "lost": "San Francisco 49ers",
+    "score": "34-31"
+   },
+   "note": "A season of records and bad officiating. Adrian Peterson came back from a torn ACL and MCL and ran for 2,097 yards, nine short of Eric Dickerson's single-season record, and took MVP for it. Calvin Johnson broke Jerry Rice's single-season receiving yardage record. Jason Witten set the tight end catch record. Matthew Stafford threw 727 times, shattering Drew Bledsoe's attempts record, which tells you most of what you need to know about Detroit. Peyton Manning returned from neck surgery in Denver. Meanwhile the referees were locked out and replacements worked the first three weeks, ending with the Golden Tate Hail Mary that gave Seattle a win over Green Bay in week 3, and the Saints bounty investigation cost Sean Payton the entire season.",
+   "src": [
+    "https://www.nfl.com/photos/nfl-records-set-during-2012-season-0ap1000000120438",
+    "https://www.cbssports.com/nfl/news/2012-nfl-records-watch-adrian-peterson-eyes-rushing-mark",
+    "https://en.wikipedia.org/wiki/2012_Minnesota_Vikings_season",
+    "https://www.foxnews.com/sports/nfl-2012-was-marked-by-bounties-replacement-officials-and-tragedy-as-much-as-outstanding-play.amp",
+    "https://www.si.com/nfl/disaster-awaits-the-nfl-if-replacement-referees-return-in-2026"
+   ],
+   "champ": "The final was week 16, December 23rd, and one lineup had Frank Gore in it. That Sunday night the 49ers went to Seattle and were taken apart 42-13 -- the game where Kam Chancellor's hit knocked Vernon Davis out with a concussion. Gore came back with two points. Tony Romo's 32 on the other side of the roster covered it, which is the whole story of that title: the blowout happened to the right team.",
+   "champ_src": [
+    "https://www.si.com/nfl/2012/12/24/49ers-lose-mario-manningham-vernon-davis-nfl-week-16-injury-updates",
+    "https://www.essentiallysports.com/nfl-active-news-i-wanted-to-kill-colin-kaepernick-ex-49ers-star-doesnt-hold-back-about-brutal-hit-that-took-him-out-against-seahawks/",
+    "https://www.pbs.org/wgbh/frontline/article/concussion-watch-week-16-roundup"
+   ]
+  },
+  "2013": {
+   "mvp": {
+    "n": "Peyton Manning",
+    "pos": "QB",
+    "team": "Denver Broncos"
+   },
+   "oroy": {
+    "n": "Eddie Lacy",
+    "pos": "RB",
+    "team": "Green Bay Packers"
+   },
+   "sb": {
+    "no": "XLVIII",
+    "won": "Seattle Seahawks",
+    "lost": "Denver Broncos",
+    "score": "43-8"
+   },
+   "note": "Peyton Manning's year, and nobody has matched it since. He opened the season with seven touchdown passes against the defending champion Ravens and finished with 55 for the year and 5,477 yards, both still single-season records, while Denver scored 606 points, also a record. Five different Broncos reached ten touchdowns, so the whole offense was startable every week. Denver's Von Miller was suspended the first six games under the substance-abuse policy. Off the field the season belonged to Miami: Jonathan Martin walked away from the team on October 28th over what he said was constant bullying from Richie Incognito, and Incognito was suspended for the rest of the year.",
+   "src": [
+    "https://www.espn.com/nfl/story/_/id/38492638/denver-broncos-peyton-manning-nfl-record-606-points-2013-season",
+    "https://www.canalstreetchronicles.com/2013/12/31/5259470/nfl-season-2013-review-peyton-manning",
+    "https://www.si.com/nfl/2014/02/03/2013-nfl-season-revisited",
+    "https://www.profootballwriters.org/2014/01/15/denver-manning-pfwa-nfl-mvp-offensive-player-year-st-louis-quinn-dpoy/"
+   ],
+   "champ": "The final was week 16, December 23rd, on the Monday night that closed Candlestick Park. San Francisco beat Atlanta 34-24 and Vernon Davis did not catch a single pass -- the only game all season he failed to record a reception. Davis scored 13 touchdowns that year. The losing lineup in the final had him at tight end, for nothing, and lost by 36.6.",
+   "champ_src": [
+    "https://www.espn.com/nfl/recap/_/gameId/331223025",
+    "https://www.profootballarchives.com/players/d/davi21220.html",
+    "https://www.statmuse.com/nfl/ask/vernon-davis-stats-as-49ers"
+   ]
+  },
+  "2014": {
+   "mvp": {
+    "n": "Aaron Rodgers",
+    "pos": "QB",
+    "team": "Green Bay Packers"
+   },
+   "oroy": {
+    "n": "Odell Beckham Jr.",
+    "pos": "WR",
+    "team": "New York Giants"
+   },
+   "sb": {
+    "no": "XLIX",
+    "won": "New England Patriots",
+    "lost": "Seattle Seahawks",
+    "score": "28-24"
+   },
+   "note": "Week 2 gutted rosters across the league. Adrian Peterson was deactivated over a child-abuse charge and Jamaal Charles went down on his second carry with an ankle injury. Ray Rice had already been released and then suspended for the whole season once the TMZ video came out, leaving anyone who drafted him with nothing. Josh Gordon's second failed drug test cost him most of the year, and Sam Bradford tore an ACL before the season even started.",
+   "src": [
+    "https://www.si.com/nfl/2014/09/17/ap-fbn-fantasy-football",
+    "https://thewoodword.org/sports/2014/09/21/scandals-plague-nfl-shake-up-fantasy-leagues",
+    "https://www.footballguys.com/article/Suspended_Players_In_Dynasty_Leagues",
+    "https://fftoolbox.fulltimefantasy.com/football/article.cfm?article_id=1949"
+   ]
+  },
+  "2015": {
+   "mvp": {
+    "n": "Cam Newton",
+    "pos": "QB",
+    "team": "Carolina Panthers"
+   },
+   "oroy": {
+    "n": "Todd Gurley",
+    "pos": "RB",
+    "team": "St. Louis Rams"
+   },
+   "sb": {
+    "no": "L",
+    "won": "Denver Broncos",
+    "lost": "Carolina Panthers",
+    "score": "24-10"
+   },
+   "note": "A season remembered for how many of the top picks went down. Dez Bryant broke his foot in week 1 and missed six weeks. Jamaal Charles, the second-ranked player in drafts, tore an ACL in October after only five games. Le'Veon Bell had already served a two-game suspension to start the year and then tore his MCL in week 9, ending his season. Andrew Luck missed five weeks and Justin Forsett's season ended in week 11.",
+   "src": [
+    "https://beachwoodreporter.com/?p=12397",
+    "https://www.yardbarker.com/nfl/articles/most_costly_injuries_of_the_2015_nfl_season/s1__20045407",
+    "https://www.fantasyalarm.com/articles/mlb/fantasy-football-injury-report-season-review/24099",
+    "https://www.rotowire.com/football/article/injury-analysis-dropping-like-flies-25668"
+   ]
+  },
+  "2016": {
+   "mvp": {
+    "n": "Matt Ryan",
+    "pos": "QB",
+    "team": "Atlanta Falcons"
+   },
+   "oroy": {
+    "n": "Dak Prescott",
+    "pos": "QB",
+    "team": "Dallas Cowboys"
+   },
+   "sb": {
+    "no": "LI",
+    "won": "New England Patriots",
+    "lost": "Atlanta Falcons",
+    "score": "34-28"
+   }
+  },
+  "2017": {
+   "mvp": {
+    "n": "Tom Brady",
+    "pos": "QB",
+    "team": "New England Patriots"
+   },
+   "oroy": {
+    "n": "Alvin Kamara",
+    "pos": "RB",
+    "team": "New Orleans Saints"
+   },
+   "sb": {
+    "no": "LII",
+    "won": "Philadelphia Eagles",
+    "lost": "New England Patriots",
+    "score": "41-33"
+   }
+  },
+  "2018": {
+   "mvp": {
+    "n": "Patrick Mahomes",
+    "pos": "QB",
+    "team": "Kansas City Chiefs"
+   },
+   "oroy": {
+    "n": "Saquon Barkley",
+    "pos": "RB",
+    "team": "New York Giants"
+   },
+   "sb": {
+    "no": "LIII",
+    "won": "New England Patriots",
+    "lost": "Los Angeles Rams",
+    "score": "13-3"
+   },
+   "note": "Le'Veon Bell sat out the entire season in a contract dispute with Pittsburgh. He was a consensus first-round pick, and when he failed to report by the November deadline he became ineligible for the rest of the year, so everyone who drafted him got zeroes all season. He later apologised to fantasy owners. Andrew Luck's lost 2017 shoulder injury had pushed him down drafts as well.",
+   "src": [
+    "https://www.theringer.com/2018/11/13/nfl/leveon-bell-pittsburgh-steelers-franchise-tag-deadline-faq",
+    "https://bleacherreport.com/articles/2805432-leveon-bell-ineligible-to-return-in-2018-after-failing-to-report-to-steelers",
+    "https://www.yahoo.com/now/le-veon-bell-apologizes-to-fantasy-football-owners-for-sitting-out-last-season-202935383.html",
+    "https://www.nfl.com/photos/2018-fantasy-guru-awards-0ap3000001007485"
+   ]
+  },
+  "2019": {
+   "mvp": {
+    "n": "Lamar Jackson",
+    "pos": "QB",
+    "team": "Baltimore Ravens"
+   },
+   "oroy": {
+    "n": "Kyler Murray",
+    "pos": "QB",
+    "team": "Arizona Cardinals"
+   },
+   "sb": {
+    "no": "LIV",
+    "won": "Kansas City Chiefs",
+    "lost": "San Francisco 49ers",
+    "score": "31-20"
+   }
+  },
+  "2020": {
+   "mvp": {
+    "n": "Aaron Rodgers",
+    "pos": "QB",
+    "team": "Green Bay Packers"
+   },
+   "oroy": {
+    "n": "Justin Herbert",
+    "pos": "QB",
+    "team": "Los Angeles Chargers"
+   },
+   "sb": {
+    "no": "LV",
+    "won": "Tampa Bay Buccaneers",
+    "lost": "Kansas City Chiefs",
+    "score": "31-9"
+   },
+   "note": "The COVID season. The NFL cancelled all four preseason games, more than fifty players opted out entirely, and the first two weeks took out the players most drafts were built around: Saquon Barkley tore an ACL in week 2 and was gone for the year, and Christian McCaffrey, the consensus number one pick, hurt his ankle in the same stretch. Damien Williams opting out moved Clyde Edwards-Helaire from roughly pick 20 to pick 7 in drafts.",
+   "src": [
+    "https://www.npr.org/transcripts/915381524",
+    "https://triblive.com/sports/tim-benz-blaming-rash-of-nfl-injuries-on-canceled-preseason-is-way-off",
+    "https://betiq.teamrankings.com/fantasy-football/strategy/player-opt-outs-fantasy-football/",
+    "https://fchornetmedia.com/?p=20129"
+   ]
+  },
+  "2021": {
+   "mvp": {
+    "n": "Aaron Rodgers",
+    "pos": "QB",
+    "team": "Green Bay Packers"
+   },
+   "oroy": {
+    "n": "Ja'Marr Chase",
+    "pos": "WR",
+    "team": "Cincinnati Bengals"
+   },
+   "sb": {
+    "no": "LVI",
+    "won": "Los Angeles Rams",
+    "lost": "Cincinnati Bengals",
+    "score": "23-20"
+   }
+  },
+  "2022": {
+   "mvp": {
+    "n": "Patrick Mahomes",
+    "pos": "QB",
+    "team": "Kansas City Chiefs"
+   },
+   "oroy": {
+    "n": "Garrett Wilson",
+    "pos": "WR",
+    "team": "New York Jets"
+   },
+   "sb": {
+    "no": "LVII",
+    "won": "Kansas City Chiefs",
+    "lost": "Philadelphia Eagles",
+    "score": "38-35"
+   }
+  },
+  "2023": {
+   "mvp": {
+    "n": "Lamar Jackson",
+    "pos": "QB",
+    "team": "Baltimore Ravens"
+   },
+   "oroy": {
+    "n": "C.J. Stroud",
+    "pos": "QB",
+    "team": "Houston Texans"
+   },
+   "sb": {
+    "no": "LVIII",
+    "won": "Kansas City Chiefs",
+    "lost": "San Francisco 49ers",
+    "score": "25-22"
+   }
+  },
+  "2024": {
+   "mvp": {
+    "n": "Josh Allen",
+    "pos": "QB",
+    "team": "Buffalo Bills"
+   },
+   "oroy": {
+    "n": "Jayden Daniels",
+    "pos": "QB",
+    "team": "Washington Commanders"
+   },
+   "sb": {
+    "no": "LIX",
+    "won": "Philadelphia Eagles",
+    "lost": "Kansas City Chiefs",
+    "score": "40-22"
+   }
+  },
+  "2025": {
+   "mvp": {
+    "n": "Matthew Stafford",
+    "pos": "QB",
+    "team": "Los Angeles Rams"
+   },
+   "oroy": {
+    "n": "Tetairoa McMillan",
+    "pos": "WR",
+    "team": "Carolina Panthers"
+   },
+   "sb": {
+    "no": "LX",
+    "won": "Seattle Seahawks",
+    "lost": "New England Patriots",
+    "score": "29-13"
+   }
+  }
+ },
+ "_season_convention": "Keyed by SEASON, not by the year the Super Bowl was played. The 2008 season ends in Super Bowl XLIII, played February 2009. Every entry here has already been shifted, so do not shift it again. Cross-checked against the MVP list: Peyton Manning's 2013 MVP season ends in XLVIII, the 43-8 Seattle win over his Broncos, and Cam Newton's 2015 MVP season ends in Super Bowl L, the Denver win over his Panthers.",
+ "_note_scope": "Notes cover season-ending injuries, suspensions, holdouts, records and rule changes - things that changed what a manager could start. The Super Bowl and the NFL playoffs are deliberately NOT here: fantasy seasons end in week 16 or 17, so the postseason never affected this league. The `sb` field is kept for reference but is not rendered. `note` is the season; `champ` is the NFL news of championship week itself, aimed at the players who actually started in the final. This league's final has always landed a week before the NFL's rest week, so a dud in a title lineup is a blowout, an injury or the weather - almost never a coach sitting a healthy starter."
 }

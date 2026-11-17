@@ -174,9 +174,16 @@
         {#if s.title_lineups && s.title_game}
             <section>
                 <h2>The title game, player by player</h2>
-                <p class="note">Both starting lineups from the final. Championship week is when NFL
-                    teams with a playoff seed already locked start resting people, so a star with
-                    almost nothing next to his name is often a real story rather than a bad day.</p>
+                <p class="note">Both starting lineups from the final. This league ends a week before the
+                    NFL's rest week on purpose, so a title was almost never lost to a coach sitting
+                    a healthy star — when a starter below has almost nothing next to his name, it
+                    was a blowout, an injury or the weather doing it.</p>
+                {#if nfl?.champ}
+                    <div class="nfl">
+                        <span class="nt">What the NFL was doing that week</span>
+                        <p class="nnote">{nfl.champ}</p>
+                    </div>
+                {/if}
                 <div class="lineups">
                     {#each [s.champion, s.runner_up] as h}
                         {@const L = s.title_lineups[h]}
