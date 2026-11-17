@@ -31,6 +31,8 @@
     // out of seasons.json on purpose: that file is generated and every section of
     // this page expects per-game data. These render their own block below instead.
     $: partial = (partialSeasons?.years || {})[String(year)] || null;
+    // shared "how to fill this in" copy, shown on a partial season only
+    $: partialHelp = partial ? (partialSeasons?.help || null) : null;
 
     // every season on record, for the year strip - the partial years are listed
     // too, or there is no way to reach them
@@ -112,10 +114,23 @@
             {/each}
             {#if partial.unaccounted}
                 <p class="note">{partial.unaccounted} of the {partial.teams} places are still
-                    blank{#if !partial.champion}, first among them{/if}. If you were in this
-                    league, or know who was, that is the gap to fill.</p>
+                    blank{#if !partial.champion}, first among them{/if}.</p>
             {/if}
         </section>
+
+        {#if partialHelp}
+            <section class="help">
+                <h2>{partialHelp.heading}</h2>
+                {#if partial.most_wanted}<p class="want">{partial.most_wanted}</p>{/if}
+                <p>{partialHelp.intro}</p>
+                <ol>
+                    {#each partialHelp.steps as st}<li>{st.replace(/\bYEAR\b/g, String(year))}</li>{/each}
+                </ol>
+                {#if partialHelp.why}<p class="small">{partialHelp.why}</p>{/if}
+                {#if partialHelp.commish}<p class="small"><b>Commissioner that year?</b> {partialHelp.commish}</p>{/if}
+                {#if partialHelp.fallback}<p class="small">{partialHelp.fallback}</p>{/if}
+            </section>
+        {/if}
     {:else if !s}
         <p class="sub">No games are on record for {year}.
             {#if years.length}The league's seasons run {Math.min(...years)} to {Math.max(...years)}.{/if}</p>
@@ -419,6 +434,16 @@
     .pwarn { background: rgb(41, 128, 185); color: #ffffff;
         border: 1.5px solid hsl(204, 64%, 34%); border-radius: 8px;
         padding: 0.8em 1em; margin: 0.6em auto 1em; max-width: 46em; line-height: 1.5; }
+    /* self-serve instructions for a manager who still has the season */
+    .help { background: rgb(39, 174, 96); color: #ffffff;
+        border: 1.5px solid hsl(145, 63%, 29%); border-radius: 8px;
+        padding: 0.9em 1.2em 1.1em; margin: 1.4em auto 0.6em; max-width: 46em; }
+    .help h2 { margin: 0 0 0.5em; font-size: 1.15em; color: #ffffff; }
+    .help p { line-height: 1.5; margin: 0.4em 0; }
+    .help .want { font-weight: 700; }
+    .help .small { font-size: 0.88em; opacity: 0.92; }
+    .help ol { margin: 0.6em 0 0.7em; padding-left: 1.3em; line-height: 1.6; }
+    .help li { margin: 0.25em 0; }
     section { margin-bottom: 0.6em; }
 
     .years { display: flex; flex-wrap: wrap; gap: 0.3em; justify-content: center; margin-bottom: 0.6em; }

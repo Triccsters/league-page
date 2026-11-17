@@ -1,5 +1,19 @@
 {
-  "_comment": "Hand-written. Seasons the league played that history.json carries no games for, because T.J.'s Yahoo account was not in them. Everything here was read off PUBLIC Yahoo profiles (profiles.sports.yahoo.com/profile/<handle>/fantasy, History tab) on 2026-11-17 - no logins, no league access. Placements only: no win-loss, points, or matchups exist for these years yet. seasons.py never writes this file. Working: _shared/yahoo_league_record.md.",
+  "_comment": "Hand-written. Seasons the league played that history.json carries no games for, because T.J.'s Yahoo account was not in them. Everything here was read off PUBLIC Yahoo profiles (profiles.sports.yahoo.com/profile/<handle>/fantasy, History tab) on 2026-11-17 - no logins, no league access. Placements only: no win-loss, points, or matchups exist for these years yet. seasons.py never writes this file. Working: _shared/yahoo_league_record.md. The help block asks only for Standings and Draft Results on purpose: those two pages carry no email addresses, unlike the Teams page. No email address appears here either - the site is public and the repo is public.",
+  "help": {
+    "heading": "Were you in this season? You can fill it in",
+    "intro": "If this year is still on your Yahoo account, you can hand over the whole season in about two minutes. Nothing technical, and no screenshots needed.",
+    "steps": [
+      "Sign in to Yahoo Fantasy Football.",
+      "Go to football.fantasysports.yahoo.com/YEAR/f1/myleagues, swapping YEAR for the year above, and click the league. The number in the address bar is its league ID, and that alone is worth sending.",
+      "Open the Standings page, press Ctrl+S (Cmd+S on a Mac) and choose \"Webpage, HTML Only\". Save it anywhere.",
+      "Do the same on the Draft Results page.",
+      "Email T.J. those two files and the league ID."
+    ],
+    "why": "Those two pages hold the final standings, every record and the whole draft board. Neither contains an email address, so nothing private leaves your account.",
+    "commish": "If you were the commissioner that year, check first whether your commissioner tools still let you set the league to publicly viewable. If they do, flipping that one switch saves you every step above.",
+    "fallback": "Cannot save the pages? Select all on the Standings page, copy, and paste it into the email instead. The numbers survive as text, which is all that is needed."
+  },
   "years": {
     "2009": {
       "season": 2009,
@@ -7,6 +21,7 @@
       "era": "yahoo",
       "league_name_on_yahoo": "FL Players",
       "champion": "brettmn13",
+      "most_wanted": "Five of the ten places are still blank, and so is every score and the entire draft. Any of it helps.",
       "placements": [
         { "place": 1, "h": "brettmn13", "note": "champion" },
         { "place": 2, "h": "J Rock" },
@@ -29,6 +44,7 @@
       "era": "yahoo",
       "league_name_on_yahoo": "FL players",
       "champion": null,
+      "most_wanted": "One answer matters more than everything else here: who won 2011. If you know, that alone closes the oldest open question on this site.",
       "placements": [
         { "place": 2, "h": "RockMNwild" },
         { "place": 3, "h": "brettmn13" },
