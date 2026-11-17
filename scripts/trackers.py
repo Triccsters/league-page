@@ -1066,6 +1066,33 @@ def yahoo_activity(C):
                  ["Team", "Yahoo seasons", "Moves", "Trades", "Busiest season"], rows)]
 
 
+def yahoo_waiver_wars(C):
+    """The contested waivers of the FAAB era, 2014-2020.
+
+    waivers.json holds the winning pickups only, so until yahoo_faab.py read Yahoo's
+    FAB Offers page nothing here knew who ELSE wanted a player, what they bid, or how
+    close they came. 415 claims, every one with at least one rival bid.
+
+    Shown biggest-bid first, with the rival bids beside it, so a $70 win over a $69
+    reads as the near-miss it was.
+    """
+    h = _yahoo_hist(C)
+    rows = []
+    for r in h.get("faab") or []:
+        rivals = [l for l in (r.get("losers") or []) if (l.get("bid") or 0) > 0]
+        if not (r.get("bid") or 0) > 0 and not rivals:
+            continue                      # $0 priority claims are not a bidding war
+        who = T(r["handle"]) if r.get("handle") else r.get("team", "")
+        rows.append([str(r["season"]), r.get("player", ""), "$%s" % r.get("bid"), who,
+                     ", ".join("%s $%s" % (l["team"], l["bid"]) for l in rivals) or "—"])
+    rows.sort(key=lambda x: -int(x[2].lstrip("$") or 0))
+    return [card("waiverwars", "The waiver wars",
+                 "Every contested waiver of the FAAB years, 2014 to 2020, with the losing bids "
+                 "beside the winning one. The waiver page only ever showed who got the player. "
+                 "Nine managers bid on DeAngelo Williams in 2015 and it went for $70 over a $69.",
+                 ["Season", "Player", "Won with", "Went to", "Beaten bids"], rows)]
+
+
 def yahoo_commish(C):
     """Who ran the league, by season.
 
@@ -1136,7 +1163,7 @@ def yahoo_old_trades(C):
 # names_log on in every league (T.J., 2026-10-14: crude names are fine)
 LEAGUE_SPECIALS = {
     "league-page": ["kicker_file", "board_duty", "draft_report", "names_log", "yahoo_vetoes",
-                    "yahoo_activity", "yahoo_rules", "yahoo_old_trades", "yahoo_commish"],
+                    "yahoo_activity", "yahoo_rules", "yahoo_old_trades", "yahoo_commish", "yahoo_waiver_wars"],
     "league-fl-evolution": ["names_log"],
     "league-lets-go-brandon": ["names_log"],
     "league-megalabowl": ["median_misery", "qb_race", "firsts", "names_log"],
@@ -1163,7 +1190,7 @@ def build_trackers(ctx, drafts=None, waivers=None):
     fns = {f.__name__: f for f in (kicker_file, board_duty, draft_report, names_log,
                                      median_misery, qb_race, firsts, trade_drama,
                                      yahoo_vetoes, yahoo_activity, yahoo_rules,
-                                     yahoo_old_trades, yahoo_commish)}
+                                     yahoo_old_trades, yahoo_commish, yahoo_waiver_wars)}
     groups = []
 
     def group(gid, title, intro, make):

@@ -954,8 +954,23 @@ def build_yahoo_history(history, vault_manual):
                               "team": team, "got": players})
         pre.append({"season": season, "when": when, "sides": out_sides})
 
+    # FAB offers: the contested half of every waiver, 2014-2020. waivers.json has only
+    # the winning pickups, so the losing bids were nowhere until yahoo_faab.py read them.
+    faab = []
+    fsrc = read_json(os.path.join(vault_manual, "_yahoo_faab_offers.json"), None) or {}
+    for season, rows in sorted((fsrc.get("seasons") or {}).items()):
+        for r in rows:
+            losers = [{"handle": handle_for(int(season), l["team"]), "team": l["team"],
+                       "bid": l["bid"], "why": l["why"]} for l in (r.get("losers") or [])]
+            wh = handle_for(int(season), r.get("team") or "")
+            faab.append({"season": int(season), "when": r.get("when", ""),
+                         "player": r.get("player", ""), "bid": r.get("bid"),
+                         "handle": wh, "name": real_name(wh) if wh else None,
+                         "team": r.get("team", ""), "losers": losers})
+
     write_json(os.path.join(DATA, "yahoo_history.json"), {
         "activity": activity,
+        "faab": faab,
         "settings": src.get("settings") or {},
         "buyIn": src.get("buyIn") or {},
         "commissioners": [dict(c, name=real_name(c.get("handle")))
@@ -965,7 +980,7 @@ def build_yahoo_history(history, vault_manual):
     })
     msg = (f"{sum(len(v) for v in activity.values())} team-seasons of activity, "
            f"{sum(len(v) for v in (src.get('settings') or {}).values())} settings changes, "
-           f"{len(pre)} pre-2014 trades")
+           f"{len(pre)} pre-2014 trades, {len(faab)} contested waiver claims")
     if collisions:
         msg += " - PAIRING PROBLEM: " + "; ".join(collisions)
     if unresolved:

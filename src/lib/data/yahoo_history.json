@@ -1175,6 +1175,9355 @@
    }
   ]
  },
+ "faab": [
+  {
+   "season": 2014,
+   "when": "Dec 10,4:29 am",
+   "player": "Marquess Wilson",
+   "bid": 10,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 26,5:57 am",
+   "player": "Dan Herron",
+   "bid": 15,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Rocket Power",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 26,5:57 am",
+   "player": "Rams LAR - DEF",
+   "bid": 5,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 26,5:57 am",
+   "player": "Latavius Murray",
+   "bid": 20,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Luckness monsters",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "Team white",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 19,6:57 am",
+   "player": "Packers GB - DEF",
+   "bid": 3,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "White Lighting",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "Team white",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Rocket Power",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 19,6:57 am",
+   "player": "Jonas Gray",
+   "bid": 31,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Luckness monsters",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "12th Man",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Rocket Power",
+     "bid": 17,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Injuries Imminent",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 19,6:57 am",
+   "player": "Kenny Britt",
+   "bid": 0,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Gram city",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 19,6:57 am",
+   "player": "Jason Witten",
+   "bid": 5,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "12th Man",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Injuries Imminent",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 15,5:30 am",
+   "player": "Martellus Bennett",
+   "bid": 8,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "J Rock's Dawgs",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 12,4:53 am",
+   "player": "Caleb Sturgis",
+   "bid": 5,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 12,4:53 am",
+   "player": "Jordan Matthews",
+   "bid": 10,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 12,4:53 am",
+   "player": "C.J. Anderson",
+   "bid": 40,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "12th Man",
+     "bid": 30,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 18,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 12,4:53 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Injuries Imminent",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 5,6:48 am",
+   "player": "Adrian Peterson",
+   "bid": 50,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Patriot Act",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 44,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Rocket Power",
+     "bid": 17,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Injuries Imminent",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 5,6:48 am",
+   "player": "Broncos Den - DEF",
+   "bid": 1,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Nov 5,6:48 am",
+   "player": "Terrance West",
+   "bid": 12,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Rocket Power",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 29,4:26 am",
+   "player": "Chiefs KC - DEF",
+   "bid": 2,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "Team white",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 29,4:26 am",
+   "player": "Andre Williams",
+   "bid": 5,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Patriot Act",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 29,4:26 am",
+   "player": "Lorenzo Taliaferro",
+   "bid": 6,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "White Lighting",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Injuries Imminent",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 29,4:26 am",
+   "player": "Percy Harvin",
+   "bid": 24,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Rocket Power",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 17,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "12th Man",
+     "bid": 14,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 22,4:27 am",
+   "player": "Bryce Brown",
+   "bid": 40,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "White Lighting",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Rocket Power",
+     "bid": 28,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "12th Man",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 15,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 22,4:27 am",
+   "player": "Tre Mason",
+   "bid": 15,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "T.J.R's Team",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 22,4:27 am",
+   "player": "Denard Robinson",
+   "bid": 20,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Injuries Imminent",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Rocket Power",
+     "bid": 17,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 19,4:09 am",
+   "player": "Darren Sproles",
+   "bid": 26,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Gram city",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 26,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 15,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 15,8:36 am",
+   "player": "Malcom Floyd",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 8,4:24 am",
+   "player": "Andre Williams",
+   "bid": 25,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Rocket Power",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 25,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 1,5:34 am",
+   "player": "Eddie Royal",
+   "bid": 5,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "White Lighting",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Oct 1,5:34 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 1,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "White Lighting",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 27,4:37 am",
+   "player": "Jeremy Hill",
+   "bid": 30,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 24,3:48 am",
+   "player": "Lions Det - DEF",
+   "bid": 15,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "12th Man",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Rocket Power",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 24,3:48 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 3,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Injuries Imminent",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 20,3:35 am",
+   "player": "Victor Cruz",
+   "bid": 11,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Gram city",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 17,5:37 am",
+   "player": "Knile Davis",
+   "bid": 51,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "J Rock's Dawgs",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Injuries Imminent",
+     "bid": 50,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "White Lighting",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Luckness monsters",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "12th Man",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 17,5:37 am",
+   "player": "James Jones",
+   "bid": 6,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "J Rock's Dawgs",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 17,5:37 am",
+   "player": "Kirk Cousins",
+   "bid": 15,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "White Lighting",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 15,5:16 am",
+   "player": "Riley Cooper",
+   "bid": 7,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Patriot Act",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Sep 10,3:43 am",
+   "player": "Justin Forsett",
+   "bid": 29,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "12th Man",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Gram city",
+     "bid": 16,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2014,
+   "when": "Aug 27,3:24 am",
+   "player": "Terrance Williams",
+   "bid": 25,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Team white",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "J Rock's Dawgs",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 23,4:06 am",
+   "player": "Christine Michael",
+   "bid": 50,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Soul Power",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 16,6:08 am",
+   "player": "Denard Robinson",
+   "bid": 8,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 16,6:08 am",
+   "player": "Bryce Brown",
+   "bid": 10,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 9,4:14 am",
+   "player": "Richard Rodgers",
+   "bid": 0,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 2,5:58 am",
+   "player": "James Jones",
+   "bid": 7,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 2,5:58 am",
+   "player": "Doug Baldwin",
+   "bid": 7,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Dec 2,5:58 am",
+   "player": "Scott Chandler",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 25,5:40 am",
+   "player": "Javorius Allen",
+   "bid": 50,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 35,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "can I geta witteness",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 23,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 21,4:20 am",
+   "player": "Patriots NE - DEF",
+   "bid": 5,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 18,6:23 am",
+   "player": "Danny Amendola",
+   "bid": 60,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "can I geta witteness",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 40,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 11,4:10 am",
+   "player": "James White",
+   "bid": 19,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Soul Power",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 11,4:10 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "My Time Is Now!",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 4,5:51 am",
+   "player": "Malcom Floyd",
+   "bid": 11,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 4,5:51 am",
+   "player": "DeAngelo Williams",
+   "bid": 70,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 69,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "can I geta witteness",
+     "bid": 60,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 60,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 50,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 43,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 43,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 41,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 4,5:51 am",
+   "player": "Vernon Davis",
+   "bid": 10,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Gronk-087",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Nov 4,5:51 am",
+   "player": "Jeremy Langford",
+   "bid": 60,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Jimmy was Jimmy",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 28,5:13 am",
+   "player": "Chris Polk",
+   "bid": 15,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 28,5:13 am",
+   "player": "Ted Ginn Jr.",
+   "bid": 13,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 21,4:06 am",
+   "player": "Commanders Was - DEF",
+   "bid": 6,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "My Time Is Now!",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 21,4:06 am",
+   "player": "Stefon Diggs",
+   "bid": 16,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "can I geta witteness",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 21,4:06 am",
+   "player": "Josh Lambo",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 17,3:50 am",
+   "player": "Christine Michael",
+   "bid": 63,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 28,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 26,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 14,4:29 am",
+   "player": "Knile Davis",
+   "bid": 12,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Gronk-087",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 14,4:29 am",
+   "player": "Charcandrick West",
+   "bid": 79,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Iowa super troopers",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 63,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 48,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 41,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 40,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 38,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 36,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "can I geta witteness",
+     "bid": 15,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 14,4:29 am",
+   "player": "Brandon LaFell",
+   "bid": 2,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 11,3:39 am",
+   "player": "Willie Snead IV",
+   "bid": 5,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 10,4:06 am",
+   "player": "Gary Barnidge",
+   "bid": 3,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "My Time Is Now!",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 3,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "P.C. Players",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 10,4:06 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 4,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 10,4:06 am",
+   "player": "Alex Smith",
+   "bid": 8,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The James Starks's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 7,5:06 am",
+   "player": "Giants NYG - DEF",
+   "bid": 1,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "My Time Is Now!",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 7,5:06 am",
+   "player": "Willie Snead IV",
+   "bid": 10,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Iowa super troopers",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 9,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Oct 7,5:06 am",
+   "player": "Leonard Hankerson",
+   "bid": 13,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "My Time Is Now!",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 30,4:00 am",
+   "player": "Thomas Rawls",
+   "bid": 14,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Jimmy was Jimmy",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 30,4:00 am",
+   "player": "Charles Clay",
+   "bid": 15,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 30,4:00 am",
+   "player": "Lance Dunbar",
+   "bid": 5,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 30,4:00 am",
+   "player": "Packers GB - DEF",
+   "bid": 8,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Jimmy was Jimmy",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 30,4:00 am",
+   "player": "Marvin Jones Jr.",
+   "bid": 15,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 13,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 23,4:56 am",
+   "player": "James Starks",
+   "bid": 5,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 5,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 23,4:56 am",
+   "player": "Matt Jones",
+   "bid": 40,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Gronk-087",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The James Starks's",
+     "bid": 30,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 22,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "My Time Is Now!",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "can I geta witteness",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 23,4:56 am",
+   "player": "Colin Kaepernick",
+   "bid": 11,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "P.C. Players",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Gronk-087",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 23,4:56 am",
+   "player": "Travis Benjamin",
+   "bid": 25,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "P.C. Players",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Iowa super troopers",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "Dead Dawgs",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 16,5:12 am",
+   "player": "Karlos Williams",
+   "bid": 1,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "JohnsTimeIsNotNow",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 16,5:12 am",
+   "player": "Chris Johnson",
+   "bid": 6,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Soul Power",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Jimmy was Jimmy",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "can I geta witteness",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "JohnsTimeIsNotNow",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 16,5:12 am",
+   "player": "Dion Lewis",
+   "bid": 5,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "Dead Dawgs",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2015,
+   "when": "Sep 8,3:29 am",
+   "player": "Tyler Eifert",
+   "bid": 2,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Iowa super troopers",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Soul Power",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Dec 7,3:40 am",
+   "player": "Ladarius Green",
+   "bid": 27,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Dec 7,3:40 am",
+   "player": "Falcons Atl - DEF",
+   "bid": 10,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "Blame the hamms",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Dec 3,3:48 am",
+   "player": "C.J. Fiedorowicz",
+   "bid": 1,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 30,4:42 am",
+   "player": "Colin Kaepernick",
+   "bid": 7,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "My team Sux ass",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 30,4:42 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 2,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 23,3:45 am",
+   "player": "Zach Ertz",
+   "bid": 4,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 23,3:45 am",
+   "player": "Tyler Boyd",
+   "bid": 14,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cooking with Julian",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 23,3:45 am",
+   "player": "Wendell Smallwood",
+   "bid": 17,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cooking with Julian",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "Blame the hamms",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 23,3:45 am",
+   "player": "Sammy Watkins",
+   "bid": 15,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Insert Carrappy pun",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 15,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 15,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "Blame the hamms",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 16,4:31 am",
+   "player": "Dolphins Mia - DEF",
+   "bid": 7,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 12,4:35 am",
+   "player": "Peyton Barber",
+   "bid": 4,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cooking with Julian",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "My team Sux ass",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 12,4:35 am",
+   "player": "Rams LAR - DEF",
+   "bid": 5,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cooking with Julian",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 9,4:17 am",
+   "player": "J.J. Nelson",
+   "bid": 6,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 6,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 9,4:17 am",
+   "player": "Rob Kelley",
+   "bid": 24,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "InstaGraham",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 15,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 9,4:17 am",
+   "player": "Cardinals Ari - DEF",
+   "bid": 33,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "InstaGraham",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 9,4:17 am",
+   "player": "Cameron Meredith",
+   "bid": 10,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Insert Carrappy pun",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 10,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 5,5:41 am",
+   "player": "Dan Bailey",
+   "bid": 2,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "The Buster",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 2,3:47 am",
+   "player": "Falcons Atl - DEF",
+   "bid": 1,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 2,3:47 am",
+   "player": "Charcandrick West",
+   "bid": 27,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "$100 and done",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "J Rock",
+     "team": "My team Sux ass",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 2,3:47 am",
+   "player": "Antone Smith",
+   "bid": 10,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "InstaGraham",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Nov 2,3:47 am",
+   "player": "Tim Hightower",
+   "bid": 29,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 26,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 29,3:37 am",
+   "player": "DeAndre Washington",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Insert Carrappy pun",
+   "losers": [
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 26,4:55 am",
+   "player": "Chris Thompson",
+   "bid": 19,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 18,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 26,4:55 am",
+   "player": "Titans Ten - DEF",
+   "bid": 2,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 19,5:09 am",
+   "player": "Knile Davis",
+   "bid": 15,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 19,5:09 am",
+   "player": "Kenny Britt",
+   "bid": 10,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 19,5:09 am",
+   "player": "Hunter Henry",
+   "bid": 13,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "$100 and done",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 19,5:09 am",
+   "player": "Ty Montgomery II",
+   "bid": 13,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "The Buster",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 15,3:35 am",
+   "player": "Bills Buf - DEF",
+   "bid": 5,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "My team Sux ass",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "Blame the hamms",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 12,4:47 am",
+   "player": "Titans Ten - DEF",
+   "bid": 2,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "My team Sux ass",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 5,4:57 am",
+   "player": "Eddie Royal",
+   "bid": 10,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 5,4:57 am",
+   "player": "Zach Ertz",
+   "bid": 19,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "InstaGraham",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 5,4:57 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 2,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 5,4:57 am",
+   "player": "Carson Wentz",
+   "bid": 15,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "My team Sux ass",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 1,3:37 am",
+   "player": "Cole Beasley",
+   "bid": 2,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "$100 and done",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Oct 1,3:37 am",
+   "player": "Michael Thomas",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Insert Carrappy pun",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Terrelle Pryor Sr.",
+   "bid": 16,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "The Buster",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "My team Sux ass",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cooking with Julian",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "The Absolute Madman",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Darren Sproles",
+   "bid": 10,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "My team Sux ass",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Commanders Was - DEF",
+   "bid": 1,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Orleans Darkwa",
+   "bid": 25,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "Blame the hamms",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Kenneth Dixon",
+   "bid": 11,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "The Buster",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Duke Johnson",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Dwayne Washington",
+   "bid": 19,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cooking with Julian",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "The Buzz Aldrin's",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 28,3:52 am",
+   "player": "Kirk Cousins",
+   "bid": 7,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "$100 and done",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 24,3:38 am",
+   "player": "Matt Ryan",
+   "bid": 4,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 21,3:47 am",
+   "player": "Fozzy Whittaker",
+   "bid": 10,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "My team Sux ass",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 10,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 21,3:47 am",
+   "player": "Phillip Dorsett",
+   "bid": 5,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 21,3:47 am",
+   "player": "Jerick McKinnon",
+   "bid": 25,
+   "handle": "J Rock",
+   "name": "J Rock",
+   "team": "My team Sux ass",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "The Buster",
+     "bid": 18,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 21,3:47 am",
+   "player": "Matt Asiata",
+   "bid": 18,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "The Buster",
+   "losers": [
+    {
+     "handle": "J Rock",
+     "team": "My team Sux ass",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "InstaGraham",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 21,3:47 am",
+   "player": "Dolphins Mia - DEF",
+   "bid": 3,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "The Buzz Aldrin's",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 14,3:49 am",
+   "player": "Patriots NE - DEF",
+   "bid": 5,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "InstaGraham",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 14,3:49 am",
+   "player": "Theo Riddick",
+   "bid": 3,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cooking with Julian",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Sep 14,3:49 am",
+   "player": "Eric Ebron",
+   "bid": 10,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "$100 and done",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Willy Gronka",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2016,
+   "when": "Aug 31,3:24 am",
+   "player": "Jameis Winston",
+   "bid": 1,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Willy Gronka",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Insert Carrappy pun",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 20,3:44 am",
+   "player": "Eric Ebron",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 20,3:44 am",
+   "player": "Keelan Cole Sr.",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 13,3:36 am",
+   "player": "Case Keenum",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 13,3:36 am",
+   "player": "Blake Bortles",
+   "bid": 0,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 13,3:36 am",
+   "player": "Peyton Barber",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 13,3:36 am",
+   "player": "Dede Westbrook",
+   "bid": 1,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 6,3:30 am",
+   "player": "Peyton Barber",
+   "bid": 7,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 6,3:30 am",
+   "player": "Giovani Bernard",
+   "bid": 40,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Dec 6,3:30 am",
+   "player": "C.J. Anderson",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 29,3:57 am",
+   "player": "Mike Davis",
+   "bid": 31,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 22,3:32 am",
+   "player": "Ben Roethlisberger",
+   "bid": 10,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 22,3:32 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 22,3:32 am",
+   "player": "Corey Coleman",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 22,3:32 am",
+   "player": "Kenny Stills",
+   "bid": 3,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 18,3:23 am",
+   "player": "Vernon Davis",
+   "bid": 1,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 15,3:50 am",
+   "player": "Austin Ekeler",
+   "bid": 12,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 15,3:50 am",
+   "player": "Jake Elliott",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 15,3:50 am",
+   "player": "Samaje Perine",
+   "bid": 31,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 15,3:50 am",
+   "player": "Jamaal Williams",
+   "bid": 31,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 15,3:50 am",
+   "player": "Harrison Butker",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Bears Chi - DEF",
+   "bid": 0,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Thomas Rawls",
+   "bid": 16,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Mohamed Sanu",
+   "bid": 1,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Kai Forbath",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Panthers Car - DEF",
+   "bid": 3,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "PapaMidnight",
+     "team": "Call Me Brady",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Marqise Lee",
+   "bid": 10,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 8,4:13 am",
+   "player": "Chris Boswell",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 1,3:45 am",
+   "player": "Paul Richardson",
+   "bid": 13,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 1,3:45 am",
+   "player": "Jamison Crowder",
+   "bid": 5,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 1,3:45 am",
+   "player": "Danny Woodhead",
+   "bid": 2,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 1,3:45 am",
+   "player": "Damien Williams",
+   "bid": 5,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 5,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Nov 1,3:45 am",
+   "player": "Kenyan Drake",
+   "bid": 17,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 25,3:51 am",
+   "player": "DeAndre Washington",
+   "bid": 0,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 25,3:51 am",
+   "player": "Jalen Richard",
+   "bid": 0,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 25,3:51 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 4,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 25,3:51 am",
+   "player": "Kai Forbath",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 25,3:51 am",
+   "player": "Bengals Cin - DEF",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 25,3:51 am",
+   "player": "Kenny Stills",
+   "bid": 7,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 18,3:41 am",
+   "player": "Orleans Darkwa",
+   "bid": 20,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 17,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 18,3:41 am",
+   "player": "Dion Lewis",
+   "bid": 4,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 14,3:26 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 4,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 14,3:26 am",
+   "player": "Carson Palmer",
+   "bid": 2,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 11,3:44 am",
+   "player": "Jaguars Jax - DEF",
+   "bid": 4,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 4,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 11,3:44 am",
+   "player": "Adrian Peterson",
+   "bid": 30,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 11,3:44 am",
+   "player": "Falcons Atl - DEF",
+   "bid": 2,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 11,3:44 am",
+   "player": "JuJu Smith-Schuster",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 11,3:44 am",
+   "player": "Nelson Agholor",
+   "bid": 6,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 11,3:44 am",
+   "player": "Carson Wentz",
+   "bid": 6,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Jaron Brown",
+   "bid": 4,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Thomas Rawls",
+   "bid": 27,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 18,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Latavius Murray",
+   "bid": 44,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 40,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 40,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 30,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 27,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Eli Manning",
+   "bid": 2,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Aaron Jones Sr.",
+   "bid": 9,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Andre Ellington",
+   "bid": 15,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Devin Funchess",
+   "bid": 8,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "Younghoe Kick Squad",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Oct 4,4:24 am",
+   "player": "Wayne Gallman",
+   "bid": 17,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 27,3:35 am",
+   "player": "Jaguars Jax - DEF",
+   "bid": 5,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 27,3:35 am",
+   "player": "Bilal Powell",
+   "bid": 3,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Savage AF",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 27,3:35 am",
+   "player": "Sterling Shepard",
+   "bid": 7,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 27,3:35 am",
+   "player": "Wendell Smallwood",
+   "bid": 23,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Replacements",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 20,3:37 am",
+   "player": "Dolphins Mia - DEF",
+   "bid": 2,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 16,3:24 am",
+   "player": "Alvin Kamara",
+   "bid": 5,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 16,3:24 am",
+   "player": "Duke Johnson",
+   "bid": 2,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 13,3:48 am",
+   "player": "Kenny Golladay",
+   "bid": 14,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Cool Runnings",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 13,3:48 am",
+   "player": "Javorius Allen",
+   "bid": 21,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "White-Balled",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Savage AF",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 13,3:48 am",
+   "player": "Cooper Kupp",
+   "bid": 5,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Jaywatch",
+   "losers": [
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 13,3:48 am",
+   "player": "Tarik Cohen",
+   "bid": 41,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Light it up",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 33,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "Scott's Team",
+     "bid": 31,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Cool Runnings",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Jaywatch",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Tyler",
+     "team": "Younghoe Kick Squad",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 13,3:48 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 5,
+   "handle": "Tyler",
+   "name": "Tyler",
+   "team": "Younghoe Kick Squad",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "La Cabra",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Sep 13,3:48 am",
+   "player": "Kerwynn Williams",
+   "bid": 21,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "Scott's Team",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "White-Balled",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Mr. Brightside",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2017,
+   "when": "Aug 30,3:21 am",
+   "player": "Jamaal Charles",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "La Cabra",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Light it up",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Replacements",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Dec 19,3:51 am",
+   "player": "Dolphins Mia - DEF",
+   "bid": 14,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Dec 19,3:51 am",
+   "player": "Jamaal Williams",
+   "bid": 4,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Dec 12,4:16 am",
+   "player": "Derrick Henry",
+   "bid": 22,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Dec 8,3:31 am",
+   "player": "LeGarrette Blount",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Dec 5,4:07 am",
+   "player": "Jeff Wilson Jr.",
+   "bid": 35,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Fresh Cakes",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Disappointments",
+     "bid": 15,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 28,3:36 am",
+   "player": "Randall Cobb",
+   "bid": 2,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Coo Coo Kachooo!!!!",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 28,3:36 am",
+   "player": "Broncos Den - DEF",
+   "bid": 5,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 28,3:36 am",
+   "player": "Dolphins Mia - DEF",
+   "bid": 4,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Disappointments",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 21,3:41 am",
+   "player": "Jake Elliott",
+   "bid": 0,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 21,3:41 am",
+   "player": "C.J. Uzomah",
+   "bid": 8,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 21,3:41 am",
+   "player": "Cameron Brate",
+   "bid": 15,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 21,3:41 am",
+   "player": "Gus Edwards",
+   "bid": 15,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 11,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 14,4:32 am",
+   "player": "Rashaad Penny",
+   "bid": 20,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 14,4:32 am",
+   "player": "Cardinals Ari - DEF",
+   "bid": 5,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 14,4:32 am",
+   "player": "Anthony Miller",
+   "bid": 10,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Fresh Cakes",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 14,4:32 am",
+   "player": "Dak Prescott",
+   "bid": 3,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 14,4:32 am",
+   "player": "Josh Reynolds",
+   "bid": 3,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 7,3:59 am",
+   "player": "Marquez Valdes-Scantling",
+   "bid": 27,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Coo Coo Kachooo!!!!",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 22,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 7,3:59 am",
+   "player": "Duke Johnson",
+   "bid": 15,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Nov 7,3:59 am",
+   "player": "Chris Godwin Jr.",
+   "bid": 7,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 31,3:52 am",
+   "player": "Ryan Fitzpatrick",
+   "bid": 2,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 31,3:52 am",
+   "player": "Wil Lutz",
+   "bid": 0,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 31,3:52 am",
+   "player": "DJ Moore",
+   "bid": 7,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 7,
+     "why": "Invalid claim due to previous transaction"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 7,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 31,3:52 am",
+   "player": "Keke Coutee",
+   "bid": 11,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Disappointments",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 31,3:52 am",
+   "player": "Vance McDonald",
+   "bid": 5,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Coo Coo Kachooo!!!!",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 31,3:52 am",
+   "player": "Larry Fitzgerald",
+   "bid": 17,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 13,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 27,3:19 am",
+   "player": "Geronimo Allison",
+   "bid": 16,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 24,3:43 am",
+   "player": "Patriots NE - DEF",
+   "bid": 9,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Disappointments",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 24,3:43 am",
+   "player": "Amari Cooper",
+   "bid": 16,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 24,3:43 am",
+   "player": "Texans Hou - DEF",
+   "bid": 2,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 24,3:43 am",
+   "player": "Kenjon Barner",
+   "bid": 30,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 20,3:20 am",
+   "player": "Jameis Winston",
+   "bid": 2,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 20,3:20 am",
+   "player": "Chris Godwin Jr.",
+   "bid": 7,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Wil Lutz",
+   "bid": 7,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Broncos Den - DEF",
+   "bid": 5,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "O.J. Howard",
+   "bid": 8,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Marlon Mack",
+   "bid": 23,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Disappointments",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 11,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Joe Flacco",
+   "bid": 3,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Colts Ind - DEF",
+   "bid": 7,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Peyton Barber",
+   "bid": 15,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 15,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 9,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 17,3:39 am",
+   "player": "Taylor Gabriel",
+   "bid": 9,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 13,3:21 am",
+   "player": "Ben Roethlisberger",
+   "bid": 1,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 11,3:13 am",
+   "player": "Quincy Enunwa",
+   "bid": 7,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "Greg Zuerlein",
+   "bid": 1,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Coo Coo Kachooo!!!!",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "C.J. Uzomah",
+   "bid": 3,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "Wendell Smallwood",
+   "bid": 36,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Fresh Cakes",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 30,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Disappointments",
+     "bid": 13,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "Keke Coutee",
+   "bid": 7,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "D'Onta Foreman",
+   "bid": 1,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "Jameis Winston",
+   "bid": 6,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 10,3:37 am",
+   "player": "Baker Mayfield",
+   "bid": 3,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 3,3:39 am",
+   "player": "Broncos Den - DEF",
+   "bid": 3,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Disappointments",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 3,3:39 am",
+   "player": "Panthers Car - DEF",
+   "bid": 7,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 7,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Oct 3,3:39 am",
+   "player": "Vance McDonald",
+   "bid": 12,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 29,3:20 am",
+   "player": "Corey Davis",
+   "bid": 1,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Coo Coo Kachooo!!!!",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 26,3:39 am",
+   "player": "Seahawks Sea - DEF",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 26,3:39 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 14,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "The Disappointments",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 26,3:39 am",
+   "player": "Harrison Butker",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 19,3:40 am",
+   "player": "Browns Cle - DEF",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 19,3:40 am",
+   "player": "Ryan Fitzpatrick",
+   "bid": 4,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 19,3:40 am",
+   "player": "Dan Bailey",
+   "bid": 10,
+   "handle": "PapaMidnight",
+   "name": "Mikey",
+   "team": "OBJYN",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Coo Coo Kachooo!!!!",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 15,3:24 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 4,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Quincy Enunwa",
+   "bid": 7,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Mean Machine",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 7,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Jared Cook",
+   "bid": 15,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Phillip Dorsett",
+   "bid": 3,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Rock the boat",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Texans Hou - DEF",
+   "bid": 4,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Phillip Lindsay",
+   "bid": 15,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Mean Machine",
+     "bid": 15,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 14,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 11,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Ryan Grant",
+   "bid": 2,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Dutch Van Der Linde",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 12,3:43 am",
+   "player": "Brandon Marshall",
+   "bid": 5,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "The Disappointments",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Dutch Van Der Linde",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 8,3:19 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Trust Issues",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Chum Bucket",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2018,
+   "when": "Sep 5,3:12 am",
+   "player": "James Conner",
+   "bid": 7,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Chum Bucket",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Trust Issues",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Rock the boat",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Dec 18,3:38 am",
+   "player": "Mike Boone",
+   "bid": 1,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Dec 18,3:38 am",
+   "player": "Breshad Perriman",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Just Sad",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Dec 14,3:27 am",
+   "player": "Will Fuller V",
+   "bid": 26,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Fresh Cakes",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Dec 11,3:58 am",
+   "player": "Seahawks Sea - DEF",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Dec 4,3:48 am",
+   "player": "Raheem Mostert",
+   "bid": 2,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 27,4:37 am",
+   "player": "Benny Snell Jr.",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 27,4:37 am",
+   "player": "Panthers Car - DEF",
+   "bid": 0,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 27,4:37 am",
+   "player": "Latavius Murray",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 27,4:37 am",
+   "player": "Jets NYJ - DEF",
+   "bid": 12,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Ramen noodles",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Jacob Hollister",
+   "bid": 3,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Jaylen Samuels",
+   "bid": 15,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Jonathan Williams",
+   "bid": 24,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Nyheim Miller-Hines",
+   "bid": 10,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Younghoe Koo",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Bo Scarbrough",
+   "bid": 15,
+   "handle": "PapaMidnight",
+   "name": "Mikey",
+   "team": "Baby Got Dak",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 20,6:03 am",
+   "player": "Baker Mayfield",
+   "bid": 0,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 16,3:29 am",
+   "player": "Cowboys Dal - DEF",
+   "bid": 1,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 13,3:59 am",
+   "player": "Nick Folk",
+   "bid": 11,
+   "handle": "PapaMidnight",
+   "name": "Mikey",
+   "team": "Baby Got Dak",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 13,3:59 am",
+   "player": "Raiders LV - DEF",
+   "bid": 3,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Ramen noodles",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 13,3:59 am",
+   "player": "J.D. McKissic",
+   "bid": 7,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 13,3:59 am",
+   "player": "Brian Hill",
+   "bid": 27,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 6,4:07 am",
+   "player": "Wil Lutz",
+   "bid": 2,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 6,4:07 am",
+   "player": "Kalen Ballage",
+   "bid": 11,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 6,4:07 am",
+   "player": "Greg Zuerlein",
+   "bid": 2,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "I Fart Dutch RUDDER",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 6,4:07 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 3,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Nov 6,4:07 am",
+   "player": "Josh Gordon",
+   "bid": 5,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Just Sad",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 30,4:05 am",
+   "player": "Jordan Howard",
+   "bid": 18,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 14,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 14,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 23,4:08 am",
+   "player": "A.J. Brown",
+   "bid": 8,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 23,4:08 am",
+   "player": "Ty Johnson",
+   "bid": 51,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 37,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Fresh Cakes",
+     "bid": 26,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 23,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 11,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 23,4:08 am",
+   "player": "Matthew Stafford",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Lizard King",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 23,4:08 am",
+   "player": "Kenny Stills",
+   "bid": 26,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 10,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 16,4:02 am",
+   "player": "Josh Allen",
+   "bid": 16,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Ramen noodles",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 16,4:02 am",
+   "player": "Mark Walton",
+   "bid": 16,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 14,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 16,4:02 am",
+   "player": "Saints NO - DEF",
+   "bid": 4,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Gerald Everett",
+   "bid": 15,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Jon Hilliman",
+   "bid": 7,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Chase Edmonds",
+   "bid": 8,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 8,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Chris Herndon",
+   "bid": 20,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "I Fart Dutch RUDDER",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Mohamed Sanu",
+   "bid": 4,
+   "handle": "PapaMidnight",
+   "name": "Mikey",
+   "team": "Baby Got Dak",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 8,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 3,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 9,3:58 am",
+   "player": "Cowboys Dal - DEF",
+   "bid": 3,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Ramen noodles",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 2,3:55 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 8,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 2,3:55 am",
+   "player": "Diontae Johnson",
+   "bid": 10,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Oct 2,3:55 am",
+   "player": "Jordan Howard",
+   "bid": 18,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 29,3:20 am",
+   "player": "Alexander Mattison",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Lizard King",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 25,4:10 am",
+   "player": "Phillip Dorsett",
+   "bid": 13,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "Macho Men",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "PapaMidnight",
+     "team": "Baby Got Dak",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 25,4:10 am",
+   "player": "Darrel Williams",
+   "bid": 10,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 25,4:10 am",
+   "player": "Ravens Bal - DEF",
+   "bid": 8,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 25,4:10 am",
+   "player": "Wayne Gallman",
+   "bid": 59,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Lizard King",
+   "losers": [
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 30,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 30,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "Frank Gore",
+   "bid": 6,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "I Fart Dutch RUDDER",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "Josh Allen",
+   "bid": 5,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Fresh Cakes",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 5,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "DJ Chark",
+   "bid": 3,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "I Fart Dutch RUDDER",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 4,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "Lizard King",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "Marvin Jones Jr.",
+   "bid": 6,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "I Fart Dutch RUDDER",
+   "losers": [
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 6,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "Deebo Samuel Sr.",
+   "bid": 5,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Dead bloomers",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 2,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 18,4:16 am",
+   "player": "Demarcus Robinson",
+   "bid": 32,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Ramen noodles",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 26,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "I Fart Dutch RUDDER",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "PapaMidnight",
+     "team": "Baby Got Dak",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "Lizard King",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 11,4:19 am",
+   "player": "Adrian Peterson",
+   "bid": 6,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Ramen noodles",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "I Fart Dutch RUDDER",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 11,4:19 am",
+   "player": "Terry McLaurin",
+   "bid": 10,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 6,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 11,4:19 am",
+   "player": "Panthers Car - DEF",
+   "bid": 4,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Quadfather",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Just Sad",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 11,4:19 am",
+   "player": "Hollywood Brown",
+   "bid": 31,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Just Sad",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Quadfather",
+     "bid": 15,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Dead bloomers",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "Macho Men",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 7,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2019,
+   "when": "Sep 4,3:25 am",
+   "player": "Seahawks Sea - DEF",
+   "bid": 2,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "I Fart Dutch RUDDER",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Ramen noodles",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 23,4:09 am",
+   "player": "Salvon Ahmed",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Jbird531",
+     "team": "Waller Walkers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 16,3:46 am",
+   "player": "Browns Cle - DEF",
+   "bid": 0,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Waller Walkers",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 16,3:46 am",
+   "player": "Titans Ten - DEF",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 16,3:46 am",
+   "player": "Colts Ind - DEF",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 10,4:05 am",
+   "player": "Buccaneers TB - DEF",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 10,4:05 am",
+   "player": "Ty Johnson",
+   "bid": 49,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Waller Walkers",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 9,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 10,4:05 am",
+   "player": "Jalen Hurts",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 5,3:38 am",
+   "player": "Benny Snell Jr.",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 4,4:13 am",
+   "player": "Raiders LV - DEF",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 4,4:13 am",
+   "player": "Keke Coutee",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 4,4:13 am",
+   "player": "Cam Akers",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 4,4:13 am",
+   "player": "Carlos Hyde",
+   "bid": 34,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Fuck chowbox",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 4,4:13 am",
+   "player": "Chiefs KC - DEF",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Dec 4,4:13 am",
+   "player": "Bills Buf - DEF",
+   "bid": 2,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 25,4:01 am",
+   "player": "Taysom Hill",
+   "bid": 0,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 25,4:01 am",
+   "player": "Austin Hooper",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 18,4:13 am",
+   "player": "Browns Cle - DEF",
+   "bid": 1,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 18,4:13 am",
+   "player": "Vikings Min - DEF",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 18,4:13 am",
+   "player": "Kalen Ballage",
+   "bid": 13,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 18,4:13 am",
+   "player": "Michael Pittman Jr.",
+   "bid": 3,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 18,4:13 am",
+   "player": "Nyheim Miller-Hines",
+   "bid": 20,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 18,4:13 am",
+   "player": "Malcolm Brown",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 14,3:31 am",
+   "player": "Jalen Reagor",
+   "bid": 0,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 13,3:21 am",
+   "player": "J.K. Dobbins",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 11,5:40 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 0,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 11,5:40 am",
+   "player": "Jared Goff",
+   "bid": 9,
+   "handle": "PapaMidnight",
+   "name": "Mikey",
+   "team": "NotLast",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 11,5:40 am",
+   "player": "Packers GB - DEF",
+   "bid": 0,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 11,5:40 am",
+   "player": "Jimmy Graham",
+   "bid": 2,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 11,5:40 am",
+   "player": "Curtis Samuel",
+   "bid": 0,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 11,5:40 am",
+   "player": "Saints NO - DEF",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 7,3:30 am",
+   "player": "Colts Ind - DEF",
+   "bid": 4,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 7,3:30 am",
+   "player": "Jerry Jeudy",
+   "bid": 9,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 4,4:18 am",
+   "player": "Nyheim Miller-Hines",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 4,4:18 am",
+   "player": "Younghoe Koo",
+   "bid": 5,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 4,4:18 am",
+   "player": "Tyler Ervin",
+   "bid": 9,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 7,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Nov 4,4:18 am",
+   "player": "Matt Breida",
+   "bid": 7,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 31,3:39 am",
+   "player": "Carlos Hyde",
+   "bid": 6,
+   "handle": "snelson91",
+   "name": "Scott",
+   "team": "What The Buck",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 31,3:39 am",
+   "player": "Wil Lutz",
+   "bid": 0,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 28,4:29 am",
+   "player": "Rashard Higgins",
+   "bid": 15,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 28,4:29 am",
+   "player": "Nelson Agholor",
+   "bid": 2,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 28,4:29 am",
+   "player": "Colts Ind - DEF",
+   "bid": 2,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 21,4:16 am",
+   "player": "Matt Prater",
+   "bid": 0,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 21,4:16 am",
+   "player": "Eagles Phi - DEF",
+   "bid": 5,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 21,4:16 am",
+   "player": "Buccaneers TB - DEF",
+   "bid": 5,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Fuck chowbox",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 21,4:16 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 1,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 1,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 21,4:16 am",
+   "player": "JaMycal Hasty",
+   "bid": 3,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 21,4:16 am",
+   "player": "Boston Scott",
+   "bid": 17,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "butterygoop",
+     "team": "Fuck chowbox",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 15,5:47 am",
+   "player": "Travis Fulgham",
+   "bid": 5,
+   "handle": "thecreamer",
+   "name": "Nase",
+   "team": "The Chowbox",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 15,5:47 am",
+   "player": "Jason Sanders",
+   "bid": 0,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 15,5:47 am",
+   "player": "Dolphins Mia - DEF",
+   "bid": 2,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 15,5:47 am",
+   "player": "Mike Williams",
+   "bid": 12,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 15,5:47 am",
+   "player": "Chase Claypool",
+   "bid": 51,
+   "handle": "Jbird531",
+   "name": "Joey",
+   "team": "Waller Walkers",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 31,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 31,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 7,4:26 am",
+   "player": "D'Ernest Johnson",
+   "bid": 26,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 7,4:26 am",
+   "player": "Justin Jackson",
+   "bid": 18,
+   "handle": "PapaMidnight",
+   "name": "Mikey",
+   "team": "NotLast",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 10,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 4,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 7,4:26 am",
+   "player": "Cardinals Ari - DEF",
+   "bid": 6,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Oct 7,4:26 am",
+   "player": "Randy Bullock",
+   "bid": 0,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 0,
+     "why": "Lower waiver priority"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 30,4:22 am",
+   "player": "Justin Jefferson",
+   "bid": 35,
+   "handle": "triccster",
+   "name": "T.J.",
+   "team": "Kareem Punt",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 34,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 22,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 11,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 30,4:22 am",
+   "player": "Broncos Den - DEF",
+   "bid": 2,
+   "handle": "Colt45Johnson",
+   "name": "Colt",
+   "team": "Hurst Don’t It",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 1,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 30,4:22 am",
+   "player": "Seahawks Sea - DEF",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 30,4:22 am",
+   "player": "Rex Burkhead",
+   "bid": 18,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 30,4:22 am",
+   "player": "Myles Gaskin",
+   "bid": 26,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "TuanonStan",
+     "team": "Christian Mingle",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 4,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 26,3:33 am",
+   "player": "N'Keal Harry",
+   "bid": 5,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 23,4:51 am",
+   "player": "Mike Davis",
+   "bid": 37,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 11,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 23,4:51 am",
+   "player": "Jerick McKinnon",
+   "bid": 31,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "thecreamer",
+     "team": "The Chowbox",
+     "bid": 25,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 19,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 13,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 11,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Fuck chowbox",
+     "bid": 9,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 23,4:51 am",
+   "player": "Devonta Freeman",
+   "bid": 33,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 33,
+     "why": "Invalid claim due to previous transaction"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Fuck chowbox",
+     "bid": 20,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 18,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 23,4:51 am",
+   "player": "Joshua Kelley",
+   "bid": 25,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 22,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 21,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Fuck chowbox",
+     "bid": 8,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 23,4:51 am",
+   "player": "Chargers LAC - DEF",
+   "bid": 1,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 1,
+     "why": "Invalid claim due to previous transaction"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 23,4:51 am",
+   "player": "Colts Ind - DEF",
+   "bid": 5,
+   "handle": "RockMNwild",
+   "name": "Austin",
+   "team": "Not Blankenships",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 2,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 0,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 16,4:36 am",
+   "player": "Benny Snell Jr.",
+   "bid": 17,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 12,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Fuck chowbox",
+     "bid": 8,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "triccster",
+     "team": "Kareem Punt",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 16,4:36 am",
+   "player": "Marquez Valdes-Scantling",
+   "bid": 5,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Fuck chowbox",
+   "losers": [
+    {
+     "handle": "snelson91",
+     "team": "What The Buck",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 16,4:36 am",
+   "player": "Dallas Goedert",
+   "bid": 25,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "Colt45Johnson",
+     "team": "Hurst Don’t It",
+     "bid": 5,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 16,4:36 am",
+   "player": "Joshua Kelley",
+   "bid": 6,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 16,4:36 am",
+   "player": "Cardinals Ari - DEF",
+   "bid": 4,
+   "handle": "brettmn13",
+   "name": "Brett",
+   "team": "Blazing Cow's",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 3,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 16,4:36 am",
+   "player": "Malcolm Brown",
+   "bid": 25,
+   "handle": "TuanonStan",
+   "name": "James",
+   "team": "Christian Mingle",
+   "losers": [
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 16,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 13,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "butterygoop",
+     "team": "Fuck chowbox",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 5,3:11 am",
+   "player": "Allen Lazard",
+   "bid": 5,
+   "handle": "Wallner",
+   "name": "John",
+   "team": "FL Spoilers",
+   "losers": [
+    {
+     "handle": "Jbird531",
+     "team": "Waller Walkers",
+     "bid": 1,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 2,3:11 am",
+   "player": "Chris Thompson",
+   "bid": 14,
+   "handle": "YoungBuck04",
+   "name": "Buckley",
+   "team": "We Ain’t Dem Boys",
+   "losers": [
+    {
+     "handle": "RockMNwild",
+     "team": "Not Blankenships",
+     "bid": 6,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "Wallner",
+     "team": "FL Spoilers",
+     "bid": 5,
+     "why": "Lower Offer"
+    }
+   ]
+  },
+  {
+   "season": 2020,
+   "when": "Sep 2,3:11 am",
+   "player": "Ryquell Armstead",
+   "bid": 51,
+   "handle": "butterygoop",
+   "name": "Anthony",
+   "team": "Fuck chowbox",
+   "losers": [
+    {
+     "handle": "YoungBuck04",
+     "team": "We Ain’t Dem Boys",
+     "bid": 13,
+     "why": "Lower Offer"
+    },
+    {
+     "handle": "brettmn13",
+     "team": "Blazing Cow's",
+     "bid": 13,
+     "why": "Lower Offer"
+    }
+   ]
+  }
+ ],
  "settings": {
   "2008": [
    {

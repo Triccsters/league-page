@@ -1353,7 +1353,7 @@
        "@@Colt45Johnson",
        2,
        20.6,
-       "Jaylen Waddle, D'Andre Swift"
+       "D'Andre Swift, Jaylen Waddle"
       ],
       [
        10,
@@ -1367,7 +1367,7 @@
        "@@snelson91",
        3,
        27.2,
-       "Seattle Seahawks, Kyren Williams, Matthew Golden"
+       "Matthew Golden, Seattle Seahawks, Kyren Williams"
       ],
       [
        11,
@@ -1388,21 +1388,21 @@
        "@@Jbird531",
        2,
        22.7,
-       "Jaxon Smith-Njigba, Andre Szmyt"
+       "Andre Szmyt, Jaxon Smith-Njigba"
       ],
       [
        11,
        "@@thecreamer",
        3,
        20.2,
-       "Cleveland Browns, Quinshon Judkins, Harold Fannin Jr."
+       "Harold Fannin Jr., Cleveland Browns, Quinshon Judkins"
       ],
       [
        13,
        "@@Wallner",
        2,
        15.8,
-       "Spencer Shrader, Ashton Jeanty"
+       "Ashton Jeanty, Spencer Shrader"
       ],
       [
        13,
@@ -2295,6 +2295,2512 @@
        "2014 to 2020",
        7,
        "every Yahoo season from 2014"
+      ]
+     ]
+    },
+    {
+     "id": "waiverwars",
+     "title": "The waiver wars",
+     "note": "Every contested waiver of the FAAB years, 2014 to 2020, with the losing bids beside the winning one. The waiver page only ever showed who got the player. Nine managers bid on DeAngelo Williams in 2015 and it went for $70 over a $69.",
+     "cols": [
+      "Season",
+      "Player",
+      "Won with",
+      "Went to",
+      "Beaten bids"
+     ],
+     "rows": [
+      [
+       "2015",
+       "Charcandrick West",
+       "$79",
+       "@@RockMNwild",
+       "JohnsTimeIsNotNow $63, Jimmy was Jimmy $48, Scott's Team $41, Gronk-087 $40, The James Starks's $38, My Time Is Now! $36, can I geta witteness $15"
+      ],
+      [
+       "2015",
+       "DeAngelo Williams",
+       "$70",
+       "@@snelson91",
+       "Soul Power $69, can I geta witteness $60, Jimmy was Jimmy $60, The James Starks's $50, Gronk-087 $43, My Time Is Now! $43, Dead Dawgs $41, JohnsTimeIsNotNow $11"
+      ],
+      [
+       "2015",
+       "Christine Michael",
+       "$63",
+       "@@YoungBuck04",
+       "Jimmy was Jimmy $28, My Time Is Now! $26"
+      ],
+      [
+       "2015",
+       "Danny Amendola",
+       "$60",
+       "@@triccster",
+       "The James Starks's $40, Gronk-087 $21, Dead Dawgs $5"
+      ],
+      [
+       "2015",
+       "Jeremy Langford",
+       "$60",
+       "@@brettmn13",
+       "Gronk-087 $20, JohnsTimeIsNotNow $11, Soul Power $5"
+      ],
+      [
+       "2019",
+       "Wayne Gallman",
+       "$59",
+       "@@YoungBuck04",
+       "Kareem Punt $30, The Chowbox $30, Quadfather $16, Ramen noodles $15, Just Sad $8"
+      ],
+      [
+       "2014",
+       "Knile Davis",
+       "$51",
+       "@@J Rock",
+       "Injuries Imminent $50, The Patriot Act $15, White Lighting $15, Luckness monsters $10, Macho Men $6, 12th Man $5"
+      ],
+      [
+       "2019",
+       "Ty Johnson",
+       "$51",
+       "@@triccster",
+       "Dead bloomers $37, Fresh Cakes $26, Quadfather $25, Ramen noodles $25, Just Sad $23, Lizard King $11"
+      ],
+      [
+       "2020",
+       "Chase Claypool",
+       "$51",
+       "@@Jbird531",
+       "Not Blankenships $31, What The Buck $31, Blazing Cow's $11, FL Spoilers $10"
+      ],
+      [
+       "2020",
+       "Ryquell Armstead",
+       "$51",
+       "@@butterygoop",
+       "We Ain’t Dem Boys $13, Blazing Cow's $13"
+      ],
+      [
+       "2014",
+       "Adrian Peterson",
+       "$50",
+       "@@Colt45Johnson",
+       "Luckness monsters $44, White Lighting $25, Rocket Power $17, Macho Men $7"
+      ],
+      [
+       "2015",
+       "Christine Michael",
+       "$50",
+       "@@Colt45Johnson",
+       "The James Starks's $5"
+      ],
+      [
+       "2015",
+       "Javorius Allen",
+       "$50",
+       "@@J Rock",
+       "My Time Is Now! $35, can I geta witteness $25, Gronk-087 $23"
+      ],
+      [
+       "2020",
+       "Ty Johnson",
+       "$49",
+       "@@Jbird531",
+       "Blazing Cow's $9"
+      ],
+      [
+       "2017",
+       "Latavius Murray",
+       "$44",
+       "@@RockMNwild",
+       "White-Balled $40, The Chowbox $40, Jaywatch $30, La Cabra $27, Light it up $19, Mr. Brightside $10, The Replacements $5"
+      ],
+      [
+       "2017",
+       "Tarik Cohen",
+       "$41",
+       "@@Jbird531",
+       "La Cabra $33, Scott's Team $31, White-Balled $21, Cool Runnings $16, Jaywatch $10, Younghoe Kick Squad $5"
+      ],
+      [
+       "2014",
+       "C.J. Anderson",
+       "$40",
+       "@@snelson91",
+       "12th Man $30, Luckness monsters $18, Gram city $9, J Rock's Dawgs $8"
+      ],
+      [
+       "2014",
+       "Bryce Brown",
+       "$40",
+       "@@Tyler",
+       "Rocket Power $28, 12th Man $19, Macho Men $15"
+      ],
+      [
+       "2015",
+       "Matt Jones",
+       "$40",
+       "@@TuanonStan",
+       "The James Starks's $30, Jimmy was Jimmy $22, My Time Is Now! $15, Iowa super troopers $12, Light it up $10, can I geta witteness $4"
+      ],
+      [
+       "2017",
+       "Giovani Bernard",
+       "$40",
+       "@@Colt45Johnson",
+       "—"
+      ],
+      [
+       "2020",
+       "Mike Davis",
+       "$37",
+       "@@YoungBuck04",
+       "Blazing Cow's $20, FL Spoilers $20, What The Buck $11"
+      ],
+      [
+       "2018",
+       "Wendell Smallwood",
+       "$36",
+       "@@Jbird531",
+       "The Chowbox $30, The Disappointments $13, Kareem Punt $12, Trust Issues $7"
+      ],
+      [
+       "2018",
+       "Jeff Wilson Jr.",
+       "$35",
+       "@@Jbird531",
+       "Coo Coo Kachooo!!!! $19, What The Buck $16, The Disappointments $15"
+      ],
+      [
+       "2020",
+       "Justin Jefferson",
+       "$35",
+       "@@triccster",
+       "Not Blankenships $34, Hurst Don’t It $22, FL Spoilers $20, Blazing Cow's $11"
+      ],
+      [
+       "2020",
+       "Carlos Hyde",
+       "$34",
+       "@@butterygoop",
+       "—"
+      ],
+      [
+       "2016",
+       "Cardinals Ari - DEF",
+       "$33",
+       "@@YoungBuck04",
+       "Light it up $5, Willy Gronka $4, The Buster $3, The Buzz Aldrin's $1"
+      ],
+      [
+       "2020",
+       "Devonta Freeman",
+       "$33",
+       "@@YoungBuck04",
+       "We Ain’t Dem Boys $33, Fuck chowbox $20, Not Blankenships $18"
+      ],
+      [
+       "2019",
+       "Demarcus Robinson",
+       "$32",
+       "@@brettmn13",
+       "Macho Men $26, I Fart Dutch RUDDER $21, Baby Got Dak $5, Lizard King $2"
+      ],
+      [
+       "2014",
+       "Jonas Gray",
+       "$31",
+       "@@brettmn13",
+       "12th Man $25, Rocket Power $17, The Patriot Act $15, White Lighting $15, Macho Men $12"
+      ],
+      [
+       "2017",
+       "Mike Davis",
+       "$31",
+       "@@brettmn13",
+       "White-Balled $1"
+      ],
+      [
+       "2017",
+       "Samaje Perine",
+       "$31",
+       "@@snelson91",
+       "Mr. Brightside $15, La Cabra $8, White-Balled $4"
+      ],
+      [
+       "2017",
+       "Jamaal Williams",
+       "$31",
+       "@@snelson91",
+       "The Replacements $16, White-Balled $5"
+      ],
+      [
+       "2019",
+       "Hollywood Brown",
+       "$31",
+       "@@Colt45Johnson",
+       "Quadfather $15, Dead bloomers $12, Macho Men $12, Kareem Punt $9, Ramen noodles $7"
+      ],
+      [
+       "2020",
+       "Jerick McKinnon",
+       "$31",
+       "@@brettmn13",
+       "The Chowbox $25, We Ain’t Dem Boys $19, Not Blankenships $13, What The Buck $11, Fuck chowbox $9"
+      ],
+      [
+       "2014",
+       "Jeremy Hill",
+       "$30",
+       "@@snelson91",
+       "Gram city $8"
+      ],
+      [
+       "2017",
+       "Adrian Peterson",
+       "$30",
+       "@@TuanonStan",
+       "Mr. Brightside $20, Savage AF $12, La Cabra $6"
+      ],
+      [
+       "2018",
+       "Kenjon Barner",
+       "$30",
+       "@@thecreamer",
+       "Rock the boat $12, Coo Coo Kachooo!!!! $12, Dutch Van Der Linde $8"
+      ],
+      [
+       "2014",
+       "Justin Forsett",
+       "$29",
+       "@@YoungBuck04",
+       "Gram city $16"
+      ],
+      [
+       "2016",
+       "Tim Hightower",
+       "$29",
+       "@@Jbird531",
+       "InstaGraham $26, $100 and done $10, Cooking with Julian $7"
+      ],
+      [
+       "2016",
+       "Ladarius Green",
+       "$27",
+       "@@Wallner",
+       "$100 and done $15, Cooking with Julian $10"
+      ],
+      [
+       "2016",
+       "Charcandrick West",
+       "$27",
+       "@@TuanonStan",
+       "Insert Carrappy pun $25, InstaGraham $19, Cooking with Julian $16, My team Sux ass $7"
+      ],
+      [
+       "2017",
+       "Thomas Rawls",
+       "$27",
+       "@@YoungBuck04",
+       "Jaywatch $19, Cool Runnings $18, Younghoe Kick Squad $10"
+      ],
+      [
+       "2018",
+       "Marquez Valdes-Scantling",
+       "$27",
+       "@@butterygoop",
+       "Dutch Van Der Linde $22, Kareem Punt $16, Chum Bucket $12, Trust Issues $11, Rock the boat $7, What The Buck $2"
+      ],
+      [
+       "2019",
+       "Brian Hill",
+       "$27",
+       "@@triccster",
+       "Ramen noodles $16, Quadfather $10"
+      ],
+      [
+       "2014",
+       "Darren Sproles",
+       "$26",
+       "@@Jbird531",
+       "Luckness monsters $26, The Patriot Act $15"
+      ],
+      [
+       "2019",
+       "Will Fuller V",
+       "$26",
+       "@@Jbird531",
+       "Just Sad $5"
+      ],
+      [
+       "2019",
+       "Kenny Stills",
+       "$26",
+       "@@RockMNwild",
+       "Lizard King $10, Quadfather $10"
+      ],
+      [
+       "2020",
+       "D'Ernest Johnson",
+       "$26",
+       "@@RockMNwild",
+       "Blazing Cow's $11, We Ain’t Dem Boys $3"
+      ],
+      [
+       "2020",
+       "Myles Gaskin",
+       "$26",
+       "@@Wallner",
+       "The Chowbox $20, Christian Mingle $5, We Ain’t Dem Boys $4"
+      ],
+      [
+       "2014",
+       "Andre Williams",
+       "$25",
+       "@@RockMNwild",
+       "Gram city $25, Luckness monsters $21, J Rock's Dawgs $11, The Patriot Act $5"
+      ],
+      [
+       "2014",
+       "Terrance Williams",
+       "$25",
+       "@@thecreamer",
+       "J Rock's Dawgs $5, Macho Men $3"
+      ],
+      [
+       "2015",
+       "Travis Benjamin",
+       "$25",
+       "@@thecreamer",
+       "Iowa super troopers $16, Dead Dawgs $10, Soul Power $6"
+      ],
+      [
+       "2016",
+       "Orleans Darkwa",
+       "$25",
+       "@@thecreamer",
+       "InstaGraham $10"
+      ],
+      [
+       "2016",
+       "Jerick McKinnon",
+       "$25",
+       "@@J Rock",
+       "The Buster $18, InstaGraham $10, Insert Carrappy pun $5"
+      ],
+      [
+       "2020",
+       "Joshua Kelley",
+       "$25",
+       "@@TuanonStan",
+       "FL Spoilers $22, Not Blankenships $21, We Ain’t Dem Boys $21, Blazing Cow's $21, Fuck chowbox $8"
+      ],
+      [
+       "2020",
+       "Dallas Goedert",
+       "$25",
+       "@@TuanonStan",
+       "Hurst Don’t It $5, Not Blankenships $5"
+      ],
+      [
+       "2020",
+       "Malcolm Brown",
+       "$25",
+       "@@TuanonStan",
+       "FL Spoilers $16, Blazing Cow's $13, Fuck chowbox $5"
+      ],
+      [
+       "2014",
+       "Percy Harvin",
+       "$24",
+       "@@RockMNwild",
+       "Luckness monsters $17, 12th Man $14, Gram city $11, The Patriot Act $7"
+      ],
+      [
+       "2016",
+       "Rob Kelley",
+       "$24",
+       "@@YoungBuck04",
+       "The Buzz Aldrin's $15"
+      ],
+      [
+       "2019",
+       "Jonathan Williams",
+       "$24",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2017",
+       "Wendell Smallwood",
+       "$23",
+       "@@Colt45Johnson",
+       "Jaywatch $20, White-Balled $12, La Cabra $12, Savage AF $6"
+      ],
+      [
+       "2018",
+       "Marlon Mack",
+       "$23",
+       "@@Colt45Johnson",
+       "The Chowbox $20, Mean Machine $16, Coo Coo Kachooo!!!! $15, Trust Issues $11"
+      ],
+      [
+       "2018",
+       "Derrick Henry",
+       "$22",
+       "@@RockMNwild",
+       "Trust Issues $6"
+      ],
+      [
+       "2017",
+       "Javorius Allen",
+       "$21",
+       "@@YoungBuck04",
+       "La Cabra $8, Mr. Brightside $5, Savage AF $4, Younghoe Kick Squad $3"
+      ],
+      [
+       "2017",
+       "Kerwynn Williams",
+       "$21",
+       "@@snelson91",
+       "White-Balled $11, The Chowbox $5, Mr. Brightside $3, The Replacements $2"
+      ],
+      [
+       "2014",
+       "Latavius Murray",
+       "$20",
+       "@@brettmn13",
+       "The Patriot Act $15, Gram city $11, White Lighting $10, Team white $10"
+      ],
+      [
+       "2014",
+       "Denard Robinson",
+       "$20",
+       "@@TuanonStan",
+       "Rocket Power $17, J Rock's Dawgs $5, Gram city $4"
+      ],
+      [
+       "2017",
+       "Orleans Darkwa",
+       "$20",
+       "@@Wallner",
+       "La Cabra $17, Scott's Team $16, The Replacements $5, Cool Runnings $4"
+      ],
+      [
+       "2018",
+       "Rashaad Penny",
+       "$20",
+       "@@Wallner",
+       "Fresh Cakes $19, Trust Issues $15, Coo Coo Kachooo!!!! $10"
+      ],
+      [
+       "2019",
+       "Chris Herndon",
+       "$20",
+       "@@butterygoop",
+       "Dead bloomers $12, Quadfather $5, Lizard King $2, Ramen noodles $1"
+      ],
+      [
+       "2020",
+       "Nyheim Miller-Hines",
+       "$20",
+       "@@snelson91",
+       "Christian Mingle $1"
+      ],
+      [
+       "2015",
+       "James White",
+       "$19",
+       "@@Colt45Johnson",
+       "Gronk-087 $5"
+      ],
+      [
+       "2016",
+       "Chris Thompson",
+       "$19",
+       "@@Jbird531",
+       "InstaGraham $18, $100 and done $15, Scott's Team $5"
+      ],
+      [
+       "2016",
+       "Zach Ertz",
+       "$19",
+       "@@YoungBuck04",
+       "The Buster $8"
+      ],
+      [
+       "2016",
+       "Dwayne Washington",
+       "$19",
+       "@@RockMNwild",
+       "The Buzz Aldrin's $4"
+      ],
+      [
+       "2016",
+       "Matt Asiata",
+       "$18",
+       "@@brettmn13",
+       "My team Sux ass $15, InstaGraham $10"
+      ],
+      [
+       "2019",
+       "Jordan Howard",
+       "$18",
+       "@@Wallner",
+       "Quadfather $15, Fresh Cakes $14, Dead bloomers $14, Just Sad $10, What The Buck $7, Kareem Punt $4, Lizard King $1"
+      ],
+      [
+       "2019",
+       "Jordan Howard",
+       "$18",
+       "@@Wallner",
+       "Dead bloomers $16, Lizard King $5, Kareem Punt $1"
+      ],
+      [
+       "2020",
+       "Justin Jackson",
+       "$18",
+       "@@PapaMidnight",
+       "Blazing Cow's $11, The Chowbox $10, Not Blankenships $5, We Ain’t Dem Boys $4"
+      ],
+      [
+       "2020",
+       "Rex Burkhead",
+       "$18",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2016",
+       "Wendell Smallwood",
+       "$17",
+       "@@RockMNwild",
+       "Blame the hamms $3"
+      ],
+      [
+       "2017",
+       "Kenyan Drake",
+       "$17",
+       "@@brettmn13",
+       "Mr. Brightside $15, The Chowbox $10, White-Balled $7, Savage AF $5"
+      ],
+      [
+       "2017",
+       "Wayne Gallman",
+       "$17",
+       "@@RockMNwild",
+       "Jaywatch $15, La Cabra $6, Savage AF $3"
+      ],
+      [
+       "2018",
+       "Larry Fitzgerald",
+       "$17",
+       "@@YoungBuck04",
+       "Coo Coo Kachooo!!!! $13, Rock the boat $7"
+      ],
+      [
+       "2020",
+       "Boston Scott",
+       "$17",
+       "@@RockMNwild",
+       "Fuck chowbox $11, Christian Mingle $10"
+      ],
+      [
+       "2020",
+       "Benny Snell Jr.",
+       "$17",
+       "@@Wallner",
+       "We Ain’t Dem Boys $16, Blazing Cow's $12, Fuck chowbox $8, Kareem Punt $5"
+      ],
+      [
+       "2015",
+       "Stefon Diggs",
+       "$16",
+       "@@snelson91",
+       "The James Starks's $8, can I geta witteness $5, JohnsTimeIsNotNow $2"
+      ],
+      [
+       "2016",
+       "Terrelle Pryor Sr.",
+       "$16",
+       "@@brettmn13",
+       "My team Sux ass $10, Cooking with Julian $7, The Absolute Madman $5, Insert Carrappy pun $3"
+      ],
+      [
+       "2017",
+       "Thomas Rawls",
+       "$16",
+       "@@Jbird531",
+       "White-Balled $5"
+      ],
+      [
+       "2018",
+       "Geronimo Allison",
+       "$16",
+       "@@brettmn13",
+       "Chum Bucket $10, Fresh Cakes $9, Trust Issues $8, Rock the boat $5, Mean Machine $2"
+      ],
+      [
+       "2018",
+       "Amari Cooper",
+       "$16",
+       "@@snelson91",
+       "Chum Bucket $15, Trust Issues $11, Fresh Cakes $6, Coo Coo Kachooo!!!! $3"
+      ],
+      [
+       "2019",
+       "Josh Allen",
+       "$16",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2019",
+       "Mark Walton",
+       "$16",
+       "@@RockMNwild",
+       "Quadfather $15, Lizard King $14"
+      ],
+      [
+       "2014",
+       "Dan Herron",
+       "$15",
+       "@@RockMNwild",
+       "White Lighting $8"
+      ],
+      [
+       "2014",
+       "Tre Mason",
+       "$15",
+       "@@Wallner",
+       "J Rock's Dawgs $5"
+      ],
+      [
+       "2014",
+       "Lions Det - DEF",
+       "$15",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2014",
+       "Kirk Cousins",
+       "$15",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2015",
+       "Chris Polk",
+       "$15",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2015",
+       "Charles Clay",
+       "$15",
+       "@@J Rock",
+       "Gronk-087 $10"
+      ],
+      [
+       "2015",
+       "Marvin Jones Jr.",
+       "$15",
+       "@@J Rock",
+       "My Time Is Now! $13, Jimmy was Jimmy $4, Soul Power $3"
+      ],
+      [
+       "2016",
+       "Sammy Watkins",
+       "$15",
+       "@@Colt45Johnson",
+       "Willy Gronka $15, Cooking with Julian $15, The Buzz Aldrin's $3, Blame the hamms $2"
+      ],
+      [
+       "2016",
+       "Knile Davis",
+       "$15",
+       "@@thecreamer",
+       "Scott's Team $5, Cooking with Julian $3"
+      ],
+      [
+       "2016",
+       "Carson Wentz",
+       "$15",
+       "@@thecreamer",
+       "My team Sux ass $8, The Buster $6"
+      ],
+      [
+       "2017",
+       "Andre Ellington",
+       "$15",
+       "@@TuanonStan",
+       "La Cabra $7, Cool Runnings $5, White-Balled $2"
+      ],
+      [
+       "2018",
+       "Cameron Brate",
+       "$15",
+       "@@TuanonStan",
+       "Mean Machine $7"
+      ],
+      [
+       "2018",
+       "Gus Edwards",
+       "$15",
+       "@@TuanonStan",
+       "Trust Issues $11, Dutch Van Der Linde $11"
+      ],
+      [
+       "2018",
+       "Duke Johnson",
+       "$15",
+       "@@triccster",
+       "Trust Issues $12, Mean Machine $12, Dutch Van Der Linde $7"
+      ],
+      [
+       "2018",
+       "Peyton Barber",
+       "$15",
+       "@@thecreamer",
+       "Chum Bucket $15, Trust Issues $9"
+      ],
+      [
+       "2018",
+       "Jared Cook",
+       "$15",
+       "@@triccster",
+       "Trust Issues $6, What The Buck $6, Mean Machine $4"
+      ],
+      [
+       "2018",
+       "Phillip Lindsay",
+       "$15",
+       "@@TuanonStan",
+       "Mean Machine $15, Dutch Van Der Linde $14, What The Buck $11"
+      ],
+      [
+       "2019",
+       "Jaylen Samuels",
+       "$15",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2019",
+       "Bo Scarbrough",
+       "$15",
+       "@@PapaMidnight",
+       "—"
+      ],
+      [
+       "2019",
+       "Gerald Everett",
+       "$15",
+       "@@thecreamer",
+       "Dead bloomers $9, Quadfather $5, Ramen noodles $1"
+      ],
+      [
+       "2020",
+       "Rashard Higgins",
+       "$15",
+       "@@triccster",
+       "—"
+      ],
+      [
+       "2015",
+       "Thomas Rawls",
+       "$14",
+       "@@brettmn13",
+       "JohnsTimeIsNotNow $4"
+      ],
+      [
+       "2016",
+       "Tyler Boyd",
+       "$14",
+       "@@RockMNwild",
+       "The Buzz Aldrin's $5"
+      ],
+      [
+       "2017",
+       "Kenny Golladay",
+       "$14",
+       "@@RockMNwild",
+       "White-Balled $12, The Chowbox $5"
+      ],
+      [
+       "2018",
+       "Dolphins Mia - DEF",
+       "$14",
+       "@@Wallner",
+       "Mean Machine $2"
+      ],
+      [
+       "2018",
+       "Chargers LAC - DEF",
+       "$14",
+       "@@YoungBuck04",
+       "Rock the boat $5, Mean Machine $4, Dutch Van Der Linde $1"
+      ],
+      [
+       "2020",
+       "Chris Thompson",
+       "$14",
+       "@@YoungBuck04",
+       "Not Blankenships $6, FL Spoilers $5"
+      ],
+      [
+       "2015",
+       "Ted Ginn Jr.",
+       "$13",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2015",
+       "Leonard Hankerson",
+       "$13",
+       "@@Wallner",
+       "Soul Power $6"
+      ],
+      [
+       "2016",
+       "Hunter Henry",
+       "$13",
+       "@@TuanonStan",
+       "InstaGraham $1"
+      ],
+      [
+       "2016",
+       "Ty Montgomery II",
+       "$13",
+       "@@brettmn13",
+       "InstaGraham $11, Scott's Team $5, Cooking with Julian $5"
+      ],
+      [
+       "2017",
+       "Paul Richardson",
+       "$13",
+       "@@brettmn13",
+       "Savage AF $10"
+      ],
+      [
+       "2019",
+       "Phillip Dorsett",
+       "$13",
+       "@@Wallner",
+       "Ramen noodles $12, Quadfather $10, Baby Got Dak $5"
+      ],
+      [
+       "2020",
+       "Kalen Ballage",
+       "$13",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2014",
+       "Terrance West",
+       "$12",
+       "@@RockMNwild",
+       "J Rock's Dawgs $5"
+      ],
+      [
+       "2015",
+       "Knile Davis",
+       "$12",
+       "@@TuanonStan",
+       "Dead Dawgs $10"
+      ],
+      [
+       "2017",
+       "Austin Ekeler",
+       "$12",
+       "@@Jbird531",
+       "White-Balled $1"
+      ],
+      [
+       "2018",
+       "Vance McDonald",
+       "$12",
+       "@@YoungBuck04",
+       "Mean Machine $10, Dutch Van Der Linde $1"
+      ],
+      [
+       "2019",
+       "Jets NYJ - DEF",
+       "$12",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2020",
+       "Mike Williams",
+       "$12",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2014",
+       "Victor Cruz",
+       "$11",
+       "@@Jbird531",
+       "The Patriot Act $10"
+      ],
+      [
+       "2015",
+       "Malcom Floyd",
+       "$11",
+       "@@YoungBuck04",
+       "Soul Power $9, The James Starks's $4"
+      ],
+      [
+       "2015",
+       "Colin Kaepernick",
+       "$11",
+       "@@thecreamer",
+       "Jimmy was Jimmy $9"
+      ],
+      [
+       "2016",
+       "Kenneth Dixon",
+       "$11",
+       "@@brettmn13",
+       "The Buzz Aldrin's $1"
+      ],
+      [
+       "2018",
+       "Keke Coutee",
+       "$11",
+       "@@Colt45Johnson",
+       "Rock the boat $10"
+      ],
+      [
+       "2019",
+       "Nick Folk",
+       "$11",
+       "@@PapaMidnight",
+       "—"
+      ],
+      [
+       "2019",
+       "Kalen Ballage",
+       "$11",
+       "@@RockMNwild",
+       "Just Sad $5"
+      ],
+      [
+       "2014",
+       "Marquess Wilson",
+       "$10",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2014",
+       "Jordan Matthews",
+       "$10",
+       "@@thecreamer",
+       "Macho Men $5"
+      ],
+      [
+       "2015",
+       "Bryce Brown",
+       "$10",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2015",
+       "Vernon Davis",
+       "$10",
+       "@@TuanonStan",
+       "Dead Dawgs $6"
+      ],
+      [
+       "2015",
+       "Willie Snead IV",
+       "$10",
+       "@@RockMNwild",
+       "Jimmy was Jimmy $9"
+      ],
+      [
+       "2016",
+       "Falcons Atl - DEF",
+       "$10",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2016",
+       "Cameron Meredith",
+       "$10",
+       "@@Colt45Johnson",
+       "InstaGraham $10"
+      ],
+      [
+       "2016",
+       "Antone Smith",
+       "$10",
+       "@@YoungBuck04",
+       "Cooking with Julian $5"
+      ],
+      [
+       "2016",
+       "Kenny Britt",
+       "$10",
+       "@@thecreamer",
+       "$100 and done $7, InstaGraham $4"
+      ],
+      [
+       "2016",
+       "Eddie Royal",
+       "$10",
+       "@@thecreamer",
+       "$100 and done $8, The Buster $4"
+      ],
+      [
+       "2016",
+       "Darren Sproles",
+       "$10",
+       "@@J Rock",
+       "Insert Carrappy pun $4"
+      ],
+      [
+       "2016",
+       "Fozzy Whittaker",
+       "$10",
+       "@@J Rock",
+       "InstaGraham $10"
+      ],
+      [
+       "2016",
+       "Eric Ebron",
+       "$10",
+       "@@TuanonStan",
+       "Willy Gronka $2"
+      ],
+      [
+       "2017",
+       "Ben Roethlisberger",
+       "$10",
+       "@@Colt45Johnson",
+       "Savage AF $2"
+      ],
+      [
+       "2017",
+       "Marqise Lee",
+       "$10",
+       "@@Colt45Johnson",
+       "Savage AF $5, White-Balled $4"
+      ],
+      [
+       "2018",
+       "Anthony Miller",
+       "$10",
+       "@@Jbird531",
+       "Mean Machine $4, Dutch Van Der Linde $4"
+      ],
+      [
+       "2018",
+       "Dan Bailey",
+       "$10",
+       "@@PapaMidnight",
+       "Mean Machine $1, Coo Coo Kachooo!!!! $1, Dutch Van Der Linde $1"
+      ],
+      [
+       "2019",
+       "Nyheim Miller-Hines",
+       "$10",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2019",
+       "Diontae Johnson",
+       "$10",
+       "@@thecreamer",
+       "Lizard King $6"
+      ],
+      [
+       "2019",
+       "Darrel Williams",
+       "$10",
+       "@@TuanonStan",
+       "Lizard King $6, Dead bloomers $6, Ramen noodles $6"
+      ],
+      [
+       "2019",
+       "Terry McLaurin",
+       "$10",
+       "@@TuanonStan",
+       "Ramen noodles $6"
+      ],
+      [
+       "2017",
+       "Aaron Jones Sr.",
+       "$9",
+       "@@YoungBuck04",
+       "La Cabra $8, Cool Runnings $5"
+      ],
+      [
+       "2018",
+       "Patriots NE - DEF",
+       "$9",
+       "@@YoungBuck04",
+       "Coo Coo Kachooo!!!! $7, Rock the boat $5"
+      ],
+      [
+       "2018",
+       "Taylor Gabriel",
+       "$9",
+       "@@YoungBuck04",
+       "Rock the boat $2, Coo Coo Kachooo!!!! $2"
+      ],
+      [
+       "2020",
+       "Jared Goff",
+       "$9",
+       "@@PapaMidnight",
+       "Christian Mingle $1"
+      ],
+      [
+       "2020",
+       "Jerry Jeudy",
+       "$9",
+       "@@Colt45Johnson",
+       "—"
+      ],
+      [
+       "2020",
+       "Tyler Ervin",
+       "$9",
+       "@@Wallner",
+       "Not Blankenships $7"
+      ],
+      [
+       "2014",
+       "Martellus Bennett",
+       "$8",
+       "@@J Rock",
+       "Macho Men $7"
+      ],
+      [
+       "2015",
+       "Denard Robinson",
+       "$8",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2015",
+       "Alex Smith",
+       "$8",
+       "@@Tyler",
+       "Iowa super troopers $5"
+      ],
+      [
+       "2015",
+       "Packers GB - DEF",
+       "$8",
+       "@@brettmn13",
+       "Gronk-087 $5"
+      ],
+      [
+       "2017",
+       "Devin Funchess",
+       "$8",
+       "@@Tyler",
+       "White-Balled $2"
+      ],
+      [
+       "2018",
+       "C.J. Uzomah",
+       "$8",
+       "@@triccster",
+       "Mean Machine $3"
+      ],
+      [
+       "2018",
+       "O.J. Howard",
+       "$8",
+       "@@TuanonStan",
+       "Dutch Van Der Linde $6"
+      ],
+      [
+       "2019",
+       "A.J. Brown",
+       "$8",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2019",
+       "Chase Edmonds",
+       "$8",
+       "@@triccster",
+       "Dead bloomers $8, Lizard King $6"
+      ],
+      [
+       "2019",
+       "Ravens Bal - DEF",
+       "$8",
+       "@@RockMNwild",
+       "Ramen noodles $3, Quadfather $2"
+      ],
+      [
+       "2019",
+       "Eagles Phi - DEF",
+       "$8",
+       "@@RockMNwild",
+       "Ramen noodles $2"
+      ],
+      [
+       "2019",
+       "Ravens Bal - DEF",
+       "$8",
+       "@@TuanonStan",
+       "Ramen noodles $2"
+      ],
+      [
+       "2014",
+       "Riley Cooper",
+       "$7",
+       "@@Wallner",
+       "The Patriot Act $2"
+      ],
+      [
+       "2015",
+       "James Jones",
+       "$7",
+       "@@Tyler",
+       "My Time Is Now! $5"
+      ],
+      [
+       "2015",
+       "Doug Baldwin",
+       "$7",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2016",
+       "Colin Kaepernick",
+       "$7",
+       "@@J Rock",
+       "Light it up $5, The Buster $4, The Buzz Aldrin's $1"
+      ],
+      [
+       "2016",
+       "Dolphins Mia - DEF",
+       "$7",
+       "@@Tyler",
+       "Willy Gronka $6"
+      ],
+      [
+       "2016",
+       "Kirk Cousins",
+       "$7",
+       "@@TuanonStan",
+       "Light it up $4, InstaGraham $1"
+      ],
+      [
+       "2017",
+       "Peyton Barber",
+       "$7",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2017",
+       "Kenny Stills",
+       "$7",
+       "@@Wallner",
+       "La Cabra $3"
+      ],
+      [
+       "2017",
+       "Sterling Shepard",
+       "$7",
+       "@@TuanonStan",
+       "White-Balled $3, Savage AF $2, The Replacements $2"
+      ],
+      [
+       "2018",
+       "Chris Godwin Jr.",
+       "$7",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2018",
+       "DJ Moore",
+       "$7",
+       "@@RockMNwild",
+       "Coo Coo Kachooo!!!! $7, Dutch Van Der Linde $7"
+      ],
+      [
+       "2018",
+       "Chris Godwin Jr.",
+       "$7",
+       "@@Wallner",
+       "Mean Machine $4"
+      ],
+      [
+       "2018",
+       "Wil Lutz",
+       "$7",
+       "@@YoungBuck04",
+       "What The Buck $1"
+      ],
+      [
+       "2018",
+       "Colts Ind - DEF",
+       "$7",
+       "@@TuanonStan",
+       "Kareem Punt $4, Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Quincy Enunwa",
+       "$7",
+       "@@snelson91",
+       "Trust Issues $2"
+      ],
+      [
+       "2018",
+       "Keke Coutee",
+       "$7",
+       "@@Wallner",
+       "Trust Issues $6, Kareem Punt $5, Dutch Van Der Linde $3"
+      ],
+      [
+       "2018",
+       "Panthers Car - DEF",
+       "$7",
+       "@@TuanonStan",
+       "Mean Machine $7, Dutch Van Der Linde $3"
+      ],
+      [
+       "2018",
+       "Quincy Enunwa",
+       "$7",
+       "@@RockMNwild",
+       "Trust Issues $7, Chum Bucket $3, Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "James Conner",
+       "$7",
+       "@@TuanonStan",
+       "Trust Issues $6, Rock the boat $1"
+      ],
+      [
+       "2019",
+       "J.D. McKissic",
+       "$7",
+       "@@TuanonStan",
+       "Kareem Punt $1"
+      ],
+      [
+       "2019",
+       "Jon Hilliman",
+       "$7",
+       "@@RockMNwild",
+       "Lizard King $1"
+      ],
+      [
+       "2020",
+       "Matt Breida",
+       "$7",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2014",
+       "Lorenzo Taliaferro",
+       "$6",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2014",
+       "James Jones",
+       "$6",
+       "@@J Rock",
+       "—"
+      ],
+      [
+       "2015",
+       "Commanders Was - DEF",
+       "$6",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2015",
+       "Chris Johnson",
+       "$6",
+       "@@Colt45Johnson",
+       "Jimmy was Jimmy $4, can I geta witteness $3, JohnsTimeIsNotNow $1"
+      ],
+      [
+       "2016",
+       "J.J. Nelson",
+       "$6",
+       "@@Tyler",
+       "The Buster $6"
+      ],
+      [
+       "2017",
+       "Nelson Agholor",
+       "$6",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2017",
+       "Carson Wentz",
+       "$6",
+       "@@YoungBuck04",
+       "Jaywatch $5, Savage AF $3"
+      ],
+      [
+       "2018",
+       "Jameis Winston",
+       "$6",
+       "@@TuanonStan",
+       "Dutch Van Der Linde $3"
+      ],
+      [
+       "2019",
+       "Frank Gore",
+       "$6",
+       "@@snelson91",
+       "Just Sad $5, I Fart Dutch RUDDER $4"
+      ],
+      [
+       "2019",
+       "Marvin Jones Jr.",
+       "$6",
+       "@@butterygoop",
+       "What The Buck $6"
+      ],
+      [
+       "2019",
+       "Adrian Peterson",
+       "$6",
+       "@@brettmn13",
+       "I Fart Dutch RUDDER $1"
+      ],
+      [
+       "2020",
+       "Carlos Hyde",
+       "$6",
+       "@@snelson91",
+       "—"
+      ],
+      [
+       "2020",
+       "Cardinals Ari - DEF",
+       "$6",
+       "@@Colt45Johnson",
+       "Blazing Cow's $1"
+      ],
+      [
+       "2020",
+       "Joshua Kelley",
+       "$6",
+       "@@YoungBuck04",
+       "Blazing Cow's $3"
+      ],
+      [
+       "2014",
+       "Rams LAR - DEF",
+       "$5",
+       "@@thecreamer",
+       "White Lighting $1"
+      ],
+      [
+       "2014",
+       "Jason Witten",
+       "$5",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2014",
+       "Caleb Sturgis",
+       "$5",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2014",
+       "Chargers LAC - DEF",
+       "$5",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2014",
+       "Andre Williams",
+       "$5",
+       "@@Colt45Johnson",
+       "J Rock's Dawgs $2"
+      ],
+      [
+       "2014",
+       "Malcom Floyd",
+       "$5",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2014",
+       "Eddie Royal",
+       "$5",
+       "@@Tyler",
+       "The Patriot Act $2"
+      ],
+      [
+       "2015",
+       "Patriots NE - DEF",
+       "$5",
+       "@@Jbird531",
+       "—"
+      ],
+      [
+       "2015",
+       "Ravens Bal - DEF",
+       "$5",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2015",
+       "Willie Snead IV",
+       "$5",
+       "@@YoungBuck04",
+       "Jimmy was Jimmy $4"
+      ],
+      [
+       "2015",
+       "Lance Dunbar",
+       "$5",
+       "@@YoungBuck04",
+       "My Time Is Now! $3"
+      ],
+      [
+       "2015",
+       "James Starks",
+       "$5",
+       "@@J Rock",
+       "The James Starks's $5"
+      ],
+      [
+       "2015",
+       "Dion Lewis",
+       "$5",
+       "@@J Rock",
+       "Light it up $3"
+      ],
+      [
+       "2016",
+       "Rams LAR - DEF",
+       "$5",
+       "@@RockMNwild",
+       "The Buster $3"
+      ],
+      [
+       "2016",
+       "Bills Buf - DEF",
+       "$5",
+       "@@J Rock",
+       "—"
+      ],
+      [
+       "2016",
+       "Duke Johnson",
+       "$5",
+       "@@Wallner",
+       "Light it up $4"
+      ],
+      [
+       "2016",
+       "Phillip Dorsett",
+       "$5",
+       "@@Tyler",
+       "Insert Carrappy pun $1"
+      ],
+      [
+       "2016",
+       "Patriots NE - DEF",
+       "$5",
+       "@@YoungBuck04",
+       "Willy Gronka $1"
+      ],
+      [
+       "2017",
+       "Eagles Phi - DEF",
+       "$5",
+       "@@Wallner",
+       "The Chowbox $2"
+      ],
+      [
+       "2017",
+       "Corey Coleman",
+       "$5",
+       "@@Wallner",
+       "White-Balled $3"
+      ],
+      [
+       "2017",
+       "Harrison Butker",
+       "$5",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2017",
+       "Jamison Crowder",
+       "$5",
+       "@@Colt45Johnson",
+       "Savage AF $1"
+      ],
+      [
+       "2017",
+       "Damien Williams",
+       "$5",
+       "@@thecreamer",
+       "Savage AF $5"
+      ],
+      [
+       "2017",
+       "Jaguars Jax - DEF",
+       "$5",
+       "@@TuanonStan",
+       "La Cabra $2, Younghoe Kick Squad $1"
+      ],
+      [
+       "2017",
+       "Alvin Kamara",
+       "$5",
+       "@@thecreamer",
+       "Younghoe Kick Squad $4, Mr. Brightside $3, White-Balled $2, Jaywatch $2, Savage AF $1"
+      ],
+      [
+       "2017",
+       "Cooper Kupp",
+       "$5",
+       "@@TuanonStan",
+       "Younghoe Kick Squad $2"
+      ],
+      [
+       "2017",
+       "Ravens Bal - DEF",
+       "$5",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2018",
+       "Broncos Den - DEF",
+       "$5",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2018",
+       "Cardinals Ari - DEF",
+       "$5",
+       "@@triccster",
+       "Coo Coo Kachooo!!!! $4, Dutch Van Der Linde $1"
+      ],
+      [
+       "2018",
+       "Vance McDonald",
+       "$5",
+       "@@butterygoop",
+       "The Chowbox $1"
+      ],
+      [
+       "2018",
+       "Broncos Den - DEF",
+       "$5",
+       "@@RockMNwild",
+       "Coo Coo Kachooo!!!! $3, Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Brandon Marshall",
+       "$5",
+       "@@Colt45Johnson",
+       "Chum Bucket $1, Dutch Van Der Linde $1"
+      ],
+      [
+       "2019",
+       "Josh Gordon",
+       "$5",
+       "@@Colt45Johnson",
+       "—"
+      ],
+      [
+       "2019",
+       "Josh Allen",
+       "$5",
+       "@@Jbird531",
+       "Ramen noodles $5"
+      ],
+      [
+       "2019",
+       "Deebo Samuel Sr.",
+       "$5",
+       "@@RockMNwild",
+       "Just Sad $2"
+      ],
+      [
+       "2020",
+       "Younghoe Koo",
+       "$5",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2020",
+       "Eagles Phi - DEF",
+       "$5",
+       "@@triccster",
+       "The Chowbox $2, Christian Mingle $1, Blazing Cow's $1"
+      ],
+      [
+       "2020",
+       "Buccaneers TB - DEF",
+       "$5",
+       "@@butterygoop",
+       "Christian Mingle $3"
+      ],
+      [
+       "2020",
+       "Travis Fulgham",
+       "$5",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2020",
+       "N'Keal Harry",
+       "$5",
+       "@@RockMNwild",
+       "Blazing Cow's $3"
+      ],
+      [
+       "2020",
+       "Colts Ind - DEF",
+       "$5",
+       "@@RockMNwild",
+       "Blazing Cow's $2"
+      ],
+      [
+       "2020",
+       "Marquez Valdes-Scantling",
+       "$5",
+       "@@butterygoop",
+       "What The Buck $3"
+      ],
+      [
+       "2020",
+       "Allen Lazard",
+       "$5",
+       "@@Wallner",
+       "Waller Walkers $1"
+      ],
+      [
+       "2015",
+       "Ravens Bal - DEF",
+       "$4",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2016",
+       "Zach Ertz",
+       "$4",
+       "@@Jbird531",
+       "The Buzz Aldrin's $2"
+      ],
+      [
+       "2016",
+       "Peyton Barber",
+       "$4",
+       "@@RockMNwild",
+       "My team Sux ass $1"
+      ],
+      [
+       "2016",
+       "Matt Ryan",
+       "$4",
+       "@@Tyler",
+       "Insert Carrappy pun $2"
+      ],
+      [
+       "2017",
+       "Eagles Phi - DEF",
+       "$4",
+       "@@Wallner",
+       "White-Balled $1"
+      ],
+      [
+       "2017",
+       "Dion Lewis",
+       "$4",
+       "@@RockMNwild",
+       "Jaywatch $1"
+      ],
+      [
+       "2017",
+       "Ravens Bal - DEF",
+       "$4",
+       "@@brettmn13",
+       "Younghoe Kick Squad $2"
+      ],
+      [
+       "2017",
+       "Jaguars Jax - DEF",
+       "$4",
+       "@@YoungBuck04",
+       "Cool Runnings $4"
+      ],
+      [
+       "2017",
+       "Jaron Brown",
+       "$4",
+       "@@brettmn13",
+       "Younghoe Kick Squad $3, White-Balled $2"
+      ],
+      [
+       "2018",
+       "Jamaal Williams",
+       "$4",
+       "@@RockMNwild",
+       "Trust Issues $1"
+      ],
+      [
+       "2018",
+       "Dolphins Mia - DEF",
+       "$4",
+       "@@Colt45Johnson",
+       "—"
+      ],
+      [
+       "2018",
+       "Ryan Fitzpatrick",
+       "$4",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2018",
+       "Chargers LAC - DEF",
+       "$4",
+       "@@RockMNwild",
+       "Dutch Van Der Linde $1"
+      ],
+      [
+       "2018",
+       "Texans Hou - DEF",
+       "$4",
+       "@@YoungBuck04",
+       "Mean Machine $1"
+      ],
+      [
+       "2019",
+       "Saints NO - DEF",
+       "$4",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2019",
+       "Mohamed Sanu",
+       "$4",
+       "@@PapaMidnight",
+       "Ramen noodles $1"
+      ],
+      [
+       "2019",
+       "Chargers LAC - DEF",
+       "$4",
+       "@@YoungBuck04",
+       "Quadfather $2, Dead bloomers $1"
+      ],
+      [
+       "2019",
+       "Panthers Car - DEF",
+       "$4",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2020",
+       "Colts Ind - DEF",
+       "$4",
+       "@@Colt45Johnson",
+       "—"
+      ],
+      [
+       "2020",
+       "Cardinals Ari - DEF",
+       "$4",
+       "@@brettmn13",
+       "Not Blankenships $3"
+      ],
+      [
+       "2014",
+       "Packers GB - DEF",
+       "$3",
+       "@@Tyler",
+       "Team white $2"
+      ],
+      [
+       "2014",
+       "Chargers LAC - DEF",
+       "$3",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2015",
+       "Gary Barnidge",
+       "$3",
+       "@@Wallner",
+       "Soul Power $3"
+      ],
+      [
+       "2016",
+       "Dolphins Mia - DEF",
+       "$3",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2016",
+       "Theo Riddick",
+       "$3",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2017",
+       "Kenny Stills",
+       "$3",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2017",
+       "Panthers Car - DEF",
+       "$3",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2017",
+       "Bilal Powell",
+       "$3",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2018",
+       "Dak Prescott",
+       "$3",
+       "@@Wallner",
+       "Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Josh Reynolds",
+       "$3",
+       "@@brettmn13",
+       "Trust Issues $1"
+      ],
+      [
+       "2018",
+       "Joe Flacco",
+       "$3",
+       "@@snelson91",
+       "—"
+      ],
+      [
+       "2018",
+       "C.J. Uzomah",
+       "$3",
+       "@@triccster",
+       "Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Baker Mayfield",
+       "$3",
+       "@@RockMNwild",
+       "Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Broncos Den - DEF",
+       "$3",
+       "@@Wallner",
+       "Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Phillip Dorsett",
+       "$3",
+       "@@Wallner",
+       "Chum Bucket $1"
+      ],
+      [
+       "2019",
+       "Jacob Hollister",
+       "$3",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2019",
+       "Raiders LV - DEF",
+       "$3",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2019",
+       "Ravens Bal - DEF",
+       "$3",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2019",
+       "Cowboys Dal - DEF",
+       "$3",
+       "@@brettmn13",
+       "Kareem Punt $1"
+      ],
+      [
+       "2019",
+       "DJ Chark",
+       "$3",
+       "@@RockMNwild",
+       "I Fart Dutch RUDDER $1"
+      ],
+      [
+       "2020",
+       "Michael Pittman Jr.",
+       "$3",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2020",
+       "JaMycal Hasty",
+       "$3",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2014",
+       "Chiefs KC - DEF",
+       "$2",
+       "@@Wallner",
+       "Team white $1"
+      ],
+      [
+       "2015",
+       "Brandon LaFell",
+       "$2",
+       "@@J Rock",
+       "JohnsTimeIsNotNow $1"
+      ],
+      [
+       "2015",
+       "Tyler Eifert",
+       "$2",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2016",
+       "Eagles Phi - DEF",
+       "$2",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2016",
+       "Dan Bailey",
+       "$2",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2016",
+       "Titans Ten - DEF",
+       "$2",
+       "@@thecreamer",
+       "The Buster $1"
+      ],
+      [
+       "2016",
+       "Titans Ten - DEF",
+       "$2",
+       "@@Tyler",
+       "My team Sux ass $1"
+      ],
+      [
+       "2016",
+       "Eagles Phi - DEF",
+       "$2",
+       "@@Wallner",
+       "The Buzz Aldrin's $1"
+      ],
+      [
+       "2016",
+       "Cole Beasley",
+       "$2",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2017",
+       "Danny Woodhead",
+       "$2",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2017",
+       "Carson Palmer",
+       "$2",
+       "@@RockMNwild",
+       "Savage AF $1"
+      ],
+      [
+       "2017",
+       "Falcons Atl - DEF",
+       "$2",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2017",
+       "Eli Manning",
+       "$2",
+       "@@thecreamer",
+       "La Cabra $1"
+      ],
+      [
+       "2017",
+       "Dolphins Mia - DEF",
+       "$2",
+       "@@TuanonStan",
+       "La Cabra $1"
+      ],
+      [
+       "2017",
+       "Duke Johnson",
+       "$2",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2018",
+       "Randall Cobb",
+       "$2",
+       "@@butterygoop",
+       "—"
+      ],
+      [
+       "2018",
+       "Ryan Fitzpatrick",
+       "$2",
+       "@@YoungBuck04",
+       "Dutch Van Der Linde $2"
+      ],
+      [
+       "2018",
+       "Texans Hou - DEF",
+       "$2",
+       "@@RockMNwild",
+       "Trust Issues $1"
+      ],
+      [
+       "2018",
+       "Jameis Winston",
+       "$2",
+       "@@RockMNwild",
+       "—"
+      ],
+      [
+       "2018",
+       "Ryan Grant",
+       "$2",
+       "@@brettmn13",
+       "Chum Bucket $1"
+      ],
+      [
+       "2019",
+       "Raheem Mostert",
+       "$2",
+       "@@triccster",
+       "—"
+      ],
+      [
+       "2019",
+       "Wil Lutz",
+       "$2",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2019",
+       "Greg Zuerlein",
+       "$2",
+       "@@butterygoop",
+       "—"
+      ],
+      [
+       "2019",
+       "Seahawks Sea - DEF",
+       "$2",
+       "@@butterygoop",
+       "—"
+      ],
+      [
+       "2020",
+       "Bills Buf - DEF",
+       "$2",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2020",
+       "Jimmy Graham",
+       "$2",
+       "@@triccster",
+       "—"
+      ],
+      [
+       "2020",
+       "Nelson Agholor",
+       "$2",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2020",
+       "Colts Ind - DEF",
+       "$2",
+       "@@RockMNwild",
+       "Blazing Cow's $1"
+      ],
+      [
+       "2020",
+       "Dolphins Mia - DEF",
+       "$2",
+       "@@brettmn13",
+       "Christian Mingle $1"
+      ],
+      [
+       "2020",
+       "Broncos Den - DEF",
+       "$2",
+       "@@Colt45Johnson",
+       "Blazing Cow's $1"
+      ],
+      [
+       "2014",
+       "Broncos Den - DEF",
+       "$1",
+       "@@thecreamer",
+       "—"
+      ],
+      [
+       "2014",
+       "Eagles Phi - DEF",
+       "$1",
+       "@@Tyler",
+       "J Rock's Dawgs $1"
+      ],
+      [
+       "2015",
+       "Giants NYG - DEF",
+       "$1",
+       "@@Wallner",
+       "Gronk-087 $1"
+      ],
+      [
+       "2015",
+       "Karlos Williams",
+       "$1",
+       "@@YoungBuck04",
+       "Soul Power $1"
+      ],
+      [
+       "2016",
+       "C.J. Fiedorowicz",
+       "$1",
+       "@@Tyler",
+       "—"
+      ],
+      [
+       "2016",
+       "Falcons Atl - DEF",
+       "$1",
+       "@@thecreamer",
+       "InstaGraham $1"
+      ],
+      [
+       "2016",
+       "Commanders Was - DEF",
+       "$1",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2016",
+       "Jameis Winston",
+       "$1",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2017",
+       "Dede Westbrook",
+       "$1",
+       "@@Wallner",
+       "—"
+      ],
+      [
+       "2017",
+       "Vernon Davis",
+       "$1",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2017",
+       "Mohamed Sanu",
+       "$1",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2017",
+       "JuJu Smith-Schuster",
+       "$1",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2018",
+       "Ben Roethlisberger",
+       "$1",
+       "@@snelson91",
+       "—"
+      ],
+      [
+       "2018",
+       "Greg Zuerlein",
+       "$1",
+       "@@butterygoop",
+       "—"
+      ],
+      [
+       "2018",
+       "D'Onta Foreman",
+       "$1",
+       "@@YoungBuck04",
+       "—"
+      ],
+      [
+       "2018",
+       "Corey Davis",
+       "$1",
+       "@@butterygoop",
+       "Dutch Van Der Linde $1"
+      ],
+      [
+       "2018",
+       "Seahawks Sea - DEF",
+       "$1",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2018",
+       "Harrison Butker",
+       "$1",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2018",
+       "Browns Cle - DEF",
+       "$1",
+       "@@brettmn13",
+       "Mean Machine $1"
+      ],
+      [
+       "2019",
+       "Mike Boone",
+       "$1",
+       "@@triccster",
+       "—"
+      ],
+      [
+       "2019",
+       "Cowboys Dal - DEF",
+       "$1",
+       "@@RockMNwild",
+       "Fresh Cakes $1"
+      ],
+      [
+       "2020",
+       "Austin Hooper",
+       "$1",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2020",
+       "Browns Cle - DEF",
+       "$1",
+       "@@TuanonStan",
+       "—"
+      ],
+      [
+       "2020",
+       "Chargers LAC - DEF",
+       "$1",
+       "@@TuanonStan",
+       "Blazing Cow's $1"
+      ],
+      [
+       "2020",
+       "Seahawks Sea - DEF",
+       "$1",
+       "@@brettmn13",
+       "—"
+      ],
+      [
+       "2020",
+       "Chargers LAC - DEF",
+       "$1",
+       "@@brettmn13",
+       "Not Blankenships $1"
       ]
      ]
     }
