@@ -1,0 +1,84 @@
+{
+  "_readme": "Real-life NFL awards, for the season pages. Looked up 2026-11-16, not recalled. AP MVP from Wikipedia's List of NFL Most Valuable Player awards; AP Offensive Rookie of the Year from the AP wire list carried by the San Mateo Daily Journal and WTOP. Positions follow the sourced note that no non-quarterback has won MVP since Adrian Peterson in 2012. This is static history: it does not change and the build never overwrites it.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_NFL_Most_Valuable_Player_awards",
+    "https://www.smdailyjournal.com/sports/ap-nfl-offensive-rookie-of-the-year/article_5408db6f-6689-5683-bbeb-5aae49f7a1af.html",
+    "https://wtop.com/nfl/2026/02/ap-nfl-offensive-rookie-of-the-year/",
+    "https://www.foxsports.com/stories/nfl/nfl-most-valuable-player-complete-list-winners-year"
+  ],
+  "checked": "2026-11-16",
+  "seasons": {
+    "2008": {
+      "mvp": { "n": "Peyton Manning", "pos": "QB", "team": "Indianapolis Colts" },
+      "oroy": { "n": "Matt Ryan", "pos": "QB", "team": "Atlanta Falcons" }
+    },
+    "2009": {
+      "mvp": { "n": "Peyton Manning", "pos": "QB", "team": "Indianapolis Colts" },
+      "oroy": { "n": "Percy Harvin", "pos": "WR", "team": "Minnesota Vikings" }
+    },
+    "2010": {
+      "mvp": { "n": "Tom Brady", "pos": "QB", "team": "New England Patriots" },
+      "oroy": { "n": "Sam Bradford", "pos": "QB", "team": "St. Louis Rams" }
+    },
+    "2011": {
+      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
+      "oroy": { "n": "Cam Newton", "pos": "QB", "team": "Carolina Panthers" }
+    },
+    "2012": {
+      "mvp": { "n": "Adrian Peterson", "pos": "RB", "team": "Minnesota Vikings" },
+      "oroy": { "n": "Robert Griffin III", "pos": "QB", "team": "Washington" }
+    },
+    "2013": {
+      "mvp": { "n": "Peyton Manning", "pos": "QB", "team": "Denver Broncos" },
+      "oroy": { "n": "Eddie Lacy", "pos": "RB", "team": "Green Bay Packers" }
+    },
+    "2014": {
+      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
+      "oroy": { "n": "Odell Beckham Jr.", "pos": "WR", "team": "New York Giants" }
+    },
+    "2015": {
+      "mvp": { "n": "Cam Newton", "pos": "QB", "team": "Carolina Panthers" },
+      "oroy": { "n": "Todd Gurley", "pos": "RB", "team": "St. Louis Rams" }
+    },
+    "2016": {
+      "mvp": { "n": "Matt Ryan", "pos": "QB", "team": "Atlanta Falcons" },
+      "oroy": { "n": "Dak Prescott", "pos": "QB", "team": "Dallas Cowboys" }
+    },
+    "2017": {
+      "mvp": { "n": "Tom Brady", "pos": "QB", "team": "New England Patriots" },
+      "oroy": { "n": "Alvin Kamara", "pos": "RB", "team": "New Orleans Saints" }
+    },
+    "2018": {
+      "mvp": { "n": "Patrick Mahomes", "pos": "QB", "team": "Kansas City Chiefs" },
+      "oroy": { "n": "Saquon Barkley", "pos": "RB", "team": "New York Giants" }
+    },
+    "2019": {
+      "mvp": { "n": "Lamar Jackson", "pos": "QB", "team": "Baltimore Ravens" },
+      "oroy": { "n": "Kyler Murray", "pos": "QB", "team": "Arizona Cardinals" }
+    },
+    "2020": {
+      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
+      "oroy": { "n": "Justin Herbert", "pos": "QB", "team": "Los Angeles Chargers" }
+    },
+    "2021": {
+      "mvp": { "n": "Aaron Rodgers", "pos": "QB", "team": "Green Bay Packers" },
+      "oroy": { "n": "Ja'Marr Chase", "pos": "WR", "team": "Cincinnati Bengals" }
+    },
+    "2022": {
+      "mvp": { "n": "Patrick Mahomes", "pos": "QB", "team": "Kansas City Chiefs" },
+      "oroy": { "n": "Garrett Wilson", "pos": "WR", "team": "New York Jets" }
+    },
+    "2023": {
+      "mvp": { "n": "Lamar Jackson", "pos": "QB", "team": "Baltimore Ravens" },
+      "oroy": { "n": "C.J. Stroud", "pos": "QB", "team": "Houston Texans" }
+    },
+    "2024": {
+      "mvp": { "n": "Josh Allen", "pos": "QB", "team": "Buffalo Bills" },
+      "oroy": { "n": "Jayden Daniels", "pos": "QB", "team": "Washington Commanders" }
+    },
+    "2025": {
+      "mvp": { "n": "Matthew Stafford", "pos": "QB", "team": "Los Angeles Rams" },
+      "oroy": { "n": "Tetairoa McMillan", "pos": "WR", "team": "Carolina Panthers" }
+    }
+  }
+}

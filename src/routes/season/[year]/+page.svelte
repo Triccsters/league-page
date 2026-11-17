@@ -5,6 +5,7 @@
     import YourTeamBadge from '$lib/MyTeam/YourTeamBadge.svelte';
     import overviews from '$lib/data/overviews_extra.json';
     import all from '$lib/data/seasons.json';
+    import nflAwards from '$lib/data/nfl_awards.json';
 
     export let data;
     $: year = data.year;
@@ -20,6 +21,8 @@
     });
 
     $: s = all?.seasons?.[String(year)] || null;
+    // what the actual NFL handed out that year, looked up rather than recalled
+    $: nfl = (nflAwards?.seasons || {})[String(year)] || null;
     $: prose = (overviews?.seasons || {})[String(year)] || null;
     $: proseParas = !prose ? [] : (Array.isArray(prose) ? prose : String(prose).split(/\n\n+/)).filter(Boolean);
 
@@ -103,6 +106,21 @@
             <p class="note">Every one of these compares the teams of {year} against each other, under
                 that season's scoring and schedule, so unlike the all-time records they need no era
                 adjustment. Teams whose manager was never identified win them like anyone else.</p>
+            {#if nfl}
+                <div class="nfl">
+                    <span class="nt">In the actual NFL that year</span>
+                    <div class="nrow">
+                        {#if nfl.mvp}
+                            <div><b>MVP</b> {nfl.mvp.n} <small>{nfl.mvp.pos} · {nfl.mvp.team}</small></div>
+                        {/if}
+                        {#if nfl.oroy}
+                            <div><b>Offensive Rookie of the Year</b> {nfl.oroy.n}
+                                <small>{nfl.oroy.pos} · {nfl.oroy.team}</small></div>
+                        {/if}
+                    </div>
+                </div>
+            {/if}
+
             <div class="awards">
                 {#each s.awards as a}
                     <div class="aw" class:mine={ready && a.h === $myTeam}>
@@ -327,6 +345,14 @@
     .crown small { display: block; opacity: 0.8; }
 
     .yr p { line-height: 1.6; margin: 0 0 0.7em; }
+
+    .nfl { border: 1px solid rgba(52, 152, 219, 0.45); background: rgba(52, 152, 219, 0.1);
+        border-radius: 10px; padding: 0.6em 0.8em; margin-bottom: 0.7em; }
+    .nt { display: block; font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.07em;
+        opacity: 0.75; margin-bottom: 0.3em; }
+    .nrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.5em; }
+    .nrow b { display: block; font-size: 0.8em; opacity: 0.8; font-weight: 700; }
+    .nrow small { display: block; opacity: 0.7; font-size: 0.82em; }
 
     .awards { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.6em; }
     .aw { border: 1px solid rgba(127,127,127,0.28); border-radius: 10px; padding: 0.6em 0.75em; }
