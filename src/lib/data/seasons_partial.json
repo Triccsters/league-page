@@ -3,10 +3,12 @@
   "help": {
     "heading": "Were you in this season? You can fill it in",
     "intro": "If this year is still on your Yahoo account, you can hand over the whole season in about two minutes. Nothing technical, and no screenshots needed.",
+    "linkUrl": "https://football.fantasysports.yahoo.com/YEAR/f1/myleagues",
+    "linkLabel": "Open your YEAR leagues on Yahoo",
+    "linkNote": "Opens in a new tab. You need to be signed in to Yahoo; it shows the leagues on YOUR account for that year, so there is nothing to look up.",
     "steps": [
-      "Sign in to Yahoo Fantasy Football.",
-      "Go to football.fantasysports.yahoo.com/YEAR/f1/myleagues, swapping YEAR for the year above, and click the league. The number in the address bar is its league ID, and that alone is worth sending.",
-      "Open the Standings page, press Ctrl+S (Cmd+S on a Mac) and choose \"Webpage, HTML Only\". Save it anywhere.",
+      "Click the button above and find this league in the list. The number in the address bar once you open it is the league ID, and that alone is worth sending.",
+      "Open its Standings page, press Ctrl+S (Cmd+S on a Mac) and choose \"Webpage, HTML Only\". Save it anywhere.",
       "Do the same on the Draft Results page.",
       "Email T.J. those two files and the league ID."
     ],

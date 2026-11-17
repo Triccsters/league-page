@@ -123,6 +123,17 @@
                 <h2>{partialHelp.heading}</h2>
                 {#if partial.most_wanted}<p class="want">{partial.most_wanted}</p>{/if}
                 <p>{partialHelp.intro}</p>
+                {#if partialHelp.linkUrl}
+                    <p class="go">
+                        <a href={partialHelp.linkUrl.replace(/\bYEAR\b/g, String(year))}
+                           target="_blank" rel="noopener noreferrer">
+                            {(partialHelp.linkLabel || 'Open Yahoo').replace(/\bYEAR\b/g, String(year))}
+                        </a>
+                    </p>
+                    {#if partialHelp.linkNote}
+                        <p class="small">{partialHelp.linkNote.replace(/\bYEAR\b/g, String(year))}</p>
+                    {/if}
+                {/if}
                 <ol>
                     {#each partialHelp.steps as st}<li>{st.replace(/\bYEAR\b/g, String(year))}</li>{/each}
                 </ol>
@@ -444,6 +455,12 @@
     .help .small { font-size: 0.88em; opacity: 0.92; }
     .help ol { margin: 0.6em 0 0.7em; padding-left: 1.3em; line-height: 1.6; }
     .help li { margin: 0.25em 0; }
+    /* the one thing on this panel someone has to click */
+    .help .go { margin: 0.8em 0 0.3em; }
+    .help .go a { display: inline-block; background: #ffffff; color: rgb(22, 110, 60);
+        font-weight: 800; text-decoration: none; padding: 0.6em 1.1em; border-radius: 8px;
+        line-height: 1.25; }
+    .help .go a:hover { background: #eafaf1; }
     section { margin-bottom: 0.6em; }
 
     .years { display: flex; flex-wrap: wrap; gap: 0.3em; justify-content: center; margin-bottom: 0.6em; }
