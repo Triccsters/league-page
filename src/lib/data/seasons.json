@@ -16,13 +16,13 @@
     "games": 64
    },
    "champion": "DJ",
-   "runner_up": "?Broncos",
+   "runner_up": "Wallner",
    "third": "brettmn13",
    "title_game": {
     "week": 16,
     "a": "DJ",
     "pa": 100.0,
-    "b": "?Broncos",
+    "b": "Wallner",
     "pb": 77.0,
     "winner": "DJ",
     "aname": "HERE WE GO!!!!!",
@@ -110,7 +110,7 @@
      ]
     },
     {
-     "h": "?Broncos",
+     "h": "Wallner",
      "w": 8,
      "l": 6,
      "t": 0,
@@ -252,9 +252,9 @@
       "week": 15,
       "a": "brettmn13",
       "pa": 74.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 97.0,
-      "winner": "?Broncos",
+      "winner": "Wallner",
       "aname": "Indestructible",
       "bname": "Broncos"
      }
@@ -318,7 +318,7 @@
       "week": 16,
       "a": "DJ",
       "pa": 100.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 77.0,
       "winner": "DJ",
       "aname": "HERE WE GO!!!!!",
@@ -358,7 +358,7 @@
     {
      "key": "points",
      "title": "Most points",
-     "h": "?Broncos",
+     "h": "Wallner",
      "name": "Broncos",
      "detail": "1295.0 points, 92.5 a game",
      "value": 1295.0
@@ -438,7 +438,7 @@
     {
      "key": "blowout",
      "title": "Biggest blowout",
-     "h": "?Broncos",
+     "h": "Wallner",
      "name": "Broncos",
      "detail": "beat spoiler by 64.0 in week 6",
      "value": 64.0
@@ -454,7 +454,7 @@
     {
      "key": "hard_luck",
      "title": "Most points in a loss",
-     "h": "?Broncos",
+     "h": "Wallner",
      "name": "Broncos",
      "detail": "102.0 and still lost to spoiler in week 13",
      "value": 102.0
@@ -484,16 +484,16 @@
     "era": "yahoo",
     "games": 92
    },
-   "champion": "?Broncos",
+   "champion": "Wallner",
    "runner_up": "DJ",
    "third": "Tyler",
    "title_game": {
     "week": 16,
     "a": "DJ",
     "pa": 68.0,
-    "b": "?Broncos",
+    "b": "Wallner",
     "pb": 87.0,
-    "winner": "?Broncos",
+    "winner": "Wallner",
     "aname": "Vikings=SUPER BOWL",
     "bname": "Broncos"
    },
@@ -552,7 +552,7 @@
      ]
     },
     {
-     "h": "?Broncos",
+     "h": "Wallner",
      "w": 8,
      "l": 5,
      "t": 0,
@@ -734,7 +734,7 @@
      ]
     },
     {
-     "h": "?Quool",
+     "h": "Brandon",
      "w": 5,
      "l": 8,
      "t": 0,
@@ -759,7 +759,7 @@
      ]
     },
     {
-     "h": "Mitchell",
+     "h": "?Mitches bitches",
      "w": 4,
      "l": 9,
      "t": 0,
@@ -845,11 +845,11 @@
      },
      {
       "week": 14,
-      "a": "?Quool",
+      "a": "Brandon",
       "pa": 100.0,
-      "b": "Mitchell",
+      "b": "?Mitches bitches",
       "pb": 36.0,
-      "winner": "?Quool",
+      "winner": "Brandon",
       "aname": "Quool",
       "bname": "Mitches bitches"
      },
@@ -857,9 +857,9 @@
       "week": 15,
       "a": "?da best",
       "pa": 78.0,
-      "b": "Mitchell",
+      "b": "?Mitches bitches",
       "pb": 81.0,
-      "winner": "Mitchell",
+      "winner": "?Mitches bitches",
       "aname": "da best",
       "bname": "Mitches bitches"
      },
@@ -867,9 +867,9 @@
       "week": 15,
       "a": "J Rock",
       "pa": 82.0,
-      "b": "?Quool",
+      "b": "Brandon",
       "pb": 97.0,
-      "winner": "?Quool",
+      "winner": "Brandon",
       "aname": "J Rocks Dawgs",
       "bname": "Quool"
      },
@@ -897,9 +897,9 @@
       "week": 16,
       "a": "?Minnesota 69ers",
       "pa": 53.0,
-      "b": "?Quool",
+      "b": "Brandon",
       "pb": 96.0,
-      "winner": "?Quool",
+      "winner": "Brandon",
       "aname": "Minnesota 69ers",
       "bname": "Quool"
      }
@@ -909,9 +909,9 @@
       "week": 15,
       "a": "triccster",
       "pa": 65.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 76.0,
-      "winner": "?Broncos",
+      "winner": "Wallner",
       "aname": "RazzleDazzle",
       "bname": "Broncos"
      },
@@ -955,9 +955,9 @@
       "week": 16,
       "a": "DJ",
       "pa": 68.0,
-      "b": "?Broncos",
+      "b": "Wallner",
       "pb": 87.0,
-      "winner": "?Broncos",
+      "winner": "Wallner",
       "aname": "Vikings=SUPER BOWL",
       "bname": "Broncos"
      }
@@ -1083,7 +1083,7 @@
     {
      "key": "closest",
      "title": "Closest game",
-     "h": "Mitchell",
+     "h": "?Mitches bitches",
      "name": "Mitches bitches",
      "detail": "beat J Rocks Dawgs by 1.0 in week 9",
      "value": 1.0
@@ -1099,7 +1099,7 @@
     {
      "key": "cheap_win",
      "title": "Fewest points in a win",
-     "h": "Mitchell",
+     "h": "?Mitches bitches",
      "name": "Mitches bitches",
      "detail": "won with 47.0 over Minnesota 69ers in week 8",
      "value": 47.0
@@ -1244,7 +1244,7 @@
      ]
     },
     {
-     "h": "?Murphadelic",
+     "h": "Tom",
      "w": 6,
      "l": 5,
      "t": 2,
@@ -1346,7 +1346,7 @@
      ]
     },
     {
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "w": 5,
      "l": 6,
      "t": 2,
@@ -1396,7 +1396,7 @@
      ]
     },
     {
-     "h": "?bELIeve No More",
+     "h": "Colt45Johnson",
      "w": 5,
      "l": 8,
      "t": 0,
@@ -1462,7 +1462,7 @@
       "week": 14,
       "a": "TuanonStan",
       "pa": 91.0,
-      "b": "?Murphadelic",
+      "b": "Tom",
       "pb": 83.0,
       "winner": "TuanonStan",
       "aname": "Lets Hug It Out",
@@ -1474,9 +1474,9 @@
       "week": 14,
       "a": "triccster",
       "pa": 95.0,
-      "b": "?bELIeve No More",
+      "b": "Colt45Johnson",
       "pb": 96.0,
-      "winner": "?bELIeve No More",
+      "winner": "Colt45Johnson",
       "aname": "TJ Rizzle Fresh",
       "bname": "bELIeve No More"
      },
@@ -1484,9 +1484,9 @@
       "week": 14,
       "a": "?PackNation",
       "pa": 71.0,
-      "b": "?0 Breaks Given",
+      "b": "Wallner",
       "pb": 115.0,
-      "winner": "?0 Breaks Given",
+      "winner": "Wallner",
       "aname": "PackNation",
       "bname": "0 Breaks Given"
      },
@@ -1504,7 +1504,7 @@
       "week": 15,
       "a": "YoungBuck04",
       "pa": 94.0,
-      "b": "?bELIeve No More",
+      "b": "Colt45Johnson",
       "pb": 69.0,
       "winner": "YoungBuck04",
       "aname": "The Bucktactic",
@@ -1512,7 +1512,7 @@
      },
      {
       "week": 15,
-      "a": "?0 Breaks Given",
+      "a": "Wallner",
       "pa": 77.0,
       "b": "J Rock",
       "pb": 79.0,
@@ -1532,11 +1532,11 @@
      },
      {
       "week": 16,
-      "a": "?bELIeve No More",
+      "a": "Colt45Johnson",
       "pa": 60.0,
-      "b": "?0 Breaks Given",
+      "b": "Wallner",
       "pb": 105.0,
-      "winner": "?0 Breaks Given",
+      "winner": "Wallner",
       "aname": "bELIeve No More",
       "bname": "0 Breaks Given"
      }
@@ -1568,7 +1568,7 @@
       "week": 15,
       "a": "?2012 champ",
       "pa": 114.0,
-      "b": "?Murphadelic",
+      "b": "Tom",
       "pb": 103.0,
       "winner": "?2012 champ",
       "aname": "2012 champ",
@@ -1632,7 +1632,7 @@
     {
      "key": "points",
      "title": "Most points",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "1295.0 points, 99.62 a game",
      "value": 1295.0
@@ -1648,7 +1648,7 @@
     {
      "key": "toughest",
      "title": "Toughest schedule",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "1244.0 points against",
      "value": 1244.0
@@ -1672,7 +1672,7 @@
     {
      "key": "unlucky",
      "title": "Unluckiest schedule",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "5-6 with an all-play record of 88-50",
      "value": -0.1762
@@ -1696,7 +1696,7 @@
     {
      "key": "high",
      "title": "Highest single week",
-     "h": "?0 Breaks Given",
+     "h": "Wallner",
      "name": "0 Breaks Given",
      "detail": "154.0 in week 9 against 2012 champ",
      "value": 154.0
@@ -1712,7 +1712,7 @@
     {
      "key": "blowout",
      "title": "Biggest blowout",
-     "h": "?Murphadelic",
+     "h": "Tom",
      "name": "Murphadelic",
      "detail": "beat The Bucktactic by 72.0 in week 13",
      "value": 72.0
@@ -2033,7 +2033,7 @@
      ]
     },
     {
-     "h": "?suit and a TIE",
+     "h": "Tom",
      "w": 4,
      "l": 9,
      "t": 0,
@@ -2111,7 +2111,7 @@
       "week": 14,
       "a": "RockMNwild",
       "pa": 87.26,
-      "b": "?suit and a TIE",
+      "b": "Tom",
       "pb": 72.14,
       "winner": "RockMNwild",
       "aname": "the steven ridleys",
@@ -2141,7 +2141,7 @@
       "week": 15,
       "a": "TuanonStan",
       "pa": 97.64,
-      "b": "?suit and a TIE",
+      "b": "Tom",
       "pb": 80.0,
       "winner": "TuanonStan",
       "aname": "A Lifeless Corpse",
@@ -2277,7 +2277,7 @@
     {
      "key": "fewest_points",
      "title": "Fewest points",
-     "h": "?suit and a TIE",
+     "h": "Tom",
      "name": "suit and a TIE",
      "detail": "1028.42 points, 79.11 a game",
      "value": 1028.42
@@ -11687,7 +11687,7 @@
      "luck": 0.0273,
      "tops": 2,
      "streak": 2,
-     "name": "My Bench Needs a Hospital",
+     "name": "Double Shot At Love",
      "seed": 3,
      "pf_rank": 4,
      "playoff": []
@@ -11779,7 +11779,7 @@
      "luck": 0.0455,
      "tops": 0,
      "streak": 2,
-     "name": "I Got Family",
+     "name": "Granny shifting",
      "seed": 7,
      "pf_rank": 10,
      "playoff": []
@@ -11958,7 +11958,7 @@
      "key": "easiest",
      "title": "Easiest schedule",
      "h": "brettmn13",
-     "name": "I Got Family",
+     "name": "Granny shifting",
      "detail": "976.9 points against",
      "value": 976.9
     },
@@ -12006,7 +12006,7 @@
      "key": "low",
      "title": "Lowest single week",
      "h": "brettmn13",
-     "name": "I Got Family",
+     "name": "Granny shifting",
      "detail": "65.06 in week 2 against thecreamer",
      "value": 65.06
     },
