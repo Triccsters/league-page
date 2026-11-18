@@ -911,34 +911,51 @@
     },
     {
      "type": "p",
-     "text": "The league ran on Yahoo from 2008 to 2020, and the site now has a page for both 2009 and 2011, ten teams each. Those two seasons are rebuilt from public Yahoo profiles, not imported from the league, and each page says so. Brett won 2009. Who won 2011 is the one thing nobody has pinned down yet."
+     "text": "The league ran on Yahoo from 2008 to 2020, and the site now has a page for [2009](/season/2009) and [2011](/season/2011), ten teams each. Those two seasons are rebuilt from public Yahoo profiles, not imported from the league, and each page says so. Brett won 2009. Who won 2011 is the one thing nobody has pinned down yet."
     },
     {
      "type": "p",
-     "text": "Brett, Austin and J Rock, you were all in the league in the seasons around it. If you still have a Yahoo login from those years, sign in and open these. They show your own leagues for that year, nothing to look up:"
+     "text": "Brett, Austin and J Rock, you were all in the league in the seasons around it. Brett was commissioner in those early years, so he may have access to 2011 and 2009, and possibly a 2007 league that could be part of this league’s history too. If you still have a Yahoo login from then, these open your own leagues for that year. No league ID to dig up, nothing to type:"
     },
     {
      "type": "list",
      "items": [
-      "football.fantasysports.yahoo.com/2011/f1/myleagues",
-      "football.fantasysports.yahoo.com/2009/f1/myleagues"
+      "[Your 2011 Yahoo leagues](https://football.fantasysports.yahoo.com/2011/f1/myleagues)",
+      "[Your 2009 Yahoo leagues](https://football.fantasysports.yahoo.com/2009/f1/myleagues)",
+      "[Your 2007 Yahoo leagues](https://football.fantasysports.yahoo.com/2007/f1/myleagues)"
      ]
     },
     {
      "type": "p",
-     "text": "If 2011 is there, one sentence on who won it is all the site needs. If you have five minutes more, open that league's standings and draft results pages, select all, copy, and paste both into one email to T.J. No screenshots needed. 2011 is the one to check if you only have time for one."
+     "text": "If 2011 is there, one sentence on who won it is all the site needs. If you have five minutes more, open that league’s standings and draft results pages, select all, copy, and paste both into one email to T.J. No screenshots needed. 2011 is the one to check if you only have time for one. And if you still have access to any missing FL Players year, say so and we will work out how to get it into the site."
     },
     {
      "type": "p",
-     "text": "The site's history now reaches as far back as the data allows. Every season from 2008 is in, with 2009 and 2011 rebuilt as above, and the old seasons say who was who: the 2012 standings now read Tom, John, Colt and DJ where they used to read Murphadelic, 0 Breaks Given, bELIeve No More and PackNation. The second-best week on the all-time leaderboard is Colt's 201.00 in 2020 week 3, behind James's 224.06 in 2019 week 5."
+     "text": "The site’s history now reaches as far back as the data allows. Every season from 2008 is in, and the old seasons say who was who: the 2012 standings now read Tom, John, Colt and DJ where they used to read Murphadelic, 0 Breaks Given, bELIeve No More and PackNation. The second-best week on the [all-time leaderboard](/record-book) is Colt’s 201.00 in 2020 week 3, behind James’s 224.06 in 2019 week 5."
     },
     {
      "type": "p",
-     "text": "Seven old teams still have no manager attached: 2012 champ, Minnesota 69ers, Mitches bitches, The Guru's, da best, kicked out next year and vikes. If you recognize one, say so. Corrections to 2008, 2010 or 2012 are welcome too, since those came across from the Yahoo years."
+     "text": "Seven old teams still have no manager attached:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "2012 champ",
+      "Minnesota 69ers",
+      "Mitches bitches",
+      "The Guru’s",
+      "da best",
+      "kicked out next year",
+      "vikes"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "If you recognize one, say so. Every one of them has a page on the [managers page](/managers) listing each opponent they played, so names can be ruled out fast. Corrections to 2008, 2010 or 2012 are welcome too, since those came across from the Yahoo years."
     },
     {
      "type": "note",
-     "text": "Placements for 2009 and 2011 come from public profiles and stay out of the title counts and the record book until a real import happens. Brett's official titles are still 2013 and 2024."
+     "text": "Placements for 2009 and 2011 come from public profiles and stay out of the title counts and the record book until a real import happens. Brett’s official titles are still 2013 and 2024."
     }
    ]
   },
@@ -1063,284 +1080,16 @@
    "style": "article",
    "place": "after-lead",
    "label": "The what-if tracker",
-   "title": "No kickers, or a median game: where the league would stand",
-   "dek": "Two rule changes that keep coming up in the chat, tracked every week through week 10, so the numbers are here if either comes to a vote next year. The data, not a verdict.",
+   "title": "The what-if tracker, week 10 update",
+   "dek": "Two rule changes that keep coming up in the chat, tracked every week. Week 9 carried the full tables; this is what moved since.",
    "blocks": [
     {
-     "type": "h",
-     "text": "Without kickers"
-    },
-    {
      "type": "p",
-     "text": "Take both kickers out of every box score and 3 of the 60 games played so far would have gone the other way: week 2, Joey over John by 2.84 (kickers 15 to 8); week 7, Colt over John by 0.66 (kickers 8 to 4); week 9, Austin over Triccster by 1.64 (kickers 9 to 6). One more would have ended in a tie (below). John and Triccster would be in the playoff field without kickers, and Austin and Colt would be out. Mikey has the most kicker points in the league, 98.0, and Anthony the fewest, 70.0."
-    },
-    {
-     "type": "p",
-     "text": "Records that would be different without kickers: John 4-6 now, 6-4 without; Joey 6-4 now, 5-4-1 without; Triccster 4-6 now, 5-5 without; Colt 5-5 now, 4-6 without; Austin 5-5 now, 3-6-1 without. The other 7 records stay the same."
-    },
-    {
-     "type": "table",
-     "cols": [
-      "Manager",
-      "Record now",
-      "No kickers",
-      "Seed now",
-      "Seed without",
-      "Move",
-      "Kicker points"
-     ],
-     "rows": [
-      [
-       "James",
-       "8-2",
-       "8-2",
-       "1",
-       "1",
-       "same",
-       "75.0"
-      ],
-      [
-       "Anthony",
-       "7-3",
-       "7-3",
-       "2",
-       "2",
-       "same",
-       "70.0"
-      ],
-      [
-       "Buckley",
-       "6-4",
-       "6-4",
-       "3",
-       "3",
-       "same",
-       "79.0"
-      ],
-      [
-       "John",
-       "4-6",
-       "6-4",
-       "9",
-       "4",
-       "up 5",
-       "78.0"
-      ],
-      [
-       "Joey",
-       "6-4",
-       "5-4-1",
-       "4",
-       "5",
-       "down 1",
-       "71.0"
-      ],
-      [
-       "Triccster",
-       "4-6",
-       "5-5",
-       "10",
-       "6",
-       "up 4",
-       "78.0"
-      ],
-      [
-       "Brett",
-       "5-5",
-       "5-5",
-       "7",
-       "7",
-       "same",
-       "94.0"
-      ],
-      [
-       "Scott",
-       "4-6",
-       "4-6",
-       "8",
-       "8",
-       "same",
-       "87.0"
-      ],
-      [
-       "Colt",
-       "5-5",
-       "4-6",
-       "6",
-       "9",
-       "down 3",
-       "74.0"
-      ],
-      [
-       "Nase",
-       "4-6",
-       "4-6",
-       "11",
-       "10",
-       "up 1",
-       "75.0"
-      ],
-      [
-       "Austin",
-       "5-5",
-       "3-6-1",
-       "5",
-       "11",
-       "down 6",
-       "82.0"
-      ],
-      [
-       "Mikey",
-       "2-8",
-       "2-8",
-       "12",
-       "12",
-       "same",
-       "98.0"
-      ]
-     ]
-    },
-    {
-     "type": "h",
-     "text": "The tie"
-    },
-    {
-     "type": "p",
-     "text": "Week 8 would have finished level. Austin beat Joey 135.78 to 123.78, and the kickers scored 12 for Austin and 0 for Joey. Take them out and both teams finish on 123.78, a tie to the hundredth of a point. Without kickers that game goes in both records as a tie."
-    },
-    {
-     "type": "h",
-     "text": "With a median game"
-    },
-    {
-     "type": "p",
-     "text": "With a median game, every team gets a second result each week: a win for a top-six score, a loss for a bottom-six one. Brett and Scott would be in the playoff field with a median game, and Austin and Colt would be out. Anthony has the most top-half weeks, 7 of 10, and Nase the fewest, 3."
-    },
-    {
-     "type": "table",
-     "cols": [
-      "Manager",
-      "Record now",
-      "With median",
-      "Top-half weeks",
-      "Seed now",
-      "Seed with median",
-      "Move"
-     ],
-     "rows": [
-      [
-       "James",
-       "8-2",
-       "15-5",
-       "7 of 10",
-       "1",
-       "1",
-       "same"
-      ],
-      [
-       "Anthony",
-       "7-3",
-       "14-6",
-       "7 of 10",
-       "2",
-       "2",
-       "same"
-      ],
-      [
-       "Joey",
-       "6-4",
-       "12-8",
-       "6 of 10",
-       "4",
-       "3",
-       "up 1"
-      ],
-      [
-       "Scott",
-       "4-6",
-       "11-9",
-       "7 of 10",
-       "8",
-       "4",
-       "up 4"
-      ],
-      [
-       "Buckley",
-       "6-4",
-       "11-9",
-       "5 of 10",
-       "3",
-       "5",
-       "down 2"
-      ],
-      [
-       "Brett",
-       "5-5",
-       "11-9",
-       "6 of 10",
-       "7",
-       "6",
-       "up 1"
-      ],
-      [
-       "Austin",
-       "5-5",
-       "10-10",
-       "5 of 10",
-       "5",
-       "7",
-       "down 2"
-      ],
-      [
-       "Colt",
-       "5-5",
-       "9-11",
-       "4 of 10",
-       "6",
-       "8",
-       "down 2"
-      ],
-      [
-       "Triccster",
-       "4-6",
-       "8-12",
-       "4 of 10",
-       "10",
-       "9",
-       "up 1"
-      ],
-      [
-       "John",
-       "4-6",
-       "7-13",
-       "3 of 10",
-       "9",
-       "10",
-       "down 1"
-      ],
-      [
-       "Nase",
-       "4-6",
-       "7-13",
-       "3 of 10",
-       "11",
-       "11",
-       "same"
-      ],
-      [
-       "Mikey",
-       "2-8",
-       "5-15",
-       "3 of 10",
-       "12",
-       "12",
-       "same"
-      ]
-     ]
+     "text": "One update this week: Mikey has overtaken Brett for the most points from a kicker this season, 98 to 94. Anthony still has the fewest at 70, so the whole league sits inside a 28-point spread after ten weeks. No game flipped either way in week 10, and no record changed."
     },
     {
      "type": "note",
-     "text": "Through week 10, from Sleeper box scores. No kickers means kicker points are removed from both teams and nothing is added in their place, so it does not model a flex spot replacing the kicker. Seeds follow league rules: the two division winners first, then record, then points."
+     "text": "The full no-kicker and median tables ran in week 9 and stay on the site: the [standings page](/standings) has the median toggle and the [trackers page](/trackers) has the kicker file."
     }
    ]
   },

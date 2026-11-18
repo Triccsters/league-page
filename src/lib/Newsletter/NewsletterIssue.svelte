@@ -13,6 +13,7 @@
     import { onMount } from 'svelte';
     import { newsletters } from '$lib/utils/newsletters';
     import RecordWatch from '$lib/Charts/RecordWatch.svelte';
+    import Rich from '$lib/Newsletter/Rich.svelte';
 
     export let nl;      // this issue's newsletter JSON
     // names as they were spelled when this issue was written
@@ -139,23 +140,23 @@
             {#if f.dek}<p class="fdek">{f.dek}</p>{/if}
             {#each f.blocks as b}
                 {#if b.type === 'fold'}
-                    <details class="fold"><summary>{b.summary}</summary>
+                    <details class="fold"><summary><Rich t={b.summary}/></summary>
                         {#each b.blocks as b}
-                    {#if b.type === 'p'}<p>{b.text}</p>
-                    {:else if b.type === 'h'}<h4>{b.text}</h4>
-                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
-                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
-                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
                     {/if}
                 {/each}
                     </details>
                 {:else}
                     {#each [b] as b}
-                    {#if b.type === 'p'}<p>{b.text}</p>
-                    {:else if b.type === 'h'}<h4>{b.text}</h4>
-                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
-                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
-                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
                     {/if}
                 {/each}
                 {/if}
@@ -184,25 +185,25 @@
             <h3 class="sec ftitle">{f.title}</h3>
             {#if f.dek}<p class="fdek">{f.dek}</p>{/if}
             {#each gridded(f.blocks) as b}
-                {#if b.type === 'grid'}<div class="fgrid">{#each b.units as u}<div>{#each u as c}{#if c.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each c.cols as h}<th>{h}</th>{/each}</tr></thead><tbody>{#each c.rows as row}<tr>{#each row as cell, ci}<td class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>{:else}<p>{c.text}</p>{/if}{/each}</div>{/each}</div>
+                {#if b.type === 'grid'}<div class="fgrid">{#each b.units as u}<div>{#each u as c}{#if c.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each c.cols as h}<th>{h}</th>{/each}</tr></thead><tbody>{#each c.rows as row}<tr>{#each row as cell, ci}<td class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>{:else}<p><Rich t={c.text}/></p>{/if}{/each}</div>{/each}</div>
                 {:else if b.type === 'fold'}
-                    <details class="fold"><summary>{b.summary}</summary>
+                    <details class="fold"><summary><Rich t={b.summary}/></summary>
                         {#each b.blocks as b}
-                    {#if b.type === 'p'}<p>{b.text}</p>
-                    {:else if b.type === 'h'}<h4>{b.text}</h4>
-                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
-                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
-                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
                     {/if}
                 {/each}
                     </details>
                 {:else}
                     {#each [b] as b}
-                    {#if b.type === 'p'}<p>{b.text}</p>
-                    {:else if b.type === 'h'}<h4>{b.text}</h4>
-                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
-                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
-                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
                     {/if}
                 {/each}
                 {/if}
@@ -435,23 +436,23 @@
             {#if f.dek}<p class="fdek">{f.dek}</p>{/if}
             {#each f.blocks as b}
                 {#if b.type === 'fold'}
-                    <details class="fold"><summary>{b.summary}</summary>
+                    <details class="fold"><summary><Rich t={b.summary}/></summary>
                         {#each b.blocks as b}
-                    {#if b.type === 'p'}<p>{b.text}</p>
-                    {:else if b.type === 'h'}<h4>{b.text}</h4>
-                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
-                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
-                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
                     {/if}
                 {/each}
                     </details>
                 {:else}
                     {#each [b] as b}
-                    {#if b.type === 'p'}<p>{b.text}</p>
-                    {:else if b.type === 'h'}<h4>{b.text}</h4>
-                    {:else if b.type === 'note'}<p class="fnote">{b.text}</p>
-                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li>{x}</li>{/each}</ul>
-                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}>{cell}</td>{/each}</tr>{/each}</tbody></table></div>
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
                     {/if}
                 {/each}
                 {/if}
