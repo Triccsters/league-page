@@ -929,16 +929,8 @@
      "text": "If 2011 is there, one sentence on who won it is all the site needs. If you have five minutes more, open that league's standings and draft results pages, select all, copy, and paste both into one email to T.J. No screenshots needed. 2011 is the one to check if you only have time for one."
     },
     {
-     "type": "h",
-     "text": "Thanks, Austin and Colt"
-    },
-    {
      "type": "p",
-     "text": "On the November 16 episode of A Rock and a Hard Place, Austin and Colt spent a couple of minutes reading the league site on air: the all-time single-week leaderboard, the most team name changes (\"I was number 1\"), an old head-to-head result, and this newsletter. Thanks to both of you for giving it the airtime."
-    },
-    {
-     "type": "p",
-     "text": "The one complaint on the show was that the site's history did not go back far enough. It does now. Every season from 2008 is in, with 2009 and 2011 rebuilt as above, and the old seasons say who was who: the 2012 standings now read Tom, John, Colt and DJ where they used to read Murphadelic, 0 Breaks Given, bELIeve No More and PackNation. That second-best week on the leaderboard is Colt's 201.00 in 2020 week 3, behind James's 224.06 in 2019 week 5."
+     "text": "The site's history now reaches as far back as the data allows. Every season from 2008 is in, with 2009 and 2011 rebuilt as above, and the old seasons say who was who: the 2012 standings now read Tom, John, Colt and DJ where they used to read Murphadelic, 0 Breaks Given, bELIeve No More and PackNation. The second-best week on the all-time leaderboard is Colt's 201.00 in 2020 week 3, behind James's 224.06 in 2019 week 5."
     },
     {
      "type": "p",
@@ -1418,6 +1410,205 @@
     {
      "type": "note",
      "text": "Seeds by league rules: division winners first, then record, then points for."
+    }
+   ]
+  },
+  {
+   "id": "position-groups",
+   "style": "article",
+   "place": "after-lead",
+   "label": "Position groups",
+   "title": "What each spot has actually produced",
+   "dek": "Two different questions, and they give different answers. From the lineup is what a manager has banked at that spot over ten weeks, from whoever he started there, with the flex counting toward whichever position filled it. On paper is every point the roster as it sits today has scored this season, including points scored for a previous owner. The gap between them is usually the interesting part.",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      "Spot",
+      "Most from the lineup",
+      "Least from the lineup",
+      "Best room on paper (started)"
+     ],
+     "rows": [
+      [
+       "QB",
+       "Austin 297, John 234, Mikey 202",
+       "Joey 146, Nase 141",
+       "John 385 (234)"
+      ],
+      [
+       "RB",
+       "Anthony 509, Scott 420, James 412",
+       "Austin 222, T.J. 127",
+       "Buckley 512 (379)"
+      ],
+      [
+       "WR",
+       "T.J. 440, Joey 405, Austin 382",
+       "John 235, Nase 198",
+       "T.J. 639 (440)"
+      ],
+      [
+       "TE",
+       "Anthony 136, T.J. 135, Buckley 133",
+       "Brett 59, Austin 34",
+       "Scott 154 (110)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "T.J. and Austin are the two who lead at one spot and trail at another. T.J. has banked 440.4 from receiver, 35.4 clear of Joey, and 126.9 from running back, 94.9 behind eleventh. Austin has the most from quarterback at 296.5 and the least from tight end at 34.2, with the next-lowest tight end 25 points better off."
+    },
+    {
+     "type": "p",
+     "text": "Austin is also the widest gap between the two columns, twice. His tight ends have scored 132 this season and he has started 34 of it. His backs have scored 483 and he has started 222. Both are top-four rooms on paper and bottom-two in the lineup, which is a different problem from not having the players."
+    },
+    {
+     "type": "p",
+     "text": "Anthony's quarterback room reads worse than it has played: last in the league at 75 on paper, tenth at 153 from the lineup, and he is first in the league from running back at 509. John is the reverse. He has the best quarterback room on paper at 385 but has started 234 of it, and he is eleventh from receiver and tenth from tight end."
+    },
+    {
+     "type": "note",
+     "text": "Through week 10, from Sleeper box scores. From the lineup counts only players actually started that week. On paper counts every point the current roster has scored this season, whoever owned the player at the time."
+    }
+   ]
+  },
+  {
+   "id": "bye-crunch",
+   "style": "article",
+   "place": "after-lead",
+   "label": "The bye crunch",
+   "title": "Six teams are off, and it lands very unevenly",
+   "dek": "Atlanta, Cleveland, Green Bay, the Rams, New England and Seattle. What matters is not how many bodies a roster loses but how much production, so this is every rostered player on a bye team, ranked by what he has scored this season.",
+   "blocks": [
+    {
+     "type": "table",
+     "cols": [
+      "Manager",
+      "Off",
+      "Season points off",
+      "The ones that matter"
+     ],
+     "rows": [
+      [
+       "James",
+       "3",
+       "294",
+       "Bijan Robinson 180, Drake London 114"
+      ],
+      [
+       "Scott",
+       "5",
+       "289",
+       "Kyren Williams 145, Matthew Golden 127, Matthew Stafford"
+      ],
+      [
+       "Buckley",
+       "4",
+       "256",
+       "Davante Adams 87, Jordan Love 84, Blake Corum 67"
+      ],
+      [
+       "Nase",
+       "5",
+       "238",
+       "Harold Fannin Jr. 96, Quinshon Judkins 90"
+      ],
+      [
+       "Joey",
+       "4",
+       "228",
+       "Jaxon Smith-Njigba 224"
+      ],
+      [
+       "Colt",
+       "2",
+       "164",
+       "Puka Nacua 139, TreVeyon Henderson 26, both already on IR"
+      ],
+      [
+       "T.J.",
+       "1",
+       "158",
+       "Christian Watson 158"
+      ],
+      [
+       "Austin",
+       "2",
+       "101",
+       "Rhamondre Stevenson 80, Kyle Pitts 21"
+      ],
+      [
+       "Mikey",
+       "2",
+       "75",
+       "Tucker Kraft 75"
+      ],
+      [
+       "Anthony",
+       "3",
+       "69",
+       "Jason Myers 69"
+      ],
+      [
+       "John",
+       "1",
+       "68",
+       "Drake Maye 68, already listed Out"
+      ],
+      [
+       "Brett",
+       "4",
+       "42",
+       "Josh Jacobs 21, Jadarian Price 12, Zach Charbonnet 9"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "James loses the least in number and the most that matters. Bijan Robinson and Drake London are both Atlanta and both top-two on his roster, so the league leader goes into week 11 without his two best players. Joey loses the single biggest name of the week in Jaxon Smith-Njigba, 224 points on his own. Scott loses five, his quarterback among them."
+    },
+    {
+     "type": "p",
+     "text": "At the other end, count the names and Brett looks hit with four off; count the points and it is about 42, all depth. Colt is the one the bye cannot touch: his two were already on IR."
+    },
+    {
+     "type": "note",
+     "text": "Read live from the Sleeper rosters on Wednesday morning, after waivers. Kickers and defenses are counted in the player totals where the site holds them."
+    }
+   ]
+  },
+  {
+   "id": "on-ir",
+   "style": "notes",
+   "place": "after-lead",
+   "label": "On IR",
+   "title": "Who is unavailable, and who has a slot open",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "New to the newsletter this week and running every issue from here. Seven of the twelve are carrying someone in an IR slot."
+    },
+    {
+     "type": "list",
+     "items": [
+      "T.J. — Jacory Croskey-Merritt, with Wan'Dale Robinson also tagged",
+      "Colt — Puka Nacua, with Jonathon Brooks and TreVeyon Henderson tagged and Jordan Addison listed Out",
+      "Buckley — Jeremiyah Love, with Davante Adams tagged and A.J. Brown Out",
+      "Joey — Jayden Reed, with Michael Wilson tagged",
+      "James — Brian Robinson Jr.",
+      "John — RJ Harvey, with Drake Maye Out and Woody Marks doubtful",
+      "Scott — Tyrone Tracy Jr."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Brett, Mikey, Austin, Nase and Anthony have their IR slots empty."
+    },
+    {
+     "type": "note",
+     "text": "No return dates are attached to any of these, so this is a list of who is unavailable rather than a list of who is close."
     }
    ]
   }
