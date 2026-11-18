@@ -201,9 +201,9 @@
    "id": "streak_L",
    "group": "streak",
    "title": "Longest losing streak",
-   "record": "10 straight, {Wallner}, 2014 week 3 to 2014 week 12",
-   "holder": "Wallner",
-   "holder_season": 2014,
+   "record": "10 straight, {?Minnesota 69ers}, 2010 week 4 to 2010 week 13",
+   "holder": "?Minnesota 69ers",
+   "holder_season": 2010,
    "value": 10,
    "note": null,
    "status": "safe",
@@ -227,7 +227,7 @@
    "label": "career wins",
    "value": 76,
    "rank": 9,
-   "of": 17,
+   "of": 16,
    "mark": 75,
    "reached": true,
    "game": {
@@ -331,8 +331,8 @@
    "stat": "losses",
    "label": "career losses",
    "value": 104,
-   "rank": 4,
-   "of": 17,
+   "rank": 3,
+   "of": 16,
    "mark": 100,
    "reached": true,
    "game": {
@@ -342,15 +342,15 @@
     "pts": 79.16,
     "opts": 117.2
    },
-   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 4th on the all-time list."
+   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 3rd on the all-time list."
   },
   {
    "h": "TuanonStan",
    "stat": "points",
    "label": "career points",
    "value": 20924.68,
-   "rank": 5,
-   "of": 17,
+   "rank": 4,
+   "of": 16,
    "mark": 20000,
    "reached": true,
    "game": {
@@ -360,15 +360,15 @@
     "pts": 156.08,
     "opts": 88.88
    },
-   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 5th on the all-time list."
+   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 4th on the all-time list."
   },
   {
    "h": "YoungBuck04",
    "stat": "points",
    "label": "career points",
    "value": 20442.38,
-   "rank": 6,
-   "of": 17,
+   "rank": 5,
+   "of": 16,
    "mark": 20000,
    "reached": true,
    "game": {
@@ -378,144 +378,7 @@
     "pts": 135.46,
     "opts": 81.18
    },
-   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 6th on the all-time list."
-  },
-  {
-   "h": "Colt45Johnson",
-   "stat": "points",
-   "label": "career points",
-   "value": 20031.4,
-   "rank": 7,
-   "of": 17,
-   "mark": 20000,
-   "reached": true,
-   "game": {
-    "season": 2026,
-    "week": 10,
-    "opp": "triccster",
-    "pts": 75.28,
-    "opts": 99.02
-   },
-   "text": "{Colt45Johnson} reached 20,000 career points in week 10 against {triccster}. 7th on the all-time list."
-  },
-  {
-   "h": "Colt45Johnson",
-   "stat": "losses",
-   "label": "career losses",
-   "value": 99,
-   "rank": 5,
-   "of": 17,
-   "mark": 100,
-   "reached": false,
-   "away": 1,
-   "text": "{Colt45Johnson} is 1 away from 100 career losses, with 4 weeks left."
-  },
-  {
-   "h": "Colt45Johnson",
-   "stat": "wins",
-   "label": "career wins",
-   "value": 98,
-   "rank": 8,
-   "of": 17,
-   "mark": 100,
-   "reached": false,
-   "away": 2,
-   "text": "{Colt45Johnson} is 2 away from 100 career wins, with 4 weeks left.",
-   "detail": {
-    "by_season": [
-     [
-      2012,
-      5
-     ],
-     [
-      2013,
-      7
-     ],
-     [
-      2014,
-      10
-     ],
-     [
-      2015,
-      7
-     ],
-     [
-      2016,
-      4
-     ],
-     [
-      2017,
-      9
-     ],
-     [
-      2018,
-      11
-     ],
-     [
-      2019,
-      3
-     ],
-     [
-      2020,
-      7
-     ],
-     [
-      2021,
-      9
-     ],
-     [
-      2022,
-      8
-     ],
-     [
-      2023,
-      3
-     ],
-     [
-      2024,
-      7
-     ],
-     [
-      2025,
-      3
-     ],
-     [
-      2026,
-      5
-     ]
-    ],
-    "beaten_most": [
-     [
-      "RockMNwild",
-      12
-     ],
-     [
-      "triccster",
-      11
-     ],
-     [
-      "snelson91",
-      10
-     ]
-    ],
-    "biggest": {
-     "season": 2020,
-     "week": 3,
-     "opp": "snelson91",
-     "pts": 201.0,
-     "opts": 97.98,
-     "margin": 103.02
-    },
-    "closest": {
-     "season": 2026,
-     "week": 7,
-     "opp": "Wallner",
-     "pts": 88.4,
-     "opts": 87.74,
-     "margin": 0.66
-    },
-    "longest_streak": 9
-   }
+   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 5th on the all-time list."
   },
   {
    "h": "thecreamer",
@@ -523,7 +386,7 @@
    "label": "career wins",
    "value": 73,
    "rank": 10,
-   "of": 17,
+   "of": 16,
    "mark": 75,
    "reached": false,
    "away": 2,
@@ -621,44 +484,44 @@
    "stat": "losses",
    "label": "career losses",
    "value": 98,
-   "rank": 6,
-   "of": 17,
+   "rank": 4,
+   "of": 16,
    "mark": 100,
    "reached": false,
    "away": 2,
    "text": "{thecreamer} is 2 away from 100 career losses, with 4 weeks left."
   },
   {
+   "h": "Wallner",
+   "stat": "losses",
+   "label": "career losses",
+   "value": 97,
+   "rank": 5,
+   "of": 16,
+   "mark": 100,
+   "reached": false,
+   "away": 3,
+   "text": "{Wallner} is 3 away from 100 career losses, with 4 weeks left."
+  },
+  {
    "h": "YoungBuck04",
    "stat": "games",
    "label": "games played",
    "value": 197,
-   "rank": 5,
-   "of": 17,
+   "rank": 4,
+   "of": 16,
    "mark": 200,
    "reached": false,
    "away": 3,
    "text": "{YoungBuck04} is 3 away from 200 games played, with 4 weeks left."
   },
   {
-   "h": "Colt45Johnson",
-   "stat": "games",
-   "label": "games played",
-   "value": 197,
-   "rank": 6,
-   "of": 17,
-   "mark": 200,
-   "reached": false,
-   "away": 3,
-   "text": "{Colt45Johnson} is 3 away from 200 games played, with 4 weeks left."
-  },
-  {
    "h": "TuanonStan",
    "stat": "games",
    "label": "games played",
    "value": 197,
-   "rank": 7,
-   "of": 17,
+   "rank": 5,
+   "of": 16,
    "mark": 200,
    "reached": false,
    "away": 3,
@@ -676,22 +539,13 @@
    "text": "{triccster} (115) is 1 behind {brettmn13} for 2nd in career wins. Both are still playing."
   },
   {
-   "h": "YoungBuck04",
-   "over": "Wallner",
-   "stat": "wins",
-   "rank": 5,
-   "done": false,
-   "gap": 2,
-   "text": "{YoungBuck04} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
-  },
-  {
    "h": "Jbird531",
    "over": "YoungBuck04",
    "stat": "wins",
-   "rank": 6,
+   "rank": 5,
    "done": false,
    "gap": 0,
-   "text": "{Jbird531} (106) is tied with {YoungBuck04} for 6th in career wins. Both are still playing."
+   "text": "{Jbird531} (106) is tied with {YoungBuck04} for 5th in career wins. Both are still playing."
   },
   {
    "h": "PapaMidnight",
@@ -703,19 +557,6 @@
   }
  ],
  "lines": [
-  {
-   "k": "milestone",
-   "h": "Colt45Johnson",
-   "title": "20,000 career points",
-   "text": "{Colt45Johnson} reached 20,000 career points in week 10 against {triccster}. 7th on the all-time list.",
-   "week": 10
-  },
-  {
-   "k": "milestone",
-   "h": "Colt45Johnson",
-   "title": "100 career wins",
-   "text": "{Colt45Johnson} is 2 away from 100 career wins, with 4 weeks left."
-  },
   {
    "k": "milestone",
    "h": "thecreamer",
@@ -730,9 +571,9 @@
   },
   {
    "k": "pass",
-   "h": "YoungBuck04",
+   "h": "Jbird531",
    "title": "Career wins",
-   "text": "{YoungBuck04} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
+   "text": "{Jbird531} (106) is tied with {YoungBuck04} for 5th in career wins. Both are still playing."
   },
   {
    "k": "chase",
@@ -800,19 +641,19 @@
    "k": "milestone",
    "h": "RockMNwild",
    "title": "100 career losses",
-   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 4th on the all-time list."
+   "text": "{RockMNwild} reached 100 career losses in week 1 against {brettmn13}. 3rd on the all-time list."
   },
   {
    "k": "milestone",
    "h": "TuanonStan",
    "title": "20,000 career points",
-   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 5th on the all-time list."
+   "text": "{TuanonStan} reached 20,000 career points in week 3 against {Wallner}. 4th on the all-time list."
   },
   {
    "k": "milestone",
    "h": "YoungBuck04",
    "title": "20,000 career points",
-   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 6th on the all-time list."
+   "text": "{YoungBuck04} reached 20,000 career points in week 7 against {butterygoop}. 5th on the all-time list."
   },
   {
    "k": "fresh",
@@ -872,19 +713,6 @@
   "2026-w10": [
    {
     "k": "milestone",
-    "h": "Colt45Johnson",
-    "title": "20,000 career points",
-    "text": "{Colt45Johnson} reached 20,000 career points in week 10 against {triccster}. 7th on the all-time list.",
-    "week": 10
-   },
-   {
-    "k": "milestone",
-    "h": "Colt45Johnson",
-    "title": "100 career wins",
-    "text": "{Colt45Johnson} is 2 away from 100 career wins, with 4 weeks left."
-   },
-   {
-    "k": "milestone",
     "h": "thecreamer",
     "title": "75 career wins",
     "text": "{thecreamer} is 2 away from 75 career wins, with 4 weeks left."
@@ -897,9 +725,9 @@
    },
    {
     "k": "pass",
-    "h": "YoungBuck04",
+    "h": "Jbird531",
     "title": "Career wins",
-    "text": "{YoungBuck04} (106) is 2 behind {Wallner} for 5th in career wins. Both are still playing."
+    "text": "{Jbird531} (106) is tied with {YoungBuck04} for 5th in career wins. Both are still playing."
    },
    {
     "k": "chase",
@@ -907,6 +735,20 @@
     "holder": "YoungBuck04",
     "title": "Most points in a season",
     "text": "{butterygoop}: 1,208.72 so far, 120.9 a game. Needs 124.9 a game over the last 4. The record is 1,708.52 points, {YoungBuck04} in 2024."
+   },
+   {
+    "k": "chase",
+    "h": "TuanonStan",
+    "holder": "YoungBuck04",
+    "title": "Most points in a season",
+    "text": "{TuanonStan}: 1,172.7 so far, 117.3 a game. Needs 134 a game over the last 4. The record is 1,708.52 points, {YoungBuck04} in 2024."
+   },
+   {
+    "k": "chase",
+    "h": "butterygoop",
+    "holder": "Tyler",
+    "title": "Most weekly high scores in a season",
+    "text": "{butterygoop}: At 3 with 4 to play. 3 more breaks it, 2 ties it. The record is 5 weeks on top, {Tyler} in 2015 (and 2 more)."
    }
   ]
  }

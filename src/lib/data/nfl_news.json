@@ -1,8 +1,260 @@
 {
- "read_at": "2026-11-17T21:26+00:00",
+ "read_at": "2026-11-18T13:21+00:00",
  "days": 7,
  "count": 109,
  "items": [
+  {
+   "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
+   "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
+   "date": "2026-11-18",
+   "kind": "news",
+   "teams": [
+    "CHI"
+   ],
+   "named": [
+    {
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Caleb Williams"
+   ],
+   "ripple": [
+    {
+     "n": "Kyle Monangai",
+     "p": "RB",
+     "t": "CHI",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Luther Burden III",
+     "p": "WR",
+     "t": "CHI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "D'Andre Swift",
+     "p": "RB",
+     "t": "CHI",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "thecreamer"
+   ],
+   "score": 15.0
+  },
+  {
+   "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+   "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "CHI"
+   ],
+   "named": [
+    {
+     "n": "Kyle Monangai",
+     "p": "RB",
+     "t": "CHI",
+     "h": "TuanonStan"
+    }
+   ],
+   "lead": [
+    "Kyle Monangai"
+   ],
+   "ripple": [
+    {
+     "n": "Luther Burden III",
+     "p": "WR",
+     "t": "CHI",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Caleb Williams",
+     "p": "QB",
+     "t": "CHI",
+     "h": "Jbird531"
+    },
+    {
+     "n": "D'Andre Swift",
+     "p": "RB",
+     "t": "CHI",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Colston Loveland",
+     "p": "TE",
+     "t": "CHI",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Rome Odunze",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    },
+    {
+     "n": "Kalif Raymond",
+     "p": "WR",
+     "t": "CHI",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "TuanonStan",
+    "YoungBuck04",
+    "brettmn13",
+    "thecreamer"
+   ],
+   "score": 15.0
+  },
+  {
+   "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
+   "url": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
+   "date": "2026-11-17",
+   "kind": "news",
+   "teams": [
+    "NYJ"
+   ],
+   "named": [
+    {
+     "n": "Geno Smith",
+     "p": "QB",
+     "t": "NYJ",
+     "h": "Jbird531"
+    }
+   ],
+   "lead": [
+    "Geno Smith"
+   ],
+   "ripple": [
+    {
+     "n": "Omar Cooper Jr.",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "Wallner"
+    },
+    {
+     "n": "Adonai Mitchell",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Garrett Wilson",
+     "p": "WR",
+     "t": "NYJ",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Braelon Allen",
+     "p": "RB",
+     "t": "NYJ",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Breece Hall",
+     "p": "RB",
+     "t": "NYJ",
+     "h": "Jbird531"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "RockMNwild",
+    "Wallner",
+    "YoungBuck04"
+   ],
+   "score": 14.5
+  },
+  {
+   "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
+   "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "MIN"
+   ],
+   "named": [
+    {
+     "n": "Jordan Addison",
+     "p": "WR",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "lead": [
+    "Jordan Addison"
+   ],
+   "ripple": [
+    {
+     "n": "Kirk Cousins",
+     "p": "QB",
+     "t": "MIN",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Jordan Mason",
+     "p": "RB",
+     "t": "MIN",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "T.J. Hockenson",
+     "p": "TE",
+     "t": "MIN",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Aaron Jones Sr.",
+     "p": "RB",
+     "t": "MIN",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Justin Jefferson",
+     "p": "WR",
+     "t": "MIN",
+     "h": "brettmn13"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "PapaMidnight",
+    "brettmn13",
+    "butterygoop"
+   ],
+   "score": 14.5
+  },
   {
    "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
    "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
@@ -63,7 +315,99 @@
     "butterygoop",
     "snelson91"
    ],
-   "score": 16.0
+   "score": 14.0
+  },
+  {
+   "headline": "Titans put WR Wan'Dale Robinson on IR due to ankle injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50513594/titans-put-wr-wandale-robinson-ankle-ir",
+   "date": "2026-11-18",
+   "kind": "news",
+   "teams": [
+    "TEN"
+   ],
+   "named": [
+    {
+     "n": "Wan'Dale Robinson",
+     "p": "WR",
+     "t": "TEN",
+     "h": "triccster"
+    }
+   ],
+   "lead": [
+    "Wan'Dale Robinson"
+   ],
+   "ripple": [
+    {
+     "n": "Carnell Tate",
+     "p": "WR",
+     "t": "TEN",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Cam Ward",
+     "p": "QB",
+     "t": "TEN",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Tony Pollard",
+     "p": "RB",
+     "t": "TEN",
+     "h": "PapaMidnight"
+    }
+   ],
+   "managers": [
+    "PapaMidnight",
+    "TuanonStan",
+    "YoungBuck04",
+    "triccster"
+   ],
+   "score": 13.5
+  },
+  {
+   "headline": "Falcons WR Drake London cleared after being checked for concussion",
+   "url": "https://www.espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
+   "date": "2026-11-16",
+   "kind": "news",
+   "teams": [
+    "ATL"
+   ],
+   "named": [
+    {
+     "n": "Drake London",
+     "p": "WR",
+     "t": "ATL",
+     "h": "TuanonStan"
+    }
+   ],
+   "lead": [
+    "Drake London"
+   ],
+   "ripple": [
+    {
+     "n": "Brian Robinson Jr.",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Bijan Robinson",
+     "p": "RB",
+     "t": "ATL",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kyle Pitts Sr.",
+     "p": "TE",
+     "t": "ATL",
+     "h": "RockMNwild"
+    }
+   ],
+   "managers": [
+    "RockMNwild",
+    "TuanonStan"
+   ],
+   "score": 13.5
   },
   {
    "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
@@ -136,133 +480,108 @@
     "snelson91",
     "triccster"
    ],
-   "score": 15.5
+   "score": 13.5
   },
   {
-   "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
-   "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+   "headline": "Raiders TE Brock Bowers day-to-day with ankle injury",
+   "url": "https://www.espn.com/nfl/story/_/id/50501232/raiders-te-brock-bowers-avoids-major-ankle-injury-source-says",
    "date": "2026-11-16",
    "kind": "news",
    "teams": [
-    "CHI"
+    "LV"
    ],
    "named": [
     {
-     "n": "Kyle Monangai",
-     "p": "RB",
-     "t": "CHI",
-     "h": "TuanonStan"
+     "n": "Brock Bowers",
+     "p": "TE",
+     "t": "LV",
+     "h": "triccster"
     }
    ],
    "lead": [
-    "Kyle Monangai"
+    "Brock Bowers"
    ],
    "ripple": [
     {
-     "n": "Luther Burden III",
-     "p": "WR",
-     "t": "CHI",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Caleb Williams",
-     "p": "QB",
-     "t": "CHI",
-     "h": "Jbird531"
-    },
-    {
-     "n": "D'Andre Swift",
+     "n": "Ashton Jeanty",
      "p": "RB",
-     "t": "CHI",
+     "t": "LV",
+     "h": "Wallner"
+    },
+    {
+     "n": "Mike Washington Jr.",
+     "p": "RB",
+     "t": "LV",
+     "h": "Wallner"
+    },
+    {
+     "n": "Tre Tucker",
+     "p": "WR",
+     "t": "LV",
+     "h": "RockMNwild"
+    }
+   ],
+   "managers": [
+    "RockMNwild",
+    "Wallner",
+    "triccster"
+   ],
+   "score": 13.5
+  },
+  {
+   "headline": "Sources: Patriots fear Drake Maye has broken ankle, could miss rest of season",
+   "url": "https://www.espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
+   "date": "2026-11-17",
+   "kind": "news",
+   "teams": [
+    "DET",
+    "NE"
+   ],
+   "named": [
+    {
+     "n": "Drake Maye",
+     "p": "QB",
+     "t": "NE",
+     "h": "Wallner"
+    },
+    {
+     "n": "A.J. Brown",
+     "p": "WR",
+     "t": "NE",
+     "h": "YoungBuck04"
+    }
+   ],
+   "lead": [
+    "Drake Maye"
+   ],
+   "ripple": [
+    {
+     "n": "Rhamondre Stevenson",
+     "p": "RB",
+     "t": "NE",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "TreVeyon Henderson",
+     "p": "RB",
+     "t": "NE",
      "h": "Colt45Johnson"
     },
     {
-     "n": "Colston Loveland",
-     "p": "TE",
-     "t": "CHI",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Rome Odunze",
+     "n": "DeMario Douglas",
      "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Kalif Raymond",
-     "p": "WR",
-     "t": "CHI",
+     "t": "NE",
      "h": "thecreamer"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "Jbird531",
-    "TuanonStan",
+    "RockMNwild",
+    "Wallner",
     "YoungBuck04",
-    "brettmn13",
     "thecreamer"
    ],
-   "score": 15.0
-  },
-  {
-   "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
-   "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
-   "date": "2026-11-16",
-   "kind": "news",
-   "teams": [
-    "MIN"
-   ],
-   "named": [
-    {
-     "n": "Jordan Addison",
-     "p": "WR",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "Jordan Addison"
-   ],
-   "ripple": [
-    {
-     "n": "Kirk Cousins",
-     "p": "QB",
-     "t": "MIN",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Jordan Mason",
-     "p": "RB",
-     "t": "MIN",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "T.J. Hockenson",
-     "p": "TE",
-     "t": "MIN",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Aaron Jones Sr.",
-     "p": "RB",
-     "t": "MIN",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Justin Jefferson",
-     "p": "WR",
-     "t": "MIN",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "PapaMidnight",
-    "brettmn13",
-    "butterygoop"
-   ],
-   "score": 14.5
+   "score": 12.5
   },
   {
    "headline": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
@@ -321,59 +640,7 @@
     "brettmn13",
     "butterygoop"
    ],
-   "score": 14.5
-  },
-  {
-   "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
-   "url": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
-   "date": "2026-11-17",
-   "kind": "news",
-   "teams": [
-    "NYJ"
-   ],
-   "named": [
-    {
-     "n": "Geno Smith",
-     "p": "QB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    }
-   ],
-   "lead": [
-    "Geno Smith"
-   ],
-   "ripple": [
-    {
-     "n": "Omar Cooper Jr.",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "Wallner"
-    },
-    {
-     "n": "Garrett Wilson",
-     "p": "WR",
-     "t": "NYJ",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Braelon Allen",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Breece Hall",
-     "p": "RB",
-     "t": "NYJ",
-     "h": "Jbird531"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "RockMNwild",
-    "Wallner"
-   ],
-   "score": 14.0
+   "score": 12.5
   },
   {
    "headline": "Texans lose RB Woody Marks to concussion in loss to Browns",
@@ -395,6 +662,12 @@
     "Woody Marks"
    ],
    "ripple": [
+    {
+     "n": "Xavier Hutchinson",
+     "p": "WR",
+     "t": "HOU",
+     "h": "Wallner"
+    },
     {
      "n": "Tank Dell",
      "p": "WR",
@@ -427,233 +700,7 @@
     "Wallner",
     "snelson91"
    ],
-   "score": 14.0
-  },
-  {
-   "headline": "Sources: Patriots fear Drake Maye has broken ankle, could miss rest of season",
-   "url": "https://www.espn.com/nfl/story/_/id/50500352/patriots-qb-drake-maye-leg-miss-extended-sources-say",
-   "date": "2026-11-17",
-   "kind": "news",
-   "teams": [
-    "DET",
-    "NE"
-   ],
-   "named": [
-    {
-     "n": "Drake Maye",
-     "p": "QB",
-     "t": "NE",
-     "h": "Wallner"
-    },
-    {
-     "n": "A.J. Brown",
-     "p": "WR",
-     "t": "NE",
-     "h": "YoungBuck04"
-    }
-   ],
-   "lead": [
-    "Drake Maye"
-   ],
-   "ripple": [
-    {
-     "n": "Rhamondre Stevenson",
-     "p": "RB",
-     "t": "NE",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Corey Kiner",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "TreVeyon Henderson",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Hunter Henry",
-     "p": "TE",
-     "t": "NE",
-     "h": "brettmn13"
-    },
-    {
-     "n": "DeMario Douglas",
-     "p": "WR",
-     "t": "NE",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "RockMNwild",
-    "Wallner",
-    "YoungBuck04",
-    "brettmn13",
-    "thecreamer"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Falcons WR Drake London cleared after being checked for concussion",
-   "url": "https://www.espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
-   "date": "2026-11-16",
-   "kind": "news",
-   "teams": [
-    "ATL"
-   ],
-   "named": [
-    {
-     "n": "Drake London",
-     "p": "WR",
-     "t": "ATL",
-     "h": "TuanonStan"
-    }
-   ],
-   "lead": [
-    "Drake London"
-   ],
-   "ripple": [
-    {
-     "n": "Brian Robinson Jr.",
-     "p": "RB",
-     "t": "ATL",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Bijan Robinson",
-     "p": "RB",
-     "t": "ATL",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kyle Pitts Sr.",
-     "p": "TE",
-     "t": "ATL",
-     "h": "RockMNwild"
-    }
-   ],
-   "managers": [
-    "RockMNwild",
-    "TuanonStan"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Raiders TE Brock Bowers day-to-day with ankle injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50501232/raiders-te-brock-bowers-avoids-major-ankle-injury-source-says",
-   "date": "2026-11-16",
-   "kind": "news",
-   "teams": [
-    "LV"
-   ],
-   "named": [
-    {
-     "n": "Brock Bowers",
-     "p": "TE",
-     "t": "LV",
-     "h": "triccster"
-    }
-   ],
-   "lead": [
-    "Brock Bowers"
-   ],
-   "ripple": [
-    {
-     "n": "Ashton Jeanty",
-     "p": "RB",
-     "t": "LV",
-     "h": "Wallner"
-    },
-    {
-     "n": "Mike Washington Jr.",
-     "p": "RB",
-     "t": "LV",
-     "h": "Wallner"
-    },
-    {
-     "n": "Tre Tucker",
-     "p": "WR",
-     "t": "LV",
-     "h": "RockMNwild"
-    }
-   ],
-   "managers": [
-    "RockMNwild",
-    "Wallner",
-    "triccster"
-   ],
-   "score": 13.5
-  },
-  {
-   "headline": "Patriots place RB TreVeyon Henderson on IR with still unexplained illness",
-   "url": "https://www.espn.com/nfl/story/_/id/50483113/patriots-place-rb-henderson-ir-unexplained-illness",
-   "date": "2026-11-15",
-   "kind": "news",
-   "teams": [
-    "NE"
-   ],
-   "named": [
-    {
-     "n": "TreVeyon Henderson",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "TreVeyon Henderson"
-   ],
-   "ripple": [
-    {
-     "n": "Drake Maye",
-     "p": "QB",
-     "t": "NE",
-     "h": "Wallner"
-    },
-    {
-     "n": "A.J. Brown",
-     "p": "WR",
-     "t": "NE",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Rhamondre Stevenson",
-     "p": "RB",
-     "t": "NE",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Corey Kiner",
-     "p": "RB",
-     "t": "NE",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Hunter Henry",
-     "p": "TE",
-     "t": "NE",
-     "h": "brettmn13"
-    },
-    {
-     "n": "DeMario Douglas",
-     "p": "WR",
-     "t": "NE",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "RockMNwild",
-    "Wallner",
-    "YoungBuck04",
-    "brettmn13",
-    "thecreamer"
-   ],
-   "score": 13.0
+   "score": 12.5
   },
   {
    "headline": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving Eve",
@@ -726,114 +773,56 @@
    "score": 12.0
   },
   {
-   "headline": "Lions' Amon-Ra St. Brown: Germany trip one he'll 'never forget'",
-   "url": "https://www.espn.com/nfl/story/_/id/50492174/never-forget-germany-trip",
+   "headline": "Patriots place RB TreVeyon Henderson on IR with still unexplained illness",
+   "url": "https://www.espn.com/nfl/story/_/id/50483113/patriots-place-rb-henderson-ir-unexplained-illness",
    "date": "2026-11-15",
    "kind": "news",
    "teams": [
-    "DET",
     "NE"
    ],
    "named": [
     {
-     "n": "Amon-Ra St. Brown",
-     "p": "WR",
-     "t": "DET",
-     "h": "butterygoop"
-    }
-   ],
-   "lead": [
-    "Amon-Ra St. Brown"
-   ],
-   "ripple": [
-    {
-     "n": "Jared Goff",
-     "p": "QB",
-     "t": "DET",
-     "h": "triccster"
-    },
-    {
-     "n": "Jameson Williams",
-     "p": "WR",
-     "t": "DET",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Sam LaPorta",
-     "p": "TE",
-     "t": "DET",
-     "h": "snelson91"
-    },
-    {
-     "n": "Jahmyr Gibbs",
+     "n": "TreVeyon Henderson",
      "p": "RB",
-     "t": "DET",
-     "h": "snelson91"
-    }
-   ],
-   "managers": [
-    "Jbird531",
-    "butterygoop",
-    "snelson91",
-    "triccster"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "Sean McVay: Rams optimistic WR Davante Adams will return 'sooner than later'",
-   "url": "https://www.espn.com/nfl/story/_/id/50455318/mcvay-rams-optimistic-wr-adams-return-sooner-later",
-   "date": "2026-11-12",
-   "kind": "news",
-   "teams": [
-    "LAR"
-   ],
-   "named": [
-    {
-     "n": "Davante Adams",
-     "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Puka Nacua",
-     "p": "WR",
-     "t": "LAR",
+     "t": "NE",
      "h": "Colt45Johnson"
     }
    ],
    "lead": [
-    "Davante Adams"
+    "TreVeyon Henderson"
    ],
    "ripple": [
     {
-     "n": "Blake Corum",
-     "p": "RB",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Konata Mumpfield",
-     "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Matthew Stafford",
+     "n": "Drake Maye",
      "p": "QB",
-     "t": "LAR",
-     "h": "snelson91"
+     "t": "NE",
+     "h": "Wallner"
     },
     {
-     "n": "Kyren Williams",
+     "n": "A.J. Brown",
+     "p": "WR",
+     "t": "NE",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Rhamondre Stevenson",
      "p": "RB",
-     "t": "LAR",
-     "h": "snelson91"
+     "t": "NE",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "DeMario Douglas",
+     "p": "WR",
+     "t": "NE",
+     "h": "thecreamer"
     }
    ],
    "managers": [
     "Colt45Johnson",
+    "RockMNwild",
+    "Wallner",
     "YoungBuck04",
-    "snelson91"
+    "thecreamer"
    ],
    "score": 12.0
   }

@@ -62,8 +62,8 @@
   "name": "Colt",
   "photo": "https://sleepercdn.com/avatars/4504012f02d0e04aced33e35bac84c9f",
   "avatar": "https://sleepercdn.com/uploads/7da89a3e2717a39a95702f8f5dc84177.jpg",
-  "fantasyStart": 2012,
-  "bio": "Regular season since 2012: 98-99. Champion: 2014. Toughest opponent: Anthony (5-9). <a href=\"/rivalries/Colt45Johnson--butterygoop\">That rivalry</a> · <a href=\"/rivalries?who=Colt45Johnson\">All of Colt's rivalries</a>",
+  "fantasyStart": 2013,
+  "bio": "Regular season since 2013: 93-91. Champion: 2014. Toughest opponent: Anthony (5-9). <a href=\"/rivalries/Colt45Johnson--butterygoop\">That rivalry</a> · <a href=\"/rivalries?who=Colt45Johnson\">All of Colt's rivalries</a>",
   "rival": {
    "name": "Anthony",
    "link": 0,
@@ -104,8 +104,8 @@
   "name": "John",
   "photo": "https://sleepercdn.com/avatars/3b55a73b1ca6ca0e0b5dfaec192d78a0",
   "avatar": "https://sleepercdn.com/uploads/2b0dd48d8eea83850fffa76c7d456032.jpg",
-  "fantasyStart": 2008,
-  "bio": "Regular season since 2008: 108-114. Champion: 2010. Toughest opponent: James (8-13). <a href=\"/rivalries/TuanonStan--Wallner\">That rivalry</a> · <a href=\"/rivalries?who=Wallner\">All of John's rivalries</a>",
+  "fantasyStart": 2013,
+  "bio": "Regular season since 2013: 87-97. Still chasing a first title. Toughest opponent: James (8-12). <a href=\"/rivalries/TuanonStan--Wallner\">That rivalry</a> · <a href=\"/rivalries?who=Wallner\">All of John's rivalries</a>",
   "rival": {
    "name": "James",
    "link": 5,
@@ -171,26 +171,6 @@
   }
  },
  {
-  "managerID": "past-brandon",
-  "handle": "Brandon",
-  "name": "Brandon",
-  "photo": "/managers/question.jpg",
-  "avatar": "/managers/question.jpg",
-  "fantasyStart": 2010,
-  "bio": "Played in 2010. Regular season: 5-8. Toughest opponent: Tyler (0-2). No longer in the league.",
-  "past": true,
-  "lastSeason": 2010,
-  "lastTeamName": "Quool",
-  "seasonsPlayed": [
-   2010
-  ],
-  "rival": {
-   "name": "Tyler",
-   "link": null,
-   "image": "/managers/everyone.png"
-  }
- },
- {
   "managerID": "past-dj",
   "handle": "DJ",
   "name": "DJ",
@@ -234,27 +214,6 @@
   ],
   "rival": {
    "name": "T.J.",
-   "link": null,
-   "image": "/managers/everyone.png"
-  }
- },
- {
-  "managerID": "past-tom",
-  "handle": "Tom",
-  "name": "Tom",
-  "photo": "/managers/question.jpg",
-  "avatar": "/managers/question.jpg",
-  "fantasyStart": 2012,
-  "bio": "Played from 2012 to 2013. Regular season: 10-14. Toughest opponent: Tyler (0-3). No longer in the league.",
-  "past": true,
-  "lastSeason": 2013,
-  "lastTeamName": "suit and a TIE",
-  "seasonsPlayed": [
-   2012,
-   2013
-  ],
-  "rival": {
-   "name": "Tyler",
    "link": null,
    "image": "/managers/everyone.png"
   }
