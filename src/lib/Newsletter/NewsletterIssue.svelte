@@ -496,6 +496,37 @@
         </section>
     {/if}
 
+    {#each (nl.features || []).filter((f) => f.place === 'end') as f (f.id)}
+        <section class="feature {f.style}" id="f-{f.id}">
+            {#if f.label}<div class="flabel">{f.label}</div>{/if}
+            <h3 class="sec ftitle">{f.title}</h3>
+            {#if f.dek}<p class="fdek">{f.dek}</p>{/if}
+            {#each gridded(f.blocks) as b}
+                {#if b.type === 'fold'}
+                    <details class="fold"><summary><Rich t={b.summary}/></summary>
+                        {#each b.blocks as b}
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
+                    {/if}
+                {/each}
+                    </details>
+                {:else}
+                    {#each [b] as b}
+                    {#if b.type === 'p'}<p><Rich t={b.text}/></p>
+                    {:else if b.type === 'h'}<h4><Rich t={b.text}/></h4>
+                    {:else if b.type === 'note'}<p class="fnote"><Rich t={b.text}/></p>
+                    {:else if b.type === 'list'}<ul>{#each b.items as x}<li><Rich t={x}/></li>{/each}</ul>
+                    {:else if b.type === 'table'}<div class="ftw"><table class="ft"><thead><tr>{#each b.cols as c}<th>{c}</th>{/each}</tr></thead><tbody>{#each b.rows as row}<tr>{#each row as cell, ci}<td class:mv-up={String(cell).startsWith('▲')} class:mv-down={String(cell).startsWith('▼')} class:c0={ci === 0}><Rich t={cell}/></td>{/each}</tr>{/each}</tbody></table></div>
+                    {/if}
+                {/each}
+                {/if}
+            {/each}
+        </section>
+    {/each}
+
     {#if nl.links?.length}
         <section>
             <h3 class="sec">Around the site</h3>
