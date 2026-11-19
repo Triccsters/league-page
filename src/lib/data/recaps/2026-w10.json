@@ -3,7 +3,7 @@
  "week": 10,
  "slug": "2026-w10",
  "title": "Week 10 recap",
- "generated": "2026-11-18T13:20:40+00:00",
+ "generated": "2026-11-19T13:20:51+00:00",
  "intro": "",
  "video": "",
  "notes": [],
@@ -223,7 +223,7 @@
    },
    "loser": {
     "manager": "brettmn13",
-    "team": "I Got Family",
+    "team": "Granny shifting",
     "points": 121.68,
     "optimal": 123.18,
     "left_on_bench": 1.5,
@@ -470,8 +470,8 @@
     }
    ],
    "h2h_before": [
-    8,
-    12
+    9,
+    13
    ]
   },
   {
@@ -618,14 +618,14 @@
    "cost_decisive": [],
    "won_despite": [],
    "h2h_before": [
-    9,
-    7
+    11,
+    8
    ]
   },
   {
    "winner": {
     "manager": "YoungBuck04",
-    "team": "My Bench Needs a Hospital",
+    "team": "Double Shot At Love",
     "points": 138.8,
     "optimal": 150.6,
     "left_on_bench": 11.8,
@@ -1167,7 +1167,7 @@
    },
    "loser": {
     "manager": "brettmn13",
-    "team": "I Got Family",
+    "team": "Granny shifting",
     "points": 121.68,
     "optimal": 123.18,
     "left_on_bench": 1.5,

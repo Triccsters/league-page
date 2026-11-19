@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T13:21:05+00:00",
+ "generated": "2026-11-19T13:21:17+00:00",
  "season": 2026,
  "week": 11,
  "playoff": false,
@@ -7,7 +7,7 @@
   {
    "a": "butterygoop",
    "b": "RockMNwild",
-   "a_win": 57.0,
+   "a_win": 56.6,
    "rec": {
     "butterygoop": [
      7,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "butterygoop": 118.41,
-    "RockMNwild": 112.91
+    "butterygoop": 118.37,
+    "RockMNwild": 113.12
    },
    "h2h": {
     "butterygoop": 3,
@@ -62,9 +62,9 @@
    ],
    "nfl": [
     {
-     "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
-     "url": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
-     "date": "2026-11-17",
+     "headline": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
+     "url": "https://www.espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
+     "date": "2026-11-18",
      "both": false,
      "score": 14.5,
      "touches": {
@@ -78,16 +78,26 @@
      }
     },
     {
-     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
-     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
-     "date": "2026-11-16",
+     "headline": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50524576/rb-skattebo-nix-backflips-wake-hutchinson-injury",
+     "date": "2026-11-18",
      "both": false,
-     "score": 14.5,
+     "score": 14.0,
      "touches": {
       "butterygoop": [
        {
-        "n": "Kirk Cousins",
+        "n": "J.J. McCarthy",
         "p": "QB",
+        "how": "ripple"
+       },
+       {
+        "n": "Malik Nabers",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Isaiah Likely",
+        "p": "TE",
         "how": "ripple"
        }
       ]
@@ -110,16 +120,16 @@
      }
     },
     {
-     "headline": "Falcons WR Drake London cleared after being checked for concussion",
-     "url": "https://www.espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
+     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
+     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
      "date": "2026-11-16",
      "both": false,
-     "score": 13.5,
+     "score": 12.5,
      "touches": {
-      "RockMNwild": [
+      "butterygoop": [
        {
-        "n": "Kyle Pitts Sr.",
-        "p": "TE",
+        "n": "Kirk Cousins",
+        "p": "QB",
         "how": "ripple"
        }
       ]
@@ -130,7 +140,7 @@
   {
    "a": "TuanonStan",
    "b": "thecreamer",
-   "a_win": 76.4,
+   "a_win": 77.3,
    "rec": {
     "TuanonStan": [
      8,
@@ -158,8 +168,8 @@
     ]
    },
    "proj": {
-    "TuanonStan": 112.96,
-    "thecreamer": 90.35
+    "TuanonStan": 113.47,
+    "thecreamer": 89.92
    },
    "h2h": {
     "TuanonStan": 8,
@@ -216,7 +226,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
      "date": "2026-11-16",
      "both": true,
-     "score": 15.0,
+     "score": 13.0,
      "touches": {
       "TuanonStan": [
        {
@@ -240,15 +250,15 @@
      }
     },
     {
-     "headline": "Titans put WR Wan'Dale Robinson on IR due to ankle injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50513594/titans-put-wr-wandale-robinson-ankle-ir",
-     "date": "2026-11-18",
+     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
+     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
+     "date": "2026-11-19",
      "both": false,
-     "score": 13.5,
+     "score": 14.5,
      "touches": {
       "TuanonStan": [
        {
-        "n": "Carnell Tate",
+        "n": "Tank Dell",
         "p": "WR",
         "how": "ripple"
        }
@@ -256,26 +266,16 @@
      }
     },
     {
-     "headline": "Falcons WR Drake London cleared after being checked for concussion",
-     "url": "https://www.espn.com/nfl/story/_/id/50503127/falcons-drake-london-cleared-being-checked-concussion",
-     "date": "2026-11-16",
+     "headline": "49ers WR Mike Evans' Achilles tendinitis injury explained",
+     "url": "https://www.espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
+     "date": "2026-11-17",
      "both": false,
-     "score": 13.5,
+     "score": 12.0,
      "touches": {
       "TuanonStan": [
        {
-        "n": "Drake London",
-        "p": "WR",
-        "how": "named"
-       },
-       {
-        "n": "Brian Robinson Jr.",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Bijan Robinson",
-        "p": "RB",
+        "n": "George Kittle",
+        "p": "TE",
         "how": "ripple"
        }
       ]
@@ -286,7 +286,7 @@
   {
    "a": "Jbird531",
    "b": "Colt45Johnson",
-   "a_win": 37.1,
+   "a_win": 36.2,
    "rec": {
     "Jbird531": [
      6,
@@ -314,8 +314,8 @@
     ]
    },
    "proj": {
-    "Jbird531": 94.69,
-    "Colt45Johnson": 105.05
+    "Jbird531": 94.67,
+    "Colt45Johnson": 105.74
    },
    "h2h": {
     "Jbird531": 7,
@@ -363,22 +363,22 @@
      }
     },
     {
-     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
-     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
-     "date": "2026-11-16",
+     "headline": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
+     "url": "https://www.espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
+     "date": "2026-11-18",
      "both": true,
-     "score": 15.0,
+     "score": 14.5,
      "touches": {
       "Jbird531": [
        {
-        "n": "Caleb Williams",
-        "p": "QB",
+        "n": "Rachaad White",
+        "p": "RB",
         "how": "ripple"
        }
       ],
       "Colt45Johnson": [
        {
-        "n": "D'Andre Swift",
+        "n": "Austin Ekeler",
         "p": "RB",
         "how": "ripple"
        }
@@ -409,25 +409,22 @@
      }
     },
     {
-     "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
-     "url": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
-     "date": "2026-11-17",
-     "both": false,
-     "score": 14.5,
+     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 13.0,
      "touches": {
       "Jbird531": [
        {
-        "n": "Geno Smith",
+        "n": "Caleb Williams",
         "p": "QB",
-        "how": "named"
-       },
-       {
-        "n": "Braelon Allen",
-        "p": "RB",
         "how": "ripple"
-       },
+       }
+      ],
+      "Colt45Johnson": [
        {
-        "n": "Breece Hall",
+        "n": "D'Andre Swift",
         "p": "RB",
         "how": "ripple"
        }
@@ -439,7 +436,7 @@
   {
    "a": "Wallner",
    "b": "brettmn13",
-   "a_win": 45.5,
+   "a_win": 46.4,
    "rec": {
     "Wallner": [
      4,
@@ -467,13 +464,13 @@
     ]
    },
    "proj": {
-    "Wallner": 101.44,
-    "brettmn13": 105.03
+    "Wallner": 102.09,
+    "brettmn13": 104.96
    },
    "h2h": {
-    "Wallner": 8,
-    "brettmn13": 5,
-    "games": 13
+    "Wallner": 12,
+    "brettmn13": 6,
+    "games": 18
    },
    "streak": [
     "Wallner",
@@ -507,25 +504,30 @@
      }
     },
     {
-     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
-     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
-     "date": "2026-11-16",
+     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
+     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
+     "date": "2026-11-19",
      "both": false,
-     "score": 15.0,
+     "score": 14.5,
      "touches": {
-      "brettmn13": [
+      "Wallner": [
        {
-        "n": "Colston Loveland",
-        "p": "TE",
+        "n": "Woody Marks",
+        "p": "RB",
+        "how": "named"
+       },
+       {
+        "n": "Xavier Hutchinson",
+        "p": "WR",
         "how": "ripple"
        }
       ]
      }
     },
     {
-     "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
-     "url": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
-     "date": "2026-11-17",
+     "headline": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
+     "url": "https://www.espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
+     "date": "2026-11-18",
      "both": false,
      "score": 14.5,
      "touches": {
@@ -539,20 +541,15 @@
      }
     },
     {
-     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
-     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
      "date": "2026-11-16",
      "both": false,
-     "score": 14.5,
+     "score": 14.0,
      "touches": {
       "brettmn13": [
        {
-        "n": "Aaron Jones Sr.",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Justin Jefferson",
+        "n": "Rashee Rice",
         "p": "WR",
         "how": "ripple"
        }
@@ -564,7 +561,7 @@
   {
    "a": "triccster",
    "b": "YoungBuck04",
-   "a_win": 49.1,
+   "a_win": 48.6,
    "rec": {
     "triccster": [
      4,
@@ -592,8 +589,8 @@
     ]
    },
    "proj": {
-    "triccster": 104.83,
-    "YoungBuck04": 105.53
+    "triccster": 104.42,
+    "YoungBuck04": 105.51
    },
    "h2h": {
     "triccster": 5,
@@ -616,23 +613,33 @@
    "flags": [],
    "nfl": [
     {
-     "headline": "Titans put WR Wan'Dale Robinson on IR due to ankle injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50513594/titans-put-wr-wandale-robinson-ankle-ir",
+     "headline": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
+     "url": "https://www.espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
      "date": "2026-11-18",
      "both": true,
-     "score": 13.5,
+     "score": 14.5,
      "touches": {
       "triccster": [
        {
-        "n": "Wan'Dale Robinson",
-        "p": "WR",
+        "n": "Jayden Daniels",
+        "p": "QB",
         "how": "named"
+       },
+       {
+        "n": "Jacory Croskey-Merritt",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
+        "how": "ripple"
        }
       ],
       "YoungBuck04": [
        {
-        "n": "Cam Ward",
-        "p": "QB",
+        "n": "Antonio Williams",
+        "p": "WR",
         "how": "ripple"
        }
       ]
@@ -662,29 +669,6 @@
      }
     },
     {
-     "headline": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving Eve",
-     "url": "https://www.espn.com/nfl/story/_/id/50504228/lafleur-plans-parsons-return-thanksgiving-eve",
-     "date": "2026-11-16",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "triccster": [
-       {
-        "n": "Christian Watson",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "YoungBuck04": [
-       {
-        "n": "Jordan Love",
-        "p": "QB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
      "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
      "date": "2026-11-18",
@@ -699,13 +683,29 @@
        }
       ]
      }
+    },
+    {
+     "headline": "Jets QB Geno Smith (ankle) intends to play vs. Chargers: 'That's the plan'",
+     "url": "https://www.espn.com/mlb/story/_/id/50523800/jets-qb-geno-smith-ankle-intends-play-vs-chargers",
+     "date": "2026-11-18",
+     "both": false,
+     "score": 14.5,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Adonai Mitchell",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
     }
    ]
   },
   {
    "a": "PapaMidnight",
    "b": "snelson91",
-   "a_win": 45.9,
+   "a_win": 46.4,
    "rec": {
     "PapaMidnight": [
      2,
@@ -733,8 +733,8 @@
     ]
    },
    "proj": {
-    "PapaMidnight": 105.92,
-    "snelson91": 109.17
+    "PapaMidnight": 105.61,
+    "snelson91": 108.43
    },
    "h2h": {
     "PapaMidnight": 6,
@@ -756,6 +756,52 @@
    },
    "flags": [],
    "nfl": [
+    {
+     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
+     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
+     "date": "2026-11-19",
+     "both": true,
+     "score": 14.5,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Nico Collins",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "snelson91": [
+       {
+        "n": "David Montgomery",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50524576/rb-skattebo-nix-backflips-wake-hutchinson-injury",
+     "date": "2026-11-18",
+     "both": true,
+     "score": 14.0,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Cam Skattebo",
+        "p": "RB",
+        "how": "named"
+       }
+      ],
+      "snelson91": [
+       {
+        "n": "Tyrone Tracy Jr.",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
     {
      "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
      "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
@@ -790,73 +836,17 @@
      }
     },
     {
-     "headline": "Texans lose RB Woody Marks to concussion in loss to Browns",
-     "url": "https://www.espn.com/nfl/story/_/id/50493317/texans-lose-rb-woody-marks-concussion-browns",
-     "date": "2026-11-15",
-     "both": true,
-     "score": 12.5,
-     "touches": {
-      "PapaMidnight": [
-       {
-        "n": "Nico Collins",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "snelson91": [
-       {
-        "n": "David Montgomery",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Packers' Matt LaFleur still plans on Micah Parsons to return on Thanksgiving Eve",
-     "url": "https://www.espn.com/nfl/story/_/id/50504228/lafleur-plans-parsons-return-thanksgiving-eve",
-     "date": "2026-11-16",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "PapaMidnight": [
-       {
-        "n": "MarShawn Lloyd",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Tucker Kraft",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ],
-      "snelson91": [
-       {
-        "n": "Matthew Golden",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Kaleb Johnson",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
-     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
      "date": "2026-11-16",
      "both": false,
-     "score": 14.5,
+     "score": 14.0,
      "touches": {
-      "PapaMidnight": [
+      "snelson91": [
        {
-        "n": "Jordan Mason",
-        "p": "RB",
-        "how": "ripple"
+        "n": "Patrick Mahomes",
+        "p": "QB",
+        "how": "named"
        }
       ]
      }
@@ -867,6 +857,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-18T13:21+00:00",
+ "nfl_read_at": "2026-11-19T13:21+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
