@@ -11756,7 +11756,7 @@
      "luck": 0.0182,
      "tops": 1,
      "streak": 2,
-     "name": "Grim Reaper’s Side Piece",
+     "name": "Bite Marks",
      "seed": 6,
      "pf_rank": 7,
      "playoff": []
@@ -11825,7 +11825,7 @@
      "luck": -0.0818,
      "tops": 0,
      "streak": 2,
-     "name": "Still PA Sponge",
+     "name": "Woody Marks Purdy Cooks",
      "seed": 9,
      "pf_rank": 6,
      "playoff": []
@@ -11950,7 +11950,7 @@
      "key": "toughest",
      "title": "Toughest schedule",
      "h": "Wallner",
-     "name": "Still PA Sponge",
+     "name": "Woody Marks Purdy Cooks",
      "detail": "1119.12 points against",
      "value": 1119.12
     },
@@ -11999,7 +11999,7 @@
      "title": "Highest single week",
      "h": "butterygoop",
      "name": "SmithHurtsBrownDickTutes",
-     "detail": "167.82 in week 1 against Still PA Sponge",
+     "detail": "167.82 in week 1 against Woody Marks Purdy Cooks",
      "value": 167.82
     },
     {
@@ -12015,15 +12015,15 @@
      "title": "Biggest blowout",
      "h": "TuanonStan",
      "name": "“Winnings winning”",
-     "detail": "beat Still PA Sponge by 67.2 in week 3",
+     "detail": "beat Woody Marks Purdy Cooks by 67.2 in week 3",
      "value": 67.2
     },
     {
      "key": "closest",
      "title": "Closest game",
      "h": "Colt45Johnson",
-     "name": "Grim Reaper’s Side Piece",
-     "detail": "beat Still PA Sponge by 0.66 in week 7",
+     "name": "Bite Marks",
+     "detail": "beat Woody Marks Purdy Cooks by 0.66 in week 7",
      "value": 0.66
     },
     {
@@ -12031,7 +12031,7 @@
      "title": "Most points in a loss",
      "h": "snelson91",
      "name": "LaPorta Potty",
-     "detail": "138.24 and still lost to Grim Reaper’s Side Piece in week 5",
+     "detail": "138.24 and still lost to Bite Marks in week 5",
      "value": 138.24
     },
     {

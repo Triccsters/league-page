@@ -114,7 +114,7 @@
    },
    {
     "when": "2026",
-    "name": "Grim Reaper’s Side Piece"
+    "name": "Bite Marks"
    },
    {
     "when": "2026 (wk 5)",
@@ -123,6 +123,10 @@
    {
     "when": "2026 (wk 9)",
     "name": "Grim Reaper’s Side Piece"
+   },
+   {
+    "when": "2026 (wk 10)",
+    "name": "Bite Marks"
    }
   ],
   "DJ": [
@@ -504,7 +508,15 @@
    },
    {
     "when": "2026",
+    "name": "Woody Marks Purdy Cooks"
+   },
+   {
+    "when": "2026 (wk 5)",
     "name": "Still PA Sponge"
+   },
+   {
+    "when": "2026 (wk 10)",
+    "name": "Woody Marks Purdy Cooks"
    }
   ],
   "YoungBuck04": [

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:21:17+00:00",
+ "generated": "2026-11-20T13:21:10+00:00",
  "season": 2026,
  "week": 11,
  "playoff": false,
@@ -7,7 +7,7 @@
   {
    "a": "butterygoop",
    "b": "RockMNwild",
-   "a_win": 56.6,
+   "a_win": 56.7,
    "rec": {
     "butterygoop": [
      7,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "butterygoop": 118.37,
-    "RockMNwild": 113.12
+    "butterygoop": 117.18,
+    "RockMNwild": 111.84
    },
    "h2h": {
     "butterygoop": 3,
@@ -108,7 +108,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
      "date": "2026-11-16",
      "both": false,
-     "score": 14.0,
+     "score": 13.0,
      "touches": {
       "butterygoop": [
        {
@@ -120,9 +120,9 @@
      }
     },
     {
-     "headline": "Vikings WR Jordan Addison needs thumb surgery, is candidate for IR",
-     "url": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
-     "date": "2026-11-16",
+     "headline": "Vikings' Cousins channeling Dantonio's 'slow down' maxim amid whirlwind month",
+     "url": "https://www.espn.com/nfl/story/_/id/50532748/vikings-cousins-channeling-dantonio-maxim-amid-whirlwind-month",
+     "date": "2026-11-19",
      "both": false,
      "score": 12.5,
      "touches": {
@@ -130,153 +130,7 @@
        {
         "n": "Kirk Cousins",
         "p": "QB",
-        "how": "ripple"
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "a": "TuanonStan",
-   "b": "thecreamer",
-   "a_win": 77.3,
-   "rec": {
-    "TuanonStan": [
-     8,
-     2
-    ],
-    "thecreamer": [
-     4,
-     6
-    ]
-   },
-   "avg": {
-    "TuanonStan": 117.27,
-    "thecreamer": 93.15
-   },
-   "last3": {
-    "TuanonStan": [
-     103.66,
-     126.76,
-     101.24
-    ],
-    "thecreamer": [
-     79.86,
-     83.84,
-     76.0
-    ]
-   },
-   "proj": {
-    "TuanonStan": 113.47,
-    "thecreamer": 89.92
-   },
-   "h2h": {
-    "TuanonStan": 8,
-    "thecreamer": 7,
-    "games": 15
-   },
-   "streak": [
-    "thecreamer",
-    1
-   ],
-   "last": {
-    "season": 2025,
-    "week": 15,
-    "label": "Consolation R1",
-    "score": {
-     "TuanonStan": 100.34,
-     "thecreamer": 119.42
-    }
-   },
-   "flags": [
-    "Upset watch: {thecreamer} is the underdog"
-   ],
-   "nfl": [
-    {
-     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-     "date": "2026-11-18",
-     "both": true,
-     "score": 15.0,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Kyle Monangai",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ],
-      "thecreamer": [
-       {
-        "n": "Rome Odunze",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Kalif Raymond",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
-     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
-     "date": "2026-11-16",
-     "both": true,
-     "score": 13.0,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Kyle Monangai",
-        "p": "RB",
         "how": "named"
-       }
-      ],
-      "thecreamer": [
-       {
-        "n": "Rome Odunze",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Kalif Raymond",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
-     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
-     "date": "2026-11-19",
-     "both": false,
-     "score": 14.5,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Tank Dell",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "49ers WR Mike Evans' Achilles tendinitis injury explained",
-     "url": "https://www.espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
-     "date": "2026-11-17",
-     "both": false,
-     "score": 12.0,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "George Kittle",
-        "p": "TE",
-        "how": "ripple"
        }
       ]
      }
@@ -286,7 +140,7 @@
   {
    "a": "Jbird531",
    "b": "Colt45Johnson",
-   "a_win": 36.2,
+   "a_win": 41.0,
    "rec": {
     "Jbird531": [
      6,
@@ -314,8 +168,8 @@
     ]
    },
    "proj": {
-    "Jbird531": 94.67,
-    "Colt45Johnson": 105.74
+    "Jbird531": 97.43,
+    "Colt45Johnson": 104.62
    },
    "h2h": {
     "Jbird531": 7,
@@ -340,34 +194,11 @@
    ],
    "nfl": [
     {
-     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-     "date": "2026-11-18",
-     "both": true,
-     "score": 15.0,
-     "touches": {
-      "Jbird531": [
-       {
-        "n": "Caleb Williams",
-        "p": "QB",
-        "how": "named"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "D'Andre Swift",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
      "url": "https://www.espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
      "date": "2026-11-18",
      "both": true,
-     "score": 14.5,
+     "score": 15.0,
      "touches": {
       "Jbird531": [
        {
@@ -386,23 +217,23 @@
      }
     },
     {
-     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
-     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
-     "date": "2026-11-16",
+     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
+     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
+     "date": "2026-11-18",
      "both": true,
-     "score": 14.0,
+     "score": 13.0,
      "touches": {
       "Jbird531": [
        {
-        "n": "Josh Downs",
-        "p": "WR",
+        "n": "Caleb Williams",
+        "p": "QB",
         "how": "named"
        }
       ],
       "Colt45Johnson": [
        {
-        "n": "Travis Kelce",
-        "p": "TE",
+        "n": "D'Andre Swift",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -430,13 +261,36 @@
        }
       ]
      }
+    },
+    {
+     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
+     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "Jbird531": [
+       {
+        "n": "Josh Downs",
+        "p": "WR",
+        "how": "named"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Travis Kelce",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
     }
    ]
   },
   {
    "a": "Wallner",
    "b": "brettmn13",
-   "a_win": 46.4,
+   "a_win": 46.1,
    "rec": {
     "Wallner": [
      4,
@@ -464,8 +318,8 @@
     ]
    },
    "proj": {
-    "Wallner": 102.09,
-    "brettmn13": 104.96
+    "Wallner": 100.74,
+    "brettmn13": 103.83
    },
    "h2h": {
     "Wallner": 12,
@@ -487,22 +341,6 @@
    },
    "flags": [],
    "nfl": [
-    {
-     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-     "date": "2026-11-18",
-     "both": false,
-     "score": 15.0,
-     "touches": {
-      "brettmn13": [
-       {
-        "n": "Colston Loveland",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
     {
      "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
      "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
@@ -541,15 +379,199 @@
      }
     },
     {
-     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
-     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
-     "date": "2026-11-16",
+     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
+     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
+     "date": "2026-11-18",
      "both": false,
-     "score": 14.0,
+     "score": 13.0,
      "touches": {
       "brettmn13": [
        {
-        "n": "Rashee Rice",
+        "n": "Colston Loveland",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+     "date": "2026-11-16",
+     "both": false,
+     "score": 13.0,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Colston Loveland",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "TuanonStan",
+   "b": "thecreamer",
+   "a_win": 69.0,
+   "rec": {
+    "TuanonStan": [
+     8,
+     2
+    ],
+    "thecreamer": [
+     4,
+     6
+    ]
+   },
+   "avg": {
+    "TuanonStan": 117.27,
+    "thecreamer": 93.15
+   },
+   "last3": {
+    "TuanonStan": [
+     103.66,
+     126.76,
+     101.24
+    ],
+    "thecreamer": [
+     79.86,
+     83.84,
+     76.0
+    ]
+   },
+   "proj": {
+    "TuanonStan": 111.84,
+    "thecreamer": 96.25
+   },
+   "h2h": {
+    "TuanonStan": 8,
+    "thecreamer": 7,
+    "games": 15
+   },
+   "streak": [
+    "thecreamer",
+    1
+   ],
+   "last": {
+    "season": 2025,
+    "week": 15,
+    "label": "Consolation R1",
+    "score": {
+     "TuanonStan": 100.34,
+     "thecreamer": 119.42
+    }
+   },
+   "flags": [],
+   "nfl": [
+    {
+     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
+     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
+     "date": "2026-11-18",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Kyle Monangai",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "thecreamer": [
+       {
+        "n": "Rome Odunze",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Kalif Raymond",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bears RB Kyle Monangai says he's 'on track' to return Sunday against Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50505407/bears-rb-kyle-monangai-says-track-return-sunday",
+     "date": "2026-11-16",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Kyle Monangai",
+        "p": "RB",
+        "how": "named"
+       }
+      ],
+      "thecreamer": [
+       {
+        "n": "Rome Odunze",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Kalif Raymond",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Texans lose Chris Braswell to serious-looking knee injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50536083/texans-lose-chris-braswell-serious-looking-knee-injury",
+     "date": "2026-11-20",
+     "both": true,
+     "score": 12.0,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Tank Dell",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Seth McGowan",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "thecreamer": [
+       {
+        "n": "Jonathan Taylor",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bears' Jeffery Simmons says knee injury a non-issue, expects to play vs. Saints",
+     "url": "https://www.espn.com/nfl/story/_/id/50535411/bears-jeffery-simmons-says-knee-fine-expects-play-vs-saints",
+     "date": "2026-11-20",
+     "both": true,
+     "score": 11.5,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Kyle Monangai",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "thecreamer": [
+       {
+        "n": "Rome Odunze",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Kalif Raymond",
         "p": "WR",
         "how": "ripple"
        }
@@ -561,7 +583,7 @@
   {
    "a": "triccster",
    "b": "YoungBuck04",
-   "a_win": 48.6,
+   "a_win": 48.9,
    "rec": {
     "triccster": [
      4,
@@ -589,8 +611,8 @@
     ]
    },
    "proj": {
-    "triccster": 104.42,
-    "YoungBuck04": 105.51
+    "triccster": 103.33,
+    "YoungBuck04": 104.19
    },
    "h2h": {
     "triccster": 5,
@@ -617,7 +639,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
      "date": "2026-11-18",
      "both": true,
-     "score": 14.5,
+     "score": 15.0,
      "touches": {
       "triccster": [
        {
@@ -650,7 +672,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
      "date": "2026-11-16",
      "both": true,
-     "score": 13.5,
+     "score": 12.0,
      "touches": {
       "YoungBuck04": [
        {
@@ -662,22 +684,6 @@
       "triccster": [
        {
         "n": "Christian Watson",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-     "date": "2026-11-18",
-     "both": false,
-     "score": 15.0,
-     "touches": {
-      "YoungBuck04": [
-       {
-        "n": "Luther Burden III",
         "p": "WR",
         "how": "ripple"
        }
@@ -699,13 +705,34 @@
        }
       ]
      }
+    },
+    {
+     "headline": "Rams WR Puka Nacua to serve 3-game suspension while on IR",
+     "url": "https://www.espn.com/nfl/story/_/id/50533560/rams-wr-puka-nacua-serve-3-game-suspension-ir",
+     "date": "2026-11-19",
+     "both": false,
+     "score": 14.0,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Blake Corum",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Davante Adams",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
     }
    ]
   },
   {
    "a": "PapaMidnight",
    "b": "snelson91",
-   "a_win": 46.4,
+   "a_win": 42.6,
    "rec": {
     "PapaMidnight": [
      2,
@@ -733,8 +760,8 @@
     ]
    },
    "proj": {
-    "PapaMidnight": 105.61,
-    "snelson91": 108.43
+    "PapaMidnight": 104.61,
+    "snelson91": 110.47
    },
    "h2h": {
     "PapaMidnight": 6,
@@ -803,32 +830,22 @@
      }
     },
     {
-     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
-     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
-     "date": "2026-11-16",
+     "headline": "C.J. Stroud stays in 'groove' with another 3-TD night in Texans' blowout of Colts",
+     "url": "https://www.espn.com/nfl/story/_/id/50538998/cj-stroud-stays-groove-texans-blowout-colts",
+     "date": "2026-11-20",
      "both": true,
-     "score": 13.5,
+     "score": 12.5,
      "touches": {
       "PapaMidnight": [
        {
-        "n": "MarShawn Lloyd",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Tucker Kraft",
-        "p": "TE",
+        "n": "Nico Collins",
+        "p": "WR",
         "how": "ripple"
        }
       ],
       "snelson91": [
        {
-        "n": "Matthew Golden",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Kaleb Johnson",
+        "n": "David Montgomery",
         "p": "RB",
         "how": "ripple"
        }
@@ -836,17 +853,24 @@
      }
     },
     {
-     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
-     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
-     "date": "2026-11-16",
-     "both": false,
-     "score": 14.0,
+     "headline": "Texans lose Chris Braswell to serious-looking knee injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50536083/texans-lose-chris-braswell-serious-looking-knee-injury",
+     "date": "2026-11-20",
+     "both": true,
+     "score": 12.0,
      "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Nico Collins",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
       "snelson91": [
        {
-        "n": "Patrick Mahomes",
-        "p": "QB",
-        "how": "named"
+        "n": "David Montgomery",
+        "p": "RB",
+        "how": "ripple"
        }
       ]
      }
@@ -857,6 +881,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-19T13:21+00:00",
+ "nfl_read_at": "2026-11-20T13:21+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
