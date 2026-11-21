@@ -190,7 +190,7 @@
       ],
       [
        "@@Colt45Johnson",
-       38,
+       39,
        247.0,
        "$44"
       ],
@@ -208,7 +208,7 @@
       ],
       [
        "@@Wallner",
-       23,
+       24,
        204.3,
        "$55"
       ],
@@ -226,7 +226,7 @@
       ],
       [
        "@@TuanonStan",
-       20,
+       21,
        142.4,
        "$80"
       ],
@@ -435,27 +435,33 @@
       ],
       [
        "@@butterygoop",
-       "99.8%",
+       "99.9%",
        "Lock",
-       "+13.0"
+       "+13.1"
       ],
       [
        "@@YoungBuck04",
-       "89.4%",
+       "89.2%",
        "Likely",
-       "+55.0"
+       "+54.8"
       ],
       [
        "@@Jbird531",
-       "76.6%",
+       "76.3%",
        "Likely",
-       "+14.6"
+       "+14.3"
       ],
       [
        "@@RockMNwild",
-       "67.4%",
+       "68.0%",
        "Likely",
-       "+42.9"
+       "+43.5"
+      ],
+      [
+       "@@snelson91",
+       "47.9%",
+       "Bubble",
+       -15.1
       ],
       [
        "@@brettmn13",
@@ -464,34 +470,28 @@
        -14.5
       ],
       [
-       "@@snelson91",
-       "46.6%",
-       "Bubble",
-       -16.4
-      ],
-      [
        "@@Colt45Johnson",
-       "42.1%",
+       "41.8%",
        "Bubble",
-       -27.1
+       -27.4
       ],
       [
        "@@Wallner",
-       "14.0%",
+       "13.6%",
        "Fading",
-       -26.2
+       -26.6
       ],
       [
        "@@triccster",
-       "12.2%",
+       "11.6%",
        "Fading",
-       -23.9
+       -24.5
       ],
       [
        "@@thecreamer",
-       "5.0%",
+       "4.8%",
        "Long shot",
-       -23.2
+       -23.4
       ],
       [
        "@@PapaMidnight",
@@ -890,13 +890,13 @@
        "@@Colt45Johnson",
        "TE",
        "WR",
-       "QB 6 RB 8 WR 11 TE 5"
+       "QB 7 RB 7 WR 11 TE 4"
       ],
       [
        "@@Jbird531",
        "-",
        "RB, TE",
-       "QB 5 RB 10 WR 3 TE 12"
+       "QB 6 RB 10 WR 3 TE 12"
       ],
       [
        "@@PapaMidnight",
@@ -906,15 +906,15 @@
       ],
       [
        "@@Wallner",
-       "-",
+       "QB",
        "TE",
-       "QB 8 RB 7 WR 6 TE 10"
+       "QB 8 RB 8 WR 6 TE 10"
       ],
       [
        "@@YoungBuck04",
        "-",
        "QB, WR",
-       "QB 11 RB 3 WR 9 TE 7"
+       "QB 11 RB 2 WR 9 TE 7"
       ],
       [
        "@@brettmn13",
@@ -926,13 +926,13 @@
        "@@butterygoop",
        "RB, WR",
        "QB",
-       "QB 9 RB 2 WR 1 TE 1"
+       "QB 9 RB 4 WR 1 TE 1"
       ],
       [
        "@@snelson91",
        "RB, TE",
        "WR",
-       "QB 7 RB 1 WR 12 TE 4"
+       "QB 5 RB 1 WR 12 TE 5"
       ],
       [
        "@@thecreamer",
@@ -950,7 +950,7 @@
        "@@RockMNwild",
        "WR",
        "-",
-       "QB 2 RB 4 WR 4 TE 8"
+       "QB 2 RB 3 WR 4 TE 8"
       ],
       [
        "@@TuanonStan",
@@ -1027,22 +1027,28 @@
        18.2
       ],
       [
+       "@@Wallner",
+       "Bo Nix",
+       "QB DEN",
+       17.2
+      ],
+      [
        "@@butterygoop",
-       "Bhayshul Tuten",
-       "RB JAX",
-       14.6
+       "Kenneth Walker III",
+       "RB KC",
+       14.2
       ],
       [
        "@@brettmn13",
        "Rashee Rice",
        "WR KC",
-       12.1
+       12.8
       ],
       [
        "@@butterygoop",
        "DeVonta Smith",
        "WR PHI",
-       11.5
+       11.6
       ],
       [
        "@@PapaMidnight",
@@ -1093,15 +1099,15 @@
        8.3
       ],
       [
-       "@@snelson91",
-       "Dalton Kincaid",
-       "TE BUF",
-       8.0
-      ],
-      [
        "@@triccster",
        "Brenton Strange",
        "TE JAX",
+       8.0
+      ],
+      [
+       "@@snelson91",
+       "Dalton Kincaid",
+       "TE BUF",
        7.9
       ]
      ]
@@ -1127,38 +1133,38 @@
       [
        1,
        "@@butterygoop",
-       36.0,
+       36.1,
        "J.J. McCarthy, DeVonta Smith, Jalen Coker"
       ],
       [
        2,
        "@@triccster",
        34.3,
-       "Jared Goff, DK Metcalf, Jakobi Meyers"
+       "Jared Goff, DK Metcalf, Brenton Strange"
       ],
       [
        3,
-       "@@Colt45Johnson",
-       30.9,
-       "Tyler Shough, Elic Ayomanor, Deebo Samuel Sr."
+       "@@Wallner",
+       30.1,
+       "Bo Nix, Xavier Hutchinson, Tyler Allgeier"
       ],
       [
        4,
        "@@YoungBuck04",
-       27.5,
-       "Jordan Love, Blake Corum, Emmett Johnson"
+       27.7,
+       "Jordan Love, A.J. Brown, Blake Corum"
       ],
       [
        5,
-       "@@snelson91",
+       "@@Jbird531",
        25.8,
-       "Matthew Stafford, Khalil Shakir, Dalton Kincaid"
+       "Geno Smith, Rachaad White, Denzel Boston"
       ],
       [
        6,
-       "@@Jbird531",
-       25.4,
-       "Geno Smith, Denzel Boston, Josh Downs"
+       "@@snelson91",
+       25.7,
+       "Matthew Stafford, Khalil Shakir, Dalton Kincaid"
       ],
       [
        7,
@@ -1175,13 +1181,13 @@
       [
        9,
        "@@RockMNwild",
-       23.0,
+       22.5,
        "Rhamondre Stevenson, Juwan Johnson, Rico Dowdle"
       ],
       [
        10,
        "@@thecreamer",
-       22.1,
+       22.0,
        "Quinshon Judkins, Harold Fannin Jr., Courtland Sutton"
       ],
       [
@@ -1192,9 +1198,9 @@
       ],
       [
        12,
-       "@@Wallner",
-       19.3,
-       "Xavier Hutchinson, Tyler Allgeier, Omar Cooper Jr."
+       "@@Colt45Johnson",
+       20.2,
+       "Elic Ayomanor, Deebo Samuel Sr., Jonathon Brooks"
       ]
      ]
     },
@@ -1415,7 +1421,7 @@
        "@@TuanonStan",
        2,
        23.9,
-       "Bijan Robinson, Drake London"
+       "Drake London, Bijan Robinson"
       ],
       [
        11,
@@ -1425,25 +1431,18 @@
        "Kyren Williams, Matthew Golden"
       ],
       [
-       11,
-       "@@YoungBuck04",
-       2,
-       17.9,
-       "A.J. Brown, Davante Adams"
-      ],
-      [
        13,
        "@@Wallner",
        2,
-       14.8,
-       "Ashton Jeanty, Spencer Shrader"
+       14.7,
+       "Spencer Shrader, Ashton Jeanty"
       ],
       [
        13,
        "@@Jbird531",
        2,
-       14.3,
-       "Breece Hall, Tyler Warren"
+       14.6,
+       "Tyler Warren, Breece Hall"
       ]
      ]
     }
@@ -1503,72 +1502,72 @@
      "rows": [
       [
        "@@thecreamer",
-       "25.4%",
-       "15.8%",
-       "5.0%",
+       "25.1%",
+       "15.5%",
+       "4.8%",
        "4-6"
       ],
       [
        "@@PapaMidnight",
-       "21.4%",
-       "68.4%",
+       "21.2%",
+       "68.9%",
        "0.1%",
        "2-8"
       ],
       [
        "@@triccster",
-       "15.2%",
+       "15.3%",
        "8.3%",
-       "12.2%",
+       "11.6%",
        "4-6"
       ],
       [
        "@@Wallner",
-       "12.5%",
-       "4.5%",
-       "14.0%",
+       "12.8%",
+       "4.6%",
+       "13.6%",
        "4-6"
       ],
       [
        "@@Colt45Johnson",
-       "9.6%",
-       "0.7%",
-       "42.1%",
+       "9.7%",
+       "0.6%",
+       "41.8%",
        "5-5"
       ],
       [
        "@@brettmn13",
-       "5.3%",
+       "5.4%",
        "0.8%",
        "46.9%",
        "5-5"
       ],
       [
        "@@snelson91",
-       "3.5%",
-       "1.3%",
-       "46.6%",
+       "3.4%",
+       "1.2%",
+       "47.9%",
        "4-6"
       ],
       [
        "@@Jbird531",
-       "3.3%",
+       "3.2%",
        "0.0%",
-       "76.6%",
+       "76.3%",
        "6-4"
       ],
       [
        "@@RockMNwild",
        "2.9%",
        "0.1%",
-       "67.4%",
+       "68.0%",
        "5-5"
       ],
       [
        "@@YoungBuck04",
-       "0.9%",
+       "1.0%",
        "0.0%",
-       "89.4%",
+       "89.2%",
        "6-4"
       ]
      ]
