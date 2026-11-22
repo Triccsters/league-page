@@ -29,8 +29,8 @@
   {
    "h": "butterygoop",
    "rank": 1,
-   "score": 1.837,
-   "ros": 119.72,
+   "score": 1.852,
+   "ros": 119.99,
    "ppg": 120.87,
    "allplay": 0.691,
    "ros_rank": 1,
@@ -41,11 +41,11 @@
   {
    "h": "TuanonStan",
    "rank": 2,
-   "score": 1.256,
-   "ros": 114.26,
+   "score": 1.241,
+   "ros": 114.12,
    "ppg": 117.27,
    "allplay": 0.655,
-   "ros_rank": 3,
+   "ros_rank": 2,
    "ppg_rank": 2,
    "allplay_rank": 2,
    "prev": 2
@@ -53,32 +53,20 @@
   {
    "h": "snelson91",
    "rank": 3,
-   "score": 1.11,
-   "ros": 114.36,
+   "score": 1.017,
+   "ros": 113.12,
    "ppg": 114.12,
    "allplay": 0.636,
-   "ros_rank": 2,
+   "ros_rank": 3,
    "ppg_rank": 3,
    "allplay_rank": 3,
    "prev": 3
   },
   {
-   "h": "RockMNwild",
-   "rank": 4,
-   "score": 0.356,
-   "ros": 112.33,
-   "ppg": 105.62,
-   "allplay": 0.473,
-   "ros_rank": 4,
-   "ppg_rank": 5,
-   "allplay_rank": 7,
-   "prev": 4
-  },
-  {
    "h": "YoungBuck04",
-   "rank": 5,
-   "score": 0.317,
-   "ros": 107.24,
+   "rank": 4,
+   "score": 0.459,
+   "ros": 109.38,
    "ppg": 109.26,
    "allplay": 0.573,
    "ros_rank": 6,
@@ -87,10 +75,22 @@
    "prev": 5
   },
   {
+   "h": "RockMNwild",
+   "rank": 5,
+   "score": 0.394,
+   "ros": 112.96,
+   "ppg": 105.62,
+   "allplay": 0.473,
+   "ros_rank": 4,
+   "ppg_rank": 5,
+   "allplay_rank": 7,
+   "prev": 4
+  },
+  {
    "h": "brettmn13",
    "rank": 6,
-   "score": -0.032,
-   "ros": 110.2,
+   "score": -0.092,
+   "ros": 109.45,
    "ppg": 100.14,
    "allplay": 0.455,
    "ros_rank": 5,
@@ -99,10 +99,22 @@
    "prev": 7
   },
   {
-   "h": "Jbird531",
+   "h": "Wallner",
    "rank": 7,
-   "score": -0.602,
-   "ros": 100.99,
+   "score": -0.606,
+   "ros": 99.78,
+   "ppg": 103.17,
+   "allplay": 0.482,
+   "ros_rank": 10,
+   "ppg_rank": 6,
+   "allplay_rank": 5,
+   "prev": 6
+  },
+  {
+   "h": "Jbird531",
+   "rank": 8,
+   "score": -0.611,
+   "ros": 101.01,
    "ppg": 101.19,
    "allplay": 0.473,
    "ros_rank": 8,
@@ -111,46 +123,22 @@
    "prev": 8
   },
   {
-   "h": "Wallner",
-   "rank": 8,
-   "score": -0.631,
-   "ros": 99.27,
-   "ppg": 103.17,
-   "allplay": 0.482,
-   "ros_rank": 11,
-   "ppg_rank": 6,
-   "allplay_rank": 5,
-   "prev": 6
-  },
-  {
    "h": "Colt45Johnson",
    "rank": 9,
-   "score": -0.664,
-   "ros": 99.45,
+   "score": -0.705,
+   "ros": 99.02,
    "ppg": 101.97,
    "allplay": 0.482,
-   "ros_rank": 10,
+   "ros_rank": 11,
    "ppg_rank": 7,
    "allplay_rank": 6,
    "prev": 10
   },
   {
-   "h": "triccster",
-   "rank": 10,
-   "score": -0.736,
-   "ros": 100.52,
-   "ppg": 101.1,
-   "allplay": 0.418,
-   "ros_rank": 9,
-   "ppg_rank": 9,
-   "allplay_rank": 10,
-   "prev": 9
-  },
-  {
    "h": "PapaMidnight",
-   "rank": 11,
-   "score": -0.737,
-   "ros": 104.05,
+   "rank": 10,
+   "score": -0.719,
+   "ros": 104.43,
    "ppg": 98.45,
    "allplay": 0.336,
    "ros_rank": 7,
@@ -159,10 +147,22 @@
    "prev": 11
   },
   {
+   "h": "triccster",
+   "rank": 11,
+   "score": -0.743,
+   "ros": 100.58,
+   "ppg": 101.1,
+   "allplay": 0.418,
+   "ros_rank": 9,
+   "ppg_rank": 9,
+   "allplay_rank": 10,
+   "prev": 9
+  },
+  {
    "h": "thecreamer",
    "rank": 12,
-   "score": -1.474,
-   "ros": 96.59,
+   "score": -1.487,
+   "ros": 96.57,
    "ppg": 93.15,
    "allplay": 0.327,
    "ros_rank": 12,
@@ -172,7 +172,7 @@
   }
  ],
  "source": "Sleeper weekly projections scored with this league's scoring",
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "history": {
   "9": {
    "butterygoop": {
@@ -227,51 +227,51 @@
   "10": {
    "butterygoop": {
     "rank": 1,
-    "score": 1.837
+    "score": 1.852
    },
    "TuanonStan": {
     "rank": 2,
-    "score": 1.256
+    "score": 1.241
    },
    "snelson91": {
     "rank": 3,
-    "score": 1.11
-   },
-   "RockMNwild": {
-    "rank": 4,
-    "score": 0.356
+    "score": 1.017
    },
    "YoungBuck04": {
+    "rank": 4,
+    "score": 0.459
+   },
+   "RockMNwild": {
     "rank": 5,
-    "score": 0.317
+    "score": 0.394
    },
    "brettmn13": {
     "rank": 6,
-    "score": -0.032
-   },
-   "Jbird531": {
-    "rank": 7,
-    "score": -0.602
+    "score": -0.092
    },
    "Wallner": {
+    "rank": 7,
+    "score": -0.606
+   },
+   "Jbird531": {
     "rank": 8,
-    "score": -0.631
+    "score": -0.611
    },
    "Colt45Johnson": {
     "rank": 9,
-    "score": -0.664
-   },
-   "triccster": {
-    "rank": 10,
-    "score": -0.736
+    "score": -0.705
    },
    "PapaMidnight": {
+    "rank": 10,
+    "score": -0.719
+   },
+   "triccster": {
     "rank": 11,
-    "score": -0.737
+    "score": -0.743
    },
    "thecreamer": {
     "rank": 12,
-    "score": -1.474
+    "score": -1.487
    }
   }
  }
