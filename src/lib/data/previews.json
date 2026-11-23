@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T13:20:51+00:00",
+ "generated": "2026-11-23T13:21:13+00:00",
  "season": 2026,
  "week": 11,
  "playoff": false,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "butterygoop": 114.07,
-    "RockMNwild": 112.95
+    "butterygoop": 113.8,
+    "RockMNwild": 112.69
    },
    "h2h": {
     "butterygoop": 3,
@@ -62,22 +62,6 @@
    ],
    "nfl": [
     {
-     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-     "date": "2026-11-20",
-     "both": false,
-     "score": 15.0,
-     "touches": {
-      "butterygoop": [
-       {
-        "n": "Kenneth Walker III",
-        "p": "RB",
-        "how": "named"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
      "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
      "date": "2026-11-22",
@@ -94,20 +78,15 @@
      }
     },
     {
-     "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
-     "url": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
-     "date": "2026-11-21",
+     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
+     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
+     "date": "2026-11-23",
      "both": false,
-     "score": 14.5,
+     "score": 13.5,
      "touches": {
       "RockMNwild": [
        {
-        "n": "Joe Burrow",
-        "p": "QB",
-        "how": "named"
-       },
-       {
-        "n": "Ja'Marr Chase",
+        "n": "De'Zhaun Stribling",
         "p": "WR",
         "how": "ripple"
        }
@@ -115,16 +94,32 @@
      }
     },
     {
-     "headline": "Jets QB Geno Smith (ankle) cleared to start vs. Chargers",
-     "url": "https://www.espn.com/nfl/story/_/id/50543665/jets-qb-geno-smith-ankle-cleared-start-vs-chargers",
+     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
+     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
      "date": "2026-11-20",
      "both": false,
-     "score": 14.5,
+     "score": 13.0,
      "touches": {
-      "RockMNwild": [
+      "butterygoop": [
        {
-        "n": "Garrett Wilson",
-        "p": "WR",
+        "n": "Kenneth Walker III",
+        "p": "RB",
+        "how": "named"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "NFL says no-TD call for WR Parker Washington in Jaguars' loss was correct",
+     "url": "https://www.espn.com/nfl/story/_/id/50569248/nfl-no-td-call-jaguars-parker-washington-was-correct",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 12.5,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "Bhayshul Tuten",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -163,8 +158,8 @@
     ]
    },
    "proj": {
-    "Jbird531": 98.18,
-    "Colt45Johnson": 104.14
+    "Jbird531": 98.25,
+    "Colt45Johnson": 104.2
    },
    "h2h": {
     "Jbird531": 7,
@@ -193,7 +188,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
      "date": "2026-11-20",
      "both": true,
-     "score": 15.5,
+     "score": 13.5,
      "touches": {
       "Jbird531": [
        {
@@ -216,7 +211,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
      "date": "2026-11-20",
      "both": true,
-     "score": 15.0,
+     "score": 13.0,
      "touches": {
       "Jbird531": [
        {
@@ -235,46 +230,44 @@
      }
     },
     {
-     "headline": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
-     "url": "https://www.espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
+     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
+     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
      "date": "2026-11-18",
      "both": true,
-     "score": 13.0,
+     "score": 12.0,
      "touches": {
       "Jbird531": [
        {
-        "n": "Rachaad White",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "Austin Ekeler",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Patrick Mahomes stars for Chiefs, strikes early connection with Josh Downs",
-     "url": "https://www.espn.com/nfl/story/_/id/50496736/patrick-mahomes-stars-chiefs-sync-josh-downs",
-     "date": "2026-11-16",
-     "both": true,
-     "score": 13.0,
-     "touches": {
-      "Jbird531": [
-       {
-        "n": "Josh Downs",
-        "p": "WR",
+        "n": "Caleb Williams",
+        "p": "QB",
         "how": "named"
        }
       ],
       "Colt45Johnson": [
        {
-        "n": "Travis Kelce",
+        "n": "D'Andre Swift",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
+     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
+     "date": "2026-11-22",
+     "both": false,
+     "score": 14.5,
+     "touches": {
+      "Colt45Johnson": [
+       {
+        "n": "T.J. Hockenson",
         "p": "TE",
+        "how": "ripple"
+       },
+       {
+        "n": "Jordan Addison",
+        "p": "WR",
         "how": "ripple"
        }
       ]
@@ -285,7 +278,7 @@
   {
    "a": "Wallner",
    "b": "brettmn13",
-   "a_win": 47.0,
+   "a_win": 46.3,
    "rec": {
     "Wallner": [
      4,
@@ -313,8 +306,8 @@
     ]
    },
    "proj": {
-    "Wallner": 100.91,
-    "brettmn13": 103.24
+    "Wallner": 101.47,
+    "brettmn13": 104.35
    },
    "h2h": {
     "Wallner": 12,
@@ -337,38 +330,6 @@
    "flags": [],
    "nfl": [
     {
-     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-     "date": "2026-11-20",
-     "both": false,
-     "score": 15.5,
-     "touches": {
-      "brettmn13": [
-       {
-        "n": "Colston Loveland",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-     "date": "2026-11-20",
-     "both": false,
-     "score": 15.0,
-     "touches": {
-      "brettmn13": [
-       {
-        "n": "Rashee Rice",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
      "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
      "date": "2026-11-22",
@@ -390,16 +351,53 @@
      }
     },
     {
-     "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
-     "url": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
-     "date": "2026-11-21",
+     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
+     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
+     "date": "2026-11-23",
      "both": false,
-     "score": 14.5,
+     "score": 13.5,
      "touches": {
       "Wallner": [
        {
-        "n": "Mike Gesicki",
+        "n": "Brock Purdy",
+        "p": "QB",
+        "how": "named"
+       },
+       {
+        "n": "Mike Evans",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
+     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
+     "date": "2026-11-20",
+     "both": false,
+     "score": 13.5,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Colston Loveland",
         "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
+     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
+     "date": "2026-11-20",
+     "both": false,
+     "score": 13.0,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Rashee Rice",
+        "p": "WR",
         "how": "ripple"
        }
       ]
@@ -438,8 +436,8 @@
     ]
    },
    "proj": {
-    "TuanonStan": 110.75,
-    "thecreamer": 95.54
+    "TuanonStan": 111.17,
+    "thecreamer": 95.9
    },
    "h2h": {
     "TuanonStan": 8,
@@ -466,7 +464,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
      "date": "2026-11-20",
      "both": true,
-     "score": 15.5,
+     "score": 13.5,
      "touches": {
       "TuanonStan": [
        {
@@ -483,29 +481,6 @@
        },
        {
         "n": "Kalif Raymond",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
-     "url": "https://www.espn.com/nfl/story/_/id/50543381/bills-te-dalton-kincaid-doubtful-play-vs-dolphins",
-     "date": "2026-11-20",
-     "both": true,
-     "score": 12.5,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Josh Allen",
-        "p": "QB",
-        "how": "ripple"
-       }
-      ],
-      "thecreamer": [
-       {
-        "n": "DJ Moore",
         "p": "WR",
         "how": "ripple"
        }
@@ -541,11 +516,32 @@
      }
     },
     {
+     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
+     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 13.5,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Keenan Allen",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "George Kittle",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
      "url": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
      "date": "2026-11-21",
      "both": false,
-     "score": 14.5,
+     "score": 12.5,
      "touches": {
       "TuanonStan": [
        {
@@ -561,7 +557,7 @@
   {
    "a": "triccster",
    "b": "YoungBuck04",
-   "a_win": 42.4,
+   "a_win": 39.6,
    "rec": {
     "triccster": [
      4,
@@ -589,8 +585,8 @@
     ]
    },
    "proj": {
-    "triccster": 102.73,
-    "YoungBuck04": 108.76
+    "triccster": 100.12,
+    "YoungBuck04": 108.44
    },
    "h2h": {
     "triccster": 5,
@@ -613,32 +609,20 @@
    "flags": [],
    "nfl": [
     {
-     "headline": "Sources: Brandon Aiyuk contacted Jayden Daniels to mend friendship with star QB",
-     "url": "https://www.espn.com/nfl/story/_/id/50522814/sources-brandon-aiyuk-mended-friendship-jayden-daniels",
-     "date": "2026-11-18",
-     "both": true,
-     "score": 13.0,
+     "headline": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
+     "url": "https://www.espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
+     "date": "2026-11-22",
+     "both": false,
+     "score": 14.0,
      "touches": {
-      "triccster": [
+      "YoungBuck04": [
        {
-        "n": "Jayden Daniels",
-        "p": "QB",
-        "how": "named"
-       },
-       {
-        "n": "Jacory Croskey-Merritt",
+        "n": "Blake Corum",
         "p": "RB",
         "how": "ripple"
        },
        {
-        "n": "Stefon Diggs",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "YoungBuck04": [
-       {
-        "n": "Antonio Williams",
+        "n": "Davante Adams",
         "p": "WR",
         "how": "ripple"
        }
@@ -646,23 +630,21 @@
      }
     },
     {
-     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
-     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
-     "date": "2026-11-16",
-     "both": true,
-     "score": 12.0,
+     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
+     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 13.5,
      "touches": {
       "YoungBuck04": [
        {
-        "n": "Jordan Love",
-        "p": "QB",
-        "how": "named"
-       }
-      ],
-      "triccster": [
+        "n": "Kaelon Black",
+        "p": "RB",
+        "how": "ripple"
+       },
        {
-        "n": "Christian Watson",
-        "p": "WR",
+        "n": "Christian McCaffrey",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -673,7 +655,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
      "date": "2026-11-20",
      "both": false,
-     "score": 15.5,
+     "score": 13.5,
      "touches": {
       "YoungBuck04": [
        {
@@ -689,7 +671,7 @@
      "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
      "date": "2026-11-20",
      "both": false,
-     "score": 15.0,
+     "score": 13.0,
      "touches": {
       "YoungBuck04": [
        {
@@ -705,7 +687,7 @@
   {
    "a": "PapaMidnight",
    "b": "snelson91",
-   "a_win": 43.4,
+   "a_win": 42.4,
    "rec": {
     "PapaMidnight": [
      2,
@@ -733,8 +715,8 @@
     ]
    },
    "proj": {
-    "PapaMidnight": 104.9,
-    "snelson91": 110.12
+    "PapaMidnight": 104.97,
+    "snelson91": 110.98
    },
    "h2h": {
     "PapaMidnight": 6,
@@ -757,27 +739,27 @@
    "flags": [],
    "nfl": [
     {
-     "headline": "Bills TE Dalton Kincaid doubtful to play vs. Dolphins",
-     "url": "https://www.espn.com/nfl/story/_/id/50543381/bills-te-dalton-kincaid-doubtful-play-vs-dolphins",
-     "date": "2026-11-20",
+     "headline": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
+     "url": "https://www.espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
+     "date": "2026-11-23",
      "both": true,
-     "score": 12.5,
+     "score": 12.0,
      "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Dak Prescott",
+        "p": "QB",
+        "how": "named"
+       }
+      ],
       "snelson91": [
        {
-        "n": "Dalton Kincaid",
-        "p": "TE",
-        "how": "named"
+        "n": "Ryan Flournoy",
+        "p": "WR",
+        "how": "ripple"
        },
        {
-        "n": "Khalil Shakir",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "PapaMidnight": [
-       {
-        "n": "Keon Coleman",
+        "n": "George Pickens",
         "p": "WR",
         "how": "ripple"
        }
@@ -785,32 +767,9 @@
      }
     },
     {
-     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
-     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
-     "date": "2026-11-19",
-     "both": true,
-     "score": 12.5,
-     "touches": {
-      "PapaMidnight": [
-       {
-        "n": "Nico Collins",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "snelson91": [
-       {
-        "n": "David Montgomery",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Giants RB Cam Skattebo to nix backflips in wake of Aidan Hutchinson's injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50524576/rb-skattebo-nix-backflips-wake-hutchinson-injury",
-     "date": "2026-11-18",
+     "headline": "RB Cam Skattebo backflips again after pledging to nix celebration",
+     "url": "https://www.espn.com/nfl/story/_/id/50569390/rb-cam-skattebo-backflips-again-pledging-nix-celebration",
+     "date": "2026-11-23",
      "both": true,
      "score": 12.0,
      "touches": {
@@ -831,28 +790,37 @@
      }
     },
     {
-     "headline": "QB Jordan Love, Packers frustrated after blowout loss at home to Vikings",
-     "url": "https://www.espn.com/nfl/story/_/id/50495671/qb-jordan-love-packers-frustrated-home-loss-vikings",
-     "date": "2026-11-16",
-     "both": true,
-     "score": 12.0,
+     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
+     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
+     "date": "2026-11-22",
+     "both": false,
+     "score": 14.5,
      "touches": {
       "PapaMidnight": [
        {
-        "n": "MarShawn Lloyd",
+        "n": "Jordan Mason",
         "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
+     "url": "https://www.espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
+     "date": "2026-11-22",
+     "both": false,
+     "score": 14.0,
+     "touches": {
+      "snelson91": [
+       {
+        "n": "Matthew Stafford",
+        "p": "QB",
         "how": "ripple"
        },
        {
-        "n": "Tucker Kraft",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ],
-      "snelson91": [
-       {
-        "n": "Matthew Golden",
-        "p": "WR",
+        "n": "Kyren Williams",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -864,6 +832,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-22T13:20+00:00",
+ "nfl_read_at": "2026-11-23T13:21+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
