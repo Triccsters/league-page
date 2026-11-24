@@ -1,0 +1,1533 @@
+{
+ "season": 2026,
+ "week": 11,
+ "slug": "2026-w11",
+ "title": "Week 11 recap",
+ "generated": "2026-11-24T13:20:36+00:00",
+ "intro": "",
+ "video": "",
+ "notes": [],
+ "slots": [
+  "Wed",
+  "Thu",
+  "Sun early",
+  "Sun late",
+  "SNF",
+  "MNF"
+ ],
+ "median": 96.94,
+ "awards": [
+  {
+   "key": "high",
+   "emoji": "🏆",
+   "name": "Team of the week",
+   "manager": "Colt45Johnson",
+   "value": 130.16,
+   "note": null,
+   "vs": null
+  },
+  {
+   "key": "top_player",
+   "emoji": "🔥",
+   "name": "Player of the week",
+   "manager": "PapaMidnight",
+   "value": 35.9,
+   "note": "Dak Prescott",
+   "vs": null
+  },
+  {
+   "key": "sharp",
+   "emoji": "🎯",
+   "name": "Best lineup call",
+   "manager": "brettmn13",
+   "value": "100%",
+   "note": "scored 120.64 of a possible 120.64",
+   "vs": null
+  },
+  {
+   "key": "lucky",
+   "emoji": "🍀",
+   "name": "Won anyway",
+   "manager": "butterygoop",
+   "value": 84.0,
+   "note": "below the week's median of 96.94",
+   "vs": null
+  },
+  {
+   "key": "unlucky",
+   "emoji": "🥀",
+   "name": "Lost anyway",
+   "manager": "Wallner",
+   "value": 115.8,
+   "note": "above the week's median of 96.94",
+   "vs": null
+  },
+  {
+   "key": "bench",
+   "emoji": "🪑",
+   "name": "Left on the bench",
+   "manager": "triccster",
+   "value": 24.8,
+   "note": "Jared Goff scored 20.36 on his bench",
+   "vs": null
+  },
+  {
+   "key": "low",
+   "emoji": "💤",
+   "name": "Quietest week",
+   "manager": "RockMNwild",
+   "value": 72.1,
+   "note": null,
+   "vs": null
+  },
+  {
+   "key": "closest",
+   "emoji": "😬",
+   "name": "Closest game",
+   "manager": "brettmn13",
+   "value": 4.84,
+   "note": null,
+   "vs": "Wallner"
+  },
+  {
+   "key": "blowout",
+   "emoji": "💀",
+   "name": "Biggest blowout",
+   "manager": "Colt45Johnson",
+   "value": 37.32,
+   "note": null,
+   "vs": "Jbird531"
+  }
+ ],
+ "scores": [
+  {
+   "manager": "Colt45Johnson",
+   "points": 130.16,
+   "optimal": 130.16
+  },
+  {
+   "manager": "snelson91",
+   "points": 130.06,
+   "optimal": 133.06
+  },
+  {
+   "manager": "brettmn13",
+   "points": 120.64,
+   "optimal": 120.64
+  },
+  {
+   "manager": "Wallner",
+   "points": 115.8,
+   "optimal": 119.7
+  },
+  {
+   "manager": "PapaMidnight",
+   "points": 108.9,
+   "optimal": 110.2
+  },
+  {
+   "manager": "YoungBuck04",
+   "points": 97.02,
+   "optimal": 111.42
+  },
+  {
+   "manager": "TuanonStan",
+   "points": 96.86,
+   "optimal": 100.86
+  },
+  {
+   "manager": "Jbird531",
+   "points": 92.84,
+   "optimal": 106.84
+  },
+  {
+   "manager": "thecreamer",
+   "points": 90.36,
+   "optimal": 90.36
+  },
+  {
+   "manager": "butterygoop",
+   "points": 84.0,
+   "optimal": 90.92
+  },
+  {
+   "manager": "triccster",
+   "points": 77.76,
+   "optimal": 102.56
+  },
+  {
+   "manager": "RockMNwild",
+   "points": 72.1,
+   "optimal": 80.6
+  }
+ ],
+ "games": [
+  {
+   "winner": {
+    "manager": "brettmn13",
+    "team": "Granny shifting",
+    "points": 120.64,
+    "optimal": 120.64,
+    "left_on_bench": 0.0,
+    "timeline": [
+     0.0,
+     0.0,
+     18.7,
+     99.64,
+     120.64,
+     120.64
+    ],
+    "by_pos": {
+     "DEF": 13.0,
+     "K": 8.0,
+     "QB": 12.74,
+     "RB": 43.7,
+     "TE": 10.4,
+     "WR": 32.8
+    },
+    "top": [
+     {
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "id": "13345",
+      "nfl": "DEN",
+      "pts": 32.9
+     },
+     {
+      "name": "Parker Washington",
+      "pos": "WR",
+      "id": "9487",
+      "nfl": "JAX",
+      "pts": 14.3
+     },
+     {
+      "name": "Denver Broncos",
+      "pos": "DEF",
+      "id": "DEN",
+      "nfl": "DEN",
+      "pts": 13.0
+     }
+    ],
+    "best_bench": {
+     "name": "Travis Etienne Jr.",
+     "id": "7543",
+     "nfl": "NO",
+     "pts": 7.6
+    },
+    "worst_start": {
+     "name": "Wil Lutz",
+     "id": "3678",
+     "nfl": "DEN",
+     "pts": 8.0
+    }
+   },
+   "loser": {
+    "manager": "Wallner",
+    "team": "Woody Marks Purdy Cooks",
+    "points": 115.8,
+    "optimal": 119.7,
+    "left_on_bench": 3.9,
+    "timeline": [
+     0.0,
+     3.0,
+     38.1,
+     63.5,
+     105.6,
+     115.8
+    ],
+    "by_pos": {
+     "DEF": 0.0,
+     "K": 3.0,
+     "QB": 22.2,
+     "RB": 41.6,
+     "TE": 10.2,
+     "WR": 38.8
+    },
+    "top": [
+     {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "id": "12527",
+      "nfl": "LV",
+      "pts": 25.4
+     },
+     {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "id": "8183",
+      "nfl": "SF",
+      "pts": 22.2
+     },
+     {
+      "name": "Mike Evans",
+      "pos": "WR",
+      "id": "2216",
+      "nfl": "SF",
+      "pts": 19.9
+     }
+    ],
+    "best_bench": {
+     "name": "Bo Nix",
+     "id": "11563",
+     "nfl": "DEN",
+     "pts": 11.5
+    },
+    "worst_start": {
+     "name": "Tampa Bay Buccaneers",
+     "id": "TB",
+     "nfl": "TB",
+     "pts": 0.0
+    }
+   },
+   "margin": 4.84,
+   "cost": [
+    {
+     "name": "Tampa Bay Buccaneers",
+     "pos": "DEF",
+     "pts": 0,
+     "avg": 14.5,
+     "short": 14.5
+    },
+    {
+     "name": "Emeka Egbuka",
+     "pos": "WR",
+     "pts": 2.8,
+     "avg": 9.18,
+     "short": 6.38
+    },
+    {
+     "name": "Spencer Shrader",
+     "pos": "K",
+     "pts": 3.0,
+     "avg": 8.29,
+     "short": 5.29
+    }
+   ],
+   "cost_decisive": [
+    {
+     "name": "Tampa Bay Buccaneers",
+     "pos": "DEF",
+     "pts": 0,
+     "avg": 14.5,
+     "short": 14.5
+    },
+    {
+     "name": "Emeka Egbuka",
+     "pos": "WR",
+     "pts": 2.8,
+     "avg": 9.18,
+     "short": 6.38
+    }
+   ],
+   "won_despite": [],
+   "h2h_before": [
+    6,
+    12
+   ]
+  },
+  {
+   "winner": {
+    "manager": "TuanonStan",
+    "team": "“Winnings winning”",
+    "points": 96.86,
+    "optimal": 100.86,
+    "left_on_bench": 4.0,
+    "timeline": [
+     0.0,
+     1.3,
+     68.66,
+     68.66,
+     85.56,
+     96.86
+    ],
+    "by_pos": {
+     "DEF": 4.0,
+     "K": 14.0,
+     "QB": 12.16,
+     "RB": 25.7,
+     "TE": 16.9,
+     "WR": 24.1
+    },
+    "top": [
+     {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "id": "7588",
+      "nfl": "DAL",
+      "pts": 22.6
+     },
+     {
+      "name": "George Kittle",
+      "pos": "TE",
+      "id": "4217",
+      "nfl": "SF",
+      "pts": 16.9
+     },
+     {
+      "name": "Tyler Bass",
+      "pos": "K",
+      "id": "7042",
+      "nfl": "BUF",
+      "pts": 14.0
+     }
+    ],
+    "best_bench": {
+     "name": "Keenan Allen",
+     "id": "1479",
+     "nfl": "SF",
+     "pts": 5.3
+    },
+    "worst_start": {
+     "name": "Seth McGowan",
+     "id": "13424",
+     "nfl": "IND",
+     "pts": 1.3
+    }
+   },
+   "loser": {
+    "manager": "thecreamer",
+    "team": null,
+    "points": 90.36,
+    "optimal": 90.36,
+    "left_on_bench": 0.0,
+    "timeline": [
+     0.0,
+     4.7,
+     70.96,
+     81.76,
+     81.76,
+     90.36
+    ],
+    "by_pos": {
+     "DEF": 1.0,
+     "K": 10.0,
+     "QB": 15.96,
+     "RB": 14.5,
+     "TE": 8.6,
+     "WR": 40.3
+    },
+    "top": [
+     {
+      "name": "DJ Moore",
+      "pos": "WR",
+      "id": "4983",
+      "nfl": "BUF",
+      "pts": 19.1
+     },
+     {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "id": "9228",
+      "nfl": "CAR",
+      "pts": 15.96
+     },
+     {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "id": "8144",
+      "nfl": "NO",
+      "pts": 14.7
+     }
+    ],
+    "best_bench": {
+     "name": "Kalif Raymond",
+     "id": "3634",
+     "nfl": "CHI",
+     "pts": 1.9
+    },
+    "worst_start": {
+     "name": "Los Angeles Chargers",
+     "id": "LAC",
+     "nfl": "LAC",
+     "pts": 1.0
+    }
+   },
+   "margin": 6.5,
+   "cost": [
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "pts": 4.7,
+     "avg": 15.19,
+     "short": 10.49
+    },
+    {
+     "name": "Rome Odunze",
+     "pos": "WR",
+     "pts": 6.5,
+     "avg": 7.12,
+     "short": 0.62
+    }
+   ],
+   "cost_decisive": [
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "pts": 4.7,
+     "avg": 15.19,
+     "short": 10.49
+    }
+   ],
+   "won_despite": [],
+   "h2h_before": [
+    8,
+    7
+   ]
+  },
+  {
+   "winner": {
+    "manager": "butterygoop",
+    "team": "SmithHurtsBrownDickTutes",
+    "points": 84.0,
+    "optimal": 90.92,
+    "left_on_bench": 6.92,
+    "timeline": [
+     0.0,
+     0.0,
+     47.8,
+     76.6,
+     84.0,
+     84.0
+    ],
+    "by_pos": {
+     "DEF": 3.0,
+     "K": 3.0,
+     "QB": 7.4,
+     "RB": 32.8,
+     "TE": 4.0,
+     "WR": 33.8
+    },
+    "top": [
+     {
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "id": "7594",
+      "nfl": "CAR",
+      "pts": 26.0
+     },
+     {
+      "name": "Malik Nabers",
+      "pos": "WR",
+      "id": "11632",
+      "nfl": "NYG",
+      "pts": 15.0
+     },
+     {
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "id": "7547",
+      "nfl": "DET",
+      "pts": 12.2
+     }
+    ],
+    "best_bench": {
+     "name": "J.J. McCarthy",
+     "id": "11565",
+     "nfl": "NYG",
+     "pts": 14.22
+    },
+    "worst_start": {
+     "name": "Chase McLaughlin",
+     "id": "6650",
+     "nfl": "TB",
+     "pts": 3.0
+    }
+   },
+   "loser": {
+    "manager": "RockMNwild",
+    "team": "Trader Joes",
+    "points": 72.1,
+    "optimal": 80.6,
+    "left_on_bench": 8.5,
+    "timeline": [
+     0.0,
+     0.0,
+     41.2,
+     46.6,
+     46.6,
+     72.1
+    ],
+    "by_pos": {
+     "DEF": 5.0,
+     "K": 9.0,
+     "QB": 19.9,
+     "RB": 21.4,
+     "TE": 4.3,
+     "WR": 12.5
+    },
+    "top": [
+     {
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "id": "6770",
+      "nfl": "CIN",
+      "pts": 19.9
+     },
+     {
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "id": "11584",
+      "nfl": "TB",
+      "pts": 17.5
+     },
+     {
+      "name": "Brandon Aubrey",
+      "pos": "K",
+      "id": "11533",
+      "nfl": "DAL",
+      "pts": 9.0
+     }
+    ],
+    "best_bench": {
+     "name": "Kenny Gainwell",
+     "id": "7567",
+     "nfl": "TB",
+     "pts": 7.9
+    },
+    "worst_start": {
+     "name": "Jordyn Tyson",
+     "id": "13281",
+     "nfl": "NO",
+     "pts": 1.5
+    }
+   },
+   "margin": 11.9,
+   "cost": [
+    {
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "pts": 19.9,
+     "avg": 32.77,
+     "short": 12.87
+    },
+    {
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "pts": 5.6,
+     "avg": 17.98,
+     "short": 12.38
+    },
+    {
+     "name": "Jaylen Warren",
+     "pos": "RB",
+     "pts": 3.9,
+     "avg": 13.7,
+     "short": 9.8
+    }
+   ],
+   "cost_decisive": [
+    {
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "pts": 19.9,
+     "avg": 32.77,
+     "short": 12.87
+    },
+    {
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "pts": 5.6,
+     "avg": 17.98,
+     "short": 12.38
+    }
+   ],
+   "won_despite": [
+    {
+     "name": "Kirk Cousins",
+     "pos": "QB",
+     "pts": 7.4,
+     "avg": 18.73,
+     "short": 11.33
+    },
+    {
+     "name": "Isaiah Likely",
+     "pos": "TE",
+     "pts": 4.0,
+     "avg": 14.33,
+     "short": 10.33
+    }
+   ],
+   "h2h_before": [
+    3,
+    8
+   ]
+  },
+  {
+   "winner": {
+    "manager": "YoungBuck04",
+    "team": "Double Shot At Love",
+    "points": 97.02,
+    "optimal": 111.42,
+    "left_on_bench": 14.4,
+    "timeline": [
+     0.0,
+     0.0,
+     79.82,
+     83.82,
+     97.02,
+     97.02
+    ],
+    "by_pos": {
+     "DEF": 8.0,
+     "K": 7.0,
+     "QB": 22.22,
+     "RB": 43.2,
+     "TE": 10.3,
+     "WR": 6.3
+    },
+    "top": [
+     {
+      "name": "Emmett Johnson",
+      "pos": "RB",
+      "id": "13337",
+      "nfl": "KC",
+      "pts": 22.3
+     },
+     {
+      "name": "Cam Ward",
+      "pos": "QB",
+      "id": "12522",
+      "nfl": "TEN",
+      "pts": 22.22
+     },
+     {
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "id": "4034",
+      "nfl": "SF",
+      "pts": 13.2
+     }
+    ],
+    "best_bench": {
+     "name": "Antonio Williams",
+     "id": "13301",
+     "nfl": "WAS",
+     "pts": 16.7
+    },
+    "worst_start": {
+     "name": "Luther Burden III",
+     "id": "12519",
+     "nfl": "CHI",
+     "pts": 2.3
+    }
+   },
+   "loser": {
+    "manager": "triccster",
+    "team": null,
+    "points": 77.76,
+    "optimal": 102.56,
+    "left_on_bench": 24.8,
+    "timeline": [
+     0.0,
+     0.0,
+     32.4,
+     35.5,
+     39.5,
+     77.76
+    ],
+    "by_pos": {
+     "DEF": 7.0,
+     "K": 4.0,
+     "QB": 17.06,
+     "RB": 14.7,
+     "TE": 3.1,
+     "WR": 31.9
+    },
+    "top": [
+     {
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "id": "6786",
+      "nfl": "DAL",
+      "pts": 24.7
+     },
+     {
+      "name": "Jayden Daniels",
+      "pos": "QB",
+      "id": "11566",
+      "nfl": "WAS",
+      "pts": 17.06
+     },
+     {
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "id": "12533",
+      "nfl": "WAS",
+      "pts": 14.7
+     }
+    ],
+    "best_bench": {
+     "name": "Jared Goff",
+     "id": "3163",
+     "nfl": "DET",
+     "pts": 20.36
+    },
+    "worst_start": {
+     "name": "J.K. Dobbins",
+     "id": "6806",
+     "nfl": "DEN",
+     "pts": 0.0
+    }
+   },
+   "margin": 19.26,
+   "cost": [
+    {
+     "name": "DK Metcalf",
+     "pos": "WR",
+     "pts": 0.7,
+     "avg": 9.37,
+     "short": 8.67
+    },
+    {
+     "name": "J.K. Dobbins",
+     "pos": "RB",
+     "pts": 0,
+     "avg": 6.94,
+     "short": 6.94
+    },
+    {
+     "name": "Stefon Diggs",
+     "pos": "WR",
+     "pts": 6.5,
+     "avg": 10.78,
+     "short": 4.28
+    }
+   ],
+   "cost_decisive": [],
+   "won_despite": [
+    {
+     "name": "Luther Burden III",
+     "pos": "WR",
+     "pts": 2.3,
+     "avg": 12.42,
+     "short": 10.12
+    }
+   ],
+   "h2h_before": [
+    9,
+    5
+   ]
+  },
+  {
+   "winner": {
+    "manager": "snelson91",
+    "team": "LaPorta Potty",
+    "points": 130.06,
+    "optimal": 133.06,
+    "left_on_bench": 3.0,
+    "timeline": [
+     0.0,
+     13.9,
+     107.06,
+     107.06,
+     122.06,
+     130.06
+    ],
+    "by_pos": {
+     "DEF": 15.0,
+     "K": 8.0,
+     "QB": 24.96,
+     "RB": 39.7,
+     "TE": 7.7,
+     "WR": 34.7
+    },
+    "top": [
+     {
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "id": "9221",
+      "nfl": "DET",
+      "pts": 25.8
+     },
+     {
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "id": "4046",
+      "nfl": "KC",
+      "pts": 24.96
+     },
+     {
+      "name": "George Pickens",
+      "pos": "WR",
+      "id": "8137",
+      "nfl": "DAL",
+      "pts": 20.3
+     }
+    ],
+    "best_bench": {
+     "name": "Chris Rodriguez Jr.",
+     "id": "10219",
+     "nfl": "JAX",
+     "pts": 4.6
+    },
+    "worst_start": {
+     "name": "Ryan Flournoy",
+     "id": "11783",
+     "nfl": "DAL",
+     "pts": 1.6
+    }
+   },
+   "loser": {
+    "manager": "PapaMidnight",
+    "team": "Saquon Ds Nutz",
+    "points": 108.9,
+    "optimal": 110.2,
+    "left_on_bench": 1.3,
+    "timeline": [
+     0.0,
+     13.3,
+     92.6,
+     108.9,
+     108.9,
+     108.9
+    ],
+    "by_pos": {
+     "DEF": 0.0,
+     "K": 12.0,
+     "QB": 35.9,
+     "RB": 28.8,
+     "TE": 6.5,
+     "WR": 25.7
+    },
+    "top": [
+     {
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "id": "3294",
+      "nfl": "DAL",
+      "pts": 35.9
+     },
+     {
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "id": "4866",
+      "nfl": "PHI",
+      "pts": 13.5
+     },
+     {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "id": "7569",
+      "nfl": "HOU",
+      "pts": 13.3
+     }
+    ],
+    "best_bench": {
+     "name": "Ka'imi Fairbairn",
+     "id": "3451",
+     "nfl": "HOU",
+     "pts": 6.0
+    },
+    "worst_start": {
+     "name": "Minnesota Vikings",
+     "id": "MIN",
+     "nfl": "MIN",
+     "pts": 0.0
+    }
+   },
+   "margin": 21.16,
+   "cost": [
+    {
+     "name": "Minnesota Vikings",
+     "pos": "DEF",
+     "pts": 0,
+     "avg": 11.33,
+     "short": 11.33
+    },
+    {
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "pts": 11.0,
+     "avg": 15.3,
+     "short": 4.3
+    },
+    {
+     "name": "Cam Skattebo",
+     "pos": "RB",
+     "pts": 4.3,
+     "avg": 7.72,
+     "short": 3.42
+    }
+   ],
+   "cost_decisive": [],
+   "won_despite": [],
+   "h2h_before": [
+    9,
+    6
+   ]
+  },
+  {
+   "winner": {
+    "manager": "Colt45Johnson",
+    "team": "Bite Marks",
+    "points": 130.16,
+    "optimal": 130.16,
+    "left_on_bench": 0.0,
+    "timeline": [
+     0.0,
+     20.46,
+     86.86,
+     121.66,
+     130.16,
+     130.16
+    ],
+    "by_pos": {
+     "DEF": 16.0,
+     "K": 9.0,
+     "QB": 20.46,
+     "RB": 28.0,
+     "TE": 30.9,
+     "WR": 25.8
+    },
+    "top": [
+     {
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "id": "1466",
+      "nfl": "KC",
+      "pts": 22.4
+     },
+     {
+      "name": "C.J. Stroud",
+      "pos": "QB",
+      "id": "9758",
+      "nfl": "HOU",
+      "pts": 20.46
+     },
+     {
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "id": "11635",
+      "nfl": "LAC",
+      "pts": 18.2
+     }
+    ],
+    "best_bench": {
+     "name": "Cairo Santos",
+     "id": "2020",
+     "nfl": "CHI",
+     "pts": 7.0
+    },
+    "worst_start": {
+     "name": "Jaylen Waddle",
+     "id": "7526",
+     "nfl": "DEN",
+     "pts": 7.6
+    }
+   },
+   "loser": {
+    "manager": "Jbird531",
+    "team": "The retarded somalian",
+    "points": 92.84,
+    "optimal": 106.84,
+    "left_on_bench": 14.0,
+    "timeline": [
+     0.0,
+     17.7,
+     69.24,
+     86.74,
+     86.74,
+     92.84
+    ],
+    "by_pos": {
+     "DEF": 15.0,
+     "K": 12.0,
+     "QB": 14.34,
+     "RB": 23.6,
+     "TE": 2.7,
+     "WR": 25.2
+    },
+    "top": [
+     {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "id": "8155",
+      "nfl": "NYJ",
+      "pts": 17.5
+     },
+     {
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "id": "8148",
+      "nfl": "DET",
+      "pts": 17.3
+     },
+     {
+      "name": "Houston Texans",
+      "pos": "DEF",
+      "id": "HOU",
+      "nfl": "HOU",
+      "pts": 15.0
+     }
+    ],
+    "best_bench": {
+     "name": "Geno Smith",
+     "id": "1373",
+     "nfl": "NYJ",
+     "pts": 19.44
+    },
+    "worst_start": {
+     "name": "Rachaad White",
+     "id": "8136",
+     "nfl": "WAS",
+     "pts": 0.0
+    }
+   },
+   "margin": 37.32,
+   "cost": [
+    {
+     "name": "Rachaad White",
+     "pos": "RB",
+     "pts": 0,
+     "avg": 8.43,
+     "short": 8.43
+    },
+    {
+     "name": "Chase Brown",
+     "pos": "RB",
+     "pts": 6.1,
+     "avg": 11.8,
+     "short": 5.7
+    },
+    {
+     "name": "Tyler Warren",
+     "pos": "TE",
+     "pts": 2.7,
+     "avg": 8.31,
+     "short": 5.61
+    }
+   ],
+   "cost_decisive": [],
+   "won_despite": [],
+   "h2h_before": [
+    6,
+    7
+   ]
+  }
+ ],
+ "facts": {
+  "closest": {
+   "winner": {
+    "manager": "brettmn13",
+    "team": "Granny shifting",
+    "points": 120.64,
+    "optimal": 120.64,
+    "left_on_bench": 0.0,
+    "timeline": [
+     0.0,
+     0.0,
+     18.7,
+     99.64,
+     120.64,
+     120.64
+    ],
+    "by_pos": {
+     "DEF": 13.0,
+     "K": 8.0,
+     "QB": 12.74,
+     "RB": 43.7,
+     "TE": 10.4,
+     "WR": 32.8
+    },
+    "top": [
+     {
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "id": "13345",
+      "nfl": "DEN",
+      "pts": 32.9
+     },
+     {
+      "name": "Parker Washington",
+      "pos": "WR",
+      "id": "9487",
+      "nfl": "JAX",
+      "pts": 14.3
+     },
+     {
+      "name": "Denver Broncos",
+      "pos": "DEF",
+      "id": "DEN",
+      "nfl": "DEN",
+      "pts": 13.0
+     }
+    ],
+    "best_bench": {
+     "name": "Travis Etienne Jr.",
+     "id": "7543",
+     "nfl": "NO",
+     "pts": 7.6
+    },
+    "worst_start": {
+     "name": "Wil Lutz",
+     "id": "3678",
+     "nfl": "DEN",
+     "pts": 8.0
+    }
+   },
+   "loser": {
+    "manager": "Wallner",
+    "team": "Woody Marks Purdy Cooks",
+    "points": 115.8,
+    "optimal": 119.7,
+    "left_on_bench": 3.9,
+    "timeline": [
+     0.0,
+     3.0,
+     38.1,
+     63.5,
+     105.6,
+     115.8
+    ],
+    "by_pos": {
+     "DEF": 0.0,
+     "K": 3.0,
+     "QB": 22.2,
+     "RB": 41.6,
+     "TE": 10.2,
+     "WR": 38.8
+    },
+    "top": [
+     {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "id": "12527",
+      "nfl": "LV",
+      "pts": 25.4
+     },
+     {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "id": "8183",
+      "nfl": "SF",
+      "pts": 22.2
+     },
+     {
+      "name": "Mike Evans",
+      "pos": "WR",
+      "id": "2216",
+      "nfl": "SF",
+      "pts": 19.9
+     }
+    ],
+    "best_bench": {
+     "name": "Bo Nix",
+     "id": "11563",
+     "nfl": "DEN",
+     "pts": 11.5
+    },
+    "worst_start": {
+     "name": "Tampa Bay Buccaneers",
+     "id": "TB",
+     "nfl": "TB",
+     "pts": 0.0
+    }
+   },
+   "margin": 4.84,
+   "cost": [
+    {
+     "name": "Tampa Bay Buccaneers",
+     "pos": "DEF",
+     "pts": 0,
+     "avg": 14.5,
+     "short": 14.5
+    },
+    {
+     "name": "Emeka Egbuka",
+     "pos": "WR",
+     "pts": 2.8,
+     "avg": 9.18,
+     "short": 6.38
+    },
+    {
+     "name": "Spencer Shrader",
+     "pos": "K",
+     "pts": 3.0,
+     "avg": 8.29,
+     "short": 5.29
+    }
+   ],
+   "cost_decisive": [
+    {
+     "name": "Tampa Bay Buccaneers",
+     "pos": "DEF",
+     "pts": 0,
+     "avg": 14.5,
+     "short": 14.5
+    },
+    {
+     "name": "Emeka Egbuka",
+     "pos": "WR",
+     "pts": 2.8,
+     "avg": 9.18,
+     "short": 6.38
+    }
+   ],
+   "won_despite": [],
+   "h2h_before": [
+    6,
+    12
+   ]
+  },
+  "blowout": {
+   "winner": {
+    "manager": "Colt45Johnson",
+    "team": "Bite Marks",
+    "points": 130.16,
+    "optimal": 130.16,
+    "left_on_bench": 0.0,
+    "timeline": [
+     0.0,
+     20.46,
+     86.86,
+     121.66,
+     130.16,
+     130.16
+    ],
+    "by_pos": {
+     "DEF": 16.0,
+     "K": 9.0,
+     "QB": 20.46,
+     "RB": 28.0,
+     "TE": 30.9,
+     "WR": 25.8
+    },
+    "top": [
+     {
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "id": "1466",
+      "nfl": "KC",
+      "pts": 22.4
+     },
+     {
+      "name": "C.J. Stroud",
+      "pos": "QB",
+      "id": "9758",
+      "nfl": "HOU",
+      "pts": 20.46
+     },
+     {
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "id": "11635",
+      "nfl": "LAC",
+      "pts": 18.2
+     }
+    ],
+    "best_bench": {
+     "name": "Cairo Santos",
+     "id": "2020",
+     "nfl": "CHI",
+     "pts": 7.0
+    },
+    "worst_start": {
+     "name": "Jaylen Waddle",
+     "id": "7526",
+     "nfl": "DEN",
+     "pts": 7.6
+    }
+   },
+   "loser": {
+    "manager": "Jbird531",
+    "team": "The retarded somalian",
+    "points": 92.84,
+    "optimal": 106.84,
+    "left_on_bench": 14.0,
+    "timeline": [
+     0.0,
+     17.7,
+     69.24,
+     86.74,
+     86.74,
+     92.84
+    ],
+    "by_pos": {
+     "DEF": 15.0,
+     "K": 12.0,
+     "QB": 14.34,
+     "RB": 23.6,
+     "TE": 2.7,
+     "WR": 25.2
+    },
+    "top": [
+     {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "id": "8155",
+      "nfl": "NYJ",
+      "pts": 17.5
+     },
+     {
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "id": "8148",
+      "nfl": "DET",
+      "pts": 17.3
+     },
+     {
+      "name": "Houston Texans",
+      "pos": "DEF",
+      "id": "HOU",
+      "nfl": "HOU",
+      "pts": 15.0
+     }
+    ],
+    "best_bench": {
+     "name": "Geno Smith",
+     "id": "1373",
+     "nfl": "NYJ",
+     "pts": 19.44
+    },
+    "worst_start": {
+     "name": "Rachaad White",
+     "id": "8136",
+     "nfl": "WAS",
+     "pts": 0.0
+    }
+   },
+   "margin": 37.32,
+   "cost": [
+    {
+     "name": "Rachaad White",
+     "pos": "RB",
+     "pts": 0,
+     "avg": 8.43,
+     "short": 8.43
+    },
+    {
+     "name": "Chase Brown",
+     "pos": "RB",
+     "pts": 6.1,
+     "avg": 11.8,
+     "short": 5.7
+    },
+    {
+     "name": "Tyler Warren",
+     "pos": "TE",
+     "pts": 2.7,
+     "avg": 8.31,
+     "short": 5.61
+    }
+   ],
+   "cost_decisive": [],
+   "won_despite": [],
+   "h2h_before": [
+    6,
+    7
+   ]
+  },
+  "high": {
+   "manager": "Colt45Johnson",
+   "points": 130.16
+  },
+  "low": {
+   "manager": "RockMNwild",
+   "points": 72.1
+  },
+  "top_player": {
+   "manager": "PapaMidnight",
+   "name": "Dak Prescott",
+   "pos": "QB",
+   "id": "3294",
+   "nfl": "DAL",
+   "pts": 35.9
+  },
+  "bench_regret": {
+   "manager": "triccster",
+   "points": 24.8,
+   "best_bench": {
+    "name": "Jared Goff",
+    "id": "3163",
+    "nfl": "DET",
+    "pts": 20.36
+   }
+  }
+ },
+ "standings": [
+  {
+   "manager": "TuanonStan",
+   "w": 9,
+   "l": 2,
+   "t": 0,
+   "pf": 1269.56
+  },
+  {
+   "manager": "butterygoop",
+   "w": 8,
+   "l": 3,
+   "t": 0,
+   "pf": 1292.72
+  },
+  {
+   "manager": "YoungBuck04",
+   "w": 7,
+   "l": 4,
+   "t": 0,
+   "pf": 1189.58
+  },
+  {
+   "manager": "Colt45Johnson",
+   "w": 6,
+   "l": 5,
+   "t": 0,
+   "pf": 1149.9
+  },
+  {
+   "manager": "brettmn13",
+   "w": 6,
+   "l": 5,
+   "t": 0,
+   "pf": 1122.0
+  },
+  {
+   "manager": "Jbird531",
+   "w": 6,
+   "l": 5,
+   "t": 0,
+   "pf": 1104.76
+  },
+  {
+   "manager": "snelson91",
+   "w": 5,
+   "l": 6,
+   "t": 0,
+   "pf": 1271.3
+  },
+  {
+   "manager": "RockMNwild",
+   "w": 5,
+   "l": 6,
+   "t": 0,
+   "pf": 1128.3
+  },
+  {
+   "manager": "Wallner",
+   "w": 4,
+   "l": 7,
+   "t": 0,
+   "pf": 1147.52
+  },
+  {
+   "manager": "triccster",
+   "w": 4,
+   "l": 7,
+   "t": 0,
+   "pf": 1088.76
+  },
+  {
+   "manager": "thecreamer",
+   "w": 4,
+   "l": 7,
+   "t": 0,
+   "pf": 1021.88
+  },
+  {
+   "manager": "PapaMidnight",
+   "w": 2,
+   "l": 9,
+   "t": 0,
+   "pf": 1093.42
+  }
+ ]
+}

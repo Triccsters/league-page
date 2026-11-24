@@ -1,66 +1,397 @@
 {
- "generated": "2026-11-23T13:21:13+00:00",
+ "generated": "2026-11-24T13:20:59+00:00",
  "season": 2026,
- "week": 11,
+ "week": 12,
  "playoff": false,
  "games": [
   {
-   "a": "butterygoop",
-   "b": "RockMNwild",
-   "a_win": 51.4,
+   "a": "triccster",
+   "b": "Jbird531",
+   "a_win": 46.6,
    "rec": {
-    "butterygoop": [
-     7,
-     3
+    "triccster": [
+     4,
+     7
     ],
-    "RockMNwild": [
-     5,
+    "Jbird531": [
+     6,
      5
     ]
    },
    "avg": {
-    "butterygoop": 120.87,
-    "RockMNwild": 105.62
+    "triccster": 98.98,
+    "Jbird531": 100.43
    },
    "last3": {
-    "butterygoop": [
-     143.08,
-     112.64,
-     129.38
+    "triccster": [
+     111.8,
+     99.02,
+     77.76
     ],
-    "RockMNwild": [
-     135.78,
-     113.44,
-     113.36
+    "Jbird531": [
+     67.16,
+     87.52,
+     92.84
     ]
    },
    "proj": {
-    "butterygoop": 113.8,
-    "RockMNwild": 112.69
+    "triccster": 100.71,
+    "Jbird531": 103.35
    },
    "h2h": {
-    "butterygoop": 3,
-    "RockMNwild": 8,
-    "games": 11
+    "triccster": 4,
+    "Jbird531": 13,
+    "games": 17
+   },
+   "streak": [
+    "Jbird531",
+    8
+   ],
+   "last": {
+    "season": 2026,
+    "week": 1,
+    "label": null,
+    "score": {
+     "triccster": 101.66,
+     "Jbird531": 118.36
+    }
+   },
+   "flags": [
+    "{Jbird531} has won 8 straight in this series",
+    "Rematch of the 2020 final",
+    "Rematch of the 2022 final",
+    "Revenge game: {triccster} lost in week 1",
+    "{Jbird531} owns this series 13-4"
+   ],
+   "nfl": [
+    {
+     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
+     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
+     "date": "2026-11-23",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Jacory Croskey-Merritt",
+        "p": "RB",
+        "how": "named"
+       },
+       {
+        "n": "Jayden Daniels",
+        "p": "QB",
+        "how": "ripple"
+       },
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Jbird531": [
+       {
+        "n": "Rachaad White",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
+     "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
+     "date": "2026-11-24",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Jayden Daniels",
+        "p": "QB",
+        "how": "named"
+       },
+       {
+        "n": "Jacory Croskey-Merritt",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Jbird531": [
+       {
+        "n": "Rachaad White",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
+     "url": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
+     "date": "2026-11-21",
+     "both": true,
+     "score": 12.5,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Samaje Perine",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "Jbird531": [
+       {
+        "n": "Chase Brown",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
+     "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 14.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "DK Metcalf",
+        "p": "WR",
+        "how": "named"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "TuanonStan",
+   "b": "PapaMidnight",
+   "a_win": 54.5,
+   "rec": {
+    "TuanonStan": [
+     9,
+     2
+    ],
+    "PapaMidnight": [
+     2,
+     9
+    ]
+   },
+   "avg": {
+    "TuanonStan": 115.41,
+    "PapaMidnight": 99.4
+   },
+   "last3": {
+    "TuanonStan": [
+     126.76,
+     101.24,
+     96.86
+    ],
+    "PapaMidnight": [
+     75.7,
+     137.78,
+     108.9
+    ]
+   },
+   "proj": {
+    "TuanonStan": 110.52,
+    "PapaMidnight": 107.0
+   },
+   "h2h": {
+    "TuanonStan": 11,
+    "PapaMidnight": 4,
+    "games": 15
+   },
+   "streak": [
+    "TuanonStan",
+    4
+   ],
+   "last": {
+    "season": 2026,
+    "week": 1,
+    "label": null,
+    "score": {
+     "TuanonStan": 111.06,
+     "PapaMidnight": 105.1
+    }
+   },
+   "flags": [
+    "{TuanonStan} has won 4 straight in this series",
+    "Revenge game: {PapaMidnight} lost in week 1",
+    "{TuanonStan} owns this series 11-4"
+   ],
+   "nfl": [
+    {
+     "headline": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
+     "url": "https://www.espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
+     "date": "2026-11-23",
+     "both": true,
+     "score": 12.0,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Dak Prescott",
+        "p": "QB",
+        "how": "named"
+       }
+      ],
+      "TuanonStan": [
+       {
+        "n": "Javonte Williams",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
+     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
+     "date": "2026-11-22",
+     "both": false,
+     "score": 14.5,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Jordan Mason",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
+     "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 14.0,
+     "touches": {
+      "PapaMidnight": [
+       {
+        "n": "Pat Freiermuth",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
+     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 13.5,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Keenan Allen",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "George Kittle",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "butterygoop",
+   "a_win": 27.1,
+   "rec": {
+    "Wallner": [
+     4,
+     7
+    ],
+    "butterygoop": [
+     8,
+     3
+    ]
+   },
+   "avg": {
+    "Wallner": 104.32,
+    "butterygoop": 117.52
+   },
+   "last3": {
+    "Wallner": [
+     91.56,
+     82.16,
+     115.8
+    ],
+    "butterygoop": [
+     112.64,
+     129.38,
+     84.0
+    ]
+   },
+   "proj": {
+    "Wallner": 98.38,
+    "butterygoop": 117.34
+   },
+   "h2h": {
+    "Wallner": 6,
+    "butterygoop": 8,
+    "games": 14
    },
    "streak": [
     "butterygoop",
     1
    ],
    "last": {
-    "season": 2025,
-    "week": 17,
-    "label": "Championship",
+    "season": 2026,
+    "week": 1,
+    "label": null,
     "score": {
-     "butterygoop": 144.14,
-     "RockMNwild": 81.62
+     "Wallner": 107.0,
+     "butterygoop": 167.82
     }
    },
    "flags": [
-    "Rematch of the 2025 final",
-    "{RockMNwild} owns this series 8-3"
+    "Revenge game: {Wallner} lost in week 1",
+    "Upset watch: {Wallner} is the underdog"
    ],
    "nfl": [
+    {
+     "headline": "'Locked into the moment,' Bryce Young rallies first-place Panthers past Ravens",
+     "url": "https://www.espn.com/nfl/story/_/id/50567146/young-authors-game-winning-drive-first-place-panthers",
+     "date": "2026-11-23",
+     "both": true,
+     "score": 12.0,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "Tetairoa McMillan",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "butterygoop": [
+       {
+        "n": "Jalen Coker",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Chuba Hubbard",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
     {
      "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
      "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
@@ -84,27 +415,16 @@
      "both": false,
      "score": 13.5,
      "touches": {
-      "RockMNwild": [
+      "Wallner": [
        {
-        "n": "De'Zhaun Stribling",
+        "n": "Brock Purdy",
+        "p": "QB",
+        "how": "named"
+       },
+       {
+        "n": "Mike Evans",
         "p": "WR",
         "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-     "date": "2026-11-20",
-     "both": false,
-     "score": 13.0,
-     "touches": {
-      "butterygoop": [
-       {
-        "n": "Kenneth Walker III",
-        "p": "RB",
-        "how": "named"
        }
       ]
      }
@@ -128,207 +448,90 @@
    ]
   },
   {
-   "a": "Jbird531",
-   "b": "Colt45Johnson",
-   "a_win": 42.5,
-   "rec": {
-    "Jbird531": [
-     6,
-     4
-    ],
-    "Colt45Johnson": [
-     5,
-     5
-    ]
-   },
-   "avg": {
-    "Jbird531": 101.19,
-    "Colt45Johnson": 101.97
-   },
-   "last3": {
-    "Jbird531": [
-     123.78,
-     67.16,
-     87.52
-    ],
-    "Colt45Johnson": [
-     99.2,
-     106.68,
-     75.28
-    ]
-   },
-   "proj": {
-    "Jbird531": 98.25,
-    "Colt45Johnson": 104.2
-   },
-   "h2h": {
-    "Jbird531": 7,
-    "Colt45Johnson": 6,
-    "games": 13
-   },
-   "streak": [
-    "Colt45Johnson",
-    4
-   ],
-   "last": {
-    "season": 2025,
-    "week": 17,
-    "label": "9th place",
-    "score": {
-     "Jbird531": 75.08,
-     "Colt45Johnson": 84.4
-    }
-   },
-   "flags": [
-    "{Colt45Johnson} has won 4 straight in this series"
-   ],
-   "nfl": [
-    {
-     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-     "date": "2026-11-20",
-     "both": true,
-     "score": 13.5,
-     "touches": {
-      "Jbird531": [
-       {
-        "n": "Caleb Williams",
-        "p": "QB",
-        "how": "ripple"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "D'Andre Swift",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-     "date": "2026-11-20",
-     "both": true,
-     "score": 13.0,
-     "touches": {
-      "Jbird531": [
-       {
-        "n": "Josh Downs",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "Travis Kelce",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-     "date": "2026-11-18",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "Jbird531": [
-       {
-        "n": "Caleb Williams",
-        "p": "QB",
-        "how": "named"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "D'Andre Swift",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 14.5,
-     "touches": {
-      "Colt45Johnson": [
-       {
-        "n": "T.J. Hockenson",
-        "p": "TE",
-        "how": "ripple"
-       },
-       {
-        "n": "Jordan Addison",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "a": "Wallner",
+   "a": "RockMNwild",
    "b": "brettmn13",
-   "a_win": 46.3,
+   "a_win": 57.6,
    "rec": {
-    "Wallner": [
-     4,
+    "RockMNwild": [
+     5,
      6
     ],
     "brettmn13": [
-     5,
+     6,
      5
     ]
    },
    "avg": {
-    "Wallner": 103.17,
-    "brettmn13": 100.14
+    "RockMNwild": 102.57,
+    "brettmn13": 102.0
    },
    "last3": {
-    "Wallner": [
-     125.36,
-     91.56,
-     82.16
+    "RockMNwild": [
+     113.44,
+     113.36,
+     72.1
     ],
     "brettmn13": [
-     104.4,
      83.08,
-     121.68
+     121.68,
+     120.64
     ]
    },
    "proj": {
-    "Wallner": 101.47,
-    "brettmn13": 104.35
+    "RockMNwild": 110.69,
+    "brettmn13": 104.72
    },
    "h2h": {
-    "Wallner": 12,
-    "brettmn13": 6,
-    "games": 18
+    "RockMNwild": 13,
+    "brettmn13": 12,
+    "games": 25
    },
    "streak": [
-    "Wallner",
-    1
+    "brettmn13",
+    3
    ],
    "last": {
-    "season": 2025,
-    "week": 12,
+    "season": 2026,
+    "week": 1,
     "label": null,
     "score": {
-     "Wallner": 93.46,
-     "brettmn13": 86.42
+     "RockMNwild": 79.16,
+     "brettmn13": 117.2
     }
    },
-   "flags": [],
+   "flags": [
+    "{brettmn13} has won 3 straight in this series",
+    "Revenge game: {RockMNwild} lost in week 1"
+   ],
    "nfl": [
+    {
+     "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
+     "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
+     "date": "2026-11-23",
+     "both": true,
+     "score": 14.0,
+     "touches": {
+      "RockMNwild": [
+       {
+        "n": "Rico Dowdle",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Jaylen Warren",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "brettmn13": [
+       {
+        "n": "Germie Bernard",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
     {
      "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
      "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
@@ -357,14 +560,9 @@
      "both": false,
      "score": 13.5,
      "touches": {
-      "Wallner": [
+      "RockMNwild": [
        {
-        "n": "Brock Purdy",
-        "p": "QB",
-        "how": "named"
-       },
-       {
-        "n": "Mike Evans",
+        "n": "De'Zhaun Stribling",
         "p": "WR",
         "how": "ripple"
        }
@@ -386,244 +584,83 @@
        }
       ]
      }
-    },
-    {
-     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-     "date": "2026-11-20",
-     "both": false,
-     "score": 13.0,
-     "touches": {
-      "brettmn13": [
-       {
-        "n": "Rashee Rice",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
     }
    ]
   },
   {
-   "a": "TuanonStan",
-   "b": "thecreamer",
-   "a_win": 68.6,
+   "a": "YoungBuck04",
+   "b": "Colt45Johnson",
+   "a_win": 54.3,
    "rec": {
-    "TuanonStan": [
-     8,
-     2
-    ],
-    "thecreamer": [
-     4,
-     6
-    ]
-   },
-   "avg": {
-    "TuanonStan": 117.27,
-    "thecreamer": 93.15
-   },
-   "last3": {
-    "TuanonStan": [
-     103.66,
-     126.76,
-     101.24
-    ],
-    "thecreamer": [
-     79.86,
-     83.84,
-     76.0
-    ]
-   },
-   "proj": {
-    "TuanonStan": 111.17,
-    "thecreamer": 95.9
-   },
-   "h2h": {
-    "TuanonStan": 8,
-    "thecreamer": 7,
-    "games": 15
-   },
-   "streak": [
-    "thecreamer",
-    1
-   ],
-   "last": {
-    "season": 2025,
-    "week": 15,
-    "label": "Consolation R1",
-    "score": {
-     "TuanonStan": 100.34,
-     "thecreamer": 119.42
-    }
-   },
-   "flags": [],
-   "nfl": [
-    {
-     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-     "date": "2026-11-20",
-     "both": true,
-     "score": 13.5,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Kyle Monangai",
-        "p": "RB",
-        "how": "named"
-       }
-      ],
-      "thecreamer": [
-       {
-        "n": "Rome Odunze",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Kalif Raymond",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-     "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-     "date": "2026-11-18",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Kyle Monangai",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ],
-      "thecreamer": [
-       {
-        "n": "Rome Odunze",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Kalif Raymond",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
-     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 13.5,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Keenan Allen",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "George Kittle",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
-     "url": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
-     "date": "2026-11-21",
-     "both": false,
-     "score": 12.5,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Tee Higgins",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "a": "triccster",
-   "b": "YoungBuck04",
-   "a_win": 39.6,
-   "rec": {
-    "triccster": [
-     4,
-     6
-    ],
     "YoungBuck04": [
-     6,
+     7,
      4
+    ],
+    "Colt45Johnson": [
+     6,
+     5
     ]
    },
    "avg": {
-    "triccster": 101.1,
-    "YoungBuck04": 109.26
+    "YoungBuck04": 108.14,
+    "Colt45Johnson": 104.54
    },
    "last3": {
-    "triccster": [
-     78.28,
-     111.8,
-     99.02
-    ],
     "YoungBuck04": [
-     88.2,
      128.68,
-     138.8
+     138.8,
+     97.02
+    ],
+    "Colt45Johnson": [
+     106.68,
+     75.28,
+     130.16
     ]
    },
    "proj": {
-    "triccster": 100.12,
-    "YoungBuck04": 108.44
+    "YoungBuck04": 103.11,
+    "Colt45Johnson": 99.74
    },
    "h2h": {
-    "triccster": 5,
     "YoungBuck04": 9,
-    "games": 14
+    "Colt45Johnson": 10,
+    "games": 19
    },
    "streak": [
-    "YoungBuck04",
-    1
+    "Colt45Johnson",
+    2
    ],
    "last": {
-    "season": 2025,
-    "week": 12,
+    "season": 2026,
+    "week": 1,
     "label": null,
     "score": {
-     "triccster": 112.46,
-     "YoungBuck04": 148.26
+     "YoungBuck04": 94.56,
+     "Colt45Johnson": 126.5
     }
    },
-   "flags": [],
+   "flags": [
+    "Revenge game: {YoungBuck04} lost in week 1"
+   ],
    "nfl": [
     {
-     "headline": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
-     "url": "https://www.espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 14.0,
+     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
+     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
+     "date": "2026-11-23",
+     "both": true,
+     "score": 15.0,
      "touches": {
       "YoungBuck04": [
        {
-        "n": "Blake Corum",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Davante Adams",
+        "n": "Antonio Williams",
         "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Austin Ekeler",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -633,7 +670,7 @@
      "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
      "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
      "date": "2026-11-23",
-     "both": false,
+     "both": true,
      "score": 13.5,
      "touches": {
       "YoungBuck04": [
@@ -647,6 +684,133 @@
         "p": "RB",
         "how": "ripple"
        }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Deebo Samuel Sr.",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
+     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
+     "date": "2026-11-20",
+     "both": true,
+     "score": 13.5,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Luther Burden III",
+        "p": "WR",
+        "how": "named"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "D'Andre Swift",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
+     "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
+     "date": "2026-11-24",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Antonio Williams",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Austin Ekeler",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "snelson91",
+   "b": "thecreamer",
+   "a_win": 69.1,
+   "rec": {
+    "snelson91": [
+     5,
+     6
+    ],
+    "thecreamer": [
+     4,
+     7
+    ]
+   },
+   "avg": {
+    "snelson91": 115.57,
+    "thecreamer": 92.9
+   },
+   "last3": {
+    "snelson91": [
+     100.68,
+     154.72,
+     130.06
+    ],
+    "thecreamer": [
+     83.84,
+     76.0,
+     90.36
+    ]
+   },
+   "proj": {
+    "snelson91": 110.83,
+    "thecreamer": 95.37
+   },
+   "h2h": {
+    "snelson91": 11,
+    "thecreamer": 7,
+    "games": 18
+   },
+   "streak": [
+    "snelson91",
+    1
+   ],
+   "last": {
+    "season": 2026,
+    "week": 1,
+    "label": null,
+    "score": {
+     "snelson91": 119.76,
+     "thecreamer": 88.44
+    }
+   },
+   "flags": [
+    "Revenge game: {thecreamer} lost in week 1"
+   ],
+   "nfl": [
+    {
+     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
+     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 15.0,
+     "touches": {
+      "thecreamer": [
+       {
+        "n": "Chig Okonkwo",
+        "p": "TE",
+        "how": "ripple"
+       }
       ]
      }
     },
@@ -657,169 +821,46 @@
      "both": false,
      "score": 13.5,
      "touches": {
-      "YoungBuck04": [
+      "thecreamer": [
        {
-        "n": "Luther Burden III",
+        "n": "Rome Odunze",
         "p": "WR",
-        "how": "named"
+        "how": "ripple"
+       },
+       {
+        "n": "Kalif Raymond",
+        "p": "WR",
+        "how": "ripple"
        }
       ]
      }
     },
     {
-     "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-     "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-     "date": "2026-11-20",
+     "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
+     "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
+     "date": "2026-11-24",
      "both": false,
      "score": 13.0,
      "touches": {
-      "YoungBuck04": [
+      "thecreamer": [
        {
-        "n": "Emmett Johnson",
-        "p": "RB",
-        "how": "named"
+        "n": "Chig Okonkwo",
+        "p": "TE",
+        "how": "ripple"
        }
       ]
      }
-    }
-   ]
-  },
-  {
-   "a": "PapaMidnight",
-   "b": "snelson91",
-   "a_win": 42.4,
-   "rec": {
-    "PapaMidnight": [
-     2,
-     8
-    ],
-    "snelson91": [
-     4,
-     6
-    ]
-   },
-   "avg": {
-    "PapaMidnight": 98.45,
-    "snelson91": 114.12
-   },
-   "last3": {
-    "PapaMidnight": [
-     89.1,
-     75.7,
-     137.78
-    ],
-    "snelson91": [
-     113.44,
-     100.68,
-     154.72
-    ]
-   },
-   "proj": {
-    "PapaMidnight": 104.97,
-    "snelson91": 110.98
-   },
-   "h2h": {
-    "PapaMidnight": 6,
-    "snelson91": 9,
-    "games": 15
-   },
-   "streak": [
-    "PapaMidnight",
-    2
-   ],
-   "last": {
-    "season": 2025,
-    "week": 11,
-    "label": null,
-    "score": {
-     "PapaMidnight": 82.5,
-     "snelson91": 72.14
-    }
-   },
-   "flags": [],
-   "nfl": [
+    },
     {
-     "headline": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
-     "url": "https://www.espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
+     "headline": "NFL says no-TD call for WR Parker Washington in Jaguars' loss was correct",
+     "url": "https://www.espn.com/nfl/story/_/id/50569248/nfl-no-td-call-jaguars-parker-washington-was-correct",
      "date": "2026-11-23",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "PapaMidnight": [
-       {
-        "n": "Dak Prescott",
-        "p": "QB",
-        "how": "named"
-       }
-      ],
-      "snelson91": [
-       {
-        "n": "Ryan Flournoy",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "George Pickens",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "RB Cam Skattebo backflips again after pledging to nix celebration",
-     "url": "https://www.espn.com/nfl/story/_/id/50569390/rb-cam-skattebo-backflips-again-pledging-nix-celebration",
-     "date": "2026-11-23",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "PapaMidnight": [
-       {
-        "n": "Cam Skattebo",
-        "p": "RB",
-        "how": "named"
-       }
-      ],
-      "snelson91": [
-       {
-        "n": "Tyrone Tracy Jr.",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-     "date": "2026-11-22",
      "both": false,
-     "score": 14.5,
-     "touches": {
-      "PapaMidnight": [
-       {
-        "n": "Jordan Mason",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
-     "url": "https://www.espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 14.0,
+     "score": 12.5,
      "touches": {
       "snelson91": [
        {
-        "n": "Matthew Stafford",
-        "p": "QB",
-        "how": "ripple"
-       },
-       {
-        "n": "Kyren Williams",
+        "n": "Chris Rodriguez Jr.",
         "p": "RB",
         "how": "ripple"
        }
@@ -832,6 +873,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-23T13:21+00:00",
+ "nfl_read_at": "2026-11-24T13:21+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }

@@ -1,8 +1,74 @@
 {
- "read_at": "2026-11-23T13:21+00:00",
+ "read_at": "2026-11-24T13:21+00:00",
  "days": 7,
- "count": 94,
+ "count": 83,
  "items": [
+  {
+   "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
+   "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
+   "date": "2026-11-23",
+   "kind": "news",
+   "teams": [
+    "WAS"
+   ],
+   "named": [
+    {
+     "n": "Jacory Croskey-Merritt",
+     "p": "RB",
+     "t": "WAS",
+     "h": "triccster"
+    }
+   ],
+   "lead": [
+    "Jacory Croskey-Merritt"
+   ],
+   "ripple": [
+    {
+     "n": "Jayden Daniels",
+     "p": "QB",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Stefon Diggs",
+     "p": "WR",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Antonio Williams",
+     "p": "WR",
+     "t": "WAS",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Rachaad White",
+     "p": "RB",
+     "t": "WAS",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Austin Ekeler",
+     "p": "RB",
+     "t": "WAS",
+     "h": "Colt45Johnson"
+    },
+    {
+     "n": "Chig Okonkwo",
+     "p": "TE",
+     "t": "WAS",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "Jbird531",
+    "YoungBuck04",
+    "thecreamer",
+    "triccster"
+   ],
+   "score": 15.0
+  },
   {
    "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
    "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
@@ -63,54 +129,56 @@
    "score": 14.5
   },
   {
-   "headline": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
-   "url": "https://www.espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
-   "date": "2026-11-22",
+   "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
+   "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
+   "date": "2026-11-23",
    "kind": "news",
    "teams": [
-    "LAR"
+    "PHI",
+    "PIT"
    ],
    "named": [
     {
-     "n": "Puka Nacua",
+     "n": "DK Metcalf",
      "p": "WR",
-     "t": "LAR",
-     "h": "Colt45Johnson"
+     "t": "PIT",
+     "h": "triccster"
     }
    ],
    "lead": [
-    "Puka Nacua"
+    "DK Metcalf"
    ],
    "ripple": [
     {
-     "n": "Blake Corum",
+     "n": "Rico Dowdle",
      "p": "RB",
-     "t": "LAR",
-     "h": "YoungBuck04"
+     "t": "PIT",
+     "h": "RockMNwild"
     },
     {
-     "n": "Davante Adams",
+     "n": "Jaylen Warren",
+     "p": "RB",
+     "t": "PIT",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Pat Freiermuth",
+     "p": "TE",
+     "t": "PIT",
+     "h": "PapaMidnight"
+    },
+    {
+     "n": "Germie Bernard",
      "p": "WR",
-     "t": "LAR",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Matthew Stafford",
-     "p": "QB",
-     "t": "LAR",
-     "h": "snelson91"
-    },
-    {
-     "n": "Kyren Williams",
-     "p": "RB",
-     "t": "LAR",
-     "h": "snelson91"
+     "t": "PIT",
+     "h": "brettmn13"
     }
    ],
    "managers": [
-    "Colt45Johnson",
-    "YoungBuck04",
-    "snelson91"
+    "PapaMidnight",
+    "RockMNwild",
+    "brettmn13",
+    "triccster"
    ],
    "score": 14.0
   },
@@ -255,63 +323,68 @@
    "score": 13.5
   },
   {
-   "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
-   "url": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
-   "date": "2026-11-20",
+   "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
+   "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
+   "date": "2026-11-24",
    "kind": "news",
    "teams": [
-    "KC"
+    "WAS"
    ],
    "named": [
     {
-     "n": "Kenneth Walker III",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
-    },
-    {
-     "n": "Emmett Johnson",
-     "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
+     "n": "Jayden Daniels",
+     "p": "QB",
+     "t": "WAS",
+     "h": "triccster"
     }
    ],
    "lead": [
-    "Kenneth Walker III"
+    "Jayden Daniels"
    ],
    "ripple": [
     {
-     "n": "Josh Downs",
+     "n": "Jacory Croskey-Merritt",
+     "p": "RB",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Stefon Diggs",
      "p": "WR",
-     "t": "KC",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Antonio Williams",
+     "p": "WR",
+     "t": "WAS",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Rachaad White",
+     "p": "RB",
+     "t": "WAS",
      "h": "Jbird531"
     },
     {
-     "n": "Travis Kelce",
-     "p": "TE",
-     "t": "KC",
+     "n": "Austin Ekeler",
+     "p": "RB",
+     "t": "WAS",
      "h": "Colt45Johnson"
     },
     {
-     "n": "Rashee Rice",
-     "p": "WR",
-     "t": "KC",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
+     "n": "Chig Okonkwo",
+     "p": "TE",
+     "t": "WAS",
+     "h": "thecreamer"
     }
    ],
    "managers": [
     "Colt45Johnson",
     "Jbird531",
     "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "snelson91"
+    "thecreamer",
+    "triccster"
    ],
    "score": 13.0
   },
@@ -655,62 +728,8 @@
    "score": 12.0
   },
   {
-   "headline": "Steelers' DK Metcalf ejected for trying to poke Eagles' Cooper DeJean in eye",
-   "url": "https://www.espn.com/nfl/story/_/id/50564475/steelers-wr-dk-metcalf-ejected-game-eagles",
-   "date": "2026-11-23",
-   "kind": "news",
-   "teams": [
-    "PHI",
-    "PIT"
-   ],
-   "named": [
-    {
-     "n": "DK Metcalf",
-     "p": "WR",
-     "t": "PIT",
-     "h": "triccster"
-    }
-   ],
-   "lead": [
-    "DK Metcalf"
-   ],
-   "ripple": [
-    {
-     "n": "Rico Dowdle",
-     "p": "RB",
-     "t": "PIT",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Jaylen Warren",
-     "p": "RB",
-     "t": "PIT",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Pat Freiermuth",
-     "p": "TE",
-     "t": "PIT",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Germie Bernard",
-     "p": "WR",
-     "t": "PIT",
-     "h": "brettmn13"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "RockMNwild",
-    "brettmn13",
-    "triccster"
-   ],
-   "score": 12.0
-  },
-  {
-   "headline": "49ers' Colton McKivitz suffers season-ending ankle injury",
-   "url": "https://www.espn.com/nfl/story/_/id/50568995/49ers-colton-mckivitz-exits-game-vs-vikings-injuring-lower-leg",
+   "headline": "49ers release WR Brandon Aiyuk with roster exemption ending",
+   "url": "https://www.espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
    "date": "2026-11-23",
    "kind": "news",
    "teams": [
@@ -778,69 +797,54 @@
    "score": 12.0
   },
   {
-   "headline": "Bears QB Caleb Williams has moved on from 4-INT game, but frustration lingers",
-   "url": "https://www.espn.com/nfl/story/_/id/50515291/bears-caleb-williams-moved-4-interception-game-frustration-lingers",
-   "date": "2026-11-18",
+   "headline": "Sources: Rams' Puka Nacua out 4-5 months after knee surgery, will miss playoffs",
+   "url": "https://www.espn.com/nfl/story/_/id/50556613/sources-rams-puka-nacua-4-5-months-knee-surgery",
+   "date": "2026-11-22",
    "kind": "news",
    "teams": [
-    "CHI"
+    "LAR"
    ],
    "named": [
     {
-     "n": "Caleb Williams",
-     "p": "QB",
-     "t": "CHI",
-     "h": "Jbird531"
+     "n": "Puka Nacua",
+     "p": "WR",
+     "t": "LAR",
+     "h": "Colt45Johnson"
     }
    ],
    "lead": [
-    "Caleb Williams"
+    "Puka Nacua"
    ],
    "ripple": [
     {
-     "n": "Kyle Monangai",
+     "n": "Blake Corum",
      "p": "RB",
-     "t": "CHI",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Luther Burden III",
-     "p": "WR",
-     "t": "CHI",
+     "t": "LAR",
      "h": "YoungBuck04"
     },
     {
-     "n": "D'Andre Swift",
+     "n": "Davante Adams",
+     "p": "WR",
+     "t": "LAR",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Matthew Stafford",
+     "p": "QB",
+     "t": "LAR",
+     "h": "snelson91"
+    },
+    {
+     "n": "Kyren Williams",
      "p": "RB",
-     "t": "CHI",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Colston Loveland",
-     "p": "TE",
-     "t": "CHI",
-     "h": "brettmn13"
-    },
-    {
-     "n": "Rome Odunze",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
-    },
-    {
-     "n": "Kalif Raymond",
-     "p": "WR",
-     "t": "CHI",
-     "h": "thecreamer"
+     "t": "LAR",
+     "h": "snelson91"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "Jbird531",
-    "TuanonStan",
     "YoungBuck04",
-    "brettmn13",
-    "thecreamer"
+    "snelson91"
    ],
    "score": 12.0
   }
