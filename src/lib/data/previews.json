@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T13:20:59+00:00",
+ "generated": "2026-11-25T13:20:59+00:00",
  "season": 2026,
  "week": 12,
  "playoff": false,
@@ -7,7 +7,7 @@
   {
    "a": "triccster",
    "b": "Jbird531",
-   "a_win": 46.6,
+   "a_win": 49.1,
    "rec": {
     "triccster": [
      4,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "triccster": 100.71,
-    "Jbird531": 103.35
+    "triccster": 101.41,
+    "Jbird531": 102.11
    },
    "h2h": {
     "triccster": 4,
@@ -64,6 +64,39 @@
     "{Jbird531} owns this series 13-4"
    ],
    "nfl": [
+    {
+     "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
+     "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
+     "date": "2026-11-25",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
+        "how": "named"
+       },
+       {
+        "n": "Jayden Daniels",
+        "p": "QB",
+        "how": "ripple"
+       },
+       {
+        "n": "Jacory Croskey-Merritt",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "Jbird531": [
+       {
+        "n": "Rachaad White",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
     {
      "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
      "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
@@ -131,40 +164,24 @@
      }
     },
     {
-     "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
-     "url": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
-     "date": "2026-11-21",
+     "headline": "Packers' Micah Parsons activated, expected to make season debut against Rams",
+     "url": "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
+     "date": "2026-11-24",
      "both": true,
-     "score": 12.5,
+     "score": 11.5,
      "touches": {
       "triccster": [
        {
-        "n": "Samaje Perine",
-        "p": "RB",
+        "n": "Christian Watson",
+        "p": "WR",
         "how": "ripple"
        }
       ],
       "Jbird531": [
        {
-        "n": "Chase Brown",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
-     "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 14.0,
-     "touches": {
-      "triccster": [
-       {
-        "n": "DK Metcalf",
+        "n": "Jayden Reed",
         "p": "WR",
-        "how": "named"
+        "how": "ripple"
        }
       ]
      }
@@ -174,7 +191,7 @@
   {
    "a": "TuanonStan",
    "b": "PapaMidnight",
-   "a_win": 54.5,
+   "a_win": 53.5,
    "rec": {
     "TuanonStan": [
      9,
@@ -202,8 +219,8 @@
     ]
    },
    "proj": {
-    "TuanonStan": 110.52,
-    "PapaMidnight": 107.0
+    "TuanonStan": 110.87,
+    "PapaMidnight": 108.14
    },
    "h2h": {
     "TuanonStan": 11,
@@ -230,39 +247,23 @@
    ],
    "nfl": [
     {
-     "headline": "Dak Prescott continues hot streak, salutes Cowboys offense after rout of Titans",
-     "url": "https://www.espn.com/nfl/story/_/id/50566873/dak-prescott-continues-hot-streak-leads-cowboys-titans",
-     "date": "2026-11-23",
+     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
+     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
+     "date": "2026-11-19",
      "both": true,
-     "score": 12.0,
+     "score": 11.5,
      "touches": {
-      "PapaMidnight": [
-       {
-        "n": "Dak Prescott",
-        "p": "QB",
-        "how": "named"
-       }
-      ],
       "TuanonStan": [
        {
-        "n": "Javonte Williams",
-        "p": "RB",
+        "n": "Tank Dell",
+        "p": "WR",
         "how": "ripple"
        }
-      ]
-     }
-    },
-    {
-     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 14.5,
-     "touches": {
+      ],
       "PapaMidnight": [
        {
-        "n": "Jordan Mason",
-        "p": "RB",
+        "n": "Nico Collins",
+        "p": "WR",
         "how": "ripple"
        }
       ]
@@ -271,7 +272,7 @@
     {
      "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
      "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "both": false,
      "score": 14.0,
      "touches": {
@@ -285,21 +286,32 @@
      }
     },
     {
-     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
-     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
-     "date": "2026-11-23",
+     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
+     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+     "date": "2026-11-25",
      "both": false,
-     "score": 13.5,
+     "score": 13.0,
      "touches": {
       "TuanonStan": [
        {
-        "n": "Keenan Allen",
-        "p": "WR",
+        "n": "Kyle Monangai",
+        "p": "RB",
         "how": "ripple"
-       },
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
+     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
+     "date": "2026-11-22",
+     "both": false,
+     "score": 12.5,
+     "touches": {
+      "PapaMidnight": [
        {
-        "n": "George Kittle",
-        "p": "TE",
+        "n": "Jordan Mason",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -310,7 +322,7 @@
   {
    "a": "Wallner",
    "b": "butterygoop",
-   "a_win": 27.1,
+   "a_win": 28.4,
    "rec": {
     "Wallner": [
      4,
@@ -338,8 +350,8 @@
     ]
    },
    "proj": {
-    "Wallner": 98.38,
-    "butterygoop": 117.34
+    "Wallner": 98.39,
+    "butterygoop": 116.16
    },
    "h2h": {
     "Wallner": 6,
@@ -365,39 +377,11 @@
    ],
    "nfl": [
     {
-     "headline": "'Locked into the moment,' Bryce Young rallies first-place Panthers past Ravens",
-     "url": "https://www.espn.com/nfl/story/_/id/50567146/young-authors-game-winning-drive-first-place-panthers",
-     "date": "2026-11-23",
-     "both": true,
-     "score": 12.0,
-     "touches": {
-      "Wallner": [
-       {
-        "n": "Tetairoa McMillan",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "butterygoop": [
-       {
-        "n": "Jalen Coker",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Chuba Hubbard",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
      "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
      "date": "2026-11-22",
      "both": false,
-     "score": 14.5,
+     "score": 12.5,
      "touches": {
       "butterygoop": [
        {
@@ -409,11 +393,58 @@
      }
     },
     {
+     "headline": "49ers release WR Brandon Aiyuk with roster exemption ending",
+     "url": "https://www.espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
+     "date": "2026-11-24",
+     "both": false,
+     "score": 12.0,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "Mike Evans",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Brock Purdy",
+        "p": "QB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "RB Cam Skattebo backflips again after pledging to nix celebration",
+     "url": "https://www.espn.com/nfl/story/_/id/50569390/rb-cam-skattebo-backflips-again-pledging-nix-celebration",
+     "date": "2026-11-23",
+     "both": false,
+     "score": 12.0,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "J.J. McCarthy",
+        "p": "QB",
+        "how": "ripple"
+       },
+       {
+        "n": "Malik Nabers",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "Isaiah Likely",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
      "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
      "date": "2026-11-23",
      "both": false,
-     "score": 13.5,
+     "score": 11.5,
      "touches": {
       "Wallner": [
        {
@@ -428,29 +459,13 @@
        }
       ]
      }
-    },
-    {
-     "headline": "NFL says no-TD call for WR Parker Washington in Jaguars' loss was correct",
-     "url": "https://www.espn.com/nfl/story/_/id/50569248/nfl-no-td-call-jaguars-parker-washington-was-correct",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 12.5,
-     "touches": {
-      "butterygoop": [
-       {
-        "n": "Bhayshul Tuten",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
     }
    ]
   },
   {
    "a": "RockMNwild",
    "b": "brettmn13",
-   "a_win": 57.6,
+   "a_win": 56.0,
    "rec": {
     "RockMNwild": [
      5,
@@ -478,8 +493,8 @@
     ]
    },
    "proj": {
-    "RockMNwild": 110.69,
-    "brettmn13": 104.72
+    "RockMNwild": 110.31,
+    "brettmn13": 105.58
    },
    "h2h": {
     "RockMNwild": 13,
@@ -507,7 +522,7 @@
     {
      "headline": "Steelers' Metcalf denies trying to poke DeJean in eye; WR won't be suspended",
      "url": "https://www.espn.com/nfl/story/_/id/50573989/steelers-metcalf-denies-trying-poke-eagles-dejean-eye",
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "both": true,
      "score": 14.0,
      "touches": {
@@ -533,11 +548,27 @@
      }
     },
     {
+     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
+     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+     "date": "2026-11-25",
+     "both": false,
+     "score": 13.0,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Colston Loveland",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
      "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
      "date": "2026-11-22",
      "both": false,
-     "score": 14.5,
+     "score": 12.5,
      "touches": {
       "brettmn13": [
        {
@@ -554,27 +585,11 @@
      }
     },
     {
-     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
-     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 13.5,
-     "touches": {
-      "RockMNwild": [
-       {
-        "n": "De'Zhaun Stribling",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
      "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
      "date": "2026-11-20",
      "both": false,
-     "score": 13.5,
+     "score": 12.5,
      "touches": {
       "brettmn13": [
        {
@@ -590,7 +605,7 @@
   {
    "a": "YoungBuck04",
    "b": "Colt45Johnson",
-   "a_win": 54.3,
+   "a_win": 56.9,
    "rec": {
     "YoungBuck04": [
      7,
@@ -618,8 +633,8 @@
     ]
    },
    "proj": {
-    "YoungBuck04": 103.11,
-    "Colt45Johnson": 99.74
+    "YoungBuck04": 104.45,
+    "Colt45Johnson": 99.04
    },
    "h2h": {
     "YoungBuck04": 9,
@@ -644,6 +659,29 @@
    ],
    "nfl": [
     {
+     "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
+     "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
+     "date": "2026-11-25",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Antonio Williams",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Austin Ekeler",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
      "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
      "date": "2026-11-23",
@@ -667,51 +705,23 @@
      }
     },
     {
-     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
-     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
-     "date": "2026-11-23",
+     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
+     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+     "date": "2026-11-25",
      "both": true,
-     "score": 13.5,
+     "score": 13.0,
      "touches": {
-      "YoungBuck04": [
-       {
-        "n": "Kaelon Black",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Christian McCaffrey",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "Deebo Samuel Sr.",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-     "date": "2026-11-20",
-     "both": true,
-     "score": 13.5,
-     "touches": {
-      "YoungBuck04": [
-       {
-        "n": "Luther Burden III",
-        "p": "WR",
-        "how": "named"
-       }
-      ],
       "Colt45Johnson": [
        {
         "n": "D'Andre Swift",
         "p": "RB",
+        "how": "named"
+       }
+      ],
+      "YoungBuck04": [
+       {
+        "n": "Luther Burden III",
+        "p": "WR",
         "how": "ripple"
        }
       ]
@@ -745,7 +755,7 @@
   {
    "a": "snelson91",
    "b": "thecreamer",
-   "a_win": 69.1,
+   "a_win": 69.6,
    "rec": {
     "snelson91": [
      5,
@@ -773,8 +783,8 @@
     ]
    },
    "proj": {
-    "snelson91": 110.83,
-    "thecreamer": 95.37
+    "snelson91": 110.61,
+    "thecreamer": 94.69
    },
    "h2h": {
     "snelson91": 11,
@@ -799,6 +809,22 @@
    ],
    "nfl": [
     {
+     "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
+     "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
+     "date": "2026-11-25",
+     "both": false,
+     "score": 15.0,
+     "touches": {
+      "thecreamer": [
+       {
+        "n": "Chig Okonkwo",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
      "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
      "date": "2026-11-23",
@@ -815,11 +841,11 @@
      }
     },
     {
-     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-     "date": "2026-11-20",
+     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
+     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+     "date": "2026-11-25",
      "both": false,
-     "score": 13.5,
+     "score": 13.0,
      "touches": {
       "thecreamer": [
        {
@@ -850,22 +876,6 @@
        }
       ]
      }
-    },
-    {
-     "headline": "NFL says no-TD call for WR Parker Washington in Jaguars' loss was correct",
-     "url": "https://www.espn.com/nfl/story/_/id/50569248/nfl-no-td-call-jaguars-parker-washington-was-correct",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 12.5,
-     "touches": {
-      "snelson91": [
-       {
-        "n": "Chris Rodriguez Jr.",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
     }
    ]
   }
@@ -873,6 +883,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-24T13:21+00:00",
+ "nfl_read_at": "2026-11-25T13:21+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
