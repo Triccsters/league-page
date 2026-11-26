@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T13:20:59+00:00",
+ "generated": "2026-11-26T13:20:55+00:00",
  "season": 2026,
  "week": 12,
  "playoff": false,
@@ -7,7 +7,7 @@
   {
    "a": "triccster",
    "b": "Jbird531",
-   "a_win": 49.1,
+   "a_win": 48.7,
    "rec": {
     "triccster": [
      4,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "triccster": 101.41,
-    "Jbird531": 102.11
+    "triccster": 100.92,
+    "Jbird531": 101.94
    },
    "h2h": {
     "triccster": 4,
@@ -64,6 +64,39 @@
     "{Jbird531} owns this series 13-4"
    ],
    "nfl": [
+    {
+     "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
+     "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
+     "date": "2026-11-26",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Jayden Daniels",
+        "p": "QB",
+        "how": "ripple"
+       },
+       {
+        "n": "Jacory Croskey-Merritt",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Jbird531": [
+       {
+        "n": "Rachaad White",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
     {
      "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
      "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
@@ -98,83 +131,17 @@
      }
     },
     {
-     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
-     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
-     "date": "2026-11-23",
-     "both": true,
-     "score": 15.0,
-     "touches": {
-      "triccster": [
-       {
-        "n": "Jacory Croskey-Merritt",
-        "p": "RB",
-        "how": "named"
-       },
-       {
-        "n": "Jayden Daniels",
-        "p": "QB",
-        "how": "ripple"
-       },
-       {
-        "n": "Stefon Diggs",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "Jbird531": [
-       {
-        "n": "Rachaad White",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
-     "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
-     "date": "2026-11-24",
+     "headline": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
+     "url": "https://www.espn.com/nfl/story/_/id/50600753/rams-kam-kinchens-ejected-hit-christian-watson",
+     "date": "2026-11-26",
      "both": true,
      "score": 13.0,
      "touches": {
       "triccster": [
        {
-        "n": "Jayden Daniels",
-        "p": "QB",
-        "how": "named"
-       },
-       {
-        "n": "Jacory Croskey-Merritt",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Stefon Diggs",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "Jbird531": [
-       {
-        "n": "Rachaad White",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Packers' Micah Parsons activated, expected to make season debut against Rams",
-     "url": "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
-     "date": "2026-11-24",
-     "both": true,
-     "score": 11.5,
-     "touches": {
-      "triccster": [
-       {
         "n": "Christian Watson",
         "p": "WR",
-        "how": "ripple"
+        "how": "named"
        }
       ],
       "Jbird531": [
@@ -185,13 +152,46 @@
        }
       ]
      }
+    },
+    {
+     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
+     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
+     "date": "2026-11-23",
+     "both": true,
+     "score": 13.0,
+     "touches": {
+      "triccster": [
+       {
+        "n": "Jacory Croskey-Merritt",
+        "p": "RB",
+        "how": "named"
+       },
+       {
+        "n": "Jayden Daniels",
+        "p": "QB",
+        "how": "ripple"
+       },
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Jbird531": [
+       {
+        "n": "Rachaad White",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
     }
    ]
   },
   {
    "a": "TuanonStan",
    "b": "PapaMidnight",
-   "a_win": 53.5,
+   "a_win": 54.2,
    "rec": {
     "TuanonStan": [
      9,
@@ -219,8 +219,8 @@
     ]
    },
    "proj": {
-    "TuanonStan": 110.87,
-    "PapaMidnight": 108.14
+    "TuanonStan": 111.39,
+    "PapaMidnight": 108.15
    },
    "h2h": {
     "TuanonStan": 11,
@@ -247,23 +247,44 @@
    ],
    "nfl": [
     {
-     "headline": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
-     "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots",
-     "date": "2026-11-19",
+     "headline": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
+     "url": "https://www.espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
+     "date": "2026-11-25",
      "both": true,
-     "score": 11.5,
+     "score": 12.5,
      "touches": {
       "TuanonStan": [
        {
-        "n": "Tank Dell",
-        "p": "WR",
+        "n": "Josh Allen",
+        "p": "QB",
         "how": "ripple"
        }
       ],
       "PapaMidnight": [
        {
-        "n": "Nico Collins",
+        "n": "Keon Coleman",
         "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+     "date": "2026-11-26",
+     "both": false,
+     "score": 15.5,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Keenan Allen",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "George Kittle",
+        "p": "TE",
         "how": "ripple"
        }
       ]
@@ -286,175 +307,21 @@
      }
     },
     {
-     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
-     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
-     "date": "2026-11-25",
+     "headline": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
+     "url": "https://www.espn.com/nfl/story/_/id/50600753/rams-kam-kinchens-ejected-hit-christian-watson",
+     "date": "2026-11-26",
      "both": false,
      "score": 13.0,
      "touches": {
-      "TuanonStan": [
-       {
-        "n": "Kyle Monangai",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 12.5,
-     "touches": {
       "PapaMidnight": [
        {
-        "n": "Jordan Mason",
+        "n": "MarShawn Lloyd",
         "p": "RB",
         "how": "ripple"
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "a": "Wallner",
-   "b": "butterygoop",
-   "a_win": 28.4,
-   "rec": {
-    "Wallner": [
-     4,
-     7
-    ],
-    "butterygoop": [
-     8,
-     3
-    ]
-   },
-   "avg": {
-    "Wallner": 104.32,
-    "butterygoop": 117.52
-   },
-   "last3": {
-    "Wallner": [
-     91.56,
-     82.16,
-     115.8
-    ],
-    "butterygoop": [
-     112.64,
-     129.38,
-     84.0
-    ]
-   },
-   "proj": {
-    "Wallner": 98.39,
-    "butterygoop": 116.16
-   },
-   "h2h": {
-    "Wallner": 6,
-    "butterygoop": 8,
-    "games": 14
-   },
-   "streak": [
-    "butterygoop",
-    1
-   ],
-   "last": {
-    "season": 2026,
-    "week": 1,
-    "label": null,
-    "score": {
-     "Wallner": 107.0,
-     "butterygoop": 167.82
-    }
-   },
-   "flags": [
-    "Revenge game: {Wallner} lost in week 1",
-    "Upset watch: {Wallner} is the underdog"
-   ],
-   "nfl": [
-    {
-     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 12.5,
-     "touches": {
-      "butterygoop": [
-       {
-        "n": "Kirk Cousins",
-        "p": "QB",
-        "how": "named"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "49ers release WR Brandon Aiyuk with roster exemption ending",
-     "url": "https://www.espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
-     "date": "2026-11-24",
-     "both": false,
-     "score": 12.0,
-     "touches": {
-      "Wallner": [
-       {
-        "n": "Mike Evans",
-        "p": "WR",
-        "how": "ripple"
        },
        {
-        "n": "Brock Purdy",
-        "p": "QB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "RB Cam Skattebo backflips again after pledging to nix celebration",
-     "url": "https://www.espn.com/nfl/story/_/id/50569390/rb-cam-skattebo-backflips-again-pledging-nix-celebration",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 12.0,
-     "touches": {
-      "butterygoop": [
-       {
-        "n": "J.J. McCarthy",
-        "p": "QB",
-        "how": "ripple"
-       },
-       {
-        "n": "Malik Nabers",
-        "p": "WR",
-        "how": "ripple"
-       },
-       {
-        "n": "Isaiah Likely",
+        "n": "Tucker Kraft",
         "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "49ers' Brock Purdy beats Vikings blitz, hears 'MVP' chants in Mexico City",
-     "url": "https://www.espn.com/nfl/story/_/id/50571034/49ers-brock-purdy-beats-vikings-blitz-hears-mvp-chants-mexico-city",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 11.5,
-     "touches": {
-      "Wallner": [
-       {
-        "n": "Brock Purdy",
-        "p": "QB",
-        "how": "named"
-       },
-       {
-        "n": "Mike Evans",
-        "p": "WR",
         "how": "ripple"
        }
       ]
@@ -465,7 +332,7 @@
   {
    "a": "RockMNwild",
    "b": "brettmn13",
-   "a_win": 56.0,
+   "a_win": 54.6,
    "rec": {
     "RockMNwild": [
      5,
@@ -493,8 +360,8 @@
     ]
    },
    "proj": {
-    "RockMNwild": 110.31,
-    "brettmn13": 105.58
+    "RockMNwild": 109.93,
+    "brettmn13": 106.33
    },
    "h2h": {
     "RockMNwild": 13,
@@ -548,36 +415,15 @@
      }
     },
     {
-     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
-     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
-     "date": "2026-11-25",
+     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+     "date": "2026-11-26",
      "both": false,
-     "score": 13.0,
+     "score": 15.5,
      "touches": {
-      "brettmn13": [
+      "RockMNwild": [
        {
-        "n": "Colston Loveland",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Kirk Cousins on pace to make history as 1st QB to play 18 regular-season games",
-     "url": "https://www.espn.com/nfl/story/_/id/50557919/vikings-qb-kirk-cousins-pace-make-nfl-history",
-     "date": "2026-11-22",
-     "both": false,
-     "score": 12.5,
-     "touches": {
-      "brettmn13": [
-       {
-        "n": "Aaron Jones Sr.",
-        "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Justin Jefferson",
+        "n": "De'Zhaun Stribling",
         "p": "WR",
         "how": "ripple"
        }
@@ -585,16 +431,159 @@
      }
     },
     {
-     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
-     "url": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
-     "date": "2026-11-20",
+     "headline": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
+     "url": "https://www.espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
+     "date": "2026-11-25",
      "both": false,
-     "score": 12.5,
+     "score": 14.5,
      "touches": {
       "brettmn13": [
        {
-        "n": "Colston Loveland",
-        "p": "TE",
+        "n": "Rashee Rice",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
+     "url": "https://www.espn.com/nfl/story/_/id/50600753/rams-kam-kinchens-ejected-hit-christian-watson",
+     "date": "2026-11-26",
+     "both": false,
+     "score": 13.0,
+     "touches": {
+      "brettmn13": [
+       {
+        "n": "Josh Jacobs",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "a": "Wallner",
+   "b": "butterygoop",
+   "a_win": 31.6,
+   "rec": {
+    "Wallner": [
+     4,
+     7
+    ],
+    "butterygoop": [
+     8,
+     3
+    ]
+   },
+   "avg": {
+    "Wallner": 104.32,
+    "butterygoop": 117.52
+   },
+   "last3": {
+    "Wallner": [
+     91.56,
+     82.16,
+     115.8
+    ],
+    "butterygoop": [
+     112.64,
+     129.38,
+     84.0
+    ]
+   },
+   "proj": {
+    "Wallner": 98.66,
+    "butterygoop": 113.52
+   },
+   "h2h": {
+    "Wallner": 6,
+    "butterygoop": 8,
+    "games": 14
+   },
+   "streak": [
+    "butterygoop",
+    1
+   ],
+   "last": {
+    "season": 2026,
+    "week": 1,
+    "label": null,
+    "score": {
+     "Wallner": 107.0,
+     "butterygoop": 167.82
+    }
+   },
+   "flags": [
+    "Revenge game: {Wallner} lost in week 1"
+   ],
+   "nfl": [
+    {
+     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+     "date": "2026-11-26",
+     "both": false,
+     "score": 15.5,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "Brock Purdy",
+        "p": "QB",
+        "how": "named"
+       },
+       {
+        "n": "Mike Evans",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
+     "url": "https://www.espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
+     "date": "2026-11-25",
+     "both": false,
+     "score": 14.5,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "Kenneth Walker III",
+        "p": "RB",
+        "how": "named"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Why the Chiefs and Bills can give thanks to 2017 trade that landed Mahomes in KC",
+     "url": "https://www.espn.com/nfl/story/_/id/50511931/bills-chiefs-2017-trade-no-10-pat-mahomes",
+     "date": "2026-11-26",
+     "both": false,
+     "score": 12.5,
+     "touches": {
+      "butterygoop": [
+       {
+        "n": "Kenneth Walker III",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
+     "url": "https://www.espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
+     "date": "2026-11-25",
+     "both": false,
+     "score": 12.5,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "James Cook III",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -605,7 +594,7 @@
   {
    "a": "YoungBuck04",
    "b": "Colt45Johnson",
-   "a_win": 56.9,
+   "a_win": 60.9,
    "rec": {
     "YoungBuck04": [
      7,
@@ -633,8 +622,8 @@
     ]
    },
    "proj": {
-    "YoungBuck04": 104.45,
-    "Colt45Johnson": 99.04
+    "YoungBuck04": 107.21,
+    "Colt45Johnson": 98.65
    },
    "h2h": {
     "YoungBuck04": 9,
@@ -659,6 +648,57 @@
    ],
    "nfl": [
     {
+     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+     "date": "2026-11-26",
+     "both": true,
+     "score": 15.5,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Kaelon Black",
+        "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Christian McCaffrey",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "Deebo Samuel Sr.",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
+     "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
+     "date": "2026-11-26",
+     "both": true,
+     "score": 15.0,
+     "touches": {
+      "Colt45Johnson": [
+       {
+        "n": "Brandon Aiyuk",
+        "p": "WR",
+        "how": "named"
+       }
+      ],
+      "YoungBuck04": [
+       {
+        "n": "Antonio Williams",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
      "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
      "date": "2026-11-25",
@@ -674,77 +714,31 @@
       ],
       "Colt45Johnson": [
        {
-        "n": "Austin Ekeler",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
-     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
-     "date": "2026-11-23",
-     "both": true,
-     "score": 15.0,
-     "touches": {
-      "YoungBuck04": [
-       {
-        "n": "Antonio Williams",
+        "n": "Brandon Aiyuk",
         "p": "WR",
         "how": "ripple"
        }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "Austin Ekeler",
-        "p": "RB",
-        "how": "ripple"
-       }
       ]
      }
     },
     {
-     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
-     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+     "headline": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
+     "url": "https://www.espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
      "date": "2026-11-25",
      "both": true,
-     "score": 13.0,
+     "score": 14.5,
      "touches": {
-      "Colt45Johnson": [
+      "YoungBuck04": [
        {
-        "n": "D'Andre Swift",
+        "n": "Emmett Johnson",
         "p": "RB",
-        "how": "named"
-       }
-      ],
-      "YoungBuck04": [
-       {
-        "n": "Luther Burden III",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
-     "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
-     "date": "2026-11-24",
-     "both": true,
-     "score": 13.0,
-     "touches": {
-      "YoungBuck04": [
-       {
-        "n": "Antonio Williams",
-        "p": "WR",
         "how": "ripple"
        }
       ],
       "Colt45Johnson": [
        {
-        "n": "Austin Ekeler",
-        "p": "RB",
+        "n": "Travis Kelce",
+        "p": "TE",
         "how": "ripple"
        }
       ]
@@ -783,8 +777,8 @@
     ]
    },
    "proj": {
-    "snelson91": 110.61,
-    "thecreamer": 94.69
+    "snelson91": 110.48,
+    "thecreamer": 94.57
    },
    "h2h": {
     "snelson91": 11,
@@ -809,43 +803,39 @@
    ],
    "nfl": [
     {
-     "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
-     "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
+     "headline": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
+     "url": "https://www.espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
      "date": "2026-11-25",
-     "both": false,
-     "score": 15.0,
+     "both": true,
+     "score": 12.5,
      "touches": {
+      "snelson91": [
+       {
+        "n": "Dalton Kincaid",
+        "p": "TE",
+        "how": "named"
+       },
+       {
+        "n": "Khalil Shakir",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
       "thecreamer": [
        {
-        "n": "Chig Okonkwo",
-        "p": "TE",
+        "n": "DJ Moore",
+        "p": "WR",
         "how": "ripple"
        }
       ]
      }
     },
     {
-     "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
-     "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
-     "date": "2026-11-23",
-     "both": false,
-     "score": 15.0,
-     "touches": {
-      "thecreamer": [
-       {
-        "n": "Chig Okonkwo",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Bears' Johnson has no plan to stop using Swift in run game despite costly fumbles",
-     "url": "https://www.espn.com/nfl/story/_/id/50587324/bears-johnson-stick-swift-role-bears-run-game",
+     "headline": "Bears rule out Gordon for second straight game due to shoulder injury",
+     "url": "https://www.espn.com/nfl/story/_/id/50597032/bears-rule-gordon-high-stakes-game-detroit",
      "date": "2026-11-25",
-     "both": false,
-     "score": 13.0,
+     "both": true,
+     "score": 12.0,
      "touches": {
       "thecreamer": [
        {
@@ -858,15 +848,43 @@
         "p": "WR",
         "how": "ripple"
        }
+      ],
+      "snelson91": [
+       {
+        "n": "Sam LaPorta",
+        "p": "TE",
+        "how": "ripple"
+       },
+       {
+        "n": "Jahmyr Gibbs",
+        "p": "RB",
+        "how": "ripple"
+       }
       ]
      }
     },
     {
-     "headline": "Jayden Daniels again delivers in 'high-pressure' situation for Commanders",
-     "url": "https://www.espn.com/nfl/story/_/id/50580514/jayden-daniels-delivers-another-late-game-drive-commanders-win-vs-bengals-mnf",
-     "date": "2026-11-24",
+     "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
+     "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
+     "date": "2026-11-26",
      "both": false,
-     "score": 13.0,
+     "score": 15.0,
+     "touches": {
+      "thecreamer": [
+       {
+        "n": "Chig Okonkwo",
+        "p": "TE",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
+     "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
+     "date": "2026-11-25",
+     "both": false,
+     "score": 15.0,
      "touches": {
       "thecreamer": [
        {
@@ -883,6 +901,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-25T13:21+00:00",
+ "nfl_read_at": "2026-11-26T13:20+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }
