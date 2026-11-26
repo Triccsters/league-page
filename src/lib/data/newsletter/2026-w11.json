@@ -3,7 +3,7 @@
  "masthead": "FL Players Weekly",
  "tagline": "The FL Players league newsletter · est. 2008",
  "headline": "One Free Agent Would Have Flipped Four Games, James Wins on Sunday Night, and Colt Scores 130.16",
- "dek": "Inside: the 2011 question, Brett over John on the kickers, the wire flips, what the night games decided and hold this week, the division races, the what-if tracker, the bracket if the season ended today, position groups and who is on IR.",
+ "dek": "Inside: Brett over John on the kickers, the wire flips, what the night games decided and hold this week, the division races, the what-if tracker, the bracket if the season ended today, position groups and who is on IR.",
  "lead": "Ted Hurst III scored 20.1 for Tampa Bay while unrostered in this league, and he would have turned four of the week's six losses into wins: T.J.'s, Austin's, Nase's and John's.\n\nJames beat Nase 96.86 to 90.36 to get to 9-2, and the game turned on Sunday night (see primetime). Anthony won the rematch of last year's final, 84.00 to 72.10, for his fourth straight win. Colt scored 130.16, the high score of the week, with nothing left on his bench.\n\nThe closest game went to Brett, 120.64 to 115.80 over John, and the kickers decided it.",
  "used_notes": [],
  "managers": [
@@ -903,71 +903,6 @@
   ]
  },
  "features": [
-  {
-   "id": "yahoo-years",
-   "style": "notes",
-   "place": "after-lead",
-   "label": "From the archive",
-   "title": "2011's champion is still unknown",
-   "blocks": [
-    {
-     "type": "h",
-     "text": "Who won 2011?"
-    },
-    {
-     "type": "p",
-     "text": "The league ran on Yahoo from 2008 to 2020, and the site now has a page for [2009](/season/2009) and [2011](/season/2011), ten teams each. Those two seasons are rebuilt from public Yahoo profiles, not imported from the league, and each page says so. Brett won 2009. Who won 2011 is the one thing nobody has pinned down yet."
-    },
-    {
-     "type": "p",
-     "text": "Colt mentioned on the podcast that he has another title that hasn't been accounted for on the site yet, It is likely that he is the unidentified 2011 champion, but his yahoo profile says he was only a member since 2012, so he may have switched emails around that time, John had a similar issue with his profile only going back to 2013, but I was able to verify his profile from the earlier years."
-    },
-    {
-     "type": "p",
-     "text": "Brett and Austin, you were both in the league in the seasons around it, and so was your dad. Brett was commissioner in those early years, so he may have access to 2011 and 2009, and possibly a 2007 league that could be part of this league’s history too. If any of you still has a Yahoo login from then, these open your own leagues for that year. No league ID to dig up, nothing to type:"
-    },
-    {
-     "type": "list",
-     "items": [
-      "[Your 2011 Yahoo leagues](https://football.fantasysports.yahoo.com/2011/f1/myleagues)",
-      "[Your 2009 Yahoo leagues](https://football.fantasysports.yahoo.com/2009/f1/myleagues)",
-      "[Your 2007 Yahoo leagues](https://football.fantasysports.yahoo.com/2007/f1/myleagues)"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "If 2011 is there, one sentence on who won it is all the site needs. If you have five minutes more, open that league’s standings and draft results pages, select all, copy, and paste both into one email to T.J. No screenshots needed. 2011 is the one to check if you only have time for one. And if you still have access to any missing FL Players year, say so and we will work out how to get it into the site."
-    },
-    {
-     "type": "p",
-     "text": "The site’s history now reaches as far back as the data allows. Every season from 2008 is in."
-    },
-    {
-     "type": "p",
-     "text": "Seven old teams still have no manager attached:"
-    },
-    {
-     "type": "list",
-     "items": [
-      "2012 champ",
-      "Minnesota 69ers",
-      "Mitches bitches",
-      "The Guru’s",
-      "da best",
-      "kicked out next year",
-      "vikes"
-     ]
-    },
-    {
-     "type": "p",
-     "text": "If you recognize one, say so. Every one of them has a page on the [managers page](/managers) listing each opponent they played, so names can be ruled out fast. Corrections to 2008, 2010 or 2012 are welcome too, since those came across from the Yahoo years. The [record book](/record-book) is where to check your own numbers."
-    },
-    {
-     "type": "note",
-     "text": "Placements for 2009 and 2011 come from public profiles and stay out of the title counts and the record book until a real import happens. Brett’s official titles are still 2013 and 2024."
-    }
-   ]
-  },
   {
    "id": "primetime",
    "style": "article",
