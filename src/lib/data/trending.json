@@ -6,105 +6,105 @@
    "n": "Chris Rodriguez Jr.",
    "p": "RB",
    "t": "JAX",
-   "c": 2859282,
+   "c": 2812131,
    "h": "snelson91"
   },
   {
    "n": "Washington Commanders",
    "p": "DEF",
    "t": "WAS",
-   "c": 2307480,
+   "c": 2500519,
    "h": "Jbird531"
-  },
-  {
-   "n": "Chimere Dike",
-   "p": "WR",
-   "t": "TEN",
-   "c": 2028339,
-   "h": "YoungBuck04"
   },
   {
    "n": "Justice Hill",
    "p": "RB",
    "t": "BAL",
-   "c": 1905372,
+   "c": 1785069,
    "h": "triccster"
   },
   {
-   "n": "Michael Mayer",
-   "p": "TE",
-   "t": "LV",
-   "c": 1251891,
-   "h": null
+   "n": "Chimere Dike",
+   "p": "WR",
+   "t": "TEN",
+   "c": 1649349,
+   "h": "YoungBuck04"
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 1096776,
+   "c": 1145295,
    "h": "YoungBuck04"
   },
   {
    "n": "New York Giants",
    "p": "DEF",
    "t": "NYG",
-   "c": 1033528,
+   "c": 1084488,
    "h": "RockMNwild"
   },
   {
-   "n": "Jacory Croskey-Merritt",
-   "p": "RB",
-   "t": "WAS",
-   "c": 1017063,
-   "h": "triccster"
-  },
-  {
-   "n": "Samaje Perine",
-   "p": "RB",
-   "t": "CIN",
-   "c": 903336,
-   "h": "triccster"
-  },
-  {
-   "n": "Detroit Lions",
-   "p": "DEF",
-   "t": "DET",
-   "c": 901656,
+   "n": "Deshaun Watson",
+   "p": "QB",
+   "t": "CLE",
+   "c": 1075296,
    "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 893781,
+   "c": 1010121,
    "h": "YoungBuck04"
   },
   {
-   "n": "Deshaun Watson",
-   "p": "QB",
-   "t": "CLE",
-   "c": 892992,
+   "n": "Michael Mayer",
+   "p": "TE",
+   "t": "LV",
+   "c": 996318,
    "h": null
+  },
+  {
+   "n": "Jacory Croskey-Merritt",
+   "p": "RB",
+   "t": "WAS",
+   "c": 946917,
+   "h": "triccster"
+  },
+  {
+   "n": "Samaje Perine",
+   "p": "RB",
+   "t": "CIN",
+   "c": 864348,
+   "h": "triccster"
   },
   {
    "n": "Fernando Mendoza",
    "p": "QB",
    "t": "LV",
-   "c": 851960,
+   "c": 819496,
    "h": null
   },
   {
-   "n": "Cairo Santos",
-   "p": "K",
-   "t": "CHI",
-   "c": 749847,
+   "n": "Ted Hurst III",
+   "p": "WR",
+   "t": "TB",
+   "c": 649254,
+   "h": null
+  },
+  {
+   "n": "Tyler Higbee",
+   "p": "TE",
+   "t": "LAR",
+   "c": 614493,
    "h": null
   },
   {
    "n": "Adonai Mitchell",
    "p": "WR",
    "t": "NYJ",
-   "c": 667616,
+   "c": 601112,
    "h": null
   }
  ],
@@ -113,106 +113,106 @@
    "n": "Michael Mayer",
    "p": "TE",
    "t": "LV",
-   "c": 1636740,
+   "c": 1691334,
    "h": null
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1502298,
+   "c": 1544472,
    "h": null
   },
   {
    "n": "Seth McGowan",
    "p": "RB",
    "t": "IND",
-   "c": 1256840,
+   "c": 1226656,
    "h": "TuanonStan"
   },
   {
    "n": "Puka Nacua",
    "p": "WR",
    "t": "LAR",
-   "c": 957397,
+   "c": 984410,
    "h": "Colt45Johnson"
-  },
-  {
-   "n": "Mark Andrews",
-   "p": "TE",
-   "t": "BAL",
-   "c": 906642,
-   "h": null
-  },
-  {
-   "n": "Devin Singletary",
-   "p": "RB",
-   "t": "NYG",
-   "c": 834606,
-   "h": null
   },
   {
    "n": "Aaron Rodgers",
    "p": "QB",
    "t": "PIT",
-   "c": 782172,
+   "c": 918152,
    "h": null
   },
   {
-   "n": "Corey Kiner",
-   "p": "RB",
-   "t": "NE",
-   "c": 740412,
+   "n": "Mark Andrews",
+   "p": "TE",
+   "t": "BAL",
+   "c": 908640,
    "h": null
-  },
-  {
-   "n": "Xavier Hutchinson",
-   "p": "WR",
-   "t": "HOU",
-   "c": 661318,
-   "h": "Wallner"
   },
   {
    "n": "Pat Bryant",
    "p": "WR",
    "t": "DEN",
-   "c": 646840,
+   "c": 660816,
    "h": "triccster"
   },
   {
-   "n": "Darren Waller",
-   "p": "TE",
-   "t": "CAR",
-   "c": 589824,
+   "n": "Devin Singletary",
+   "p": "RB",
+   "t": "NYG",
+   "c": 645336,
+   "h": "butterygoop"
+  },
+  {
+   "n": "Xavier Hutchinson",
+   "p": "WR",
+   "t": "HOU",
+   "c": 635530,
+   "h": "Wallner"
+  },
+  {
+   "n": "Elic Ayomanor",
+   "p": "WR",
+   "t": "TEN",
+   "c": 594224,
+   "h": null
+  },
+  {
+   "n": "Ryan Flournoy",
+   "p": "WR",
+   "t": "DAL",
+   "c": 573696,
+   "h": "snelson91"
+  },
+  {
+   "n": "Corey Kiner",
+   "p": "RB",
+   "t": "NE",
+   "c": 562518,
+   "h": null
+  },
+  {
+   "n": "Adonai Mitchell",
+   "p": "WR",
+   "t": "NYJ",
+   "c": 554368,
    "h": null
   },
   {
    "n": "Tank Dell",
    "p": "WR",
    "t": "HOU",
-   "c": 582000,
+   "c": 552472,
    "h": "TuanonStan"
   },
   {
-   "n": "Adonai Mitchell",
-   "p": "WR",
-   "t": "NYJ",
-   "c": 564824,
+   "n": "Terrance Ferguson",
+   "p": "TE",
+   "t": "LAR",
+   "c": 517512,
    "h": null
-  },
-  {
-   "n": "Elic Ayomanor",
-   "p": "WR",
-   "t": "TEN",
-   "c": 564484,
-   "h": null
-  },
-  {
-   "n": "Jason Myers",
-   "p": "K",
-   "t": "SEA",
-   "c": 536990,
-   "h": "butterygoop"
   }
  ]
 }
