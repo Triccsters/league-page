@@ -1,7 +1,7 @@
 {
- "read_at": "2026-11-27T13:21+00:00",
+ "read_at": "2026-11-28T13:20+00:00",
  "days": 7,
- "count": 84,
+ "count": 88,
  "items": [
   {
    "headline": "Caleb Williams' late TD to Rome Odunze gives Bears dramatic win over Lions",
@@ -107,6 +107,145 @@
    "score": 22.0
   },
   {
+   "headline": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+   "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+   "date": "2026-11-28",
+   "kind": "news",
+   "teams": [
+    "SF"
+   ],
+   "named": [
+    {
+     "n": "Brock Purdy",
+     "p": "QB",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "Mac Jones",
+     "p": "QB",
+     "t": "SF",
+     "h": "Wallner"
+    }
+   ],
+   "lead": [
+    "Brock Purdy",
+    "Mac Jones"
+   ],
+   "ripple": [
+    {
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "Keenan Allen",
+     "p": "WR",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "George Kittle",
+     "p": "TE",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "De'Zhaun Stribling",
+     "p": "WR",
+     "t": "SF",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "p": "WR",
+     "t": "SF",
+     "h": "Colt45Johnson"
+    }
+   ],
+   "managers": [
+    "Colt45Johnson",
+    "RockMNwild",
+    "TuanonStan",
+    "Wallner",
+    "YoungBuck04"
+   ],
+   "score": 19.5
+  },
+  {
+   "headline": "Jaguars' Parker Washington, Bhayshul Tuten both out Sunday",
+   "url": "https://www.espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week",
+   "date": "2026-11-27",
+   "kind": "news",
+   "teams": [
+    "JAX"
+   ],
+   "named": [
+    {
+     "n": "Parker Washington",
+     "p": "WR",
+     "t": "JAX",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Bhayshul Tuten",
+     "p": "RB",
+     "t": "JAX",
+     "h": "butterygoop"
+    }
+   ],
+   "lead": [
+    "Parker Washington",
+    "Bhayshul Tuten"
+   ],
+   "ripple": [
+    {
+     "n": "Jakobi Meyers",
+     "p": "WR",
+     "t": "JAX",
+     "h": "triccster"
+    },
+    {
+     "n": "Brenton Strange",
+     "p": "TE",
+     "t": "JAX",
+     "h": "triccster"
+    },
+    {
+     "n": "Trevor Lawrence",
+     "p": "QB",
+     "t": "JAX",
+     "h": "brettmn13"
+    },
+    {
+     "n": "Chris Rodriguez Jr.",
+     "p": "RB",
+     "t": "JAX",
+     "h": "snelson91"
+    }
+   ],
+   "managers": [
+    "brettmn13",
+    "butterygoop",
+    "snelson91",
+    "triccster"
+   ],
+   "score": 18.0
+  },
+  {
    "headline": "QB Caleb Williams, WR Rome Odunze's chemistry helps Bears stun Lions",
    "url": "https://www.espn.com/nfl/story/_/id/50608495/qb-caleb-williams-wr-rome-odunze-chemistry-helps-bears-stun-lions",
    "date": "2026-11-27",
@@ -170,78 +309,6 @@
     "YoungBuck04",
     "brettmn13",
     "thecreamer"
-   ],
-   "score": 15.5
-  },
-  {
-   "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
-   "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
-   "date": "2026-11-26",
-   "kind": "news",
-   "teams": [
-    "SF"
-   ],
-   "named": [
-    {
-     "n": "Brock Purdy",
-     "p": "QB",
-     "t": "SF",
-     "h": "Wallner"
-    }
-   ],
-   "lead": [
-    "Brock Purdy"
-   ],
-   "ripple": [
-    {
-     "n": "Mike Evans",
-     "p": "WR",
-     "t": "SF",
-     "h": "Wallner"
-    },
-    {
-     "n": "Keenan Allen",
-     "p": "WR",
-     "t": "SF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "George Kittle",
-     "p": "TE",
-     "t": "SF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Kaelon Black",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Christian McCaffrey",
-     "p": "RB",
-     "t": "SF",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "De'Zhaun Stribling",
-     "p": "WR",
-     "t": "SF",
-     "h": "RockMNwild"
-    },
-    {
-     "n": "Deebo Samuel Sr.",
-     "p": "WR",
-     "t": "SF",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "RockMNwild",
-    "TuanonStan",
-    "Wallner",
-    "YoungBuck04"
    ],
    "score": 15.5
   },
@@ -313,72 +380,6 @@
    "score": 15.0
   },
   {
-   "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
-   "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
-   "date": "2026-11-26",
-   "kind": "news",
-   "teams": [
-    "WAS"
-   ],
-   "named": [
-    {
-     "n": "Brandon Aiyuk",
-     "p": "WR",
-     "t": "WAS",
-     "h": "Colt45Johnson"
-    }
-   ],
-   "lead": [
-    "Brandon Aiyuk"
-   ],
-   "ripple": [
-    {
-     "n": "Jayden Daniels",
-     "p": "QB",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Jacory Croskey-Merritt",
-     "p": "RB",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Stefon Diggs",
-     "p": "WR",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Antonio Williams",
-     "p": "WR",
-     "t": "WAS",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Rachaad White",
-     "p": "RB",
-     "t": "WAS",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Chig Okonkwo",
-     "p": "TE",
-     "t": "WAS",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "YoungBuck04",
-    "thecreamer",
-    "triccster"
-   ],
-   "score": 15.0
-  },
-  {
    "headline": "Bills QB Josh Allen struggles vs. Chiefs in 'grossest' conditions",
    "url": "https://www.espn.com/nfl/story/_/id/50609813/bills-qb-josh-allen-struggles-vs-chiefs-grossest-conditions",
    "date": "2026-11-27",
@@ -439,65 +440,202 @@
    "score": 14.5
   },
   {
-   "headline": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
-   "url": "https://www.espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
-   "date": "2026-11-25",
+   "headline": "Bengals WR Tee Higgins dealing with 'sore' hamstring, says coach Zac Taylor",
+   "url": "https://www.espn.com/nfl/story/_/id/50614804/bengals-wr-higgins-dealing-sore-hamstring-says-taylor",
+   "date": "2026-11-27",
    "kind": "news",
    "teams": [
-    "KC"
+    "CIN"
    ],
    "named": [
     {
-     "n": "Kenneth Walker III",
-     "p": "RB",
-     "t": "KC",
-     "h": "butterygoop"
+     "n": "Tee Higgins",
+     "p": "WR",
+     "t": "CIN",
+     "h": "TuanonStan"
     }
    ],
    "lead": [
-    "Kenneth Walker III"
+    "Tee Higgins"
    ],
    "ripple": [
     {
-     "n": "Emmett Johnson",
-     "p": "RB",
-     "t": "KC",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Josh Downs",
-     "p": "WR",
-     "t": "KC",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Travis Kelce",
+     "n": "Mike Gesicki",
      "p": "TE",
-     "t": "KC",
-     "h": "Colt45Johnson"
+     "t": "CIN",
+     "h": "Wallner"
     },
     {
-     "n": "Rashee Rice",
+     "n": "Samaje Perine",
+     "p": "RB",
+     "t": "CIN",
+     "h": "triccster"
+    },
+    {
+     "n": "Joe Burrow",
+     "p": "QB",
+     "t": "CIN",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Ja'Marr Chase",
      "p": "WR",
-     "t": "KC",
+     "t": "CIN",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Chase Brown",
+     "p": "RB",
+     "t": "CIN",
+     "h": "Jbird531"
+    }
+   ],
+   "managers": [
+    "Jbird531",
+    "RockMNwild",
+    "TuanonStan",
+    "Wallner",
+    "triccster"
+   ],
+   "score": 14.5
+  },
+  {
+   "headline": "Saints rule TE Juwan Johnson out vs. Bengals; TE Noah Fant questionable",
+   "url": "https://www.espn.com/nfl/story/_/id/50613922/saints-rule-te-johnson-vs-bengals-te-fant-questionable",
+   "date": "2026-11-27",
+   "kind": "news",
+   "teams": [
+    "NO"
+   ],
+   "named": [
+    {
+     "n": "Juwan Johnson",
+     "p": "TE",
+     "t": "NO",
+     "h": "RockMNwild"
+    }
+   ],
+   "lead": [
+    "Juwan Johnson"
+   ],
+   "ripple": [
+    {
+     "n": "Alvin Kamara",
+     "p": "RB",
+     "t": "NO",
+     "h": "Wallner"
+    },
+    {
+     "n": "Tyler Shough",
+     "p": "QB",
+     "t": "NO",
+     "h": "butterygoop"
+    },
+    {
+     "n": "Jordyn Tyson",
+     "p": "WR",
+     "t": "NO",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Travis Etienne Jr.",
+     "p": "RB",
+     "t": "NO",
      "h": "brettmn13"
     },
     {
-     "n": "Patrick Mahomes",
+     "n": "Chris Olave",
+     "p": "WR",
+     "t": "NO",
+     "h": "thecreamer"
+    }
+   ],
+   "managers": [
+    "RockMNwild",
+    "Wallner",
+    "brettmn13",
+    "butterygoop",
+    "thecreamer"
+   ],
+   "score": 14.5
+  },
+  {
+   "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+   "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+   "date": "2026-11-26",
+   "kind": "news",
+   "teams": [
+    "SF"
+   ],
+   "named": [
+    {
+     "n": "Brock Purdy",
      "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
+     "t": "SF",
+     "h": "Wallner"
+    }
+   ],
+   "lead": [
+    "Brock Purdy"
+   ],
+   "ripple": [
+    {
+     "n": "Mike Evans",
+     "p": "WR",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "Mac Jones",
+     "p": "QB",
+     "t": "SF",
+     "h": "Wallner"
+    },
+    {
+     "n": "Keenan Allen",
+     "p": "WR",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "George Kittle",
+     "p": "TE",
+     "t": "SF",
+     "h": "TuanonStan"
+    },
+    {
+     "n": "Kaelon Black",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Christian McCaffrey",
+     "p": "RB",
+     "t": "SF",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "De'Zhaun Stribling",
+     "p": "WR",
+     "t": "SF",
+     "h": "RockMNwild"
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "p": "WR",
+     "t": "SF",
+     "h": "Colt45Johnson"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "Jbird531",
-    "YoungBuck04",
-    "brettmn13",
-    "butterygoop",
-    "snelson91"
+    "RockMNwild",
+    "TuanonStan",
+    "Wallner",
+    "YoungBuck04"
    ],
-   "score": 14.5
+   "score": 14.0
   },
   {
    "headline": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
@@ -568,41 +706,67 @@
    "score": 13.0
   },
   {
-   "headline": "RB Derrick Henry in concussion protocol but Ravens expect him to play Sunday",
-   "url": "https://www.espn.com/nfl/story/_/id/50597502/henry-concussion-protocol-ravens-expect-play",
-   "date": "2026-11-25",
+   "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
+   "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
+   "date": "2026-11-26",
    "kind": "news",
    "teams": [
-    "BAL"
+    "WAS"
    ],
    "named": [
     {
-     "n": "Derrick Henry",
-     "p": "RB",
-     "t": "BAL",
+     "n": "Brandon Aiyuk",
+     "p": "WR",
+     "t": "WAS",
      "h": "Colt45Johnson"
     }
    ],
    "lead": [
-    "Derrick Henry"
+    "Brandon Aiyuk"
    ],
    "ripple": [
     {
-     "n": "Justice Hill",
-     "p": "RB",
-     "t": "BAL",
+     "n": "Jayden Daniels",
+     "p": "QB",
+     "t": "WAS",
      "h": "triccster"
     },
     {
-     "n": "Zay Flowers",
+     "n": "Jacory Croskey-Merritt",
+     "p": "RB",
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Stefon Diggs",
      "p": "WR",
-     "t": "BAL",
-     "h": "PapaMidnight"
+     "t": "WAS",
+     "h": "triccster"
+    },
+    {
+     "n": "Antonio Williams",
+     "p": "WR",
+     "t": "WAS",
+     "h": "YoungBuck04"
+    },
+    {
+     "n": "Rachaad White",
+     "p": "RB",
+     "t": "WAS",
+     "h": "Jbird531"
+    },
+    {
+     "n": "Chig Okonkwo",
+     "p": "TE",
+     "t": "WAS",
+     "h": "thecreamer"
     }
    ],
    "managers": [
     "Colt45Johnson",
-    "PapaMidnight",
+    "Jbird531",
+    "YoungBuck04",
+    "thecreamer",
     "triccster"
    ],
    "score": 13.0
@@ -636,72 +800,6 @@
     {
      "n": "Jacory Croskey-Merritt",
      "p": "RB",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Antonio Williams",
-     "p": "WR",
-     "t": "WAS",
-     "h": "YoungBuck04"
-    },
-    {
-     "n": "Rachaad White",
-     "p": "RB",
-     "t": "WAS",
-     "h": "Jbird531"
-    },
-    {
-     "n": "Brandon Aiyuk",
-     "p": "WR",
-     "t": "WAS",
-     "h": "Colt45Johnson"
-    },
-    {
-     "n": "Chig Okonkwo",
-     "p": "TE",
-     "t": "WAS",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "Colt45Johnson",
-    "Jbird531",
-    "YoungBuck04",
-    "thecreamer",
-    "triccster"
-   ],
-   "score": 13.0
-  },
-  {
-   "headline": "Commanders RB Jacory Croskey-Merritt activated from IR ahead of MNF",
-   "url": "https://www.espn.com/nfl/story/_/id/50576561/commanders-rb-jacory-croskey-merritt-activated-ir",
-   "date": "2026-11-23",
-   "kind": "news",
-   "teams": [
-    "WAS"
-   ],
-   "named": [
-    {
-     "n": "Jacory Croskey-Merritt",
-     "p": "RB",
-     "t": "WAS",
-     "h": "triccster"
-    }
-   ],
-   "lead": [
-    "Jacory Croskey-Merritt"
-   ],
-   "ripple": [
-    {
-     "n": "Jayden Daniels",
-     "p": "QB",
-     "t": "WAS",
-     "h": "triccster"
-    },
-    {
-     "n": "Stefon Diggs",
-     "p": "WR",
      "t": "WAS",
      "h": "triccster"
     },
@@ -801,38 +899,25 @@
    "score": 12.5
   },
   {
-   "headline": "Why the Chiefs and Bills can give thanks to 2017 trade that landed Mahomes in KC",
-   "url": "https://www.espn.com/nfl/story/_/id/50511931/bills-chiefs-2017-trade-no-10-pat-mahomes",
-   "date": "2026-11-26",
-   "kind": "story",
+   "headline": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
+   "url": "https://www.espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
+   "date": "2026-11-25",
+   "kind": "news",
    "teams": [
-    "BUF",
     "KC"
    ],
    "named": [
-    {
-     "n": "Patrick Mahomes",
-     "p": "QB",
-     "t": "KC",
-     "h": "snelson91"
-    },
-    {
-     "n": "Josh Allen",
-     "p": "QB",
-     "t": "BUF",
-     "h": "TuanonStan"
-    }
-   ],
-   "lead": [
-    "Patrick Mahomes"
-   ],
-   "ripple": [
     {
      "n": "Kenneth Walker III",
      "p": "RB",
      "t": "KC",
      "h": "butterygoop"
-    },
+    }
+   ],
+   "lead": [
+    "Kenneth Walker III"
+   ],
+   "ripple": [
     {
      "n": "Emmett Johnson",
      "p": "RB",
@@ -856,76 +941,21 @@
      "p": "WR",
      "t": "KC",
      "h": "brettmn13"
+    },
+    {
+     "n": "Patrick Mahomes",
+     "p": "QB",
+     "t": "KC",
+     "h": "snelson91"
     }
    ],
    "managers": [
     "Colt45Johnson",
     "Jbird531",
-    "TuanonStan",
     "YoungBuck04",
     "brettmn13",
     "butterygoop",
     "snelson91"
-   ],
-   "score": 12.5
-  },
-  {
-   "headline": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
-   "url": "https://www.espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
-   "date": "2026-11-25",
-   "kind": "news",
-   "teams": [
-    "BUF"
-   ],
-   "named": [
-    {
-     "n": "Dalton Kincaid",
-     "p": "TE",
-     "t": "BUF",
-     "h": "snelson91"
-    }
-   ],
-   "lead": [
-    "Dalton Kincaid"
-   ],
-   "ripple": [
-    {
-     "n": "James Cook III",
-     "p": "RB",
-     "t": "BUF",
-     "h": "Wallner"
-    },
-    {
-     "n": "Josh Allen",
-     "p": "QB",
-     "t": "BUF",
-     "h": "TuanonStan"
-    },
-    {
-     "n": "Keon Coleman",
-     "p": "WR",
-     "t": "BUF",
-     "h": "PapaMidnight"
-    },
-    {
-     "n": "Khalil Shakir",
-     "p": "WR",
-     "t": "BUF",
-     "h": "snelson91"
-    },
-    {
-     "n": "DJ Moore",
-     "p": "WR",
-     "t": "BUF",
-     "h": "thecreamer"
-    }
-   ],
-   "managers": [
-    "PapaMidnight",
-    "TuanonStan",
-    "Wallner",
-    "snelson91",
-    "thecreamer"
    ],
    "score": 12.5
   }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T13:21:00+00:00",
+ "generated": "2026-11-28T13:20:51+00:00",
  "season": 2026,
  "week": 12,
  "playoff": false,
@@ -35,8 +35,8 @@
     ]
    },
    "proj": {
-    "triccster": 101.1,
-    "Jbird531": 101.84
+    "triccster": 101.76,
+    "Jbird531": 102.56
    },
    "h2h": {
     "triccster": 4,
@@ -93,32 +93,22 @@
      }
     },
     {
-     "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
-     "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
-     "date": "2026-11-26",
+     "headline": "Bengals WR Tee Higgins dealing with 'sore' hamstring, says coach Zac Taylor",
+     "url": "https://www.espn.com/nfl/story/_/id/50614804/bengals-wr-higgins-dealing-sore-hamstring-says-taylor",
+     "date": "2026-11-27",
      "both": true,
-     "score": 15.0,
+     "score": 14.5,
      "touches": {
       "triccster": [
        {
-        "n": "Jayden Daniels",
-        "p": "QB",
-        "how": "ripple"
-       },
-       {
-        "n": "Jacory Croskey-Merritt",
+        "n": "Samaje Perine",
         "p": "RB",
-        "how": "ripple"
-       },
-       {
-        "n": "Stefon Diggs",
-        "p": "WR",
         "how": "ripple"
        }
       ],
       "Jbird531": [
        {
-        "n": "Rachaad White",
+        "n": "Chase Brown",
         "p": "RB",
         "how": "ripple"
        }
@@ -149,18 +139,13 @@
      }
     },
     {
-     "headline": "Commanders coach Dan Quinn fine with Stefon Diggs' sideline rant",
-     "url": "https://www.espn.com/nfl/story/_/id/50585285/commanders-quinn-fine-diggs-sideline-rant",
-     "date": "2026-11-25",
+     "headline": "Brandon Aiyuk joining Commanders, reunites with college QB Jayden Daniels",
+     "url": "https://www.espn.com/nfl/story/_/id/50595281/brandon-aiyuk-finishes-visit-commanders",
+     "date": "2026-11-26",
      "both": true,
      "score": 13.0,
      "touches": {
       "triccster": [
-       {
-        "n": "Stefon Diggs",
-        "p": "WR",
-        "how": "named"
-       },
        {
         "n": "Jayden Daniels",
         "p": "QB",
@@ -169,6 +154,11 @@
        {
         "n": "Jacory Croskey-Merritt",
         "p": "RB",
+        "how": "ripple"
+       },
+       {
+        "n": "Stefon Diggs",
+        "p": "WR",
         "how": "ripple"
        }
       ],
@@ -186,7 +176,7 @@
   {
    "a": "TuanonStan",
    "b": "PapaMidnight",
-   "a_win": 53.9,
+   "a_win": 55.5,
    "rec": {
     "TuanonStan": [
      9,
@@ -214,8 +204,8 @@
     ]
    },
    "proj": {
-    "TuanonStan": 111.35,
-    "PapaMidnight": 108.34
+    "TuanonStan": 111.96,
+    "PapaMidnight": 107.63
    },
    "h2h": {
     "TuanonStan": 11,
@@ -265,29 +255,6 @@
      }
     },
     {
-     "headline": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
-     "url": "https://www.espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
-     "date": "2026-11-25",
-     "both": true,
-     "score": 12.5,
-     "touches": {
-      "TuanonStan": [
-       {
-        "n": "Josh Allen",
-        "p": "QB",
-        "how": "ripple"
-       }
-      ],
-      "PapaMidnight": [
-       {
-        "n": "Keon Coleman",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
      "headline": "Caleb Williams' late TD to Rome Odunze gives Bears dramatic win over Lions",
      "url": "https://www.espn.com/nfl/story/_/id/50605750/jahmyr-gibbs-lions-caleb-williams-bears-thanksgiving-game",
      "date": "2026-11-27",
@@ -299,6 +266,27 @@
         "n": "Kyle Monangai",
         "p": "RB",
         "how": "named"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+     "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+     "date": "2026-11-28",
+     "both": false,
+     "score": 19.5,
+     "touches": {
+      "TuanonStan": [
+       {
+        "n": "Keenan Allen",
+        "p": "WR",
+        "how": "ripple"
+       },
+       {
+        "n": "George Kittle",
+        "p": "TE",
+        "how": "ripple"
        }
       ]
      }
@@ -324,7 +312,7 @@
   {
    "a": "RockMNwild",
    "b": "brettmn13",
-   "a_win": 53.9,
+   "a_win": 58.0,
    "rec": {
     "RockMNwild": [
      5,
@@ -352,8 +340,8 @@
     ]
    },
    "proj": {
-    "RockMNwild": 109.9,
-    "brettmn13": 106.86
+    "RockMNwild": 110.56,
+    "brettmn13": 104.28
    },
    "h2h": {
     "RockMNwild": 13,
@@ -379,6 +367,34 @@
    ],
    "nfl": [
     {
+     "headline": "Saints rule TE Juwan Johnson out vs. Bengals; TE Noah Fant questionable",
+     "url": "https://www.espn.com/nfl/story/_/id/50613922/saints-rule-te-johnson-vs-bengals-te-fant-questionable",
+     "date": "2026-11-27",
+     "both": true,
+     "score": 14.5,
+     "touches": {
+      "RockMNwild": [
+       {
+        "n": "Juwan Johnson",
+        "p": "TE",
+        "how": "named"
+       },
+       {
+        "n": "Jordyn Tyson",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "brettmn13": [
+       {
+        "n": "Travis Etienne Jr.",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Caleb Williams' late TD to Rome Odunze gives Bears dramatic win over Lions",
      "url": "https://www.espn.com/nfl/story/_/id/50605750/jahmyr-gibbs-lions-caleb-williams-bears-thanksgiving-game",
      "date": "2026-11-27",
@@ -395,27 +411,11 @@
      }
     },
     {
-     "headline": "QB Caleb Williams, WR Rome Odunze's chemistry helps Bears stun Lions",
-     "url": "https://www.espn.com/nfl/story/_/id/50608495/qb-caleb-williams-wr-rome-odunze-chemistry-helps-bears-stun-lions",
-     "date": "2026-11-27",
+     "headline": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+     "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+     "date": "2026-11-28",
      "both": false,
-     "score": 15.5,
-     "touches": {
-      "brettmn13": [
-       {
-        "n": "Colston Loveland",
-        "p": "TE",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
-     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
-     "date": "2026-11-26",
-     "both": false,
-     "score": 15.5,
+     "score": 19.5,
      "touches": {
       "RockMNwild": [
        {
@@ -427,17 +427,22 @@
      }
     },
     {
-     "headline": "Bears TE Colston Loveland exits win over Lions with knee injury",
-     "url": "https://www.espn.com/nfl/story/_/id/50605365/bears-colston-loveland-ruled-vs-lions-knee-injury",
+     "headline": "Jaguars' Parker Washington, Bhayshul Tuten both out Sunday",
+     "url": "https://www.espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week",
      "date": "2026-11-27",
      "both": false,
-     "score": 15.0,
+     "score": 18.0,
      "touches": {
       "brettmn13": [
        {
-        "n": "Colston Loveland",
-        "p": "TE",
+        "n": "Parker Washington",
+        "p": "WR",
         "how": "named"
+       },
+       {
+        "n": "Trevor Lawrence",
+        "p": "QB",
+        "how": "ripple"
        }
       ]
      }
@@ -447,7 +452,7 @@
   {
    "a": "snelson91",
    "b": "thecreamer",
-   "a_win": 70.7,
+   "a_win": 73.6,
    "rec": {
     "snelson91": [
      5,
@@ -475,8 +480,8 @@
     ]
    },
    "proj": {
-    "snelson91": 111.05,
-    "thecreamer": 94.11
+    "snelson91": 115.0,
+    "thecreamer": 95.35
    },
    "h2h": {
     "snelson91": 11,
@@ -563,28 +568,16 @@
      }
     },
     {
-     "headline": "Bills TE Kincaid, CB Benford among 5 starters who are questionable vs. Chiefs",
-     "url": "https://www.espn.com/nfl/story/_/id/50596159/bills-kincaid-benford-5-starters-listed-questionable",
-     "date": "2026-11-25",
-     "both": true,
-     "score": 12.5,
+     "headline": "Jaguars' Parker Washington, Bhayshul Tuten both out Sunday",
+     "url": "https://www.espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week",
+     "date": "2026-11-27",
+     "both": false,
+     "score": 18.0,
      "touches": {
       "snelson91": [
        {
-        "n": "Dalton Kincaid",
-        "p": "TE",
-        "how": "named"
-       },
-       {
-        "n": "Khalil Shakir",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "thecreamer": [
-       {
-        "n": "DJ Moore",
-        "p": "WR",
+        "n": "Chris Rodriguez Jr.",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -616,7 +609,7 @@
   {
    "a": "Wallner",
    "b": "butterygoop",
-   "a_win": 31.2,
+   "a_win": 30.9,
    "rec": {
     "Wallner": [
      4,
@@ -644,8 +637,8 @@
     ]
    },
    "proj": {
-    "Wallner": 98.24,
-    "butterygoop": 113.47
+    "Wallner": 95.13,
+    "butterygoop": 110.59
    },
    "h2h": {
     "Wallner": 6,
@@ -670,6 +663,29 @@
    ],
    "nfl": [
     {
+     "headline": "Saints rule TE Juwan Johnson out vs. Bengals; TE Noah Fant questionable",
+     "url": "https://www.espn.com/nfl/story/_/id/50613922/saints-rule-te-johnson-vs-bengals-te-fant-questionable",
+     "date": "2026-11-27",
+     "both": true,
+     "score": 14.5,
+     "touches": {
+      "Wallner": [
+       {
+        "n": "Alvin Kamara",
+        "p": "RB",
+        "how": "ripple"
+       }
+      ],
+      "butterygoop": [
+       {
+        "n": "Tyler Shough",
+        "p": "QB",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
      "headline": "Caleb Williams' late TD to Rome Odunze gives Bears dramatic win over Lions",
      "url": "https://www.espn.com/nfl/story/_/id/50605750/jahmyr-gibbs-lions-caleb-williams-bears-thanksgiving-game",
      "date": "2026-11-27",
@@ -686,15 +702,20 @@
      }
     },
     {
-     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
-     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
-     "date": "2026-11-26",
+     "headline": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+     "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+     "date": "2026-11-28",
      "both": false,
-     "score": 15.5,
+     "score": 19.5,
      "touches": {
       "Wallner": [
        {
         "n": "Brock Purdy",
+        "p": "QB",
+        "how": "named"
+       },
+       {
+        "n": "Mac Jones",
         "p": "QB",
         "how": "named"
        },
@@ -707,31 +728,15 @@
      }
     },
     {
-     "headline": "Bills QB Josh Allen struggles vs. Chiefs in 'grossest' conditions",
-     "url": "https://www.espn.com/nfl/story/_/id/50609813/bills-qb-josh-allen-struggles-vs-chiefs-grossest-conditions",
+     "headline": "Jaguars' Parker Washington, Bhayshul Tuten both out Sunday",
+     "url": "https://www.espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week",
      "date": "2026-11-27",
      "both": false,
-     "score": 14.5,
-     "touches": {
-      "Wallner": [
-       {
-        "n": "James Cook III",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "Chiefs rule RB Kenneth Walker III (groin) out for showdown vs. Bills",
-     "url": "https://www.espn.com/nfl/story/_/id/50594656/chiefs-rb-kenneth-walker-iii-groin-thursday-vs-bills",
-     "date": "2026-11-25",
-     "both": false,
-     "score": 14.5,
+     "score": 18.0,
      "touches": {
       "butterygoop": [
        {
-        "n": "Kenneth Walker III",
+        "n": "Bhayshul Tuten",
         "p": "RB",
         "how": "named"
        }
@@ -743,7 +748,7 @@
   {
    "a": "YoungBuck04",
    "b": "Colt45Johnson",
-   "a_win": 61.0,
+   "a_win": 60.0,
    "rec": {
     "YoungBuck04": [
      7,
@@ -771,8 +776,8 @@
     ]
    },
    "proj": {
-    "YoungBuck04": 107.12,
-    "Colt45Johnson": 98.41
+    "YoungBuck04": 107.43,
+    "Colt45Johnson": 99.52
    },
    "h2h": {
     "YoungBuck04": 9,
@@ -820,34 +825,11 @@
      }
     },
     {
-     "headline": "QB Caleb Williams, WR Rome Odunze's chemistry helps Bears stun Lions",
-     "url": "https://www.espn.com/nfl/story/_/id/50608495/qb-caleb-williams-wr-rome-odunze-chemistry-helps-bears-stun-lions",
-     "date": "2026-11-27",
+     "headline": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+     "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+     "date": "2026-11-28",
      "both": true,
-     "score": 15.5,
-     "touches": {
-      "YoungBuck04": [
-       {
-        "n": "Luther Burden III",
-        "p": "WR",
-        "how": "ripple"
-       }
-      ],
-      "Colt45Johnson": [
-       {
-        "n": "D'Andre Swift",
-        "p": "RB",
-        "how": "ripple"
-       }
-      ]
-     }
-    },
-    {
-     "headline": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
-     "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
-     "date": "2026-11-26",
-     "both": true,
-     "score": 15.5,
+     "score": 19.5,
      "touches": {
       "YoungBuck04": [
        {
@@ -865,6 +847,29 @@
        {
         "n": "Deebo Samuel Sr.",
         "p": "WR",
+        "how": "ripple"
+       }
+      ]
+     }
+    },
+    {
+     "headline": "QB Caleb Williams, WR Rome Odunze's chemistry helps Bears stun Lions",
+     "url": "https://www.espn.com/nfl/story/_/id/50608495/qb-caleb-williams-wr-rome-odunze-chemistry-helps-bears-stun-lions",
+     "date": "2026-11-27",
+     "both": true,
+     "score": 15.5,
+     "touches": {
+      "YoungBuck04": [
+       {
+        "n": "Luther Burden III",
+        "p": "WR",
+        "how": "ripple"
+       }
+      ],
+      "Colt45Johnson": [
+       {
+        "n": "D'Andre Swift",
+        "p": "RB",
         "how": "ripple"
        }
       ]
@@ -899,6 +904,6 @@
  "league_note": "",
  "byline": "",
  "note": "Win chances use each team's scoring this season, pulled toward last season while the sample is small.",
- "nfl_read_at": "2026-11-27T13:21+00:00",
+ "nfl_read_at": "2026-11-28T13:20+00:00",
  "nfl_note": "NFL headlines from ESPN that touch a player on either roster. A 'ripple' player was not in the headline; he plays on that NFL offence, so the story moves his value too."
 }

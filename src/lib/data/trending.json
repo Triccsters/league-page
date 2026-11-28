@@ -6,106 +6,106 @@
    "n": "Chris Rodriguez Jr.",
    "p": "RB",
    "t": "JAX",
-   "c": 2812131,
+   "c": 3124269,
    "h": "snelson91"
   },
   {
    "n": "Washington Commanders",
    "p": "DEF",
    "t": "WAS",
-   "c": 2500519,
+   "c": 2521197,
    "h": "Jbird531"
   },
   {
    "n": "Justice Hill",
    "p": "RB",
    "t": "BAL",
-   "c": 1785069,
+   "c": 1689102,
    "h": "triccster"
   },
   {
    "n": "Chimere Dike",
    "p": "WR",
    "t": "TEN",
-   "c": 1649349,
+   "c": 1467126,
    "h": "YoungBuck04"
+  },
+  {
+   "n": "Deshaun Watson",
+   "p": "QB",
+   "t": "CLE",
+   "c": 1323360,
+   "h": null
   },
   {
    "n": "Konata Mumpfield",
    "p": "WR",
    "t": "LAR",
-   "c": 1145295,
+   "c": 1104282,
    "h": "YoungBuck04"
   },
   {
    "n": "New York Giants",
    "p": "DEF",
    "t": "NYG",
-   "c": 1084488,
+   "c": 1088616,
    "h": "RockMNwild"
-  },
-  {
-   "n": "Deshaun Watson",
-   "p": "QB",
-   "t": "CLE",
-   "c": 1075296,
-   "h": null
   },
   {
    "n": "Cleveland Browns",
    "p": "DEF",
    "t": "CLE",
-   "c": 1010121,
+   "c": 1020950,
    "h": "YoungBuck04"
-  },
-  {
-   "n": "Michael Mayer",
-   "p": "TE",
-   "t": "LV",
-   "c": 996318,
-   "h": null
   },
   {
    "n": "Jacory Croskey-Merritt",
    "p": "RB",
    "t": "WAS",
-   "c": 946917,
+   "c": 925236,
    "h": "triccster"
+  },
+  {
+   "n": "Michael Mayer",
+   "p": "TE",
+   "t": "LV",
+   "c": 895176,
+   "h": null
   },
   {
    "n": "Samaje Perine",
    "p": "RB",
    "t": "CIN",
-   "c": 864348,
+   "c": 857796,
    "h": "triccster"
   },
   {
    "n": "Fernando Mendoza",
    "p": "QB",
    "t": "LV",
-   "c": 819496,
+   "c": 846264,
    "h": null
   },
   {
    "n": "Ted Hurst III",
    "p": "WR",
    "t": "TB",
-   "c": 649254,
+   "c": 672372,
    "h": null
   },
   {
    "n": "Tyler Higbee",
    "p": "TE",
    "t": "LAR",
-   "c": 614493,
+   "c": 609354,
    "h": null
   },
   {
-   "n": "Adonai Mitchell",
-   "p": "WR",
+   "n": "Geno Smith",
+   "p": "QB",
    "t": "NYJ",
-   "c": 601112,
-   "h": null
+   "c": 588188,
+   "h": "Jbird531"
   }
  ],
  "drop": [
@@ -113,106 +113,106 @@
    "n": "Michael Mayer",
    "p": "TE",
    "t": "LV",
-   "c": 1691334,
+   "c": 1758915,
    "h": null
   },
   {
    "n": "Detroit Lions",
    "p": "DEF",
    "t": "DET",
-   "c": 1544472,
+   "c": 1543293,
    "h": null
   },
   {
    "n": "Seth McGowan",
    "p": "RB",
    "t": "IND",
-   "c": 1226656,
+   "c": 1218272,
    "h": "TuanonStan"
-  },
-  {
-   "n": "Puka Nacua",
-   "p": "WR",
-   "t": "LAR",
-   "c": 984410,
-   "h": "Colt45Johnson"
   },
   {
    "n": "Aaron Rodgers",
    "p": "QB",
    "t": "PIT",
-   "c": 918152,
+   "c": 980684,
    "h": null
   },
   {
    "n": "Mark Andrews",
    "p": "TE",
    "t": "BAL",
-   "c": 908640,
+   "c": 944190,
    "h": null
+  },
+  {
+   "n": "Puka Nacua",
+   "p": "WR",
+   "t": "LAR",
+   "c": 895846,
+   "h": "Colt45Johnson"
   },
   {
    "n": "Pat Bryant",
    "p": "WR",
    "t": "DEN",
-   "c": 660816,
+   "c": 695600,
    "h": "triccster"
-  },
-  {
-   "n": "Devin Singletary",
-   "p": "RB",
-   "t": "NYG",
-   "c": 645336,
-   "h": "butterygoop"
-  },
-  {
-   "n": "Xavier Hutchinson",
-   "p": "WR",
-   "t": "HOU",
-   "c": 635530,
-   "h": "Wallner"
-  },
-  {
-   "n": "Elic Ayomanor",
-   "p": "WR",
-   "t": "TEN",
-   "c": 594224,
-   "h": null
   },
   {
    "n": "Ryan Flournoy",
    "p": "WR",
    "t": "DAL",
-   "c": 573696,
+   "c": 664760,
    "h": "snelson91"
   },
   {
-   "n": "Corey Kiner",
-   "p": "RB",
-   "t": "NE",
-   "c": 562518,
+   "n": "Elic Ayomanor",
+   "p": "WR",
+   "t": "TEN",
+   "c": 638608,
    "h": null
+  },
+  {
+   "n": "Xavier Hutchinson",
+   "p": "WR",
+   "t": "HOU",
+   "c": 638512,
+   "h": "Wallner"
+  },
+  {
+   "n": "Devin Singletary",
+   "p": "RB",
+   "t": "NYG",
+   "c": 593262,
+   "h": "butterygoop"
   },
   {
    "n": "Adonai Mitchell",
    "p": "WR",
    "t": "NYJ",
-   "c": 554368,
+   "c": 591752,
    "h": null
   },
   {
    "n": "Tank Dell",
    "p": "WR",
    "t": "HOU",
-   "c": 552472,
+   "c": 578664,
    "h": "TuanonStan"
   },
   {
    "n": "Terrance Ferguson",
    "p": "TE",
    "t": "LAR",
-   "c": 517512,
+   "c": 525520,
    "h": null
+  },
+  {
+   "n": "Courtland Sutton",
+   "p": "WR",
+   "t": "DEN",
+   "c": 524259,
+   "h": "thecreamer"
   }
  ]
 }
